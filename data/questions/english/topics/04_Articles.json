@@ -242,10 +242,10 @@
       "masterTopic": "Articles",
       "question": "Match List I with List II -\n| List I (Sentences) | List II (Articles) |\n| --- | --- |\n| a. He won ___ Tony award last year. | I. a |\n| b. German is _____ difficult language. | II. an |\n| c. Prince Vikramaditya is ____ amiable person. | III. the |\n\nChoose the most appropriate answer from the options given below:",
       "options": [
-        "a - I, b - III, c - II",
-        "a - III, b - II, c - I",
-        "a - II, b - III, c - I",
-        "a - III, b - I, c - II"
+        "a-I, b-III, c-II",
+        "a-III, b-II, c-I",
+        "a-II, b-III, c-I",
+        "a-III, b-I, c-II"
       ],
       "answer": "D",
       "answerIndex": 3,
@@ -1870,7 +1870,7 @@
         "(i)-(d), (ii)-(c), (iii)-(a), (iv)-(b)",
         "(i)-(d), (ii)-(a), (iii)-(b), (iv)-(c)",
         "(i)-(c), (ii)-(d), (iii)-(a), (iv)-(b)",
-        "(i)-(b), (ii)-(c), (iii)-(d), (iv)-(a)"
+        "a-(i)-(b), (ii)-(c), (iii)-(d), (iv)-(a)"
       ],
       "answer": "A",
       "answerIndex": 0,

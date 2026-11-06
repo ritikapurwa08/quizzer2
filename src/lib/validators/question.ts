@@ -1,8 +1,8 @@
 import { z } from "zod";
 import { sanitizeLlmArtifacts } from "../sanitizer";
 import { formatExamDisplay } from "../utils";
-import { isStatementOptions, hasCorruptedMatchMeta } from "../matchValidators";
-export { isStatementOptions, hasCorruptedMatchMeta };
+import { isStatementOptions, hasCorruptedMatchMeta, checkAnswerDistribution, verifyMatchAnswerConsistency } from "../matchValidators";
+export { isStatementOptions, hasCorruptedMatchMeta, checkAnswerDistribution, verifyMatchAnswerConsistency };
 
 /** Client-side mirror of convex/lib/validators.ts, used by the JSON import wizard.
  *  Supports both v2 canonical types and the new minified AI prompt schema:
@@ -491,6 +491,19 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
               delete meta.leftTitle;
               delete meta.rightTitle;
             }
+          }
+        }
+
+        // Auto-heal answer if explanation proves another option
+        if (type === "match_following" && meta?.left && meta?.right) {
+          const matchCheck = verifyMatchAnswerConsistency({
+            meta,
+            options,
+            explanation,
+            correctAnswer,
+          });
+          if (!matchCheck.isConsistent && matchCheck.suggestedAnswer) {
+            correctAnswer = matchCheck.suggestedAnswer;
           }
         }
       }
@@ -988,6 +1001,12 @@ export function validateImportBatch(
     );
   }
 
+  // Quality Gate: Check for AI Answer Key Collapse to Option A
+  const distCheck = checkAnswerDistribution(questions);
+  if (distCheck.hasSkew && distCheck.message) {
+    warnings.push(distCheck.message);
+  }
+
   let validStructure = true;
   let uniqueOptions = true;
   let validAnswers = true;
@@ -1058,6 +1077,15 @@ export function validateImportBatch(
       if (rawAns.length === 0) {
         validAnswers = false;
         errors.push(`Question #${qNum}: Correct answer is required.`);
+      }
+    }
+
+    // Quality Gate: Match question explanation vs answer key verification
+    const qType = q.type ?? (q as any).t;
+    if (qType === "match_following") {
+      const consistency = verifyMatchAnswerConsistency(q);
+      if (!consistency.isConsistent && consistency.message) {
+        warnings.push(`Question #${qNum}: ${consistency.message}`);
       }
     }
 

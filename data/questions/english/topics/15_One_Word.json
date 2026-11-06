@@ -417,10 +417,10 @@
       "masterTopic": "One Word",
       "question": "Match List-I with List-II :\n| List-IFears | List-IIArea |\n| --- | --- |\n| (a) Hedonophobia | (i) Fear of books |\n| (b) Kleptomania | (ii) Fear of pleasure |\n| (c) Claustrophobia | (iii) Compulsive desire to steal |\n| (d) Bibliophobia | (iv) Fear of being confined to small places |\n\nChoose the most appropriate answer from the options given below :",
       "options": [
-        "(iv), (b) - (ii), (c) - (i), (d) - (iii)",
-        "(i), (b) - (ii), (c) - (iii), (d) - (iv)",
-        "(ii), (b) - (iii), (c) - (iv), (d) - (i)",
-        "(iii), (b) - (iv), (c) - (ii), (d) - (i)"
+        "a-IV, b-II, c-I, d-III",
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-III, c-IV, d-I",
+        "a-III, b-IV, c-II, d-I"
       ],
       "answer": "C",
       "answerIndex": 2,
@@ -517,10 +517,10 @@
       "masterTopic": "One Word",
       "question": "Match the words in List - I with their definitions in List - II.\n| List - I | List - II |\n| --- | --- |\n| (a) Ergonomics | (i) Automatic translation by identification systems |\n| (b) Biotechnology | (ii) Connecting electronic devices to each other with no wires |\n| (c) Artificial Intelligence | (iii) Design of environments for people to work efficiently and comfortably |\n| (d) Bluetooth | (iv) Genetic modification of plants |\n\nChoose the most appropriate answer from the options given below :",
       "options": [
-        "(iv), (b)-(i), (c)-(ii), (d)-(iii)",
-        "(i), (b)-(iii), (c)-(iv), (d)-(ii)",
-        "(ii), (b)-(i), (c)-(iii), (d)-(iv)",
-        "(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+        "a-IV, b-I, c-II, d-III",
+        "a-I, b-III, c-IV, d-II",
+        "a-II, b-I, c-III, d-IV",
+        "a-III, b-IV, c-I, d-II"
       ],
       "answer": "D",
       "answerIndex": 3,
@@ -542,10 +542,10 @@
       "masterTopic": "One Word",
       "question": "Match List-I with List-II :\n| List-I | List-II |\n| --- | --- |\n| (a) Anarchy | (i) Study of birds |\n| (b) Ornithology | (ii) Fear of water |\n| (c) Congenital | (iii) Absence of rule, law and order |\n| (d) Hydrophobia | (iv) By birth |\n\nChoose the most appropriate answer from the options given below :",
       "options": [
-        "(i), (b)-(iii), (c)-(ii), (d)-(iv)",
-        "(iii), (b)-(i), (c)-(iv), (d)-(ii)",
-        "(iv), (b)-(ii), (c)-(iii), (d)-(i)",
-        "(ii), (b)-(iv), (c)-(i), (d)-(iii)"
+        "a-I, b-III, c-II, d-IV",
+        "a-III, b-I, c-IV, d-II",
+        "a-IV, b-II, c-III, d-I",
+        "a-II, b-IV, c-I, d-III"
       ],
       "answer": "B",
       "answerIndex": 1,
@@ -567,10 +567,10 @@
       "masterTopic": "One Word",
       "question": "Match List-I with List-II :\n| List-I | List-II |\n| --- | --- |\n| (a) Manuscript | (i) A state of highest perfection |\n| (b) Theism | (ii) Book written by hand |\n| (c) Utopia | (iii) One who is indifferent to pain or pleasure |\n| (d) Stoic | (iv) One who believes in the existence of God |\n\nChoose the most appropriate answer from the options given below :",
       "options": [
-        "(ii), (b)-(i), (c)-(iv), (d)-(iii)",
-        "(i), (b)-(ii), (c)-(iii), (d)-(iv)",
-        "(iv), (b)-(iii), (c)-(ii), (d)-(i)",
-        "(ii), (b)-(iv), (c)-(i), (d)-(iii)"
+        "a-II, b-I, c-IV, d-III",
+        "a-I, b-II, c-III, d-IV",
+        "a-IV, b-III, c-II, d-I",
+        "a-II, b-IV, c-I, d-III"
       ],
       "answer": "D",
       "answerIndex": 3,
@@ -1167,10 +1167,10 @@
       "masterTopic": "One Word",
       "question": "Match words in column I with their meanings in column II –\n| Column-I | Column-II |\n| --- | --- |\n| (A) incongruous | (i) recover quickly from difficult situation |\n| (B) resilient | (ii) one who knows everything |\n| (C) obsolete | (iii) that which is no longer in use |\n| (D) omniscient | (iv) strange and out of place |",
       "options": [
-        "a-(i), b-(ii), c-(iii), d-(iv)",
-        "a-(iv), b-(i), c-(iii), d-(ii)",
-        "a-(iv), b-(iii), c-(ii), d-(i)",
-        "a-(iv), b-(ii), c-(iii), d-(i)"
+        "a-I, b-II, c-III, d-IV",
+        "a-IV, b-I, c-III, d-II",
+        "a-IV, b-III, c-II, d-I",
+        "a-IV, b-II, c-III, d-I"
       ],
       "answer": "B",
       "answerIndex": 1,
@@ -1317,7 +1317,7 @@
       "masterTopic": "One Word",
       "question": "Replace the underlined part of the following sentence with one word from the options below :\nHe is a <u>person who doesn’t eat meat</u>.",
       "options": [
-        "non-vegetarian",
+        "a-I, b-NON, c-II, d-VEGETARIAN",
         "vegetarian",
         "carnivorous",
         "omnivorous"
@@ -2167,10 +2167,10 @@
       "masterTopic": "One Word",
       "question": "Match the idioms in Column A with their meanings in Column B - \n| Column A | Column B |\n| --- | --- |\n| A. you can't make an omelette without breaking a few eggs | 1. the time at which a usually significant or notable event is scheduled to take place. |\n| B. zero hour | 2. young, fresh, or vigorous new people, ideas, attitudes |\n| C. zero tolerance | 3. to have to go through something seemingly not nice for a good result |\n| D.youngblood | 4. A policy or attitude of accepting absolutely none of some kind of behavior or activity. |",
       "options": [
-        "A-3, B-1, C-4, D-2",
-        "A-1, B-3, C-2, D-4",
-        "A-2, B-4, C-1, D-3",
-        "A-4, B-3, C-2, D-1"
+        "a-III, b-I, c-IV, d-II",
+        "a-I, b-III, c-II, d-IV",
+        "a-II, b-IV, c-I, d-III",
+        "a-IV, b-III, c-II, d-I"
       ],
       "answer": "A",
       "answerIndex": 0,

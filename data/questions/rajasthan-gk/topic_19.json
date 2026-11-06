@@ -556,10 +556,10 @@
       "masterTopic": "राजस्थान के किसान एवं जनजातीय आंदोलन",
       "question": "सूची-I और सूची-II को मिलाइए और नीचे दिए गए कूट का उपयोग कर सही उत्तर चुनें :",
       "options": [
-        "i ii iii iv",
-        "i iii iv ii",
-        "i iv ii iii",
-        "ii i iii iv"
+        "a-I, b-II, c-III, d-IV",
+        "a-I, b-III, c-IV, d-II",
+        "a-I, b-IV, c-II, d-III",
+        "a-II, b-I, c-III, d-IV"
       ],
       "answer": "B",
       "exam": "SCHOOL LECTURER (SCHOOL EDU.) GA and GS (G-D)",
@@ -572,37 +572,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "नीमूचणा हत्याकांड"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "डाबी घटना"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "कांगड घटना"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "कूदण घटना"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "अलवर"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "सीकर"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "बूँदी"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "बीकानेर"
           }
         ],
@@ -3934,10 +3934,10 @@
       "masterTopic": "राजस्थान के किसान एवं जनजातीय आंदोलन",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "1, 2, 3, 4",
-        "4, 3, 2, 1",
-        "3, 4, 1, 2",
-        "4, 1, 2, 3"
+        "a-I, b-II, c-III, d-IV",
+        "a-IV, b-III, c-II, d-I",
+        "a-III, b-IV, c-I, d-II",
+        "a-IV, b-I, c-II, d-III"
       ],
       "answer": "B",
       "exam": null,
@@ -3950,37 +3950,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "बिजोलियाँ"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "सीकर"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "डाबड़ा"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "चण्दावल"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "1945"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "1947"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "1922"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "1897A, B, C, D"
           }
         ],

@@ -57,10 +57,10 @@
       "masterTopic": "राजस्थान राज्य विधानमंडल (विधानसभा)",
       "question": "राजस्थान राज्य विधानसभा के विभिन्न सदनों में नेता विपक्ष के संबंध में सूची-I एवं सूची-II को सुमेलित कीजिए :",
       "options": [
-        "(ii) (i) (iv) (iii)",
-        "(i) (ii) (iii) (iv)",
-        "(iii) (ii) (i) (iv)",
-        "(ii) (iv) (iii) (i)"
+        "a-II, b-I, c-IV, d-III",
+        "a-I, b-II, c-III, d-IV",
+        "a-III, b-II, c-I, d-IV",
+        "a-II, b-IV, c-III, d-I"
       ],
       "answer": "A",
       "exam": "SUB INSPECTOR COMB. COMP. EXAM - (5 April )",
@@ -73,33 +73,33 @@
       "meta": {
         "left": [
           {
-            "id": "i",
+            "id": "a",
             "text": "लक्ष्मण सिंह"
           },
           {
-            "id": "ख",
+            "id": "b",
             "text": "तृतीय सदन"
           },
           {
-            "id": "ii",
+            "id": "c",
             "text": "जसवंत सिंह"
           }
         ],
         "right": [
           {
-            "id": "ग",
+            "id": "I",
             "text": "सप्तम सदन"
           },
           {
-            "id": "iii",
+            "id": "II",
             "text": "हरिदेव जोशी"
           },
           {
-            "id": "घ",
+            "id": "III",
             "text": "नवम सदन"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "भैरोंसिंह शेखावत"
           }
         ],

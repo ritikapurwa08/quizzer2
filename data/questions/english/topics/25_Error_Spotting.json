@@ -144,7 +144,7 @@
       "options": [
         "only",
         "only",
-        "No error",
+        "a-NO, b-ERROR",
         "only"
       ],
       "answer": "A",
@@ -169,7 +169,7 @@
       "options": [
         "only",
         "only",
-        "No error",
+        "a-NO, b-ERROR",
         "only"
       ],
       "answer": "A",

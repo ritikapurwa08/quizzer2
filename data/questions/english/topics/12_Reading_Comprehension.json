@@ -17,8 +17,8 @@
       "masterTopic": "Reading Comprehension",
       "question": "The central idea of the passage is the following:\nSelect the most appropriate option.",
       "options": [
-        "The importance of protecting trees.",
-        "The importance of biodiversity and wildlife.",
+        "a-THE, b-IMPORTANCE, c-OF, d-PROTECTING, e-TREES.",
+        "a-THE, b-IMPORTANCE, c-OF, d-BIODIVERSITY, e-AND, f-WILDLIFE.",
         "The importance of nature-culture confrontation in urban life.",
         "The importance of afforestation in boosting soil health and disaster-resilience of human habitats."
       ],
@@ -694,7 +694,7 @@
       "options": [
         "Polo",
         "Chess",
-        "Ski-ing",
+        "a-I, b-SKI, c-II, d-ING",
         "Cricket"
       ],
       "answer": "B",
@@ -767,10 +767,10 @@
       "masterTopic": "Reading Comprehension",
       "question": "Match List-I with List-II\n| List-I (Fields) | List-II (Application of AI) |\n| --- | --- |\n| a. Medicine | I. Predicting natural catastrophies |\n| b. Banking | II. Identifying Potential criminals |\n| c. Criminology | III. Interpreting ultrasound images |\n| d. Meteorology | IV. Disbursing loansy |\n\nChoose the most appropriate answer from the options given below:",
       "options": [
-        "a - II, b - I, d - III, d - IV",
-        "a -I, b - II, c - IV, d - III",
-        "a - III, b - IV, c - II, d - I",
-        "a - IV, b - III, c - I, d - II"
+        "a-II, b-I, d-IV",
+        "a-I, b-II, c-IV, d-III",
+        "a-III, b-IV, c-II, d-I",
+        "a-IV, b-III, c-I, d-II"
       ],
       "answer": "C",
       "answerIndex": 2,
@@ -792,10 +792,10 @@
       "masterTopic": "Reading Comprehension",
       "question": "Match List-I with List-IIChoose the most appropriate answer from the options given below:\n| List-I (Words) | List-II (Meanings) |\n| --- | --- |\n| a. Entrenched | I. ability of show future happenings |\n| b. Marginalised | II. established strongly |\n| c. Predictive | III. People that share the same cultural traditions |\n| d. Ethnic | IV. with not much say in important matters. |",
       "options": [
-        "a - III, b - Il, c - IV, d - I",
-        "a - II, b - IV, c - I, d - III",
-        "a - I, b - III, c - II, d - IV",
-        "a - IV, b - III, c - II, d - I"
+        "a-III, b-I, c-IV, d-I",
+        "a-II, b-IV, c-I, d-III",
+        "a-I, b-III, c-II, d-IV",
+        "a-IV, b-III, c-II, d-I"
       ],
       "answer": "B",
       "answerIndex": 1,
@@ -870,7 +870,7 @@
         "a-II, b-IV, c-III, d-I",
         "a-I, b-IV, c-II, d-III",
         "a-III, b-II, c-I, d-IV",
-        "a-IV, b-III, C-I, d-II"
+        "a-IV, b-III, c-I, d-II"
       ],
       "answer": "D",
       "answerIndex": 3,
@@ -992,10 +992,10 @@
       "masterTopic": "Reading Comprehension",
       "question": "Match List-I with List-II\n| List-I (Words) | List-II (Antonyms) |\n| --- | --- |\n| a. alleviate | I. assuage |\n| b. impairs | II. aggravate |\n| c. exacerbate | III. leisurely |\n| d. rapidly | IV. repairs |\n\nChoose the most appropriate answer from the options given below:",
       "options": [
-        "a - I, b - II, c - III, d - IV",
-        "a - II, b - IV, c - I, d - III",
-        "a - III, b - IV, c - I, d - II",
-        "a - IV, b - I, c - II, d - III"
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-IV, c-I, d-III",
+        "a-III, b-IV, c-I, d-II",
+        "a-IV, b-I, c-II, d-III"
       ],
       "answer": "B",
       "answerIndex": 1,
@@ -1467,10 +1467,10 @@
       "masterTopic": "Reading Comprehension",
       "question": "Match List-I with List-II: \n| List-IWords | List-IISynonyms |\n| --- | --- |\n| a. Endeavour | I. Dishonest |\n| b. Crooked | II. Anything that prevents |\n| c. Cataracts | III. Effort |\n| d. Antidote | IV. Water that falls |\n\nChoose the most appropriate answer from the options given below:",
       "options": [
-        "a - IV, b - I, c - III, d - II",
-        "a - IV, b - III, c - I, d - II",
-        "a - I, b - II, c - III, d - IV",
-        "a - III, b - I, c - IV, d - II"
+        "a-IV, b-I, c-III, d-II",
+        "a-IV, b-III, c-I, d-II",
+        "a-I, b-II, c-III, d-IV",
+        "a-III, b-I, c-IV, d-II"
       ],
       "answer": "D",
       "answerIndex": 3,
@@ -1942,10 +1942,10 @@
       "masterTopic": "Reading Comprehension",
       "question": "Match List-I with List-II  :\n| List-I Words | List-IISynonyms |\n| --- | --- |\n| (a) nondescript | (i) one skilled in music |\n| (b) nimble | (ii) sharpness |\n| (c) acumen | (iii) lacking in interesting characteristics |\n| (d) virtuoso | (iv) quick and light in action |\n\nChoose the most appropriate answer from the options given below :",
       "options": [
-        "(i), (b) - (ii), (c) - (iv), (d) - (iii)",
-        "(i), (b) - (iii), (c) - (ii), (d) - (iv)",
-        "(iii), (b) - (iv), (c) - (ii), (d) - (i)",
-        "(iv), (b) - (i), (c) - (iii), (d) - (ii)"
+        "a-I, b-II, c-IV, d-III",
+        "a-I, b-III, c-II, d-IV",
+        "a-III, b-IV, c-II, d-I",
+        "a-IV, b-I, c-III, d-II"
       ],
       "answer": "C",
       "answerIndex": 2,
@@ -2017,10 +2017,10 @@
       "masterTopic": "Reading Comprehension",
       "question": "Match List-I with List-II.\n| List-I | List-II |\n| --- | --- |\n| (a) Chocolatiers | (i) Items combined to make a particular food or drink |\n| (b) Artisanal | (ii) Those who make and sell chocolates |\n| (c) Discerning | (iii) Skilled |\n| (d) Ingredients | (iv) Showing good judgement |\n\nChoose the correct answer from the options given below :",
       "options": [
-        "(iv), (b)-(i), (c)-(ii), (d)-(iii)",
-        "(i), (b)-(ii), (c)-(iii), (d)-(iv)",
-        "(iii), (b)-(iv), (c)-(i), (d)-(ii)",
-        "(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+        "a-IV, b-I, c-II, d-III",
+        "a-I, b-II, c-III, d-IV",
+        "a-III, b-IV, c-I, d-II",
+        "a-II, b-III, c-IV, d-I"
       ],
       "answer": "D",
       "answerIndex": 3,
@@ -2167,7 +2167,7 @@
       "masterTopic": "Reading Comprehension",
       "question": "After two days of intensive labour, a mat weaver produces _____ .",
       "options": [
-        "a five-feet-long tight mat",
+        "a-I, b-FIVE, c-FEET, d-LONG, e-TIGHT, f-MAT",
         "a six-feet-long plain mat without designs on it",
         "a colourful mat with designs on it",
         "a six-feet-long plain mat with intricate designs on it"
@@ -4992,10 +4992,10 @@
       "masterTopic": "Reading Comprehension",
       "question": "For human beings, their brain is one of the two products of evolution. The other is their",
       "options": [
-        "physical strength",
-        "self-culture and knowledge",
-        "keener sense of sight",
-        "instinct for living in a society"
+        "a-I, b-PHYSICAL, c-II, d-STRENGTH",
+        "a-SELF, b-CULTURE, c-AND, d-KNOWLEDGE",
+        "a-KEENER, b-SENSE, c-OF, d-SIGHT",
+        "a-I, d-I"
       ],
       "answer": "D",
       "answerIndex": 3,

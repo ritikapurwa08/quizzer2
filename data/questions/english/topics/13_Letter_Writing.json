@@ -1067,10 +1067,10 @@
       "masterTopic": "Letter Writing",
       "question": "Arrange principle of official letter writing in sequential order.\n1. Identify purpose\n2. Be succinct, get to the point\n3. Organise materials in paragraphs\n4. Address to the specific individual",
       "options": [
-        "1, 2, 3, 4",
-        "1, 4, 3, 2",
-        "1, 4, 2, 3",
-        "4, 2, 3, 1"
+        "a-I, b-II, c-III, d-IV",
+        "a-I, b-IV, c-III, d-II",
+        "a-I, b-IV, c-II, d-III",
+        "a-IV, b-II, c-III, d-I"
       ],
       "answer": "C",
       "answerIndex": 2,

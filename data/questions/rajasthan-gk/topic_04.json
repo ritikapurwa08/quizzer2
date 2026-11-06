@@ -3528,12 +3528,12 @@
       "masterTopic": "राजस्थान की जनसंख्या एवं जनगणना",
       "question": "जनगणना 2011 के अनुसार, निम्नलिखित को सुमेलित कीजिए :",
       "options": [
-        "a-IV, B-I, C-II, D-III",
-        "a-IV, B-I, C-III, D-II",
-        "a-I, B-IV, C-III, D-II",
-        "a-II, B-I, C-III, D-IV"
+        "a-IV, b-I, c-II, d-III",
+        "a-IV, b-I, c-III, d-II",
+        "a-I, b-IV, c-III, d-II",
+        "a-II, b-I, c-III, d-IV"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "Sr. Computer Instructor Paper 1",
       "year": 2022,
       "explanation": null,
@@ -3544,20 +3544,20 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "राजसमंद"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "डूंगरपुर"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "पाली"
           },
           {
-            "id": "D",
-            "text": "प्रतापगढ़लिंग अनुपात"
+            "id": "d",
+            "text": "प्रतापगढ़"
           }
         ],
         "right": [
@@ -3575,7 +3575,7 @@
           },
           {
             "id": "IV",
-            "text": "990कूट है -"
+            "text": "990"
           }
         ],
         "leftTitle": "सूची – I",
@@ -4816,10 +4816,10 @@
       "masterTopic": "राजस्थान की जनसंख्या एवं जनगणना",
       "question": "सूची-1 को सूची-2 से सुमेलित कीजिए :",
       "options": [
-        "1, 2, 3, 4",
-        "2, 1, 4, 3",
-        "3, 4, 1, 2",
-        "4, 3, 2, 1"
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-I, c-IV, d-III",
+        "a-III, b-IV, c-I, d-II",
+        "a-IV, b-III, c-II, d-I"
       ],
       "answer": "D",
       "exam": null,
@@ -4832,37 +4832,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "जोधपुर"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "कोटा"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "अजमेर"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "भरतपुर"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "503"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "305"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "374"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "161"
           }
         ],

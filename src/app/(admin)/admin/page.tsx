@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useQuery } from "convex/react";
 import { api } from "../../../../convex/_generated/api";
 import { Card } from "@/components/ui/card";
-import { BookOpen, Layers, FileText, HelpCircle, Upload, ArrowRight, GitCompare } from "lucide-react";
+import { BookOpen, Layers, FileText, HelpCircle, Upload, ArrowRight, GitCompare, Pencil } from "lucide-react";
 
 export default function AdminOverviewPage() {
   const subjects = useQuery(api.subjects.list);
@@ -103,12 +103,12 @@ export default function AdminOverviewPage() {
           </Link>
           <Link href="/admin/questions">
             <Card className="flex items-center gap-3 p-3.5 hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl group bg-card border border-border/80">
-              <div className="p-2.5 rounded-lg bg-muted text-foreground group-hover:bg-foreground group-hover:text-background transition-colors shrink-0">
-                <HelpCircle className="h-4 w-4" />
+              <div className="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors shrink-0">
+                <Pencil className="h-4 w-4" />
               </div>
               <div className="min-w-0">
-                <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">Manage Questions</p>
-                <p className="text-[11px] text-muted-foreground truncate">View & edit question bank</p>
+                <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">Question Editor &amp; Bank</p>
+                <p className="text-[11px] text-muted-foreground truncate">Format, edit answers &amp; live preview</p>
               </div>
             </Card>
           </Link>

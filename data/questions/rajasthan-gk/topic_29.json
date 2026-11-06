@@ -17,7 +17,7 @@
         "a-I, b-IV, c-III, d-II",
         "a-II, b-III, c-I, d-IV"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "Lab Assistant Exam (Science)",
       "year": 2026,
       "explanation": "आभूषणों और उनके पहने जाने वाले अंगों का सही मिलान इस प्रकार है:कंडोरा/कन्दोरा : यह महिलाओं द्वारा कमर में पहने जाने वाला एक सोने या चांदी का आभूषण है (जैसे तगड़ी या करधनी)।नोगरी : यह मोतियों की लड़ियों से बना आभूषण है जिसे हाथ या कलाई में चूड़ियों के साथ पहना जाता है।भंवरकड़ी : यह सोने या चांदी की एक बारीक सुईनुमा कड़ी होती है जिसे नाक में पहना जाता है।पीपलपत्रा : यह पीपल के पत्ते के आकार का छोटा आभूषण होता है जो महिलाओं द्वारा कान के ऊपरी हिस्से में पहना जाता है।",
@@ -308,10 +308,10 @@
       "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "a-IV, b - III, c - II, d - I",
-        "a-I, b - II, c - IV, d - III",
-        "a-II, b - III, c - I, d - IV",
-        "a-III, b - I, c - II, d - IV"
+        "a-IV, b-III, c-II, d-I",
+        "a-I, b-II, c-IV, d-III",
+        "a-II, b-III, c-I, d-IV",
+        "a-III, b-I, c-II, d-IV"
       ],
       "answer": "A",
       "exam": "Village Development Officer Exam",
@@ -756,10 +756,10 @@
       "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "a-iii, b-iv, c-i, d-ii",
-        "a-i, b-iv, c-ii, d-iii",
-        "a-i, b-ii, c-iii, d-iv",
-        "a-ii, b-i, c-iv, d-iii"
+        "a-III, b-IV, c-I, d-II",
+        "a-I, b-IV, c-II, d-III",
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-I, c-IV, d-III"
       ],
       "answer": "A",
       "exam": "Librarian Grade III (Paper 1)",
@@ -790,19 +790,19 @@
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "आड़"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "झेला"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "लंगर"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "बोरला"
           }
         ],
@@ -892,10 +892,10 @@
       "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
       "question": "कॉलम I में आभूषण को कॉलम II में शरीर अंग से मिलान कीजिए :",
       "options": [
-        "1-d, 2-c, 3-b, 4-a",
-        "1-b, 2-c, 3-a, 4-d",
-        "1-a, 2-b, 3-d, 4-c",
-        "1-c, 2-a, 3-d, 4-b"
+        "a-IV, b-III, c-II, d-I",
+        "a-II, b-III, c-I, d-IV",
+        "a-I, b-II, c-IV, d-III",
+        "a-III, b-I, c-IV, d-II"
       ],
       "answer": "D",
       "exam": "Junior Instructor (Wireman) Exam",
@@ -908,37 +908,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "फोलरी"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "मेमन्द"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "पंचलड़ी"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "सुरलिया"
           }
         ],
         "right": [
           {
-            "id": "a",
+            "id": "I",
             "text": "सिर"
           },
           {
-            "id": "b",
+            "id": "II",
             "text": "कान"
           },
           {
-            "id": "c",
+            "id": "III",
             "text": "पैर"
           },
           {
-            "id": "d",
+            "id": "IV",
             "text": "गला"
           }
         ],
@@ -980,10 +980,10 @@
       "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
       "question": "कॉलम I में आभूषण को कॉलम II में महिलाएं पहनती हैं से मिलान कीजिए :",
       "options": [
-        "1-c, 2-d, 3-b, 4-a",
-        "1-b, 2-c, 3-a, 4-d",
-        "1-c, 2-a, 3-d, 4-b",
-        "1-b, 2-a, 3-d, 4-c"
+        "a-III, b-IV, c-II, d-I",
+        "a-II, b-III, c-I, d-IV",
+        "a-III, b-I, c-IV, d-II",
+        "a-II, b-I, c-IV, d-III"
       ],
       "answer": "C",
       "exam": "Junior Instructor (WCS) Exam",
@@ -996,37 +996,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "बोर (बोरला)"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "ठुस्सी"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "पीपलपत्र"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "नोगरी"
           }
         ],
         "right": [
           {
-            "id": "a",
+            "id": "I",
             "text": "गला"
           },
           {
-            "id": "b",
+            "id": "II",
             "text": "हाथ"
           },
           {
-            "id": "c",
+            "id": "III",
             "text": "सिर"
           },
           {
-            "id": "d",
+            "id": "IV",
             "text": "कान"
           }
         ],
@@ -1404,12 +1404,12 @@
       "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
       "question": "सूची I के साथ सूची II का मिलान कीजिए :",
       "options": [
-        "a-IV, b - II, c - III, d - I",
-        "a-I, b - III, c - II, d - IV",
-        "a-I, b - II, c - III, d - IV",
-        "a-III, b - IV, c - I, d - II"
+        "a-IV, b-II, c-III, d-I",
+        "a-I, b-III, c-II, d-IV",
+        "a-I, b-II, c-III, d-IV",
+        "a-III, b-IV, c-I, d-II"
       ],
-      "answer": "A",
+      "answer": "D",
       "exam": "Animal Attendant Exam (December 1 Shift II)",
       "year": 2023,
       "explanation": "ठुस्सी: गले का आभूषणबोरला: सिर पर पहना जाता हैदामना: अंगुली में पहनी जाने वाली अंगूठीझाले: कानों के लिए झुमके",
@@ -3652,10 +3652,10 @@
       "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
       "question": "निम्नांकित आभूषण व उसे पहने जाने वाले अंग को सुमेलित कीजिये :",
       "options": [
-        "1, 2, 3, 4",
-        "4, 2, 3, 1",
-        "1, 2, 4, 1",
-        "2, 3, 4, 1"
+        "a-I, b-II, c-III, d-IV",
+        "a-IV, b-II, c-III, d-I",
+        "a-I, b-II, c-IV, d-I",
+        "a-II, b-III, c-IV, d-I"
       ],
       "answer": "D",
       "exam": "Stenographer Comp. Exam - (Paper I)",
@@ -3668,37 +3668,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "बोरला"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "लटकन"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "जंजीर"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "तोडिया"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "पैर"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "सिर"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "नाक"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "कमरअ, ब, स, द"
           }
         ],
@@ -3980,10 +3980,10 @@
       "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
       "question": "सूची-I के साथ सूची-II का मिलान कीजिये :",
       "options": [
-        "a-4, B-1, C-3, D-2",
-        "a-2, B-3, C-4, D-1",
-        "a-4, B-1, C-2, D-3",
-        "a-2, B-3, C-1, D-4"
+        "a-IV, b-I, c-III, d-II",
+        "a-II, b-III, c-IV, d-I",
+        "a-IV, b-I, c-II, d-III",
+        "a-II, b-III, c-I, d-IV"
       ],
       "answer": "A",
       "exam": null,
@@ -3996,37 +3996,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "बोरला"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "टकमा"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "कंदोरा"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "तोड़िया"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "पैर"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "सिर"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "हाथ"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "कमर"
           }
         ],
@@ -4140,10 +4140,10 @@
       "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
       "question": "निम्नलिखित को सुमेलित कीजिए :",
       "options": [
-        "1-a, 2-b, c-3, d-4",
-        "1-b, 2-a, 3-d, 4-c",
-        "1-d, 2-c, 3-b, 4-d",
-        "1-c, 2-d, 3-a, 4-b"
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-I, c-IV, d-III",
+        "a-IV, b-III, c-II, d-IV",
+        "a-III, b-IV, c-I, d-II"
       ],
       "answer": "D",
       "exam": null,
@@ -4156,37 +4156,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "चाँद सूरज"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "तोती"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "तुलसी"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "धन्स"
           }
         ],
         "right": [
           {
-            "id": "a",
+            "id": "I",
             "text": "गला"
           },
           {
-            "id": "b",
+            "id": "II",
             "text": "दाँत"
           },
           {
-            "id": "c",
+            "id": "III",
             "text": "सिर"
           },
           {
-            "id": "d",
+            "id": "IV",
             "text": "कान"
           }
         ],
@@ -5308,10 +5308,10 @@
       "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
       "question": "निम्नलिखित को सुमेलित कीजिए :",
       "options": [
-        "2, 4, 1, 3",
-        "3, 2, 1, 4",
-        "4, 3, 2, 1",
-        "4, 3, 1, 2"
+        "a-II, b-IV, c-I, d-III",
+        "a-III, b-II, c-I, d-IV",
+        "a-IV, b-III, c-II, d-I",
+        "a-IV, b-III, c-I, d-II"
       ],
       "answer": "D",
       "exam": null,
@@ -5324,37 +5324,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "सिर"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "गला"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "कमर"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "पैर"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "कणकती"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "रिमझोल"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "हंसली"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "मेमंद अ, ब, स, द"
           }
         ],
@@ -5420,10 +5420,10 @@
       "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
       "question": "निम्न सूची-1 का सूची-2 के साथ मिलान करें :",
       "options": [
-        "अ2, ब1, स3",
-        "अ3, ब2, स1",
-        "अ3, ब1, स2",
-        "अ1, ब2, स3"
+        "a-II, b-I, c-III",
+        "a-III, b-II, c-I",
+        "a-III, b-I, c-II",
+        "a-I, b-II, c-III"
       ],
       "answer": "C",
       "exam": null,
@@ -5436,29 +5436,29 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "अंगारखी"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "ताराभांत"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "फलिया"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "ओढ़नी"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "पगड़ी"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "बुगतरी"
           }
         ],

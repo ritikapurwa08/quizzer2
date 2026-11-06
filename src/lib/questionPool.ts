@@ -246,6 +246,14 @@ export function getPublishedManifests(): SetManifest[] {
   return _publishedManifestsCache || [];
 }
 
+export function invalidateQuestionPoolCache(): void {
+  _questionIndex = null;
+  _gkQuestionsCache = null;
+  _allQuestionsCache = null;
+  _idMappingCache = null;
+  _publishedManifestsCache = null;
+}
+
 export function hydrateSet(manifest: SetManifest): HydratedSet {
   const index = buildQuestionIndex();
   const idMap = getIdMapping();

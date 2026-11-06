@@ -192,10 +192,10 @@
       "masterTopic": "राजस्थान की कृषि",
       "question": "कॉलम I में दी गई फलों की फसलों का मिलान कॉलम II में दिए गए राजस्थान में उनके प्रमुख उत्पादक जिले के नाम से कर, नीचे दिए गए कूटों की सहायता से सही विकल्प का चयन कीजिए :",
       "options": [
-        "(iv) (i) (v) (iii) (ii)",
-        "(i) (ii) (iii) (iv) (v)",
-        "(v) (iv) (ii) (i) (iii)",
-        "(iv) (i) (v) (ii) (iii)"
+        "a-IV, b-I, c-V, d-III",
+        "a-I, b-II, c-III, d-IV",
+        "a-V, b-IV, c-II, d-I",
+        "a-IV, b-I, c-V, d-II"
       ],
       "answer": "A",
       "exam": "SUB INSPECTOR COMB. COMP. EXAM - (6 April )",
@@ -208,41 +208,41 @@
       "meta": {
         "left": [
           {
-            "id": "i",
+            "id": "a",
             "text": "श्रीगंगानगर"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "किन्नू"
           },
           {
-            "id": "ii",
+            "id": "c",
             "text": "बारां"
           },
           {
-            "id": "C",
+            "id": "d",
             "text": "अनार"
           }
         ],
         "right": [
           {
-            "id": "iii",
+            "id": "I",
             "text": "सिरोही"
           },
           {
-            "id": "D",
+            "id": "II",
             "text": "अंगूर"
           },
           {
-            "id": "iv",
+            "id": "III",
             "text": "चित्तौड़गढ़"
           },
           {
-            "id": "E",
+            "id": "IV",
             "text": "ब्लैकबेरी"
           },
           {
-            "id": "v",
+            "id": "V",
             "text": "जालौर"
           }
         ],
@@ -409,7 +409,7 @@
         "a-II, b-I, c-III",
         "a-III, b-II, c-I"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "3rd Grade Teacher Sanskrit ( L-2 )",
       "year": 2025,
       "explanation": "चित्तौड़गढ़ जिला गुड़ उत्पादन के लिए प्रसिद्ध है।कोटा जिला धनिया (coriander) उत्पादन के लिए जाना जाता है।नागौर जिला मेथी के लिए पूरे भारत में प्रसिद्ध है (नागौर मेथी की सबसे अच्छी किस्म)।",
@@ -465,7 +465,7 @@
         "a-I, b-IV, c-II, d-III",
         "a-IV, b-III, c-II, d-I"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "3rd Grade Teacher Social Studies (L-2 )",
       "year": 2025,
       "explanation": "मक्का → 50-100 सेमीज्वार → 40-80 सेमीगन्ना → 100-120 सेमीमूंगफली → 50-125 सेमी",
@@ -1316,10 +1316,10 @@
       "masterTopic": "राजस्थान की कृषि",
       "question": "कॉलम-I (उत्कृष्टता केन्द्र कां स्थान) को कॉलम -II (उद्यानिकी फसल) से सुमेलित कर नीचे दिए कूटों की सहायता से सही उत्तर का चयन कीजिए :",
       "options": [
-        "iii i ii v",
-        "i ii iii iv",
-        "iii v iv i",
-        "iv iii v i"
+        "a-III, b-I, c-II, d-V",
+        "a-I, b-II, c-III, d-IV",
+        "a-III, b-V, c-IV, d-I",
+        "a-IV, b-III, c-V, d-I"
       ],
       "answer": "C",
       "exam": "Raj. State and Sub. Services Comb. Comp. (Pre) Exam -",
@@ -1332,41 +1332,41 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "बस्सी"
           },
           {
-            "id": "i",
+            "id": "b",
             "text": "आम"
           },
           {
-            "id": "B",
+            "id": "c",
             "text": "सगरा भोजका"
           },
           {
-            "id": "ii",
+            "id": "d",
             "text": "सीताफल"
           }
         ],
         "right": [
           {
-            "id": "C",
+            "id": "I",
             "text": "देवड़ावास"
           },
           {
-            "id": "iii",
+            "id": "II",
             "text": "अनार"
           },
           {
-            "id": "D",
+            "id": "III",
             "text": "खेमरी"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "अमरूद"
           },
           {
-            "id": "v",
+            "id": "V",
             "text": "खजूर"
           }
         ],
@@ -2800,10 +2800,10 @@
       "masterTopic": "राजस्थान की कृषि",
       "question": "निम्नलिखित को सुमेलित कीजिए :",
       "options": [
-        "iii iv i ii",
-        "iii i ii iv",
-        "iii i iv ii",
-        "i iii iv ii"
+        "a-III, b-IV, c-I, d-II",
+        "a-III, b-I, c-II, d-IV",
+        "a-III, b-I, c-IV, d-II",
+        "a-I, b-III, c-IV, d-II"
       ],
       "answer": "C",
       "exam": "Sr. Teacher Gr II Comp. Exam - (G.K. & Edu. Psychology) Group D",
@@ -2816,37 +2816,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "गेहूँ"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "बाजरा"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "चावल"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "मक्का"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "अलवर"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "भीलवाड़ा"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "गंगानगर"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "बूँदी"
           }
         ],
@@ -6178,10 +6178,10 @@
       "masterTopic": "राजस्थान की कृषि",
       "question": "सूची-I के साथ सूची-II का मिलान कीजिए :",
       "options": [
-        "I, II, III",
-        "I, III, II",
-        "II, I, III",
-        "III, II, I"
+        "a-I, b-II, c-III",
+        "a-I, b-III, c-II",
+        "a-II, b-I, c-III",
+        "a-III, b-II, c-I"
       ],
       "answer": "B",
       "exam": null,
@@ -6690,10 +6690,10 @@
       "masterTopic": "राजस्थान की कृषि",
       "question": "फसल एवं उनकी उन्नत किस्मों को मिलाइए और कूट से सही उत्तर का चयन कीजिए :",
       "options": [
-        "a-4, b - 3, c - 2, d - 1",
-        "a-2, b - 3, c - 4, d - 1",
-        "a-3, b - 1, c - 2, d - 4",
-        "a-1, b - 2, c - 3, d - 4"
+        "a-IV, b-III, c-II, d-I",
+        "a-II, b-III, c-IV, d-I",
+        "a-III, b-I, c-II, d-IV",
+        "a-I, b-II, c-III, d-IV"
       ],
       "answer": "A",
       "exam": null,
@@ -6710,25 +6710,25 @@
             "text": "चावल1 RAJ 911, सोनालिका,"
           },
           {
-            "id": "D",
+            "id": "b",
             "text": "134"
           },
           {
-            "id": "b",
+            "id": "c",
             "text": "गेहूँ2 C 235, H 208, G 130"
           }
         ],
         "right": [
           {
-            "id": "c",
+            "id": "I",
             "text": "चना"
           },
           {
-            "id": "3",
+            "id": "II",
             "text": "बाला, पूसा 221"
           },
           {
-            "id": "d",
+            "id": "III",
             "text": "कपास4 PST9, देवीराज, देवीतेज"
           }
         ],
@@ -7442,10 +7442,10 @@
       "masterTopic": "राजस्थान की कृषि",
       "question": "सूची-1 को सूची-2 से सुमेलित करें :",
       "options": [
-        "1, 3, 2, 4",
-        "2, 4, 3, 1",
-        "3, 2, 4, 1",
-        "4, 1, 2, 3"
+        "a-I, b-III, c-II, d-IV",
+        "a-II, b-IV, c-III, d-I",
+        "a-III, b-II, c-IV, d-I",
+        "a-IV, b-I, c-II, d-III"
       ],
       "answer": "B",
       "exam": null,
@@ -7458,37 +7458,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "मक्का"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "चावल"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "सरसों"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "चना"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "दोहद येलो"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "माही धवल"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "वरदान"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "डागर"
           }
         ],
@@ -7698,10 +7698,10 @@
       "masterTopic": "राजस्थान की कृषि",
       "question": "सूची-1 को सूची-2 से सुमेलित कीजिये :",
       "options": [
-        ", य, अ, द",
-        "ब, अ, स, द",
-        "अ, स, द, य",
-        "अ, स, ब, य"
+        "a-V, b-I, c-IV",
+        "a-II, b-I, c-III, d-IV",
+        "a-I, b-III, c-IV, d-V",
+        "a-I, b-III, c-II, d-V"
       ],
       "answer": "D",
       "exam": null,
@@ -7714,33 +7714,33 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "धनिया"
           },
           {
-            "id": "अ",
+            "id": "b",
             "text": "अजमेर"
           },
           {
-            "id": "2",
+            "id": "c",
             "text": "घोड़ा"
           }
         ],
         "right": [
           {
-            "id": "ब",
+            "id": "I",
             "text": "भरतपुर"
           },
           {
-            "id": "3",
+            "id": "II",
             "text": "सरसों स बीकानेर"
           },
           {
-            "id": "4",
+            "id": "III",
             "text": "भेड़"
           },
           {
-            "id": "द",
+            "id": "IV",
             "text": "कोटा य. टोंक"
           }
         ],
@@ -7902,12 +7902,12 @@
       "masterTopic": "राजस्थान की कृषि",
       "question": "सूची-1 को सूची-2 से सुमेलित कीजिए :",
       "options": [
-        "1, 2, 4, 3",
-        "4, 3, 2, 1",
-        "2, 1, 3, 4",
-        "3, 4, 1, 2"
+        "a-I, b-II, c-IV, d-III",
+        "a-IV, b-III, c-II, d-I",
+        "a-II, b-I, c-III, d-IV",
+        "a-III, b-IV, c-I, d-II"
       ],
-      "answer": "B",
+      "answer": "D",
       "exam": null,
       "year": null,
       "explanation": "राजस्थान में माही कंचन, माही धवल और मेघा मक्का की किस्में हैं– गेहूं की उन्नत किस्मों में राज 1482, राज 3077, राज 3765, राज 3777, राज 4037, राज 4083, डब्ल्यू एच 147 इत्यादि कई किस्में है",
@@ -7918,33 +7918,33 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "गेहूं"
           },
           {
-            "id": "1",
+            "id": "b",
             "text": "माही कंचन"
           },
           {
-            "id": "ब",
+            "id": "c",
             "text": "जौ"
           }
         ],
         "right": [
           {
-            "id": "2",
+            "id": "I",
             "text": "आरएचबी-30स बाजरा"
           },
           {
-            "id": "3",
+            "id": "II",
             "text": "आरडी-2035"
           },
           {
-            "id": "द",
+            "id": "III",
             "text": "मक्का"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "राज 3077कूट अ, ब, स, द"
           }
         ],

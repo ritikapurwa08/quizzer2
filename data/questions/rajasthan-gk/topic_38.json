@@ -61,7 +61,7 @@
         "a-II, b-IV, c-III, d-I",
         "a-IV, b-III, c-I, d-II"
       ],
-      "answer": "A",
+      "answer": "C",
       "exam": "Lab Assistant Exam (Geography)",
       "year": 2026,
       "explanation": "गांव : यह प्रसिद्ध रचना गोरधन सिंह शेखावत की है।मारग : इस कृति के लेखक प्रसिद्ध साहित्यकार चन्द्र प्रकाश देवल हैं।जुदाव : यह रचना पारस अरोड़ा द्वारा लिखी गई है।रिन्द्रोही : आधुनिक राजस्थानी काव्य के प्रमुख हस्ताक्षर अर्जुनदेव चारण की यह बेहद चर्चित कृति है।",
@@ -217,7 +217,7 @@
         "a-III, b-I, c-IV, d-II",
         "a-IV, b-I, c-II, d-III"
       ],
-      "answer": "A",
+      "answer": "C",
       "exam": "3rd Grade Teacher Sanskrit ( L-1 )",
       "year": 2025,
       "explanation": "अमोलक वातां → लक्ष्मी कुमारी चुंडावतदुविधा → विजयदान देथा (प्रसिद्ध कहानी, जिस पर फिल्म भी बनी)बीकानेर वातायन → हरीश भादानीपरन्योड़ी-कंवारी → नथमल जोशी",
@@ -388,10 +388,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सूची-I को सूची-II से सुमेलित करें :",
       "options": [
-        "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
-        "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
-        "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
-        "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)"
+        "a-IV, b-III, c-I, d-II",
+        "a-I, b-II, c-III, d-IV",
+        "a-III, b-II, c-I, d-IV",
+        "a-IV, b-I, c-II, d-III"
       ],
       "answer": "A",
       "exam": "3rd Grade Teacher Science-Maths (L-2 )",
@@ -422,19 +422,19 @@
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "दलपत विजय"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "जोधराज"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "गिरधर आसिया"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "नरपति नाल्ह"
           }
         ],
@@ -1168,10 +1168,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "निम्न को सुमेलित कीजिए :",
       "options": [
-        "iii iv i ii",
-        "ii iii iv i",
-        "iv ii iii i",
-        "i iv ii iii"
+        "a-III, b-IV, c-I, d-II",
+        "a-II, b-III, c-IV, d-I",
+        "a-IV, b-II, c-III, d-I",
+        "a-I, b-IV, c-II, d-III"
       ],
       "answer": "A",
       "exam": "Sub Inspector (Telecom) Comp. Exam - (Paper- II) (G.K and G.S)",
@@ -1184,37 +1184,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "अजीत विलास"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "निबंधाबंध"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "वरसलपुर गढ़विजय"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "विवेक बार निसानी"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "जोगीदास"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "केशवदास"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "गाडण पसाइत"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "धधवाडियो चूंडोसही"
           }
         ],
@@ -1880,10 +1880,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "निम्नलिखित को सुमेलित कीजिए :",
       "options": [
-        "(A)-(iv), (B)-(iii), (C)-(i), (D)-(ii)",
-        "(A)-(i), (B)-(ii), (C)-(iii), (D)-(iv)",
-        "(A)-(ii), (B)-(i), (C)-(iii), (D)-(iv)",
-        "(A)-(iii), (B)-(iv), (C)-(ii), (D)-(i)"
+        "a-IV, b-III, c-I, d-II",
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-I, c-III, d-IV",
+        "a-III, b-IV, c-II, d-I"
       ],
       "answer": "A",
       "exam": "Asst. Prof. (Sanskrit College Edu.) - (Rajasthan Gk)",
@@ -1896,33 +1896,37 @@
       "meta": {
         "left": [
           {
-            "id": "i",
+            "id": "a",
+            "text": "सरस्वती भण्डार"
+          },
+          {
+            "id": "b",
             "text": "जोधपुर"
           },
           {
-            "id": "B",
+            "id": "c",
             "text": "अनूप संस्कृत पुस्तकालय"
           },
           {
-            "id": "ii",
+            "id": "d",
             "text": "आमेर"
           }
         ],
         "right": [
           {
-            "id": "C",
+            "id": "I",
             "text": "पुस्तक प्रकाश"
           },
           {
-            "id": "iii",
+            "id": "II",
             "text": "बीकानेर"
           },
           {
-            "id": "D",
+            "id": "III",
             "text": "शास्त्र भण्डार"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "उदयपुर"
           }
         ],
@@ -2252,10 +2256,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "ii iii iv i",
-        "iv ii iii i",
-        "iii ii iv i",
-        "iii iv ii i"
+        "a-II, b-III, c-IV, d-I",
+        "a-IV, b-II, c-III, d-I",
+        "a-III, b-II, c-IV, d-I",
+        "a-III, b-IV, c-II, d-I"
       ],
       "answer": "D",
       "exam": "Assistant Professor (College Education) - Paper-III",
@@ -2268,37 +2272,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "पाबूजी के छन्द"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "पाबूजी के गीत"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "पाबूजी के सोरठे"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "पाबू प्रकाश"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "आसिया मोदजी"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "रामनाथ"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "मेहा चारण"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "बांकीदासA B C D"
           }
         ],
@@ -2321,7 +2325,7 @@
         "a-III, b-II, c-I, d-IV",
         "a-IV, b-III, c-I, d-II"
       ],
-      "answer": "A",
+      "answer": "D",
       "exam": "Computor Exam",
       "year": 2023,
       "explanation": "पुस्तक / कृतिलेखकभरतेश्वर बाहुबली रासशालीभद्र सूरीपृथ्वीराज रासोचन्द्र बरदाईराज विनोद भट्ट सदाशिवग्रंथराज गोपीनाथ",
@@ -2740,10 +2744,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सूची-I को सूची-II से सुमेलित कीजिये :",
       "options": [
-        "(iii) (iv) (i) (ii)",
-        "(i) (ii) (iii) (iv)",
-        "(ii) (iii) (iv) (i)",
-        "(iv) (i) (iii) (ii)"
+        "a-III, b-IV, c-I, d-II",
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-III, c-IV, d-I",
+        "a-IV, b-I, c-III, d-II"
       ],
       "answer": "A",
       "exam": "Food Safety Officer -",
@@ -2774,19 +2778,19 @@
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "चारण शिवदास"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "बीठू सूजा"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "पद्मनाभ"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "श्रीधर व्यास"
           }
         ],
@@ -4196,10 +4200,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "(I)-4, (II)-2, (III)-3, (IV)-1",
-        "(I)-4, (II)-3, (III)-1, (IV)-2",
-        "(I)-4, (I)-3, (II)-2, (IV)-1",
-        "(I)-3, (II)-4, (III)-1, (IV)-2"
+        "a-IV, b-II, c-III, d-I",
+        "a-IV, b-III, c-I, d-II",
+        "a-IV, b-III, c-II, d-I",
+        "a-III, b-IV, c-I, d-II"
       ],
       "answer": "A",
       "exam": "Librarian Grade III (Paper 1)",
@@ -4212,37 +4216,37 @@
       "meta": {
         "left": [
           {
-            "id": "i",
+            "id": "a",
             "text": "राजस्थान कला विद्यालय"
           },
           {
-            "id": "ii",
+            "id": "b",
             "text": "राजस्थान ललित कला अकादमी"
           },
           {
-            "id": "iii",
+            "id": "c",
             "text": "जवाहर कला केंद्र"
           },
           {
-            "id": "iv",
+            "id": "d",
             "text": "रवींद्र मंचस्थापना वर्ष"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "1963"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "1957"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "1993"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "1888"
           }
         ],
@@ -4692,10 +4696,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सूची-I व सूची-II का मिलान कीजिए :",
       "options": [
-        "(i) (ii) (iii) (iv)",
-        "(iii) (ii) (i) (iv)",
-        "(i) (iv) (ii) (iii)",
-        "(ii) (iv) (i) (iii)"
+        "a-I, b-II, c-III, d-IV",
+        "a-III, b-II, c-I, d-IV",
+        "a-I, b-IV, c-II, d-III",
+        "a-II, b-IV, c-I, d-III"
       ],
       "answer": "D",
       "exam": "Asst. Statistical Officer",
@@ -4708,37 +4712,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "श्रृंगार हार"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "राग मंजरी"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "संगीत मीमांसा"
           },
           {
-            "id": "D",
-            "text": "भाव मंजरीसूची-II (लेखकों के नाम )"
+            "id": "d",
+            "text": "भाव मंजरी"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "कुम्भा"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "हम्मीर"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "पं. भावभट्ट"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "पुण्डरीक विट्ठल"
           }
         ],
@@ -4804,10 +4808,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "3 2 1",
-        "1 2 3",
-        "3 1 2",
-        "2 3 1"
+        "a-III, b-II, c-I",
+        "a-I, b-II, c-III",
+        "a-III, b-I, c-II",
+        "a-II, b-III, c-I"
       ],
       "answer": "C",
       "exam": "Rajasthan Patwar (23 Oct ) 2nd shift",
@@ -4834,15 +4838,15 @@
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "सुमेरसिंह शेखावत"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "हरीश भादानी"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "सत्यप्रकाश जोशी"
           }
         ],
@@ -4884,10 +4888,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "1 2 3",
-        "3 2 1",
-        "2 1 3",
-        "3 1 2"
+        "a-I, b-II, c-III",
+        "a-III, b-II, c-I",
+        "a-II, b-I, c-III",
+        "a-III, b-I, c-II"
       ],
       "answer": "D",
       "exam": "Rajasthan Patwar (24 Oct ) 1st shift",
@@ -4914,15 +4918,15 @@
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "बादर"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "मंछाराम सेवग"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "भांडउ व्यास"
           }
         ],
@@ -4940,10 +4944,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "3 1 2",
-        "2 3 1",
-        "1 2 3",
-        "2 1 3"
+        "a-III, b-I, c-II",
+        "a-II, b-III, c-I",
+        "a-I, b-II, c-III",
+        "a-II, b-I, c-III"
       ],
       "answer": "B",
       "exam": "Rajasthan Patwar (24 Oct ) 2nd shift",
@@ -4970,15 +4974,15 @@
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "विजयदान देथा"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "चन्दबरदाई"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "श्यामलदास"
           }
         ],
@@ -5092,10 +5096,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सूची-I व सूची-II को सुमेल करते हुए सही उत्तर लिखिए :",
       "options": [
-        "1 3 4 2",
-        "4 1 2 3",
-        "2 4 1 3",
-        "3 1 2 4"
+        "a-III, d-II",
+        "b-III, d-I",
+        "a-III, b-IV",
+        "b-IV, c-I"
       ],
       "answer": "B",
       "exam": "Lecturer (Tech. Edu.) Exam - (Gen. Studies of State Paper - III)",
@@ -5108,37 +5112,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "गुण भाषा"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "गुण रूपक"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "राज रूपक"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "सूरज प्रकाश"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "केशवदास"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "वीरभान"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "अभयसिंह"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "हेम कविकोड़ : A B C D"
           }
         ],
@@ -5492,10 +5496,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "अधोलिखित को सुमेलित कीजिए :",
       "options": [
-        "A B C D",
-        "D B C A",
-        "A C B D",
-        "D C B A"
+        "a-II, c-IV",
+        "c-I, d-II",
+        "a-III, b-IV",
+        "b-I, d-III"
       ],
       "answer": "A",
       "exam": "Veterinary Officer Exam",
@@ -5508,37 +5512,37 @@
       "meta": {
         "left": [
           {
-            "id": "I",
+            "id": "a",
             "text": "श्रीधर"
           },
           {
-            "id": "II",
+            "id": "b",
             "text": "नरपति नाल्ह"
           },
           {
-            "id": "III",
+            "id": "c",
             "text": "नल्ल सिंह"
           },
           {
-            "id": "IV",
+            "id": "d",
             "text": "बादर"
           }
         ],
         "right": [
           {
-            "id": "A",
+            "id": "I",
             "text": "रणमल्ल छंद"
           },
           {
-            "id": "B",
+            "id": "II",
             "text": "विजयपाल रासो"
           },
           {
-            "id": "C",
+            "id": "III",
             "text": "बीसलदेव रासो"
           },
           {
-            "id": "D",
+            "id": "IV",
             "text": "वीरमायणसही"
           }
         ],
@@ -6900,7 +6904,7 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सूची I के साथ सूची II का मिलान कीजिए :",
       "options": [
-        "a-IV, b-III, c-I,d-II",
+        "a-IV, b-III, c-I, d-II",
         "a-IV, b-II, c-I, d-III",
         "a-IV, b-I, c-III, d-II",
         "a-III, b-I, c-II, d-IV"
@@ -7036,10 +7040,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सूची-1 का सूची-2 से मिलान कीजिए :",
       "options": [
-        "(a)-iv, (b)-ii, (c)-iii, (d)-i",
-        "(a)-iii, (b)-ii, (c)-iv, (d)-i",
-        "(a)-ii, (b)-iii, (c)-i, (d)-iv",
-        "(a)-iii, (b)-ii, (c)-i, (d)-iv"
+        "a-IV, b-II, c-III, d-I",
+        "a-III, b-II, c-IV, d-I",
+        "a-II, b-III, c-I, d-IV",
+        "a-III, b-II, c-I, d-IV"
       ],
       "answer": "A",
       "exam": null,
@@ -7052,33 +7056,37 @@
       "meta": {
         "left": [
           {
-            "id": "i",
-            "text": "देवमूर्ति प्रकरण"
+            "id": "a",
+            "text": "गोविन्द"
           },
           {
             "id": "b",
+            "text": "देवमूर्ति प्रकरण"
+          },
+          {
+            "id": "c",
             "text": "नाथा"
           },
           {
-            "id": "ii",
+            "id": "d",
             "text": "द्वार दीपिका"
           }
         ],
         "right": [
           {
-            "id": "c",
+            "id": "I",
             "text": "मण्डन"
           },
           {
-            "id": "iii",
+            "id": "II",
             "text": "वास्तुमंजरी"
           },
           {
-            "id": "d",
+            "id": "III",
             "text": "कुम्भा"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "संगीतराज"
           }
         ],
@@ -7144,10 +7152,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "4, 1, 2, 3",
-        "2, 3, 4, 1",
-        "1, 2, 3, 4",
-        "3, 1, 2, 4"
+        "a-IV, b-I, c-II, d-III",
+        "a-II, b-III, c-IV, d-I",
+        "a-I, b-II, c-III, d-IV",
+        "a-III, b-I, c-II, d-IV"
       ],
       "answer": "A",
       "exam": null,
@@ -7160,37 +7168,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "हम्मिरायण"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "वीरमायणा"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "रघुनाथ रूपक"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "किरतार बावणी"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "बादर"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "मंछराम सेवग"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "दुरसा आढ़ा"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "भाण्डऊ व्यास"
           }
         ],
@@ -7256,10 +7264,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सूची-1 को सूची-2 के साथ मिलान करें :",
       "options": [
-        "अ1, ब3, स2",
-        "अ3, ब1, स2",
-        "अ1, ब2, स3",
-        "अ2, ब1, स3"
+        "a-I, b-III, c-II",
+        "a-III, b-I, c-II",
+        "a-I, b-II, c-III",
+        "a-II, b-I, c-III"
       ],
       "answer": "B",
       "exam": null,
@@ -7272,29 +7280,29 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "वीर विनोद"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "गोरा बादल री बात"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "वीर सतसई"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "जाटमल"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "सूर्य मल्ल मिश्रण"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "श्यामल दास"
           }
         ],
@@ -8200,10 +8208,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सही सुमेलित कीजिए :",
       "options": [
-        "4, 3, 2, 1",
-        "2, 4, 1, 3",
-        "3, 1, 2, 4",
-        "1, 2, 3, 4"
+        "a-IV, b-III, c-II, d-I",
+        "a-II, b-IV, c-I, d-III",
+        "a-III, b-I, c-II, d-IV",
+        "a-I, b-II, c-III, d-IV"
       ],
       "answer": "B",
       "exam": null,
@@ -8216,37 +8224,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "दलपतविजय"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "नरपति नाल्ह"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "जोधराज"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "नल्लसिंह"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "हम्मीर रासो"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "खुमाण रासो"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "विजयपाल रासो"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "बीसलदेव रासो"
           }
         ],
@@ -8408,10 +8416,10 @@
       "masterTopic": "राजस्थानी साहित्य",
       "question": "सूची-1 से सूची-2 को सुमेलित कीजिए :",
       "options": [
-        ", स, ब, अ",
-        "ब, अ, द, स",
-        "अ, ब, स, द",
-        "द, अ, ब, स"
+        "a-IV, b-III, c-II, d-I",
+        "a-II, b-I, c-IV, d-III",
+        "a-I, b-II, c-III, d-IV",
+        "a-IV, b-I, c-II, d-III"
       ],
       "answer": "D",
       "exam": null,
@@ -8424,37 +8432,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "करणीदान"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "दलपति विजय"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "पद्मनाभ"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "जगजीवन भट्ट"
           }
         ],
         "right": [
           {
-            "id": "अ",
+            "id": "I",
             "text": "अजितोदय"
           },
           {
-            "id": "ब",
+            "id": "II",
             "text": "कान्हड़दे प्रबन्ध"
           },
           {
-            "id": "स",
+            "id": "III",
             "text": "खुमाणरासो"
           },
           {
-            "id": "द",
+            "id": "IV",
             "text": "सूरजप्रकाश"
           }
         ],
@@ -8819,26 +8827,26 @@
       "explanation": null,
       "topic": "राजस्थानी साहित्य",
       "topicId": 38,
-      "type": "match_following",
+      "type": "mcq",
       "questionText": "निम्नलिखित में कौन सा एक युग्म सही सुमेलित नहीं है :",
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "नेह तरंग सवाई प्रतापसिंह"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "नागदमण सांयाजी झूला"
           }
         ],
         "right": [
           {
-            "id": "C",
+            "id": "I",
             "text": "रणमल छन्द श्रीधर व्यास"
           },
           {
-            "id": "D",
+            "id": "II",
             "text": "भाषा भूषण महाराजा जसवंत सिंह"
           }
         ],

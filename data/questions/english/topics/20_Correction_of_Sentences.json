@@ -244,7 +244,7 @@
       "options": [
         "childrens",
         "womans",
-        "mothers-in-law",
+        "a-MOTHERS, b-IN, c-LAW",
         "sheeps"
       ],
       "answer": "C",
@@ -517,10 +517,10 @@
       "masterTopic": "Correction of Sentences",
       "question": "Given below are sentences that may be correct/incorrect in the use of tense. Select the correct ones.\n1. I was having shower when the phone was ringing.\n2. He said that honesty is the best policy.\n3. Rama promised that she will do her homework.\n4. Gopal fell asleep while he was reading a book.\n5. We arrived at the airport at 6 pm but the checkin counter was already closed.\nChoose the correct answer from the options given below :",
       "options": [
-        "1 and 2 only",
-        "1, 3 and 4 only",
-        "2 and 4 only",
-        "3 and 5 only"
+        "a-I, d-II",
+        "c-I, d-IV",
+        "b-I, d-IV",
+        "c-I, d-V"
       ],
       "answer": "C",
       "answerIndex": 2,
@@ -967,10 +967,10 @@
       "masterTopic": "Correction of Sentences",
       "question": "Match Column I with Column II to form correct proverbs –\nColumn-I\n(a) A leopard …….\n(b) Every cloud ….\n(c) Don’t cry ……\n(d) Jack of all trades …\nColumn-II\n(i) ……………….. has a silver lining\n(ii) …………. can’t change its spots\n(iii) ……………… master of none\n(iv) ……………… over spilt milk",
       "options": [
-        "a-(iii), b-(ii), c-(iv), d-(i)",
-        "a-(ii), b-(i), c-(iv), d-(iii)",
-        "a-(iv), b-(iii), c-(ii), d-(i)",
-        "a-(i), b-(ii), c-(iii), d-(iv)"
+        "a-III, b-II, c-IV, d-I",
+        "a-II, b-I, c-IV, d-III",
+        "a-IV, b-III, c-II, d-I",
+        "a-I, b-II, c-III, d-IV"
       ],
       "answer": "B",
       "answerIndex": 1,

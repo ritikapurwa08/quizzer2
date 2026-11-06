@@ -65,7 +65,7 @@
         "a-I, b-III, c-II",
         "a-I, b-II, c-III"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "3rd Grade Teacher Sanskrit ( L-2 )",
       "year": 2025,
       "explanation": "राजस्थान कृषि अनुसंधान संस्थान → जयपुर।धनिया (कोरियंडर) संबंधित भारतीय प्रौद्योगिकी/अनुसंधान संस्थान → जोधपुर क्षेत्र।वनस्थली विद्यापीठ → टोंक जिला (महिला विश्वविद्यालय)।",
@@ -116,10 +116,10 @@
       "masterTopic": "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
-        "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
-        "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
-        "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)"
+        "a-III, b-IV, c-I, d-II",
+        "a-I, b-II, c-III, d-IV",
+        "a-IV, b-III, c-II, d-I",
+        "a-III, b-I, c-IV, d-II"
       ],
       "answer": "A",
       "exam": "3rd Grade Teacher Science-Maths (L-2 )",
@@ -132,33 +132,37 @@
       "meta": {
         "left": [
           {
-            "id": "i",
-            "text": "अलवर"
+            "id": "a",
+            "text": "सेंट्रल इलेक्ट्रॉनिक्स इंजीनियरिंग रिसर्च इंस्टिट्यूट"
           },
           {
             "id": "b",
+            "text": "अलवर"
+          },
+          {
+            "id": "c",
             "text": "राज ऋषि भर्तृहरि मत्स्य यूनिवर्सिटी"
           },
           {
-            "id": "ii",
+            "id": "d",
             "text": "बीकानेर"
           }
         ],
         "right": [
           {
-            "id": "c",
+            "id": "I",
             "text": "डेजर्ट मेडिसीन रिसर्च सेंटर"
           },
           {
-            "id": "iii",
+            "id": "II",
             "text": "पिलानी"
           },
           {
-            "id": "d",
+            "id": "III",
             "text": "नेशनल रिसर्च सेंटर ऑन कैमल"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "जोधपुर"
           }
         ],
@@ -200,12 +204,12 @@
       "masterTopic": "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "a-II, b - I, c - III, d - IV",
-        "a-III, b - I, c - IV, d - II",
-        "a-III, b - II, c - I, d - IV",
-        "a-IV, b - III, c - II, d - I"
+        "a-II, b-I, c-III, d-IV",
+        "a-III, b-I, c-IV, d-II",
+        "a-III, b-II, c-I, d-IV",
+        "a-IV, b-III, c-II, d-I"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "Village Development Officer Exam",
       "year": 2025,
       "explanation": "कजरी (CAZRI) → जोधपुर (Central Arid Zone Research Institute)फॉसिल पार्क → जैसलमेर (आकियारा गांव, डेजर्ट नेशनल पार्क के पास)RFWTI → जयपुर (राजस्थान वानिकी एवं वन्यजीव प्रशिक्षण संस्थान)SKRAU → बीकानेर (स्वामी केशवानंद राजस्थान कृषि विश्वविद्यालय)",
@@ -242,7 +246,7 @@
             "text": "बीकानेर"
           },
           {
-            "id": "IIII",
+            "id": "III",
             "text": "जोधपुर"
           },
           {
@@ -624,10 +628,10 @@
       "masterTopic": "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र",
       "question": "निम्नांकित को सुमेलित कीजिए :",
       "options": [
-        "ii iv iii i",
-        "iv ii iii i",
-        "iii ii iv i",
-        "i iii ii iv"
+        "a-II, b-IV, c-III, d-I",
+        "a-IV, b-II, c-III, d-I",
+        "a-III, b-II, c-IV, d-I",
+        "a-I, b-III, c-II, d-IV"
       ],
       "answer": "A",
       "exam": "3rd Grade Teacher Sanskrit L2",
@@ -658,19 +662,19 @@
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "टोंक"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "जोधपुर"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "बांसवाड़ा"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "बीकानेरसंस्थान सही"
           }
         ],
@@ -808,10 +812,10 @@
       "masterTopic": "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र",
       "question": "निम्नलिखित को मिलाएं :",
       "options": [
-        "(a)-(2), (b)-(1), (c)-(3)",
-        "(a)-(1), (b)-(2), (c)-(3)",
-        "(a)-(1), (b)-(3), (c)-(2)",
-        "(a)-(2), (b)-(3), (d)-(1)"
+        "a-II, b-I, c-III",
+        "a-I, b-II, c-III",
+        "a-I, b-III, c-II",
+        "a-II, b-III, d-I"
       ],
       "answer": "A",
       "exam": "JEN Agriculture",
@@ -824,21 +828,29 @@
       "meta": {
         "left": [
           {
+            "id": "a",
+            "text": "पहली प्याज मंडी"
+          },
+          {
             "id": "b",
             "text": "केंद्रीय सरसों अनुसंधान केंद्र"
           },
           {
             "id": "c",
-            "text": "कुक्कुट अनुसंधान केंद्र सूची-II(1) सेवार"
+            "text": "कुक्कुट अनुसंधान केंद्र"
           }
         ],
         "right": [
           {
-            "id": "2",
+            "id": "I",
+            "text": "सेवार"
+          },
+          {
+            "id": "II",
             "text": "अलवर"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "अजमेर"
           }
         ],

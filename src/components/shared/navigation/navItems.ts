@@ -9,6 +9,7 @@ import {
   Database,
   FileUp,
   GitCompare,
+  Pencil,
 } from "lucide-react";
 
 export interface NavItem {
@@ -41,6 +42,7 @@ export const STUDENT_NAV_ITEMS: NavItem[] = [
 // Admin navigation items
 export const ADMIN_NAV_ITEMS: NavItem[] = [
   { label: "Admin Overview", href: "/admin", icon: Shield, exact: true },
+  { label: "Question Editor", href: "/admin/questions", icon: Pencil, exact: true },
   { label: "55 Topics Pool", href: "/admin/pool", icon: Database, exact: true },
   { label: "Dedup Review", href: "/admin/dedup", icon: GitCompare, exact: true },
   { label: "Import Sets", href: "/admin/import", icon: FileUp, exact: true },

@@ -990,10 +990,10 @@
       "masterTopic": "Modal Auxiliaries",
       "question": "Match the following sentences (List-I) with their corresponding modal notions (List-II):\nList-I:\na. He shall go now.\nb. We will win the prize.\nc. We should help the poor.\nd. The child can speak five languages.\n\nList-II:\n1. ability\n2. command\n3. simple futurity / determination\n4. obligation",
       "options": [
-        "a-3, b-1, c-2, d-4",
-        "a-1, b-4, c-2, d-3",
-        "a-4, b-2, c-1, d-3",
-        "a-2, b-3, c-4, d-1"
+        "a-III, b-I, c-II, d-IV",
+        "a-I, b-IV, c-II, d-III",
+        "a-IV, b-II, c-I, d-III",
+        "a-II, b-III, c-IV, d-I"
       ],
       "answer": "D",
       "answerIndex": 3,
@@ -1032,10 +1032,10 @@
       "masterTopic": "Modal Auxiliaries",
       "question": "Match the following sentences (List-I) with their meanings (List-II):\nList-I:\na. She can speak five languages.\nb. As a child he would sit by the river for hours and read.\nc. It may rain tomorrow.\nd. She will score the highest marks.\n\nList-II:\ni. possibility\nii. present ability\niii. simple futurity / prediction\niv. past habit",
       "options": [
-        "a-iii, b-iv, c-ii, d-i",
-        "a-i, b-ii, c-iv, d-iii",
-        "a-ii, b-iv, c-i, d-iii",
-        "a-iv, b-i, c-iii, d-ii"
+        "a-III, b-IV, c-II, d-I",
+        "a-I, b-II, c-IV, d-III",
+        "a-II, b-IV, c-I, d-III",
+        "a-IV, b-I, c-III, d-II"
       ],
       "answer": "C",
       "answerIndex": 2,
@@ -1137,10 +1137,10 @@
       "masterTopic": "Modal Auxiliaries",
       "question": "Match List-I (Modals) with List-II (Functions) and select the correct code:\nList-I:\n(A) Should\n(B) May\n(C) Will\n(D) Must\n\nList-II:\n(1) Compulsion\n(2) Moral obligation\n(3) Permission (Formal)\n(4) Determination",
       "options": [
-        "(A)-(2), (B)-(3), (C)-(1), (D)-(4)",
-        "(A)-(3), (B)-(2), (C)-(1), (D)-(4)",
-        "(A)-(2), (B)-(3), (C)-(4), (D)-(1)",
-        "(A)-(3), (B)-(2), (C)-(4), (D)-(1)"
+        "a-II, b-III, c-I, d-IV",
+        "a-III, b-II, c-I, d-IV",
+        "a-II, b-III, c-IV, d-I",
+        "a-III, b-II, c-IV, d-I"
       ],
       "answer": "C",
       "answerIndex": 2,
@@ -1326,10 +1326,10 @@
       "masterTopic": "Modal Auxiliaries",
       "question": "Identify the notion of the modal (List-I) from List-II:\nList-I:\n(a) Should\n(b) Won't\n(c) Can\n(d) Must\n\nList-II:\n(i) Order\n(ii) Offer\n(iii) Request\n(iv) Necessity",
       "options": [
-        "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
-        "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
-        "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
-        "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)"
+        "a-II, b-III, c-IV, d-I",
+        "a-IV, b-III, c-II, d-I",
+        "a-III, b-I, c-II, d-IV",
+        "a-III, b-II, c-I, d-IV"
       ],
       "answer": "C",
       "answerIndex": 2,

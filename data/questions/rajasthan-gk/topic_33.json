@@ -224,10 +224,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "सूची I को सूची II से सुमेलित करें :",
       "options": [
-        "(a) - (ii), (b) - (i), (c) - (iv), (d) - (iii)",
-        "(a) - (ii), (b) - (iv), (c) - (iii), (d) - (i)",
-        "(a) - (iv), (b) - (ii), (c) - (iii), (d) - (i)",
-        "(a) - (i), (b) - (iii), (c) - (ii), (d) - (iv)"
+        "a-II, b-I, c-IV, d-III",
+        "a-II, b-IV, c-III, d-I",
+        "a-IV, b-II, c-III, d-I",
+        "a-I, b-III, c-II, d-IV"
       ],
       "answer": "A",
       "exam": "Jamadar Grade II Exam",
@@ -240,33 +240,37 @@
       "meta": {
         "left": [
           {
-            "id": "i",
-            "text": "भीलवाड़ा"
+            "id": "a",
+            "text": "गोगाजी"
           },
           {
             "id": "b",
+            "text": "भीलवाड़ा"
+          },
+          {
+            "id": "c",
             "text": "तेजाजी"
           },
           {
-            "id": "ii",
+            "id": "d",
             "text": "शीर्षमेड़ी"
           }
         ],
         "right": [
           {
-            "id": "c",
+            "id": "I",
             "text": "पाबूजी"
           },
           {
-            "id": "iii",
+            "id": "II",
             "text": "कोलू"
           },
           {
-            "id": "d",
+            "id": "III",
             "text": "देवनारायणजी"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "खरनाल"
           }
         ],
@@ -836,10 +840,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "निम्नलिखित राजवंशों को उनकी कुलदेवियों के साथ सुमेलित कीजिए :",
       "options": [
-        "II IV I III",
-        "IV II III I",
-        "III I II IV",
-        "I III IV II"
+        "a-II, b-IV, c-I, d-III",
+        "a-IV, b-II, c-III, d-I",
+        "a-III, b-I, c-II, d-IV",
+        "a-I, b-III, c-IV, d-II"
       ],
       "answer": "C",
       "exam": "SCHOOL LECTURER (SCHOOL EDU.) GA and GS (G-C)",
@@ -852,19 +856,19 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "चौहान"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "तँवर"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "सोलंकी"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "दहिया"
           }
         ],
@@ -1625,7 +1629,7 @@
         "a-IV, b-II, c-III, d-I",
         "a-III, b-II, c-IV, d-I"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "Computor Exam",
       "year": 2023,
       "explanation": "स्थानीय देवी / देवताजन्म स्थानतेजा जीनागौरगोगा जीचूरुतल्लीनाथजोधपुरपाबु जीकोलू",
@@ -1996,10 +2000,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "सूची-I का सूची-II के साथ मिलान कीजिये :",
       "options": [
-        "(ii) (i) (iv) (iii)",
-        "(i) (ii) (iii) (iv)",
-        "(iii) (ii) (i) (iv)",
-        "(iv) (i) (ii) (iii)"
+        "a-II, b-I, c-IV, d-III",
+        "a-I, b-II, c-III, d-IV",
+        "a-III, b-II, c-I, d-IV",
+        "a-IV, b-I, c-II, d-III"
       ],
       "answer": "A",
       "exam": "Food Safety Officer -",
@@ -2030,19 +2034,19 @@
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "बेंगटी"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "रूण्डेला"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "ददरेवा"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "कोलू"
           }
         ],
@@ -2660,12 +2664,12 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "सही युग्म सुमेलित कीजिए :",
       "options": [
-        "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
-        "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
-        "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
-        "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)"
+        "a-II, b-III, c-IV, d-I",
+        "a-III, b-I, c-II, d-IV",
+        "a-II, b-IV, c-I, d-III",
+        "a-IV, b-I, c-II, d-III"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "JEN Agriculture",
       "year": 2022,
       "explanation": "माता जिला(a) ब्राह्मणी माता (ii) सौरसेन, बारा(b) शीतला माता (iii) चालू, जयपुर(c) जीण माता (iv) रैवासा, सीकर(d) सचिया माता (i) ओसियां, जोधपुर",
@@ -2676,33 +2680,37 @@
       "meta": {
         "left": [
           {
-            "id": "i",
-            "text": "ओसियां, जोधपुर"
+            "id": "a",
+            "text": "ब्राह्मणी माता"
           },
           {
             "id": "b",
+            "text": "ओसियां, जोधपुर"
+          },
+          {
+            "id": "c",
             "text": "शीतला माता"
           },
           {
-            "id": "ii",
+            "id": "d",
             "text": "सौरसेन, बारा"
           }
         ],
         "right": [
           {
-            "id": "c",
+            "id": "I",
             "text": "जीण माता"
           },
           {
-            "id": "iii",
+            "id": "II",
             "text": "चालू जयपुर"
           },
           {
-            "id": "d",
+            "id": "III",
             "text": "सचिया माता"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "रैवासा सीकर"
           }
         ],
@@ -3176,10 +3184,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "सही युग्मों को सुमेलित कीजिए :",
       "options": [
-        "4, 2, 3, 1",
-        "1, 2, 3, 4",
-        "2, 1, 4, 3",
-        "3, 4, 1, 2"
+        "a-IV, b-II, c-III, d-I",
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-I, c-IV, d-III",
+        "a-III, b-IV, c-I, d-II"
       ],
       "answer": "A",
       "exam": "RPSC ACF FRO",
@@ -3192,37 +3200,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "जसनाथजी"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "शीतलाजी"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "जाम्भोजी"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "जीण माता"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "रेवासा (सीकर)"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "चाकसू (जयपुर)"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "मुकाम (नोखा)"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "कतरियासर (बीकानेर)"
           }
         ],
@@ -3312,10 +3320,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "4, 2, 1, 3",
-        "1, 3, 2, 4",
-        "2, 4, 1, 3",
-        "3, 1, 4, 2"
+        "a-IV, b-II, c-I, d-III",
+        "a-I, b-III, c-II, d-IV",
+        "a-II, b-IV, c-I, d-III",
+        "a-III, b-I, c-IV, d-II"
       ],
       "answer": "C",
       "exam": "Agriculture Research Officer -",
@@ -3328,37 +3336,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "ज्वाला माता"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "अधर देवी"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "छींछ माता"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "नारायणी माता"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "बांसवाड़ा"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "जोबनेर"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "सरिस्का राष्ट्रीय उद्यान, अलवर"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "आबू"
           }
         ],
@@ -3520,10 +3528,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "निम्नलिखित को सुमेलित कीजिए :",
       "options": [
-        "(i)-1, (ii)-2, (iii)-3, (iv)-4",
-        "(i)-4, (ii)-3, (iii)-1, (iv)-2",
-        "(i)-3, (ii)-4, (iii)-2, (iv)-1",
-        "(i)-3, (ii)-4, (iii)-1, (iv)-2"
+        "a-I, b-II, c-III, d-IV",
+        "a-IV, b-III, c-I, d-II",
+        "a-III, b-IV, c-II, d-I",
+        "a-III, b-IV, c-I, d-II"
       ],
       "answer": "C",
       "exam": "Junior Instructor (WC&S)",
@@ -3536,33 +3544,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
+            "text": "जहर पीर"
+          },
+          {
+            "id": "b",
             "text": "रामदेवजी"
           },
           {
-            "id": "ii",
+            "id": "c",
             "text": "शिव का अवतार"
           },
           {
-            "id": "2",
+            "id": "d",
             "text": "पाबूजी"
           }
         ],
         "right": [
           {
-            "id": "iii",
+            "id": "I",
             "text": "लक्ष्मण का अवतार फड़ चित्रकला में"
           },
           {
-            "id": "3",
+            "id": "II",
             "text": "गोगाजी"
           },
           {
-            "id": "iv",
+            "id": "III",
             "text": "रामसा पीर"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "तेजाजी"
           }
         ],
@@ -4372,10 +4384,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "निम्न को सुमेलित कीजिए :",
       "options": [
-        "3 4 1 2",
-        "1 2 3 4",
-        "4 3 2 1",
-        "3 2 4 1"
+        "a-II, c-IV",
+        "a-II, c-IV",
+        "b-I, d-III",
+        "c-II, d-I"
       ],
       "answer": "A",
       "exam": null,
@@ -4406,19 +4418,19 @@
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "आई माता"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "जीण माता"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "कंठेसरी माता"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "करणी माता"
           }
         ],
@@ -4460,10 +4472,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "1-ii, 2-iii, 3-iv, 4-i",
-        "1-i, 2-ii, 3-iii, 4-iv",
-        "1-iv, 2-ii, 3-iii, 4-i",
-        "1-iii, 2-i, 3-ii, 4-iv"
+        "a-II, b-III, c-IV, d-I",
+        "a-I, b-II, c-III, d-IV",
+        "a-IV, b-II, c-III, d-I",
+        "a-III, b-I, c-II, d-IV"
       ],
       "answer": "A",
       "exam": null,
@@ -4476,37 +4488,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "गोगाजी"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "पाबूजी"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "हड़बूजी"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "फत्ताजी"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "सांथू"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "ददरेवा"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "कोलू"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "भूंडोल"
           }
         ],
@@ -4524,10 +4536,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "1-iv, 2-i, 3-ii, 4-iii",
-        "1-ii, 2-i, 3-iv, 4-iii",
-        "1-iv, 2-iii, 3-i, 4-ii",
-        "1-iv, 2-iii, 3-ii, 4-i"
+        "a-IV, b-I, c-II, d-III",
+        "a-II, b-I, c-IV, d-III",
+        "a-IV, b-III, c-I, d-II",
+        "a-IV, b-III, c-II, d-I"
       ],
       "answer": "D",
       "exam": null,
@@ -4540,37 +4552,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "करणी माता"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "सकराय माता"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "आई माता"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "नारायणी माता"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "नाई"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "सीरवी"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "खण्डेलवाल"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "चारण"
           }
         ],
@@ -4660,10 +4672,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "1, 2, 3, 4",
-        "2, 1, 4, 3",
-        "3, 4, 1, 2",
-        "1, 2, 4, 3"
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-I, c-IV, d-III",
+        "a-III, b-IV, c-I, d-II",
+        "a-I, b-II, c-IV, d-III"
       ],
       "answer": "D",
       "exam": null,
@@ -4676,37 +4688,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "तल्लीनाथ"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "तेजाजी"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "देवनारायणजी"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "पाबूजी"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "पांचोटा, जालौर"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "परबतसर, नागौर"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "कोलू गांव, फलौदी"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "आसींद, भीलवाड़ासही"
           }
         ],
@@ -4868,10 +4880,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "निम्नलिखित संयोजनों का मिलान कीजिये :",
       "options": [
-        "a-1, B-2, C-3, D-4",
-        "a-3, B-4, C-1, D-2",
-        "a-2, B-1, C-4, D-3",
-        "a-4, B-3, C-1, D-2"
+        "a-I, b-II, c-III, d-IV",
+        "a-III, b-IV, c-I, d-II",
+        "a-II, b-I, c-IV, d-III",
+        "a-IV, b-III, c-I, d-II"
       ],
       "answer": "A",
       "exam": null,
@@ -4884,37 +4896,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "रामदेव जी"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "गोगा जी"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "तेजा जी"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "पाबू जी"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "लीला"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "नीली घोड़ी"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "लीलन"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "केसर कालमी"
           }
         ],
@@ -4956,10 +4968,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "निम्नलिखित कुलदेवी को उनके संबंधित राजवंश से मिलान कीजिए :",
       "options": [
-        "1-क, 2-ख, 3-ग, 4-घ",
-        "1-ख, 2-ग, 3-घ, 4-क",
-        "1-घ, 2-ग, 3-ख, 4-क",
-        "1-घ, 2-ख, 3-ग, 4-क"
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-III, c-IV, d-I",
+        "a-IV, b-III, c-II, d-I",
+        "a-IV, b-II, c-III, d-I"
       ],
       "answer": "C",
       "exam": null,
@@ -4972,37 +4984,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "स्वांगिया माता"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "करणी माता"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "ज्वाला माता"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "आशापुरा माता"
           }
         ],
         "right": [
           {
-            "id": "क",
+            "id": "I",
             "text": "नाडोल के चौहान"
           },
           {
-            "id": "ख",
+            "id": "II",
             "text": "खंगारोट"
           },
           {
-            "id": "ग",
+            "id": "III",
             "text": "चारण"
           },
           {
-            "id": "घ",
+            "id": "IV",
             "text": "भाटी"
           }
         ],
@@ -5188,10 +5200,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "निम्नलिखित माता को उनके संबंधित स्थान के साथ सुमेलित कीजिए :",
       "options": [
-        "1-A, 2-B, 3-C, 4-D",
-        "1-B, 2-A, 3-C, 4-D",
-        "1-B, 2-C, 3-A, 4-D",
-        "1-D, 2-B, 3-C, 4-A"
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-I, c-III, d-IV",
+        "a-II, b-III, c-I, d-IV",
+        "a-IV, b-II, c-III, d-I"
       ],
       "answer": "A",
       "exam": null,
@@ -5204,37 +5216,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "छींक माता"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "रक्तदंतिका"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "त्रिपुर सुंदरी"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "मरमी"
           }
         ],
         "right": [
           {
-            "id": "A",
+            "id": "I",
             "text": "गोपाल जी का रास्ता, जयपुर"
           },
           {
-            "id": "B",
+            "id": "II",
             "text": "संथुर, बूंदी"
           },
           {
-            "id": "C",
+            "id": "III",
             "text": "तलवाड़ा, बांसवाड़ा"
           },
           {
-            "id": "D",
+            "id": "IV",
             "text": "रश्मि, चित्तौड़गढ़"
           }
         ],
@@ -6260,10 +6272,10 @@
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "a-i, B-ii, D-iii, C-iv",
-        "a-i, B-ii, C-iii, D-iv",
-        "I, A-ii, D-iii, C-iv",
-        "I, D-ii, A-iii, B-iv"
+        "a-I, b-II, c-IV, d-III",
+        "a-I, b-II, c-III, d-IV",
+        "a-II, c-IV, d-III",
+        "a-III, b-IV, d-II"
       ],
       "answer": "A",
       "exam": null,
@@ -6276,37 +6288,37 @@
       "meta": {
         "left": [
           {
-            "id": "i",
+            "id": "a",
             "text": "तल्लीनाथ"
           },
           {
-            "id": "ii",
+            "id": "b",
             "text": "तेजाजी"
           },
           {
-            "id": "iii",
+            "id": "c",
             "text": "देवनारायणजी"
           },
           {
-            "id": "iv",
+            "id": "d",
             "text": "पाबूजी"
           }
         ],
         "right": [
           {
-            "id": "A",
+            "id": "I",
             "text": "पाँचोटा गाँव (जालौर)"
           },
           {
-            "id": "B",
+            "id": "II",
             "text": "परबतसर (नागौर)"
           },
           {
-            "id": "C",
+            "id": "III",
             "text": "कोलू गाँव (फलौदी)"
           },
           {
-            "id": "D",
+            "id": "IV",
             "text": "आसींद (भीलवाड़ा)सही"
           }
         ],

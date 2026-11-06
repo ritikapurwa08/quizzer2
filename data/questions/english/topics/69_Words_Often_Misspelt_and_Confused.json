@@ -87,10 +87,10 @@
       "masterTopic": "Words Often Misspelt and Confused",
       "question": "Match the following often confused words with their appropriate meanings.\n| i. Breach | A. a piece of jewellery with a pin on the back. |\n| --- | --- |\n| ii. Breech | B. failure to do something that must be done. |\n| iii. Broach | C. talking about a subject that is embarrassing. |\n| iv. Brooch | D. The part of a gun where bullets are loaded. |\n\n i ii iii iv",
       "options": [
-        "D B A C",
-        "B D C A",
-        "B D A C",
-        "B A C D"
+        "a-III, d-II",
+        "b-IV, c-I",
+        "a-III, b-IV",
+        "b-I, c-IV"
       ],
       "answer": "B",
       "answerIndex": 1,

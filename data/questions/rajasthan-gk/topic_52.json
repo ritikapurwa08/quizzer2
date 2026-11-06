@@ -11,10 +11,10 @@
       "masterTopic": "राजस्थान राज्य वित्त आयोग (RSFC)",
       "question": "सूची-1 को सूची-2 के साथ सुमेलित कीजिये :",
       "options": [
-        "(ii) (iii) (iv) (i)",
-        "(i) (ii) (iii) (iv)",
-        "(iv) (i) (ii) (iii)",
-        "(iii) (iv) (i) (ii)"
+        "a-II, b-III, c-IV, d-I",
+        "a-I, b-II, c-III, d-IV",
+        "a-IV, b-I, c-II, d-III",
+        "a-III, b-IV, c-I, d-II"
       ],
       "answer": "C",
       "exam": "SUB INSPECTOR COMB. COMP. EXAM - 2025 (6 April 2026)",
@@ -45,19 +45,19 @@
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "श्री हीरालाल देवपुरा"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "श्री मानिकचन्द सुराना"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "डॉ. बी.डी. कल्ला"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "श्री के.के. गोयल"
           }
         ],
@@ -74,10 +74,10 @@
       "masterTopic": "राजस्थान राज्य वित्त आयोग (RSFC)",
       "question": "नीचे दिए गए कूट का उपयोग करके सूची-I को सूची-II के साथ सुमेलित कीजिए :",
       "options": [
-        "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)",
-        "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
-        "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
-        "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)"
+        "a-IV, b-I, c-III, d-II",
+        "a-III, b-IV, c-II, d-I",
+        "a-II, b-IV, c-I, d-III",
+        "a-III, b-II, c-IV, d-I"
       ],
       "answer": "B",
       "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
@@ -103,24 +103,24 @@
           },
           {
             "id": "d",
-            "text": "पांचवां वित्त आयोगसूची-II (अध्यक्ष)"
+            "text": "पांचवां वित्त आयोग"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "ज्योति किरण"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "बी.डी. कल्ला"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "हीरालाल देवपुरा"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "माणिक चंद सुराणा"
           }
         ],

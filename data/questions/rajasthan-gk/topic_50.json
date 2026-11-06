@@ -1068,10 +1068,10 @@
       "masterTopic": "राजस्थान राज्य मानवाधिकार आयोग (RSHRC)",
       "question": "निम्नलिखित सूची A को सूची-B से सुमेलित कीजिये :",
       "options": [
-        "ii iii i iv",
-        "iii i iv ii",
-        "ii i iii iv",
-        "i iii iv ii"
+        "a-II, b-III, c-I, d-IV",
+        "a-III, b-I, c-IV, d-II",
+        "a-II, b-I, c-III, d-IV",
+        "a-I, b-III, c-IV, d-II"
       ],
       "answer": "C",
       "exam": "Sr. Teacher Gr II Comp. Exam - (G.K. & Edu. Psychology) Group C",
@@ -1084,37 +1084,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "मानवाधिकार संरक्षण अधिनियम"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "राज्य मानवाधिकार आयोग का गठन"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "मानवाधिकार संरक्षण (संशोधन) अधिनियम"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "राजस्थान राज्य मानवाधिकार आयोग के बारे में अधिसूचना"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "2000"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "1993"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "2006"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "1999सही विकल्प चुनिए : A B C D"
           }
         ],

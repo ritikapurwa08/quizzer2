@@ -113,7 +113,7 @@
         "a-I, b-III, c-IV, d-II",
         "a-IV, b-I, c-II, d-III"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "3rd Grade Teacher Sanskrit ( L-1 )",
       "year": 2025,
       "explanation": "अजरक प्रिंट → बाड़मेरपिछवाइयां (पिचवाई पेंटिंग) → नाथद्वाराकाले काष्ठ खिलौने → बस्सी (चित्तौड़गढ़ क्षेत्र)प्रस्तर खिलौने → गलियाकोट",
@@ -174,10 +174,10 @@
       "options": [
         "a-I, b-III, c-II, d-IV",
         "a-II, b-I, c-III, d-IV",
-        "a-IV b-II, c-I, d-III",
+        "a-IV, b-II, c-I, d-III",
         "a-IV, b-III, c-I, d-II"
       ],
-      "answer": "A",
+      "answer": "D",
       "exam": "3rd Grade Teacher Sanskrit ( L-1 )",
       "year": 2025,
       "explanation": "बंधेज साड़ी → जयपुर (जयपुरी बंधेज प्रसिद्ध)मसूरिया साड़ी → कोटा (कोटा की मसूरिया साड़ी प्रसिद्ध है)लघुचित्र उत्कीर्णन (Miniature Painting) → चुरू (शेखावाटी क्षेत्र में लघुचित्रकला की परंपरा)ऊंट की खाल से नक्काशीदार सुराही → बीकानेर (बीकानेर की प्रसिद्ध ऊंट चमड़े की कारीगरी)",
@@ -241,7 +241,7 @@
         "a-I, b-II, c-IV, d-III",
         "a-III, b-IV, c-II, d-I"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "3rd Grade Teacher Sanskrit ( L-2 )",
       "year": 2025,
       "explanation": "ब्लू पोटरी : जयपुर की विश्व प्रसिद्ध नीली मिट्टी की कला (Blue Pottery)।श्याम काष्ठ खिलौने : बस्सी (चित्तौड़गढ़) का प्रमुख हस्तशिल्प।कागजी पोटरी : अलवर (रामगढ़ क्षेत्र) की प्रसिद्ध पतली मिट्टी की पॉटरी, जो कागज की तरह हल्की और नाजुक होती है।कसीदे वाली सुराही : बीकानेर का विशेष हस्तशिल्प।",
@@ -372,12 +372,12 @@
       "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
       "question": "कलाकृतियों को उनके उद्भव/प्रसिद्ध जिला से मिलान करें :",
       "options": [
-        "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
-        "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
-        "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
-        "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+        "a-IV, b-III, c-II, d-I",
+        "a-II, b-III, c-IV, d-I",
+        "a-IV, b-I, c-II, d-III",
+        "a-I, b-II, c-III, d-IV"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "3rd Grade Teacher Science-Maths (L-2 )",
       "year": 2025,
       "explanation": "नील मृद्भांड (ब्लू पोट्टरी) → जयपुरथेवा कला → प्रतापगढ़उस्ता कला → बीकानेरअकोला छपाई → चित्तौड़गढ़",
@@ -406,19 +406,19 @@
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "चित्तौड़गढ़"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "जयपुर"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "प्रतापगढ़"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "बीकानेर"
           }
         ],
@@ -460,10 +460,10 @@
       "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "a-III, b - I, c - IV, d - II",
-        "a-II, b - III, c - I, d - IV",
-        "a-III, b - IV, c - I, d - II",
-        "a-I, b - II, c - III, d - IV"
+        "a-III, b-I, c-IV, d-II",
+        "a-II, b-III, c-I, d-IV",
+        "a-III, b-IV, c-I, d-II",
+        "a-I, b-II, c-III, d-IV"
       ],
       "answer": "A",
       "exam": "Village Development Officer Exam",
@@ -480,37 +480,37 @@
             "text": "ब्लू पोटरी"
           },
           {
-            "id": "I",
+            "id": "b",
             "text": "प्रतापगढ़"
           },
           {
-            "id": "b",
+            "id": "c",
             "text": "थेवा कला (काँच पर स्वर्णकारी)"
           },
           {
-            "id": "II",
+            "id": "d",
             "text": "किशनगढ़"
           }
         ],
         "right": [
           {
-            "id": "c",
+            "id": "I",
             "text": "फड़ चित्रकारी"
           },
           {
-            "id": "III",
+            "id": "II",
             "text": "जयपुर"
           },
           {
-            "id": "d",
+            "id": "III",
             "text": "लघु (miniatur"
           },
           {
-            "id": "e",
+            "id": "IV",
             "text": "चित्रकारी (बनी-ठनी शैली)"
           },
           {
-            "id": "IV",
+            "id": "V",
             "text": "भीलवाड़ा"
           }
         ],
@@ -528,10 +528,10 @@
       "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "a-II, b - IV, c - III, d - I",
-        "a-II, b - III, c - IV, d - I",
-        "a-III, b - II, c - I, d - IV",
-        "a-I, b - II, c - III, d - IV"
+        "a-II, b-IV, c-III, d-I",
+        "a-II, b-III, c-IV, d-I",
+        "a-III, b-II, c-I, d-IV",
+        "a-I, b-II, c-III, d-IV"
       ],
       "answer": "A",
       "exam": "Village Development Officer Exam",
@@ -548,25 +548,25 @@
             "text": "शकीर अली"
           },
           {
-            "id": "I",
+            "id": "b",
             "text": "लोक गायक"
           },
           {
-            "id": "b",
+            "id": "c",
             "text": "क्रिपाल सिंह शेखावत"
           },
           {
-            "id": "II",
+            "id": "d",
             "text": "लघु (miniatur"
           }
         ],
         "right": [
           {
-            "id": "e",
+            "id": "I",
             "text": "चित्रकारी"
           },
           {
-            "id": "c",
+            "id": "II",
             "text": "महेश राज सोनी"
           },
           {
@@ -574,11 +574,11 @@
             "text": "ब्लू पोटरी"
           },
           {
-            "id": "d",
+            "id": "IV",
             "text": "अल्लाह जिलाई बाई"
           },
           {
-            "id": "IV",
+            "id": "V",
             "text": "थेवा कला"
           }
         ],
@@ -1524,12 +1524,12 @@
       "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "(a) - (iv), (b) - (ii), (c) - (i), (d) - (iii)",
-        "(a) - (iii), (b) - (i), (c) - (ii), (d) - (iv)",
-        "(a) - (i), (b) - (iii), (c) - (iv), (d) - (ii)",
-        "(a) - (ii), (b) - (iv), (c) - (iii), (d) - (i)"
+        "a-IV, b-II, c-I, d-III",
+        "a-III, b-I, c-II, d-IV",
+        "a-I, b-III, c-IV, d-II",
+        "a-II, b-IV, c-III, d-I"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "Stenographer Exam (Paper - I)",
       "year": 2024,
       "explanation": "नीले मिट्टी के बर्तन और रत्न एवं आभूषण - जयपुरग्रेनाइट/संगमरमर - अजमेरकढ़ाई का कपड़ा - कोटाऑटोमोबाइल पार्ट्स - अलवर",
@@ -1558,19 +1558,19 @@
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "अजमेर"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "कोटा"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "जयपुर"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "अलवर"
           }
         ],
@@ -1612,10 +1612,10 @@
       "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
       "question": "सूची-I के साथ सूची-II का मिलान कीजिए :",
       "options": [
-        "a-IV, b - III, c - II, d - I",
-        "a-I, b - II, c - III, d - IV",
-        "a-III, b - IV, c - II, d - I",
-        "a-II, b - III, c - I, d - IV"
+        "a-IV, b-III, c-II, d-I",
+        "a-I, b-II, c-III, d-IV",
+        "a-III, b-IV, c-II, d-I",
+        "a-II, b-III, c-I, d-IV"
       ],
       "answer": "A",
       "exam": "Clerk Grade-II/ Jr. Asst. Paper -Ist",
@@ -2204,10 +2204,10 @@
       "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
       "question": "सुमेलित कीजिये :",
       "options": [
-        "(1)-(IV), (2)-(III), (3)-(II), (4)-(I)",
-        "(1)-(I), (2)-(II), (3)-(III), (4)-(IV)",
-        "(1)-(II), (2)-(III), (3)-(IV), (4)-(I)",
-        "(1)-(III), (2)-(IV), (3)-(I), (4)-(II)"
+        "a-IV, b-III, c-II, d-I",
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-III, c-IV, d-I",
+        "a-III, b-IV, c-I, d-II"
       ],
       "answer": "A",
       "exam": "CET (Graduate) 07 January Shift-1",
@@ -2220,19 +2220,19 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "अजरख प्रिंट"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "पावरलूम कपड़ों पर छपाई"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "मोठड़ा"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "मसूरिया"
           }
         ],
@@ -3180,10 +3180,10 @@
       "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "1-(ii), 2-(iv), 3-(i), 4-(iii)",
-        "1-(iii), 2-(i), 3-(iv), 4-(ii)",
-        "1-(i), 2-(ii), 3-(iii), 4-(iv)",
-        "1-(iv), 2-(ii), 3-(i), 4-(iii)"
+        "a-II, b-IV, c-I, d-III",
+        "a-III, b-I, c-IV, d-II",
+        "a-I, b-II, c-III, d-IV",
+        "a-IV, b-II, c-I, d-III"
       ],
       "answer": "D",
       "exam": "RSMSSB VDO Mains",
@@ -3196,37 +3196,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "अजरक प्रिन्ट"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "जाजम प्रिन्ट"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "पिछवाई"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "दाबू प्रिन्ट"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "नाथद्वारा"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "चित्तौड़गढ़"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "अकोला"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "बाड़मेर"
           }
         ],
@@ -4036,10 +4036,10 @@
       "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "2 5 3 1",
-        "4 3 2 5",
-        "3 2 5 4",
-        "1 4 3 2"
+        "b-V, c-I",
+        "b-V, d-III",
+        "a-III, b-II, c-V, d-IV",
+        "a-IV, c-II"
       ],
       "answer": "A",
       "exam": "RAS Pre",
@@ -4052,41 +4052,41 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "नमदा"
           },
           {
-            "id": "1",
+            "id": "b",
             "text": "जयपुर"
           },
           {
-            "id": "B",
+            "id": "c",
             "text": "डोरिया"
           },
           {
-            "id": "2",
+            "id": "d",
             "text": "टोंक"
           }
         ],
         "right": [
           {
-            "id": "C",
+            "id": "I",
             "text": "अजरक"
           },
           {
-            "id": "3",
+            "id": "II",
             "text": "बाड़मेर"
           },
           {
-            "id": "D",
+            "id": "III",
             "text": "मार्बल-मूर्ति निर्माण"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "बीकानेर"
           },
           {
-            "id": "5",
+            "id": "V",
             "text": "कोटा"
           }
         ],
@@ -4968,10 +4968,10 @@
       "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
       "question": "सुमेलित कीजिए :",
       "options": [
-        "1-iv, 2-iii, 3-ii, 4-i",
-        "1-iii, 2-iv, 3-i, 4-ii",
-        "1-iii, 2-iv, 3-ii, 4-i",
-        "1-iv, 2-iii, 3-i, 4-ii"
+        "a-IV, b-III, c-II, d-I",
+        "a-III, b-IV, c-I, d-II",
+        "a-III, b-IV, c-II, d-I",
+        "a-IV, b-III, c-I, d-II"
       ],
       "answer": "B",
       "exam": null,
@@ -4984,37 +4984,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "बादला"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "नमदा"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "पाव रजाई"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "खेसला"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "जयपुर"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "लेटा"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "जोधपुर"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "टोंक"
           }
         ],
@@ -5776,10 +5776,10 @@
       "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
       "question": "सूची-1 को सूची-2 के साथ सुमेलित कीजिए :",
       "options": [
-        "2, 1, 4, 3",
-        "4, 2, 3, 1",
-        "4, 3, 2, 1",
-        "3, 2, 4, 1"
+        "a-II, b-I, c-IV, d-III",
+        "a-IV, b-II, c-III, d-I",
+        "a-IV, b-III, c-II, d-I",
+        "a-III, b-II, c-IV, d-I"
       ],
       "answer": "C",
       "exam": null,
@@ -5792,37 +5792,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "थेवा कला"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "टेराकोटा"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "मथैरणा कला"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "ब्लू पाटरी"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "जयपुर"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "बीकानेर"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "मोलेला"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "प्रतापगढ़अ, ब, स, द"
           }
         ],
@@ -6704,10 +6704,10 @@
       "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
       "question": "निम्न को सुमेलित कीजिए :",
       "options": [
-        "1324",
-        "1234",
-        "2134",
-        "1342"
+        "a-I, b-III, c-II, d-IV",
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-I, c-III, d-IV",
+        "a-I, b-III, c-IV, d-II"
       ],
       "answer": "B",
       "exam": null,
@@ -6720,37 +6720,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "कठपुतलियां"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "नांदणे"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "तलवार"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "बादला"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "उदयपुर"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "भीलवाड़ा"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "सिरोही"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "जोधपुरकूट अ, ब, स, द"
           }
         ],

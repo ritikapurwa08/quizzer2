@@ -244,8 +244,10 @@ EXAMINATION STANDARDS & MANDATORY GUIDELINES:
 3. RIGOROUS 4-OPTION MCQ:
    - Every question must have exactly 4 grammatically parallel options.
    - Never use "None of the above" or "All of the above".
-4. SINGLE DEFINITIVE CORRECT ANSWER:
-   - Provide single unambiguous correct answer. "answer": 0 | 1 | 2 | 3 (0-indexed integer corresponding to options array).
+4. SINGLE DEFINITIVE CORRECT ANSWER & BALANCED DISTRIBUTION (CRITICAL):
+   - Provide a single unambiguous correct answer: "answer": 0 | 1 | 2 | 3 (0-indexed integer corresponding to options array).
+   - ANSWER KEY BALANCE MANDATE: Across the questions in this batch, distribute the correct answers roughly equally among indices 0, 1, 2, and 3 (approx. 25% each). NEVER default all or most answers to 0 (Option A).
+   - FOR MATCHING / LIST QUESTIONS: First determine the true factual pairing (e.g. List-I a, b, c, d with List-II I, II, III, IV). Then examine all 4 generated options ('a-II, b-IV, c-I, d-III'), find the EXACT index (0, 1, 2, or 3) that holds this correct combination, and assign that index to "answer". Place the correct combination randomly among the options (do not always place it at index 0).
 5. DUAL-LAYER BILINGUAL EXPLANATIONS ("explanation"):
    Every explanation MUST contain:
    - **Rule**: Formal citation of the English grammatical rule, syntactic formula, or literary source text.
@@ -313,7 +315,12 @@ ${taskDescription}
 ${countRule}
 2. व्याकरण, वर्तनी एवं देवनागरी लिपि की त्रुटियाँ ठीक करें।
 3. विकल्पों की स्पष्टता जाँचें: प्रत्येक प्रश्न में ठीक 4 विकल्प होने चाहिए। कोई विकल्प खाली या पुनरावृत्त (duplicate) न हो।
-4. सही उत्तर (0-आधारित सूचकांक: 0, 1, 2, या 3) की शत-प्रतिशत प्रामाणिकता सुनिश्चित करें।
+4. सही उत्तर (0-आधारित सूचकांक: 0, 1, 2, या 3) एवं संतुलित वितरण (CRITICAL):
+   - सेट के कुल 20 प्रश्नों में उत्तर कुंजी (0, 1, 2, 3) का वितरण लगभग समान (प्रति विकल्प 4-6 प्रश्न) होना चाहिए। कभी भी सभी या अधिकांश प्रश्नों में 0 (विकल्प A) न रखें।
+   - सुमेलित प्रश्न (Match the Following):
+     * सूची-I के मदों को (a, b, c, d) और सूची-II के मदों को (I, II, III, IV) से दर्शाएँ।
+     * चारों विकल्पों का प्रारूप हमेशा मानक रखें: 'a-II, b-IV, c-I, d-III' या '(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)'।
+     * CRITICAL ANSWER RULE: सुमेलित प्रश्नों में कभी भी आँख मूँद कर 'answer': 0 न लिखें! पहले व्याख्या और ऐतिहासिक/भौगोलिक तथ्यों से वास्तविक मिलान ज्ञात करें। फिर चारों विकल्पों को देखें कि वह सही कूट किस विकल्प (0 = A, 1 = B, 2 = C, 3 = D) में है, और 'answer' में ठीक वही इंडेक्स दर्ज करें। सही कूट को 0, 1, 2, 3 में यादृच्छिक (randomly) रखें।
 5. प्रत्येक प्रश्न की 1-2 पंक्तियों की प्रामाणिक एवं विस्तृत हिंदी व्याख्या (Explanation) लिखें।
 6. सेट के भीतर कोई दोहराव (intra-set repetition) न हो। यदि दो प्रश्न एक ही तथ्य पर हों, तो केवल एक सबसे अच्छा प्रश्न रखें।
 7. 'id' (जैसे "${candidateQuestions[0]?.id || "rg_000001"}") को EXACTLY वही रखें जो मूल प्रश्न में दिया गया है। इसे बदलें नहीं।

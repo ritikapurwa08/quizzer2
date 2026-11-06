@@ -36,21 +36,21 @@
             "text": "गिर"
           },
           {
-            "id": "II",
+            "id": "c",
             "text": "बाड़मेर, सांचौर, नेहड़ और जोधपुर के भाग"
           }
         ],
         "right": [
           {
-            "id": "c",
+            "id": "I",
             "text": "कांकरेज"
           },
           {
-            "id": "III",
+            "id": "II",
             "text": "जालौर, सिरोही और उदयपुर"
           },
           {
-            "id": "d",
+            "id": "III",
             "text": "सांचौरी"
           },
           {
@@ -101,7 +101,7 @@
         "a-II, b-III, c-I, d-IV",
         "a-I, b-III, c-II, d-IV"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "Lab Assistant Exam (Geography)",
       "year": 2026,
       "explanation": "सुरती : यह मूलतः गुजरात की लेकिन राजस्थान के दक्षिणी भागों में पाई जाने वाली भैंस की एक प्रमुख नस्ल है।मगरा : इसे ‘बीकानेरी चोकला’ भी कहते हैं, यह भेड़ की एक प्रमुख नस्ल है जो उत्तम ऊन के लिए जानी जाती है।लोही : यह बकरी की एक ऐसी नस्ल है जो मांस और अत्यधिक दूध उत्पादन के लिए प्रसिद्ध है।कच्छी : यह गुजरात के कच्छ के रण से सटी सीमा पर पाए जाने वाले ऊंट की एक विशिष्ट नस्ल है।",
@@ -376,10 +376,10 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "(A)-(iii), (B)-(i), (C)-(iv), (D)-(ii)",
-        "(A)-(iv), (B)-(iii), (C)-(i), (D)-(ii)",
-        "(A)-(ii), (B)-(i), (C)-(iv), (D)-(iii)",
-        "(A)-(i), (B)-(ii), (C)-(iv), (D)-(iii)"
+        "a-III, b-I, c-IV, d-II",
+        "a-IV, b-III, c-I, d-II",
+        "a-II, b-I, c-IV, d-III",
+        "a-I, b-II, c-IV, d-III"
       ],
       "answer": "A",
       "exam": "Veterinary Officer (Veterinary Deptt.) Exam -",
@@ -392,37 +392,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "गुजरी"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "मारवाड़ी"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "जखराना"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "बरबरी"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "बाड़मेर"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "भरतपुर"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "जयपुर"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "अलवर"
           }
         ],
@@ -728,10 +728,10 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची-I और सूची-II को सुमेलित कीजिए :",
       "options": [
-        "ii i iii iv",
-        "i ii iv iii",
-        "iii iv ii i",
-        "iv iii i ii"
+        "a-II, b-I, c-III, d-IV",
+        "a-I, b-II, c-IV, d-III",
+        "a-III, b-IV, c-II, d-I",
+        "a-IV, b-III, c-I, d-II"
       ],
       "answer": "A",
       "exam": "SCHOOL LECTURER (SCHOOL EDU.) GA and GS (G-E)",
@@ -744,37 +744,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "मारवाड़ी"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "मेवाड़ी"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "मेवाती"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "सूरती"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "ऊँट"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "भेड़"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "गाय"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "भैंस"
           }
         ],
@@ -1128,12 +1128,12 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "a-ii, b-i, c-iv, d-iii",
-        "a-iv, b-iii, c-ii, d-i",
-        "a-i, b-ii, c-iii, d-iv",
-        "a-i, b-iv, c-iii, d-ii"
+        "a-II, b-I, c-IV, d-III",
+        "a-IV, b-III, c-II, d-I",
+        "a-I, b-II, c-III, d-IV",
+        "a-I, b-IV, c-III, d-II"
       ],
-      "answer": "A",
+      "answer": "B",
       "exam": "Junior Instructor (Fitter) Exam",
       "year": 2024,
       "explanation": "गाय (ज़ेबुइन मवेशी) → काँकरेजभैंस → मुर्राबकरी → जमनापारीभेड़ → मालपुरा",
@@ -1162,19 +1162,19 @@
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "मालपुरा"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "जमनापारी"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "मुर्रा"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "काँकरेज"
           }
         ],
@@ -1408,12 +1408,12 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "(iii), B - (i), C - (ii), D - (iv)",
-        "(ii), B - (i), C - (iii), D - (iv)",
-        "(i), B - (iii), C - (iv), D - (ii)",
-        "(iii), B - (i), C - (iv), D - (ii)"
+        "a-III, b-I, c-II, d-IV",
+        "a-II, b-I, c-III, d-IV",
+        "a-I, b-III, c-IV, d-II",
+        "a-III, b-I, c-IV, d-II"
       ],
-      "answer": "A",
+      "answer": "C",
       "exam": "Asst. Prof. (Sanskrit College Edu.) - (Rajasthan Gk)",
       "year": 2024,
       "explanation": "जाफराबादी भैंस, गोमठ ऊँट, चनोथर भेड़, और लोही बकरी की नस्लें हैं, जो राजस्थान में लोकप्रिय हैं।",
@@ -1424,37 +1424,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "भैंस"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "ऊँट"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "भेड़"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "बकरी"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "गोमठ"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "चनोथर"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "जाफराबादी"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "लोही"
           }
         ],
@@ -1544,10 +1544,10 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची - I को सूची -II से सुमेलित कीजिए :",
       "options": [
-        "d b c a",
-        "d b a c",
-        "c b a d",
-        "b d a c"
+        "c-I, d-II",
+        "a-III, d-II",
+        "a-IV, c-II",
+        "a-III, b-IV"
       ],
       "answer": "D",
       "exam": "Assistant Professor (College Education) - Paper-III",
@@ -1560,37 +1560,37 @@
       "meta": {
         "left": [
           {
-            "id": "i",
+            "id": "a",
             "text": "सूरती"
           },
           {
-            "id": "ii",
+            "id": "b",
             "text": "मगरा"
           },
           {
-            "id": "iii",
+            "id": "c",
             "text": "बरबरी"
           },
           {
-            "id": "iv",
+            "id": "d",
             "text": "मालवी"
           }
         ],
         "right": [
           {
-            "id": "a",
+            "id": "I",
             "text": "बकरी"
           },
           {
-            "id": "b",
+            "id": "II",
             "text": "भेड़"
           },
           {
-            "id": "c",
+            "id": "III",
             "text": "गोवंश"
           },
           {
-            "id": "d",
+            "id": "IV",
             "text": "भैंस"
           }
         ],
@@ -1680,10 +1680,10 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "(iii) (i) (iv) (ii)",
-        "(ii) (iv) (iii) (i)",
-        "(ii) (iv) (i) (iii)",
-        "(iv) (iii) (i) (ii)"
+        "a-III, b-I, c-IV, d-II",
+        "a-II, b-IV, c-III, d-I",
+        "a-II, b-IV, c-I, d-III",
+        "a-IV, b-III, c-I, d-II"
       ],
       "answer": "C",
       "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - (G.K. Group - B) (Re-Exam)",
@@ -1696,37 +1696,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "भेड़"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "गौवंश"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "भैंस"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "बकरी"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "सूरती"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "नाली"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "बरबरी"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "सांचोरी"
           }
         ],
@@ -2632,10 +2632,10 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची-I का सूची-II से मिलान कीजिए :",
       "options": [
-        "1-(iii), 2-(ii), 3-(iv), 4-(i)",
-        "1-(i), 2-(ii), 3-(iv), 4-(iii)",
-        "1-(i), 2-(iii), 3-(iv), 4-(ii)",
-        "1-(iii), 2-(i), 3-(iv), 4-(ii)"
+        "a-III, b-II, c-IV, d-I",
+        "a-I, b-II, c-IV, d-III",
+        "a-I, b-III, c-IV, d-II",
+        "a-III, b-I, c-IV, d-II"
       ],
       "answer": "A",
       "exam": "VDO Exam 1st Shift 27 Dec",
@@ -2648,37 +2648,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "वीर तेजाजी"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "शिवरात्रि"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "चन्द्रभागा"
           },
           {
-            "id": "4",
-            "text": "मल्लीनाथसूची-II (स्थान)"
+            "id": "d",
+            "text": "मल्लीनाथ"
           }
         ],
         "right": [
           {
-            "id": "i",
+            "id": "I",
             "text": "बाड़मेर"
           },
           {
-            "id": "ii",
+            "id": "II",
             "text": "भरतपुर"
           },
           {
-            "id": "iii",
+            "id": "III",
             "text": "परबतसर"
           },
           {
-            "id": "iv",
+            "id": "IV",
             "text": "झालरापाटन"
           }
         ],
@@ -2744,12 +2744,12 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "जोड़ी मिलाइए :",
       "options": [
-        "a c b",
-        "c b a",
-        "a b c",
-        "b a c"
+        "a-I, b-III, c-II",
+        "a-III, b-II, c-I",
+        "a-I, b-II, c-III",
+        "a-II, b-I, c-III"
       ],
-      "answer": "C",
+      "answer": "B",
       "exam": "Stenographer Pre Exam (21 March ) (Paper I)",
       "year": 2021,
       "explanation": "डग → c. मालवीचंदन → b. थारपारकरनोहर → a. राठी",
@@ -2760,29 +2760,29 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "डग"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "चंदन"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "नोहर"
           }
         ],
         "right": [
           {
-            "id": "a",
+            "id": "I",
             "text": "राठी"
           },
           {
-            "id": "b",
+            "id": "II",
             "text": "थारपारकर"
           },
           {
-            "id": "c",
+            "id": "III",
             "text": "मालवी"
           }
         ],
@@ -3088,12 +3088,12 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "4 3 2 1",
-        "4 3 1 2",
-        "3 4 2 1",
-        "2 3 4 1"
+        "b-I, d-III",
+        "a-II, d-III",
+        "b-I, c-IV",
+        "b-III, d-I"
       ],
-      "answer": "A",
+      "answer": "D",
       "exam": "Veterinary Officer Exam",
       "year": 2019,
       "explanation": "भेड़ की नस्लें : चोकला(शेखावटी), जैसलमेरी, नाली, मगरा, मारवाड़ी, सोनाड़ी/चनोथर, पूगल, मालपुरी/अविका नगरी, खेरी नस्लऊँट की नस्लें : नांचना, गोमठ, बीकानेरी, जैसलमेरी, मेवाड़ी ऊँटगोवंश की नस्लें : गिर गाय, राठी, थारपारकर, नागौरी, कांकरेज, मेवाती/कोठी, मालवी, हरियाणवीभैंस की नस्लें : मुर्रा(कुन्नी), बदावरी, जाफाराबादी, सूरती",
@@ -3104,37 +3104,37 @@
       "meta": {
         "left": [
           {
-            "id": "A",
+            "id": "a",
             "text": "भेड़"
           },
           {
-            "id": "B",
+            "id": "b",
             "text": "गोवंश"
           },
           {
-            "id": "C",
+            "id": "c",
             "text": "ऊँट"
           },
           {
-            "id": "D",
+            "id": "d",
             "text": "भैंस"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "मुर्रा"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "नाचना"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "राठी"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "नाली"
           }
         ],
@@ -4184,10 +4184,10 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची-1 को सूची-2 से सुमेलित कीजिए :",
       "options": [
-        "3, 4, 2, 1",
-        "4, 3, 1, 2",
-        "2, 1, 3, 4,",
-        "1, 2, 4, 3"
+        "a-III, b-IV, c-II, d-I",
+        "a-IV, b-III, c-I, d-II",
+        "a-II, b-I, c-III, d-IV",
+        "a-I, b-II, c-IV, d-III"
       ],
       "answer": "A",
       "exam": null,
@@ -4200,37 +4200,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "गौवंश"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "भेड़"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "भैंस"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "बकरी"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "बड़वारी"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "मुर्रा"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "मालवी"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "नाली"
           }
         ],
@@ -4536,10 +4536,10 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची I सूची II से सुमेलित कीजिए :",
       "options": [
-        "(i) - c, (ii) - b, (iii) - a, (iv) - d",
-        "(i) - a, (ii) - b, (iii) - c, (iv) - d",
-        "(i) - a, (ii) - b, (iii) - d, (iv) - c",
-        "(i) - b, (ii) - c, (iii) - d, (iv) - a"
+        "a-III, b-II, c-I, d-IV",
+        "a-I, b-II, c-III, d-IV",
+        "a-I, b-II, c-IV, d-III",
+        "a-IV, b-I, c-II, d-III"
       ],
       "answer": "B",
       "exam": null,
@@ -4552,37 +4552,37 @@
       "meta": {
         "left": [
           {
-            "id": "i",
+            "id": "a",
             "text": "उत्तर-पश्चिमी राजस्थान"
           },
           {
-            "id": "ii",
+            "id": "b",
             "text": "दक्षिण-पश्चिमी राजस्थान"
           },
           {
-            "id": "iii",
+            "id": "c",
             "text": "पश्चिमी राजस्थान"
           },
           {
-            "id": "iv",
+            "id": "d",
             "text": "दक्षिण-पूर्व मध्यवर्ती राजस्थान"
           }
         ],
         "right": [
           {
-            "id": "a",
+            "id": "I",
             "text": "राठी"
           },
           {
-            "id": "b",
+            "id": "II",
             "text": "कांकरेज"
           },
           {
-            "id": "c",
+            "id": "III",
             "text": "थारपारकर"
           },
           {
-            "id": "d",
+            "id": "IV",
             "text": "गिर"
           }
         ],
@@ -4624,10 +4624,10 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची-1 को सूची-2 से सुमेलित कीजिये :",
       "options": [
-        ", ब, अ, स",
-        ", ब, द, अ",
-        ", स, ब, अ",
-        "ब, स, अ, द"
+        "a-IV, b-II, c-I, d-III",
+        "a-III, b-II, c-IV, d-I",
+        "a-IV, b-III, c-II, d-I",
+        "a-II, b-III, c-I, d-IV"
       ],
       "answer": "D",
       "exam": null,
@@ -4640,37 +4640,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "गौवंश"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "भैंस"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "बकरी"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "भेड़"
           }
         ],
         "right": [
           {
-            "id": "अ",
+            "id": "I",
             "text": "मालपुरा"
           },
           {
-            "id": "ब",
+            "id": "II",
             "text": "मारवाड़ी"
           },
           {
-            "id": "स",
+            "id": "III",
             "text": "मुर्राह"
           },
           {
-            "id": "द",
+            "id": "IV",
             "text": "काॅकरेज"
           }
         ],
@@ -5216,10 +5216,10 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची-1 को सूची-2 से सुमेलित कीजिए :",
       "options": [
-        ", ब, अ, द",
-        "अ, ब, स, द",
-        "अ, ब, द, स",
-        "ब, स, द, अ"
+        "a-III, b-II, c-I, d-IV",
+        "a-I, b-II, c-III, d-IV",
+        "a-I, b-II, c-IV, d-III",
+        "a-II, b-III, c-IV, d-I"
       ],
       "answer": "B",
       "exam": null,
@@ -5232,37 +5232,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "उत्तरी पश्चिमी राजस्थान"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "दक्षिणी पश्चिमी राजस्थान"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "पश्चिमी राजस्थान"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "दक्षिण पूर्व मध्यवर्ती राजस्थान"
           }
         ],
         "right": [
           {
-            "id": "अ",
+            "id": "I",
             "text": "राठी"
           },
           {
-            "id": "ब",
+            "id": "II",
             "text": "कांकरेज"
           },
           {
-            "id": "स",
+            "id": "III",
             "text": "थारपारकर"
           },
           {
-            "id": "द",
+            "id": "IV",
             "text": "गिर"
           }
         ],
@@ -5640,10 +5640,10 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "निम्नलिखित को सुमेलित कीजिये :",
       "options": [
-        "1, 2, 3, 4",
-        "2, 3, 1, 4",
-        "2, 3, 4, 1",
-        "4, 3, 2, 1"
+        "a-I, b-II, c-III, d-IV",
+        "a-II, b-III, c-I, d-IV",
+        "a-II, b-III, c-IV, d-I",
+        "a-IV, b-III, c-II, d-I"
       ],
       "answer": "C",
       "exam": null,
@@ -5656,37 +5656,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "ऊंट"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "भेड़"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "बकरी"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "गाय"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "राठी"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "बीकानेर"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "मगरा"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "झखराना"
           }
         ],
@@ -5824,10 +5824,10 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची-1 को सूची-2 से सुमेलित कीजिये :",
       "options": [
-        "3, 4, 2, 1",
-        "4, 3, 1, 2",
-        "2, 1, 3, 4",
-        "1, 2, 4, 3"
+        "a-III, b-IV, c-II, d-I",
+        "a-IV, b-III, c-I, d-II",
+        "a-II, b-I, c-III, d-IV",
+        "a-I, b-II, c-IV, d-III"
       ],
       "answer": "A",
       "exam": null,
@@ -5840,37 +5840,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "गौवंश"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "भेड़"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "भैंस"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "बकरी"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "बड़वारी"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "मुर्रा"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "मालवी"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "नाली"
           }
         ],
@@ -5936,10 +5936,10 @@
       "masterTopic": "राजस्थान का पशुपालन एवं डेयरी विकास",
       "question": "सूची-1 सूची-2 से सुमेलित कीजिए :",
       "options": [
-        "1 स, 2 ब, 3 अ, 4 द",
-        "1 अ, 2 ब, 3 स, 4 द",
-        "1 अ, 2 ब, 3 द, 4 स",
-        "1 ब, 2 स, 3 द, 4 अ"
+        "a-III, b-II, c-I, d-IV",
+        "a-I, b-II, c-III, d-IV",
+        "a-I, b-II, c-IV, d-III",
+        "a-II, b-III, c-IV, d-I"
       ],
       "answer": "B",
       "exam": null,
@@ -5952,37 +5952,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "उत्तर-पश्चिमी राजस्थान"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "दक्षिण-पश्चिम राजस्थान"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "पश्चिमी राजस्थान"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "दक्षिण-पूर्व मध्यवर्ती राजस्थान"
           }
         ],
         "right": [
           {
-            "id": "अ",
+            "id": "I",
             "text": "राठी"
           },
           {
-            "id": "ब",
+            "id": "II",
             "text": "कांकरेज"
           },
           {
-            "id": "स",
+            "id": "III",
             "text": "थारपारकर"
           },
           {
-            "id": "द",
+            "id": "IV",
             "text": "गिर"
           }
         ],

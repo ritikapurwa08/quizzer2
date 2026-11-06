@@ -15,7 +15,7 @@
         "a-II, b-IV, c-I, d-III",
         "a-I, b-IV, c-II, d-III",
         "a-III, b-I, c-II, d-IV",
-        "II. b-I, c-IV, d-III"
+        "b-I, c-IV, d-III"
       ],
       "answer": "A",
       "exam": "Lab Assistant Exam (Science)",
@@ -1612,10 +1612,10 @@
       "masterTopic": "राजस्थान की मृदा",
       "question": "सूची-1 को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "a-II, b - III, c - IV, d - I",
-        "I. b - III, c - II, d - IV",
-        "a-II, b - IV, c - I, d - III",
-        "a-I, b - III, c - IV, d - II"
+        "a-II, b-III, c-IV, d-I",
+        "b-III, c-II, d-IV",
+        "a-II, b-IV, c-I, d-III",
+        "a-I, b-III, c-IV, d-II"
       ],
       "answer": "A",
       "exam": "Animal Attendant Exam (December 2 Shift I)",
@@ -2420,10 +2420,10 @@
       "masterTopic": "राजस्थान की मृदा",
       "question": "निम्नलिखित को मिलाएं :",
       "options": [
-        "a-4, b-3, c-2,d-1",
-        "a-1, b-2, c-3,d-4",
-        "a-3, b-4, c-1,d-2",
-        "a-4, b-3, c-1, d-2"
+        "a-IV, b-III, c-II, d-I",
+        "a-I, b-II, c-III, d-IV",
+        "a-III, b-IV, c-I, d-II",
+        "a-IV, b-III, c-I, d-II"
       ],
       "answer": "A",
       "exam": "Librarian Grade III (Paper 1)",
@@ -2454,19 +2454,19 @@
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "पाली, सिरोही, सीकर, झुंझुनू"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "नागौर, बाड़मेर, जैसलमेर, बीकानेर"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "नागौर, पाली"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "नागौर, जोधपुर, पाली, जालौर, चूरू और झुंझुनू"
           }
         ],
@@ -4716,10 +4716,10 @@
       "masterTopic": "राजस्थान की मृदा",
       "question": "निम्न को सुमेलित कीजिए :",
       "options": [
-        ", अ, द, स",
-        "अ, ब, स, द",
-        ", स, ब, अ",
-        "स, द, अ, ब"
+        "a-II, b-I, c-IV, d-III",
+        "a-I, b-II, c-III, d-IV",
+        "a-IV, b-III, c-II, d-I",
+        "a-III, b-IV, c-I, d-II"
       ],
       "answer": "A",
       "exam": null,
@@ -4732,37 +4732,37 @@
       "meta": {
         "left": [
           {
-            "id": "1",
+            "id": "a",
             "text": "बलुई मृदा"
           },
           {
-            "id": "2",
+            "id": "b",
             "text": "लाल मृदा"
           },
           {
-            "id": "3",
+            "id": "c",
             "text": "काली मृदा"
           },
           {
-            "id": "4",
+            "id": "d",
             "text": "कछारी मृदा"
           }
         ],
         "right": [
           {
-            "id": "अ",
+            "id": "I",
             "text": "उदयपुर, डूंगरपुर"
           },
           {
-            "id": "ब",
+            "id": "II",
             "text": "बीकानेर, जोधपुर, बाड़मेर"
           },
           {
-            "id": "स",
+            "id": "III",
             "text": "टोंक, अलवर, धौलपुर"
           },
           {
-            "id": "द",
+            "id": "IV",
             "text": "कोटा, बारां, झालावाड़"
           }
         ],
@@ -4996,10 +4996,10 @@
       "masterTopic": "राजस्थान की मृदा",
       "question": "सूची-1 को सूची-2 से सुमेलित कीजिए :",
       "options": [
-        "1, 3, 2, 4",
-        "4, 1, 2, 3",
-        "1, 3, 4, 2",
-        "1, 2, 3, 4"
+        "a-I, b-III, c-II, d-IV",
+        "a-IV, b-I, c-II, d-III",
+        "a-I, b-III, c-IV, d-II",
+        "a-I, b-II, c-III, d-IV"
       ],
       "answer": "D",
       "exam": null,
@@ -5012,37 +5012,37 @@
       "meta": {
         "left": [
           {
-            "id": "अ",
+            "id": "a",
             "text": "इरिडीसोल्स"
           },
           {
-            "id": "ब",
+            "id": "b",
             "text": "इन्सेप्टीसोल्स"
           },
           {
-            "id": "स",
+            "id": "c",
             "text": "अल्फीसोल्स"
           },
           {
-            "id": "द",
+            "id": "d",
             "text": "वर्टीसोल्स"
           }
         ],
         "right": [
           {
-            "id": "1",
+            "id": "I",
             "text": "शुष्क एवं अर्द्ध-शुष्क"
           },
           {
-            "id": "2",
+            "id": "II",
             "text": "अर्द्ध-शुष्क एवं आर्द्र"
           },
           {
-            "id": "3",
+            "id": "III",
             "text": "उप-आर्द्र एवं आर्द्र"
           },
           {
-            "id": "4",
+            "id": "IV",
             "text": "आर्द्र एवं अति-आर्द्र"
           }
         ],

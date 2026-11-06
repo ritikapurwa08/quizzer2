@@ -5942,10 +5942,10 @@
       "masterTopic": "Tenses & Sequence of Tenses",
       "question": "Match List-I with List-II and select the correct Tense form -\nList-I:\n(i) She ........ now.\n(ii) I......... him for a long time.\n(iii) I ...... him last five years before.\n(iv) He ........ us next week.\nList-II:\n(A) had seen\n(B) will be meeting\n(C) is signing\n(D) have known",
       "options": [
-        "(i) - (D), (ii) - (A), (iii) - (C), (iv) - (B)",
-        "(i) - (A), (ii) – (B), (iii) - (D), (iv) – (C)",
-        "(i) - (B), (ii) – (C), (iii) - (D), (iv) – (A)",
-        "(i) - (C), (ii) - (D), (iii) - (A), (iv) – (B)"
+        "a-IV, b-I, c-III, d-II",
+        "a-I, b-II, c-IV, d-III",
+        "a-II, b-III, c-IV, d-I",
+        "a-III, b-IV, c-I, d-II"
       ],
       "answer": "D",
       "answerIndex": 3,

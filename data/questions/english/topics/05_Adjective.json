@@ -42,10 +42,10 @@
       "masterTopic": "Adjective",
       "question": "Given below are the sentences in which degrees of adjectives have been used. Select the correct sentences.\n1. He is the strongest man.\n2. No other musician was better than him.\n3. The crocodile is the largest of all reptiles.\n4. This place is near to my home.\nChoose the correct answer from the options given below :",
       "options": [
-        "1, 2 and 3",
-        "2 and 3",
-        "2 and 4",
-        "3 and 4"
+        "b-I, d-III",
+        "b-I, d-III",
+        "b-I, d-IV",
+        "c-I, d-IV"
       ],
       "answer": "B",
       "answerIndex": 1,
