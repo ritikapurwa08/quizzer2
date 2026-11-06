@@ -1,6 +1,6 @@
 "use client";
 
-import { FileText, Sparkles } from "lucide-react";
+import { FileText, Sparkles, BookOpen } from "lucide-react";
 import { cn, formatExamDisplay } from "@/lib/utils";
 
 export type CanonicalSourceType = "PYQ" | "AI_NEW";
@@ -152,7 +152,27 @@ export function QuestionSourceMeta({
     meta
   );
 
-  if (!hasSource) return null;
+  if (!hasSource) {
+    return (
+      <div
+        className={cn(
+          "flex min-w-0 items-center gap-1 sm:gap-1.5 text-[10.5px] sm:text-xs text-muted-foreground",
+          className
+        )}
+      >
+        <span
+          className="text-muted-foreground/40 text-[10px] sm:text-xs select-none shrink-0"
+          aria-hidden="true"
+        >
+          ·
+        </span>
+        <span className="inline-flex shrink-0 items-center gap-1 font-medium text-muted-foreground">
+          <BookOpen className="h-3 w-3 sm:h-3.5 sm:w-3.5 shrink-0 text-muted-foreground/80" />
+          <span>Practice Question</span>
+        </span>
+      </div>
+    );
+  }
 
   return (
     <div

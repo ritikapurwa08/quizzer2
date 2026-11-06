@@ -33,7 +33,10 @@ import { QuestionEditorModal } from "@/components/admin/QuestionEditorModal";
 import { LoadingSpinner } from "@/components/shared/LoadingState";
 import { Question } from "@/types";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
-import { cn } from "@/lib/utils";
+import { cn, containsDevanagari } from "@/lib/utils";
+import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
+import { stripLeadingMarker } from "@/lib/validators/question";
+import { healOptionText } from "@/lib/optionTextHealer";
 
 const SUBJECT_OPTIONS = [
   { value: "all", label: "All Subjects (सभी विषय)" },
@@ -44,12 +47,203 @@ const SUBJECT_OPTIONS = [
   { value: "English", label: "English (Paper-II)" },
 ];
 
+const QUESTION_TYPE_OPTIONS = [
+  { value: "all", label: "All Question Types (सभी प्रकार)" },
+  { value: "match_following", label: "🔗 Match the Following (सुमेलित करें)" },
+  { value: "table", label: "📊 Table Question (तालिका)" },
+  { value: "sequence", label: "🔢 Sequence (कालक्रम / क्रम)" },
+  { value: "mcq", label: "📝 Standard MCQ (बहुविकल्पीय)" },
+];
+
+interface PracticeSetOption {
+  id: string;
+  name: string;
+  questionCount: number;
+  order: number;
+}
+
+/**
+ * Renders structured question bodies (Match Following tables, Markdown/HTML tables, Sequence items)
+ * directly in the admin question card so admins immediately see what the question is asking to match.
+ */
+function QuestionStructuredBody({ question }: { question: any }) {
+  const enriched = enrichQuestionStructure(question);
+  const type = enriched?.type || "mcq";
+  const meta = enriched?.meta || {};
+
+  const isMatch =
+    type === "match_following" ||
+    Boolean(meta.left && meta.left.length > 0) ||
+    Boolean(meta.columnA && meta.columnA.length > 0);
+
+  const isTable =
+    type === "table" ||
+    Boolean(meta.headers && meta.headers.length >= 2);
+
+  const isSequence =
+    type === "sequence" ||
+    Boolean(meta.items && meta.items.length >= 2);
+
+  if (isMatch) {
+    const rawLeft = meta.left || meta.columnA || [];
+    const rawRight = meta.right || meta.columnB || [];
+    const isHindi = containsDevanagari(question.questionText || "");
+    const leftHeader = meta.leftTitle || (isHindi ? "सूची – I" : "List – I");
+    const rightHeader = meta.rightTitle || (isHindi ? "सूची – II" : "List – II");
+
+    const columnA = rawLeft.map((item: any, i: number) => {
+      const defaultId = String.fromCharCode(65 + i);
+      if (typeof item === "object" && item !== null) {
+        return {
+          id: String(item.id || defaultId).toUpperCase(),
+          text: healOptionText(stripLeadingMarker(item.text ?? item.value ?? "")),
+        };
+      }
+      return { id: defaultId, text: healOptionText(stripLeadingMarker(String(item ?? ""))) };
+    });
+
+    const columnB = rawRight.map((item: any, i: number) => {
+      const defaultId = String(i + 1);
+      if (typeof item === "object" && item !== null) {
+        return {
+          id: String(item.id || defaultId),
+          text: healOptionText(stripLeadingMarker(item.text ?? item.value ?? "")),
+        };
+      }
+      return { id: defaultId, text: healOptionText(stripLeadingMarker(String(item ?? ""))) };
+    });
+
+    const rowCount = Math.max(columnA.length, columnB.length);
+    if (rowCount === 0) return null;
+
+    return (
+      <div className="rounded-xl border border-border/80 bg-card/60 overflow-hidden shadow-2xs my-2.5">
+        <div className="grid grid-cols-2 border-b border-border bg-muted/40 text-[11px] sm:text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi divide-x divide-border/60">
+          <div className="px-3 sm:px-4 py-2 flex items-center">
+            <span>{leftHeader}</span>
+          </div>
+          <div className="px-3 sm:px-4 py-2 flex items-center">
+            <span>{rightHeader}</span>
+          </div>
+        </div>
+        <div className="divide-y divide-border/60">
+          {Array.from({ length: rowCount }).map((_, rIdx) => {
+            const itemA = columnA[rIdx];
+            const itemB = columnB[rIdx];
+            return (
+              <div key={rIdx} className="grid grid-cols-2 divide-x divide-border/60 hover:bg-muted/20 transition-colors">
+                <div className="p-2 sm:p-2.5 flex items-start gap-2">
+                  {itemA ? (
+                    <>
+                      <span className="flex h-5 w-5 sm:h-6 sm:w-6 items-center justify-center rounded-md bg-primary/10 text-primary text-[11px] sm:text-xs font-bold shrink-0 mt-0.5">
+                        {itemA.id}
+                      </span>
+                      <span className="leading-snug text-xs sm:text-sm font-normal text-foreground font-hindi flex-1 pt-0.5">
+                        {itemA.text}
+                      </span>
+                    </>
+                  ) : (
+                    <span className="text-xs text-muted-foreground/40">—</span>
+                  )}
+                </div>
+                <div className="p-2 sm:p-2.5 flex items-start gap-2">
+                  {itemB ? (
+                    <>
+                      <span className="flex h-5 w-5 sm:h-6 sm:w-6 items-center justify-center rounded-md bg-secondary text-secondary-foreground text-[11px] sm:text-xs font-bold shrink-0 mt-0.5">
+                        {itemB.id}
+                      </span>
+                      <span className="leading-snug text-xs sm:text-sm font-normal text-foreground font-hindi flex-1 pt-0.5">
+                        {itemB.text}
+                      </span>
+                    </>
+                  ) : (
+                    <span className="text-xs text-muted-foreground/40">—</span>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
+
+  if (isTable) {
+    const headers: string[] = meta.headers || [];
+    const rows: any[] = meta.rows || [];
+    if (headers.length === 0 || rows.length === 0) return null;
+
+    return (
+      <div className="overflow-x-auto rounded-xl border border-border bg-card/60 shadow-2xs my-2.5">
+        <table className="w-full text-xs sm:text-sm">
+          <thead className="bg-muted/50 border-b border-border">
+            <tr>
+              {headers.map((h, i) => (
+                <th key={i} className="px-3.5 py-2 text-left font-bold text-muted-foreground uppercase tracking-wider whitespace-nowrap">
+                  {h}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-border/60">
+            {rows.map((row: any, i: number) => (
+              <tr key={i} className="hover:bg-muted/20 transition-colors">
+                {Array.isArray(row) ? (
+                  row.map((cell: any, j: number) => (
+                    <td key={j} className="px-3.5 py-2 text-foreground font-normal font-hindi">
+                      {healOptionText(String(cell ?? ""))}
+                    </td>
+                  ))
+                ) : (
+                  <td colSpan={headers.length} className="px-3.5 py-2 text-foreground font-normal font-hindi">
+                    {healOptionText(String(row ?? ""))}
+                  </td>
+                )}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  }
+
+  if (isSequence) {
+    const rawItems: any[] = meta.items || [];
+    if (rawItems.length === 0) return null;
+
+    return (
+      <div className="space-y-1.5 rounded-xl border border-border bg-muted/30 p-3 my-2.5">
+        <div className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider mb-1.5">
+          Sequence Items (क्रमबद्ध घटक):
+        </div>
+        <div className="space-y-1.5">
+          {rawItems.map((item: any, sIdx: number) => (
+            <div key={sIdx} className="flex items-start gap-2.5 rounded-lg border border-border/70 bg-card px-3 py-1.5">
+              <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-primary/10 text-primary text-[10px] font-bold mt-0.5">
+                {item.id || String(sIdx + 1).padStart(2, "0")}
+              </span>
+              <span className="text-xs sm:text-sm text-foreground font-normal leading-snug font-hindi">
+                {healOptionText(typeof item === "string" ? item : item.text || String(item))}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  return null;
+}
+
 export default function AdminQuestionsPage() {
   // Filters
   const [searchTerm, setSearchTerm] = useState("");
   const [debouncedTerm, setDebouncedTerm] = useState("");
   const [selectedSubject, setSelectedSubject] = useState("all");
   const [selectedTopicId, setSelectedTopicId] = useState<string>("all");
+  const [selectedSetId, setSelectedSetId] = useState<string>("all");
+  const [selectedType, setSelectedType] = useState<string>("all");
+  const [availableSets, setAvailableSets] = useState<PracticeSetOption[]>([]);
   const [page, setPage] = useState(0);
 
   // Data states
@@ -72,15 +266,29 @@ export default function AdminQuestionsPage() {
     return () => clearTimeout(handler);
   }, [searchTerm]);
 
-  // Reset page when subject or topic filter changes
+  // Reset downstream filters when subject filter changes
   const handleSubjectChange = (val: string | null) => {
     setSelectedSubject(val || "all");
     setSelectedTopicId("all");
+    setSelectedSetId("all");
+    setAvailableSets([]);
     setPage(0);
   };
 
+  // Reset set filter when topic filter changes
   const handleTopicChange = (val: string | null) => {
     setSelectedTopicId(val || "all");
+    setSelectedSetId("all");
+    setPage(0);
+  };
+
+  const handleSetChange = (val: string | null) => {
+    setSelectedSetId(val || "all");
+    setPage(0);
+  };
+
+  const handleTypeChange = (val: string | null) => {
+    setSelectedType(val || "all");
     setPage(0);
   };
 
@@ -103,6 +311,8 @@ export default function AdminQuestionsPage() {
       if (debouncedTerm.trim()) params.set("term", debouncedTerm.trim());
       if (selectedSubject !== "all") params.set("subject", selectedSubject);
       if (selectedTopicId !== "all") params.set("masterTopicId", selectedTopicId);
+      if (selectedSetId !== "all") params.set("setId", selectedSetId);
+      if (selectedType !== "all") params.set("type", selectedType);
       params.set("page", String(page));
       params.set("limit", "20");
 
@@ -114,12 +324,15 @@ export default function AdminQuestionsPage() {
       setQuestions(data.questions || []);
       setTotal(data.total || 0);
       setTotalPages(data.totalPages || 1);
+      if (data.availableSets) {
+        setAvailableSets(data.availableSets);
+      }
     } catch (err: any) {
       setError(err?.message || "Failed to fetch questions");
     } finally {
       setLoading(false);
     }
-  }, [debouncedTerm, selectedSubject, selectedTopicId, page]);
+  }, [debouncedTerm, selectedSubject, selectedTopicId, selectedSetId, selectedType, page]);
 
   useEffect(() => {
     fetchQuestions();
@@ -144,10 +357,18 @@ export default function AdminQuestionsPage() {
     setSearchTerm("");
     setSelectedSubject("all");
     setSelectedTopicId("all");
+    setSelectedSetId("all");
+    setSelectedType("all");
+    setAvailableSets([]);
     setPage(0);
   };
 
-  const hasActiveFilters = debouncedTerm.trim().length > 0 || selectedSubject !== "all" || selectedTopicId !== "all";
+  const hasActiveFilters =
+    debouncedTerm.trim().length > 0 ||
+    selectedSubject !== "all" ||
+    selectedTopicId !== "all" ||
+    selectedSetId !== "all" ||
+    selectedType !== "all";
 
   return (
     <div className="space-y-6 max-w-6xl pb-16">
@@ -190,15 +411,16 @@ export default function AdminQuestionsPage() {
       </div>
 
       {/* ── Filters Card ── */}
-      <Card className="p-4 bg-card border border-border/80 rounded-2xl shadow-xs space-y-3">
+      <Card className="p-4 bg-card border border-border/80 rounded-2xl shadow-xs space-y-3.5">
+        {/* Row 1: Search Box + Question Type Filter */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-3">
           {/* Search Box */}
-          <div className="md:col-span-5 relative">
+          <div className="md:col-span-7 relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
             <Input
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Search by words, ID (rg_...), exam or explanation..."
+              placeholder="Search by keywords, ID (e.g. rg_015367), exam or explanation..."
               className="pl-9 pr-8 h-10 text-xs sm:text-sm rounded-xl bg-background border-border"
             />
             {searchTerm && (
@@ -211,11 +433,37 @@ export default function AdminQuestionsPage() {
             )}
           </div>
 
-          {/* Subject Filter */}
-          <div className="md:col-span-4">
+          {/* Question Type Filter */}
+          <div className="md:col-span-5">
+            <Select value={selectedType} onValueChange={handleTypeChange}>
+              <SelectTrigger className="h-10 text-xs sm:text-sm rounded-xl bg-background border-border font-medium">
+                <SelectValue placeholder="All Question Types">
+                  {QUESTION_TYPE_OPTIONS.find((t) => t.value === selectedType)?.label || "All Question Types"}
+                </SelectValue>
+              </SelectTrigger>
+              <SelectContent className="bg-popover border-border max-h-72">
+                {QUESTION_TYPE_OPTIONS.map((t) => (
+                  <SelectItem key={t.value} value={t.value} className="text-xs sm:text-sm cursor-pointer">
+                    {t.label}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+        </div>
+
+        {/* Row 2: 3-Tier Cascading Filter (Subject -> Topic -> Practice Set) */}
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-3 pt-2 border-t border-border/50">
+          {/* Tier 1: Subject Filter */}
+          <div className="md:col-span-4 space-y-1">
+            <label className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5">
+              <span>1. विषय (Subject)</span>
+            </label>
             <Select value={selectedSubject} onValueChange={handleSubjectChange}>
               <SelectTrigger className="h-10 text-xs sm:text-sm rounded-xl bg-background border-border">
-                <SelectValue placeholder="All Subjects" />
+                <SelectValue placeholder="All Subjects">
+                  {SUBJECT_OPTIONS.find((sub) => sub.value === selectedSubject)?.label || "All Subjects"}
+                </SelectValue>
               </SelectTrigger>
               <SelectContent className="bg-popover border-border max-h-72">
                 {SUBJECT_OPTIONS.map((sub) => (
@@ -227,11 +475,23 @@ export default function AdminQuestionsPage() {
             </Select>
           </div>
 
-          {/* Master Topic Filter */}
-          <div className="md:col-span-3">
+          {/* Tier 2: Master Topic Filter */}
+          <div className="md:col-span-4 space-y-1">
+            <label className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5">
+              <span>2. टॉपिक (Topic)</span>
+              {availableTopics.length > 0 && (
+                <span className="text-[10px] text-muted-foreground font-normal">({availableTopics.length})</span>
+              )}
+            </label>
             <Select value={selectedTopicId} onValueChange={handleTopicChange}>
               <SelectTrigger className="h-10 text-xs sm:text-sm rounded-xl bg-background border-border">
-                <SelectValue placeholder="All Topics" />
+                <SelectValue placeholder="All Topics">
+                  {selectedTopicId === "all"
+                    ? `All Topics (${availableTopics.length})`
+                    : availableTopics.find((t) => String(t.id) === selectedTopicId)
+                    ? `#${selectedTopicId} ${availableTopics.find((t) => String(t.id) === selectedTopicId)?.nameHindi}`
+                    : "All Topics"}
+                </SelectValue>
               </SelectTrigger>
               <SelectContent className="bg-popover border-border max-h-72">
                 <SelectItem value="all" className="text-xs sm:text-sm cursor-pointer font-medium">
@@ -240,6 +500,46 @@ export default function AdminQuestionsPage() {
                 {availableTopics.map((topic) => (
                   <SelectItem key={topic.id} value={String(topic.id)} className="text-xs sm:text-sm cursor-pointer">
                     #{topic.id} {topic.nameHindi}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+
+          {/* Tier 3: Practice Set Filter */}
+          <div className="md:col-span-4 space-y-1">
+            <label className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5">
+              <span>3. अभ्यास सेट (Practice Set)</span>
+              {availableSets.length > 0 && (
+                <span className="text-[10px] text-primary font-semibold">({availableSets.length} Sets)</span>
+              )}
+            </label>
+            <Select
+              value={selectedSetId}
+              onValueChange={handleSetChange}
+              disabled={selectedTopicId === "all"}
+            >
+              <SelectTrigger
+                className={cn(
+                  "h-10 text-xs sm:text-sm rounded-xl bg-background border-border",
+                  selectedTopicId === "all" && "opacity-60 cursor-not-allowed"
+                )}
+              >
+                <SelectValue placeholder={selectedTopicId === "all" ? "पहले टॉपिक चुनें (Select Topic first)" : "All Sets"}>
+                  {selectedTopicId === "all"
+                    ? "पहले टॉपिक चुनें (Select Topic first)"
+                    : selectedSetId === "all"
+                    ? `All Sets (${availableSets.length})`
+                    : availableSets.find((s) => s.id === selectedSetId)?.name || "All Sets"}
+                </SelectValue>
+              </SelectTrigger>
+              <SelectContent className="bg-popover border-border max-h-72">
+                <SelectItem value="all" className="text-xs sm:text-sm cursor-pointer font-medium">
+                  All Sets ({availableSets.length})
+                </SelectItem>
+                {availableSets.map((s) => (
+                  <SelectItem key={s.id} value={s.id} className="text-xs sm:text-sm cursor-pointer">
+                    {s.name} ({s.questionCount} Qs)
                   </SelectItem>
                 ))}
               </SelectContent>
@@ -331,9 +631,13 @@ export default function AdminQuestionsPage() {
                     <Badge variant="outline" className="text-[10px] uppercase font-semibold text-muted-foreground">
                       {q.type || "mcq"}
                     </Badge>
-                    {examInfo && (
+                    {examInfo ? (
                       <Badge className="bg-primary/10 text-primary border-primary/20 text-[10px] font-medium">
                         {examInfo}
+                      </Badge>
+                    ) : (
+                      <Badge variant="outline" className="text-[10px] font-medium text-muted-foreground/80">
+                        Practice Question
                       </Badge>
                     )}
                   </div>
@@ -350,10 +654,13 @@ export default function AdminQuestionsPage() {
 
                 {/* Question Text */}
                 <div className="text-sm sm:text-base font-medium text-foreground leading-relaxed pt-1">
-                  {q.questionText || (q as any).question || "Untitled Question"}
+                  {healOptionText(q.questionText || (q as any).question || "Untitled Question")}
                 </div>
 
-                {/* 4 Options Display */}
+                {/* Structured Question Body (Match Following 2-column table, Markdown Table, Sequence Items) */}
+                <QuestionStructuredBody question={q} />
+
+                {/* Options Display */}
                 {q.options && q.options.length > 0 && (
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
                     {q.options.map((opt, optIdx) => {
@@ -381,7 +688,7 @@ export default function AdminQuestionsPage() {
                           >
                             {letter}
                           </span>
-                          <span className="flex-1 min-w-0 leading-snug">{opt.text}</span>
+                          <span className="flex-1 min-w-0 leading-snug">{healOptionText(opt.text)}</span>
                           {isCorrect && (
                             <CheckCircle2 className="h-4 w-4 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
                           )}

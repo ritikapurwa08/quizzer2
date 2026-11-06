@@ -103,11 +103,12 @@ export function normalizeQuestion(rawQ: any, index: number = 0): HydratedQuestio
     }
   }
 
-  const meta = q.meta || {
+  const meta = {
     exam: q.exam,
     year: q.year,
     sourceTopic: q.sourceTopic || q.topic,
     masterTopicId: q.masterTopicId,
+    ...(q.meta || {}),
   };
 
   const reference = q.reference || (q.exam ? `📌 PYQ — ${q.exam}${q.year ? ` ${q.year}` : ""}` : undefined);

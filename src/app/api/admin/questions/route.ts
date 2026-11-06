@@ -6,6 +6,7 @@ import {
   getAuthoritativeQuestion,
   normalizeQuestion,
   invalidateQuestionPoolCache,
+  getPublishedManifests,
   HydratedQuestion,
 } from "@/lib/questionPool";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
@@ -13,33 +14,80 @@ import { DATA_PATHS } from "@/lib/dataPaths";
 
 export const dynamic = "force-dynamic";
 
+function getSetsForTopic(masterTopicId?: number | null): Array<{ id: string; name: string; questionCount: number; order: number }> {
+  if (!masterTopicId) return [];
+  const manifests = getPublishedManifests();
+  const topicInfo = MASTER_TOPICS_LIST.find((t) => t.id === masterTopicId);
+  const cleanTopicName = topicInfo ? topicInfo.nameHindi.replace(/\s*\(.*?\)/g, "").trim() : "";
+
+  const matching = manifests.filter((s) => {
+    if (s.masterTopicId && Number(s.masterTopicId) === masterTopicId) return true;
+    if (cleanTopicName && s.name && s.name.includes(cleanTopicName)) return true;
+    return false;
+  });
+
+  return matching
+    .map((s) => ({
+      id: s.id,
+      name: s.name,
+      questionCount: s.questionIds ? s.questionIds.length : (s.questions ? s.questions.length : 20),
+      order: s.order ?? 0,
+    }))
+    .sort((a, b) => a.order - b.order || a.name.localeCompare(b.name, undefined, { numeric: true }));
+}
+
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
     const term = searchParams.get("term")?.trim().toLowerCase() || "";
     const subject = searchParams.get("subject")?.trim() || "";
     const masterTopicIdParam = searchParams.get("masterTopicId");
-    const masterTopicId = masterTopicIdParam ? parseInt(masterTopicIdParam, 10) : null;
+    const masterTopicId = masterTopicIdParam && masterTopicIdParam !== "all" ? parseInt(masterTopicIdParam, 10) : null;
+    const setId = searchParams.get("setId")?.trim() || "";
+    const questionType = searchParams.get("type")?.trim().toLowerCase() || "";
     const page = Math.max(0, parseInt(searchParams.get("page") || "0", 10));
     const limit = Math.min(100, Math.max(1, parseInt(searchParams.get("limit") || "20", 10)));
 
-    let all = getAllQuestions();
+    let all: any[] = [];
 
-    // Filter by Master Topic if provided
-    if (masterTopicId && !isNaN(masterTopicId)) {
-      all = all.filter((q) => Number(q.masterTopicId || q.topicId) === masterTopicId);
-    } else if (subject && subject !== "all") {
-      const allowedTopicIds = new Set(
-        MASTER_TOPICS_LIST.filter(
-          (mt) =>
-            mt.subjectHindi.toLowerCase().includes(subject.toLowerCase()) ||
-            mt.subjectName.toLowerCase().includes(subject.toLowerCase())
-        ).map((mt) => mt.id)
-      );
-      all = all.filter((q) => allowedTopicIds.has(Number(q.masterTopicId || q.topicId)));
+    // 1. If a specific Practice Set is selected, load its exact questions in set order
+    if (setId && setId !== "all") {
+      const manifests = getPublishedManifests();
+      const targetSet = manifests.find((s) => s.id === setId || (s as any)._id === setId);
+      if (targetSet && targetSet.questionIds) {
+        all = targetSet.questionIds
+          .map((id) => getAuthoritativeQuestion(id))
+          .filter(Boolean);
+      } else {
+        all = [];
+      }
+    } else {
+      all = getAllQuestions();
+
+      // Filter by Master Topic if provided
+      if (masterTopicId && !isNaN(masterTopicId)) {
+        all = all.filter((q) => Number(q.masterTopicId || q.topicId) === masterTopicId);
+      } else if (subject && subject !== "all") {
+        const allowedTopicIds = new Set(
+          MASTER_TOPICS_LIST.filter(
+            (mt) =>
+              mt.subjectHindi.toLowerCase().includes(subject.toLowerCase()) ||
+              mt.subjectName.toLowerCase().includes(subject.toLowerCase())
+          ).map((mt) => mt.id)
+        );
+        all = all.filter((q) => allowedTopicIds.has(Number(q.masterTopicId || q.topicId)));
+      }
     }
 
-    // Filter by search term
+    // 2. Filter by question type if requested (e.g. match_following, table, sequence, mcq)
+    if (questionType && questionType !== "all") {
+      all = all.filter((q) => {
+        const t = (q.type || "mcq").toLowerCase();
+        return t === questionType;
+      });
+    }
+
+    // 3. Filter by search term
     if (term) {
       all = all.filter((q) => {
         const text = (q.question || q.questionText || "").toLowerCase();
@@ -55,6 +103,9 @@ export async function GET(request: NextRequest) {
     const start = page * limit;
     const paginated = all.slice(start, start + limit).map((q, idx) => normalizeQuestion(q, start + idx));
 
+    // Get sets available for the selected topic
+    const availableSets = masterTopicId ? getSetsForTopic(masterTopicId) : [];
+
     return NextResponse.json({
       success: true,
       questions: paginated,
@@ -62,6 +113,7 @@ export async function GET(request: NextRequest) {
       page,
       totalPages,
       limit,
+      availableSets,
       masterTopics: MASTER_TOPICS_LIST,
     });
   } catch (err: any) {
