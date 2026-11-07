@@ -1,7 +1,7 @@
 {
   "masterTopicId": 24,
   "masterTopic": "राजस्थान के प्रमुख व्यक्तित्व",
-  "totalAvailable": 139,
+  "totalAvailable": 136,
   "questions": [
     {
       "id": "rg_014022",
@@ -1156,30 +1156,6 @@
       "meta": {}
     },
     {
-      "id": "rg_014081",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 295,
-      "sourceTopic": "राजस्थान के प्रमुख व्यक्तित्व",
-      "masterTopicId": 24,
-      "masterTopic": "राजस्थान के प्रमुख व्यक्तित्व",
-      "question": "निम्नलिखित किस ब्रिटिश अधिकारी ने तात्यां टोपे को फांसी देने के लिए ब्रिटिश सरकार की आलोचना की थी -",
-      "options": [
-        "जेम्स आउट्रम",
-        "कर्नल हॉम्स",
-        "आई. टी. प्रिचार्ड",
-        "केप्टन सी. एल. शॉवर्स"
-      ],
-      "answer": "D",
-      "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - (G.K. Group - B) (Re-Exam)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के प्रमुख व्यक्तित्व",
-      "topicId": 24,
-      "type": "mcq",
-      "questionText": "निम्नलिखित किस ब्रिटिश अधिकारी ने तात्यां टोपे को फांसी देने के लिए ब्रिटिश सरकार की आलोचना की थी -",
-      "meta": {}
-    },
-    {
       "id": "rg_014083",
       "source": "RajasthanGyan",
       "sourceTopicId": 295,
@@ -1441,30 +1417,6 @@
       "topicId": 24,
       "type": "mcq",
       "questionText": "शिक्षा संत के रूप में प्रसिद्ध स्वामी केशवानन्द का जन्म कहाँ हुआ था -",
-      "meta": {}
-    },
-    {
-      "id": "rg_014115",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 295,
-      "sourceTopic": "राजस्थान के प्रमुख व्यक्तित्व",
-      "masterTopicId": 24,
-      "masterTopic": "राजस्थान के प्रमुख व्यक्तित्व",
-      "question": "स्वतंत्रता सेनानी सागरमल गोपा कहाँ के निवासी थे -",
-      "options": [
-        "बीकानेर",
-        "अजमेर",
-        "जैसलमेर",
-        "जोधपुर"
-      ],
-      "answer": "C",
-      "exam": "Lab Assistant Exam (Home Science)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के प्रमुख व्यक्तित्व",
-      "topicId": 24,
-      "type": "mcq",
-      "questionText": "स्वतंत्रता सेनानी सागरमल गोपा कहाँ के निवासी थे -",
       "meta": {}
     },
     {
@@ -2545,30 +2497,6 @@
       "topicId": 24,
       "type": "mcq",
       "questionText": "वीर भारत समाज की स्थापना की -",
-      "meta": {}
-    },
-    {
-      "id": "rg_014156",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 295,
-      "sourceTopic": "राजस्थान के प्रमुख व्यक्तित्व",
-      "masterTopicId": 24,
-      "masterTopic": "राजस्थान के प्रमुख व्यक्तित्व",
-      "question": "‘जैसलमेर में गुण्डाराज’ नामक पुस्तक किसने लिखी -",
-      "options": [
-        "सागरमल गोपा",
-        "डा. सीताराम लालस",
-        "समर्थदान",
-        "डा. सुधीन्द्र"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के प्रमुख व्यक्तित्व",
-      "topicId": 24,
-      "type": "mcq",
-      "questionText": "‘जैसलमेर में गुण्डाराज’ नामक पुस्तक किसने लिखी -",
       "meta": {}
     },
     {
@@ -3768,5 +3696,80 @@
       "topicFile": "topic_24.json",
       "extractionReason": "statement_or_list_in_text"
     }
-  ]
+  ],
+  "archivedVariants": [
+    {
+      "id": "rg_014081",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 295,
+      "sourceTopic": "राजस्थान के प्रमुख व्यक्तित्व",
+      "masterTopicId": 24,
+      "masterTopic": "राजस्थान के प्रमुख व्यक्तित्व",
+      "question": "निम्नलिखित किस ब्रिटिश अधिकारी ने तात्यां टोपे को फांसी देने के लिए ब्रिटिश सरकार की आलोचना की थी -",
+      "options": [
+        "जेम्स आउट्रम",
+        "कर्नल हॉम्स",
+        "आई. टी. प्रिचार्ड",
+        "केप्टन सी. एल. शॉवर्स"
+      ],
+      "answer": "D",
+      "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - (G.K. Group - B) (Re-Exam)",
+      "year": 2022,
+      "explanation": null,
+      "topic": "राजस्थान के प्रमुख व्यक्तित्व",
+      "topicId": 24,
+      "type": "mcq",
+      "questionText": "निम्नलिखित किस ब्रिटिश अधिकारी ने तात्यां टोपे को फांसी देने के लिए ब्रिटिश सरकार की आलोचना की थी -",
+      "meta": {}
+    },
+    {
+      "id": "rg_014115",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 295,
+      "sourceTopic": "राजस्थान के प्रमुख व्यक्तित्व",
+      "masterTopicId": 24,
+      "masterTopic": "राजस्थान के प्रमुख व्यक्तित्व",
+      "question": "स्वतंत्रता सेनानी सागरमल गोपा कहाँ के निवासी थे -",
+      "options": [
+        "बीकानेर",
+        "अजमेर",
+        "जैसलमेर",
+        "जोधपुर"
+      ],
+      "answer": "C",
+      "exam": "Lab Assistant Exam (Home Science)",
+      "year": 2022,
+      "explanation": null,
+      "topic": "राजस्थान के प्रमुख व्यक्तित्व",
+      "topicId": 24,
+      "type": "mcq",
+      "questionText": "स्वतंत्रता सेनानी सागरमल गोपा कहाँ के निवासी थे -",
+      "meta": {}
+    },
+    {
+      "id": "rg_014156",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 295,
+      "sourceTopic": "राजस्थान के प्रमुख व्यक्तित्व",
+      "masterTopicId": 24,
+      "masterTopic": "राजस्थान के प्रमुख व्यक्तित्व",
+      "question": "‘जैसलमेर में गुण्डाराज’ नामक पुस्तक किसने लिखी -",
+      "options": [
+        "सागरमल गोपा",
+        "डा. सीताराम लालस",
+        "समर्थदान",
+        "डा. सुधीन्द्र"
+      ],
+      "answer": "C",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के प्रमुख व्यक्तित्व",
+      "topicId": 24,
+      "type": "mcq",
+      "questionText": "‘जैसलमेर में गुण्डाराज’ नामक पुस्तक किसने लिखी -",
+      "meta": {}
+    }
+  ],
+  "totalArchivedVariants": 3
 }

@@ -1,7 +1,7 @@
 {
   "masterTopicId": 32,
   "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-  "totalAvailable": 278,
+  "totalAvailable": 269,
   "questions": [
     {
       "id": "rg_011054",
@@ -844,30 +844,6 @@
       "meta": {}
     },
     {
-      "id": "rg_011127",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "सीकर जिले का कौन-सा कस्बा पारंपरिक गोटा-किनारी उद्योग के लिए प्रसिद्ध है?",
-      "options": [
-        "नेछवा",
-        "खंडेला",
-        "खूड़",
-        "पिपराली"
-      ],
-      "answer": "B",
-      "exam": "CET (12th Level) 23 October Shift-II",
-      "year": 2024,
-      "explanation": "सीकर जिले का खंडेला कस्बा गोटा, लप्पा, लप्पी, किरण और बांकड़ी जैसे पारंपरिक गोटा-किनारी कार्य के लिए देश भर में प्रसिद्ध है।",
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "सीकर जिले का कौन-सा कस्बा पारंपरिक गोटा-किनारी उद्योग के लिए प्रसिद्ध है?",
-      "meta": {}
-    },
-    {
       "id": "rg_011130",
       "source": "RajasthanGyan",
       "sourceTopicId": 149,
@@ -1057,30 +1033,6 @@
       "topicId": 32,
       "type": "mcq",
       "questionText": "ऊँट की खाल पर की जाने वाली सुनहरी नक्काशी एवं मीनाकारी कला, जिसे मुनव्वती (मनोटी) कला कहा जाता है, कहाँ प्रसिद्ध है?",
-      "meta": {}
-    },
-    {
-      "id": "rg_011144",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "सीकर जिले का कौन-सा क्षेत्र पारंपरिक गोटा उद्योग के लिए प्रसिद्ध है?",
-      "options": [
-        "खूड़",
-        "खंडेला",
-        "पिपराली",
-        "नेछवा"
-      ],
-      "answer": "B",
-      "exam": "Supervisor(Women) -",
-      "year": 2024,
-      "explanation": "सीकर का खंडेला कस्बा गोटा-किनारी, लप्पा, लप्पी और किरण के निर्माण का राजस्थान में सबसे प्रमुख केंद्र है।",
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "सीकर जिले का कौन-सा क्षेत्र पारंपरिक गोटा उद्योग के लिए प्रसिद्ध है?",
       "meta": {}
     },
     {
@@ -2236,30 +2188,6 @@
       "meta": {}
     },
     {
-      "id": "rg_011218",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "निम्नलिखित में से राजस्थान का कौन-सा शहर ब्लैक पॉटरी के लिए प्रसिद्ध है -",
-      "options": [
-        "वाई माधोपुर",
-        "कोटपूतली",
-        "भिवाड़ी",
-        "झुंझुनू"
-      ],
-      "answer": "C",
-      "exam": "Police Constable Exam (02 July ) (Re Exam)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से राजस्थान का कौन-सा शहर ब्लैक पॉटरी के लिए प्रसिद्ध है -",
-      "meta": {}
-    },
-    {
       "id": "rg_011219",
       "source": "RajasthanGyan",
       "sourceTopicId": 149,
@@ -2812,30 +2740,6 @@
       "meta": {}
     },
     {
-      "id": "rg_011151",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "राजस्थान में कोफ्तगिरी के काम के लिए कौन-से शहर प्रसिद्ध हैं -",
-      "options": [
-        "बीकानेर एवं जोधपुर",
-        "कोटा एवं बून्दी",
-        "अलवर एवं जयपुर",
-        "झालरापाटन एवं बाराँ"
-      ],
-      "answer": "C",
-      "exam": "Computor Exam",
-      "year": 2018,
-      "explanation": null,
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "राजस्थान में कोफ्तगिरी के काम के लिए कौन-से शहर प्रसिद्ध हैं -",
-      "meta": {}
-    },
-    {
       "id": "rg_011203",
       "source": "RajasthanGyan",
       "sourceTopicId": 149,
@@ -3145,30 +3049,6 @@
       "topicId": 32,
       "type": "mcq",
       "questionText": "कठपुतलियों का निर्माण मुख्य रूप से होता है -",
-      "meta": {}
-    },
-    {
-      "id": "rg_011336",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "राजस्थान में मूर्तिकला के लिये कौन सा शहर विख्यात है-",
-      "options": [
-        "अजमेर",
-        "कोटा",
-        "भीलवाड़ा",
-        "जयपुर"
-      ],
-      "answer": "D",
-      "exam": "RPSC LDC Exam Paper I",
-      "year": 2011,
-      "explanation": null,
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "राजस्थान में मूर्तिकला के लिये कौन सा शहर विख्यात है-",
       "meta": {}
     },
     {
@@ -3844,30 +3724,6 @@
       "meta": {}
     },
     {
-      "id": "rg_011233",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "‘कावड़’ कला किस वस्तु से सम्बन्धित है -",
-      "options": [
-        "कपड़ा",
-        "लकड़ी",
-        "पत्थर",
-        "कागज"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "‘कावड़’ कला किस वस्तु से सम्बन्धित है -",
-      "meta": {}
-    },
-    {
       "id": "rg_011234",
       "source": "RajasthanGyan",
       "sourceTopicId": 149,
@@ -3913,30 +3769,6 @@
       "topicId": 32,
       "type": "mcq",
       "questionText": "राजस्थान का कौन सा क्षेत्र बेल बूटे की छपाई की परंपरागत कला के लिए जाना जाता है -",
-      "meta": {}
-    },
-    {
-      "id": "rg_011241",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "राजस्थान का कौन-सा स्थान 'टाई एंड डाई' की कला के लिए प्रसिद्ध है -",
-      "options": [
-        "बाड़मेर",
-        "जयपुर",
-        "जोधपुर",
-        "नाथद्वारा"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "राजस्थान का कौन-सा स्थान 'टाई एंड डाई' की कला के लिए प्रसिद्ध है -",
       "meta": {}
     },
     {
@@ -4345,30 +4177,6 @@
       "topicId": 32,
       "type": "mcq",
       "questionText": "राजस्थान में हाथी दांत की कलात्मक चूड़ियां बनाने का प्रमुख केन्द्र है -",
-      "meta": {}
-    },
-    {
-      "id": "rg_011278",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "निम्न में से राजस्थान का कौन सा स्थान ब्लैक पाॅटरी के लिए प्रसिद्ध है -",
-      "options": [
-        "बांसवाड़ा",
-        "वाई माधोपुर",
-        "चित्तौड़गढ़",
-        "उदयपुर"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "निम्न में से राजस्थान का कौन सा स्थान ब्लैक पाॅटरी के लिए प्रसिद्ध है -",
       "meta": {}
     },
     {
@@ -4921,30 +4729,6 @@
       "topicId": 32,
       "type": "mcq",
       "questionText": "अजरख प्रिन्ट का सम्बन्ध है -",
-      "meta": {}
-    },
-    {
-      "id": "rg_011320",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "वह स्थान, जो अपने मृदा शिल्प(टेराकोटा) के लिए प्रसिद्ध है -",
-      "options": [
-        "मोलेला",
-        "कैथून",
-        "बगरू",
-        "सांगानेर"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "वह स्थान, जो अपने मृदा शिल्प(टेराकोटा) के लिए प्रसिद्ध है -",
       "meta": {}
     },
     {
@@ -7350,5 +7134,224 @@
       "topicFile": "topic_32.json",
       "extractionReason": "type: match_following"
     }
-  ]
+  ],
+  "archivedVariants": [
+    {
+      "id": "rg_011127",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "सीकर जिले का कौन-सा कस्बा पारंपरिक गोटा-किनारी उद्योग के लिए प्रसिद्ध है?",
+      "options": [
+        "नेछवा",
+        "खंडेला",
+        "खूड़",
+        "पिपराली"
+      ],
+      "answer": "B",
+      "exam": "CET (12th Level) 23 October Shift-II",
+      "year": 2024,
+      "explanation": "सीकर जिले का खंडेला कस्बा गोटा, लप्पा, लप्पी, किरण और बांकड़ी जैसे पारंपरिक गोटा-किनारी कार्य के लिए देश भर में प्रसिद्ध है।",
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "सीकर जिले का कौन-सा कस्बा पारंपरिक गोटा-किनारी उद्योग के लिए प्रसिद्ध है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_011144",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "सीकर जिले का कौन-सा क्षेत्र पारंपरिक गोटा उद्योग के लिए प्रसिद्ध है?",
+      "options": [
+        "खूड़",
+        "खंडेला",
+        "पिपराली",
+        "नेछवा"
+      ],
+      "answer": "B",
+      "exam": "Supervisor(Women) -",
+      "year": 2024,
+      "explanation": "सीकर का खंडेला कस्बा गोटा-किनारी, लप्पा, लप्पी और किरण के निर्माण का राजस्थान में सबसे प्रमुख केंद्र है।",
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "सीकर जिले का कौन-सा क्षेत्र पारंपरिक गोटा उद्योग के लिए प्रसिद्ध है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_011218",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "निम्नलिखित में से राजस्थान का कौन-सा शहर ब्लैक पॉटरी के लिए प्रसिद्ध है -",
+      "options": [
+        "वाई माधोपुर",
+        "कोटपूतली",
+        "भिवाड़ी",
+        "झुंझुनू"
+      ],
+      "answer": "C",
+      "exam": "Police Constable Exam (02 July ) (Re Exam)",
+      "year": 2022,
+      "explanation": null,
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का कौन-सा शहर ब्लैक पॉटरी के लिए प्रसिद्ध है -",
+      "meta": {}
+    },
+    {
+      "id": "rg_011151",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "राजस्थान में कोफ्तगिरी के काम के लिए कौन-से शहर प्रसिद्ध हैं -",
+      "options": [
+        "बीकानेर एवं जोधपुर",
+        "कोटा एवं बून्दी",
+        "अलवर एवं जयपुर",
+        "झालरापाटन एवं बाराँ"
+      ],
+      "answer": "C",
+      "exam": "Computor Exam",
+      "year": 2018,
+      "explanation": null,
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "राजस्थान में कोफ्तगिरी के काम के लिए कौन-से शहर प्रसिद्ध हैं -",
+      "meta": {}
+    },
+    {
+      "id": "rg_011336",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "राजस्थान में मूर्तिकला के लिये कौन सा शहर विख्यात है-",
+      "options": [
+        "अजमेर",
+        "कोटा",
+        "भीलवाड़ा",
+        "जयपुर"
+      ],
+      "answer": "D",
+      "exam": "RPSC LDC Exam Paper I",
+      "year": 2011,
+      "explanation": null,
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "राजस्थान में मूर्तिकला के लिये कौन सा शहर विख्यात है-",
+      "meta": {}
+    },
+    {
+      "id": "rg_011233",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "‘कावड़’ कला किस वस्तु से सम्बन्धित है -",
+      "options": [
+        "कपड़ा",
+        "लकड़ी",
+        "पत्थर",
+        "कागज"
+      ],
+      "answer": "B",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "‘कावड़’ कला किस वस्तु से सम्बन्धित है -",
+      "meta": {}
+    },
+    {
+      "id": "rg_011241",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "राजस्थान का कौन-सा स्थान 'टाई एंड डाई' की कला के लिए प्रसिद्ध है -",
+      "options": [
+        "बाड़मेर",
+        "जयपुर",
+        "जोधपुर",
+        "नाथद्वारा"
+      ],
+      "answer": "C",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन-सा स्थान 'टाई एंड डाई' की कला के लिए प्रसिद्ध है -",
+      "meta": {}
+    },
+    {
+      "id": "rg_011278",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "निम्न में से राजस्थान का कौन सा स्थान ब्लैक पाॅटरी के लिए प्रसिद्ध है -",
+      "options": [
+        "बांसवाड़ा",
+        "वाई माधोपुर",
+        "चित्तौड़गढ़",
+        "उदयपुर"
+      ],
+      "answer": "C",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "निम्न में से राजस्थान का कौन सा स्थान ब्लैक पाॅटरी के लिए प्रसिद्ध है -",
+      "meta": {}
+    },
+    {
+      "id": "rg_011320",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "वह स्थान, जो अपने मृदा शिल्प(टेराकोटा) के लिए प्रसिद्ध है -",
+      "options": [
+        "मोलेला",
+        "कैथून",
+        "बगरू",
+        "सांगानेर"
+      ],
+      "answer": "A",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "वह स्थान, जो अपने मृदा शिल्प(टेराकोटा) के लिए प्रसिद्ध है -",
+      "meta": {}
+    }
+  ],
+  "totalArchivedVariants": 9
 }

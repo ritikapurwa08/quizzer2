@@ -1,7 +1,7 @@
 {
   "masterTopicId": 25,
   "masterTopic": "राजस्थान की महिला व्यक्तित्व एवं पत्रकारिता",
-  "totalAvailable": 110,
+  "totalAvailable": 109,
   "questions": [
     {
       "id": "rg_014181",
@@ -1612,30 +1612,6 @@
       "meta": {}
     },
     {
-      "id": "rg_014229",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 296,
-      "sourceTopic": "प्रसिद्ध महिला व्यक्तित्व",
-      "masterTopicId": 25,
-      "masterTopic": "राजस्थान की महिला व्यक्तित्व एवं पत्रकारिता",
-      "question": "बिजौलिया और बेगूं किसान आन्दोलनों में महिलाओं का नेतृत्व किया -",
-      "options": [
-        "जानकी देवी बजाज",
-        "अंजना देवी चौधरी",
-        "लक्ष्मी देवी आचार्य",
-        "नारायणी देवी वर्मा"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": "अंजना देवी ने बिजौलिया तथा बेगूं किसान आन्दोलन में महिलाओं का नेतृत्व किया।",
-      "topic": "राजस्थान की महिला व्यक्तित्व एवं पत्रकारिता",
-      "topicId": 25,
-      "type": "mcq",
-      "questionText": "बिजौलिया और बेगूं किसान आन्दोलनों में महिलाओं का नेतृत्व किया -",
-      "meta": {}
-    },
-    {
       "id": "rg_014230",
       "source": "RajasthanGyan",
       "sourceTopicId": 296,
@@ -3107,5 +3083,32 @@
       "topicFile": "topic_25.json",
       "extractionReason": "type: match_following"
     }
-  ]
+  ],
+  "archivedVariants": [
+    {
+      "id": "rg_014229",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 296,
+      "sourceTopic": "प्रसिद्ध महिला व्यक्तित्व",
+      "masterTopicId": 25,
+      "masterTopic": "राजस्थान की महिला व्यक्तित्व एवं पत्रकारिता",
+      "question": "बिजौलिया और बेगूं किसान आन्दोलनों में महिलाओं का नेतृत्व किया -",
+      "options": [
+        "जानकी देवी बजाज",
+        "अंजना देवी चौधरी",
+        "लक्ष्मी देवी आचार्य",
+        "नारायणी देवी वर्मा"
+      ],
+      "answer": "B",
+      "exam": null,
+      "year": null,
+      "explanation": "अंजना देवी ने बिजौलिया तथा बेगूं किसान आन्दोलन में महिलाओं का नेतृत्व किया।",
+      "topic": "राजस्थान की महिला व्यक्तित्व एवं पत्रकारिता",
+      "topicId": 25,
+      "type": "mcq",
+      "questionText": "बिजौलिया और बेगूं किसान आन्दोलनों में महिलाओं का नेतृत्व किया -",
+      "meta": {}
+    }
+  ],
+  "totalArchivedVariants": 1
 }
