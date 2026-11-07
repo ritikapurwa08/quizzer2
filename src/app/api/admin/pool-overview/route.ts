@@ -191,27 +191,36 @@ export async function GET() {
       }
     }
 
-    return NextResponse.json({
-      success: true,
-      summary: {
-        totalMasterTopics: topicsList.length,
-        totalSubjects: GK_SECTIONS.length,
-        totalPoolQuestions: grandPoolTotal,
-        totalLiveQuestions: grandLiveQuestions,
-        totalLiveSets: grandLiveSets,
-        totalUniqueUsed: grandUniqueUsed,
-        totalRemaining: Math.max(0, grandPoolTotal - grandUniqueUsed),
-        totalDuplicatesInDb: 0,
-        duplicateReport: [],
+    return NextResponse.json(
+      {
+        success: true,
+        summary: {
+          totalMasterTopics: topicsList.length,
+          totalSubjects: GK_SECTIONS.length,
+          totalPoolQuestions: grandPoolTotal,
+          totalLiveQuestions: grandLiveQuestions,
+          totalLiveSets: grandLiveSets,
+          totalUniqueUsed: grandUniqueUsed,
+          totalRemaining: Math.max(0, grandPoolTotal - grandUniqueUsed),
+          totalDuplicatesInDb: 0,
+          duplicateReport: [],
+        },
+        topics: topicsList,
+        sections: GK_SECTIONS.map((s) => ({
+          id: s.code,
+          title: s.titleHindi,
+          titleEnglish: s.titleEnglish,
+          topicCount: s.topics.length,
+        })),
       },
-      topics: topicsList,
-      sections: GK_SECTIONS.map((s) => ({
-        id: s.code,
-        title: s.titleHindi,
-        titleEnglish: s.titleEnglish,
-        topicCount: s.topics.length,
-      })),
-    });
+      {
+        headers: {
+          "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+          Pragma: "no-cache",
+          Expires: "0",
+        },
+      }
+    );
   } catch (error: any) {
     console.error("Pool overview error:", error);
     return NextResponse.json({ success: false, error: error.message }, { status: 500 });

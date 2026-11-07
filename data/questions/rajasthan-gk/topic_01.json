@@ -1,7 +1,7 @@
 {
   "masterTopicId": 1,
   "masterTopic": "राजस्थान का सामान्य ज्ञान",
-  "totalAvailable": 188,
+  "totalAvailable": 171,
   "questions": [
     {
       "id": "rg_013046",
@@ -259,30 +259,6 @@
           "clusterTopic": "राज्य पशु (चिंकारा व ऊँट)"
         }
       ]
-    },
-    {
-      "id": "rg_013069",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 282,
-      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
-      "masterTopicId": 1,
-      "masterTopic": "राजस्थान का सामान्य ज्ञान",
-      "question": "निम्नलिखित में से कौन-सा पेड़ “थार का कल्पवृक्ष” कहलाता है?",
-      "options": [
-        "आम का पेड़",
-        "गूलर का पेड़",
-        "जामुन का पेड़",
-        "खेजड़ी का पेड़"
-      ],
-      "answer": "D",
-      "exam": "Stenographer Exam (Paper - I)",
-      "year": 2024,
-      "explanation": "खेजड़ी का पेड़ राजस्थान में “थार का कल्पवृक्ष” कहलाता है जो शुष्क क्षेत्रों में जीवन का आधार है।",
-      "topic": "राजस्थान का सामान्य ज्ञान",
-      "topicId": 1,
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से कौन-सा पेड़ “थार का कल्पवृक्ष” कहलाता है?",
-      "meta": {}
     },
     {
       "id": "rg_013070",
@@ -564,36 +540,6 @@
       ]
     },
     {
-      "id": "rg_013059",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 282,
-      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
-      "masterTopicId": 1,
-      "masterTopic": "राजस्थान का सामान्य ज्ञान",
-      "question": "राजस्थान के राज्य पशु कौन-से हैं?",
-      "options": [
-        "चीता और गाय",
-        "चीता और ऊँट",
-        "चिंकारा और ऊँट",
-        "ऊँट और काला हिरण"
-      ],
-      "answer": "C",
-      "exam": "Animal Attendant Exam (December 3 Shift I)",
-      "year": 2023,
-      "explanation": "राजस्थान के दो राज्य पशु हैं: चिंकारा (वन्य श्रेणी, 1981 में घोषित) और ऊँट (पशुधन श्रेणी, 2014 में घोषित)।",
-      "topic": "राजस्थान का सामान्य ज्ञान",
-      "topicId": 1,
-      "type": "mcq",
-      "questionText": "राजस्थान के राज्य पशु कौन-से हैं?",
-      "meta": {
-        "sourceType": "PYQ"
-      },
-      "correctAnswer": "opt3",
-      "answerIndex": 2,
-      "difficulty": "medium",
-      "reference": "📌 PYQ — Animal Attendant Exam (December 3 Shift I) 2023"
-    },
-    {
       "id": "rg_015379",
       "source": "RajasthanGyan",
       "sourceTopicId": 468,
@@ -744,47 +690,6 @@
       "type": "mcq",
       "questionText": "एरडेओटिस नाइज्रीसेप्स है -",
       "meta": {}
-    },
-    {
-      "id": "rg_013083",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 282,
-      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
-      "masterTopicId": 1,
-      "masterTopic": "राजस्थान का सामान्य ज्ञान",
-      "question": "निम्नलिखित में से कौन-सा वन्यजीव जालौर ज़िले का आधिकारिक शुभंकर है?",
-      "options": [
-        "भालू (रीछ)",
-        "कुरजां",
-        "भारतीय भेड़िया",
-        "कब्र बिज्जू"
-      ],
-      "answer": "A",
-      "exam": "3rd Grade Teacher L1",
-      "year": 2022,
-      "explanation": "जालौर जिले का आधिकारिक शुभंकर भालू (रीछ) है। जालौर के सुंधा माता क्षेत्र में राजस्थान का पहला भालू अभयारण्य स्थापित किया गया है।",
-      "topic": "राजस्थान का सामान्य ज्ञान",
-      "topicId": 1,
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से कौन-सा वन्यजीव जालौर ज़िले का आधिकारिक शुभंकर है?",
-      "meta": {},
-      "similarQuestions": [
-        {
-          "id": "rg_013070",
-          "question": "वन विभाग, राजस्थान द्वारा जालोर जिले के लिए निम्नलिखित में से कौन-सा वन्यजीव शुभंकर निर्धारित किया गया है?",
-          "options": [
-            "नेवला",
-            "भालू (रीछ)",
-            "गोडावण",
-            "खरगोश"
-          ],
-          "answer": "B",
-          "explanation": "वन्यजीव संरक्षण के प्रति जागरूकता बढ़ाने के लिए वन विभाग ने जालोर जिले का शुभंकर ‘भालू’ (रीछ) को घोषित किया है।",
-          "exam": "Asst. Prof. (Sanskrit College Edu.) - (Rajasthan Gk)",
-          "year": 2024,
-          "clusterTopic": "जालौर शुभंकर भालू"
-        }
-      ]
     },
     {
       "id": "rg_013088",
@@ -1186,30 +1091,6 @@
       "topicId": 1,
       "type": "mcq",
       "questionText": "‘रेगिस्तान का जहाज’ किसे कहा जाता है?",
-      "meta": {}
-    },
-    {
-      "id": "rg_013099",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 282,
-      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
-      "masterTopicId": 1,
-      "masterTopic": "राजस्थान का सामान्य ज्ञान",
-      "question": "राजस्थान का राज्य-पुष्प निम्नलिखित में से कौन-सा है?",
-      "options": [
-        "पलास",
-        "कचनार",
-        "कमल",
-        "रोहिड़ा"
-      ],
-      "answer": "D",
-      "exam": "Raj Police Constable Exam (7 Nov S-1)",
-      "year": 2020,
-      "explanation": "रोहिड़ा (टेकोमेला अंडुलेटा) को 21 अक्टूबर 1983 को राजस्थान का राज्य पुष्प घोषित किया गया था। इसे 'मरुशोभा' भी कहते हैं।",
-      "topic": "राजस्थान का सामान्य ज्ञान",
-      "topicId": 1,
-      "type": "mcq",
-      "questionText": "राजस्थान का राज्य-पुष्प निम्नलिखित में से कौन-सा है?",
       "meta": {}
     },
     {
@@ -1835,94 +1716,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "rg_013103",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 282,
-      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
-      "masterTopicId": 1,
-      "masterTopic": "राजस्थान का सामान्य ज्ञान",
-      "question": "काला हिरण राजस्थान के किस जिले का आधिकारिक शुभंकर है?",
-      "options": [
-        "जयपुर",
-        "चूरू",
-        "भीलवाड़ा",
-        "बाड़मेर"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": "ताल छापर अभयारण्य के लिए प्रसिद्ध चूरू जिले का आधिकारिक वन्यजीव शुभंकर काला हिरण (Blackbuck) है।",
-      "topic": "राजस्थान का सामान्य ज्ञान",
-      "topicId": 1,
-      "type": "mcq",
-      "questionText": "काला हिरण राजस्थान के किस जिले का आधिकारिक शुभंकर है?",
-      "meta": {}
-    },
-    {
-      "id": "rg_013105",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 282,
-      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
-      "masterTopicId": 1,
-      "masterTopic": "राजस्थान का सामान्य ज्ञान",
-      "question": "राजस्थान के राज्य वृक्ष 'खेजड़ी' पर भारत सरकार द्वारा किस वर्ष 60 पैसे का विशेष डाक टिकट जारी किया गया था?",
-      "options": [
-        "1983",
-        "1988",
-        "1991",
-        "1998"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": "5 जून 1988 को विश्व पर्यावरण दिवस के अवसर पर भारत सरकार के डाक विभाग द्वारा खेजड़ी वृक्ष के सम्मान में 60 पैसे का डाक टिकट जारी किया गया था।",
-      "topic": "राजस्थान का सामान्य ज्ञान",
-      "topicId": 1,
-      "type": "mcq",
-      "questionText": "राजस्थान के राज्य वृक्ष 'खेजड़ी' पर भारत सरकार द्वारा किस वर्ष 60 पैसे का विशेष डाक टिकट जारी किया गया था?",
-      "meta": {},
-      "similarQuestions": [
-        {
-          "id": "rg_013071_alt",
-          "question": "विश्व पर्यावरण दिवस (5 जून 1988) के अवसर पर राजस्थान के किस वृक्ष पर 60 पैसे का डाक टिकट जारी किया गया था?",
-          "options": [
-            "खेजड़ी",
-            "रोहिड़ा",
-            "पीपल",
-            "बरगद"
-          ],
-          "answer": "A",
-          "explanation": "5 जून 1988 को भारत सरकार द्वारा राजस्थान के राज्य वृक्ष खेजड़ी पर 60 पैसे का डाक टिकट जारी किया गया था।",
-          "exam": "📌 PYQ",
-          "year": null
-        }
-      ]
-    },
-    {
-      "id": "rg_013106",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 282,
-      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
-      "masterTopicId": 1,
-      "masterTopic": "राजस्थान का सामान्य ज्ञान",
-      "question": "राजस्थान सरकार के वन विभाग द्वारा जारी वन्यजीव शुभंकरों का कौन-सा युग्म गलत है?",
-      "options": [
-        "अलवर — बाघ",
-        "भीलवाड़ा — मोर",
-        "भरतपुर — सारस",
-        "जालौर — भालू"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": "अलवर जिले का वन्यजीव शुभंकर सांभर है, जबकि बाघ सवाई माधोपुर जिले का शुभंकर है।",
-      "topic": "राजस्थान का सामान्य ज्ञान",
-      "topicId": 1,
-      "type": "mcq",
-      "questionText": "राजस्थान सरकार के वन विभाग द्वारा जारी वन्यजीव शुभंकरों का कौन-सा युग्म गलत है?",
-      "meta": {}
-    },
-    {
       "id": "rg_013108",
       "source": "RajasthanGyan",
       "sourceTopicId": 282,
@@ -2384,47 +2177,6 @@
       "meta": {}
     },
     {
-      "id": "rg_015313",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 468,
-      "sourceTopic": "राजस्थान के प्रमुख स्थानों के उपनाम",
-      "masterTopicId": 1,
-      "masterTopic": "राजस्थान का सामान्य ज्ञान",
-      "question": "वस्त्र निर्माण एवं निर्यात में अग्रणी होने के कारण 'राजस्थान का मैनचेस्टर' किसे कहा जाता है?",
-      "options": [
-        "भरतपुर",
-        "ब्यावर",
-        "भीलवाड़ा",
-        "अजमेर"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": "भीलवाड़ा को भारत में सूती एवं सिंथेटिक वस्त्र उत्पादन का प्रमुख केंद्र होने के कारण 'राजस्थान का मैनचेस्टर' और 'वस्त्र नगरी' कहा जाता है।",
-      "topic": "राजस्थान का सामान्य ज्ञान",
-      "topicId": 1,
-      "type": "mcq",
-      "questionText": "वस्त्र निर्माण एवं निर्यात में अग्रणी होने के कारण 'राजस्थान का मैनचेस्टर' किसे कहा जाता है?",
-      "meta": {},
-      "similarQuestions": [
-        {
-          "id": "rg_015372",
-          "question": "भीलवाड़ा को वस्त्र उद्योग में अग्रणी होने के कारण 'राजस्थान का _____ ' कहा जाता है।",
-          "options": [
-            "ऑक्सफोर्ड",
-            "डेट्रॉइट",
-            "ज्यूरिख",
-            "मैनचेस्टर"
-          ],
-          "answer": "D",
-          "explanation": "भीलवाड़ा को भारत व राजस्थान में वृहद स्तर पर कपड़ा उत्पादन के कारण 'राजस्थान का मैनचेस्टर' और 'टेक्सटाइल सिटी' कहा जाता है।",
-          "exam": "RPSC EO/ RO Exam Shift-2",
-          "year": 2022,
-          "clusterTopic": "भीलवाड़ा राजस्थान का मैनचेस्टर"
-        }
-      ]
-    },
-    {
       "id": "rg_015314",
       "source": "RajasthanGyan",
       "sourceTopicId": 468,
@@ -2521,32 +2273,6 @@
       "meta": {}
     },
     {
-      "id": "rg_015318",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 468,
-      "sourceTopic": "राजस्थान के प्रमुख स्थानों के उपनाम",
-      "masterTopicId": 1,
-      "masterTopic": "राजस्थान का सामान्य ज्ञान",
-      "question": "नर्मदा नहर परियोजना और जल प्रवाह क्षेत्रों के कारण 'राजस्थान का पंजाब' किसे कहा जाता है?",
-      "options": [
-        "सांचौर",
-        "आहोर",
-        "भीनमाल",
-        "बागोड़ा"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": "पांच छोटी नदियों (नालों) के प्रवाह क्षेत्र एवं उपजाऊ भूमि के कारण सांचौर को 'राजस्थान का पंजाब' कहा जाता है।",
-      "topic": "राजस्थान का सामान्य ज्ञान",
-      "topicId": 1,
-      "type": "mcq",
-      "questionText": "नर्मदा नहर परियोजना और जल प्रवाह क्षेत्रों के कारण 'राजस्थान का पंजाब' किसे कहा जाता है?",
-      "meta": {},
-      "correctAnswer": "opt1",
-      "answerIndex": 0
-    },
-    {
       "id": "rg_015319",
       "source": "RajasthanGyan",
       "sourceTopicId": 468,
@@ -2640,30 +2366,6 @@
       "topicId": 1,
       "type": "mcq",
       "questionText": "बालोतरा के सिवाना पर्वतीय क्षेत्र में स्थित गोलाकार पहाड़ियों को किस नाम से जाना जाता है?",
-      "meta": {}
-    },
-    {
-      "id": "rg_015327",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 468,
-      "sourceTopic": "राजस्थान के प्रमुख स्थानों के उपनाम",
-      "masterTopicId": 1,
-      "masterTopic": "राजस्थान का सामान्य ज्ञान",
-      "question": "तीव्र ढाल वाली उबड़-खाबड़ पहाडि़याँ पुर्वी सिराही की स्थानिय भाषा में कहलाती है-",
-      "options": [
-        "नाल",
-        "मगरा",
-        "भाकर",
-        "गिरवा"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": "पूर्वी सिरोही में अरावली की तीव्र ढाल वाली उबड़-खाबड़ पर्वत श्रेणियों को स्थानीय रूप से 'भाकर' कहा जाता है।",
-      "topic": "राजस्थान का सामान्य ज्ञान",
-      "topicId": 1,
-      "type": "mcq",
-      "questionText": "तीव्र ढाल वाली उबड़-खाबड़ पहाडि़याँ पुर्वी सिराही की स्थानिय भाषा में कहलाती है-",
       "meta": {}
     },
     {
@@ -3640,68 +3342,6 @@
       "meta": {}
     },
     {
-      "id": "rg_015628",
-      "source": "Convex Live Set",
-      "sourceTopic": "General Knowledge",
-      "masterTopicId": 1,
-      "masterTopic": "General Knowledge",
-      "question": "मुहावरे 'तिल को ताड़ बणाणौ' का सही अर्थ क्या है?",
-      "options": [
-        "कृषि में अधिक उपज प्राप्त करना",
-        "किसी अत्यंत छोटी या साधारण सी बात को बहुत अधिक तूल देकर बड़ा बना देना",
-        "विवाद को शांतिपूर्वक निपटाना",
-        "असंभव कार्य को संभव कर दिखाना"
-      ],
-      "answer": "B",
-      "explanation": "तिल जैसी सूक्ष्म बात को ताड़ के पेड़ जितना विशाल बना देना; अर्थात् छोटी सी घटना को बढ़ा-चढ़ाकर बड़ा विवाद खड़ा कर देना।",
-      "exam": "RPSC 2nd Grade",
-      "year": 2019,
-      "subject": "gk",
-      "repeatCount": 1,
-      "variantIds": [],
-      "inConvex": true,
-      "convexIds": [
-        "k5769rc732nagaa5j1pjatrsb98fnndc"
-      ],
-      "convexTestSetIds": [
-        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
-      ],
-      "type": "mcq",
-      "questionText": "मुहावरे 'तिल को ताड़ बणाणौ' का सही अर्थ क्या है?",
-      "meta": {}
-    },
-    {
-      "id": "rg_015623",
-      "source": "Convex Live Set",
-      "sourceTopic": "General Knowledge",
-      "masterTopicId": 1,
-      "masterTopic": "General Knowledge",
-      "question": "राजस्थानी मुहावरे 'छाती माथै मूंग दळणा' का सही अर्थ क्या है?",
-      "options": [
-        "अन्न की पिसाई करना",
-        "किसी के बिल्कुल सामने रहकर उसे निरंतर अत्यधिक कष्ट व संताप देना",
-        "अतिथियों का मान-सम्मान करना",
-        "शारीरिक व्यायाम करना"
-      ],
-      "answer": "B",
-      "explanation": "सामने उपस्थित रहकर जान-बूझकर ऐसे कार्य करना जिससे विरोधी या परिजन को निरंतर मानसिक क्लेश और संताप हो।",
-      "exam": "RPSC Sub Inspector",
-      "year": 2021,
-      "subject": "gk",
-      "repeatCount": 1,
-      "variantIds": [],
-      "inConvex": true,
-      "convexIds": [
-        "k576fzfhdvnf6ehm4vg07rpkkd8fn67v"
-      ],
-      "convexTestSetIds": [
-        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
-      ],
-      "type": "mcq",
-      "questionText": "राजस्थानी मुहावरे 'छाती माथै मूंग दळणा' का सही अर्थ क्या है?",
-      "meta": {}
-    },
-    {
       "id": "rg_015624",
       "source": "Convex Live Set",
       "sourceTopic": "General Knowledge",
@@ -3854,68 +3494,6 @@
       ],
       "type": "mcq",
       "questionText": "राजस्थानी कहावत 'बंदर की पूंछ बारै बरस नळी में राखी तौ ई टेढ़ी की टेढ़ी' का क्या अर्थ है?",
-      "meta": {}
-    },
-    {
-      "id": "rg_015619",
-      "source": "Convex Live Set",
-      "sourceTopic": "General Knowledge",
-      "masterTopicId": 1,
-      "masterTopic": "General Knowledge",
-      "question": "मुहावरे 'खूंटा रो बळ' का सटीक अर्थ क्या है?",
-      "options": [
-        "स्वयं के बाहुबल पर निर्भर रहना",
-        "किसी बड़े, प्रभावशाली अथवा समर्थ संरक्षक का बल या सहारा होना",
-        "पशुओं को बाँधने की अटूट रस्सी",
-        "अत्यधिक कमजोर सहारा होना"
-      ],
-      "answer": "B",
-      "explanation": "बछड़ा खूँटे के बल पर ही कूदता है। जब किसी व्यक्ति को किसी शक्तिशाली सत्ता, नेता या संरक्षक का वरदहस्त प्राप्त होता है, तो उसे 'खूंटा रो बळ' कहते हैं।",
-      "exam": "RPSC RAS Pre",
-      "year": 2021,
-      "subject": "gk",
-      "repeatCount": 1,
-      "variantIds": [],
-      "inConvex": true,
-      "convexIds": [
-        "k577qqz5p2xhrf392gckqv0vcx8fmwng"
-      ],
-      "convexTestSetIds": [
-        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
-      ],
-      "type": "mcq",
-      "questionText": "मुहावरे 'खूंटा रो बळ' का सटीक अर्थ क्या है?",
-      "meta": {}
-    },
-    {
-      "id": "rg_015621",
-      "source": "Convex Live Set",
-      "sourceTopic": "General Knowledge",
-      "masterTopicId": 1,
-      "masterTopic": "General Knowledge",
-      "question": "राजस्थानी मुहावरे 'घड़ै पांणी पड़णौ' का सही अर्थ क्या है?",
-      "options": [
-        "घड़े को शीतल जल से भरना",
-        "अत्यंत लज्जित या शर्मिंदा हो जाना",
-        "प्यास से व्याकुल होना",
-        "धार्मिक उत्सव पर कलश स्थापित करना"
-      ],
-      "answer": "B",
-      "explanation": "'घड़ों पानी पड़ना' का अर्थ है किसी अनुचित कृत्य या भेद खुल जाने पर ग्लानि और लज्जा से पानी-पानी हो जाना।",
-      "exam": "RPSC 2nd Grade",
-      "year": 2018,
-      "subject": "gk",
-      "repeatCount": 1,
-      "variantIds": [],
-      "inConvex": true,
-      "convexIds": [
-        "k57825a8fc93kzh130a56yq3cn8fmddz"
-      ],
-      "convexTestSetIds": [
-        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
-      ],
-      "type": "mcq",
-      "questionText": "राजस्थानी मुहावरे 'घड़ै पांणी पड़णौ' का सही अर्थ क्या है?",
       "meta": {}
     },
     {
@@ -4260,37 +3838,6 @@
       "meta": {}
     },
     {
-      "id": "rg_015650",
-      "source": "Convex Live Set",
-      "sourceTopic": "General Knowledge",
-      "masterTopicId": 1,
-      "masterTopic": "General Knowledge",
-      "question": "लोकोक्ति 'आप भला तो जग भला' का सही भावार्थ क्या है?",
-      "options": [
-        "संसार में केवल अपने स्वार्थ को प्राथमिकता देना",
-        "जो व्यक्ति स्वयं भला, निष्कपट और सदाचारी होता है, उसे सारा संसार ही अच्छा प्रतीत होता है",
-        "दूसरों की भलाई के लिए स्वयं कष्ट सहना",
-        "संसार के सभी लोग एक समान स्वभाव के होते हैं"
-      ],
-      "answer": "B",
-      "explanation": "मनुष्य की अपनी दृष्टि और आचरण जैसा होता है, उसे बाह्य जगत भी वैसा ही दिखाई देता है। स्वयं नेक होने पर सभी भले लगते हैं।",
-      "exam": "RSMSSB CET",
-      "year": 2023,
-      "subject": "gk",
-      "repeatCount": 1,
-      "variantIds": [],
-      "inConvex": true,
-      "convexIds": [
-        "k57cy8r1ce8tfqkc05mj84mp6x8fmxh3"
-      ],
-      "convexTestSetIds": [
-        "kd740kwfs2k6hs089b6ye76r358fm7j5"
-      ],
-      "type": "mcq",
-      "questionText": "लोकोक्ति 'आप भला तो जग भला' का सही भावार्थ क्या है?",
-      "meta": {}
-    },
-    {
       "id": "rg_015645",
       "source": "Convex Live Set",
       "sourceTopic": "General Knowledge",
@@ -4322,37 +3869,6 @@
       "meta": {}
     },
     {
-      "id": "rg_015640",
-      "source": "Convex Live Set",
-      "sourceTopic": "General Knowledge",
-      "masterTopicId": 1,
-      "masterTopic": "General Knowledge",
-      "question": "राजस्थानी मुहावरे 'मूंछ मरोड़णी' का सही अर्थ क्या है?",
-      "options": [
-        "शारीरिक शृंगार करना",
-        "गर्व, ऐंठ अथवा अहंकार का प्रदर्शन करना",
-        "भयभीत होकर पराजय स्वीकार करना",
-        "दूसरों के सामने याचना करना"
-      ],
-      "answer": "B",
-      "explanation": "'मूंछ मरोड़ना' पौरुष, गर्व या घमंड का प्रदर्शन करने का प्रतीक मुहावरा है।",
-      "exam": "RSMSSB LDC",
-      "year": 2018,
-      "subject": "gk",
-      "repeatCount": 1,
-      "variantIds": [],
-      "inConvex": true,
-      "convexIds": [
-        "k57d6vnm632drk7zyr45q1zc8h8fmm9g"
-      ],
-      "convexTestSetIds": [
-        "kd740kwfs2k6hs089b6ye76r358fm7j5"
-      ],
-      "type": "mcq",
-      "questionText": "राजस्थानी मुहावरे 'मूंछ मरोड़णी' का सही अर्थ क्या है?",
-      "meta": {}
-    },
-    {
       "id": "rg_015635",
       "source": "Convex Live Set",
       "sourceTopic": "General Knowledge",
@@ -4381,37 +3897,6 @@
       ],
       "type": "mcq",
       "questionText": "लोकोक्ति 'पीर बावरिया आपै ही मूंतै, आपै ही पाँव धोवै' का भावार्थ क्या है?",
-      "meta": {}
-    },
-    {
-      "id": "rg_015632",
-      "source": "Convex Live Set",
-      "sourceTopic": "General Knowledge",
-      "masterTopicId": 1,
-      "masterTopic": "General Knowledge",
-      "question": "मुहावरे 'नाक कटणी' का सही अर्थ क्या है?",
-      "options": [
-        "शरीर के अंग में गंभीर चोट लगना",
-        "समाज या कुल में भारी बदनामी, अपयश और प्रतिष्ठा की हानि होना",
-        "दूसरों का मान-सम्मान बढ़ाना",
-        "अचानक कोई गंभीर रोग होना"
-      ],
-      "answer": "B",
-      "explanation": "नाक मान-प्रतिष्ठा की प्रतीक होती है। नाक कटना अर्थात् किसी निंदनीय कृत्य के कारण समाज में कुल की मर्यादा और मान का नष्ट हो जाना।",
-      "exam": "RPSC 1st Grade",
-      "year": 2020,
-      "subject": "gk",
-      "repeatCount": 1,
-      "variantIds": [],
-      "inConvex": true,
-      "convexIds": [
-        "k57dns0ccxk9y4s5bxp50v9hh98fnrk0"
-      ],
-      "convexTestSetIds": [
-        "kd740kwfs2k6hs089b6ye76r358fm7j5"
-      ],
-      "type": "mcq",
-      "questionText": "मुहावरे 'नाक कटणी' का सही अर्थ क्या है?",
       "meta": {}
     },
     {
@@ -4970,6 +4455,521 @@
   ],
   "archivedVariants": [
     {
+      "id": "rg_013069",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 282,
+      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
+      "masterTopicId": 1,
+      "masterTopic": "राजस्थान का सामान्य ज्ञान",
+      "question": "निम्नलिखित में से कौन-सा पेड़ “थार का कल्पवृक्ष” कहलाता है?",
+      "options": [
+        "आम का पेड़",
+        "गूलर का पेड़",
+        "जामुन का पेड़",
+        "खेजड़ी का पेड़"
+      ],
+      "answer": "D",
+      "exam": "Stenographer Exam (Paper - I)",
+      "year": 2024,
+      "explanation": "खेजड़ी का पेड़ राजस्थान में “थार का कल्पवृक्ष” कहलाता है जो शुष्क क्षेत्रों में जीवन का आधार है।",
+      "topic": "राजस्थान का सामान्य ज्ञान",
+      "topicId": 1,
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा पेड़ “थार का कल्पवृक्ष” कहलाता है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_013059",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 282,
+      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
+      "masterTopicId": 1,
+      "masterTopic": "राजस्थान का सामान्य ज्ञान",
+      "question": "राजस्थान के राज्य पशु कौन-से हैं?",
+      "options": [
+        "चीता और गाय",
+        "चीता और ऊँट",
+        "चिंकारा और ऊँट",
+        "ऊँट और काला हिरण"
+      ],
+      "answer": "C",
+      "exam": "Animal Attendant Exam (December 3 Shift I)",
+      "year": 2023,
+      "explanation": "राजस्थान के दो राज्य पशु हैं: चिंकारा (वन्य श्रेणी, 1981 में घोषित) और ऊँट (पशुधन श्रेणी, 2014 में घोषित)।",
+      "topic": "राजस्थान का सामान्य ज्ञान",
+      "topicId": 1,
+      "type": "mcq",
+      "questionText": "राजस्थान के राज्य पशु कौन-से हैं?",
+      "meta": {
+        "sourceType": "PYQ"
+      },
+      "correctAnswer": "opt3",
+      "answerIndex": 2,
+      "difficulty": "medium",
+      "reference": "📌 PYQ — Animal Attendant Exam (December 3 Shift I) 2023"
+    },
+    {
+      "id": "rg_013083",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 282,
+      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
+      "masterTopicId": 1,
+      "masterTopic": "राजस्थान का सामान्य ज्ञान",
+      "question": "निम्नलिखित में से कौन-सा वन्यजीव जालौर ज़िले का आधिकारिक शुभंकर है?",
+      "options": [
+        "भालू (रीछ)",
+        "कुरजां",
+        "भारतीय भेड़िया",
+        "कब्र बिज्जू"
+      ],
+      "answer": "A",
+      "exam": "3rd Grade Teacher L1",
+      "year": 2022,
+      "explanation": "जालौर जिले का आधिकारिक शुभंकर भालू (रीछ) है। जालौर के सुंधा माता क्षेत्र में राजस्थान का पहला भालू अभयारण्य स्थापित किया गया है।",
+      "topic": "राजस्थान का सामान्य ज्ञान",
+      "topicId": 1,
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा वन्यजीव जालौर ज़िले का आधिकारिक शुभंकर है?",
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_013070",
+          "question": "वन विभाग, राजस्थान द्वारा जालोर जिले के लिए निम्नलिखित में से कौन-सा वन्यजीव शुभंकर निर्धारित किया गया है?",
+          "options": [
+            "नेवला",
+            "भालू (रीछ)",
+            "गोडावण",
+            "खरगोश"
+          ],
+          "answer": "B",
+          "explanation": "वन्यजीव संरक्षण के प्रति जागरूकता बढ़ाने के लिए वन विभाग ने जालोर जिले का शुभंकर ‘भालू’ (रीछ) को घोषित किया है।",
+          "exam": "Asst. Prof. (Sanskrit College Edu.) - (Rajasthan Gk)",
+          "year": 2024,
+          "clusterTopic": "जालौर शुभंकर भालू"
+        }
+      ]
+    },
+    {
+      "id": "rg_013099",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 282,
+      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
+      "masterTopicId": 1,
+      "masterTopic": "राजस्थान का सामान्य ज्ञान",
+      "question": "राजस्थान का राज्य-पुष्प निम्नलिखित में से कौन-सा है?",
+      "options": [
+        "पलास",
+        "कचनार",
+        "कमल",
+        "रोहिड़ा"
+      ],
+      "answer": "D",
+      "exam": "Raj Police Constable Exam (7 Nov S-1)",
+      "year": 2020,
+      "explanation": "रोहिड़ा (टेकोमेला अंडुलेटा) को 21 अक्टूबर 1983 को राजस्थान का राज्य पुष्प घोषित किया गया था। इसे 'मरुशोभा' भी कहते हैं।",
+      "topic": "राजस्थान का सामान्य ज्ञान",
+      "topicId": 1,
+      "type": "mcq",
+      "questionText": "राजस्थान का राज्य-पुष्प निम्नलिखित में से कौन-सा है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_013103",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 282,
+      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
+      "masterTopicId": 1,
+      "masterTopic": "राजस्थान का सामान्य ज्ञान",
+      "question": "काला हिरण राजस्थान के किस जिले का आधिकारिक शुभंकर है?",
+      "options": [
+        "जयपुर",
+        "चूरू",
+        "भीलवाड़ा",
+        "बाड़मेर"
+      ],
+      "answer": "B",
+      "exam": null,
+      "year": null,
+      "explanation": "ताल छापर अभयारण्य के लिए प्रसिद्ध चूरू जिले का आधिकारिक वन्यजीव शुभंकर काला हिरण (Blackbuck) है।",
+      "topic": "राजस्थान का सामान्य ज्ञान",
+      "topicId": 1,
+      "type": "mcq",
+      "questionText": "काला हिरण राजस्थान के किस जिले का आधिकारिक शुभंकर है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_013105",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 282,
+      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
+      "masterTopicId": 1,
+      "masterTopic": "राजस्थान का सामान्य ज्ञान",
+      "question": "राजस्थान के राज्य वृक्ष 'खेजड़ी' पर भारत सरकार द्वारा किस वर्ष 60 पैसे का विशेष डाक टिकट जारी किया गया था?",
+      "options": [
+        "1983",
+        "1988",
+        "1991",
+        "1998"
+      ],
+      "answer": "B",
+      "exam": null,
+      "year": null,
+      "explanation": "5 जून 1988 को विश्व पर्यावरण दिवस के अवसर पर भारत सरकार के डाक विभाग द्वारा खेजड़ी वृक्ष के सम्मान में 60 पैसे का डाक टिकट जारी किया गया था।",
+      "topic": "राजस्थान का सामान्य ज्ञान",
+      "topicId": 1,
+      "type": "mcq",
+      "questionText": "राजस्थान के राज्य वृक्ष 'खेजड़ी' पर भारत सरकार द्वारा किस वर्ष 60 पैसे का विशेष डाक टिकट जारी किया गया था?",
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_013071_alt",
+          "question": "विश्व पर्यावरण दिवस (5 जून 1988) के अवसर पर राजस्थान के किस वृक्ष पर 60 पैसे का डाक टिकट जारी किया गया था?",
+          "options": [
+            "खेजड़ी",
+            "रोहिड़ा",
+            "पीपल",
+            "बरगद"
+          ],
+          "answer": "A",
+          "explanation": "5 जून 1988 को भारत सरकार द्वारा राजस्थान के राज्य वृक्ष खेजड़ी पर 60 पैसे का डाक टिकट जारी किया गया था।",
+          "exam": "📌 PYQ",
+          "year": null
+        }
+      ]
+    },
+    {
+      "id": "rg_013106",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 282,
+      "sourceTopic": "राजस्थान के प्रतीक चिन्ह",
+      "masterTopicId": 1,
+      "masterTopic": "राजस्थान का सामान्य ज्ञान",
+      "question": "राजस्थान सरकार के वन विभाग द्वारा जारी वन्यजीव शुभंकरों का कौन-सा युग्म गलत है?",
+      "options": [
+        "अलवर — बाघ",
+        "भीलवाड़ा — मोर",
+        "भरतपुर — सारस",
+        "जालौर — भालू"
+      ],
+      "answer": "A",
+      "exam": null,
+      "year": null,
+      "explanation": "अलवर जिले का वन्यजीव शुभंकर सांभर है, जबकि बाघ सवाई माधोपुर जिले का शुभंकर है।",
+      "topic": "राजस्थान का सामान्य ज्ञान",
+      "topicId": 1,
+      "type": "mcq",
+      "questionText": "राजस्थान सरकार के वन विभाग द्वारा जारी वन्यजीव शुभंकरों का कौन-सा युग्म गलत है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015313",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 468,
+      "sourceTopic": "राजस्थान के प्रमुख स्थानों के उपनाम",
+      "masterTopicId": 1,
+      "masterTopic": "राजस्थान का सामान्य ज्ञान",
+      "question": "वस्त्र निर्माण एवं निर्यात में अग्रणी होने के कारण 'राजस्थान का मैनचेस्टर' किसे कहा जाता है?",
+      "options": [
+        "भरतपुर",
+        "ब्यावर",
+        "भीलवाड़ा",
+        "अजमेर"
+      ],
+      "answer": "C",
+      "exam": null,
+      "year": null,
+      "explanation": "भीलवाड़ा को भारत में सूती एवं सिंथेटिक वस्त्र उत्पादन का प्रमुख केंद्र होने के कारण 'राजस्थान का मैनचेस्टर' और 'वस्त्र नगरी' कहा जाता है।",
+      "topic": "राजस्थान का सामान्य ज्ञान",
+      "topicId": 1,
+      "type": "mcq",
+      "questionText": "वस्त्र निर्माण एवं निर्यात में अग्रणी होने के कारण 'राजस्थान का मैनचेस्टर' किसे कहा जाता है?",
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_015372",
+          "question": "भीलवाड़ा को वस्त्र उद्योग में अग्रणी होने के कारण 'राजस्थान का _____ ' कहा जाता है।",
+          "options": [
+            "ऑक्सफोर्ड",
+            "डेट्रॉइट",
+            "ज्यूरिख",
+            "मैनचेस्टर"
+          ],
+          "answer": "D",
+          "explanation": "भीलवाड़ा को भारत व राजस्थान में वृहद स्तर पर कपड़ा उत्पादन के कारण 'राजस्थान का मैनचेस्टर' और 'टेक्सटाइल सिटी' कहा जाता है।",
+          "exam": "RPSC EO/ RO Exam Shift-2",
+          "year": 2022,
+          "clusterTopic": "भीलवाड़ा राजस्थान का मैनचेस्टर"
+        }
+      ]
+    },
+    {
+      "id": "rg_015318",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 468,
+      "sourceTopic": "राजस्थान के प्रमुख स्थानों के उपनाम",
+      "masterTopicId": 1,
+      "masterTopic": "राजस्थान का सामान्य ज्ञान",
+      "question": "नर्मदा नहर परियोजना और जल प्रवाह क्षेत्रों के कारण 'राजस्थान का पंजाब' किसे कहा जाता है?",
+      "options": [
+        "सांचौर",
+        "आहोर",
+        "भीनमाल",
+        "बागोड़ा"
+      ],
+      "answer": "A",
+      "exam": null,
+      "year": null,
+      "explanation": "पांच छोटी नदियों (नालों) के प्रवाह क्षेत्र एवं उपजाऊ भूमि के कारण सांचौर को 'राजस्थान का पंजाब' कहा जाता है।",
+      "topic": "राजस्थान का सामान्य ज्ञान",
+      "topicId": 1,
+      "type": "mcq",
+      "questionText": "नर्मदा नहर परियोजना और जल प्रवाह क्षेत्रों के कारण 'राजस्थान का पंजाब' किसे कहा जाता है?",
+      "meta": {},
+      "correctAnswer": "opt1",
+      "answerIndex": 0
+    },
+    {
+      "id": "rg_015327",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 468,
+      "sourceTopic": "राजस्थान के प्रमुख स्थानों के उपनाम",
+      "masterTopicId": 1,
+      "masterTopic": "राजस्थान का सामान्य ज्ञान",
+      "question": "तीव्र ढाल वाली उबड़-खाबड़ पहाडि़याँ पुर्वी सिराही की स्थानिय भाषा में कहलाती है-",
+      "options": [
+        "नाल",
+        "मगरा",
+        "भाकर",
+        "गिरवा"
+      ],
+      "answer": "C",
+      "exam": null,
+      "year": null,
+      "explanation": "पूर्वी सिरोही में अरावली की तीव्र ढाल वाली उबड़-खाबड़ पर्वत श्रेणियों को स्थानीय रूप से 'भाकर' कहा जाता है।",
+      "topic": "राजस्थान का सामान्य ज्ञान",
+      "topicId": 1,
+      "type": "mcq",
+      "questionText": "तीव्र ढाल वाली उबड़-खाबड़ पहाडि़याँ पुर्वी सिराही की स्थानिय भाषा में कहलाती है-",
+      "meta": {}
+    },
+    {
+      "id": "rg_015628",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'तिल को ताड़ बणाणौ' का सही अर्थ क्या है?",
+      "options": [
+        "कृषि में अधिक उपज प्राप्त करना",
+        "किसी अत्यंत छोटी या साधारण सी बात को बहुत अधिक तूल देकर बड़ा बना देना",
+        "विवाद को शांतिपूर्वक निपटाना",
+        "असंभव कार्य को संभव कर दिखाना"
+      ],
+      "answer": "B",
+      "explanation": "तिल जैसी सूक्ष्म बात को ताड़ के पेड़ जितना विशाल बना देना; अर्थात् छोटी सी घटना को बढ़ा-चढ़ाकर बड़ा विवाद खड़ा कर देना।",
+      "exam": "RPSC 2nd Grade",
+      "year": 2019,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k5769rc732nagaa5j1pjatrsb98fnndc"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'तिल को ताड़ बणाणौ' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015623",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी मुहावरे 'छाती माथै मूंग दळणा' का सही अर्थ क्या है?",
+      "options": [
+        "अन्न की पिसाई करना",
+        "किसी के बिल्कुल सामने रहकर उसे निरंतर अत्यधिक कष्ट व संताप देना",
+        "अतिथियों का मान-सम्मान करना",
+        "शारीरिक व्यायाम करना"
+      ],
+      "answer": "B",
+      "explanation": "सामने उपस्थित रहकर जान-बूझकर ऐसे कार्य करना जिससे विरोधी या परिजन को निरंतर मानसिक क्लेश और संताप हो।",
+      "exam": "RPSC Sub Inspector",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k576fzfhdvnf6ehm4vg07rpkkd8fn67v"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी मुहावरे 'छाती माथै मूंग दळणा' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015619",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'खूंटा रो बळ' का सटीक अर्थ क्या है?",
+      "options": [
+        "स्वयं के बाहुबल पर निर्भर रहना",
+        "किसी बड़े, प्रभावशाली अथवा समर्थ संरक्षक का बल या सहारा होना",
+        "पशुओं को बाँधने की अटूट रस्सी",
+        "अत्यधिक कमजोर सहारा होना"
+      ],
+      "answer": "B",
+      "explanation": "बछड़ा खूँटे के बल पर ही कूदता है। जब किसी व्यक्ति को किसी शक्तिशाली सत्ता, नेता या संरक्षक का वरदहस्त प्राप्त होता है, तो उसे 'खूंटा रो बळ' कहते हैं।",
+      "exam": "RPSC RAS Pre",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k577qqz5p2xhrf392gckqv0vcx8fmwng"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'खूंटा रो बळ' का सटीक अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015621",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी मुहावरे 'घड़ै पांणी पड़णौ' का सही अर्थ क्या है?",
+      "options": [
+        "घड़े को शीतल जल से भरना",
+        "अत्यंत लज्जित या शर्मिंदा हो जाना",
+        "प्यास से व्याकुल होना",
+        "धार्मिक उत्सव पर कलश स्थापित करना"
+      ],
+      "answer": "B",
+      "explanation": "'घड़ों पानी पड़ना' का अर्थ है किसी अनुचित कृत्य या भेद खुल जाने पर ग्लानि और लज्जा से पानी-पानी हो जाना।",
+      "exam": "RPSC 2nd Grade",
+      "year": 2018,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57825a8fc93kzh130a56yq3cn8fmddz"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी मुहावरे 'घड़ै पांणी पड़णौ' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015650",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "लोकोक्ति 'आप भला तो जग भला' का सही भावार्थ क्या है?",
+      "options": [
+        "संसार में केवल अपने स्वार्थ को प्राथमिकता देना",
+        "जो व्यक्ति स्वयं भला, निष्कपट और सदाचारी होता है, उसे सारा संसार ही अच्छा प्रतीत होता है",
+        "दूसरों की भलाई के लिए स्वयं कष्ट सहना",
+        "संसार के सभी लोग एक समान स्वभाव के होते हैं"
+      ],
+      "answer": "B",
+      "explanation": "मनुष्य की अपनी दृष्टि और आचरण जैसा होता है, उसे बाह्य जगत भी वैसा ही दिखाई देता है। स्वयं नेक होने पर सभी भले लगते हैं।",
+      "exam": "RSMSSB CET",
+      "year": 2023,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57cy8r1ce8tfqkc05mj84mp6x8fmxh3"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "लोकोक्ति 'आप भला तो जग भला' का सही भावार्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015640",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी मुहावरे 'मूंछ मरोड़णी' का सही अर्थ क्या है?",
+      "options": [
+        "शारीरिक शृंगार करना",
+        "गर्व, ऐंठ अथवा अहंकार का प्रदर्शन करना",
+        "भयभीत होकर पराजय स्वीकार करना",
+        "दूसरों के सामने याचना करना"
+      ],
+      "answer": "B",
+      "explanation": "'मूंछ मरोड़ना' पौरुष, गर्व या घमंड का प्रदर्शन करने का प्रतीक मुहावरा है।",
+      "exam": "RSMSSB LDC",
+      "year": 2018,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57d6vnm632drk7zyr45q1zc8h8fmm9g"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी मुहावरे 'मूंछ मरोड़णी' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015632",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'नाक कटणी' का सही अर्थ क्या है?",
+      "options": [
+        "शरीर के अंग में गंभीर चोट लगना",
+        "समाज या कुल में भारी बदनामी, अपयश और प्रतिष्ठा की हानि होना",
+        "दूसरों का मान-सम्मान बढ़ाना",
+        "अचानक कोई गंभीर रोग होना"
+      ],
+      "answer": "B",
+      "explanation": "नाक मान-प्रतिष्ठा की प्रतीक होती है। नाक कटना अर्थात् किसी निंदनीय कृत्य के कारण समाज में कुल की मर्यादा और मान का नष्ट हो जाना।",
+      "exam": "RPSC 1st Grade",
+      "year": 2020,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57dns0ccxk9y4s5bxp50v9hh98fnrk0"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'नाक कटणी' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
       "id": "rg_013055",
       "source": "RajasthanGyan",
       "sourceTopicId": 282,
@@ -5508,5 +5508,5 @@
       ]
     }
   ],
-  "totalArchivedVariants": 18
+  "totalArchivedVariants": 35
 }

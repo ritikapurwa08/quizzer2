@@ -1,7 +1,7 @@
 {
   "masterTopicId": 35,
   "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-  "totalAvailable": 257,
+  "totalAvailable": 255,
   "questions": [
     {
       "id": "rg_002739",
@@ -2932,78 +2932,6 @@
       "meta": {}
     },
     {
-      "id": "rg_003000",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "निम्न में से कौन-सा वाद्य घन वाद्य नहीं है -",
-      "options": [
-        "झांझ",
-        "खडताल",
-        "मंजीरा",
-        "जंतर"
-      ],
-      "answer": "D",
-      "exam": "Asstt. Agriculture Officer Exam Paper 1",
-      "year": 2015,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35,
-      "type": "mcq",
-      "questionText": "निम्न में से कौन-सा वाद्य घन वाद्य नहीं है -",
-      "meta": {}
-    },
-    {
-      "id": "rg_003004",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "निम्न में से कौन सा तत वाद्य नहीं है-",
-      "options": [
-        "जन्तर",
-        "रवाज",
-        "सतारा",
-        "चौतारा"
-      ],
-      "answer": "C",
-      "exam": "Patwar Main Exam",
-      "year": 2015,
-      "explanation": "सतारा वाद्य यंत्र अलगोजा, बांसुरी व शहनाई का मिश्रण माना जाता है। इसमें दो बाँसुरियाँ होती है जिन्हे एक साथ फूंक मारकर बजाया जाता है। इसे जैसलमेर बाड़मेर में गडरिये मेघवाल तथा मुस्लिम बजाते है।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35,
-      "type": "mcq",
-      "questionText": "निम्न में से कौन सा तत वाद्य नहीं है-",
-      "meta": {}
-    },
-    {
-      "id": "rg_002864",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "मोरचंग है -",
-      "options": [
-        "एक सुषिर वाद्य",
-        "एक घन वाद्य",
-        "एक तत वाद्य",
-        "एक अवनद्ध वाद्य"
-      ],
-      "answer": "A",
-      "exam": "Lect. College Edu. EXAM (GK)",
-      "year": 2014,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35,
-      "type": "mcq",
-      "questionText": "मोरचंग है -",
-      "meta": {}
-    },
-    {
       "id": "rg_002998",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -3025,30 +2953,6 @@
       "topicId": 35,
       "type": "mcq",
       "questionText": "फड़ बांचते समय किस वाद्य यंत्र का प्रयोग किया जाता है -",
-      "meta": {}
-    },
-    {
-      "id": "rg_002862",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "निम्नलिखित में से कौनसा सुषिर वाद्य है -",
-      "options": [
-        "रावणहत्था",
-        "जंतर",
-        "सतारा",
-        "सूरमण्डल"
-      ],
-      "answer": "C",
-      "exam": "Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35,
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से कौनसा सुषिर वाद्य है -",
       "meta": {}
     },
     {
@@ -3961,30 +3865,6 @@
       "topicId": 35,
       "type": "mcq",
       "questionText": "राजस्थान में ‘पावंड़ा’ लोकगीत किस अवसर पर गाया जाता है -",
-      "meta": {}
-    },
-    {
-      "id": "rg_002924",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "राजस्थान में ‘गवरी देवी’ किस विधा के लिए जानी जाती है -",
-      "options": [
-        "ख्याल गायन",
-        "मांड गायन",
-        "भोजपुरी गायन",
-        "पाण्डवनी गायन"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35,
-      "type": "mcq",
-      "questionText": "राजस्थान में ‘गवरी देवी’ किस विधा के लिए जानी जाती है -",
       "meta": {}
     },
     {
@@ -6473,9 +6353,201 @@
       "meta": {},
       "topicFile": "topic_35.json",
       "extractionReason": "statement_or_list_in_text"
+    },
+    {
+      "id": "rg_002892",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 31,
+      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
+      "masterTopicId": 35,
+      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "question": "निम्नलिखित में से कौन सा तत् वाद्य है -",
+      "options": [
+        "तारा",
+        "मोरचंग",
+        "रवाज",
+        "बांकिया"
+      ],
+      "answer": "C",
+      "exam": "RSMSSB VDO Mains",
+      "year": 2022,
+      "explanation": null,
+      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "topicId": 35,
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा तत् वाद्य है -",
+      "meta": {}
+    },
+    {
+      "id": "rg_002878",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 31,
+      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
+      "masterTopicId": 35,
+      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "question": "निम्नलिखित में से कौन सा मिलान सही नहीं है -",
+      "options": [
+        "रजब अली खान - वीणा वादक",
+        "आमिर खान - सितार वादक",
+        "अल्लाह जिलाई बाई - मांड गायक",
+        "रवि शंकर - नड़ वादक"
+      ],
+      "answer": "D",
+      "exam": "Junior Instructor (WC&S)",
+      "year": 2018,
+      "explanation": "रवि शंकर एक भारतीय संगीतकार और संगीतकार थे, जो सितार बजाते थे और शास्त्रीय भारतीय संगीत को पश्चिम के ध्यान में लाने के लिए जाने जाते थे।",
+      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "topicId": 35,
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा मिलान सही नहीं है -",
+      "meta": {}
+    },
+    {
+      "id": "rg_002989",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 31,
+      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
+      "masterTopicId": 35,
+      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "question": "मोरचंग है -",
+      "options": [
+        "चित्र शैली",
+        "गायनशैली",
+        "नृत्य शैली",
+        "वाद्य यंत्र"
+      ],
+      "answer": "D",
+      "exam": "Lect. College Edu. EXAM (GK)",
+      "year": 2014,
+      "explanation": null,
+      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "topicId": 35,
+      "type": "mcq",
+      "questionText": "मोरचंग है -",
+      "meta": {}
     }
   ],
   "archivedVariants": [
+    {
+      "id": "rg_003000",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 31,
+      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
+      "masterTopicId": 35,
+      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "question": "निम्न में से कौन-सा वाद्य घन वाद्य नहीं है -",
+      "options": [
+        "झांझ",
+        "खडताल",
+        "मंजीरा",
+        "जंतर"
+      ],
+      "answer": "D",
+      "exam": "Asstt. Agriculture Officer Exam Paper 1",
+      "year": 2015,
+      "explanation": null,
+      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "topicId": 35,
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा वाद्य घन वाद्य नहीं है -",
+      "meta": {}
+    },
+    {
+      "id": "rg_003004",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 31,
+      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
+      "masterTopicId": 35,
+      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "question": "निम्न में से कौन सा तत वाद्य नहीं है-",
+      "options": [
+        "जन्तर",
+        "रवाज",
+        "सतारा",
+        "चौतारा"
+      ],
+      "answer": "C",
+      "exam": "Patwar Main Exam",
+      "year": 2015,
+      "explanation": "सतारा वाद्य यंत्र अलगोजा, बांसुरी व शहनाई का मिश्रण माना जाता है। इसमें दो बाँसुरियाँ होती है जिन्हे एक साथ फूंक मारकर बजाया जाता है। इसे जैसलमेर बाड़मेर में गडरिये मेघवाल तथा मुस्लिम बजाते है।",
+      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "topicId": 35,
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा तत वाद्य नहीं है-",
+      "meta": {}
+    },
+    {
+      "id": "rg_002864",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 31,
+      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
+      "masterTopicId": 35,
+      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "question": "मोरचंग है -",
+      "options": [
+        "एक सुषिर वाद्य",
+        "एक घन वाद्य",
+        "एक तत वाद्य",
+        "एक अवनद्ध वाद्य"
+      ],
+      "answer": "A",
+      "exam": "Lect. College Edu. EXAM (GK)",
+      "year": 2014,
+      "explanation": null,
+      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "topicId": 35,
+      "type": "mcq",
+      "questionText": "मोरचंग है -",
+      "meta": {}
+    },
+    {
+      "id": "rg_002862",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 31,
+      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
+      "masterTopicId": 35,
+      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "question": "निम्नलिखित में से कौनसा सुषिर वाद्य है -",
+      "options": [
+        "रावणहत्था",
+        "जंतर",
+        "सतारा",
+        "सूरमण्डल"
+      ],
+      "answer": "C",
+      "exam": "Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "topicId": 35,
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा सुषिर वाद्य है -",
+      "meta": {}
+    },
+    {
+      "id": "rg_002924",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 31,
+      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
+      "masterTopicId": 35,
+      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "question": "राजस्थान में ‘गवरी देवी’ किस विधा के लिए जानी जाती है -",
+      "options": [
+        "ख्याल गायन",
+        "मांड गायन",
+        "भोजपुरी गायन",
+        "पाण्डवनी गायन"
+      ],
+      "answer": "B",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
+      "topicId": 35,
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘गवरी देवी’ किस विधा के लिए जानी जाती है -",
+      "meta": {}
+    },
     {
       "id": "rg_002787",
       "source": "RajasthanGyan",
@@ -6525,30 +6597,6 @@
       "meta": {}
     },
     {
-      "id": "rg_002892",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "निम्नलिखित में से कौन सा तत् वाद्य है -",
-      "options": [
-        "तारा",
-        "मोरचंग",
-        "रवाज",
-        "बांकिया"
-      ],
-      "answer": "C",
-      "exam": "RSMSSB VDO Mains",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35,
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से कौन सा तत् वाद्य है -",
-      "meta": {}
-    },
-    {
       "id": "rg_002868",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -6570,54 +6618,6 @@
       "topicId": 35,
       "type": "mcq",
       "questionText": "निम्नलिखित में से कौन सा तंत्र वाद्य नहीं है -",
-      "meta": {}
-    },
-    {
-      "id": "rg_002878",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "निम्नलिखित में से कौन सा मिलान सही नहीं है -",
-      "options": [
-        "रजब अली खान - वीणा वादक",
-        "आमिर खान - सितार वादक",
-        "अल्लाह जिलाई बाई - मांड गायक",
-        "रवि शंकर - नड़ वादक"
-      ],
-      "answer": "D",
-      "exam": "Junior Instructor (WC&S)",
-      "year": 2018,
-      "explanation": "रवि शंकर एक भारतीय संगीतकार और संगीतकार थे, जो सितार बजाते थे और शास्त्रीय भारतीय संगीत को पश्चिम के ध्यान में लाने के लिए जाने जाते थे।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35,
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से कौन सा मिलान सही नहीं है -",
-      "meta": {}
-    },
-    {
-      "id": "rg_002989",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "मोरचंग है -",
-      "options": [
-        "चित्र शैली",
-        "गायनशैली",
-        "नृत्य शैली",
-        "वाद्य यंत्र"
-      ],
-      "answer": "D",
-      "exam": "Lect. College Edu. EXAM (GK)",
-      "year": 2014,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35,
-      "type": "mcq",
-      "questionText": "मोरचंग है -",
       "meta": {}
     },
     {
@@ -6919,5 +6919,5 @@
       "extractionReason": "type: match_following"
     }
   ],
-  "totalArchivedVariants": 15
+  "totalArchivedVariants": 17
 }

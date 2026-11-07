@@ -1,7 +1,7 @@
 {
   "masterTopicId": 14,
   "masterTopic": "राजस्थान का परिवहन",
-  "totalAvailable": 148,
+  "totalAvailable": 143,
   "questions": [
     {
       "id": "rg_010589",
@@ -412,30 +412,6 @@
       "meta": {}
     },
     {
-      "id": "rg_010617",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "किस परियोजना के तहत राष्ट्रीय राजमार्ग संख्या-8 को जयपुर से अजमेर तक 6 लेन में उन्नत किया गया -",
-      "options": [
-        "नोर्थ साउथ कॉरिडोर",
-        "ईस्ट वेस्ट कॉरिडोर",
-        "स्वर्णिम चतुर्भुज",
-        "राज्य राजमार्ग"
-      ],
-      "answer": "C",
-      "exam": "Prahari Shift 2",
-      "year": 2024,
-      "explanation": "स्वर्णिम चतुर्भुज परियोजना भारत के चार प्रमुख महानगरों (दिल्ली, मुंबई, चेन्नई, कोलकाता) को जोड़ने के लिए बनाई गई थी। एनएच-8 का जयपुर-अजमेर खंड इसी परियोजना का हिस्सा है।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14,
-      "type": "mcq",
-      "questionText": "किस परियोजना के तहत राष्ट्रीय राजमार्ग संख्या-8 को जयपुर से अजमेर तक 6 लेन में उन्नत किया गया -",
-      "meta": {}
-    },
-    {
       "id": "rg_010618",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -626,36 +602,6 @@
       "type": "mcq",
       "questionText": "डबोक हवाई अड्डा स्थित है :",
       "meta": {}
-    },
-    {
-      "id": "rg_010631",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "नाल एयरपोर्ट स्थित है -",
-      "options": [
-        "जयपुर में",
-        "भरतपुर में",
-        "बीकानेर में",
-        "जोधपुर में"
-      ],
-      "answer": "C",
-      "exam": "Junior Instructor (Wireman) Exam",
-      "year": 2024,
-      "explanation": "नाल एयरपोर्ट बीकानेर में स्थित है।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14,
-      "type": "mcq",
-      "questionText": "नाल एयरपोर्ट स्थित है -",
-      "meta": {},
-      "similarQuestions": [
-        {
-          "id": "rg_010730",
-          "relation": "duplicate"
-        }
-      ]
     },
     {
       "id": "rg_010638",
@@ -1222,30 +1168,6 @@
       ]
     },
     {
-      "id": "rg_010659",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "जयपुर मेट्रो रेल की व्यावसायिक सेवाओं की शुरुआत किस वर्ष में हुई -",
-      "options": [
-        "2011",
-        "2013",
-        "2015",
-        "2010"
-      ],
-      "answer": "C",
-      "exam": "Forest Guard Exam Shift 1",
-      "year": 2022,
-      "explanation": "जयपुर मेट्रो ने 3 जून 2015 को चांदपोल और मानसरोवर के बीच वाणिज्यिक सेवा शुरू की।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14,
-      "type": "mcq",
-      "questionText": "जयपुर मेट्रो रेल की व्यावसायिक सेवाओं की शुरुआत किस वर्ष में हुई -",
-      "meta": {}
-    },
-    {
       "id": "rg_010663",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -1387,30 +1309,6 @@
       "topicId": 14,
       "type": "mcq",
       "questionText": "मार्च 2020 तक राजस्थान में रेलमार्गों की कुल लम्बाई थी -",
-      "meta": {}
-    },
-    {
-      "id": "rg_010669",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "पूर्व-पश्चिम गलियारा किस जिले से होकर नहीं गुजरता है -",
-      "options": [
-        "सिरोही",
-        "भीलवाड़ा",
-        "कोटा",
-        "झालावाड़"
-      ],
-      "answer": "D",
-      "exam": "JEN : Civil Degree (GK)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14,
-      "type": "mcq",
-      "questionText": "पूर्व-पश्चिम गलियारा किस जिले से होकर नहीं गुजरता है -",
       "meta": {}
     },
     {
@@ -1651,30 +1549,6 @@
       "topicId": 14,
       "type": "mcq",
       "questionText": "निम्नलिखित विकल्पों में से राजस्थान राज्य में कौन सा राष्ट्रीय राजमार्ग सर्वाधिक व्यस्त है -",
-      "meta": {}
-    },
-    {
-      "id": "rg_010686",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "जयपुर में मेट्रो रेल सेवा कब से प्रारंभ हुई -",
-      "options": [
-        "2010 में",
-        "2013 में",
-        "2015 में",
-        "2018 में"
-      ],
-      "answer": "C",
-      "exam": "Raj Police Constable Exam (7 Nov S-1)",
-      "year": 2020,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14,
-      "type": "mcq",
-      "questionText": "जयपुर में मेट्रो रेल सेवा कब से प्रारंभ हुई -",
       "meta": {}
     },
     {
@@ -2950,30 +2824,6 @@
       "meta": {}
     },
     {
-      "id": "rg_010750",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "जयपुर मे मेट्रो शुरू हुई ?",
-      "options": [
-        "जनवरी 2015",
-        "मार्च 2015",
-        "जून 2015",
-        "नवम्बर 2015"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14,
-      "type": "mcq",
-      "questionText": "जयपुर मे मेट्रो शुरू हुई ?",
-      "meta": {}
-    },
-    {
       "id": "rg_010751",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -3627,33 +3477,6 @@
       "meta": {},
       "topicFile": "topic_14.json",
       "extractionReason": "statement_or_list_in_text"
-    }
-  ],
-  "archivedVariants": [
-    {
-      "id": "rg_010682",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "राजस्थान का रेल नेटवर्क किस रेलवे जोन के अंतर्गत आता है -",
-      "options": [
-        "उत्तर रेलवे",
-        "उत्तर पश्चिम रेलवे",
-        "मध्य रेलवे",
-        "पश्चिम रेलवे"
-      ],
-      "answer": "B",
-      "exam": "Raj Police Constable Exam (8 Nov S-2)",
-      "year": 2020,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14,
-      "type": "mcq",
-      "questionText": "राजस्थान का रेल नेटवर्क किस रेलवे जोन के अंतर्गत आता है -",
-      "meta": {},
-      "isDuplicateOf": "rg_010657"
     },
     {
       "id": "rg_010730",
@@ -3679,6 +3502,183 @@
       "questionText": "‘नाल’ हवाईअड्डा अवस्थित है -",
       "meta": {},
       "isDuplicateOf": "rg_010631"
+    }
+  ],
+  "archivedVariants": [
+    {
+      "id": "rg_010617",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 146,
+      "sourceTopic": "राजस्थान में परिवहन",
+      "masterTopicId": 14,
+      "masterTopic": "राजस्थान का परिवहन",
+      "question": "किस परियोजना के तहत राष्ट्रीय राजमार्ग संख्या-8 को जयपुर से अजमेर तक 6 लेन में उन्नत किया गया -",
+      "options": [
+        "नोर्थ साउथ कॉरिडोर",
+        "ईस्ट वेस्ट कॉरिडोर",
+        "स्वर्णिम चतुर्भुज",
+        "राज्य राजमार्ग"
+      ],
+      "answer": "C",
+      "exam": "Prahari Shift 2",
+      "year": 2024,
+      "explanation": "स्वर्णिम चतुर्भुज परियोजना भारत के चार प्रमुख महानगरों (दिल्ली, मुंबई, चेन्नई, कोलकाता) को जोड़ने के लिए बनाई गई थी। एनएच-8 का जयपुर-अजमेर खंड इसी परियोजना का हिस्सा है।",
+      "topic": "राजस्थान का परिवहन",
+      "topicId": 14,
+      "type": "mcq",
+      "questionText": "किस परियोजना के तहत राष्ट्रीय राजमार्ग संख्या-8 को जयपुर से अजमेर तक 6 लेन में उन्नत किया गया -",
+      "meta": {}
+    },
+    {
+      "id": "rg_010631",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 146,
+      "sourceTopic": "राजस्थान में परिवहन",
+      "masterTopicId": 14,
+      "masterTopic": "राजस्थान का परिवहन",
+      "question": "नाल एयरपोर्ट स्थित है -",
+      "options": [
+        "जयपुर में",
+        "भरतपुर में",
+        "बीकानेर में",
+        "जोधपुर में"
+      ],
+      "answer": "C",
+      "exam": "Junior Instructor (Wireman) Exam",
+      "year": 2024,
+      "explanation": "नाल एयरपोर्ट बीकानेर में स्थित है।",
+      "topic": "राजस्थान का परिवहन",
+      "topicId": 14,
+      "type": "mcq",
+      "questionText": "नाल एयरपोर्ट स्थित है -",
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_010730",
+          "relation": "duplicate"
+        }
+      ]
+    },
+    {
+      "id": "rg_010659",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 146,
+      "sourceTopic": "राजस्थान में परिवहन",
+      "masterTopicId": 14,
+      "masterTopic": "राजस्थान का परिवहन",
+      "question": "जयपुर मेट्रो रेल की व्यावसायिक सेवाओं की शुरुआत किस वर्ष में हुई -",
+      "options": [
+        "2011",
+        "2013",
+        "2015",
+        "2010"
+      ],
+      "answer": "C",
+      "exam": "Forest Guard Exam Shift 1",
+      "year": 2022,
+      "explanation": "जयपुर मेट्रो ने 3 जून 2015 को चांदपोल और मानसरोवर के बीच वाणिज्यिक सेवा शुरू की।",
+      "topic": "राजस्थान का परिवहन",
+      "topicId": 14,
+      "type": "mcq",
+      "questionText": "जयपुर मेट्रो रेल की व्यावसायिक सेवाओं की शुरुआत किस वर्ष में हुई -",
+      "meta": {}
+    },
+    {
+      "id": "rg_010669",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 146,
+      "sourceTopic": "राजस्थान में परिवहन",
+      "masterTopicId": 14,
+      "masterTopic": "राजस्थान का परिवहन",
+      "question": "पूर्व-पश्चिम गलियारा किस जिले से होकर नहीं गुजरता है -",
+      "options": [
+        "सिरोही",
+        "भीलवाड़ा",
+        "कोटा",
+        "झालावाड़"
+      ],
+      "answer": "D",
+      "exam": "JEN : Civil Degree (GK)",
+      "year": 2022,
+      "explanation": null,
+      "topic": "राजस्थान का परिवहन",
+      "topicId": 14,
+      "type": "mcq",
+      "questionText": "पूर्व-पश्चिम गलियारा किस जिले से होकर नहीं गुजरता है -",
+      "meta": {}
+    },
+    {
+      "id": "rg_010686",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 146,
+      "sourceTopic": "राजस्थान में परिवहन",
+      "masterTopicId": 14,
+      "masterTopic": "राजस्थान का परिवहन",
+      "question": "जयपुर में मेट्रो रेल सेवा कब से प्रारंभ हुई -",
+      "options": [
+        "2010 में",
+        "2013 में",
+        "2015 में",
+        "2018 में"
+      ],
+      "answer": "C",
+      "exam": "Raj Police Constable Exam (7 Nov S-1)",
+      "year": 2020,
+      "explanation": null,
+      "topic": "राजस्थान का परिवहन",
+      "topicId": 14,
+      "type": "mcq",
+      "questionText": "जयपुर में मेट्रो रेल सेवा कब से प्रारंभ हुई -",
+      "meta": {}
+    },
+    {
+      "id": "rg_010750",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 146,
+      "sourceTopic": "राजस्थान में परिवहन",
+      "masterTopicId": 14,
+      "masterTopic": "राजस्थान का परिवहन",
+      "question": "जयपुर मे मेट्रो शुरू हुई ?",
+      "options": [
+        "जनवरी 2015",
+        "मार्च 2015",
+        "जून 2015",
+        "नवम्बर 2015"
+      ],
+      "answer": "C",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान का परिवहन",
+      "topicId": 14,
+      "type": "mcq",
+      "questionText": "जयपुर मे मेट्रो शुरू हुई ?",
+      "meta": {}
+    },
+    {
+      "id": "rg_010682",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 146,
+      "sourceTopic": "राजस्थान में परिवहन",
+      "masterTopicId": 14,
+      "masterTopic": "राजस्थान का परिवहन",
+      "question": "राजस्थान का रेल नेटवर्क किस रेलवे जोन के अंतर्गत आता है -",
+      "options": [
+        "उत्तर रेलवे",
+        "उत्तर पश्चिम रेलवे",
+        "मध्य रेलवे",
+        "पश्चिम रेलवे"
+      ],
+      "answer": "B",
+      "exam": "Raj Police Constable Exam (8 Nov S-2)",
+      "year": 2020,
+      "explanation": null,
+      "topic": "राजस्थान का परिवहन",
+      "topicId": 14,
+      "type": "mcq",
+      "questionText": "राजस्थान का रेल नेटवर्क किस रेलवे जोन के अंतर्गत आता है -",
+      "meta": {},
+      "isDuplicateOf": "rg_010657"
     },
     {
       "id": "rg_010706",
@@ -3706,5 +3706,5 @@
       "isDuplicateOf": "rg_010655"
     }
   ],
-  "totalArchivedVariants": 3
+  "totalArchivedVariants": 8
 }

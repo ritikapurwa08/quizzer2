@@ -374,6 +374,13 @@ def apply_deterministic_rules(pair):
         if a["normalized_answer"] == b["normalized_answer"] and pair["text_ratio"] >= 0.65:
             return "near_duplicate", 0.96, "Identical 4-option set with high question overlap", False, False
 
+    # Rule 4B: Match-the-Column Protection (सूची-I / सूची-II / सुमेलित)
+    is_list_a = "सूची" in a["question"] or "सुमेलित" in a["question"]
+    is_list_b = "सूची" in b["question"] or "सुमेलित" in b["question"]
+    if is_list_a and is_list_b:
+        if pair["word_jaccard"] < 0.40:
+            return "different", 0.95, "Different match-the-column items and entity sets", False, False
+
     # Rule 5: Same Substantive Answer + High Ratio (>= 0.78) + Same Polarity
     if not pair["_inverse"]:
         if a["normalized_answer"] == b["normalized_answer"] and len(a["normalized_answer"]) >= 3:
@@ -395,6 +402,16 @@ def apply_deterministic_rules(pair):
                 if pair["text_ratio"] >= 0.68 or pair["word_jaccard"] >= 0.38:
                     return "near_duplicate", 0.94, f"Answer substring/alias match ({ans_a} ~ {ans_b}) with high question overlap", False, False
 
+    # Rule 7B: Answer Core-Entity Overlap (e.g. दक्षिण हाड़ौती क्षेत्र vs हाड़ौती पठारी प्रदेश में)
+    STOP_ANS = {'का', 'के', 'की', 'में', 'से', 'पर', 'क्षेत्र', 'प्रदेश', 'जिला', 'जिले', 'और', 'एवं', 'के बीच', 'वाला', 'स्थित', 'अवस्थित', 'राजस्थान', 'भी', 'है।'}
+    tok_a = set(a["normalized_answer"].split()) - STOP_ANS
+    tok_b = set(b["normalized_answer"].split()) - STOP_ANS
+    common_ans = tok_a & tok_b
+    if not pair["_inverse"] and common_ans:
+        has_big_token = any(len(tok) >= 4 for tok in common_ans)
+        if has_big_token and pair["text_ratio"] >= 0.68 and pair["word_jaccard"] >= 0.35:
+            return "near_duplicate", 0.94, f"Core answer entity overlap ({common_ans}) with high question overlap", False, False
+
     # Rule 8: Cross Subject-Object Entity Inversion (Conceptual Duplicate)
     # e.g. Q1: Leader of Bijolia? Ans: Anjana Devi | Q2: Movement led by Anjana Devi? Ans: Bijolia
     ans_a = a["normalized_answer"]
@@ -411,15 +428,16 @@ def apply_deterministic_rules(pair):
         if len(common_opts) >= 3:
             return "exact_duplicate", 0.95, "Near-identical question with conflicting answer key", True, False
 
-    # Rule 10: Deterministic Fast Negative Elimination (Completely Different Questions)
-    if pair["text_ratio"] < 0.62 and pair["word_jaccard"] < 0.24:
-        ans_a = a["normalized_answer"]
-        ans_b = b["normalized_answer"]
-        if ans_a != ans_b and not (ans_a and ans_b and (ans_a in ans_b or ans_b in ans_a)):
-            if not (len(ans_a) >= 4 and len(ans_b) >= 4 and ans_a in b["normalized_question"] and ans_b in a["normalized_question"]):
-                common_opts = set(a["norm_options"]) & set(b["norm_options"])
-                if len(common_opts) <= 1:
-                    return "different", 0.96, "Different question intent, answers, and option sets", False, False
+    # Rule 10: Deterministic Fast Negative Elimination (75-80% Local Resolution on CPU)
+    ans_a = a["normalized_answer"]
+    ans_b = b["normalized_answer"]
+    if pair["text_ratio"] < 0.75:
+        if ans_a != ans_b and not common_ans:
+            if not (ans_a and ans_b and (ans_a in ans_b or ans_b in ans_a)):
+                if not (len(ans_a) >= 4 and len(ans_b) >= 4 and ans_a in b["normalized_question"] and ans_b in a["normalized_question"]):
+                    common_opts = set(a["norm_options"]) & set(b["norm_options"])
+                    if len(common_opts) <= 1:
+                        return "different", 0.96, "Different question intent, answers, and option sets", False, False
 
     return None, 0.0, "", False, False
 
@@ -561,12 +579,21 @@ def build_validated_clusters(records, pairs):
         anchor = member_records[0]
 
         validated_members = [anchor]
+        STOP_ANS = {'का', 'के', 'की', 'में', 'से', 'पर', 'क्षेत्र', 'प्रदेश', 'जिला', 'जिले', 'और', 'एवं', 'के बीच', 'वाला', 'स्थित', 'अवस्थित', 'राजस्थान', 'भी', 'है।'}
+        tok_anchor = set(anchor["normalized_answer"].split()) - STOP_ANS
+
         for candidate in member_records[1:]:
+            # Directly connected to anchor
             if candidate["id"] in dup_graph[anchor["id"]]:
                 validated_members.append(candidate)
             else:
+                # Transitive member: check semantic alignment with anchor
+                ans_a = anchor["normalized_answer"]
+                ans_b = candidate["normalized_answer"]
+                tok_cand = set(ans_b.split()) - STOP_ANS
+                has_ans_match = (ans_a == ans_b) or (ans_a in ans_b) or (ans_b in ans_a) or bool(tok_anchor & tok_cand)
                 r = fast_ratio(anchor["normalized_question"], candidate["normalized_question"])
-                if r >= 0.35 and anchor["normalized_answer"] == candidate["normalized_answer"]:
+                if r >= 0.35 and has_ans_match:
                     validated_members.append(candidate)
 
         if len(validated_members) >= 2:
@@ -595,7 +622,7 @@ def build_validated_clusters(records, pairs):
 # Core Topic Execution Function
 # --------------------------------------------------------------------------- #
 
-def process_single_topic(topic_num, max_ai_chunks=150, workers=15):
+def process_single_topic(topic_num, max_ai_chunks=999999, workers=15):
     topic_file = Path(f"data/questions/rajasthan-gk/topic_{topic_num:02d}.json")
     if not topic_file.exists():
         return None
@@ -605,9 +632,19 @@ def process_single_topic(topic_num, max_ai_chunks=150, workers=15):
     raw_questions = data.get("questions", []) if isinstance(data, dict) else data
     existing_archived = data.get("archivedVariants", []) if isinstance(data, dict) else []
 
+    # Unified pool of all questions ever created for this topic
+    seen_ids = set()
+    all_raw_pool = []
+    for q in (raw_questions + existing_archived):
+        qid = q.get("id") or q.get("_id")
+        if qid and qid not in seen_ids:
+            seen_ids.add(qid)
+            all_raw_pool.append(q)
+    raw_questions = all_raw_pool
+
     t_name = data.get("masterTopic", f"Topic {topic_num}")
     print(f"\n[{topic_num:02d}] 🚀 Processing Topic {topic_num:02d}: {t_name}", flush=True)
-    print(f"     Raw Questions in file: {len(raw_questions)} | Previously Archived: {len(existing_archived)}", flush=True)
+    print(f"     Unified Questions in pool: {len(raw_questions)}", flush=True)
 
     # Stage 0: Parse Records
     records = [parse_question_record(q, i) for i, q in enumerate(raw_questions)]
@@ -727,17 +764,8 @@ def process_single_topic(topic_num, max_ai_chunks=150, workers=15):
                 dup_ids.add(v["id"])
 
     # Stage 6: Archive Duplicates Out of Questions Array
-    existing_archived_ids = {q["id"] for q in existing_archived}
-    clean_qs = []
-    new_archived_list = list(existing_archived)
-
-    for q in raw_questions:
-        qid = q["id"]
-        if qid in dup_ids:
-            if qid not in existing_archived_ids:
-                new_archived_list.append(q)
-        else:
-            clean_qs.append(q)
+    clean_qs = [q for q in raw_questions if q["id"] not in dup_ids]
+    new_archived_list = [q for q in raw_questions if q["id"] in dup_ids]
 
     data["questions"] = clean_qs
     data["archivedVariants"] = new_archived_list
@@ -767,7 +795,7 @@ def process_single_topic(topic_num, max_ai_chunks=150, workers=15):
 # Batch Runner for Multiple Topics
 # --------------------------------------------------------------------------- #
 
-def run_master_pipeline(start_topic, end_topic, max_ai=150, workers=15):
+def run_master_pipeline(start_topic, end_topic, max_ai=999999, workers=15):
     print("=" * 80, flush=True)
     print(f"🌟 RUNNING MASTER INTEGRITY V2 PIPELINE (TOPICS {start_topic} TO {end_topic})", flush=True)
     print("=" * 80, flush=True)
@@ -859,7 +887,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Master Integrity V2 Pipeline")
     parser.add_argument("--start", type=int, required=True, help="Start topic number (1-55)")
     parser.add_argument("--end", type=int, required=True, help="End topic number (1-55)")
-    parser.add_argument("--max-ai", type=int, default=150, help="Max AI chunks per topic")
+    parser.add_argument("--max-ai", type=int, default=999999, help="Max AI chunks per topic")
     parser.add_argument("--workers", type=int, default=15, help="Number of parallel worker threads")
     args = parser.parse_args()
 

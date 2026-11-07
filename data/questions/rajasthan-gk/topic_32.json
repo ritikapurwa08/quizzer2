@@ -1,7 +1,7 @@
 {
   "masterTopicId": 32,
   "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-  "totalAvailable": 269,
+  "totalAvailable": 268,
   "questions": [
     {
       "id": "rg_011054",
@@ -3196,30 +3196,6 @@
       "meta": {}
     },
     {
-      "id": "rg_011297",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "जोधपुर का प्रसिद्ध ‘बाडला’ निम्नलिखित में से क्या है -",
-      "options": [
-        "लकड़ी का मंदिर",
-        "जस्ते से बनी पानी की बोतल",
-        "जरी की साड़ी",
-        "टेराकोटा की मूर्तिया"
-      ],
-      "answer": "B",
-      "exam": "Raj Police Constable(7981)",
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "जोधपुर का प्रसिद्ध ‘बाडला’ निम्नलिखित में से क्या है -",
-      "meta": {}
-    },
-    {
       "id": "rg_011305",
       "source": "RajasthanGyan",
       "sourceTopicId": 149,
@@ -3841,30 +3817,6 @@
       "topicId": 32,
       "type": "mcq",
       "questionText": "राजस्थान में मोलेला किसके लिए जाना जाता है -",
-      "meta": {}
-    },
-    {
-      "id": "rg_011247",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "राजस्थान में कोफ्तगिरी के काम के लिए कौन से जिले प्रसिद्ध हैं -",
-      "options": [
-        "जयपुर और जोधपुर",
-        "जयपुर और अलवर",
-        "राजसमंद और बाड़मेर",
-        "जोधपुर और पाली"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "राजस्थान में कोफ्तगिरी के काम के लिए कौन से जिले प्रसिद्ध हैं -",
       "meta": {}
     },
     {
@@ -7044,32 +6996,6 @@
       "extractionReason": "type: match_following"
     },
     {
-      "id": "rg_011292",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "निम्नलिखित में से कौन सा युग्म (हस्तशिल्प - स्थान) सुमेलित नहीं है?",
-      "options": [
-        "गणगौर निर्माण - बस्सी (चित्तौड़गढ़)",
-        "लकड़ी के पशु-पक्षियों का निर्माण - जयपुर",
-        "रमकड़ा निर्माण - उदयपुर",
-        "लकड़ी के नक्काशीदार मठोठ - बीकानेर एवं शेखावाटी"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": "रमकड़ा निर्माण मुख्य रूप से उदयपुर से नहीं, बल्कि अन्य स्थानों से प्रसिद्ध है। गणगौर बस्सी से, लकड़ी के पशु-पक्षी जयपुर से और नक्काशीदार मठोठ बीकानेर/शेखावाटी से प्रसिद्ध हैं।",
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से कौन सा युग्म (हस्तशिल्प - स्थान) सुमेलित नहीं है?",
-      "meta": {},
-      "topicFile": "topic_32.json",
-      "extractionReason": "statement_or_list_in_text"
-    },
-    {
       "id": "rg_011345",
       "source": "RajasthanGyan",
       "sourceTopicId": 149,
@@ -7133,9 +7059,131 @@
       },
       "topicFile": "topic_32.json",
       "extractionReason": "type: match_following"
+    },
+    {
+      "id": "rg_011218",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "निम्नलिखित में से राजस्थान का कौन-सा शहर ब्लैक पॉटरी के लिए प्रसिद्ध है -",
+      "options": [
+        "वाई माधोपुर",
+        "कोटपूतली",
+        "भिवाड़ी",
+        "झुंझुनू"
+      ],
+      "answer": "C",
+      "exam": "Police Constable Exam (02 July ) (Re Exam)",
+      "year": 2022,
+      "explanation": null,
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का कौन-सा शहर ब्लैक पॉटरी के लिए प्रसिद्ध है -",
+      "meta": {}
+    },
+    {
+      "id": "rg_011278",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "निम्न में से राजस्थान का कौन सा स्थान ब्लैक पाॅटरी के लिए प्रसिद्ध है -",
+      "options": [
+        "बांसवाड़ा",
+        "वाई माधोपुर",
+        "चित्तौड़गढ़",
+        "उदयपुर"
+      ],
+      "answer": "C",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "निम्न में से राजस्थान का कौन सा स्थान ब्लैक पाॅटरी के लिए प्रसिद्ध है -",
+      "meta": {}
     }
   ],
   "archivedVariants": [
+    {
+      "id": "rg_011297",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "जोधपुर का प्रसिद्ध ‘बाडला’ निम्नलिखित में से क्या है -",
+      "options": [
+        "लकड़ी का मंदिर",
+        "जस्ते से बनी पानी की बोतल",
+        "जरी की साड़ी",
+        "टेराकोटा की मूर्तिया"
+      ],
+      "answer": "B",
+      "exam": "Raj Police Constable(7981)",
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "जोधपुर का प्रसिद्ध ‘बाडला’ निम्नलिखित में से क्या है -",
+      "meta": {}
+    },
+    {
+      "id": "rg_011247",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "राजस्थान में कोफ्तगिरी के काम के लिए कौन से जिले प्रसिद्ध हैं -",
+      "options": [
+        "जयपुर और जोधपुर",
+        "जयपुर और अलवर",
+        "राजसमंद और बाड़मेर",
+        "जोधपुर और पाली"
+      ],
+      "answer": "B",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "राजस्थान में कोफ्तगिरी के काम के लिए कौन से जिले प्रसिद्ध हैं -",
+      "meta": {}
+    },
+    {
+      "id": "rg_011292",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 149,
+      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
+      "masterTopicId": 32,
+      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "question": "निम्नलिखित में से कौन सा युग्म (हस्तशिल्प - स्थान) सुमेलित नहीं है?",
+      "options": [
+        "गणगौर निर्माण - बस्सी (चित्तौड़गढ़)",
+        "लकड़ी के पशु-पक्षियों का निर्माण - जयपुर",
+        "रमकड़ा निर्माण - उदयपुर",
+        "लकड़ी के नक्काशीदार मठोठ - बीकानेर एवं शेखावाटी"
+      ],
+      "answer": "C",
+      "exam": null,
+      "year": null,
+      "explanation": "रमकड़ा निर्माण मुख्य रूप से उदयपुर से नहीं, बल्कि अन्य स्थानों से प्रसिद्ध है। गणगौर बस्सी से, लकड़ी के पशु-पक्षी जयपुर से और नक्काशीदार मठोठ बीकानेर/शेखावाटी से प्रसिद्ध हैं।",
+      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+      "topicId": 32,
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा युग्म (हस्तशिल्प - स्थान) सुमेलित नहीं है?",
+      "meta": {},
+      "topicFile": "topic_32.json",
+      "extractionReason": "statement_or_list_in_text"
+    },
     {
       "id": "rg_011127",
       "source": "RajasthanGyan",
@@ -7182,30 +7230,6 @@
       "topicId": 32,
       "type": "mcq",
       "questionText": "सीकर जिले का कौन-सा क्षेत्र पारंपरिक गोटा उद्योग के लिए प्रसिद्ध है?",
-      "meta": {}
-    },
-    {
-      "id": "rg_011218",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "निम्नलिखित में से राजस्थान का कौन-सा शहर ब्लैक पॉटरी के लिए प्रसिद्ध है -",
-      "options": [
-        "वाई माधोपुर",
-        "कोटपूतली",
-        "भिवाड़ी",
-        "झुंझुनू"
-      ],
-      "answer": "C",
-      "exam": "Police Constable Exam (02 July ) (Re Exam)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से राजस्थान का कौन-सा शहर ब्लैक पॉटरी के लिए प्रसिद्ध है -",
       "meta": {}
     },
     {
@@ -7305,30 +7329,6 @@
       "meta": {}
     },
     {
-      "id": "rg_011278",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 149,
-      "sourceTopic": "राजस्थान की हस्तकला / हस्तशिल्प",
-      "masterTopicId": 32,
-      "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "question": "निम्न में से राजस्थान का कौन सा स्थान ब्लैक पाॅटरी के लिए प्रसिद्ध है -",
-      "options": [
-        "बांसवाड़ा",
-        "वाई माधोपुर",
-        "चित्तौड़गढ़",
-        "उदयपुर"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "topicId": 32,
-      "type": "mcq",
-      "questionText": "निम्न में से राजस्थान का कौन सा स्थान ब्लैक पाॅटरी के लिए प्रसिद्ध है -",
-      "meta": {}
-    },
-    {
       "id": "rg_011320",
       "source": "RajasthanGyan",
       "sourceTopicId": 149,
@@ -7353,5 +7353,5 @@
       "meta": {}
     }
   ],
-  "totalArchivedVariants": 9
+  "totalArchivedVariants": 10
 }

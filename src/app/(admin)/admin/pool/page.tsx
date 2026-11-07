@@ -157,7 +157,7 @@ export default function AdminPoolOverviewPage() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch("/api/admin/pool-overview");
+      const res = await fetch("/api/admin/pool-overview", { cache: "no-store" });
       if (!res.ok) throw new Error(`HTTP Error ${res.status}`);
       const json = await res.json();
       if (!json.success) throw new Error(json.error || "Failed to load pool data");

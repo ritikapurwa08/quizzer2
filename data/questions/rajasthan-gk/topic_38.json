@@ -1,7 +1,7 @@
 {
   "masterTopicId": 38,
   "masterTopic": "राजस्थानी साहित्य",
-  "totalAvailable": 321,
+  "totalAvailable": 320,
   "questions": [
     {
       "id": "rg_014909",
@@ -2929,30 +2929,6 @@
       "topicId": 38,
       "type": "mcq",
       "questionText": "‘बृहत कथा कोष’ का लेखक कौन था -",
-      "meta": {}
-    },
-    {
-      "id": "rg_015093",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 467,
-      "sourceTopic": "राजस्थानी साहित्य",
-      "masterTopicId": 38,
-      "masterTopic": "राजस्थानी साहित्य",
-      "question": "कुवलयमाला में कितनी देशी भाषाओं का उल्लेख है -",
-      "options": [
-        "18",
-        "08",
-        "06",
-        "12"
-      ],
-      "answer": "A",
-      "exam": "Forest Guard Exam Shift 4",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थानी साहित्य",
-      "topicId": 38,
-      "type": "mcq",
-      "questionText": "कुवलयमाला में कितनी देशी भाषाओं का उल्लेख है -",
       "meta": {}
     },
     {
@@ -8718,6 +8694,30 @@
   ],
   "archivedVariants": [
     {
+      "id": "rg_015093",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 467,
+      "sourceTopic": "राजस्थानी साहित्य",
+      "masterTopicId": 38,
+      "masterTopic": "राजस्थानी साहित्य",
+      "question": "कुवलयमाला में कितनी देशी भाषाओं का उल्लेख है -",
+      "options": [
+        "18",
+        "08",
+        "06",
+        "12"
+      ],
+      "answer": "A",
+      "exam": "Forest Guard Exam Shift 4",
+      "year": 2022,
+      "explanation": null,
+      "topic": "राजस्थानी साहित्य",
+      "topicId": 38,
+      "type": "mcq",
+      "questionText": "कुवलयमाला में कितनी देशी भाषाओं का उल्लेख है -",
+      "meta": {}
+    },
+    {
       "id": "rg_014942",
       "source": "RajasthanGyan",
       "sourceTopicId": 467,
@@ -9080,5 +9080,5 @@
       "extractionReason": "statement_or_list_in_text"
     }
   ],
-  "totalArchivedVariants": 15
+  "totalArchivedVariants": 16
 }
