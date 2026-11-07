@@ -265,7 +265,13 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "संतरे के व्यावसायिक उत्पादन के लिए राजस्थान का कौन-सा जिला प्रसिद्ध है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005519",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005342",
@@ -457,7 +463,13 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "जयपुर, दौसा और अजमेर राजस्थान के किस कृषि-जलवायु क्षेत्र में आते हैं?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005614",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005347",
@@ -1441,7 +1453,13 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "मक्का राजस्थान के किस भौगोलिक भाग में सर्वाधिक मात्रा में पैदा की जाती है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005456",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005404",
@@ -1513,7 +1531,13 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राजस्थान के कृषि विकास में मुख्य कठिनाई है:निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005363",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005362",
@@ -1561,7 +1585,8 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "निम्नलिखित में से उस प्रमुख मुद्दे का चयन कीजिए जिसने राजस्थान में कृषि विकास को सदैव प्रभावित किया है-निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005349"
     },
     {
       "id": "rg_005364",
@@ -1897,7 +1922,8 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राजस्थान के किस भाग में मक्का का सर्वाधिक उत्पादन होता है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005403"
     },
     {
       "id": "rg_005361",
@@ -2353,7 +2379,13 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राजस्थान के अधिकतम सोयाबीन उत्पादक जिले हैं -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005682",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005441",
@@ -2593,7 +2625,13 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राजस्थान का सबसे बड़ा कृषि जलवायु प्रदेश है।",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005620",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005487",
@@ -2641,7 +2679,13 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राजस्थान के किन जिलों में अमेरिकन कपास का उत्पादन होता है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005662",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005490",
@@ -2698,7 +2742,7 @@
       "sourceTopic": "राजस्थान में कृषि",
       "masterTopicId": 9,
       "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थ्ज्ञान में सबसे छोटा कृषि-जलवायु प्रदेश है -",
+      "question": "राजस्थान में सबसे छोटा कृषि-जलवायु प्रदेश है -",
       "options": [
         "शुष्क पश्चिमी मैदान",
         "आर्द्र दक्षिणी मैदान",
@@ -3073,7 +3117,13 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "“राष्ट्रीय बीजीय मसाला अनुसंधान केन्द्र” राजस्थान में कहाँ पर स्थित है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005612",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005521",
@@ -3097,7 +3147,13 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राजस्थान भारत में निम्न में से कौन-सी फसल का सर्वाधिक उत्पादक राज्य है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005558",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005526",
@@ -3385,7 +3441,13 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "प्रमुख बाजरा उत्पादक जिलों का सही युग्म है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005562",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005467",
@@ -3649,7 +3711,13 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राष्ट्रीय सरसों अनुसंधान केंद्र राजस्थान में कहाँ स्थित है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005631",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005536",
@@ -3913,7 +3981,8 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राष्ट्रीय बीजीय मसाला अनुसंधान केंद्र स्थित है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005517"
     },
     {
       "id": "rg_005613",
@@ -4105,7 +4174,8 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "‘राष्ट्रीय सरसों अनुसंधान केन्द्र’ राजस्थान के किस स्थान पर स्थित है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005535"
     },
     {
       "id": "rg_005635",
@@ -4249,7 +4319,8 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राजस्थान में अमेरिकन कपास का उत्पादन किन जिलों में होता है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005488"
     },
     {
       "id": "rg_005666",
@@ -4561,7 +4632,13 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राजस्थान में जालोर एवं बाड़मेर जिले किस फसल के अग्रणी उत्पादक हैं -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005563",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005675",
@@ -4729,7 +4806,8 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राजस्थान में सोयाबीन के प्रमुख उत्पादक जिले हैं-",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005440"
     },
     {
       "id": "rg_005683",
@@ -4873,7 +4951,8 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "जयपुर, अजमेर, दौसा और टोंक जिले किस कृषि जलवायु क्षेत्र के अन्तर्गत आते हैं -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005346"
     },
     {
       "id": "rg_005615",
@@ -5017,7 +5096,8 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राजस्थान में कौन-सा कृषि जलवायु प्रदेश सबसे बड़ा है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005484"
     },
     {
       "id": "rg_005621",
@@ -5545,7 +5625,8 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "संतरा उत्पादन की दृष्टि से राजस्थान का कौनसा जिला अग्रणी है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005341"
     },
     {
       "id": "rg_005520",
@@ -5857,7 +5938,8 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "राजस्थान निम्नलिखित में से किस फसल का सबसे बड़ा उत्पादक है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005521"
     },
     {
       "id": "rg_005559",
@@ -5929,7 +6011,8 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "प्रमुख बाजरा उत्पादक जिले की सही जोड़ी है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005465"
     },
     {
       "id": "rg_005563",
@@ -5953,7 +6036,8 @@
       "topicId": 9,
       "type": "mcq",
       "questionText": "जालोर और बाड़मेर जिले राजस्थान में किस फसल के उत्पादक हैं -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005671"
     },
     {
       "id": "rg_005566",

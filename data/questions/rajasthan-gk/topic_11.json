@@ -97,7 +97,13 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "भारत में राजस्थान निम्नलिखित में से किस खनिज का एकमात्र उत्पादक है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008123",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_007943",
@@ -505,7 +511,13 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "राजस्थान का प्रमुख जिप्सम उत्पादक जिला है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008178",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_007976",
@@ -793,7 +805,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "‘झामर कोटड़ा’ खानें किसके लिए जानी जाती हैं -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008186"
     },
     {
       "id": "rg_007994",
@@ -865,7 +878,13 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "पलाना एवं कपूरडी खानें ____ के लिए जानी जाती हैं। (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008256",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_007997",
@@ -1042,7 +1061,7 @@
       "sourceTopic": "राजस्थान में खनिज संसाधन",
       "masterTopicId": 11,
       "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "‘नाधरा की पाल’ खनन क्षेत्र स्थित है -",
+      "question": "‘नाथरा की पाल’ खनन क्षेत्र स्थित है -",
       "options": [
         "हनुमानगढ़ में",
         "डूंगरपुर में",
@@ -1057,7 +1076,13 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "‘नाधरा की पाल’ खनन क्षेत्र स्थित है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008295",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_008009",
@@ -1081,7 +1106,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "झामर कोटड़ा भण्डार संबंधित है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008186"
     },
     {
       "id": "rg_008010",
@@ -1417,7 +1443,13 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "राजस्थान में पेट्रोलियम उत्पादक क्षेत्र कितने जिलों में फैला हुआ है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008141",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_008031",
@@ -1993,7 +2025,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "झामर कोटड़ा खानें किसके लिए जानी जाती हैं -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008186"
     },
     {
       "id": "rg_008055",
@@ -2329,7 +2362,13 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "बाल्दा (सिरोही) ______ के लिए प्रमुख भण्डारण क्षेत्र है।",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008334",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_008069",
@@ -2785,7 +2824,17 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "मोरीजा-बानोल खनन क्षेत्र निम्नलिखित में से किस खनिज के लिए प्रसिद्ध है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008271",
+          "relation": "duplicate"
+        },
+        {
+          "id": "rg_008327",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_008123",
@@ -2809,7 +2858,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "भारत में, राजस्थान निम्नलिखित में से किस खनिज का एकमात्र उत्पादक है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_007930"
     },
     {
       "id": "rg_008124",
@@ -2857,7 +2907,13 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "भारत में राजस्थान ______ का एकमात्र उत्पादक है।",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008307",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_008128",
@@ -3001,7 +3057,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "राजस्थान में पेट्रोलियम उत्पादन क्षेत्र कितने जिलों में फैला हुआ है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008027"
     },
     {
       "id": "rg_008142",
@@ -3481,7 +3538,13 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "राजस्थान में सर्वाधिक ‘फेल्सपार’ उत्पादक जिला है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008217",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_008239",
@@ -3553,7 +3616,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "‘मोरीजा-बानोल’ खनन क्षेत्र किसके लिए प्रसिद्ध है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008122"
     },
     {
       "id": "rg_008272",
@@ -3673,7 +3737,13 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "राजस्थान में लिग्नाइट कोयला उत्पादन के प्रमुख क्षेत्र स्थित है-",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008192",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_008284",
@@ -3889,7 +3959,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "इनमें से कौन-सा राजस्थान का प्रमुख जिप्सम उत्पादक क्षेत्र है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_007975"
     },
     {
       "id": "rg_008314",
@@ -4105,7 +4176,13 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "डाबला-सिंघाना क्षेत्र किस अयस्क के लिए प्रसिद्ध है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008221",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_008263",
@@ -4177,7 +4254,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "‘नाथरा की पाल’ खान किस जिले में अवस्थित है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008008"
     },
     {
       "id": "rg_008296",
@@ -4321,7 +4399,13 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "निम्न में से किस खनिज भंडार में राजस्थान देश में अग्रणी राज्य है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008162",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_007941",
@@ -4897,7 +4981,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "निम्नलिखित में से किस खनिज के उत्पादन में राजस्थान भारत में पहले स्थान पर है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_007940"
     },
     {
       "id": "rg_008163",
@@ -4945,7 +5030,13 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "राजस्थान में मैंगनीज का सर्वाधिक उत्पादन किस जिले में होता है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_008320",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_008166",
@@ -5281,7 +5372,25 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "झामर कोटड़ा खानें किसके लिए जानी जाती है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_007993",
+          "relation": "duplicate"
+        },
+        {
+          "id": "rg_008009",
+          "relation": "duplicate"
+        },
+        {
+          "id": "rg_008054",
+          "relation": "duplicate"
+        },
+        {
+          "id": "rg_008213",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_008191",
@@ -5329,7 +5438,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "राजस्थान में लिग्नाइट कोयला उत्पादन के प्रमुख क्षेत्र हैं -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008305"
     },
     {
       "id": "rg_008193",
@@ -5665,7 +5775,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "झामर-कोटड़ा प्रसिद्ध है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008186"
     },
     {
       "id": "rg_008214",
@@ -5761,7 +5872,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "राजस्थान का वह जिला, जो राज्य में फेल्सपार का सर्वाधिक प्रतिशत उत्पादक है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008194"
     },
     {
       "id": "rg_008219",
@@ -5809,7 +5921,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "राजस्थान का डाबला-सिंघाना क्षेत्र किस खनिज के उत्पादन के लिए प्रसिद्ध है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008259"
     },
     {
       "id": "rg_008222",
@@ -6241,7 +6354,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "‘पलाना’ जिस खनन के लिए जाना जाता है-",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_007996"
     },
     {
       "id": "rg_008257",
@@ -6529,7 +6643,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "राजस्थान देश में ___ का एकमात्र उत्पादक है।",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008127"
     },
     {
       "id": "rg_008308",
@@ -6697,7 +6812,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "राज्य में मैंगनीज उत्पादन में प्रथम जिला है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008165"
     },
     {
       "id": "rg_008321",
@@ -6850,7 +6966,7 @@
       "sourceTopic": "राजस्थान में खनिज संसाधन",
       "masterTopicId": 11,
       "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "मेरीजा-बानोला क्षेत्र किस खनिज के लिए प्रसिद्ध है-",
+      "question": "मोरीजा-बानोल क्षेत्र किस खनिज के लिए प्रसिद्ध है-",
       "options": [
         "ताँबा",
         "लोहा",
@@ -6865,7 +6981,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "मेरीजा-बानोला क्षेत्र किस खनिज के लिए प्रसिद्ध है-",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008122"
     },
     {
       "id": "rg_008328",
@@ -7018,7 +7135,7 @@
       "sourceTopic": "राजस्थान में खनिज संसाधन",
       "masterTopicId": 11,
       "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "सिरोही का बाल्टा क्षेत्र प्रसिद्ध है-",
+      "question": "सिरोही का बाल्दा क्षेत्र प्रसिद्ध है-",
       "options": [
         "टिन के लिए",
         "स्टीएटाइट के लिए",
@@ -7033,7 +7150,8 @@
       "topicId": 11,
       "type": "mcq",
       "questionText": "सिरोही का बाल्टा क्षेत्र प्रसिद्ध है-",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_008068"
     },
     {
       "id": "rg_008335",

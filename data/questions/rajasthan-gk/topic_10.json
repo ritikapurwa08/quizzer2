@@ -193,7 +193,13 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "20वीं पशुधन गणना रिपोर्ट (2019) के अनुसार कुल पशुधन संख्या के मामले में देश में राजस्थान का कौन-सा स्थान है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005841",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005741",
@@ -433,7 +439,13 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "राजस्थान में सर्वाधिक दूध देने वाली प्रसिद्ध भैंस की नस्ल कौन-सी है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005774",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005753",
@@ -457,7 +469,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "निम्नलिखित में से कौन-सा समूह भेड़ की नस्लों का प्रतिनिधित्व नहीं करता है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005970"
     },
     {
       "id": "rg_005754",
@@ -553,7 +566,13 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "निम्नलिखित में से कौन-सी गाय की नस्ल नहीं है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005959",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005761",
@@ -841,7 +860,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "निम्नलिखित में से कौन-सी भैंस की एक प्रसिद्ध स्वदेशी दुधारू नस्ल है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005749"
     },
     {
       "id": "rg_005775",
@@ -865,7 +885,13 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "20वीं पशुधन गणना (2019) के अनुसार देश के कुल पशुधन का कितना प्रतिशत राजस्थान में उपलब्ध है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005800",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005777",
@@ -1273,7 +1299,21 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "20वीं पशुगणना (2019) के अंतिम आंकड़ों के अनुसार राजस्थान में कुल पशुधन संख्या कितनी है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005816",
+          "relation": "duplicate"
+        },
+        {
+          "id": "rg_005847",
+          "relation": "duplicate"
+        },
+        {
+          "id": "rg_005867",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005805",
@@ -1345,7 +1385,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "निम्नलिखित में से कौन-सी भेड़ की नस्ल नहीं है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005970"
     },
     {
       "id": "rg_005809",
@@ -1417,7 +1458,13 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "राजस्थान के किस भौगोलिक क्षेत्र में मुख्य रूप से ‘थारपारकर’ गाय पाई जाती है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005972",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005814",
@@ -1609,7 +1656,13 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "‘आॅपरेशन फ्लड’ किससे संबंधित है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005971",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005830",
@@ -1753,7 +1806,13 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "‘केन्द्रीय भेड़ एवं ऊन अनुसंधान संस्थान’ (ICAR-CSWRI) राजस्थान के किस जिले व स्थान पर अवस्थित है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005938",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005850",
@@ -1801,7 +1860,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "इनमें से कौन-सी राजस्थान की भेड़ की नस्ल नहीं है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005970"
     },
     {
       "id": "rg_005893",
@@ -1873,7 +1933,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "20वीं पशुगणना (2019) के अनुसार राजस्थान में देश के कुल पशुधन का कितना प्रतिशत विद्यमान है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005775"
     },
     {
       "id": "rg_005816",
@@ -1897,7 +1958,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "20वीं पशुधन गणना (2019) के अनुसार राजस्थान राज्य में कुल पशुधन की संख्या कितनी दर्ज की गई?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005804"
     },
     {
       "id": "rg_005817",
@@ -2065,7 +2127,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "केन्द्रीय भेड़ एवं ऊन अनुसंधान संस्थान (CSWRI) कहाँ अवस्थित है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005848"
     },
     {
       "id": "rg_005896",
@@ -2449,7 +2512,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "आॅपरेशन फ्लड का संबन्ध है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005829"
     },
     {
       "id": "rg_005982",
@@ -2929,7 +2993,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "निम्नलिखित में से राजस्थान के कौन-से भौगोलिक क्षेत्र में 'थारपारकर' गोवंश नस्ल मुख्य रूप से पाई जाती है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005811"
     },
     {
       "id": "rg_005974",
@@ -3097,7 +3162,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "20वीं पशुगणना के अनुसार कुल पशुधन संख्या के आधार पर राजस्थान का देश में कौन-सा स्थान है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005735"
     },
     {
       "id": "rg_005842",
@@ -3217,7 +3283,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "20वीं पशुगणना (2019) के अनुसार राजस्थान में कुल पशुधन की संख्या कितनी दर्ज की गई है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005804"
     },
     {
       "id": "rg_005851",
@@ -3313,7 +3380,13 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "20वीं पशुधन गणना 2019 के अनुसार राजस्थान में संख्या की दृष्टि से सर्वाधिक पाया जाने वाला पशु कौन-सा है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_006004",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005867",
@@ -3337,7 +3410,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "20वीं पशुधन गणना (2019) के अनुसार राजस्थान में कुल पशुधन संख्या कितनी दर्ज की गई है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005804"
     },
     {
       "id": "rg_005868",
@@ -4009,7 +4083,13 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "राजस्थान की सबसे पुरानी एवं प्रथम डेयरी कौन-सी है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005995",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005946",
@@ -4057,7 +4137,13 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "राजस्थान का एकमात्र राजकीय पक्षी चिकित्सालय कहाँ स्थित है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005985",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005948",
@@ -4105,7 +4191,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "निम्नलिखित में से कौन-सी एक गोवंश (गाय) की नस्ल नहीं है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005758"
     },
     {
       "id": "rg_005961",
@@ -4177,7 +4264,21 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "निम्नलिखित में से कौन-सी एक प्रजाति भेड़ की नहीं है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005753",
+          "relation": "duplicate"
+        },
+        {
+          "id": "rg_005808",
+          "relation": "duplicate"
+        },
+        {
+          "id": "rg_005891",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005973",
@@ -4393,7 +4494,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "राजस्थान राज्य का एकमात्र राजकीय पक्षी चिकित्सालय (Avian Hospital) कहाँ स्थित है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005947"
     },
     {
       "id": "rg_005986",
@@ -4633,7 +4735,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "राजस्थान की सबसे पुरानी एवं प्रथम डेयरी कौन-सी है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005941"
     },
     {
       "id": "rg_005996",
@@ -4849,7 +4952,8 @@
       "topicId": 10,
       "type": "mcq",
       "questionText": "20वीं पशुगणना के अनुसार राजस्थान में किस पशुधन की संख्या सर्वाधिक पाई जाती है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005866"
     },
     {
       "id": "rg_006005",
@@ -6352,7 +6456,13 @@
         "rightTitle": "सूची – II (से)"
       },
       "topicFile": "topic_10.json",
-      "extractionReason": "type: match_following"
+      "extractionReason": "type: match_following",
+      "similarQuestions": [
+        {
+          "id": "rg_005960",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005844",
@@ -6443,7 +6553,17 @@
         "rightTitle": "सूची – II (पशु नस्लें)"
       },
       "topicFile": "topic_10.json",
-      "extractionReason": "type: match_following"
+      "extractionReason": "type: match_following",
+      "similarQuestions": [
+        {
+          "id": "rg_005906",
+          "relation": "duplicate"
+        },
+        {
+          "id": "rg_005967",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005853",
@@ -6755,7 +6875,8 @@
         "rightTitle": "सूची – II (गाय की नस्लें)"
       },
       "topicFile": "topic_10.json",
-      "extractionReason": "type: match_following"
+      "extractionReason": "type: match_following",
+      "isDuplicateOf": "rg_005852"
     },
     {
       "id": "rg_005929",
@@ -6885,7 +7006,8 @@
         "rightTitle": "सूची – II (नस्ल)"
       },
       "topicFile": "topic_10.json",
-      "extractionReason": "type: match_following"
+      "extractionReason": "type: match_following",
+      "isDuplicateOf": "rg_005833"
     },
     {
       "id": "rg_005966",
@@ -6976,7 +7098,8 @@
         "rightTitle": "सूची – II (पशु नस्लें)"
       },
       "topicFile": "topic_10.json",
-      "extractionReason": "type: match_following"
+      "extractionReason": "type: match_following",
+      "isDuplicateOf": "rg_005852"
     }
   ]
 }

@@ -627,7 +627,8 @@ def main():
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
-    memory_path = out / "feedback_memory.jsonl"
+    global_memory_path = Path("scripts/pipeline/feedback_memory.jsonl")
+    local_memory_path = out / "feedback_memory.jsonl"
     cache_path = out / "ai_cache.jsonl"
 
     print("=" * 60)
@@ -644,10 +645,16 @@ def main():
     pairs = build_candidates(records, args.min_jaccard, args.min_ratio)
     print(f"Candidate Pairs Found: {len(pairs)}")
 
-    memory = load_feedback(memory_path)
+    memory = {}
+    if global_memory_path.exists():
+        memory.update(load_feedback(global_memory_path))
+    if local_memory_path.exists():
+        memory.update(load_feedback(local_memory_path))
+    if memory:
+        print(f"🧠 Loaded {len(memory)} Verified Decisions from Feedback Memory")
     cache = load_cache(cache_path)
 
-    stats = {"rule": 0, "cache": 0, "below_score": 0, "twins": 0, "inverse": 0}
+    stats = {"memory": 0, "rule": 0, "cache": 0, "below_score": 0, "twins": 0, "inverse": 0}
     pending = []
     seen_keys = {}
     twins = defaultdict(list)
@@ -658,7 +665,8 @@ def main():
         item = memory.get(p["pair_key"])
         if item:
             p["decision_source"] = "feedback_memory"
-            p["human_decision"] = item.get("decision", "")
+            p["human_decision"] = item.get("human_decision") or item.get("decision", "")
+            stats["memory"] += 1
             continue
 
         # Check rule decision
