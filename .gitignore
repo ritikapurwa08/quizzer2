@@ -69,6 +69,7 @@ convex-latest-backup/
 /scripts/inspect_*.js
 /scripts/auto_audit_pipeline.js
 /scripts/heal_*.js
+/scripts/apply_convex_healings.js
 /scripts/merge_*.js
 /scripts/verify_*.js
 
