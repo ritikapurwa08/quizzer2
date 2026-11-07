@@ -1,7 +1,7 @@
 {
   "masterTopicId": 11,
   "masterTopic": "राजस्थान के खनिज संसाधन",
-  "totalAvailable": 399,
+  "totalAvailable": 381,
   "questions": [
     {
       "id": "rg_007924",
@@ -784,31 +784,6 @@
       "meta": {}
     },
     {
-      "id": "rg_007993",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "‘झामर कोटड़ा’ खानें किसके लिए जानी जाती हैं -",
-      "options": [
-        "रॉक फास्फेट",
-        "ताँबा",
-        "जिप्सम",
-        "लोहा"
-      ],
-      "answer": "A",
-      "exam": "Junior Instructor (STE) Exam",
-      "year": 2024,
-      "explanation": "झामर कोटड़ा (उदयपुर) राजस्थान में रॉक फास्फेट की खानों के लिए प्रसिद्ध है।",
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "‘झामर कोटड़ा’ खानें किसके लिए जानी जाती हैं -",
-      "meta": {},
-      "isDuplicateOf": "rg_008186"
-    },
-    {
       "id": "rg_007994",
       "source": "RajasthanGyan",
       "sourceTopicId": 72,
@@ -1083,31 +1058,6 @@
           "relation": "duplicate"
         }
       ]
-    },
-    {
-      "id": "rg_008009",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "झामर कोटड़ा भण्डार संबंधित है -",
-      "options": [
-        "पोटाश",
-        "सिलिका मृदा",
-        "रॉक फास्फेट",
-        "चूने का पत्थर"
-      ],
-      "answer": "C",
-      "exam": "Junior Instructor (RAT) Exam",
-      "year": 2024,
-      "explanation": "झामर कोटड़ा खदान भारत में फॉस्फेट का सबसे बड़ा भंडार है। झामर कोटड़ा राजस्थान के दक्षिणी भाग में अरावली पर्वतमाला में स्थित है। यह राजस्थान के उदयपुर जिले में स्थित है।",
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "झामर कोटड़ा भण्डार संबंधित है -",
-      "meta": {},
-      "isDuplicateOf": "rg_008186"
     },
     {
       "id": "rg_008010",
@@ -2004,31 +1954,6 @@
       "meta": {}
     },
     {
-      "id": "rg_008054",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "झामर कोटड़ा खानें किसके लिए जानी जाती हैं -",
-      "options": [
-        "फेल्सपार",
-        "रॉक फ़ॉस्फ़ेट",
-        "जिप्सम",
-        "अभ्रक"
-      ],
-      "answer": "B",
-      "exam": "3rd Grade Teacher Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "झामर कोटड़ा खानें किसके लिए जानी जाती हैं -",
-      "meta": {},
-      "isDuplicateOf": "rg_008186"
-    },
-    {
       "id": "rg_008055",
       "source": "RajasthanGyan",
       "sourceTopicId": 72,
@@ -2837,31 +2762,6 @@
       ]
     },
     {
-      "id": "rg_008123",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "भारत में, राजस्थान निम्नलिखित में से किस खनिज का एकमात्र उत्पादक है -",
-      "options": [
-        "यूरेनियम",
-        "क्वार्ट्ज",
-        "वोलस्टोनाइट",
-        "मैग्नेटाइट"
-      ],
-      "answer": "C",
-      "exam": "Police Constable Exam (15 May Shift-2)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "भारत में, राजस्थान निम्नलिखित में से किस खनिज का एकमात्र उत्पादक है -",
-      "meta": {},
-      "isDuplicateOf": "rg_007930"
-    },
-    {
       "id": "rg_008124",
       "source": "RajasthanGyan",
       "sourceTopicId": 72,
@@ -3034,31 +2934,6 @@
       "type": "mcq",
       "questionText": "भारत का कौन सा राज्य जिप्सम का सर्वाधिक उत्पादन करता है -",
       "meta": {}
-    },
-    {
-      "id": "rg_008141",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "राजस्थान में पेट्रोलियम उत्पादन क्षेत्र कितने जिलों में फैला हुआ है -",
-      "options": [
-        "14",
-        "16",
-        "9",
-        "12"
-      ],
-      "answer": "A",
-      "exam": "VDO Exam 2nd Shift 28 Dec",
-      "year": 2021,
-      "explanation": null,
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "राजस्थान में पेट्रोलियम उत्पादन क्षेत्र कितने जिलों में फैला हुआ है -",
-      "meta": {},
-      "isDuplicateOf": "rg_008027"
     },
     {
       "id": "rg_008142",
@@ -3595,31 +3470,6 @@
       "meta": {}
     },
     {
-      "id": "rg_008271",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "‘मोरीजा-बानोल’ खनन क्षेत्र किसके लिए प्रसिद्ध है -",
-      "options": [
-        "तांबा खनन",
-        "लौह-अयस्क खनन",
-        "टंगस्टन खनन",
-        "फैल्सपार खनन"
-      ],
-      "answer": "B",
-      "exam": "Livestock Assistant Exam",
-      "year": 2018,
-      "explanation": "मोरीजा-बानोल क्षेत्र: इस क्षेत्र को जयपुर जिले में मोरीजा-बनोल निक्षेप के रूप में भी जाना जाता है। इस क्षेत्र में, लौह अयस्क हेमेटाइट बैंड के रूप में होता है।",
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "‘मोरीजा-बानोल’ खनन क्षेत्र किसके लिए प्रसिद्ध है -",
-      "meta": {},
-      "isDuplicateOf": "rg_008122"
-    },
-    {
       "id": "rg_008272",
       "source": "RajasthanGyan",
       "sourceTopicId": 72,
@@ -3938,31 +3788,6 @@
       "meta": {}
     },
     {
-      "id": "rg_008178",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "इनमें से कौन-सा राजस्थान का प्रमुख जिप्सम उत्पादक क्षेत्र है -",
-      "options": [
-        "बीकानेर-गंगानगर-हनुमानगढ़ क्षेत्र",
-        "जौधपुर-बीकानेर-बाड़मेर क्षेत्र",
-        "चूरू-झुन्झुनू-सीकर क्षेत्र",
-        "जैसलमेर-बाड़मेर-जौधपुर क्षेत्र"
-      ],
-      "answer": "A",
-      "exam": "Stenographer Comp. Exam - (Paper I)",
-      "year": 2011,
-      "explanation": "राजस्थान के बीकानेर जिले में जिप्सम की सर्वाधिक मात्रा है। राजस्थान भारत में कुल उत्पादन का 90% उत्पादन करता है। बीकानेर के जमसार में राज्य का सबसे बड़ा भंडार है।",
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "इनमें से कौन-सा राजस्थान का प्रमुख जिप्सम उत्पादक क्षेत्र है -",
-      "meta": {},
-      "isDuplicateOf": "rg_007975"
-    },
-    {
       "id": "rg_008314",
       "source": "RajasthanGyan",
       "sourceTopicId": 72,
@@ -4231,31 +4056,6 @@
       "type": "mcq",
       "questionText": "हिन्दुस्तान जिंक लिमिटेड का जिंक स्मेल्टर उदयपुर में कहां स्थित है -",
       "meta": {}
-    },
-    {
-      "id": "rg_008295",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "‘नाथरा की पाल’ खान किस जिले में अवस्थित है -",
-      "options": [
-        "सिरोही",
-        "बाड़मेर",
-        "अजमेर",
-        "उदयपुर"
-      ],
-      "answer": "D",
-      "exam": "RSMSSB LDC (09-09-18) Paper-1",
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "‘नाथरा की पाल’ खान किस जिले में अवस्थित है -",
-      "meta": {},
-      "isDuplicateOf": "rg_008008"
     },
     {
       "id": "rg_008296",
@@ -4960,31 +4760,6 @@
       "meta": {}
     },
     {
-      "id": "rg_008162",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "निम्नलिखित में से किस खनिज के उत्पादन में राजस्थान भारत में पहले स्थान पर है -",
-      "options": [
-        "फेल्प्सपार",
-        "लिग्नाइट",
-        "तांबा",
-        "लोहा"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": "भारत में फेल्स्पार के कुल संसाधनों का अनुमान लगभग 132 मिलियन टन है। इसका 66% अकेले राजस्थान में तथा 16% आंध्र प्रदेश में है।",
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से किस खनिज के उत्पादन में राजस्थान भारत में पहले स्थान पर है -",
-      "meta": {},
-      "isDuplicateOf": "rg_007940"
-    },
-    {
       "id": "rg_008163",
       "source": "RajasthanGyan",
       "sourceTopicId": 72,
@@ -5417,31 +5192,6 @@
       "meta": {}
     },
     {
-      "id": "rg_008192",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "राजस्थान में लिग्नाइट कोयला उत्पादन के प्रमुख क्षेत्र हैं -",
-      "options": [
-        "बांदर सिंदरी एवं मेड़ता",
-        "आगूचा एवं सोनू",
-        "कोलायत एवं किशनगढ़",
-        "बरसिंगसर एवं कपूरड़ी"
-      ],
-      "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "राजस्थान में लिग्नाइट कोयला उत्पादन के प्रमुख क्षेत्र हैं -",
-      "meta": {},
-      "isDuplicateOf": "rg_008305"
-    },
-    {
       "id": "rg_008193",
       "source": "RajasthanGyan",
       "sourceTopicId": 72,
@@ -5754,31 +5504,6 @@
       "meta": {}
     },
     {
-      "id": "rg_008213",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "झामर-कोटड़ा प्रसिद्ध है -",
-      "options": [
-        "डोलोमाइट के लिए",
-        "रौक फास्फेट के लिए",
-        "जिप्सम के लिए",
-        "फेल्सपार के लिए"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": "झामर कोटड़ा खदान भारत में फॉस्फेट का सबसे बड़ा भंडार है। झामर कोटड़ा उदयपुर जिले में स्थित है।",
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "झामर-कोटड़ा प्रसिद्ध है -",
-      "meta": {},
-      "isDuplicateOf": "rg_008186"
-    },
-    {
       "id": "rg_008214",
       "source": "RajasthanGyan",
       "sourceTopicId": 72,
@@ -5851,31 +5576,6 @@
       "meta": {}
     },
     {
-      "id": "rg_008217",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "राजस्थान का वह जिला, जो राज्य में फेल्सपार का सर्वाधिक प्रतिशत उत्पादक है -",
-      "options": [
-        "सिरोही",
-        "टोंक",
-        "अजमेर",
-        "उदयपुर"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "राजस्थान का वह जिला, जो राज्य में फेल्सपार का सर्वाधिक प्रतिशत उत्पादक है -",
-      "meta": {},
-      "isDuplicateOf": "rg_008194"
-    },
-    {
       "id": "rg_008219",
       "source": "RajasthanGyan",
       "sourceTopicId": 72,
@@ -5898,31 +5598,6 @@
       "type": "mcq",
       "questionText": "‘ऐश्वर्या तेल क्षेत्र’ जिस जिले में स्थित है, वह है -",
       "meta": {}
-    },
-    {
-      "id": "rg_008221",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "राजस्थान का डाबला-सिंघाना क्षेत्र किस खनिज के उत्पादन के लिए प्रसिद्ध है -",
-      "options": [
-        "तांबा",
-        "लोहा",
-        "चांदी",
-        "सोना"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": "राजस्थान में लौह अयस्क की खदानें हैं:उदयपुर - नाथ की पाल, थुर हैदरसीकर - नीम का थानादौसा - लालसोटजयपुर - मोरीजा-बानोल, नीमला-रायसालोभीलवाड़ा - पुर बनेरा पट्टी",
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "राजस्थान का डाबला-सिंघाना क्षेत्र किस खनिज के उत्पादन के लिए प्रसिद्ध है -",
-      "meta": {},
-      "isDuplicateOf": "rg_008259"
     },
     {
       "id": "rg_008222",
@@ -6333,31 +6008,6 @@
       "meta": {}
     },
     {
-      "id": "rg_008256",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "‘पलाना’ जिस खनन के लिए जाना जाता है-",
-      "options": [
-        "कोयला",
-        "सोना",
-        "चांदी",
-        "तांबा"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "‘पलाना’ जिस खनन के लिए जाना जाता है-",
-      "meta": {},
-      "isDuplicateOf": "rg_007996"
-    },
-    {
       "id": "rg_008257",
       "source": "RajasthanGyan",
       "sourceTopicId": 72,
@@ -6622,31 +6272,6 @@
       "meta": {}
     },
     {
-      "id": "rg_008307",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "राजस्थान देश में ___ का एकमात्र उत्पादक है।",
-      "options": [
-        "जैस्पर, सीसा और जस्ता तथा वोलैस्टोनाइट",
-        "सोना, चांदी और ग्रेनाइट",
-        "टंगस्टन",
-        "इनमें से कोई नहीं"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "राजस्थान देश में ___ का एकमात्र उत्पादक है।",
-      "meta": {},
-      "isDuplicateOf": "rg_008127"
-    },
-    {
       "id": "rg_008308",
       "source": "RajasthanGyan",
       "sourceTopicId": 72,
@@ -6789,31 +6414,6 @@
       "type": "mcq",
       "questionText": "टगस्टन का सर्वाधिक उत्पादन किस जिले में होता है -",
       "meta": {}
-    },
-    {
-      "id": "rg_008320",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "राज्य में मैंगनीज उत्पादन में प्रथम जिला है -",
-      "options": [
-        "बांसवाड़ा",
-        "उदयपुर",
-        "डूंगरपुर",
-        "चित्तौड़गढ़"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "राज्य में मैंगनीज उत्पादन में प्रथम जिला है -",
-      "meta": {},
-      "isDuplicateOf": "rg_008165"
     },
     {
       "id": "rg_008321",
@@ -6960,31 +6560,6 @@
       "meta": {}
     },
     {
-      "id": "rg_008327",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "मोरीजा-बानोल क्षेत्र किस खनिज के लिए प्रसिद्ध है-",
-      "options": [
-        "ताँबा",
-        "लोहा",
-        "जस्ता",
-        "अभ्रक"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "मेरीजा-बानोला क्षेत्र किस खनिज के लिए प्रसिद्ध है-",
-      "meta": {},
-      "isDuplicateOf": "rg_008122"
-    },
-    {
       "id": "rg_008328",
       "source": "RajasthanGyan",
       "sourceTopicId": 72,
@@ -7127,31 +6702,6 @@
       "type": "mcq",
       "questionText": "पाली का नाना कराब क्षेत्र प्रसिद्ध है-",
       "meta": {}
-    },
-    {
-      "id": "rg_008334",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 72,
-      "sourceTopic": "राजस्थान में खनिज संसाधन",
-      "masterTopicId": 11,
-      "masterTopic": "राजस्थान के खनिज संसाधन",
-      "question": "सिरोही का बाल्दा क्षेत्र प्रसिद्ध है-",
-      "options": [
-        "टिन के लिए",
-        "स्टीएटाइट के लिए",
-        "टंगस्टन के लिए",
-        "घीया पत्थर के लिए"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": "सिरोही का ‘बाल्दा क्षेत्र’ टंगस्टन के लिए प्रसिद्ध है।",
-      "topic": "राजस्थान के खनिज संसाधन",
-      "topicId": 11,
-      "type": "mcq",
-      "questionText": "सिरोही का बाल्टा क्षेत्र प्रसिद्ध है-",
-      "meta": {},
-      "isDuplicateOf": "rg_008068"
     },
     {
       "id": "rg_008335",
@@ -11264,5 +10814,458 @@
       "topicFile": "topic_11.json",
       "extractionReason": "type: match_following"
     }
-  ]
+  ],
+  "archivedVariants": [
+    {
+      "id": "rg_007993",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "‘झामर कोटड़ा’ खानें किसके लिए जानी जाती हैं -",
+      "options": [
+        "रॉक फास्फेट",
+        "ताँबा",
+        "जिप्सम",
+        "लोहा"
+      ],
+      "answer": "A",
+      "exam": "Junior Instructor (STE) Exam",
+      "year": 2024,
+      "explanation": "झामर कोटड़ा (उदयपुर) राजस्थान में रॉक फास्फेट की खानों के लिए प्रसिद्ध है।",
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "‘झामर कोटड़ा’ खानें किसके लिए जानी जाती हैं -",
+      "meta": {},
+      "isDuplicateOf": "rg_008186"
+    },
+    {
+      "id": "rg_008009",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "झामर कोटड़ा भण्डार संबंधित है -",
+      "options": [
+        "पोटाश",
+        "सिलिका मृदा",
+        "रॉक फास्फेट",
+        "चूने का पत्थर"
+      ],
+      "answer": "C",
+      "exam": "Junior Instructor (RAT) Exam",
+      "year": 2024,
+      "explanation": "झामर कोटड़ा खदान भारत में फॉस्फेट का सबसे बड़ा भंडार है। झामर कोटड़ा राजस्थान के दक्षिणी भाग में अरावली पर्वतमाला में स्थित है। यह राजस्थान के उदयपुर जिले में स्थित है।",
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "झामर कोटड़ा भण्डार संबंधित है -",
+      "meta": {},
+      "isDuplicateOf": "rg_008186"
+    },
+    {
+      "id": "rg_008054",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "झामर कोटड़ा खानें किसके लिए जानी जाती हैं -",
+      "options": [
+        "फेल्सपार",
+        "रॉक फ़ॉस्फ़ेट",
+        "जिप्सम",
+        "अभ्रक"
+      ],
+      "answer": "B",
+      "exam": "3rd Grade Teacher Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "year": 2022,
+      "explanation": null,
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "झामर कोटड़ा खानें किसके लिए जानी जाती हैं -",
+      "meta": {},
+      "isDuplicateOf": "rg_008186"
+    },
+    {
+      "id": "rg_008123",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "भारत में, राजस्थान निम्नलिखित में से किस खनिज का एकमात्र उत्पादक है -",
+      "options": [
+        "यूरेनियम",
+        "क्वार्ट्ज",
+        "वोलस्टोनाइट",
+        "मैग्नेटाइट"
+      ],
+      "answer": "C",
+      "exam": "Police Constable Exam (15 May Shift-2)",
+      "year": 2022,
+      "explanation": null,
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "भारत में, राजस्थान निम्नलिखित में से किस खनिज का एकमात्र उत्पादक है -",
+      "meta": {},
+      "isDuplicateOf": "rg_007930"
+    },
+    {
+      "id": "rg_008141",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "राजस्थान में पेट्रोलियम उत्पादन क्षेत्र कितने जिलों में फैला हुआ है -",
+      "options": [
+        "14",
+        "16",
+        "9",
+        "12"
+      ],
+      "answer": "A",
+      "exam": "VDO Exam 2nd Shift 28 Dec",
+      "year": 2021,
+      "explanation": null,
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "राजस्थान में पेट्रोलियम उत्पादन क्षेत्र कितने जिलों में फैला हुआ है -",
+      "meta": {},
+      "isDuplicateOf": "rg_008027"
+    },
+    {
+      "id": "rg_008271",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "‘मोरीजा-बानोल’ खनन क्षेत्र किसके लिए प्रसिद्ध है -",
+      "options": [
+        "तांबा खनन",
+        "लौह-अयस्क खनन",
+        "टंगस्टन खनन",
+        "फैल्सपार खनन"
+      ],
+      "answer": "B",
+      "exam": "Livestock Assistant Exam",
+      "year": 2018,
+      "explanation": "मोरीजा-बानोल क्षेत्र: इस क्षेत्र को जयपुर जिले में मोरीजा-बनोल निक्षेप के रूप में भी जाना जाता है। इस क्षेत्र में, लौह अयस्क हेमेटाइट बैंड के रूप में होता है।",
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "‘मोरीजा-बानोल’ खनन क्षेत्र किसके लिए प्रसिद्ध है -",
+      "meta": {},
+      "isDuplicateOf": "rg_008122"
+    },
+    {
+      "id": "rg_008178",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "इनमें से कौन-सा राजस्थान का प्रमुख जिप्सम उत्पादक क्षेत्र है -",
+      "options": [
+        "बीकानेर-गंगानगर-हनुमानगढ़ क्षेत्र",
+        "जौधपुर-बीकानेर-बाड़मेर क्षेत्र",
+        "चूरू-झुन्झुनू-सीकर क्षेत्र",
+        "जैसलमेर-बाड़मेर-जौधपुर क्षेत्र"
+      ],
+      "answer": "A",
+      "exam": "Stenographer Comp. Exam - (Paper I)",
+      "year": 2011,
+      "explanation": "राजस्थान के बीकानेर जिले में जिप्सम की सर्वाधिक मात्रा है। राजस्थान भारत में कुल उत्पादन का 90% उत्पादन करता है। बीकानेर के जमसार में राज्य का सबसे बड़ा भंडार है।",
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "इनमें से कौन-सा राजस्थान का प्रमुख जिप्सम उत्पादक क्षेत्र है -",
+      "meta": {},
+      "isDuplicateOf": "rg_007975"
+    },
+    {
+      "id": "rg_008295",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "‘नाथरा की पाल’ खान किस जिले में अवस्थित है -",
+      "options": [
+        "सिरोही",
+        "बाड़मेर",
+        "अजमेर",
+        "उदयपुर"
+      ],
+      "answer": "D",
+      "exam": "RSMSSB LDC (09-09-18) Paper-1",
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "‘नाथरा की पाल’ खान किस जिले में अवस्थित है -",
+      "meta": {},
+      "isDuplicateOf": "rg_008008"
+    },
+    {
+      "id": "rg_008162",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "निम्नलिखित में से किस खनिज के उत्पादन में राजस्थान भारत में पहले स्थान पर है -",
+      "options": [
+        "फेल्प्सपार",
+        "लिग्नाइट",
+        "तांबा",
+        "लोहा"
+      ],
+      "answer": "A",
+      "exam": null,
+      "year": null,
+      "explanation": "भारत में फेल्स्पार के कुल संसाधनों का अनुमान लगभग 132 मिलियन टन है। इसका 66% अकेले राजस्थान में तथा 16% आंध्र प्रदेश में है।",
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस खनिज के उत्पादन में राजस्थान भारत में पहले स्थान पर है -",
+      "meta": {},
+      "isDuplicateOf": "rg_007940"
+    },
+    {
+      "id": "rg_008192",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "राजस्थान में लिग्नाइट कोयला उत्पादन के प्रमुख क्षेत्र हैं -",
+      "options": [
+        "बांदर सिंदरी एवं मेड़ता",
+        "आगूचा एवं सोनू",
+        "कोलायत एवं किशनगढ़",
+        "बरसिंगसर एवं कपूरड़ी"
+      ],
+      "answer": "D",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "राजस्थान में लिग्नाइट कोयला उत्पादन के प्रमुख क्षेत्र हैं -",
+      "meta": {},
+      "isDuplicateOf": "rg_008305"
+    },
+    {
+      "id": "rg_008213",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "झामर-कोटड़ा प्रसिद्ध है -",
+      "options": [
+        "डोलोमाइट के लिए",
+        "रौक फास्फेट के लिए",
+        "जिप्सम के लिए",
+        "फेल्सपार के लिए"
+      ],
+      "answer": "B",
+      "exam": null,
+      "year": null,
+      "explanation": "झामर कोटड़ा खदान भारत में फॉस्फेट का सबसे बड़ा भंडार है। झामर कोटड़ा उदयपुर जिले में स्थित है।",
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "झामर-कोटड़ा प्रसिद्ध है -",
+      "meta": {},
+      "isDuplicateOf": "rg_008186"
+    },
+    {
+      "id": "rg_008217",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "राजस्थान का वह जिला, जो राज्य में फेल्सपार का सर्वाधिक प्रतिशत उत्पादक है -",
+      "options": [
+        "सिरोही",
+        "टोंक",
+        "अजमेर",
+        "उदयपुर"
+      ],
+      "answer": "C",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "राजस्थान का वह जिला, जो राज्य में फेल्सपार का सर्वाधिक प्रतिशत उत्पादक है -",
+      "meta": {},
+      "isDuplicateOf": "rg_008194"
+    },
+    {
+      "id": "rg_008221",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "राजस्थान का डाबला-सिंघाना क्षेत्र किस खनिज के उत्पादन के लिए प्रसिद्ध है -",
+      "options": [
+        "तांबा",
+        "लोहा",
+        "चांदी",
+        "सोना"
+      ],
+      "answer": "B",
+      "exam": null,
+      "year": null,
+      "explanation": "राजस्थान में लौह अयस्क की खदानें हैं:उदयपुर - नाथ की पाल, थुर हैदरसीकर - नीम का थानादौसा - लालसोटजयपुर - मोरीजा-बानोल, नीमला-रायसालोभीलवाड़ा - पुर बनेरा पट्टी",
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "राजस्थान का डाबला-सिंघाना क्षेत्र किस खनिज के उत्पादन के लिए प्रसिद्ध है -",
+      "meta": {},
+      "isDuplicateOf": "rg_008259"
+    },
+    {
+      "id": "rg_008256",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "‘पलाना’ जिस खनन के लिए जाना जाता है-",
+      "options": [
+        "कोयला",
+        "सोना",
+        "चांदी",
+        "तांबा"
+      ],
+      "answer": "A",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "‘पलाना’ जिस खनन के लिए जाना जाता है-",
+      "meta": {},
+      "isDuplicateOf": "rg_007996"
+    },
+    {
+      "id": "rg_008307",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "राजस्थान देश में ___ का एकमात्र उत्पादक है।",
+      "options": [
+        "जैस्पर, सीसा और जस्ता तथा वोलैस्टोनाइट",
+        "सोना, चांदी और ग्रेनाइट",
+        "टंगस्टन",
+        "इनमें से कोई नहीं"
+      ],
+      "answer": "A",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "राजस्थान देश में ___ का एकमात्र उत्पादक है।",
+      "meta": {},
+      "isDuplicateOf": "rg_008127"
+    },
+    {
+      "id": "rg_008320",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "राज्य में मैंगनीज उत्पादन में प्रथम जिला है -",
+      "options": [
+        "बांसवाड़ा",
+        "उदयपुर",
+        "डूंगरपुर",
+        "चित्तौड़गढ़"
+      ],
+      "answer": "A",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "राज्य में मैंगनीज उत्पादन में प्रथम जिला है -",
+      "meta": {},
+      "isDuplicateOf": "rg_008165"
+    },
+    {
+      "id": "rg_008327",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "मोरीजा-बानोल क्षेत्र किस खनिज के लिए प्रसिद्ध है-",
+      "options": [
+        "ताँबा",
+        "लोहा",
+        "जस्ता",
+        "अभ्रक"
+      ],
+      "answer": "B",
+      "exam": null,
+      "year": null,
+      "explanation": null,
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "मेरीजा-बानोला क्षेत्र किस खनिज के लिए प्रसिद्ध है-",
+      "meta": {},
+      "isDuplicateOf": "rg_008122"
+    },
+    {
+      "id": "rg_008334",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 72,
+      "sourceTopic": "राजस्थान में खनिज संसाधन",
+      "masterTopicId": 11,
+      "masterTopic": "राजस्थान के खनिज संसाधन",
+      "question": "सिरोही का बाल्दा क्षेत्र प्रसिद्ध है-",
+      "options": [
+        "टिन के लिए",
+        "स्टीएटाइट के लिए",
+        "टंगस्टन के लिए",
+        "घीया पत्थर के लिए"
+      ],
+      "answer": "C",
+      "exam": null,
+      "year": null,
+      "explanation": "सिरोही का ‘बाल्दा क्षेत्र’ टंगस्टन के लिए प्रसिद्ध है।",
+      "topic": "राजस्थान के खनिज संसाधन",
+      "topicId": 11,
+      "type": "mcq",
+      "questionText": "सिरोही का बाल्टा क्षेत्र प्रसिद्ध है-",
+      "meta": {},
+      "isDuplicateOf": "rg_008068"
+    }
+  ],
+  "totalArchivedVariants": 18
 }

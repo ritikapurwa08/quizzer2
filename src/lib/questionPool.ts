@@ -161,6 +161,19 @@ export function buildQuestionIndex(): Map<string, any> {
             index.set(String(q.convexId), q);
           }
         }
+
+        // Also index archived variants for historical attempt resolution without bloating active pool
+        const archived: any[] = Array.isArray(data.archivedVariants) ? data.archivedVariants : [];
+        for (const q of archived) {
+          const qId = q.id || q.canonicalId;
+          if (qId) {
+            index.set(String(qId), q);
+            index.set(String(qId).toLowerCase(), q);
+          }
+          if (q.convexId) {
+            index.set(String(q.convexId), q);
+          }
+        }
       } catch (err) {
         console.error(`Failed to load ${file}:`, err);
       }
