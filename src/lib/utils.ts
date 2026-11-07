@@ -120,9 +120,9 @@ const MATCH_QUESTION_TYPES = new Set([
  */
 export function cleanQuestionPrompt(text: string, type?: string): string {
   if (!text) return "";
-  const isMatchOrTable =
-    (type ? MATCH_QUESTION_TYPES.has(type) : false) ||
-    /(?:सुमेलित|मिलान|तालिका|सारणी|सूची\s*[-–—:]*\s*[1I]|match.*following)/i.test(text);
+  // Only strip embedded text lists if the question type is rendered with a dedicated match/table component.
+  // Standard MCQs and other question types MUST preserve the full question stem and list text.
+  const isMatchOrTable = type ? MATCH_QUESTION_TYPES.has(type) : false;
   if (!isMatchOrTable) {
     return text;
   }

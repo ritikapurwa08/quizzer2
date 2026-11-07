@@ -28,3 +28,4 @@ export { QuestionPaletteToggle } from "./QuestionPaletteToggle";
 export { QuestionReviewCard } from "./QuestionReviewCard";
 export { QuestionReviewFilter } from "./QuestionReviewFilter";
 export { QuestionShellSkeleton } from "./QuestionShellSkeleton";
+export { SimilarQuestionsCarousel } from "./SimilarQuestionsCarousel";

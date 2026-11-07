@@ -51,7 +51,7 @@ export function tokenSimilarity(a: string, b: string): number {
 
 export interface DuplicateCheckResult {
   isDuplicate: boolean;
-  level?: 1 | 2 | 3 | 4;
+  level?: 1 | 2 | 3 | 4 | 5;
   reason?: string;
   matchedId?: string;
 }
@@ -60,7 +60,8 @@ export class QuestionDuplicateRegistry {
   private sourceIds = new Set<string>();
   private textNorms = new Map<string, string>(); // normText -> id
   private fingerprints = new Map<string, string>(); // fingerprint -> id
-  // Token inverted index for Level 4 fast candidate retrieval
+  private questionAnswers = new Map<string, { norm: string; answerText: string }>(); // id -> { norm, answerText }
+  // Token inverted index for fast candidate retrieval
   private tokenIndex = new Map<string, Array<{ id: string; norm: string; tokenCount: number }>>();
 
   constructor() {}
@@ -73,7 +74,8 @@ export class QuestionDuplicateRegistry {
     source: string,
     sourceQuestionId: string | number,
     questionText: string,
-    options: string[] = []
+    options: string[] = [],
+    answerText: string = ""
   ): DuplicateCheckResult {
     const sId = String(sourceQuestionId).trim();
     const sourceKey = `${source}::${sId}`;
@@ -116,12 +118,12 @@ export class QuestionDuplicateRegistry {
       };
     }
 
-    // Level 4: High token similarity (only for substantial questions >= 40 chars)
-    // Uses inverted token index for fast lookups
-    if (norm.length >= 40) {
+    const normAns = normalizeQuestionText(answerText);
+
+    // Level 4: High token similarity (>= 88%) with same answer OR inverse question match
+    if (norm.length >= 25) {
       const tokens = norm.split(" ").filter((t) => t.length > 2);
-      if (tokens.length >= 6) {
-        // Collect candidate matches that share significant tokens
+      if (tokens.length >= 4) {
         const candidateCounts = new Map<string, { norm: string; count: number; tokenCount: number }>();
         for (const token of tokens) {
           const entries = this.tokenIndex.get(token);
@@ -141,16 +143,36 @@ export class QuestionDuplicateRegistry {
           }
         }
 
-        // Only compute full similarity for candidates sharing >= 80% tokens
         for (const [candidateId, cand] of candidateCounts) {
           const minTokens = Math.min(tokens.length, cand.tokenCount);
-          if (cand.count / minTokens >= 0.85) {
+          if (cand.count / minTokens >= 0.75) {
             const sim = tokenSimilarity(norm, cand.norm);
-            if (sim >= 0.96) {
+            const candMeta = this.questionAnswers.get(candidateId);
+            const candAns = candMeta?.answerText || "";
+
+            // Same fact / answer with high token similarity
+            if (sim >= 0.88 && normAns && candAns && normAns === candAns) {
               return {
                 isDuplicate: true,
                 level: 4,
-                reason: `Level 4 Duplicate: High token similarity (${(sim * 100).toFixed(1)}%) with question ${candidateId}.`,
+                reason: `Level 4 Conceptual Duplicate: High token similarity (${(sim * 100).toFixed(1)}%) testing same fact as question ${candidateId}.`,
+                matchedId: candidateId,
+              };
+            }
+
+            // Inverse question check (e.g. Q1 asks for Y with answer X; Q2 asks for X with answer Y)
+            if (
+              normAns &&
+              candAns &&
+              normAns.length >= 3 &&
+              candAns.length >= 3 &&
+              norm.includes(candAns) &&
+              cand.norm.includes(normAns)
+            ) {
+              return {
+                isDuplicate: true,
+                level: 5,
+                reason: `Level 5 Inverse Duplicate: Direct/Reverse reciprocal question with question ${candidateId}.`,
                 matchedId: candidateId,
               };
             }
@@ -166,22 +188,24 @@ export class QuestionDuplicateRegistry {
     source: string,
     sourceQuestionId: string | number,
     questionText: string,
-    options: string[] = []
+    options: string[] = [],
+    answerText: string = ""
   ) {
     const sId = String(sourceQuestionId).trim();
     const sourceKey = `${source}::${sId}`;
     const norm = normalizeQuestionText(questionText);
     const fp = computeQuestionFingerprint(questionText, options);
+    const normAns = normalizeQuestionText(answerText);
 
     this.sourceIds.add(sourceKey);
     if (norm) {
       this.textNorms.set(norm, sId);
-      if (norm.length >= 40) {
+      this.questionAnswers.set(sId, { norm, answerText: normAns });
+      if (norm.length >= 25) {
         const tokens = norm.split(" ").filter((t) => t.length > 2);
-        if (tokens.length >= 6) {
+        if (tokens.length >= 4) {
           const entry = { id: sId, norm, tokenCount: tokens.length };
-          // Index rare or informative tokens (max 10 tokens per question)
-          const indexedTokens = new Set(tokens.slice(0, 10));
+          const indexedTokens = new Set(tokens.slice(0, 12));
           for (const token of indexedTokens) {
             let list = this.tokenIndex.get(token);
             if (!list) {
