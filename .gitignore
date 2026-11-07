@@ -55,5 +55,23 @@ __pycache__/
 # local database backups
 convex-latest-backup/
 
+# intermediate question extraction and audit batches (safeguards Vercel < 25MB quota)
+/data/questions/gemini_audited_batches/
+/data/questions/gemini_batches/
+/data/questions/extracted_by_topic/
+/data/questions/extracted_non_mcqs_master.json
+/data/questions/rajasthan-gk-backup-full/
+/data/questions/pipeline_progress.json
+
+# temporary audit scratch scripts
+/scripts/test_*.js
+/scripts/check_*.js
+/scripts/inspect_*.js
+/scripts/auto_audit_pipeline.js
+/scripts/heal_*.js
+/scripts/merge_*.js
+/scripts/verify_*.js
+
+
 
 
