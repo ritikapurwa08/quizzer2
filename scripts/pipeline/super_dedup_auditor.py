@@ -54,10 +54,13 @@ AI_INSTRUCTIONS = (
     "Codes for duplicates:\n"
     "  E = exact duplicate (asks the exact same fact)\n"
     "  N = near duplicate (same fact reworded or options rearranged)\n"
-    "  C = conceptual duplicate (same core knowledge point)\n"
+    "  C = conceptual duplicate (same core knowledge point and same target answer)\n"
     "  V = related variation (different fact, different year/scope, or inverse question)\n"
     "  D = completely different question\n"
     "  U = unsure\n"
+    "CRITICAL RULES:\n"
+    "- If two questions share a generic template (e.g. 'युग्म सुमेलित नहीं है?') but test DIFFERENT entities, sanctuaries, places, persons, or facts, they are DIFFERENT (code D)!\n"
+    "- Different answers, dates, numbers, or targets mean NOT a duplicate (code D or V).\n"
     "AUDIT CHECKS:\n"
     "- If a question explanation directly contradicts the marked answer key, set 'key_error': true\n"
     "- If options have obvious OCR typos (e.g. 'भीलवाड़ा' instead of 'देलवाड़ा' for a peak), set 'typo': true\n"
@@ -413,7 +416,7 @@ def format_item(rec, with_options=False):
     return s
 
 
-def groq_batch(anchor, candidates, keys, model="qwen/qwen3.8-27b", with_options=False, timeout=20, retries=2):
+def groq_batch(anchor, candidates, keys, model="qwen/qwen3.8-27b", with_options=False, timeout=25, retries=5):
     body_text = f"{AI_INSTRUCTIONS}\n\nANCHOR QUESTION:\n{format_item(anchor, with_options)}\n\nCANDIDATES TO AUDIT:"
     for n, cand in enumerate(candidates, 1):
         body_text += f"\n\n[{n}] {format_item(cand, with_options)}"
@@ -472,7 +475,7 @@ def groq_batch(anchor, candidates, keys, model="qwen/qwen3.8-27b", with_options=
             return verdicts, ""
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 502, 503, 504) and attempt < retries:
-                time.sleep(1.0)
+                time.sleep(2.0 * (attempt + 1))
                 continue
             last_error = f"HTTP {e.code}"
         except Exception as e:
@@ -515,8 +518,23 @@ def edge_type(pair, min_conf):
         conf = float(pair["ai_confidence"] or 0)
     except:
         conf = 0.0
-    if pair["ai_decision"] in DUP_DECISIONS and conf >= min_conf:
+    dec = pair.get("ai_decision")
+    reason = (pair.get("ai_reason") or "").lower()
+
+    # Safety guard: if reason notes different entities or facts, never cluster as duplicate!
+    if "different" in reason or "distinct" in reason or "not duplicate" in reason or "not a duplicate" in reason:
+        return None
+
+    if dec in ("exact_duplicate", "near_duplicate") and conf >= min_conf:
         return "duplicate"
+
+    if dec == "conceptual_duplicate" and conf >= 0.85:
+        # Conceptual duplicate must have matching answer text or key error
+        ans_a = pair.get("_a", {}).get("norm_answer", "")
+        ans_b = pair.get("_b", {}).get("norm_answer", "")
+        if (ans_a and ans_b and (ans_a == ans_b or ans_a in ans_b or ans_b in ans_a)) or pair.get("key_error"):
+            return "duplicate"
+
     return None
 
 

@@ -62,6 +62,7 @@ convex-latest-backup/
 /data/questions/extracted_non_mcqs_master.json
 /data/questions/rajasthan-gk-backup-full/
 /data/questions/pipeline_progress.json
+audit_results_*/
 
 # temporary audit scratch scripts
 /scripts/test_*.js
