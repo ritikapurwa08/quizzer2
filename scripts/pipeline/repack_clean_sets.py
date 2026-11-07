@@ -124,3 +124,4 @@ all_used_t2 = []
 for s in t2_sets[:36]:
     all_used_t2.extend(s['questionIds'])
 print(f"Topic 2: Total slots {len(all_used_t2)}, Unique Qs {len(set(all_used_t2))}, Duplicates = {len(all_used_t2) - len(set(all_used_t2))}")
+
