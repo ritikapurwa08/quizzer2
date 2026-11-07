@@ -21,10 +21,14 @@ import time
 import unicodedata
 import urllib.error
 import urllib.request
+import socket
 from collections import defaultdict
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from difflib import SequenceMatcher
 from pathlib import Path
+
+# Enforce strict 15s network timeout on all sockets to prevent CloseWait / TCP hangs
+socket.setdefaulttimeout(15.0)
 
 DEFAULT_TEXT_FIELDS = ("question", "questionText", "text", "prompt", "statement")
 DEFAULT_ANSWER_FIELDS = ("answer", "correctAnswer", "correct_answer", "answerText", "key")
@@ -428,7 +432,8 @@ def groq_batch(anchor, candidates, keys, model="qwen/qwen3.8-27b", with_options=
         headers = {
             "Content-Type": "application/json",
             "Authorization": f"Bearer {key}",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+            "Connection": "close"
         }
         data = json.dumps({
             "model": model,
@@ -478,6 +483,11 @@ def groq_batch(anchor, candidates, keys, model="qwen/qwen3.8-27b", with_options=
                 time.sleep(2.0 * (attempt + 1))
                 continue
             last_error = f"HTTP {e.code}"
+        except (urllib.error.URLError, TimeoutError, socket.timeout, ConnectionError) as e:
+            if attempt < retries:
+                time.sleep(1.5 * (attempt + 1))
+                continue
+            last_error = f"Network {type(e).__name__}: {e}"
         except Exception as e:
             last_error = str(e)
             
@@ -724,7 +734,9 @@ def main():
         typo_errors = []
 
         with ThreadPoolExecutor(max_workers=args.workers) as pool:
-            for (anchor, members), verdicts, err in pool.map(run_chunk, chunks_to_run):
+            futures = [pool.submit(run_chunk, chunk) for chunk in chunks_to_run]
+            for f in as_completed(futures):
+                (anchor, members), verdicts, err = f.result()
                 new_cache = []
                 for n, p in enumerate(members, 1):
                     res = verdicts.get(n)
@@ -739,6 +751,7 @@ def main():
                     else:
                         set_ai(p, {"decision": "unresolved", "confidence": 0.0, "reason": err or "AI error"}, "groq_ai")
                 append_cache(cache_path, new_cache)
+                print(f"  [Progress] Audited chunk ({len(members)} candidates). Total AI audited: {ai_pairs_audited}", flush=True)
 
         # Fan out to twins
         for rep in pending:

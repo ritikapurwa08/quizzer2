@@ -1,0 +1,26 @@
+{
+  "C001": {
+    "mainId": "rg_010631",
+    "clusterSize": 2,
+    "variants": [
+      "rg_010730"
+    ],
+    "questionSummary": "नाल एयरपोर्ट स्थित है -"
+  },
+  "C002": {
+    "mainId": "rg_010655",
+    "clusterSize": 2,
+    "variants": [
+      "rg_010706"
+    ],
+    "questionSummary": "रातानाडा हवाईअड्डा अपनी सेवायें उपलब्ध कराता है -"
+  },
+  "C003": {
+    "mainId": "rg_010657",
+    "clusterSize": 2,
+    "variants": [
+      "rg_010682"
+    ],
+    "questionSummary": "राजस्थान राज्य के अधिकतम क्षेत्र कौन-से रेलवे क्षेत्र के अंतर्गत आता है -"
+  }
+}

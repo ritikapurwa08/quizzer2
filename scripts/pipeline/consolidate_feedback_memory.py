@@ -5,8 +5,8 @@ from pathlib import Path
 memory_records = []
 seen_pairs = set()
 
-# Scan all completed audit directories
-for t in range(1, 12):
+# Scan all completed audit directories across all 55 topics
+for t in range(1, 56):
     adir = Path(f"audit_results_t{t}")
     cfile = adir / "candidate_pairs.csv"
     if not cfile.exists():
@@ -51,3 +51,4 @@ with out_path.open("w", encoding="utf-8") as f:
         f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
 print(f"Consolidated {len(memory_records)} verified pairs into {out_path}!")
+

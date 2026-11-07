@@ -649,7 +649,13 @@
       "topicId": 14,
       "type": "mcq",
       "questionText": "नाल एयरपोर्ट स्थित है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_010730",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_010638",
@@ -1009,7 +1015,13 @@
       "topicId": 14,
       "type": "mcq",
       "questionText": "रातानाडा हवाईअड्डा अपनी सेवायें उपलब्ध कराता है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_010706",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_010647",
@@ -1201,7 +1213,13 @@
       "topicId": 14,
       "type": "mcq",
       "questionText": "राजस्थान राज्य के अधिकतम क्षेत्र कौन-से रेलवे क्षेत्र के अंतर्गत आता है -",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_010682",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_010659",
@@ -1585,7 +1603,8 @@
       "topicId": 14,
       "type": "mcq",
       "questionText": "राजस्थान का रेल नेटवर्क किस रेलवे जोन के अंतर्गत आता है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_010657"
     },
     {
       "id": "rg_010683",
@@ -1777,7 +1796,8 @@
       "topicId": 14,
       "type": "mcq",
       "questionText": "‘नाल’ हवाईअड्डा अवस्थित है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_010631"
     },
     {
       "id": "rg_010706",
@@ -1801,7 +1821,8 @@
       "topicId": 14,
       "type": "mcq",
       "questionText": "‘रातानाडा हवाईअड्डा’ कहां स्थित है -",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_010655"
     },
     {
       "id": "rg_010707",

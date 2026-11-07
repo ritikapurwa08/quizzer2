@@ -169,7 +169,13 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान में विशिष्ट आर्थिक क्षेत्रों (SEZ) के विकास और संवर्धन के लिए निम्नलिखित में से कौन-सा शीर्ष निकाय जिम्मेदार है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005171",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_004976",
@@ -577,7 +583,13 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान में 'मुख्यमंत्री लघु उद्योग प्रोत्साहन योजना' (MLUPY) किस तिथि से लागू की गई?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005108",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_004996",
@@ -1249,7 +1261,13 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "निम्नलिखित में से किस शहर में 'इन्द्रप्रस्थ औद्योगिक क्षेत्र' स्थित है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005247",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005038",
@@ -1369,7 +1387,17 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "प्रसिद्ध वाहन निर्माता कंपनी अशोक लीलैंड की निर्माण फैक्ट्री राजस्थान में कहाँ स्थित है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005133",
+          "relation": "duplicate"
+        },
+        {
+          "id": "rg_005274",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005061",
@@ -1921,7 +1949,13 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "निम्नलिखित में से किस वर्ष में राजस्थान की पहली कपड़ा मिल 'दी कृष्णा मिल्स', ब्यावर में स्थापित की गई थी?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005150",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005046",
@@ -1945,7 +1979,13 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान में पहला सीमेंट कारखाना 1915-16 में कहाँ स्थापित किया गया था?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005149",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005047",
@@ -2137,7 +2177,13 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान के किस स्थान पर राज्य का प्रथम मसाला पार्क (स्पाइस पार्क) स्थापित किया गया था?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005206",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005078",
@@ -2185,7 +2231,13 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान की पहली सूती कपड़ा मिल 'द कृष्णा मिल्स लिमिटेड' की स्थापना किस कस्बे में की गई थी?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005106",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005080",
@@ -2281,7 +2333,13 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान में 'श्रीराम फर्टिलाइजर्स एंड केमिकल्स' उद्योग कहाँ अवस्थित है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005179",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005119",
@@ -2521,7 +2579,8 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान में 'मुख्यमंत्री लघु उद्योग प्रोत्साहन योजना' (MLUPY) किस वर्ष शुरू की गई थी?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_004992"
     },
     {
       "id": "rg_005129",
@@ -2665,7 +2724,8 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान में विशेष आर्थिक क्षेत्रों (SEZ) के विकास और संवर्धन के लिए राज्य की नोडल/प्रमुख एजेंसी कौन-सी है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_004975"
     },
     {
       "id": "rg_005100",
@@ -3529,7 +3589,13 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "एशिया का सबसे बड़ा सीसा-जस्ता प्रद्रावक संयंत्र 'चंदेरिया लेड-जिंक स्मेल्टर' किस जिले में स्थित है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005168",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005259",
@@ -3625,7 +3691,8 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान में प्रथम सूती वस्त्र मिल 'दी कृष्णा मिल्स' किस जिले/स्थान में स्थापित की गई थी?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005079"
     },
     {
       "id": "rg_005107",
@@ -3865,7 +3932,8 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान के किस जिले में 'इंद्रप्रस्थ औद्योगिक क्षेत्र' स्थित है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005037"
     },
     {
       "id": "rg_004951",
@@ -4009,7 +4077,13 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "जयपुर जिले में स्थित 'मानपुरा-मांचेड़ी' को किस औद्योगिक परिसर के रूप में विकसित किया गया है?",
-      "meta": {}
+      "meta": {},
+      "similarQuestions": [
+        {
+          "id": "rg_005195",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005114",
@@ -4153,7 +4227,8 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान में भारी व्यावसायिक वाहन निर्माता कंपनी 'अशोक लीलैंड' का असेंबली कारखाना कहाँ स्थित है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005060"
     },
     {
       "id": "rg_005135",
@@ -4297,7 +4372,8 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान में सबसे पहला सीमेंट कारखाना कहाँ स्थापित किया गया था?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005046"
     },
     {
       "id": "rg_005150",
@@ -4321,7 +4397,8 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान की पहली सूती वस्त्र मिल 'द कृष्णा मिल्स' (ब्यावर) की स्थापना किस वर्ष में की गई थी?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005045"
     },
     {
       "id": "rg_005152",
@@ -4465,7 +4542,8 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "एशिया का सबसे बड़ा सीसा-जस्ता प्रद्रावक (Lead-Zinc Smelter) संयंत्र राजस्थान में कहाँ अवस्थित है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005258"
     },
     {
       "id": "rg_005173",
@@ -4609,7 +4687,8 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान में 'श्रीराम फर्टिलाइजर्स एवं केमिकल्स' उद्योग कहाँ स्थापित है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005091"
     },
     {
       "id": "rg_005181",
@@ -4873,7 +4952,8 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "जयपुर जिले का मानपुरा-माचेड़ी क्षेत्र किस विशिष्ट औद्योगिक कॉम्प्लेक्स के रूप में विकसित किया गया है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005056"
     },
     {
       "id": "rg_005196",
@@ -5089,7 +5169,8 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "राजस्थान का प्रथम 'स्पाइस पार्क' (मसाला पार्क) कहाँ स्थापित किया गया है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005077"
     },
     {
       "id": "rg_005212",
@@ -5665,7 +5746,8 @@
       "topicId": 13,
       "type": "mcq",
       "questionText": "प्रसिद्ध भारी वाहन निर्माता 'अशोक लीलैंड' का असेंबली ट्रक कारखाना राजस्थान में कहाँ स्थित है?",
-      "meta": {}
+      "meta": {},
+      "isDuplicateOf": "rg_005060"
     },
     {
       "id": "rg_005275",
@@ -8577,7 +8659,13 @@
         "rightTitle": "सूची – II (केन्द्र)"
       },
       "topicFile": "topic_13.json",
-      "extractionReason": "type: match_following"
+      "extractionReason": "type: match_following",
+      "similarQuestions": [
+        {
+          "id": "rg_005236",
+          "relation": "duplicate"
+        }
+      ]
     },
     {
       "id": "rg_005185",
@@ -8811,7 +8899,8 @@
         "rightTitle": "सूची – II (केन्द्र)"
       },
       "topicFile": "topic_13.json",
-      "extractionReason": "type: match_following"
+      "extractionReason": "type: match_following",
+      "isDuplicateOf": "rg_005180"
     },
     {
       "id": "rg_005270",
