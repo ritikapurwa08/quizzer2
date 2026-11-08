@@ -703,7 +703,8 @@ def process_single_topic(topic_num, max_ai_chunks=999999, workers=15):
 
         num_chunks = min(len(anchor_chunks), max_ai_chunks)
         if num_chunks > 0:
-            print(f"     ⚡ Sending {num_chunks} chunks ({min(len(pending_ai), num_chunks*6)} pairs) to 15 Groq workers...", flush=True)
+            active_workers = min(workers, len(GROQ_KEYS)) if GROQ_KEYS else workers
+            print(f"     ⚡ Sending {num_chunks} chunks ({min(len(pending_ai), num_chunks*6)} pairs) to {active_workers} Groq workers...", flush=True)
 
             def worker_fn(chunk):
                 key = get_next_groq_key()
@@ -888,7 +889,7 @@ if __name__ == "__main__":
     parser.add_argument("--start", type=int, required=True, help="Start topic number (1-55)")
     parser.add_argument("--end", type=int, required=True, help="End topic number (1-55)")
     parser.add_argument("--max-ai", type=int, default=999999, help="Max AI chunks per topic")
-    parser.add_argument("--workers", type=int, default=15, help="Number of parallel worker threads")
+    parser.add_argument("--workers", type=int, default=19, help="Number of parallel worker threads")
     args = parser.parse_args()
 
     run_master_pipeline(args.start, args.end, max_ai=args.max_ai, workers=args.workers)
