@@ -26,6 +26,9 @@ import {
   HardDrive,
   Download,
   Check,
+  GraduationCap,
+  Award,
+  X,
 } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -64,6 +67,9 @@ interface TopicOverviewItem {
   subjectTitle: string;
   subjectEnglish: string;
   poolTotal: number;
+  pyqCount?: number;
+  practiceCount?: number;
+  examBreakdown?: Array<{ exam: string; count: number }>;
   liveSetsCount: number;
   liveQuestionsCount: number;
   uniqueUsed: number;
@@ -78,6 +84,9 @@ interface OverviewData {
     totalMasterTopics: number;
     totalSubjects: number;
     totalPoolQuestions: number;
+    totalPyqQuestions?: number;
+    totalPracticeQuestions?: number;
+    globalExamBreakdown?: Array<{ exam: string; count: number }>;
     totalLiveQuestions: number;
     totalLiveSets: number;
     totalUniqueUsed: number;
@@ -114,6 +123,12 @@ export default function AdminPoolOverviewPage() {
   const [expandedTopicId, setExpandedTopicId] = useState<number | null>(null);
   const [showDuplicateModal, setShowDuplicateModal] = useState(false);
   const [showContractInfo, setShowContractInfo] = useState(false);
+  const [showExamModal, setShowExamModal] = useState(false);
+
+  // Exam Filtering State
+  const [examTypeFilter, setExamTypeFilter] = useState<"all" | "pyq" | "practice">("all");
+  const [selectedExam, setSelectedExam] = useState<string>("all");
+  const [examSearchQuery, setExamSearchQuery] = useState<string>("");
 
   // Local DB State
   const [localDbCount, setLocalDbCount] = useState<number | null>(null);
@@ -196,6 +211,18 @@ export default function AdminPoolOverviewPage() {
       list = list.filter((t) => t.percentComplete === 0);
     }
 
+    // Exam Type Filter (PYQ vs Practice)
+    if (examTypeFilter === "pyq") {
+      list = list.filter((t) => (t.pyqCount || 0) > 0);
+    } else if (examTypeFilter === "practice") {
+      list = list.filter((t) => (t.practiceCount || 0) > 0);
+    }
+
+    // Specific Exam Filter
+    if (selectedExam !== "all") {
+      list = list.filter((t) => t.examBreakdown?.some((e) => e.exam === selectedExam));
+    }
+
     // Search Query
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase().trim();
@@ -205,7 +232,8 @@ export default function AdminPoolOverviewPage() {
           t.name.toLowerCase().includes(q) ||
           String(t.id) === q ||
           `topic ${t.id}`.includes(q) ||
-          t.subtopics.some((s) => s.name.toLowerCase().includes(q))
+          t.subtopics.some((s) => s.name.toLowerCase().includes(q)) ||
+          t.examBreakdown?.some((e) => e.exam.toLowerCase().includes(q))
       );
     }
 
@@ -228,7 +256,7 @@ export default function AdminPoolOverviewPage() {
     });
 
     return list;
-  }, [topics, selectedSubject, statusFilter, searchQuery, sortBy]);
+  }, [topics, selectedSubject, statusFilter, examTypeFilter, selectedExam, searchQuery, sortBy]);
 
   if (loading && !data) {
     return (
@@ -377,7 +405,7 @@ export default function AdminPoolOverviewPage() {
       </Card>
 
       {/* ── KPI Summary Cards ── */}
-      <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-3 sm:gap-4">
         {/* Card 1: Total Pool */}
         <Card className="p-4 bg-card border border-border/80 rounded-2xl shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
@@ -396,7 +424,34 @@ export default function AdminPoolOverviewPage() {
           </div>
         </Card>
 
-        {/* Card 2: Live in DB */}
+        {/* Card 2: Exam PYQ vs Practice Breakdown */}
+        <Card
+          onClick={() => setShowExamModal(true)}
+          className="p-4 bg-card border border-border/80 rounded-2xl shadow-xs flex flex-col justify-between cursor-pointer hover:border-purple-500/50 hover:bg-purple-500/5 transition-all hover:scale-[1.01]"
+        >
+          <div className="flex items-center justify-between">
+            <span className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">
+              Exam PYQ / Practice
+            </span>
+            <div className="p-2 rounded-xl bg-purple-500/10 text-purple-500">
+              <GraduationCap className="h-4 w-4" />
+            </div>
+          </div>
+          <div className="mt-2">
+            <div className="text-2xl sm:text-3xl font-black text-foreground tabular-nums">
+              {(summary.totalPyqQuestions || 0).toLocaleString()}{" "}
+              <span className="text-xs font-bold text-purple-500">PYQ</span>
+            </div>
+            <p className="text-[11px] text-muted-foreground mt-0.5 flex items-center justify-between">
+              <span>{(summary.totalPracticeQuestions || 0).toLocaleString()} Practice</span>
+              <span className="font-semibold underline text-purple-500 flex items-center">
+                All ({summary.globalExamBreakdown?.length || 0}) <ChevronRight className="h-3 w-3 inline" />
+              </span>
+            </p>
+          </div>
+        </Card>
+
+        {/* Card 3: Live in DB */}
         <Card className="p-4 bg-card border border-border/80 rounded-2xl shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">
@@ -416,7 +471,7 @@ export default function AdminPoolOverviewPage() {
           </div>
         </Card>
 
-        {/* Card 3: Unique Used */}
+        {/* Card 4: Unique Used */}
         <Card className="p-4 bg-card border border-border/80 rounded-2xl shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">
@@ -436,7 +491,7 @@ export default function AdminPoolOverviewPage() {
           </div>
         </Card>
 
-        {/* Card 4: Remaining Pool */}
+        {/* Card 5: Remaining Pool */}
         <Card className="p-4 bg-card border border-border/80 rounded-2xl shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">
@@ -456,7 +511,7 @@ export default function AdminPoolOverviewPage() {
           </div>
         </Card>
 
-        {/* Card 5: Duplicates Alert */}
+        {/* Card 6: Duplicates Alert */}
         <Card
           onClick={() => setShowDuplicateModal(true)}
           className={`p-4 rounded-2xl border shadow-xs flex flex-col justify-between cursor-pointer transition-all hover:scale-[1.01] ${
@@ -610,6 +665,39 @@ export default function AdminPoolOverviewPage() {
 
         {/* Filters and Sort */}
         <div className="flex items-center gap-2 flex-wrap">
+          {/* Exam Source Filter (All / PYQ / Practice) */}
+          <Select
+            value={examTypeFilter}
+            onValueChange={(val: string | null) => val && setExamTypeFilter(val as any)}
+          >
+            <SelectTrigger className="h-9 px-3 rounded-xl border border-border bg-card text-xs font-medium min-w-36">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent className="bg-popover border-border">
+              <SelectItem value="all">All Sources (सभी प्रश्न)</SelectItem>
+              <SelectItem value="pyq">📌 Only Exam PYQ ({(summary.totalPyqQuestions || 0).toLocaleString()})</SelectItem>
+              <SelectItem value="practice">📝 Only Practice ({(summary.totalPracticeQuestions || 0).toLocaleString()})</SelectItem>
+            </SelectContent>
+          </Select>
+
+          {/* Specific Exam Dropdown */}
+          <Select
+            value={selectedExam}
+            onValueChange={(val: string | null) => val && setSelectedExam(val)}
+          >
+            <SelectTrigger className="h-9 px-3 rounded-xl border border-border bg-card text-xs font-medium max-w-56 truncate">
+              <SelectValue placeholder="All Exams" />
+            </SelectTrigger>
+            <SelectContent className="bg-popover border-border max-h-72">
+              <SelectItem value="all">All Exams (सभी {summary.globalExamBreakdown?.length || 0} परीक्षाएं)</SelectItem>
+              {(summary.globalExamBreakdown || []).slice(0, 50).map((ex) => (
+                <SelectItem key={ex.exam} value={ex.exam}>
+                  {ex.exam} ({ex.count} Qs)
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+
           {/* Status Filter */}
           <Select
             value={statusFilter}
@@ -642,6 +730,21 @@ export default function AdminPoolOverviewPage() {
               <SelectItem value="progress_desc">Completion Progress (%)</SelectItem>
             </SelectContent>
           </Select>
+
+          {(examTypeFilter !== "all" || selectedExam !== "all") && (
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => {
+                setExamTypeFilter("all");
+                setSelectedExam("all");
+              }}
+              className="h-9 px-2.5 text-xs text-muted-foreground hover:text-foreground gap-1 rounded-xl"
+            >
+              <X className="h-3.5 w-3.5" />
+              Reset Filters
+            </Button>
+          )}
         </div>
       </div>
 
@@ -717,7 +820,21 @@ export default function AdminPoolOverviewPage() {
                     <div className="flex items-center gap-2 text-xs">
                       <div className="text-right">
                         <span className="text-[10px] text-muted-foreground block font-medium">Pool</span>
-                        <strong className="text-foreground tabular-nums">{topic.poolTotal}</strong>
+                        <div className="flex items-center gap-1.5 justify-end">
+                          <strong className="text-foreground tabular-nums">{topic.poolTotal}</strong>
+                          <span
+                            className="text-[9px] px-1 py-0.2 rounded font-bold bg-purple-500/10 text-purple-600 dark:text-purple-400 border border-purple-500/20"
+                            title={`${topic.pyqCount || 0} Exam Questions`}
+                          >
+                            {topic.pyqCount || 0} PYQ
+                          </span>
+                          <span
+                            className="text-[9px] px-1 py-0.2 rounded font-medium bg-muted text-muted-foreground"
+                            title={`${topic.practiceCount || 0} Practice Questions`}
+                          >
+                            {topic.practiceCount || 0} Mod
+                          </span>
+                        </div>
                       </div>
 
                       <div className="h-6 w-px bg-border/80" />
@@ -833,6 +950,46 @@ export default function AdminPoolOverviewPage() {
                       </div>
                     </div>
 
+                    {/* Exam-wise Questions Breakdown */}
+                    <div className="space-y-2 pt-2 border-t border-border/60">
+                      <div className="flex items-center justify-between">
+                        <h4 className="text-xs font-bold text-foreground uppercase tracking-wider flex items-center gap-1.5">
+                          <GraduationCap className="h-3.5 w-3.5 text-purple-500" />
+                          Exam PYQ Breakdown ({topic.pyqCount || 0} Exam Questions · {topic.practiceCount || 0} Practice Questions)
+                        </h4>
+                        <span className="text-[11px] text-muted-foreground">
+                          {topic.examBreakdown?.length || 0} Unique Exams
+                        </span>
+                      </div>
+                      <div className="flex flex-wrap gap-1.5">
+                        {(topic.examBreakdown || []).slice(0, 15).map((ex, eIdx) => (
+                          <button
+                            key={eIdx}
+                            type="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setSelectedExam(ex.exam);
+                            }}
+                            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-purple-500/5 hover:bg-purple-500/15 border border-purple-500/20 text-xs text-foreground cursor-pointer transition-colors shadow-2xs font-medium"
+                            title={`Filter pool by ${ex.exam}`}
+                          >
+                            <span>{ex.exam}</span>
+                            <span className="px-1.5 py-0.2 rounded-md bg-purple-500/15 text-[10px] font-bold text-purple-600 dark:text-purple-400">
+                              {ex.count} Qs
+                            </span>
+                          </button>
+                        ))}
+                        {(topic.practiceCount || 0) > 0 && (
+                          <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-muted/60 border border-border text-xs text-muted-foreground font-medium">
+                            <span>Practice / Non-Exam (मॉडल प्रश्न)</span>
+                            <span className="px-1.5 py-0.2 rounded-md bg-muted text-[10px] font-bold">
+                              {topic.practiceCount} Qs
+                            </span>
+                          </span>
+                        )}
+                      </div>
+                    </div>
+
                     {/* Action Bar */}
                     <div className="flex items-center justify-between pt-3 border-t border-border/70">
                       <div className="text-xs text-muted-foreground">
@@ -935,6 +1092,109 @@ export default function AdminPoolOverviewPage() {
               <Button onClick={() => setShowDuplicateModal(false)} className="rounded-xl text-xs cursor-pointer">
                 Close
               </Button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ── Global Exam Breakdown Modal ── */}
+      {showExamModal && (
+        <div className="fixed inset-0 z-50 bg-background/80 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in-0 duration-150">
+          <div className="bg-card border border-border rounded-3xl max-w-3xl w-full p-6 shadow-2xl space-y-4 max-h-[85vh] flex flex-col">
+            <div className="flex items-start justify-between border-b border-border/80 pb-3">
+              <div className="flex items-center gap-2.5">
+                <div className="p-2.5 rounded-2xl bg-purple-500/10 text-purple-500">
+                  <GraduationCap className="h-5 w-5" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-foreground">Rajasthan GK Exams &amp; PYQ Directory</h3>
+                  <p className="text-xs text-muted-foreground">
+                    {(summary.totalPyqQuestions || 0).toLocaleString()} Exam Questions across {summary.globalExamBreakdown?.length || 0} exams · {(summary.totalPracticeQuestions || 0).toLocaleString()} Practice Questions
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => setShowExamModal(false)}
+                className="text-muted-foreground hover:text-foreground text-sm p-1 cursor-pointer"
+              >
+                ✕
+              </button>
+            </div>
+
+            {/* Modal Search Bar */}
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+              <Input
+                value={examSearchQuery}
+                onChange={(e) => setExamSearchQuery(e.target.value)}
+                placeholder="Search exams (e.g. CET, Police, Teacher, Lab Assistant)..."
+                className="pl-9 h-9 text-xs rounded-xl border-border bg-background"
+                autoFocus
+              />
+              {examSearchQuery && (
+                <button
+                  onClick={() => setExamSearchQuery("")}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-muted-foreground hover:text-foreground"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+
+            {/* List of Exams */}
+            <div className="flex-1 overflow-y-auto space-y-2 pr-1 scrollbar-thin max-h-96">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {(summary.globalExamBreakdown || [])
+                  .filter((item) =>
+                    examSearchQuery.trim()
+                      ? item.exam.toLowerCase().includes(examSearchQuery.toLowerCase().trim())
+                      : true
+                  )
+                  .map((item, idx) => (
+                    <div
+                      key={idx}
+                      onClick={() => {
+                        setSelectedExam(item.exam);
+                        setShowExamModal(false);
+                      }}
+                      className={`p-2.5 rounded-xl border text-xs flex items-center justify-between cursor-pointer transition-all hover:border-purple-500 hover:bg-purple-500/5 ${
+                        selectedExam === item.exam
+                          ? "bg-purple-500/10 border-purple-500 text-purple-600 dark:text-purple-400 font-bold"
+                          : "bg-card border-border/70 text-foreground"
+                      }`}
+                    >
+                      <span className="truncate pr-2">{item.exam}</span>
+                      <Badge variant="secondary" className="text-[10px] px-1.5 h-5 shrink-0 font-bold">
+                        {item.count} Qs
+                      </Badge>
+                    </div>
+                  ))}
+              </div>
+            </div>
+
+            {/* Modal Footer */}
+            <div className="flex items-center justify-between pt-3 border-t border-border/80">
+              <span className="text-xs text-muted-foreground">
+                Click any exam to filter topics containing its questions.
+              </span>
+              <div className="flex items-center gap-2">
+                {selectedExam !== "all" && (
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => {
+                      setSelectedExam("all");
+                      setShowExamModal(false);
+                    }}
+                    className="rounded-xl text-xs"
+                  >
+                    Clear Filter
+                  </Button>
+                )}
+                <Button onClick={() => setShowExamModal(false)} className="rounded-xl text-xs">
+                  Close
+                </Button>
+              </div>
             </div>
           </div>
         </div>

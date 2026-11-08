@@ -108,9 +108,12 @@ export async function GET() {
     // Build topic overview for canonical GK sections only (A, B, C, D) — English (E) excluded
     const topicsList: any[] = [];
     let grandPoolTotal = 0;
+    let grandPyqTotal = 0;
+    let grandPracticeTotal = 0;
     let grandLiveQuestions = 0;
     let grandLiveSets = 0;
     let grandUniqueUsed = 0;
+    const globalExamMap = new Map<string, number>();
 
     const GK_SECTIONS = RAJASTHAN_GK_MASTER_SECTIONS.filter((s) => s.code !== "E");
 
@@ -118,6 +121,9 @@ export async function GET() {
       for (const top of sec.topics) {
         const padId = String(top.id).padStart(2, "0");
         let poolCount = 0;
+        let pyqCount = 0;
+        let practiceCount = 0;
+        const topicExamMap = new Map<string, number>();
         let subtopics: Array<{ name: string; count: number }> = [];
         let unassignedCount = 0;
 
@@ -132,6 +138,22 @@ export async function GET() {
               poolCount = questions.length;
 
               for (const q of questions) {
+                // Exam / PYQ metadata extraction
+                const ex = q.exam || (q.meta && q.meta.exam);
+                const ref = q.reference || (q.meta && q.meta.reference);
+                let examName = typeof ex === "string" ? ex.trim() : "";
+                if (!examName && typeof ref === "string" && ref.includes("PYQ")) {
+                  examName = ref.replace("📌 PYQ —", "").trim();
+                }
+
+                if (examName) {
+                  pyqCount++;
+                  topicExamMap.set(examName, (topicExamMap.get(examName) || 0) + 1);
+                  globalExamMap.set(examName, (globalExamMap.get(examName) || 0) + 1);
+                } else {
+                  practiceCount++;
+                }
+
                 if (!allPublishedQuestionIds.has(String(q.id))) {
                   unassignedCount++;
                 }
@@ -168,6 +190,8 @@ export async function GET() {
         const percentComplete = poolCount > 0 ? Math.min(100, Math.round((uniqueUsed / poolCount) * 100)) : 0;
 
         grandPoolTotal += poolCount;
+        grandPyqTotal += pyqCount;
+        grandPracticeTotal += practiceCount;
         grandLiveQuestions += liveQuestionsCount;
         grandLiveSets += liveSetsCount;
         grandUniqueUsed += uniqueUsed;
@@ -180,6 +204,11 @@ export async function GET() {
           subjectTitle: sec.titleHindi,
           subjectEnglish: sec.titleEnglish,
           poolTotal: poolCount,
+          pyqCount,
+          practiceCount,
+          examBreakdown: Array.from(topicExamMap.entries())
+            .map(([exam, count]) => ({ exam, count }))
+            .sort((a, b) => b.count - a.count),
           liveSetsCount,
           liveQuestionsCount,
           uniqueUsed,
@@ -198,6 +227,11 @@ export async function GET() {
           totalMasterTopics: topicsList.length,
           totalSubjects: GK_SECTIONS.length,
           totalPoolQuestions: grandPoolTotal,
+          totalPyqQuestions: grandPyqTotal,
+          totalPracticeQuestions: grandPracticeTotal,
+          globalExamBreakdown: Array.from(globalExamMap.entries())
+            .map(([exam, count]) => ({ exam, count }))
+            .sort((a, b) => b.count - a.count),
           totalLiveQuestions: grandLiveQuestions,
           totalLiveSets: grandLiveSets,
           totalUniqueUsed: grandUniqueUsed,
