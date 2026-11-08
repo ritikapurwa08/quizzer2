@@ -49,6 +49,7 @@ let _gkQuestionsCache: any[] | null = null;
 let _allQuestionsCache: any[] | null = null;
 let _idMappingCache: Record<string, string> | null = null;
 let _publishedManifestsCache: SetManifest[] | null = null;
+let _variantsMapCache: Map<string, any[]> | null = null;
 
 function getIdMapping(): Record<string, string> {
   if (_idMappingCache) return _idMappingCache;
@@ -62,6 +63,51 @@ function getIdMapping(): Record<string, string> {
     _idMappingCache = {};
   }
   return _idMappingCache || {};
+}
+
+function getVariantsMap(): Map<string, any[]> {
+  if (_variantsMapCache) return _variantsMapCache;
+  const map = new Map<string, any[]>();
+  const variantsDir = path.join(process.cwd(), "data", "questions", "variants");
+  if (fs.existsSync(variantsDir)) {
+    try {
+      const files = fs.readdirSync(variantsDir).filter((f) => f.endsWith("_clusters.json"));
+      for (const f of files) {
+        try {
+          const clusters = JSON.parse(fs.readFileSync(path.join(variantsDir, f), "utf-8"));
+          if (Array.isArray(clusters)) {
+            for (const c of clusters) {
+              const anchorId = c.anchor_id || (c.anchor?.id);
+              if (anchorId && Array.isArray(c.variants) && c.variants.length > 0) {
+                const formattedVariants = c.variants
+                  .filter((v: any) => (v.id || v.canonicalId) !== anchorId)
+                  .map((v: any) => ({
+                    id: v.id || v.canonicalId,
+                    question: v.question || v.questionText || "",
+                    options: Array.isArray(v.options) ? v.options.map((opt: any) => typeof opt === "string" ? opt : opt?.text || "") : [],
+                    answer: v.answer || v.correctAnswer || "",
+                    explanation: v.explanation || "",
+                    exam: v.exam,
+                    year: v.year,
+                    similarity: v.similarity,
+                  }));
+                if (formattedVariants.length > 0) {
+                  map.set(String(anchorId), formattedVariants);
+                  map.set(String(anchorId).toLowerCase(), formattedVariants);
+                }
+              }
+            }
+          }
+        } catch (err) {
+          console.error(`Error loading cluster file ${f}:`, err);
+        }
+      }
+    } catch (err) {
+      console.error("Error reading variants directory:", err);
+    }
+  }
+  _variantsMapCache = map;
+  return map;
 }
 
 const ANSWER_LETTER_TO_OPT: Record<string, string> = {
@@ -113,6 +159,13 @@ export function normalizeQuestion(rawQ: any, index: number = 0): HydratedQuestio
 
   const reference = q.reference || (q.exam ? `📌 PYQ — ${q.exam}${q.year ? ` ${q.year}` : ""}` : undefined);
 
+  const variantsMap = getVariantsMap();
+  const similarQuestions =
+    q.similarQuestions ||
+    variantsMap.get(String(qId)) ||
+    variantsMap.get(String(qId).toLowerCase()) ||
+    [];
+
   return {
     ...q,
     _id: qId,
@@ -127,6 +180,7 @@ export function normalizeQuestion(rawQ: any, index: number = 0): HydratedQuestio
     difficulty: q.difficulty || "medium",
     reference,
     meta,
+    similarQuestions,
   };
 }
 
@@ -266,6 +320,7 @@ export function invalidateQuestionPoolCache(): void {
   _allQuestionsCache = null;
   _idMappingCache = null;
   _publishedManifestsCache = null;
+  _variantsMapCache = null;
 }
 
 export function hydrateSet(manifest: SetManifest): HydratedSet {
