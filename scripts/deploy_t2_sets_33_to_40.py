@@ -150,3 +150,4 @@ with open('data/sets/pool-state.json', 'w', encoding='utf-8') as f:
     json.dump(pool_state, f, ensure_ascii=False, indent=2)
 
 print(f"✅ Updated pool-state.json! Topic 2 completedSets: 40 | Used: {len(t2_state['used'])} | Remaining Available: {len(t2_state['available'])}")
+

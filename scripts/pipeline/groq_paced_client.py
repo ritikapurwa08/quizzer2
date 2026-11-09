@@ -45,33 +45,35 @@ class GroqKeyManager:
         """Finds a key that is not in cooldown and has concurrency < max_concurrent_per_key."""
         start = time.time()
         while time.time() - start < timeout:
+            sleep_needed = 0.0
+            chosen_key = None
             with self.lock:
                 now = time.time()
-                # Enforce pacing between sequential dispatches
                 time_since_last = now - self.last_dispatch_time
                 if time_since_last < self.inter_request_delay:
-                    time.sleep(self.inter_request_delay - time_since_last)
-                    now = time.time()
+                    sleep_needed = self.inter_request_delay - time_since_last
+                else:
+                    for k in self.keys:
+                        state = self.key_state[k]
+                        if now < state["cooldown_until"]:
+                            continue
+                        if state["remaining_tokens"] is not None and state["remaining_tokens"] < 150:
+                            state["cooldown_until"] = now + 45.0
+                            continue
+                        if state["active_requests"] < self.max_concurrent_per_key:
+                            state["active_requests"] += 1
+                            self.last_dispatch_time = time.time()
+                            chosen_key = k
+                            break
 
-                # Find candidate key
-                for k in self.keys:
-                    state = self.key_state[k]
-                    # Check cooldown
-                    if now < state["cooldown_until"]:
-                        continue
-                    # Check remaining tokens threshold (< 15% remaining -> cooldown)
-                    if state["remaining_tokens"] is not None and state["remaining_tokens"] < 150:
-                        print(f"⚠️ Key {k[:12]}... tokens low ({state['remaining_tokens']}), entering cooling state.")
-                        state["cooldown_until"] = now + 45.0
-                        continue
-                    # Check concurrency
-                    if state["active_requests"] < self.max_concurrent_per_key:
-                        state["active_requests"] += 1
-                        self.last_dispatch_time = time.time()
-                        return k
+            if chosen_key:
+                return chosen_key
+            if sleep_needed > 0:
+                time.sleep(sleep_needed)
+            else:
+                time.sleep(0.3 + random.uniform(0.05, 0.2))
 
-            # All keys busy or in cooldown, wait with small jitter
-            time.sleep(0.5 + random.uniform(0.1, 0.4))
+        raise TimeoutError("All Groq API keys are currently in cooldown or maxed out.")
 
         raise TimeoutError("All Groq API keys are currently in cooldown or maxed out.")
 
@@ -121,7 +123,7 @@ class GroqKeyManager:
                 headers={
                     'Authorization': f'Bearer {key}',
                     'Content-Type': 'application/json',
-                    'User-Agent': 'Groq-Client/1.0'
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
                 },
                 data=data
             )

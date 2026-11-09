@@ -821,16 +821,18 @@ export function healOptionText(text: string): string {
   trimmed = trimmed.replace(/\blll\b/gi, "III");
   trimmed = trimmed.replace(/[-–—:]\s*lI\b/g, "-II");
 
-  // 2. Restore missing 'a-' / '(a)' in matching lists
-  // Pattern 2a: (iv), (b)-(i), (c)-(ii), (d)-(iii) or (ii), b-(iii), c-(iv), d-(i)
+  // 2. Restore missing 'a-' / '(a)' / 'A-' in matching lists
+  // Pattern 2a: (iv), (b)-(i), (c)-(ii), (d)-(iii) or (ii), b-(iii), c-(iv), d-(i) or (I), B-(II)
   if (/^[-–—\s]*\(([iIvVxX\d]+)\)[\s,–—\-]+(?:\(?b\)?|b[\s\-–—:])/i.test(trimmed)) {
+    const isUpper = /[,\s]+(?:\(B\)|B[\s\-–—:])/.test(trimmed);
     const clean = trimmed.replace(/^[-–—\s]+/, "");
-    trimmed = clean.replace(/^\(([iIvVxX\d]+)\)/i, "a-($1)");
+    trimmed = clean.replace(/^\(([iIvVxX\d]+)\)/i, isUpper ? "A-($1)" : "a-($1)");
   }
-  // Pattern 2b: Bare roman/digit missing 'a-': e.g. "III, b-I, c-IV, d-II" or "3, b-1, c-4, d-2"
+  // Pattern 2b: Bare roman/digit missing 'a-'/'A-': e.g. "III, b-I, c-IV, d-II" or "3, b-1, c-4, d-2"
   else if (/^[-–—\s]*([iIvVxX\d]+)[\s,–—\-]+(?:b[\s\-–—:]|\(b\)[\s\-–—:])/i.test(trimmed)) {
+    const isUpper = /[,\s]+(?:\(B\)|B[\s\-–—:])/.test(trimmed);
     const clean = trimmed.replace(/^[-–—\s]+/, "");
-    trimmed = `a-${clean}`;
+    trimmed = isUpper ? `A-${clean}` : `a-${clean}`;
   }
   // Pattern 2c: Bare roman missing '(A)-': e.g. "(ii), B - (i), C - (iv), D - (iii)"
   else if (/^[-–—\s]*\(([iIvVxX\d]+)\)[\s,–—\-]+B[\s\-–—:]/i.test(trimmed)) {

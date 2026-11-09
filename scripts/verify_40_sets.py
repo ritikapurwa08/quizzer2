@@ -37,3 +37,4 @@ print(f"Total Cross-Set Duplicate Questions: {len(duplicates)}")
 print(f"Expected: 40 Sets x 20 Questions = 800 Unique Questions, 0 Duplicates.")
 if len(seen) == 800 and len(duplicates) == 0 and len(t2_sets) == 40:
     print("🌟 100% PERFECT MATCH! ALL 40 SETS ARE GLOBALLY UNIQUE WITH REAL CONVEX IDS!")
+

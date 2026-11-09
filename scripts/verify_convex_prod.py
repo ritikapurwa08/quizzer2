@@ -7,3 +7,4 @@ data = json.loads(res.stdout.strip())
 print('Convex Prod Sets Count for Topic 2:', len(data))
 print('First set:', data[0]['name'], data[0]['_id'])
 print('Last set:', data[-1]['name'], data[-1]['_id'])
+

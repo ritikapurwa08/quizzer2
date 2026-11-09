@@ -103,7 +103,7 @@ export function extractMatchQuestionData(rawText: string): ExtractedMatch | null
   // 4. Roman numeral markers: i., ii., iii., iv., I., II., III., IV.
   // 5. Bare digit marker: 1..5 followed by space and Devanagari text
   const markerRegex =
-    /(?:\(([1-8ivxlcIVXLCa-eA-E\u0905\u092c\u0938\u0926\u0915-\u0918\u0967-\u096f]+)\)|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])([a-eA-E\u0905\u092c\u0938\u0926\u0915-\u0918])[.)\-:]|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])([1-8\u0967-\u096f])[.)\-:]|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])((?:[ivxlc]{1,4}|[IVXLC]{1,4}))[.)\-:]|(?<=\s|^|[)\]:\-–—\u0900-\u097f])([1-5])\s+(?=[\u0900-\u097f]))/gu;
+    /(?:\(([1-8ivxlcIVXLCa-eA-E\u0905\u092c\u0938\u0926\u0915-\u0918\u0967-\u096f]+)\)|(?<=^|\s|[\n\r:\-–—[(])([a-eA-E\u0905\u092c\u0938\u0926\u0915-\u0918])[.)\-:]|(?<=^|\s|[\n\r:\-–—[(])([1-8\u0967-\u096f])[.)\-:]|(?<=^|\s|[\n\r:\-–—[(])((?:[ivxlc]{1,4}|[IVXLC]{1,4}))[.)\-:]|(?<=^|\s|[\n\r:\-–—[(])([1-5])\s+(?=[\u0900-\u097f]))/gu;
 
   const markers: Array<{ token: string; id: string; index: number; length: number }> = [];
   let m: RegExpExecArray | null;
