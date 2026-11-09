@@ -60,3 +60,4 @@ final_report = list(success_dict.values())
 with open('data/questions/audit_heal_211_report.json', 'w', encoding='utf-8') as out:
     json.dump(final_report, out, ensure_ascii=False, indent=2)
 print('Total in final report:', len(final_report))
+

@@ -52,3 +52,4 @@ with open('data/questions/audit_heal_211_report.json', 'w', encoding='utf-8') as
     json.dump(final_list, f, ensure_ascii=False, indent=2)
 
 print('TOTAL 100% COMPLETE HEALED QUESTIONS:', len(final_list))
+
