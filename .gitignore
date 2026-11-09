@@ -73,6 +73,12 @@ audit_results_*/
 /scripts/apply_convex_healings.js
 /scripts/merge_*.js
 /scripts/verify_*.js
+/scripts/test_*.py
+/scripts/check_*.py
+/scripts/inspect_*.py
+/scripts/brute_*.py
+/scripts/debug_*.py
+/scripts/list_*.py
 
 
 
