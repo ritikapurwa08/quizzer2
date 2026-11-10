@@ -17,11 +17,15 @@ import {
   X,
   FileText,
   AlertCircle,
+  Copy,
+  Check,
+  UploadCloud,
 } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 import {
   Select,
   SelectContent,
@@ -29,6 +33,14 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogFooter,
+  DialogDescription,
+} from "@/components/ui/dialog";
 import { QuestionEditorModal } from "@/components/admin/QuestionEditorModal";
 import { LoadingSpinner } from "@/components/shared/LoadingState";
 import { Question } from "@/types";
@@ -37,6 +49,8 @@ import { cn, containsDevanagari } from "@/lib/utils";
 import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
 import { stripLeadingMarker } from "@/lib/validators/question";
 import { healOptionText } from "@/lib/optionTextHealer";
+import { useToast } from "@/components/ui/Toast";
+import { generateGeminiReauditPrompt } from "@/lib/geminiReauditPrompt";
 
 const SUBJECT_OPTIONS = [
   { value: "all", label: "All Subjects (सभी विषय)" },
@@ -257,6 +271,85 @@ export default function AdminQuestionsPage() {
   const [editingQuestion, setEditingQuestion] = useState<Question | null>(null);
   const [editorOpen, setEditorOpen] = useState(false);
 
+  // Toast notifications
+  const { showToast } = useToast();
+
+  // Re-audit prompt & auto-merge states (Option C)
+  const [promptModalOpen, setPromptModalOpen] = useState(false);
+  const [applyModalOpen, setApplyModalOpen] = useState(false);
+  const [applyText, setApplyText] = useState("");
+  const [isApplying, setIsApplying] = useState(false);
+  const [hasCopiedPrompt, setHasCopiedPrompt] = useState(false);
+
+  // Derived current set and topic objects
+  const currentSetObj = useMemo(() => {
+    if (selectedSetId === "all") return null;
+    return availableSets.find((s) => s.id === selectedSetId) || null;
+  }, [selectedSetId, availableSets]);
+
+  const currentTopicObj = useMemo(() => {
+    if (selectedTopicId === "all") return null;
+    return MASTER_TOPICS_LIST.find((t) => String(t.id) === selectedTopicId) || null;
+  }, [selectedTopicId]);
+
+  // Generate 2nd-pass re-audit prompt
+  const geminiReauditPrompt = useMemo(() => {
+    if (!currentSetObj || !currentTopicObj || questions.length === 0) return "";
+    return generateGeminiReauditPrompt({
+      setName: currentSetObj.name,
+      masterTopicId: currentTopicObj.id,
+      topicName: currentTopicObj.nameHindi,
+      subjectName: currentTopicObj.subjectHindi,
+      questions,
+    });
+  }, [currentSetObj, currentTopicObj, questions]);
+
+  const handleCopyPrompt = async () => {
+    if (!geminiReauditPrompt) return;
+    try {
+      await navigator.clipboard.writeText(geminiReauditPrompt);
+      setHasCopiedPrompt(true);
+      showToast("Gemini 2nd-Pass Re-Audit Prompt copied to clipboard!", "success");
+      setTimeout(() => setHasCopiedPrompt(false), 2500);
+    } catch {
+      showToast("Could not copy automatically. Please copy manually.", "warning");
+    }
+  };
+
+  const handleApplyRefixedSet = async () => {
+    if (!applyText.trim()) {
+      showToast("Please paste Gemini's refixed JSON array.", "warning");
+      return;
+    }
+
+    setIsApplying(true);
+    try {
+      const res = await fetch("/api/admin/re-audit/apply", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          setId: selectedSetId,
+          masterTopicId: currentTopicObj?.id,
+          rawText: applyText,
+        }),
+      });
+
+      const data = await res.json();
+      if (!res.ok || !data.success) {
+        throw new Error(data.message || "Failed to apply refixed questions");
+      }
+
+      showToast(data.message || `Merged ${data.updatedCount} questions successfully!`, "success");
+      setApplyModalOpen(false);
+      setApplyText("");
+      fetchQuestions();
+    } catch (err: any) {
+      showToast(err?.message || "Failed to parse or merge JSON.", "warning");
+    } finally {
+      setIsApplying(false);
+    }
+  };
+
   // Debounce search
   useEffect(() => {
     const handler = setTimeout(() => {
@@ -314,7 +407,8 @@ export default function AdminQuestionsPage() {
       if (selectedSetId !== "all") params.set("setId", selectedSetId);
       if (selectedType !== "all") params.set("type", selectedType);
       params.set("page", String(page));
-      params.set("limit", "20");
+      // If a specific set is chosen, load all its questions (up to 50) so prompt has complete set
+      params.set("limit", selectedSetId !== "all" ? "50" : "20");
 
       const res = await fetch(`/api/admin/questions?${params.toString()}`);
       const data = await res.json();
@@ -574,6 +668,53 @@ export default function AdminQuestionsPage() {
         </div>
       </Card>
 
+      {/* ── Set Re-Audit & Auto-Fix Toolbar (Option C) ── */}
+      {selectedSetId !== "all" && currentSetObj && (
+        <Card className="p-4 bg-primary/5 border border-primary/25 rounded-2xl shadow-xs">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div className="space-y-0.5">
+              <div className="flex items-center gap-2">
+                <Badge className="bg-primary/20 text-primary border-primary/30 text-[10px] font-bold uppercase tracking-wider">
+                  2nd-Pass Re-Audit
+                </Badge>
+                <span className="text-xs font-semibold text-foreground">
+                  {currentSetObj.name} ({questions.length} Qs loaded)
+                </span>
+              </div>
+              <p className="text-xs text-muted-foreground">
+                Export all {questions.length} questions into Google Gemini with strict 2nd-pass formatting rules, then auto-merge the refixed JSON back into localhost.
+              </p>
+            </div>
+
+            <div className="flex items-center gap-2 shrink-0">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setPromptModalOpen(true)}
+                disabled={loading || questions.length === 0}
+                className="h-9 px-3 text-xs font-medium gap-1.5 border-primary/30 hover:bg-primary/10 cursor-pointer text-foreground"
+              >
+                <FileText className="h-4 w-4 text-primary" />
+                Gemini Re-Audit Prompt
+              </Button>
+              <Button
+                variant="default"
+                size="sm"
+                onClick={() => {
+                  setApplyText("");
+                  setApplyModalOpen(true);
+                }}
+                disabled={loading}
+                className="h-9 px-3.5 text-xs font-semibold gap-1.5 shadow-sm cursor-pointer"
+              >
+                <UploadCloud className="h-4 w-4" />
+                Apply Refixed JSON
+              </Button>
+            </div>
+          </div>
+        </Card>
+      )}
+
       {/* ── Questions List ── */}
       {loading ? (
         <div className="py-20 flex flex-col items-center justify-center">
@@ -753,6 +894,124 @@ export default function AdminQuestionsPage() {
         question={editingQuestion}
         onSaveSuccess={handleSaveSuccess}
       />
+
+      {/* ── Gemini Re-Audit Prompt Dialog (Option C) ── */}
+      <Dialog open={promptModalOpen} onOpenChange={setPromptModalOpen}>
+        <DialogContent className="max-w-3xl max-h-[85vh] flex flex-col p-6 rounded-2xl bg-card border-border">
+          <DialogHeader>
+            <DialogTitle className="text-lg font-bold flex items-center gap-2">
+              <FileText className="h-5 w-5 text-primary" />
+              Gemini 2nd-Pass Re-Audit Prompt ({currentSetObj?.name})
+            </DialogTitle>
+            <DialogDescription className="text-xs text-muted-foreground">
+              Copy this prompt and paste it into Google Gemini. It includes all {questions.length} questions formatted with strict RPSC answer key validation and zero-letter-stripping rules.
+            </DialogDescription>
+          </DialogHeader>
+
+          <div className="flex-1 my-3 overflow-hidden rounded-xl border border-border bg-muted/40 p-3">
+            <textarea
+              readOnly
+              value={geminiReauditPrompt}
+              className="w-full h-80 sm:h-96 text-xs font-mono bg-transparent border-0 resize-none focus:outline-hidden text-foreground leading-relaxed"
+            />
+          </div>
+
+          <DialogFooter className="flex flex-col sm:flex-row items-center justify-between gap-2 pt-2 border-t border-border">
+            <span className="text-[11px] text-muted-foreground">
+              {questions.length} questions formatted • Strict JSON format enforced
+            </span>
+            <div className="flex items-center gap-2">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setPromptModalOpen(false)}
+                className="text-xs cursor-pointer"
+              >
+                Close
+              </Button>
+              <Button
+                size="sm"
+                onClick={handleCopyPrompt}
+                className="text-xs gap-1.5 font-semibold cursor-pointer"
+              >
+                {hasCopiedPrompt ? (
+                  <>
+                    <Check className="h-4 w-4 text-emerald-500" />
+                    Copied!
+                  </>
+                ) : (
+                  <>
+                    <Copy className="h-4 w-4" />
+                    Copy Prompt to Clipboard
+                  </>
+                )}
+              </Button>
+            </div>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+
+      {/* ── Apply Refixed JSON Dialog (Option C) ── */}
+      <Dialog open={applyModalOpen} onOpenChange={setApplyModalOpen}>
+        <DialogContent className="max-w-3xl max-h-[85vh] flex flex-col p-6 rounded-2xl bg-card border-border">
+          <DialogHeader>
+            <DialogTitle className="text-lg font-bold flex items-center gap-2">
+              <UploadCloud className="h-5 w-5 text-primary" />
+              Apply Gemini Refixed JSON ({currentSetObj?.name})
+            </DialogTitle>
+            <DialogDescription className="text-xs text-muted-foreground">
+              Paste the JSON array returned by Google Gemini. It will be validated and automatically merged into Topic #{currentTopicObj?.id} and this practice set on localhost.
+            </DialogDescription>
+          </DialogHeader>
+
+          <div className="flex-1 my-3 flex flex-col gap-2">
+            <label className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider">
+              Gemini JSON Output (Markdown ```json ... ``` blocks are supported)
+            </label>
+            <Textarea
+              value={applyText}
+              onChange={(e) => setApplyText(e.target.value)}
+              placeholder="Paste Gemini's output here (e.g. [ { &quot;id&quot;: &quot;...&quot;, &quot;question&quot;: &quot;...&quot;, &quot;options&quot;: [...], &quot;answer&quot;: &quot;A&quot;, &quot;explanation&quot;: &quot;...&quot; }, ... ])"
+              className="flex-1 min-h-[260px] sm:min-h-[320px] font-mono text-xs leading-relaxed rounded-xl bg-background border-border resize-none"
+            />
+          </div>
+
+          <DialogFooter className="flex flex-col sm:flex-row items-center justify-between gap-2 pt-2 border-t border-border">
+            <span className="text-[11px] text-muted-foreground">
+              Master Topic #{currentTopicObj?.id || ""} • Auto-clears resolved flags
+            </span>
+            <div className="flex items-center gap-2">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setApplyModalOpen(false)}
+                disabled={isApplying}
+                className="text-xs cursor-pointer"
+              >
+                Cancel
+              </Button>
+              <Button
+                size="sm"
+                onClick={handleApplyRefixedSet}
+                disabled={isApplying || !applyText.trim()}
+                className="text-xs gap-1.5 font-semibold bg-emerald-600 hover:bg-emerald-700 text-white cursor-pointer"
+              >
+                {isApplying ? (
+                  <>
+                    <RefreshCw className="h-4 w-4 animate-spin" />
+                    Merging...
+                  </>
+                ) : (
+                  <>
+                    <Check className="h-4 w-4" />
+                    Auto-Merge &amp; Update Set
+                  </>
+                )}
+              </Button>
+            </div>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
