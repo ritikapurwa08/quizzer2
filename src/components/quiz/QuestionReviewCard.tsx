@@ -107,6 +107,8 @@ export function QuestionReviewCard({
           missCount={missCount}
           reference={q?.reference}
           meta={q?.meta}
+          questionId={sourceId || q?.canonicalId || q?.id || q?._id}
+          question={q}
           unwrapped
         >
           {Renderer ? (

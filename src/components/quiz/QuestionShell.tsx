@@ -7,6 +7,7 @@ import { useToast } from "@/components/ui/Toast";
 import { Badge } from "@/components/ui/badge";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { QuestionSourceMeta } from "./QuestionSourceMeta";
+import { AdminQuestionFlagMenu } from "./AdminQuestionFlagMenu";
 
 interface QuestionShellProps {
   number: number;
@@ -20,6 +21,9 @@ interface QuestionShellProps {
   unwrapped?: boolean;
   reference?: string | null;
   meta?: Record<string, unknown> | null;
+  questionId?: string;
+  testSetId?: string;
+  question?: any;
 }
 
 export function QuestionShell({
@@ -34,6 +38,9 @@ export function QuestionShell({
   unwrapped = false,
   reference,
   meta,
+  questionId,
+  testSetId,
+  question,
 }: QuestionShellProps) {
   const { showToast } = useToast();
 
@@ -85,8 +92,16 @@ export function QuestionShell({
           <QuestionSourceMeta reference={reference} meta={meta} />
         </div>
 
-        {/* 4. Bookmark: fixed / non-shrinking on right (hidden in print) */}
-        <div className="print:hidden">
+        {/* 4. Actions on right: Admin Flag + Bookmark (hidden in print) */}
+        <div className="print:hidden flex items-center gap-1.5 sm:gap-2 shrink-0">
+          <AdminQuestionFlagMenu
+            questionId={questionId}
+            testSetId={testSetId}
+            questionNumber={number}
+            questionText={cleanedText || questionText}
+            question={question}
+          />
+
           <Tooltip>
             <TooltipTrigger
               onClick={handleBookmarkClick}

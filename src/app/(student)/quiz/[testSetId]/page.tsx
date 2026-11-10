@@ -313,6 +313,14 @@ export default function QuizPage() {
               }}
               reference={enrichedCurrent.reference}
               meta={enrichedCurrent.meta}
+              questionId={
+                enrichedCurrent.canonicalId ||
+                enrichedCurrent.id ||
+                enrichedCurrent._id ||
+                enrichedCurrent.convexId
+              }
+              testSetId={String(id)}
+              question={enrichedCurrent}
             >
               <Renderer
                 question={enrichedCurrent}

@@ -259,3 +259,4 @@ with open('data/sets/pool-state.json', 'w', encoding='utf-8') as f:
 
 print(f"Updated pool-state.json! Topic 3 completedSets: 12 | Total questions: {len(used_qids)}")
 print("\nTopic 3 is now fully partitioned into 12 sets of 20 unique questions!")
+
