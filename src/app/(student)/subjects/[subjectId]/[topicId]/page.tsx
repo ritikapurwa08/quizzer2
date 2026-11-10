@@ -38,15 +38,24 @@ export default function TopicDetailPage() {
       .catch((e) => console.error("Error loading local topic sets:", e));
   }, [tId]);
 
-  // Merge convex sets with local published sets (by _id / id)
+  // Merge convex sets with local published sets (deduplicated by _id, order, or name)
   const allTopicSets = useMemo(() => {
     const map = new Map<string, any>();
+    const seenOrders = new Set<number>();
+    const seenNames = new Set<string>();
+
     for (const s of testSets || []) {
       map.set(s._id, s);
+      if (s.order !== undefined && s.order !== null) seenOrders.add(Number(s.order));
+      if (s.name) seenNames.add(s.name.trim().toLowerCase());
     }
     for (const s of localTopicSets) {
-      if (!map.has(s._id)) {
+      const order = s.order !== undefined && s.order !== null ? Number(s.order) : null;
+      const name = s.name ? s.name.trim().toLowerCase() : "";
+      if (!map.has(s._id) && (order === null || !seenOrders.has(order)) && (!name || !seenNames.has(name))) {
         map.set(s._id, s);
+        if (order !== null) seenOrders.add(order);
+        if (name) seenNames.add(name);
       }
     }
     return Array.from(map.values()).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
