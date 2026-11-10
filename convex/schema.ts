@@ -133,4 +133,25 @@ export default defineSchema({
     .index("by_subject", ["subjectId"])
     .index("by_slug", ["slug"])
     .index("by_subject_slug", ["subjectId", "slug"]),
+
+  // Lightweight audit flags for questions (Admin-only, minimal footprint)
+  flaggedQuestions: defineTable({
+    userId: v.id("users"),
+    questionId: v.string(),
+    testSetId: v.optional(v.string()),
+    questionNumber: v.optional(v.number()),
+    flagType: v.union(
+      v.literal("wrong_answer"),
+      v.literal("duplicate"),
+      v.literal("similar"),
+      v.literal("formatting")
+    ),
+    note: v.optional(v.string()),
+    flaggedAt: v.number(),
+  })
+    .index("by_question", ["questionId"])
+    .index("by_user", ["userId"])
+    .index("by_user_question", ["userId", "questionId"])
+    .index("by_flag_type", ["flagType"])
+    .index("by_flagged_at", ["flaggedAt"]),
 });

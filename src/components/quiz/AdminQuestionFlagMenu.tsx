@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useCallback, useMemo } from "react";
-import { useQuery } from "convex/react";
+import { useQuery, useMutation } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { isUserAdmin } from "@/lib/constants";
 import {
@@ -137,23 +137,54 @@ export function AdminQuestionFlagMenu({
     );
   }, [questionId, question, testSetId, questionNumber]);
 
+  // Convex live queries & mutations
+  const convexFlag = useQuery(
+    api.flaggedQuestions.getForQuestion,
+    isAdmin && safeQuestionId ? { questionId: safeQuestionId } : "skip"
+  );
+  const flagMutation = useMutation(api.flaggedQuestions.flag);
+  const removeFlagMutation = useMutation(api.flaggedQuestions.remove);
+
   const [activeFlag, setActiveFlag] = useState<StoredFlagData | null>(null);
   const [isNoteDialogOpen, setIsNoteDialogOpen] = useState(false);
   const [noteInput, setNoteInput] = useState("");
   const [isSaving, setIsSaving] = useState(false);
 
-  // Sync initial flag state from localStorage
+  // Sync flag state: live Convex source of truth with local cache fallback
   useEffect(() => {
     if (!isAdmin || !safeQuestionId) return;
-    const allFlags = readLocalFlags();
-    if (allFlags[safeQuestionId]) {
-      setActiveFlag(allFlags[safeQuestionId]);
-      setNoteInput(allFlags[safeQuestionId].note || "");
+
+    if (convexFlag !== undefined) {
+      if (convexFlag) {
+        const flagData: StoredFlagData = {
+          questionId: convexFlag.questionId,
+          testSetId: convexFlag.testSetId,
+          questionNumber: convexFlag.questionNumber,
+          flagType: convexFlag.flagType as AdminFlagType,
+          note: convexFlag.note,
+          flaggedAt: convexFlag.flaggedAt,
+        };
+        setActiveFlag(flagData);
+        setNoteInput(convexFlag.note || "");
+        const currentMap = readLocalFlags();
+        currentMap[safeQuestionId] = flagData;
+        writeLocalFlags(currentMap);
+      } else {
+        setActiveFlag(null);
+        setNoteInput("");
+        const currentMap = readLocalFlags();
+        delete currentMap[safeQuestionId];
+        writeLocalFlags(currentMap);
+      }
     } else {
-      setActiveFlag(null);
-      setNoteInput("");
+      // Convex still loading, read from local cache optimistically
+      const allFlags = readLocalFlags();
+      if (allFlags[safeQuestionId]) {
+        setActiveFlag(allFlags[safeQuestionId]);
+        setNoteInput(allFlags[safeQuestionId].note || "");
+      }
     }
-  }, [isAdmin, safeQuestionId]);
+  }, [isAdmin, safeQuestionId, convexFlag]);
 
   // Handle setting a flag
   const handleSelectFlag = useCallback(
@@ -180,7 +211,20 @@ export function AdminQuestionFlagMenu({
 
       showToast(`🚩 Flagged: ${FLAG_CONFIG[flagType].label}`, "warning");
 
-      // 2. Persist to API
+      // 2. Persist to Convex database (Production Realtime)
+      try {
+        await flagMutation({
+          questionId: safeQuestionId,
+          testSetId,
+          questionNumber,
+          flagType,
+          note: flagData.note,
+        });
+      } catch (err) {
+        console.error("Failed to sync flag to Convex:", err);
+      }
+
+      // 3. Persist to local JSON API as additional backup
       try {
         await fetch("/api/admin/flagged-questions", {
           method: "POST",
@@ -192,12 +236,12 @@ export function AdminQuestionFlagMenu({
           }),
         });
       } catch (e) {
-        console.error("Failed to sync flag to server:", e);
+        // Ignored on production if filesystem is read-only
       } finally {
         setIsSaving(false);
       }
     },
-    [safeQuestionId, testSetId, questionNumber, noteInput, activeFlag, questionText, question, me?.email, showToast]
+    [safeQuestionId, testSetId, questionNumber, noteInput, activeFlag, questionText, question, flagMutation, me?.email, showToast]
   );
 
   // Handle removing a flag
@@ -214,17 +258,24 @@ export function AdminQuestionFlagMenu({
 
     showToast("फ्लैग हटाया गया / Flag removed", "info");
 
-    // 2. Persist to API
+    // 2. Remove from Convex database
+    try {
+      await removeFlagMutation({ questionId: safeQuestionId });
+    } catch (err) {
+      console.error("Failed to remove flag from Convex:", err);
+    }
+
+    // 3. Remove from local JSON API
     try {
       await fetch(`/api/admin/flagged-questions?questionId=${encodeURIComponent(safeQuestionId)}`, {
         method: "DELETE",
       });
     } catch (e) {
-      console.error("Failed to remove flag on server:", e);
+      // Ignored
     } finally {
       setIsSaving(false);
     }
-  }, [safeQuestionId, showToast]);
+  }, [safeQuestionId, removeFlagMutation, showToast]);
 
   // Handle saving note
   const handleSaveNote = useCallback(async () => {
@@ -246,6 +297,20 @@ export function AdminQuestionFlagMenu({
     setIsNoteDialogOpen(false);
     showToast("नोट सुरक्षित किया गया / Note saved", "success");
 
+    // 1. Update in Convex
+    try {
+      await flagMutation({
+        questionId: safeQuestionId,
+        testSetId,
+        questionNumber,
+        flagType: activeFlag.flagType,
+        note: updatedFlag.note,
+      });
+    } catch (err) {
+      console.error("Failed to update flag note in Convex:", err);
+    }
+
+    // 2. Update in JSON API
     try {
       await fetch("/api/admin/flagged-questions", {
         method: "POST",
@@ -257,9 +322,9 @@ export function AdminQuestionFlagMenu({
         }),
       });
     } catch (e) {
-      console.error("Failed to save flag note to server:", e);
+      // Ignored
     }
-  }, [safeQuestionId, activeFlag, noteInput, question, me?.email, showToast]);
+  }, [safeQuestionId, activeFlag, noteInput, flagMutation, testSetId, questionNumber, question, me?.email, showToast]);
 
   // Only admins can see and use this tool
   if (!isAdmin || !safeQuestionId) {
@@ -452,3 +517,4 @@ export function AdminQuestionFlagMenu({
     </>
   );
 }
+
