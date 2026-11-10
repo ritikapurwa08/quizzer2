@@ -368,9 +368,9 @@ export function AdminQuestionFlagMenu({
         </DropdownMenuTrigger>
 
         <DropdownMenuContent align="end" className="w-56 p-1.5 z-50">
-          <DropdownMenuLabel className="px-2 py-1 text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">
+          <div className="px-2 py-1.5 text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">
             Admin Flag (Quick Audit)
-          </DropdownMenuLabel>
+          </div>
           <DropdownMenuSeparator />
 
           {/* 1. Wrong Answer */}
