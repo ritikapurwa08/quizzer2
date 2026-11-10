@@ -38,24 +38,17 @@ export default function TopicDetailPage() {
       .catch((e) => console.error("Error loading local topic sets:", e));
   }, [tId]);
 
-  // Merge convex sets with local published sets (deduplicated by _id, order, or name)
+  // Authoritative test sets: Convex DB is the primary source; fallback to local published sets only if Convex is empty.
   const allTopicSets = useMemo(() => {
+    const sourceList = (testSets && testSets.length > 0) ? testSets : localTopicSets;
     const map = new Map<string, any>();
-    const seenOrders = new Set<number>();
     const seenNames = new Set<string>();
 
-    for (const s of testSets || []) {
-      map.set(s._id, s);
-      if (s.order !== undefined && s.order !== null) seenOrders.add(Number(s.order));
-      if (s.name) seenNames.add(s.name.trim().toLowerCase());
-    }
-    for (const s of localTopicSets) {
-      const order = s.order !== undefined && s.order !== null ? Number(s.order) : null;
-      const name = s.name ? s.name.trim().toLowerCase() : "";
-      if (!map.has(s._id) && (order === null || !seenOrders.has(order)) && (!name || !seenNames.has(name))) {
+    for (const s of sourceList || []) {
+      const cleanName = (s.name || "").replace(/\s+/g, " ").trim().toLowerCase();
+      if (!map.has(s._id) && (!cleanName || !seenNames.has(cleanName))) {
         map.set(s._id, s);
-        if (order !== null) seenOrders.add(order);
-        if (name) seenNames.add(name);
+        if (cleanName) seenNames.add(cleanName);
       }
     }
     return Array.from(map.values()).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
