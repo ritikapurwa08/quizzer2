@@ -14,6 +14,7 @@ class GroqKeyManager:
         self.inter_request_delay = inter_request_delay
         self.lock = threading.Lock()
         self.last_dispatch_time = 0.0
+        self.rr_cursor = 0
 
         # State tracking per key: key -> dict
         self.key_state = {}
@@ -53,7 +54,10 @@ class GroqKeyManager:
                 if time_since_last < self.inter_request_delay:
                     sleep_needed = self.inter_request_delay - time_since_last
                 else:
-                    for k in self.keys:
+                    num_keys = len(self.keys)
+                    for i in range(num_keys):
+                        idx = (self.rr_cursor + i) % num_keys
+                        k = self.keys[idx]
                         state = self.key_state[k]
                         if now < state["cooldown_until"]:
                             continue
@@ -63,6 +67,7 @@ class GroqKeyManager:
                         if state["active_requests"] < self.max_concurrent_per_key:
                             state["active_requests"] += 1
                             self.last_dispatch_time = time.time()
+                            self.rr_cursor = (idx + 1) % num_keys
                             chosen_key = k
                             break
 
@@ -72,8 +77,6 @@ class GroqKeyManager:
                 time.sleep(sleep_needed)
             else:
                 time.sleep(0.3 + random.uniform(0.05, 0.2))
-
-        raise TimeoutError("All Groq API keys are currently in cooldown or maxed out.")
 
         raise TimeoutError("All Groq API keys are currently in cooldown or maxed out.")
 
