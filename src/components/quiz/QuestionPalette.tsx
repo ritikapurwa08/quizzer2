@@ -59,7 +59,7 @@ export function QuestionPalette({
               isCurrent
                 ? "border-primary bg-primary text-primary-foreground shadow-xs font-bold"
                 : q.answered
-                ? "border-foreground/30 bg-muted text-foreground hover:border-foreground/50 font-medium"
+                ? "border-primary/25 bg-primary/10 text-primary hover:bg-primary/15 hover:border-primary/40 font-semibold"
                 : "border-border/80 bg-background text-muted-foreground hover:bg-muted hover:text-foreground hover:border-border"
             )}
           >
@@ -78,15 +78,15 @@ export function QuestionPalette({
       {/* ── Compact Palette Status Legend ── */}
       <div className="col-span-5 pt-2.5 mt-1 border-t border-border/60 flex items-center justify-between text-[11px] text-muted-foreground flex-wrap gap-2 select-none">
         <span className="flex items-center gap-1.5">
-          <span className="h-2.5 w-2.5 rounded-sm bg-primary shrink-0" />
+          <span className="h-2 w-2 rounded-full bg-primary shrink-0" />
           <span>Current</span>
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="h-2.5 w-2.5 rounded-sm bg-muted border border-foreground/30 shrink-0" />
+          <span className="h-2 w-2 rounded-full bg-primary/25 border border-primary/50 shrink-0" />
           <span>Answered</span>
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="h-2.5 w-2.5 rounded-sm bg-background border border-border/80 shrink-0" />
+          <span className="h-2 w-2 rounded-full bg-background border border-border/80 shrink-0" />
           <span>Unanswered</span>
         </span>
         <span className="flex items-center gap-1.5">

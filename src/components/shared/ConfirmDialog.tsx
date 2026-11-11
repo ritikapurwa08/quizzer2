@@ -62,7 +62,7 @@ export function ConfirmDialog({
         {stats && (
           <div className="my-3 p-3 rounded-xl border border-border bg-muted/30 grid grid-cols-3 gap-2 text-center">
             <div className="space-y-0.5">
-              <span className="flex items-center justify-center gap-1 text-[10px] uppercase font-bold text-emerald-600 dark:text-emerald-400">
+              <span className="flex items-center justify-center gap-1 text-[10px] uppercase font-bold text-primary">
                 <CheckCircle2 className="h-3 w-3" /> Answered
               </span>
               <p className="text-sm font-bold text-foreground tabular-nums">

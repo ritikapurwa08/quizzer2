@@ -164,7 +164,7 @@ export function MobileQuestionPaletteModal({
               {answeredCount} of {questions.length} answered ({percentageSolved}%)
             </p>
           </div>
-          <span className="text-xs font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 rounded-full tabular-nums">
+          <span className="text-xs font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-0.5 rounded-full tabular-nums">
             {answeredCount}/{questions.length} Solved
           </span>
         </div>
@@ -172,15 +172,15 @@ export function MobileQuestionPaletteModal({
         {/* ── Section 3: Status Legend ── */}
         <div className="flex items-center justify-between text-[10px] text-muted-foreground py-2 border-y border-border/60 px-1 shrink-0 select-none flex-wrap gap-1">
           <span className="flex items-center gap-1.5">
-            <span className="h-2 w-2 rounded-sm bg-primary shrink-0" />
+            <span className="h-2 w-2 rounded-full bg-primary shrink-0" />
             <span>Current</span>
           </span>
           <span className="flex items-center gap-1.5">
-            <span className="h-2 w-2 rounded-sm bg-emerald-500/30 border border-emerald-500/60 shrink-0" />
+            <span className="h-2 w-2 rounded-full bg-primary/25 border border-primary/50 shrink-0" />
             <span>Answered</span>
           </span>
           <span className="flex items-center gap-1.5">
-            <span className="h-2 w-2 rounded-sm bg-muted border border-border shrink-0" />
+            <span className="h-2 w-2 rounded-full bg-muted border border-border shrink-0" />
             <span>Unanswered</span>
           </span>
           <span className="flex items-center gap-1.5">
@@ -236,7 +236,7 @@ export function MobileQuestionPaletteModal({
                       : isCurrent
                         ? "bg-primary text-primary-foreground border-primary shadow-sm ring-2 ring-primary/30 cursor-pointer active:scale-95"
                         : isAnswered
-                          ? "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border-emerald-500/30 hover:bg-emerald-500/25 cursor-pointer active:scale-95"
+                          ? "bg-primary/10 text-primary border-primary/25 hover:bg-primary/15 hover:border-primary/40 cursor-pointer active:scale-95"
                           : "bg-muted/50 text-muted-foreground border-border hover:bg-muted hover:text-foreground cursor-pointer active:scale-95"
                   )}
                   aria-label={`Jump to question ${i + 1}`}

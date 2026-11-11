@@ -141,6 +141,8 @@ export function useQuizSession(testSetId: Id<"testSets">) {
   }, [testSetId, start, storageKey]);
 
   // 2. Fetch attempt & questions from Convex (with static published-sets fallback)
+  const isPreview = typeof window !== "undefined" && window.location.search.includes("preview=true");
+
   const data = useQuery(
     api.attempts.getWithQuestions,
     attemptId ? { attemptId } : "skip"
@@ -149,8 +151,8 @@ export function useQuizSession(testSetId: Id<"testSets">) {
   const [localSetQuestions, setLocalSetQuestions] = useState<any[]>([]);
 
   useEffect(() => {
-    // If Convex questions table doesn't have the questions, fetch from static published sets
-    if (data && (!data.questions || data.questions.length === 0)) {
+    // If preview mode OR if Convex questions table doesn't have the questions, fetch from static published sets
+    if (isPreview || (data && (!data.questions || data.questions.length === 0))) {
       fetch(`/api/sets/${testSetId}`)
         .then((res) => res.json())
         .then((json) => {
@@ -160,7 +162,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
         })
         .catch((e) => console.error("Local set fetch error:", e));
     }
-  }, [data, testSetId]);
+  }, [data, testSetId, isPreview]);
 
   const resolvedQuestions =
     data?.questions && data.questions.length > 0
@@ -446,6 +448,6 @@ export function useQuizSession(testSetId: Id<"testSets">) {
     pause,
     resume,
     submit,
-    isLoading: !data,
+    isLoading: isPreview ? localSetQuestions.length === 0 : !data,
   };
 }

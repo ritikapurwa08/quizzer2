@@ -64,10 +64,10 @@ export function MobileBottomControlDock({
 
           {/* Attempted Status Badge with CheckCircle2 */}
           <div
-            className="flex items-center gap-1 text-[11px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border border-emerald-500/25 px-1.5 sm:px-2 py-0.5 rounded-lg tabular-nums shrink-0"
+            className="flex items-center gap-1 text-[11px] font-bold text-primary bg-primary/10 border border-primary/20 px-1.5 sm:px-2 py-0.5 rounded-lg tabular-nums shrink-0"
             title={`${answeredCount} Attempted`}
           >
-            <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500 shrink-0" />
+            <CheckCircle2 className="h-3.5 w-3.5 text-primary shrink-0" />
             <span>{answeredCount}</span>
           </div>
 
@@ -87,7 +87,7 @@ export function MobileBottomControlDock({
             size="sm"
             onClick={onSubmit}
             disabled={isPaused || isSubmitting}
-            className="h-10 px-3.5 sm:px-4 font-bold text-xs rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white cursor-pointer shrink-0 gap-1.5 shadow-md shadow-emerald-950/30 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            className="h-10 px-3.5 sm:px-4 font-bold text-xs rounded-xl bg-primary hover:bg-primary/90 text-primary-foreground cursor-pointer shrink-0 gap-1.5 shadow-md shadow-primary/20 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
           >
             {isSubmitting ? (
               <span className="flex items-center gap-1.5">

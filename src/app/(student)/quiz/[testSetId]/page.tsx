@@ -267,7 +267,7 @@ export default function QuizPage() {
         {/* Desktop Header */}
         <div className="hidden lg:block border-b border-border/60 pb-2">
           <h1 className="font-semibold text-lg tracking-tight text-foreground font-hindi">
-            {testSet?.name}
+            {testSet?.name || (questions[0]?.topicName ? `${questions[0].topicName} Part 1` : "Quiz Session")}
           </h1>
         </div>
 
