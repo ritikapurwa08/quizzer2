@@ -5,7 +5,8 @@ import { useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { Card } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Play, RotateCcw, ChevronRight, ArrowRight } from "lucide-react";
+import { ChevronRight, ArrowRight } from "lucide-react";
+import { getSubjectSectionIcon } from "@/components/icons/QuizzerIcons";
 import { cn } from "@/lib/utils";
 
 /**
@@ -59,7 +60,7 @@ export function ContinuePracticeCard() {
             <Card key={i} className="p-3 sm:p-3.5 rounded-2xl border-0 bg-card space-y-2.5 shadow-xs flex flex-col justify-between h-full">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <Skeleton className="h-8 w-8 rounded-xl" />
+                  <Skeleton className="h-6.5 w-6.5 rounded-lg" />
                   <Skeleton className="h-3.5 w-14 rounded" />
                 </div>
                 <Skeleton className="h-4 w-10 rounded-full" />
@@ -111,6 +112,7 @@ export function ContinuePracticeCard() {
       {/* Strictly 4 Cards: Symmetrical 2x2 on Mobile, 4x1 on Desktop — Compact Height Matching Subject Cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-3.5">
         {displayCards.map((rec) => {
+          const SectionIcon = getSubjectSectionIcon(rec.subjectName);
           const shortSubject = getShortSubjectTag(rec.subjectName);
           const { cleanTitle, partLabel } = parseSetDisplay(rec.testSetName);
           const isResume = rec.type === "resume";
@@ -125,22 +127,11 @@ export function ContinuePracticeCard() {
               <Card
                 className="p-3 sm:p-3.5 rounded-2xl border-0 bg-card hover:bg-muted/30 transition-all flex flex-col justify-between gap-2.5 h-full relative select-none shadow-xs"
               >
-                {/* Top Row: Action Icon + Subject on left, Part badge + Chevron on right */}
+                {/* Top Row: Refined small icon + Subject on left, Part badge + Resume badge on right */}
                 <div className="flex items-center justify-between gap-1.5">
                   <div className="flex items-center gap-2 min-w-0">
-                    <div
-                      className={cn(
-                        "flex h-8 w-8 items-center justify-center rounded-xl shrink-0 transition-colors duration-150",
-                        isResume
-                          ? "bg-primary text-white shadow-2xs"
-                          : "bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white"
-                      )}
-                    >
-                      {isResume ? (
-                        <RotateCcw className="h-3.5 w-3.5" />
-                      ) : (
-                        <Play className="h-3.5 w-3.5 fill-current ml-0.5" />
-                      )}
+                    <div className="flex h-6.5 w-6.5 items-center justify-center rounded-lg bg-primary/10 text-primary shrink-0 group-hover:bg-primary group-hover:text-white transition-colors duration-150">
+                      <SectionIcon className="h-3.5 w-3.5" />
                     </div>
                     <span className="text-[11px] sm:text-xs font-medium text-muted-foreground group-hover:text-foreground transition-colors font-hindi truncate">
                       {shortSubject}
@@ -151,7 +142,7 @@ export function ContinuePracticeCard() {
                     {partLabel && (
                       <span
                         className={cn(
-                          "text-[10px] font-bold px-1.5 py-0.5 rounded-full font-mono tracking-tight transition-colors",
+                          "text-[10px] font-bold px-1.5 py-0.5 rounded-md font-mono tracking-tight transition-colors",
                           isResume
                             ? "bg-primary/15 text-primary"
                             : "bg-muted text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary"
@@ -160,11 +151,18 @@ export function ContinuePracticeCard() {
                         {partLabel}
                       </span>
                     )}
-                    <ChevronRight className="h-3.5 w-3.5 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
+                    {isResume ? (
+                      <span className="inline-flex items-center gap-1 text-[10px] font-semibold px-1.5 py-0.5 rounded-md bg-primary/15 text-primary">
+                        <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
+                        <span>Resume</span>
+                      </span>
+                    ) : (
+                      <ChevronRight className="h-3.5 w-3.5 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
+                    )}
                   </div>
                 </div>
 
-                {/* Bottom Row: Clean Title + Status/Question count (No clunky long button!) */}
+                {/* Bottom Row: Clean Title + Status/Question count */}
                 <div>
                   <h3
                     className="font-medium text-xs sm:text-[13.5px] leading-snug text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-1 sm:line-clamp-2"
@@ -176,7 +174,6 @@ export function ContinuePracticeCard() {
                     <span className="tabular-nums font-medium">{rec.questionCount} प्रश्न</span>
                     {isResume ? (
                       <span className="text-primary font-medium flex items-center gap-1">
-                        <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
                         In Progress
                       </span>
                     ) : isNext ? (

@@ -164,7 +164,7 @@ export default function DashboardPage() {
           <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 md:grid-cols-4">
             {Array.from({ length: 4 }).map((_, i) => (
               <Card key={i} className="p-3 sm:p-3.5 rounded-2xl border-0 bg-card shadow-xs space-y-2">
-                <Skeleton className="h-8 w-8 rounded-xl" />
+                <Skeleton className="h-6.5 w-6.5 rounded-lg" />
                 <Skeleton className="h-4 w-3/4 rounded" />
                 <Skeleton className="h-3 w-1/2 rounded" />
               </Card>
@@ -179,8 +179,8 @@ export default function DashboardPage() {
                 <Link key={s._id} href={`/subjects/${s._id}`} className="block focus-visible:outline-hidden group h-full">
                   <Card className="p-3 sm:p-3.5 rounded-2xl border-0 bg-card hover:bg-muted/30 transition-all flex flex-col justify-between gap-2.5 h-full relative select-none shadow-xs">
                     <div className="flex items-center justify-between">
-                      <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-primary/10 text-primary shrink-0 group-hover:bg-primary group-hover:text-white transition-colors duration-150">
-                        <SectionIcon className="h-4 w-4" />
+                      <div className="flex h-6.5 w-6.5 items-center justify-center rounded-lg bg-primary/10 text-primary shrink-0 group-hover:bg-primary group-hover:text-white transition-colors duration-150">
+                        <SectionIcon className="h-3.5 w-3.5" />
                       </div>
                       <ChevronRight className="h-3.5 w-3.5 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
                     </div>
