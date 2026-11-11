@@ -92,21 +92,21 @@ export function SubjectAccuracyChart({ data }: SubjectAccuracyChartProps) {
   }, [subjectsList]);
 
   return (
-    <Card className="rounded-2xl border border-border/80 bg-card shadow-xs flex flex-col justify-between overflow-hidden">
+    <Card className="rounded-md border border-border bg-card shadow-xs flex flex-col justify-between overflow-hidden">
       {/* ── Card Header ── */}
       <CardHeader className="p-4 sm:p-5 pb-2">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
           <div>
-            <CardTitle className="text-sm sm:text-base font-bold text-foreground flex items-center gap-2">
+            <CardTitle className="text-sm sm:text-base font-semibold text-foreground flex items-center gap-2">
               <Award className="h-4 w-4 text-primary" />
-              Subject Accuracy &amp; Mastery
+              <span>Subject Accuracy &amp; Mastery</span>
             </CardTitle>
             <CardDescription className="text-xs text-muted-foreground mt-0.5">
               Subject performance ranked by evaluation accuracy
             </CardDescription>
           </div>
 
-          <Badge variant="outline" className="text-xs font-semibold px-2.5 py-0.5 rounded-lg border-border/80 self-start sm:self-auto">
+          <Badge variant="outline" className="text-xs font-semibold px-2.5 py-0.5 rounded-sm border-border self-start sm:self-auto">
             {attemptedCount} of {subjectsList.length} Attempted
           </Badge>
         </div>
@@ -124,14 +124,25 @@ export function SubjectAccuracyChart({ data }: SubjectAccuracyChartProps) {
               accessibilityLayer
               data={barData}
               layout="vertical"
-              margin={{ left: 0, right: 48, top: 12, bottom: 8 }}
+              margin={{ left: 8, right: 48, top: 12, bottom: 8 }}
             >
               <YAxis
-                dataKey="subject"
+                dataKey="shortSubject"
                 type="category"
                 tickLine={false}
                 axisLine={false}
-                hide
+                width={120}
+                tick={({ x, y, payload }) => (
+                  <text
+                    x={x}
+                    y={y}
+                    dy={4}
+                    textAnchor="end"
+                    className="fill-foreground font-hindi font-medium text-xs select-none"
+                  >
+                    {payload.value}
+                  </text>
+                )}
               />
               <XAxis dataKey="accuracy" type="number" domain={[0, 100]} hide />
               <ChartTooltip
@@ -140,7 +151,7 @@ export function SubjectAccuracyChart({ data }: SubjectAccuracyChartProps) {
                   <ChartTooltipContent
                     formatter={(value, name, item) => (
                       <div className="text-xs space-y-1">
-                        <p className="font-bold text-foreground font-hindi">{item.payload.subject}</p>
+                        <p className="font-semibold text-foreground font-hindi">{item.payload.subject}</p>
                         <p className="text-muted-foreground">
                           Accuracy: <strong className="text-foreground">{value}%</strong> ({item.payload.correct}/{item.payload.attempted} questions)
                         </p>
@@ -151,20 +162,14 @@ export function SubjectAccuracyChart({ data }: SubjectAccuracyChartProps) {
               />
               <Bar
                 dataKey="accuracy"
-                radius={8}
-                background={{ fill: "var(--color-muted)/40" }}
+                radius={3}
+                background={{ fill: "rgba(128, 128, 128, 0.12)", radius: 3 }}
               >
-                <LabelList
-                  dataKey="subject"
-                  position="insideLeft"
-                  offset={10}
-                  className="fill-foreground font-bold font-hindi text-xs drop-shadow-xs"
-                />
                 <LabelList
                   dataKey="accuracyDisplay"
                   position="right"
                   offset={8}
-                  className="fill-foreground font-extrabold tabular-nums text-xs"
+                  className="fill-foreground font-semibold tabular-nums text-xs"
                 />
               </Bar>
             </BarChart>

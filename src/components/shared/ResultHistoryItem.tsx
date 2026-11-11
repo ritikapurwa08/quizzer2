@@ -56,19 +56,19 @@ export function ResultHistoryItem({
       href={`/quiz/${testSetId}/results`}
       className="block focus-visible:outline-hidden group"
     >
-      <div className="flex items-center justify-between gap-2.5 sm:gap-3 px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl border border-border/70 bg-card hover:bg-muted/30 hover:border-primary/40 transition-all select-none shadow-2xs">
+      <div className="flex items-center justify-between gap-2.5 sm:gap-3 px-3 sm:px-4 py-2 sm:py-2.5 rounded-md border border-border bg-card hover:bg-muted/30 hover:border-primary/40 transition-all select-none shadow-xs">
         {/* Left Side: Title & Meta Info (Maximum Horizontal Space — Left Icon Removed) */}
         <div className="min-w-0 flex-1 space-y-0.5">
           {/* Line 1: Title + Part Badge with Full Horizontal Room */}
           <div className="flex items-center gap-1.5 min-w-0">
             <h4
-              className="text-xs sm:text-sm font-bold text-foreground truncate group-hover:text-primary transition-colors font-hindi leading-snug"
+              className="text-xs sm:text-sm font-medium text-foreground truncate group-hover:text-primary transition-colors font-hindi leading-snug"
               title={cleanTitle}
             >
               {cleanTitle}
             </h4>
             {partLabel && (
-              <span className="shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-muted text-foreground border border-border/70 font-mono">
+              <span className="shrink-0 text-[10px] font-semibold px-1.5 py-0.5 rounded-sm bg-muted text-foreground border border-border font-mono">
                 {partLabel}
               </span>
             )}

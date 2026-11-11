@@ -73,7 +73,7 @@ export default function DashboardPage() {
             variant="ghost"
             size="icon"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className="h-9 w-9 rounded-md bg-card text-muted-foreground hover:text-foreground border-0 shadow-xs cursor-pointer"
+            className="h-9 w-9 rounded-md bg-card text-muted-foreground hover:text-foreground border border-border shadow-xs cursor-pointer"
             aria-label="Toggle theme"
           >
             {theme === "dark" ? <Sun className="h-4 w-4 text-amber-400" /> : <Moon className="h-4 w-4 text-blue-500" />}
@@ -185,28 +185,30 @@ export default function DashboardPage() {
                 <Link
                   key={subject._id}
                   href={`/subjects/${subject._id}`}
-                  className="group block"
+                  className="group block h-full focus-visible:outline-hidden"
                 >
-                  <Card className="p-5 border border-border bg-card rounded-md shadow-xs hover:border-primary/50 transition-all group-hover:-translate-y-0.5 space-y-3 cursor-pointer">
-                    <div className="flex items-center justify-between">
-                      <div className="p-2 rounded-sm bg-primary/10 text-primary group-hover:scale-105 transition-transform">
-                        <BookOpen className="h-5 w-5" />
+                  <Card className="p-5 border border-border bg-card rounded-md shadow-xs hover:border-primary/50 transition-all group-hover:-translate-y-0.5 cursor-pointer h-full flex flex-col justify-between gap-3">
+                    <div className="space-y-3">
+                      <div className="flex items-center justify-between">
+                        <div className="p-2 rounded-sm bg-primary/10 text-primary group-hover:scale-105 transition-transform">
+                          <BookOpen className="h-5 w-5" />
+                        </div>
+                        <Badge variant="secondary" className="text-[11px] border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
+                          {topicCount}
+                        </Badge>
                       </div>
-                      <Badge variant="secondary" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
-                        {topicCount}
-                      </Badge>
+
+                      <div>
+                        <h3 className="text-sm sm:text-base font-semibold text-foreground group-hover:text-primary transition-colors line-clamp-2 leading-snug">
+                          {subject.name}
+                        </h3>
+                        <p className="text-xs text-muted-foreground mt-1 line-clamp-1">
+                          {subject.description || "Authentic practice sets with answer verification"}
+                        </p>
+                      </div>
                     </div>
 
-                    <div>
-                      <h3 className="typo-h3 text-foreground group-hover:text-primary transition-colors line-clamp-2">
-                        {subject.name}
-                      </h3>
-                      <p className="typo-small text-muted-foreground mt-1 line-clamp-1">
-                        {subject.description || "Authentic practice sets with answer verification"}
-                      </p>
-                    </div>
-
-                    <div className="flex items-center justify-between pt-1 typo-caption text-primary font-semibold">
+                    <div className="flex items-center justify-between pt-2 border-t border-border/40 text-xs text-primary font-medium">
                       <span>Practice Tests</span>
                       <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
                     </div>
@@ -231,27 +233,29 @@ export default function DashboardPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Column 1: Grammar & Core Rules (Active / Practice Ready) */}
-          <Link href="/subjects" className="group block">
-            <Card className="p-5 border border-border bg-card rounded-md shadow-xs hover:border-emerald-500/50 transition-all group-hover:-translate-y-0.5 space-y-3 cursor-pointer">
-              <div className="flex items-center justify-between">
-                <div className="p-2 rounded-sm bg-emerald-500/10 text-emerald-500 group-hover:scale-105 transition-transform">
-                  <FileCheck2 className="h-5 w-5" />
+          <Link href="/subjects" className="group block h-full focus-visible:outline-hidden">
+            <Card className="p-5 border border-border bg-card rounded-md shadow-xs hover:border-emerald-500/50 transition-all group-hover:-translate-y-0.5 cursor-pointer h-full flex flex-col justify-between gap-3">
+              <div className="space-y-3">
+                <div className="flex items-center justify-between">
+                  <div className="p-2 rounded-sm bg-emerald-500/10 text-emerald-500 group-hover:scale-105 transition-transform">
+                    <FileCheck2 className="h-5 w-5" />
+                  </div>
+                  <Badge className="text-[11px] border border-emerald-500/30 bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 font-bold">
+                    Active Ready
+                  </Badge>
                 </div>
-                <Badge className="typo-caption border border-emerald-500/30 bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 font-bold">
-                  Active Ready
-                </Badge>
+
+                <div>
+                  <h3 className="text-sm sm:text-base font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Grammar &amp; Core Rules
+                  </h3>
+                  <p className="text-xs text-muted-foreground mt-1 line-clamp-2">
+                    Tenses, voice, narration, prepositions, articles &amp; sentence transformation tests.
+                  </p>
+                </div>
               </div>
 
-              <div>
-                <h3 className="typo-h3 text-foreground group-hover:text-primary transition-colors">
-                  Grammar &amp; Core Rules
-                </h3>
-                <p className="typo-small text-muted-foreground mt-1">
-                  Tenses, voice, narration, prepositions, articles &amp; sentence transformation tests.
-                </p>
-              </div>
-
-              <div className="flex items-center justify-between pt-1 typo-caption text-primary font-semibold">
+              <div className="flex items-center justify-between pt-2 border-t border-border/40 text-xs text-primary font-medium">
                 <span>Start Practice</span>
                 <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
               </div>
@@ -259,51 +263,55 @@ export default function DashboardPage() {
           </Link>
 
           {/* Column 2: Part 2: Vocabulary & Idioms (Coming Soon) */}
-          <Card className="p-5 border border-border bg-card/70 rounded-md shadow-xs space-y-3 select-none">
-            <div className="flex items-center justify-between">
-              <div className="p-2 rounded-sm bg-muted text-muted-foreground">
-                <Lock className="h-5 w-5" />
+          <Card className="p-5 border border-border bg-card/70 rounded-md shadow-xs select-none h-full flex flex-col justify-between gap-3">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="p-2 rounded-sm bg-muted text-muted-foreground">
+                  <Lock className="h-5 w-5" />
+                </div>
+                <Badge variant="outline" className="text-[11px] border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
+                  Coming Soon
+                </Badge>
               </div>
-              <Badge variant="outline" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
-                Coming Soon
-              </Badge>
+
+              <div>
+                <h3 className="text-sm sm:text-base font-semibold text-foreground/80">
+                  Part 2: Vocabulary &amp; Idioms
+                </h3>
+                <p className="text-xs text-muted-foreground mt-1 line-clamp-2">
+                  Synonyms, antonyms, one-word substitutions, phrasal verbs &amp; common idioms.
+                </p>
+              </div>
             </div>
 
-            <div>
-              <h3 className="typo-h3 text-foreground/80">
-                Part 2: Vocabulary &amp; Idioms
-              </h3>
-              <p className="typo-small text-muted-foreground mt-1">
-                Synonyms, antonyms, one-word substitutions, phrasal verbs &amp; common idioms.
-              </p>
-            </div>
-
-            <div className="pt-1 typo-caption text-muted-foreground font-medium">
+            <div className="pt-2 border-t border-border/40 text-xs text-muted-foreground font-normal">
               Curating authentic exam question sets
             </div>
           </Card>
 
           {/* Column 3: Part 3: Comprehension & Usage (Coming Soon) */}
-          <Card className="p-5 border border-border bg-card/70 rounded-md shadow-xs space-y-3 select-none">
-            <div className="flex items-center justify-between">
-              <div className="p-2 rounded-sm bg-muted text-muted-foreground">
-                <Lock className="h-5 w-5" />
+          <Card className="p-5 border border-border bg-card/70 rounded-md shadow-xs select-none h-full flex flex-col justify-between gap-3">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="p-2 rounded-sm bg-muted text-muted-foreground">
+                  <Lock className="h-5 w-5" />
+                </div>
+                <Badge variant="outline" className="text-[11px] border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
+                  Coming Soon
+                </Badge>
               </div>
-              <Badge variant="outline" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
-                Coming Soon
-              </Badge>
+
+              <div>
+                <h3 className="text-sm sm:text-base font-semibold text-foreground/80">
+                  Part 3: Comprehension &amp; Usage
+                </h3>
+                <p className="text-xs text-muted-foreground mt-1 line-clamp-2">
+                  Reading passages, cloze test passages, paragraph coherence &amp; precise usage.
+                </p>
+              </div>
             </div>
 
-            <div>
-              <h3 className="typo-h3 text-foreground/80">
-                Part 3: Comprehension &amp; Usage
-              </h3>
-              <p className="typo-small text-muted-foreground mt-1">
-                Reading passages, cloze test passages, paragraph coherence &amp; precise usage.
-              </p>
-            </div>
-
-            <div className="pt-1 typo-caption text-muted-foreground font-medium">
+            <div className="pt-2 border-t border-border/40 text-xs text-muted-foreground font-normal">
               In final review &amp; formatting
             </div>
           </Card>
@@ -323,74 +331,94 @@ export default function DashboardPage() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {/* Card 1: Indian Geography */}
-          <Card className="p-5 border border-border bg-card/70 rounded-md shadow-xs space-y-3 select-none">
-            <div className="flex items-center justify-between">
-              <div className="p-2 rounded-sm bg-muted text-muted-foreground">
-                <Compass className="h-5 w-5" />
+          <Card className="p-5 border border-border bg-card/70 rounded-md shadow-xs select-none h-full flex flex-col justify-between gap-3">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="p-2 rounded-sm bg-muted text-muted-foreground">
+                  <Compass className="h-5 w-5" />
+                </div>
+                <Badge variant="outline" className="text-[11px] border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
+                  Coming Soon
+                </Badge>
               </div>
-              <Badge variant="outline" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
-                Coming Soon
-              </Badge>
+              <div>
+                <h3 className="text-sm sm:text-base font-semibold text-foreground/80">Indian Geography</h3>
+                <p className="text-xs text-muted-foreground mt-1 line-clamp-2">
+                  Physical features, major rivers, monsoons, soil types, forests &amp; mineral resources.
+                </p>
+              </div>
             </div>
-            <div>
-              <h3 className="typo-h3 text-foreground/80">Indian Geography</h3>
-              <p className="typo-small text-muted-foreground mt-1">
-                Physical features, major rivers, monsoons, soil types, forests &amp; mineral resources.
-              </p>
+            <div className="pt-2 border-t border-border/40 text-[11px] text-muted-foreground font-normal">
+              In syllabus curation
             </div>
           </Card>
 
           {/* Card 2: World Geography */}
-          <Card className="p-5 border border-border bg-card/70 rounded-md shadow-xs space-y-3 select-none">
-            <div className="flex items-center justify-between">
-              <div className="p-2 rounded-sm bg-muted text-muted-foreground">
-                <Globe className="h-5 w-5" />
+          <Card className="p-5 border border-border bg-card/70 rounded-md shadow-xs select-none h-full flex flex-col justify-between gap-3">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="p-2 rounded-sm bg-muted text-muted-foreground">
+                  <Globe className="h-5 w-5" />
+                </div>
+                <Badge variant="outline" className="text-[11px] border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
+                  Coming Soon
+                </Badge>
               </div>
-              <Badge variant="outline" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
-                Coming Soon
-              </Badge>
+              <div>
+                <h3 className="text-sm sm:text-base font-semibold text-foreground/80">World Geography</h3>
+                <p className="text-xs text-muted-foreground mt-1 line-clamp-2">
+                  Continents, major ocean currents, global wind circulation, climate zones &amp; ecology.
+                </p>
+              </div>
             </div>
-            <div>
-              <h3 className="typo-h3 text-foreground/80">World Geography</h3>
-              <p className="typo-small text-muted-foreground mt-1">
-                Continents, major ocean currents, global wind circulation, climate zones &amp; ecology.
-              </p>
+            <div className="pt-2 border-t border-border/40 text-[11px] text-muted-foreground font-normal">
+              In syllabus curation
             </div>
           </Card>
 
           {/* Card 3: Indian Economy */}
-          <Card className="p-5 border border-border bg-card/70 rounded-md shadow-xs space-y-3 select-none">
-            <div className="flex items-center justify-between">
-              <div className="p-2 rounded-sm bg-muted text-muted-foreground">
-                <TrendingUp className="h-5 w-5" />
+          <Card className="p-5 border border-border bg-card/70 rounded-md shadow-xs select-none h-full flex flex-col justify-between gap-3">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="p-2 rounded-sm bg-muted text-muted-foreground">
+                  <TrendingUp className="h-5 w-5" />
+                </div>
+                <Badge variant="outline" className="text-[11px] border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
+                  Coming Soon
+                </Badge>
               </div>
-              <Badge variant="outline" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
-                Coming Soon
-              </Badge>
+              <div>
+                <h3 className="text-sm sm:text-base font-semibold text-foreground/80">Indian Economy</h3>
+                <p className="text-xs text-muted-foreground mt-1 line-clamp-2">
+                  Agricultural patterns, industrial policies, national budget, inflation &amp; GST reforms.
+                </p>
+              </div>
             </div>
-            <div>
-              <h3 className="typo-h3 text-foreground/80">Indian Economy</h3>
-              <p className="typo-small text-muted-foreground mt-1">
-                Agricultural patterns, industrial policies, national budget, inflation &amp; GST reforms.
-              </p>
+            <div className="pt-2 border-t border-border/40 text-[11px] text-muted-foreground font-normal">
+              In syllabus curation
             </div>
           </Card>
 
           {/* Card 4: Indian Polity & History */}
-          <Card className="p-5 border border-border bg-card/70 rounded-md shadow-xs space-y-3 select-none">
-            <div className="flex items-center justify-between">
-              <div className="p-2 rounded-sm bg-muted text-muted-foreground">
-                <Landmark className="h-5 w-5" />
+          <Card className="p-5 border border-border bg-card/70 rounded-md shadow-xs select-none h-full flex flex-col justify-between gap-3">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="p-2 rounded-sm bg-muted text-muted-foreground">
+                  <Landmark className="h-5 w-5" />
+                </div>
+                <Badge variant="outline" className="text-[11px] border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
+                  Coming Soon
+                </Badge>
               </div>
-              <Badge variant="outline" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
-                Coming Soon
-              </Badge>
+              <div>
+                <h3 className="text-sm sm:text-base font-semibold text-foreground/80">Indian Polity &amp; History</h3>
+                <p className="text-xs text-muted-foreground mt-1 line-clamp-2">
+                  Constitution, fundamental rights, parliament, supreme court &amp; national freedom struggle.
+                </p>
+              </div>
             </div>
-            <div>
-              <h3 className="typo-h3 text-foreground/80">Indian Polity &amp; History</h3>
-              <p className="typo-small text-muted-foreground mt-1">
-                Constitution, fundamental rights, parliament, supreme court &amp; national freedom struggle.
-              </p>
+            <div className="pt-2 border-t border-border/40 text-[11px] text-muted-foreground font-normal">
+              In syllabus curation
             </div>
           </Card>
         </div>

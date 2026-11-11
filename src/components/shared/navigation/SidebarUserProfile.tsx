@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Sun, Moon, LogOut } from "lucide-react";
 
@@ -31,23 +32,24 @@ export function SidebarUserProfile({
   return (
     <div className="p-3 border-0 bg-muted/30">
       <div className="flex items-center justify-between gap-2">
-        <div
+        <Link
+          href="/profile"
           onPointerDown={onProfilePointerDown}
           onPointerUp={onProfilePointerUp}
           onPointerLeave={onProfilePointerLeave}
-          className="flex items-center gap-2.5 min-w-0 cursor-pointer select-none rounded-xl p-1 -m-1 hover:bg-muted/50 transition-colors"
-          title={isAdmin ? "Hold 600ms for Admin Console" : "Profile"}
+          className="flex items-center gap-2.5 min-w-0 cursor-pointer select-none rounded-md p-1.5 -m-1 hover:bg-muted/60 transition-colors"
+          title={isAdmin ? "Hold 600ms for Admin Console" : "View Profile"}
         >
-          <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-foreground text-background font-bold text-xs shrink-0 shadow-2xs">
+          <div className="flex h-8 w-8 items-center justify-center rounded-md bg-foreground text-background font-bold text-xs shrink-0 shadow-2xs">
             {initials}
           </div>
           <div className="min-w-0">
-            <p className="text-xs font-bold text-foreground truncate">{displayName}</p>
+            <p className="text-xs font-semibold text-foreground truncate">{displayName}</p>
             <p className="text-[10px] text-muted-foreground truncate">
-              Candidate
+              {isAdmin ? "Admin" : "Candidate"}
             </p>
           </div>
-        </div>
+        </Link>
 
         <div className="flex items-center gap-1 shrink-0">
           <Button

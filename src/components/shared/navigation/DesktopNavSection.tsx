@@ -8,7 +8,7 @@ import { MAIN_NAV_ITEMS, type NavItem } from "./navItems";
 interface DesktopNavSectionProps {
   isItemActive: (item: NavItem) => boolean;
   profileOpen?: boolean;
-  onOpenProfile: () => void;
+  onOpenProfile?: () => void;
   onProfilePointerDown?: () => void;
   onProfilePointerUp?: () => void;
   onProfilePointerLeave?: () => void;
@@ -25,42 +25,43 @@ export function DesktopNavSection({
   return (
     <div className="space-y-4">
       <div className="space-y-1">
-        <span className="px-3 text-[10px] font-bold uppercase tracking-wider text-muted-foreground/70">
+        <span className="px-3 text-[11px] font-bold uppercase tracking-wider text-muted-foreground/80">
           Navigation
         </span>
-        <nav className="mt-1 space-y-1">
+        <nav className="mt-1.5 space-y-1">
           {MAIN_NAV_ITEMS.map((item) => {
-            const isProfile = item.href === "#profile";
-            const active = isProfile ? profileOpen : isItemActive(item);
+            const isProfile = item.href === "/profile";
+            const active = isItemActive(item);
             const Icon = item.icon;
+
+            const navItemClasses = cn(
+              "w-full flex items-center justify-between px-3.5 py-2.5 rounded-md text-sm transition-all group select-none cursor-pointer",
+              active
+                ? "bg-primary/10 text-primary border border-primary/20 font-medium shadow-2xs"
+                : "bg-transparent text-muted-foreground hover:bg-muted/50 hover:text-foreground border-0 font-normal"
+            );
 
             if (isProfile) {
               return (
-                <button
-                  key="profile"
-                  type="button"
-                  onClick={onOpenProfile}
+                <Link
+                  key={item.href}
+                  href={item.href}
                   onPointerDown={onProfilePointerDown}
                   onPointerUp={onProfilePointerUp}
                   onPointerLeave={onProfilePointerLeave}
-                  className={cn(
-                    "w-full flex items-center justify-between px-3 py-2 rounded-md text-xs font-medium transition-all group select-none cursor-pointer border",
-                    active
-                      ? "bg-zinc-800/90 text-zinc-100 border-zinc-700/80 shadow-2xs font-semibold"
-                      : "text-zinc-400 hover:bg-zinc-800/40 hover:text-zinc-200 border-transparent"
-                  )}
+                  className={navItemClasses}
                   aria-label="Profile and Settings (Hold for Admin)"
                 >
-                  <div className="flex items-center gap-2.5 min-w-0">
+                  <div className="flex items-center gap-3 min-w-0">
                     <Icon
                       className={cn(
-                        "h-4 w-4 shrink-0 transition-transform group-hover:scale-105",
-                        active ? "text-primary" : "text-zinc-400 group-hover:text-zinc-200"
+                        "h-4.5 w-4.5 shrink-0 transition-transform group-hover:scale-105",
+                        active ? "text-primary" : "text-muted-foreground group-hover:text-foreground"
                       )}
                     />
                     <span className="truncate">{item.label}</span>
                   </div>
-                </button>
+                </Link>
               );
             }
 
@@ -68,18 +69,13 @@ export function DesktopNavSection({
               <Link
                 key={item.href}
                 href={item.href}
-                className={cn(
-                  "flex items-center justify-between px-3 py-2 rounded-md text-xs font-medium transition-all group select-none border",
-                  active
-                    ? "bg-zinc-800/90 text-zinc-100 border-zinc-700/80 shadow-2xs font-semibold"
-                    : "text-zinc-400 hover:bg-zinc-800/40 hover:text-zinc-200 border-transparent"
-                )}
+                className={navItemClasses}
               >
-                <div className="flex items-center gap-2.5 min-w-0">
+                <div className="flex items-center gap-3 min-w-0">
                   <Icon
                     className={cn(
-                      "h-4 w-4 shrink-0 transition-transform group-hover:scale-105",
-                      active ? "text-primary" : "text-zinc-400 group-hover:text-zinc-200"
+                      "h-4.5 w-4.5 shrink-0 transition-transform group-hover:scale-105",
+                      active ? "text-primary" : "text-muted-foreground group-hover:text-foreground"
                     )}
                   />
                   <span className="truncate">{item.label}</span>

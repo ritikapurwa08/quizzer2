@@ -114,8 +114,7 @@ export function CombinedStudyActivityPanel({
   rangeDays,
 }: CombinedStudyActivityPanelProps) {
   const gradientId = useId();
-  const [panelTab, setPanelTab] = useState<"activity" | "recent">("activity");
-  const [activitySubView, setActivitySubView] = useState<"daily" | "hourly">("daily");
+  const [viewMode, setViewMode] = useState<"daily" | "hourly" | "recent">("daily");
 
   const { totalQuestions, totalTests, activeDays, formattedDaily } = useMemo(() => {
     let qSum = 0;
@@ -160,192 +159,159 @@ export function CombinedStudyActivityPanel({
   }, [recentAttempts]);
 
   return (
-    <Card className="rounded-2xl border border-border/80 bg-card shadow-xs flex flex-col justify-between overflow-hidden">
+    <Card className="rounded-md border border-border bg-card shadow-xs flex flex-col justify-between overflow-hidden">
       {/* ── Card Header ── */}
       <CardHeader className="p-4 sm:p-5 pb-2">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
-            <CardTitle className="text-sm sm:text-base font-bold text-foreground flex items-center gap-2">
-              {panelTab === "activity" ? (
-                <>
-                  <Flame className="h-4 w-4 text-primary" />
-                  Study Activity &amp; Consistency
-                </>
-              ) : (
-                <>
-                  <BarChart3 className="h-4 w-4 text-primary" />
-                  Recent Test Outcomes
-                </>
-              )}
+            <CardTitle className="text-sm sm:text-base font-semibold text-foreground flex items-center gap-2">
+              <Flame className="h-4 w-4 text-primary shrink-0" />
+              <span>Study &amp; Consistency</span>
             </CardTitle>
             <CardDescription className="text-xs text-muted-foreground mt-0.5">
-              {panelTab === "activity"
-                ? `${activeDays} active study days across last ${rangeDays} days`
-                : "Question breakdown (correct / incorrect / skipped) across recent tests"}
+              {viewMode === "daily" && `${activeDays} active study days across last ${rangeDays} days`}
+              {viewMode === "hourly" && "24-Hour peak study pattern & test submission frequency"}
+              {viewMode === "recent" && "Question breakdown across recent test attempts"}
             </CardDescription>
           </div>
 
-          <div className="flex flex-wrap items-center gap-2 self-start sm:self-auto">
-            {/* Main Mode Toggle: Activity vs Recent Tests */}
-            <div className="inline-flex items-center h-8 bg-muted/60 p-0.5 rounded-xl border border-border/70">
-              <button
-                type="button"
-                onClick={() => setPanelTab("activity")}
-                className={cn(
-                  "h-7 px-3 text-xs font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap",
-                  panelTab === "activity"
-                    ? "bg-card text-foreground shadow-2xs font-bold border border-border/40"
-                    : "text-muted-foreground hover:text-foreground"
-                )}
-              >
-                Study Volume
-              </button>
-              <button
-                type="button"
-                onClick={() => setPanelTab("recent")}
-                className={cn(
-                  "h-7 px-3 text-xs font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap",
-                  panelTab === "recent"
-                    ? "bg-card text-foreground shadow-2xs font-bold border border-border/40"
-                    : "text-muted-foreground hover:text-foreground"
-                )}
-              >
-                Recent Tests
-              </button>
-            </div>
-
-            {/* Sub-toggle for Activity: Daily vs Hourly */}
-            {panelTab === "activity" && (
-              <div className="inline-flex items-center h-8 bg-muted/40 p-0.5 rounded-xl border border-border/50 text-xs">
-                <button
-                  type="button"
-                  onClick={() => setActivitySubView("daily")}
-                  className={cn(
-                    "h-7 px-2.5 font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap",
-                    activitySubView === "daily"
-                      ? "bg-card text-foreground font-bold shadow-2xs border border-border/40"
-                      : "text-muted-foreground hover:text-foreground"
-                  )}
-                  title="Daily timeline"
-                >
-                  Daily
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setActivitySubView("hourly")}
-                  className={cn(
-                    "h-7 px-2.5 font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap",
-                    activitySubView === "hourly"
-                      ? "bg-card text-foreground font-bold shadow-2xs border border-border/40"
-                      : "text-muted-foreground hover:text-foreground"
-                  )}
-                  title="24-Hour peak study pattern"
-                >
-                  Hourly
-                </button>
-              </div>
-            )}
+          {/* Unified 3-Mode Segmented Control */}
+          <div className="inline-flex items-center p-0.5 rounded-md bg-secondary border border-border self-start sm:self-auto gap-0.5">
+            <button
+              type="button"
+              onClick={() => setViewMode("daily")}
+              className={cn(
+                "h-7 px-2.5 text-xs font-semibold rounded-sm transition-all cursor-pointer whitespace-nowrap border select-none",
+                viewMode === "daily"
+                  ? "bg-card text-foreground font-bold shadow-2xs border-border"
+                  : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
+              )}
+            >
+              Daily
+            </button>
+            <button
+              type="button"
+              onClick={() => setViewMode("hourly")}
+              className={cn(
+                "h-7 px-2.5 text-xs font-semibold rounded-sm transition-all cursor-pointer whitespace-nowrap border select-none",
+                viewMode === "hourly"
+                  ? "bg-card text-foreground font-bold shadow-2xs border-border"
+                  : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
+              )}
+            >
+              Hourly
+            </button>
+            <button
+              type="button"
+              onClick={() => setViewMode("recent")}
+              className={cn(
+                "h-7 px-2.5 text-xs font-semibold rounded-sm transition-all cursor-pointer whitespace-nowrap border select-none",
+                viewMode === "recent"
+                  ? "bg-card text-foreground font-bold shadow-2xs border-border"
+                  : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
+              )}
+            >
+              Recent Tests
+            </button>
           </div>
         </div>
       </CardHeader>
 
       {/* ── Card Content ── */}
       <CardContent className="p-4 sm:p-5 pt-1 pb-2 flex-1 flex flex-col justify-center">
-        {panelTab === "activity" ? (
-          activitySubView === "daily" ? (
-            /* Daily Area Chart */
-            <ChartContainer config={dailyChartConfig} className="min-h-[220px] w-full">
-              <AreaChart data={formattedDaily} margin={{ left: -16, right: 8, top: 12, bottom: 4 }}>
-                <defs>
-                  <linearGradient id={gradientId} x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="var(--color-chart-1)" stopOpacity={0.4} />
-                    <stop offset="95%" stopColor="var(--color-chart-1)" stopOpacity={0.0} />
-                  </linearGradient>
-                </defs>
-                <CartesianGrid vertical={false} strokeDasharray="3 3" className="stroke-border/40" />
-                <XAxis
-                  dataKey="displayDate"
-                  tickLine={false}
-                  axisLine={false}
-                  tickMargin={8}
-                  className="text-[11px] font-medium"
-                />
-                <YAxis
-                  tickLine={false}
-                  axisLine={false}
-                  className="text-[11px]"
-                  allowDecimals={false}
-                />
-                <ChartTooltip
-                  content={
-                    <ChartTooltipContent
-                      formatter={(val, name, item) => (
-                        <div className="text-xs space-y-0.5">
-                          <p className="font-bold text-foreground">{item.payload.day}</p>
-                          <p className="text-muted-foreground">
-                            Questions: <strong className="text-foreground">{item.payload.count}</strong>
-                          </p>
-                          <p className="text-muted-foreground">
-                            Tests: <strong className="text-foreground">{item.payload.tests}</strong>
-                          </p>
-                        </div>
-                      )}
-                    />
-                  }
-                />
-                <Area
-                  type="monotone"
-                  dataKey="count"
-                  stroke="var(--color-chart-1)"
-                  strokeWidth={2}
-                  fill={`url(#${gradientId})`}
-                />
-              </AreaChart>
-            </ChartContainer>
-          ) : (
-            /* Hourly Bar Chart */
-            <ChartContainer config={hourlyChartConfig} className="min-h-[220px] w-full">
-              <BarChart data={hourlyData} margin={{ left: -16, right: 8, top: 12, bottom: 4 }}>
-                <CartesianGrid vertical={false} strokeDasharray="3 3" className="stroke-border/40" />
-                <XAxis
-                  dataKey="hourLabel"
-                  tickLine={false}
-                  axisLine={false}
-                  tickMargin={8}
-                  className="text-[10px]"
-                  interval={2}
-                />
-                <YAxis
-                  tickLine={false}
-                  axisLine={false}
-                  className="text-[11px]"
-                  allowDecimals={false}
-                />
-                <ChartTooltip
-                  content={
-                    <ChartTooltipContent
-                      formatter={(val, name, item) => (
-                        <div className="text-xs space-y-0.5">
-                          <p className="font-bold text-foreground">{item.payload.hourLabel}</p>
-                          <p className="text-emerald-500 font-semibold">
-                            Correct: {item.payload.correct}
-                          </p>
-                          <p className="text-rose-500 font-semibold">
-                            Incorrect: {item.payload.incorrect}
-                          </p>
-                          <p className="text-muted-foreground">
-                            Tests Submitted: {item.payload.tests}
-                          </p>
-                        </div>
-                      )}
-                    />
-                  }
-                />
-                <Bar dataKey="correct" stackId="hour" fill="var(--color-chart-2)" radius={[0, 0, 0, 0]} />
-                <Bar dataKey="incorrect" stackId="hour" fill="var(--color-destructive)" radius={[4, 4, 0, 0]} />
-              </BarChart>
-            </ChartContainer>
-          )
+        {viewMode === "daily" ? (
+          /* Daily Area Chart */
+          <ChartContainer config={dailyChartConfig} className="min-h-[220px] w-full">
+            <AreaChart data={formattedDaily} margin={{ left: -16, right: 8, top: 12, bottom: 4 }}>
+              <defs>
+                <linearGradient id={gradientId} x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="5%" stopColor="var(--color-chart-1)" stopOpacity={0.4} />
+                  <stop offset="95%" stopColor="var(--color-chart-1)" stopOpacity={0.0} />
+                </linearGradient>
+              </defs>
+              <CartesianGrid vertical={false} strokeDasharray="3 3" className="stroke-border/40" />
+              <XAxis
+                dataKey="displayDate"
+                tickLine={false}
+                axisLine={false}
+                tickMargin={8}
+                className="text-[11px] font-medium"
+              />
+              <YAxis
+                tickLine={false}
+                axisLine={false}
+                className="text-[11px]"
+                allowDecimals={false}
+              />
+              <ChartTooltip
+                content={
+                  <ChartTooltipContent
+                    formatter={(val, name, item) => (
+                      <div className="text-xs space-y-0.5">
+                        <p className="font-bold text-foreground">{item.payload.day}</p>
+                        <p className="text-muted-foreground">
+                          Questions: <strong className="text-foreground">{item.payload.count}</strong>
+                        </p>
+                        <p className="text-muted-foreground">
+                          Tests: <strong className="text-foreground">{item.payload.tests}</strong>
+                        </p>
+                      </div>
+                    )}
+                  />
+                }
+              />
+              <Area
+                type="monotone"
+                dataKey="count"
+                stroke="var(--color-chart-1)"
+                strokeWidth={2}
+                fill={`url(#${gradientId})`}
+              />
+            </AreaChart>
+          </ChartContainer>
+        ) : viewMode === "hourly" ? (
+          /* Hourly Bar Chart */
+          <ChartContainer config={hourlyChartConfig} className="min-h-[220px] w-full">
+            <BarChart data={hourlyData} margin={{ left: -16, right: 8, top: 12, bottom: 4 }}>
+              <CartesianGrid vertical={false} strokeDasharray="3 3" className="stroke-border/40" />
+              <XAxis
+                dataKey="hourLabel"
+                tickLine={false}
+                axisLine={false}
+                tickMargin={8}
+                className="text-[10px]"
+                interval={2}
+              />
+              <YAxis
+                tickLine={false}
+                axisLine={false}
+                className="text-[11px]"
+                allowDecimals={false}
+              />
+              <ChartTooltip
+                content={
+                  <ChartTooltipContent
+                    formatter={(val, name, item) => (
+                      <div className="text-xs space-y-0.5">
+                        <p className="font-bold text-foreground">{item.payload.hourLabel}</p>
+                        <p className="text-emerald-500 font-semibold">
+                          Correct: {item.payload.correct}
+                        </p>
+                        <p className="text-rose-500 font-semibold">
+                          Incorrect: {item.payload.incorrect}
+                        </p>
+                        <p className="text-muted-foreground">
+                          Tests Submitted: {item.payload.tests}
+                        </p>
+                      </div>
+                    )}
+                  />
+                }
+              />
+              <Bar dataKey="correct" stackId="hour" fill="var(--color-chart-2)" radius={[0, 0, 0, 0]} />
+              <Bar dataKey="incorrect" stackId="hour" fill="var(--color-destructive)" radius={[2, 2, 0, 0]} />
+            </BarChart>
+          </ChartContainer>
         ) : (
           /* Recent Test Stacked Bar Chart */
           recentChartData.length === 0 ? (
@@ -401,13 +367,13 @@ export function CombinedStudyActivityPanel({
         <div className="flex items-center gap-1.5 font-semibold text-foreground">
           <CalendarCheck className="h-4 w-4 text-primary" />
           <span>
-            {panelTab === "activity"
+            {viewMode !== "recent"
               ? `${totalQuestions} questions solved across ${totalTests} test attempts`
               : `${recentAttempts.length} recent tests recorded with score analysis`}
           </span>
         </div>
         <span className="text-[11px] text-muted-foreground font-medium">
-          {panelTab === "activity" ? `Last ${rangeDays} Days` : "Chronological"}
+          {viewMode !== "recent" ? `Last ${rangeDays} Days` : "Chronological"}
         </span>
       </CardFooter>
     </Card>

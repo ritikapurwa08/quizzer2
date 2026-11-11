@@ -40,11 +40,27 @@ export function SyllabusFilterControls({
       <div className="inline-flex items-center p-0.5 bg-secondary/80 rounded-md border border-border self-start gap-0.5">
         <button
           type="button"
+          onClick={() => onScopeChange("all")}
+          className={cn(
+            "px-3 py-1.5 rounded-sm text-xs font-semibold transition-all cursor-pointer select-none flex items-center gap-1.5 border",
+            scope === "all"
+              ? "bg-card text-foreground font-bold shadow-2xs border-border"
+              : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
+          )}
+        >
+          <span>All Topics</span>
+          <span className="text-[10px] px-1.5 py-0.2 rounded-xs font-bold bg-muted text-muted-foreground">
+            88
+          </span>
+        </button>
+
+        <button
+          type="button"
           onClick={() => onScopeChange("rajasthan_gk")}
           className={cn(
-            "px-3 py-1.5 rounded-sm text-xs font-medium transition-all cursor-pointer select-none flex items-center gap-1.5 border",
+            "px-3 py-1.5 rounded-sm text-xs font-semibold transition-all cursor-pointer select-none flex items-center gap-1.5 border",
             scope === "rajasthan_gk"
-              ? "bg-card text-foreground font-semibold shadow-2xs border-border"
+              ? "bg-card text-foreground font-bold shadow-2xs border-border"
               : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
           )}
         >
@@ -58,31 +74,15 @@ export function SyllabusFilterControls({
           type="button"
           onClick={() => onScopeChange("english")}
           className={cn(
-            "px-3 py-1.5 rounded-sm text-xs font-medium transition-all cursor-pointer select-none flex items-center gap-1.5 border",
+            "px-3 py-1.5 rounded-sm text-xs font-semibold transition-all cursor-pointer select-none flex items-center gap-1.5 border",
             scope === "english"
-              ? "bg-card text-foreground font-semibold shadow-2xs border-border"
+              ? "bg-card text-foreground font-bold shadow-2xs border-border"
               : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
           )}
         >
           <span>English (Paper-II)</span>
           <span className="text-[10px] px-1.5 py-0.2 rounded-xs font-bold bg-primary/15 text-primary border border-primary/20">
             33
-          </span>
-        </button>
-
-        <button
-          type="button"
-          onClick={() => onScopeChange("all")}
-          className={cn(
-            "px-2.5 py-1.5 rounded-sm text-xs font-medium transition-all cursor-pointer select-none flex items-center gap-1.5 border",
-            scope === "all"
-              ? "bg-card text-foreground font-semibold shadow-2xs border-border"
-              : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
-          )}
-        >
-          <span>All Topics</span>
-          <span className="text-[10px] px-1.5 py-0.2 rounded-xs font-bold bg-muted text-muted-foreground">
-            88
           </span>
         </button>
       </div>
@@ -98,9 +98,9 @@ export function SyllabusFilterControls({
                 type="button"
                 onClick={() => onSelectSection(sec.id)}
                 className={cn(
-                  "px-3 py-1.5 rounded-md text-xs font-medium transition-all cursor-pointer select-none whitespace-nowrap flex items-center gap-1.5 border",
+                  "px-3 py-1.5 rounded-md text-xs font-semibold transition-all cursor-pointer select-none whitespace-nowrap flex items-center gap-1.5 border",
                   isActive
-                    ? "bg-zinc-800 text-zinc-100 border-zinc-700 font-semibold shadow-2xs"
+                    ? "bg-secondary text-foreground border-border font-bold shadow-2xs"
                     : "bg-card text-muted-foreground hover:text-foreground hover:bg-muted border-border/80"
                 )}
               >
@@ -108,7 +108,7 @@ export function SyllabusFilterControls({
                 <span
                   className={cn(
                     "text-[10px] px-1.5 py-0.2 rounded-xs font-bold",
-                    isActive ? "bg-zinc-700 text-zinc-200" : "bg-muted text-muted-foreground"
+                    isActive ? "bg-card text-foreground border border-border" : "bg-muted text-muted-foreground"
                   )}
                 >
                   {sec.count}

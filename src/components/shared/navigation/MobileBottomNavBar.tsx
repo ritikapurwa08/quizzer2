@@ -8,7 +8,7 @@ interface MobileBottomNavBarProps {
   pathname: string;
   isItemActive: (item: NavItem) => boolean;
   profileOpen?: boolean;
-  onOpenProfile: () => void;
+  onOpenProfile?: () => void;
   onProfilePointerDown?: () => void;
   onProfilePointerUp?: () => void;
   onProfilePointerLeave?: () => void;
@@ -28,44 +28,51 @@ export function MobileBottomNavBar({
       className="fixed bottom-0 left-0 right-0 z-40 md:hidden border-t border-border bg-card/95 backdrop-blur-md safe-bottom shadow-lg print:hidden"
       aria-label="Mobile navigation"
     >
-      <div className="grid grid-cols-5 items-center px-1 py-1.5">
+      <div className="grid grid-cols-5 items-center px-1.5 py-1.5 gap-1">
         {MAIN_NAV_ITEMS.map((item) => {
-          const isProfile = item.href === "#profile";
-          const active = isProfile ? profileOpen : isItemActive(item);
+          const isProfile = item.href === "/profile";
+          const active = isItemActive(item);
           const Icon = item.icon;
+
+          const pillContent = (
+            <div
+              className={cn(
+                "flex flex-col items-center justify-center gap-1 w-full py-1.5 px-1 rounded-md transition-all select-none",
+                active
+                  ? "bg-primary/10 text-primary border border-primary/20 font-medium shadow-2xs"
+                  : "bg-transparent text-muted-foreground hover:text-foreground border-0 font-normal"
+              )}
+            >
+              <Icon
+                className={cn(
+                  "h-4.5 w-4.5 shrink-0",
+                  active ? "text-primary" : "text-muted-foreground"
+                )}
+              />
+              <span
+                className={cn(
+                  "text-[10.5px] leading-tight truncate max-w-full font-medium",
+                  active ? "text-primary" : "text-muted-foreground"
+                )}
+              >
+                {item.label}
+              </span>
+            </div>
+          );
 
           if (isProfile) {
             return (
-              <button
-                key="profile"
-                type="button"
-                onClick={onOpenProfile}
+              <Link
+                key={item.href}
+                href={item.href}
                 onPointerDown={onProfilePointerDown}
                 onPointerUp={onProfilePointerUp}
                 onPointerLeave={onProfilePointerLeave}
-                className={cn(
-                  "flex flex-col items-center justify-center gap-0.5 px-1 py-1.5 rounded-md min-w-0 w-full transition-all select-none cursor-pointer border-0",
-                  active ? "text-foreground font-bold" : "text-muted-foreground hover:text-foreground"
-                )}
-                aria-label="User Profile and Settings"
+                className="w-full flex items-center justify-center cursor-pointer border-0"
+                aria-label="User Profile (Hold for Admin)"
               >
-                <div className={cn("p-1 rounded-sm transition-all", active ? "bg-foreground/10 text-foreground" : "")}>
-                  <Icon
-                    className={cn(
-                      "h-5 w-5 shrink-0",
-                      active ? "text-foreground" : "text-muted-foreground"
-                    )}
-                  />
-                </div>
-                <span
-                  className={cn(
-                    "text-[10px] font-semibold truncate max-w-full",
-                    active ? "text-foreground" : "text-muted-foreground"
-                  )}
-                >
-                  {item.label}
-                </span>
-              </button>
+                {pillContent}
+              </Link>
             );
           }
 
@@ -73,28 +80,10 @@ export function MobileBottomNavBar({
             <Link
               key={item.href}
               href={item.href}
-              className={cn(
-                "flex flex-col items-center justify-center gap-0.5 px-1 py-1.5 rounded-md min-w-0 w-full transition-all select-none border-0",
-                active ? "text-foreground font-bold" : "text-muted-foreground hover:text-foreground"
-              )}
+              className="w-full flex items-center justify-center cursor-pointer border-0"
               aria-current={active ? "page" : undefined}
             >
-              <div className={cn("p-1 rounded-sm transition-all", active ? "bg-foreground/10" : "")}>
-                <Icon
-                  className={cn(
-                    "h-5 w-5 shrink-0",
-                    active ? "text-foreground" : "text-muted-foreground"
-                  )}
-                />
-              </div>
-              <span
-                className={cn(
-                  "text-[10px] font-semibold truncate max-w-full",
-                  active ? "text-foreground" : "text-muted-foreground"
-                )}
-              >
-                {item.label}
-              </span>
+              {pillContent}
             </Link>
           );
         })}

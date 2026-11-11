@@ -242,26 +242,26 @@ function SavedQuestionsContent() {
           </p>
         </div>
 
-        {/* ── Segmented Tab Switcher (Crisp "चौकोर" Linear / Raycast Style) ── */}
-        <div className="inline-flex items-center p-0.5 rounded-md bg-secondary/80 border border-border self-start sm:self-auto gap-0.5">
+        {/* ── Segmented Tab Switcher (Crisp High-Contrast Style) ── */}
+        <div className="inline-flex items-center p-1 rounded-md bg-secondary border border-border self-start sm:self-auto gap-1">
           <button
             type="button"
             onClick={() => setTab("wrong")}
             className={cn(
-              "inline-flex items-center gap-2 h-8 px-3 rounded-sm text-xs font-medium transition-all cursor-pointer border",
+              "inline-flex items-center gap-2 h-8 px-3.5 rounded-sm text-xs transition-all cursor-pointer border select-none",
               activeTab === "wrong"
-                ? "bg-card text-foreground border-border shadow-2xs font-semibold"
-                : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
+                ? "bg-rose-500/10 text-rose-500 border-rose-500/30 shadow-2xs font-semibold"
+                : "text-muted-foreground hover:text-foreground border-transparent hover:bg-muted/50 font-normal"
             )}
           >
-            <AlertCircle className="h-3.5 w-3.5 text-rose-500" />
+            <AlertCircle className={cn("h-3.5 w-3.5", activeTab === "wrong" ? "text-rose-500" : "text-rose-500/70")} />
             <span>Wrong Questions</span>
             <span
               className={cn(
                 "text-[10px] font-bold px-1.5 py-0.2 rounded-xs tabular-nums border",
                 activeTab === "wrong"
-                  ? "bg-rose-500/15 text-rose-600 dark:text-rose-400 border-rose-500/20"
-                  : "bg-muted text-muted-foreground border-transparent"
+                  ? "bg-rose-500/15 text-rose-600 dark:text-rose-400 border-rose-500/30"
+                  : "bg-muted text-muted-foreground border-border/60"
               )}
             >
               {totalWrongCount}
@@ -272,20 +272,20 @@ function SavedQuestionsContent() {
             type="button"
             onClick={() => setTab("bookmarks")}
             className={cn(
-              "inline-flex items-center gap-2 h-8 px-3 rounded-sm text-xs font-medium transition-all cursor-pointer border",
+              "inline-flex items-center gap-2 h-8 px-3.5 rounded-sm text-xs transition-all cursor-pointer border select-none",
               activeTab === "bookmarks"
-                ? "bg-card text-foreground border-border shadow-2xs font-semibold"
-                : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
+                ? "bg-amber-500/10 text-amber-500 border-amber-500/30 shadow-2xs font-semibold"
+                : "text-muted-foreground hover:text-foreground border-transparent hover:bg-muted/50 font-normal"
             )}
           >
-            <Bookmark className="h-3.5 w-3.5 text-amber-500" />
+            <Bookmark className={cn("h-3.5 w-3.5", activeTab === "bookmarks" ? "text-amber-500" : "text-amber-500/70")} />
             <span>Bookmarks</span>
             <span
               className={cn(
                 "text-[10px] font-bold px-1.5 py-0.2 rounded-xs tabular-nums border",
                 activeTab === "bookmarks"
-                  ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 border-amber-500/20"
-                  : "bg-muted text-muted-foreground border-transparent"
+                  ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 border-amber-500/30"
+                  : "bg-muted text-muted-foreground border-border/60"
               )}
             >
               {totalBmCount}
@@ -347,14 +347,14 @@ function SavedQuestionsContent() {
             />
           ) : (
             <>
-              <div className="space-y-4">
+              <div className="space-y-4 min-h-[500px]">
                 {(() => {
                   const seenCanonical = new Set<string>();
                   return pageWrongItems.map(({ wrongQuestion, questionId }, idx) => {
                     const question = resolvedQuestions[questionId];
                     if (!question) {
                       return (
-                        <div key={wrongQuestion._id} className="p-4 rounded-xl border border-border/50 bg-card/50 text-xs text-muted-foreground animate-pulse">
+                        <div key={wrongQuestion._id} className="p-4 rounded-md border border-border/50 bg-card/50 text-xs text-muted-foreground animate-pulse">
                           Loading question...
                         </div>
                       );
@@ -441,14 +441,14 @@ function SavedQuestionsContent() {
             />
           ) : (
             <>
-              <div className="space-y-4">
+              <div className="space-y-4 min-h-[500px]">
                 {(() => {
                   const seenCanonical = new Set<string>();
                   return pageBmItems.map(({ bookmark, questionId }, idx) => {
                     const question = resolvedQuestions[questionId];
                     if (!question) {
                       return (
-                        <div key={bookmark._id} className="p-4 rounded-xl border border-border/50 bg-card/50 text-xs text-muted-foreground animate-pulse">
+                        <div key={bookmark._id} className="p-4 rounded-md border border-border/50 bg-card/50 text-xs text-muted-foreground animate-pulse">
                           Loading bookmark...
                         </div>
                       );

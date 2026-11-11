@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { useTheme } from "next-themes";
 import {
   Smartphone,
@@ -164,9 +165,16 @@ const MOCK_SYLLABUS_DATA = [
   { id: "30", sec: "कला एवं संस्कृति", name: "राजस्थान की स्थापत्य कला एवं वास्तुकला", sub: "Architecture, Forts and Palaces", completed: true },
 ];
 
-export default function DesignPreviewPage() {
-  const [deviceMode, setDeviceMode] = useState<DeviceMode>("desktop");
-  const [currentPage, setCurrentPage] = useState<AppPage>("dashboard");
+function DesignPreviewContent() {
+  const searchParams = useSearchParams();
+  const rawPage = searchParams.get("page");
+  const validPages: AppPage[] = ["dashboard", "practice-sets", "quiz", "quiz-results", "saved", "syllabus", "history", "analytics", "admin-overview"];
+  const initialPage = (validPages.includes(rawPage as AppPage) ? rawPage : "dashboard") as AppPage;
+  const rawDevice = searchParams.get("device");
+  const initialDevice: DeviceMode = rawDevice === "mobile" || rawDevice === "tablet" || rawDevice === "desktop" ? rawDevice : "desktop";
+
+  const [deviceMode, setDeviceMode] = useState<DeviceMode>(initialDevice);
+  const [currentPage, setCurrentPage] = useState<AppPage>(initialPage);
   const { theme, setTheme } = useTheme();
 
   // Active quiz runner state
@@ -200,19 +208,17 @@ export default function DesignPreviewPage() {
   const completedCount = useMemo(() => syllabusList.filter((s) => s.completed).length, [syllabusList]);
   const syllabusPercent = Math.round((completedCount / syllabusList.length) * 100);
 
-  // Synchronize query params if passed
+  // Synchronize query params if passed dynamically
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    const params = new URLSearchParams(window.location.search);
-    const d = params.get("device");
+    const d = searchParams.get("device");
     if (d === "mobile" || d === "tablet" || d === "desktop") setDeviceMode(d);
-    const p = params.get("page");
-    if (p && ["dashboard", "practice-sets", "quiz", "quiz-results", "saved", "syllabus", "history", "analytics", "admin-overview"].includes(p)) {
+    const p = searchParams.get("page");
+    if (p && validPages.includes(p as AppPage)) {
       setCurrentPage(p as AppPage);
     }
-    const t = params.get("theme");
+    const t = searchParams.get("theme");
     if (t === "light" || t === "dark") setTheme(t);
-  }, [setTheme]);
+  }, [searchParams, setTheme]);
 
   const frameWidthClass =
     deviceMode === "mobile"
@@ -363,19 +369,18 @@ export default function DesignPreviewPage() {
                     </span>
                   </div>
 
-                  {/* Section 1: LEARNING & PRACTICE */}
+                  {/* Navigation — Strictly 5 Student Items */}
                   <div className="space-y-1">
-                    <span className="px-2 text-[10px] font-bold uppercase tracking-wider text-muted-foreground/80">
-                      LEARNING &amp; PRACTICE
+                    <span className="px-2 text-[11px] font-bold uppercase tracking-wider text-muted-foreground/80">
+                      Navigation
                     </span>
-                    <nav className="space-y-0.5 pt-1">
+                    <nav className="space-y-1 pt-1.5">
                       {[
-                        { id: "dashboard", label: "Dashboard", icon: LayoutGrid },
-                        { id: "practice-sets", label: "Subjects", icon: FolderOpen },
-                        { id: "syllabus", label: "Syllabus Tracker", icon: CheckSquare },
+                        { id: "dashboard", label: "Home", icon: LayoutGrid },
+                        { id: "history", label: "Tests", icon: HistoryIcon },
+                        { id: "saved", label: "Saved", icon: Bookmark },
                         { id: "analytics", label: "Analytics", icon: BarChart3 },
-                        { id: "history", label: "Test History", icon: HistoryIcon },
-                        { id: "saved", label: "Saved Questions", icon: Bookmark },
+                        { id: "admin-overview", label: "Profile", icon: User },
                       ].map((item) => {
                         const Icon = item.icon;
                         const active = currentPage === item.id;
@@ -384,53 +389,14 @@ export default function DesignPreviewPage() {
                             key={item.id}
                             onClick={() => setCurrentPage(item.id as AppPage)}
                             className={cn(
-                              "w-full flex items-center justify-between px-2.5 py-1.5 rounded-xs text-xs font-medium transition-all cursor-pointer border",
+                              "w-full flex items-center justify-between px-3 py-2 rounded-sm text-sm transition-all cursor-pointer select-none",
                               active
-                                ? "bg-zinc-800 text-zinc-100 border-zinc-700 font-semibold shadow-2xs"
-                                : "text-muted-foreground hover:bg-muted hover:text-foreground border-transparent"
+                                ? "bg-primary/10 text-primary border border-primary/20 font-medium shadow-2xs"
+                                : "bg-transparent text-muted-foreground hover:bg-muted/50 hover:text-foreground border-0 font-normal"
                             )}
                           >
-                            <div className="flex items-center gap-2.5">
-                              <Icon className="h-3.5 w-3.5" />
-                              <span>{item.label}</span>
-                            </div>
-                          </button>
-                        );
-                      })}
-                    </nav>
-                  </div>
-
-                  {/* Section 2: ADMIN CONSOLE (PROTECTED) */}
-                  <div className="space-y-1 pt-2 border-t border-border/80">
-                    <div className="flex items-center justify-between px-2">
-                      <span className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground/80">
-                        ADMIN CONSOLE
-                      </span>
-                      <Badge className="text-[9px] rounded-xs bg-amber-500/15 text-amber-500 border border-amber-500/30 px-1 py-0 font-bold">
-                        PROTECTED
-                      </Badge>
-                    </div>
-                    <nav className="space-y-0.5 pt-1">
-                      {[
-                        { id: "admin-overview", label: "Admin Overview", icon: ShieldCheck },
-                        { id: "quiz", label: "Question Editor", icon: FileText },
-                        { id: "syllabus", label: "55 Topics Pool", icon: Layers },
-                      ].map((item) => {
-                        const Icon = item.icon;
-                        const active = currentPage === item.id;
-                        return (
-                          <button
-                            key={item.id}
-                            onClick={() => setCurrentPage(item.id as AppPage)}
-                            className={cn(
-                              "w-full flex items-center justify-between px-2.5 py-1.5 rounded-xs text-xs font-medium transition-all cursor-pointer border",
-                              active
-                                ? "bg-zinc-800 text-zinc-100 border-zinc-700 font-semibold shadow-2xs"
-                                : "text-muted-foreground hover:bg-muted hover:text-foreground border-transparent"
-                            )}
-                          >
-                            <div className="flex items-center gap-2.5">
-                              <Icon className="h-3.5 w-3.5" />
+                            <div className="flex items-center gap-3">
+                              <Icon className={cn("h-4.5 w-4.5", active ? "text-primary" : "text-muted-foreground")} />
                               <span>{item.label}</span>
                             </div>
                           </button>
@@ -547,83 +513,112 @@ export default function DesignPreviewPage() {
                       </button>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3.5">
                       {/* Card 1: भौतिक स्वरूप एवं भूगोल */}
-                      <Card className="p-3.5 rounded-sm border border-border bg-card shadow-xs space-y-3">
-                        <div className="flex items-center justify-between text-xs">
-                          <span className="font-semibold text-amber-500 flex items-center gap-1">
-                            📐 भूगोल
-                          </span>
-                          <span className="font-bold text-amber-500 bg-amber-500/10 px-1.5 py-0.5 rounded-xs border border-amber-500/20 text-[10px]">
-                            भाग 16
-                          </span>
+                      <Card className="p-2.5 sm:p-3.5 rounded-sm border border-border bg-card shadow-xs flex flex-col justify-between gap-2 select-none">
+                        <div className="space-y-2">
+                          <div className="flex items-center justify-between text-xs">
+                            <span className="font-medium text-muted-foreground flex items-center gap-1 font-hindi text-[11px] sm:text-xs">
+                              📐 भूगोल
+                            </span>
+                            <span className="font-bold text-primary bg-primary/15 px-1.5 py-0.2 rounded-xs border border-primary/30 text-[10px] font-mono">
+                              भाग 16
+                            </span>
+                          </div>
+                          <div>
+                            <h3 className="text-xs sm:text-[13.5px] font-medium text-foreground font-hindi line-clamp-2 leading-snug">
+                              भौतिक स्वरूप एवं भूगोल
+                            </h3>
+                            <p className="text-[11px] sm:text-xs text-muted-foreground mt-0.5 flex items-center gap-1">
+                              <span>20 प्रश्न</span>
+                              <span>·</span>
+                              <span className="text-primary font-medium flex items-center gap-1">
+                                <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
+                                In Progress
+                              </span>
+                            </p>
+                          </div>
                         </div>
-                        <div>
-                          <h3 className="text-sm font-bold text-foreground">भौतिक स्वरूप एवं भूगोल</h3>
-                          <p className="text-xs text-muted-foreground mt-0.5 flex items-center gap-1">
-                            <span>20 प्रश्न</span>
-                            <span>·</span>
-                            <span className="text-amber-500 font-medium">● In Progress</span>
-                          </p>
-                        </div>
-                        <Button
-                          size="xs"
+                        <button
+                          type="button"
                           onClick={() => setCurrentPage("quiz")}
-                          className="w-full h-8 rounded-xs font-semibold bg-amber-500/15 text-amber-600 dark:text-amber-400 hover:bg-amber-500/25 border border-amber-500/30 flex items-center justify-center gap-1.5 cursor-pointer"
+                          className="w-full h-7 sm:h-8 rounded-xs font-medium text-xs flex items-center justify-center gap-1.5 bg-primary text-white hover:bg-primary/90 border border-primary/40 transition-all cursor-pointer shadow-2xs"
                         >
-                          <RotateCcw className="h-3.5 w-3.5" /> Resume Attempt
-                        </Button>
+                          <RotateCcw className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-white shrink-0" />
+                          <span className="text-white font-medium truncate">
+                            <span className="sm:hidden">Resume</span>
+                            <span className="hidden sm:inline">Resume Attempt</span>
+                          </span>
+                        </button>
                       </Card>
 
                       {/* Card 2: राजस्थान की कृषि */}
-                      <Card className="p-3.5 rounded-sm border border-border bg-card shadow-xs space-y-3">
-                        <div className="flex items-center justify-between text-xs">
-                          <span className="font-semibold text-amber-500 flex items-center gap-1">
-                            📐 भूगोल
-                          </span>
-                          <span className="font-bold text-amber-500 bg-amber-500/10 px-1.5 py-0.5 rounded-xs border border-amber-500/20 text-[10px]">
-                            Part 1
-                          </span>
+                      <Card className="p-2.5 sm:p-3.5 rounded-sm border border-border bg-card shadow-xs flex flex-col justify-between gap-2 select-none">
+                        <div className="space-y-2">
+                          <div className="flex items-center justify-between text-xs">
+                            <span className="font-medium text-muted-foreground flex items-center gap-1 font-hindi text-[11px] sm:text-xs">
+                              📐 भूगोल
+                            </span>
+                            <span className="font-bold text-primary bg-primary/15 px-1.5 py-0.2 rounded-xs border border-primary/30 text-[10px] font-mono">
+                              Part 1
+                            </span>
+                          </div>
+                          <div>
+                            <h3 className="text-xs sm:text-[13.5px] font-medium text-foreground font-hindi line-clamp-2 leading-snug">
+                              राजस्थान की कृषि
+                            </h3>
+                            <p className="text-[11px] sm:text-xs text-muted-foreground mt-0.5 flex items-center gap-1">
+                              <span>20 प्रश्न</span>
+                              <span>·</span>
+                              <span className="text-primary font-medium flex items-center gap-1">
+                                <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
+                                In Progress
+                              </span>
+                            </p>
+                          </div>
                         </div>
-                        <div>
-                          <h3 className="text-sm font-bold text-foreground">राजस्थान की कृषि</h3>
-                          <p className="text-xs text-muted-foreground mt-0.5 flex items-center gap-1">
-                            <span>20 प्रश्न</span>
-                            <span>·</span>
-                            <span className="text-amber-500 font-medium">● In Progress</span>
-                          </p>
-                        </div>
-                        <Button
-                          size="xs"
+                        <button
+                          type="button"
                           onClick={() => setCurrentPage("quiz")}
-                          className="w-full h-8 rounded-xs font-semibold bg-amber-500/15 text-amber-600 dark:text-amber-400 hover:bg-amber-500/25 border border-amber-500/30 flex items-center justify-center gap-1.5 cursor-pointer"
+                          className="w-full h-7 sm:h-8 rounded-xs font-medium text-xs flex items-center justify-center gap-1.5 bg-primary text-white hover:bg-primary/90 border border-primary/40 transition-all cursor-pointer shadow-2xs"
                         >
-                          <RotateCcw className="h-3.5 w-3.5" /> Resume Attempt
-                        </Button>
+                          <RotateCcw className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-white shrink-0" />
+                          <span className="text-white font-medium truncate">
+                            <span className="sm:hidden">Resume</span>
+                            <span className="hidden sm:inline">Resume Attempt</span>
+                          </span>
+                        </button>
                       </Card>
 
                       {/* Card 3: राजस्थान का सामान्य ज्ञान */}
-                      <Card className="p-3.5 rounded-sm border border-border bg-card shadow-xs space-y-3">
-                        <div className="flex items-center justify-between text-xs">
-                          <span className="font-semibold text-muted-foreground flex items-center gap-1">
-                            📐 भूगोल
-                          </span>
-                          <span className="font-bold text-muted-foreground bg-muted px-1.5 py-0.5 rounded-xs text-[10px]">
-                            भाग 1
-                          </span>
+                      <Card className="p-2.5 sm:p-3.5 rounded-sm border border-border bg-card shadow-xs flex flex-col justify-between gap-2 select-none">
+                        <div className="space-y-2">
+                          <div className="flex items-center justify-between text-xs">
+                            <span className="font-medium text-muted-foreground flex items-center gap-1 font-hindi text-[11px] sm:text-xs">
+                              📐 भूगोल
+                            </span>
+                            <span className="font-semibold text-muted-foreground bg-muted px-1.5 py-0.2 rounded-xs text-[10px] font-mono border border-border/70">
+                              भाग 1
+                            </span>
+                          </div>
+                          <div>
+                            <h3 className="text-xs sm:text-[13.5px] font-medium text-foreground font-hindi line-clamp-2 leading-snug">
+                              राजस्थान का सामान्य ज्ञान
+                            </h3>
+                            <p className="text-[11px] sm:text-xs text-muted-foreground mt-0.5">20 प्रश्न · New Practice</p>
+                          </div>
                         </div>
-                        <div>
-                          <h3 className="text-sm font-bold text-foreground">राजस्थान का सामान्य ज्ञान</h3>
-                          <p className="text-xs text-muted-foreground mt-0.5">20 प्रश्न · New Practice</p>
-                        </div>
-                        <Button
-                          size="xs"
-                          variant="outline"
+                        <button
+                          type="button"
                           onClick={() => setCurrentPage("quiz")}
-                          className="w-full h-8 rounded-xs font-semibold border-border hover:bg-muted flex items-center justify-center gap-1.5 cursor-pointer text-foreground"
+                          className="w-full h-7 sm:h-8 rounded-xs font-medium text-xs flex items-center justify-center gap-1.5 bg-secondary/60 text-foreground border border-border/50 hover:bg-primary/10 hover:text-primary transition-all cursor-pointer shadow-2xs"
                         >
-                          <Play className="h-3 w-3 fill-current" /> Start Practice Test
-                        </Button>
+                          <Play className="h-3 w-3 fill-current shrink-0" />
+                          <span className="truncate">
+                            <span className="sm:hidden">Start Test</span>
+                            <span className="hidden sm:inline">Start Practice Test</span>
+                          </span>
+                        </button>
                       </Card>
                     </div>
                   </div>
@@ -1139,15 +1134,22 @@ export default function DesignPreviewPage() {
                         type="button"
                         onClick={() => setSavedTab("wrong")}
                         className={cn(
-                          "inline-flex items-center gap-1.5 h-8 px-3 rounded-xs text-xs font-medium transition-all cursor-pointer border",
+                          "inline-flex items-center gap-2 h-8 px-3.5 rounded-sm text-xs transition-all cursor-pointer border select-none",
                           savedTab === "wrong"
-                            ? "bg-card text-foreground border-border shadow-2xs font-semibold"
-                            : "text-muted-foreground hover:text-foreground border-transparent"
+                            ? "bg-rose-500/10 text-rose-500 border-rose-500/30 shadow-2xs font-semibold"
+                            : "text-muted-foreground hover:text-foreground border-transparent hover:bg-muted/50 font-normal"
                         )}
                       >
-                        <AlertCircle className="h-3.5 w-3.5 text-rose-500" />
+                        <AlertCircle className={cn("h-3.5 w-3.5", savedTab === "wrong" ? "text-rose-500" : "text-rose-500/70")} />
                         <span>Wrong Questions</span>
-                        <span className="text-[10px] font-bold px-1.5 py-0.2 rounded-xs bg-rose-500/15 text-rose-500 border border-rose-500/20">
+                        <span
+                          className={cn(
+                            "text-[10px] font-bold px-1.5 py-0.2 rounded-xs tabular-nums border",
+                            savedTab === "wrong"
+                              ? "bg-rose-500/15 text-rose-600 dark:text-rose-400 border-rose-500/30"
+                              : "bg-muted text-muted-foreground border-border/60"
+                          )}
+                        >
                           1698
                         </span>
                       </button>
@@ -1156,15 +1158,22 @@ export default function DesignPreviewPage() {
                         type="button"
                         onClick={() => setSavedTab("bookmarks")}
                         className={cn(
-                          "inline-flex items-center gap-1.5 h-8 px-3 rounded-xs text-xs font-medium transition-all cursor-pointer border",
+                          "inline-flex items-center gap-2 h-8 px-3.5 rounded-sm text-xs transition-all cursor-pointer border select-none",
                           savedTab === "bookmarks"
-                            ? "bg-card text-foreground border-border shadow-2xs font-semibold"
-                            : "text-muted-foreground hover:text-foreground border-transparent"
+                            ? "bg-amber-500/10 text-amber-500 border-amber-500/30 shadow-2xs font-semibold"
+                            : "text-muted-foreground hover:text-foreground border-transparent hover:bg-muted/50 font-normal"
                         )}
                       >
-                        <Bookmark className="h-3.5 w-3.5 text-amber-500" />
+                        <Bookmark className={cn("h-3.5 w-3.5", savedTab === "bookmarks" ? "text-amber-500" : "text-amber-500/70")} />
                         <span>Bookmarks</span>
-                        <span className="text-[10px] font-bold px-1.5 py-0.2 rounded-xs bg-amber-500/15 text-amber-500 border border-amber-500/20">
+                        <span
+                          className={cn(
+                            "text-[10px] font-bold px-1.5 py-0.2 rounded-xs tabular-nums border",
+                            savedTab === "bookmarks"
+                              ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 border-amber-500/30"
+                              : "bg-muted text-muted-foreground border-border/60"
+                          )}
+                        >
                           329
                         </span>
                       </button>
@@ -1512,7 +1521,7 @@ export default function DesignPreviewPage() {
                     </p>
                   </div>
 
-                  {/* Filter Row with Clean 0-Score Tests */}
+                  {/* Filter Row without debug button */}
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 pt-1">
                     <div className="inline-flex items-center gap-1 bg-secondary/60 p-0.5 rounded-sm border border-border">
                       <select className="h-8 text-xs rounded-xs border border-border bg-card px-3 text-foreground font-medium cursor-pointer">
@@ -1523,10 +1532,6 @@ export default function DesignPreviewPage() {
                       </select>
                       <span className="text-xs text-muted-foreground px-2">438 attempts</span>
                     </div>
-
-                    <button className="text-xs text-rose-500 font-semibold hover:underline flex items-center gap-1 cursor-pointer self-start sm:self-auto">
-                      <Trash2 className="h-3.5 w-3.5" /> Clean 0-Score Tests
-                    </button>
                   </div>
 
                   {/* Attempts List matching media_1794373917779_d96e66aa.png */}
@@ -1683,13 +1688,13 @@ export default function DesignPreviewPage() {
           {/* ── MOBILE BOTTOM NAVIGATION (Strict 5 Items) ── */}
           {deviceMode !== "desktop" && (
             <nav className="sticky bottom-0 left-0 right-0 z-40 border-t border-border bg-card/95 backdrop-blur-md safe-bottom shadow-lg">
-              <div className="grid grid-cols-5 items-center px-1 py-1">
+              <div className="grid grid-cols-5 items-center px-1.5 py-1.5 gap-1">
                 {[
                   { id: "dashboard", label: "Home", icon: LayoutGrid },
-                  { id: "practice-sets", label: "Tests", icon: FolderOpen },
+                  { id: "history", label: "Tests", icon: HistoryIcon },
                   { id: "saved", label: "Saved", icon: Bookmark },
-                  { id: "syllabus", label: "Syllabus", icon: CheckSquare },
-                  { id: "history", label: "History", icon: HistoryIcon },
+                  { id: "analytics", label: "Analytics", icon: BarChart3 },
+                  { id: "admin-overview", label: "Profile", icon: User },
                 ].map((item) => {
                   const Icon = item.icon;
                   const active = currentPage === item.id;
@@ -1698,15 +1703,21 @@ export default function DesignPreviewPage() {
                       key={item.id}
                       type="button"
                       onClick={() => setCurrentPage(item.id as AppPage)}
-                      className={cn(
-                        "flex flex-col items-center justify-center gap-0.5 px-1 py-1 rounded-xs min-w-0 w-full transition-all cursor-pointer border-0",
-                        active ? "text-foreground font-bold" : "text-muted-foreground hover:text-foreground"
-                      )}
+                      className="w-full flex items-center justify-center cursor-pointer border-0"
                     >
-                      <div className={cn("p-1 rounded-xs transition-all", active ? "bg-foreground/10 text-foreground" : "")}>
-                        <Icon className="h-4 w-4 shrink-0" />
+                      <div
+                        className={cn(
+                          "flex flex-col items-center justify-center gap-1 w-full py-1.5 px-1 rounded-md transition-all select-none",
+                          active
+                            ? "bg-primary/10 text-primary border border-primary/20 font-medium shadow-2xs"
+                            : "bg-transparent text-muted-foreground hover:text-foreground border-0 font-normal"
+                        )}
+                      >
+                        <Icon className={cn("h-4.5 w-4.5 shrink-0", active ? "text-primary" : "text-muted-foreground")} />
+                        <span className={cn("text-[10.5px] leading-tight truncate max-w-full font-medium", active ? "text-primary" : "text-muted-foreground")}>
+                          {item.label}
+                        </span>
                       </div>
-                      <span className="text-[10px] font-semibold truncate max-w-full">{item.label}</span>
                     </button>
                   );
                 })}
@@ -1716,5 +1727,13 @@ export default function DesignPreviewPage() {
         </div>
       </main>
     </div>
+  );
+}
+
+export default function DesignPreviewPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-background flex items-center justify-center text-xs text-muted-foreground">Loading preview...</div>}>
+      <DesignPreviewContent />
+    </Suspense>
   );
 }

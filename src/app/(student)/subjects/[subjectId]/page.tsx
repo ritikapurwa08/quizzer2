@@ -98,7 +98,7 @@ export default function SubjectDetailPage() {
             {Array.from({ length: 6 }).map((_, i) => (
               <Card
                 key={i}
-                className="h-16 rounded-xl border border-border/80 bg-card p-3.5 shadow-none flex items-center gap-3"
+                className="h-16 rounded-md border border-border bg-card p-3.5 shadow-none flex items-center gap-3"
               >
                 <Skeleton className="h-7 w-7 rounded-lg shrink-0" />
                 <div className="space-y-1.5 flex-1">
@@ -124,9 +124,9 @@ export default function SubjectDetailPage() {
 
               return (
                 <Link key={t._id} href={`/subjects/${id}/${t._id}`} className="block focus-visible:outline-hidden">
-                  <Card className="flex flex-row items-center justify-between p-3.5 border border-border/80 hover:border-foreground/30 bg-card hover:shadow-xs transition-all group min-h-[4rem] rounded-xl select-none">
+                  <Card className="flex flex-row items-center justify-between p-3.5 border border-border bg-card hover:border-primary/50 hover:shadow-xs transition-all group min-h-[4rem] rounded-md select-none">
                     <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
-                      <span className="flex h-7 w-7 items-center justify-center rounded-lg text-xs font-semibold shrink-0 transition-all duration-200 bg-muted text-foreground group-hover:bg-foreground group-hover:text-background">
+                      <span className="flex h-7 w-7 items-center justify-center rounded-sm text-xs font-semibold shrink-0 transition-all duration-200 bg-muted text-foreground group-hover:bg-foreground group-hover:text-background">
                         {isCompleted ? (
                           <CheckCircle2 className="h-4 w-4" />
                         ) : (
@@ -136,7 +136,7 @@ export default function SubjectDetailPage() {
                       <div className="min-w-0 flex-1">
                         <p
                           className={cn(
-                            "font-semibold text-xs sm:text-sm transition-colors truncate text-foreground group-hover:text-primary",
+                            "font-medium text-xs sm:text-sm transition-colors truncate text-foreground group-hover:text-primary",
                             containsDevanagari(getTopicDisplayName(t)) && "font-hindi"
                           )}
                         >
@@ -153,20 +153,19 @@ export default function SubjectDetailPage() {
                           )}
 
                           {isCompleted && (
-                            <span className="inline-flex items-center gap-1 text-[11px] font-bold text-success bg-success/10 px-2 py-0.5 rounded-full border border-success/20">
+                            <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-success bg-success/10 px-2 py-0.5 rounded-sm border border-success/20">
                               <CheckCircle2 className="h-3 w-3" /> Completed
                             </span>
                           )}
 
                           {isInProgress && (
-                            <span className="inline-flex items-center gap-1 text-[11px] font-bold text-warning bg-warning/10 px-2 py-0.5 rounded-full border border-warning/20">
+                            <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-warning bg-warning/10 px-2 py-0.5 rounded-sm border border-warning/20">
                               <Clock className="h-3 w-3" /> In Progress ({progress.completedSets}/{progress.totalSets})
                             </span>
                           )}
                         </div>
                       </div>
                     </div>
-                    <ChevronRight className="h-4 w-4 text-muted-foreground/60 group-hover:text-foreground group-hover:translate-x-0.5 transition-all duration-200 shrink-0 ml-2" />
                   </Card>
                 </Link>
               );

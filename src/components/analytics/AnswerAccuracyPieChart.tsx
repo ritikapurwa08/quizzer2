@@ -75,7 +75,7 @@ export function AnswerAccuracyPieChart({ data }: Props) {
   const correctPct = total > 0 ? Math.round(((data?.correct || 0) / total) * 100) : 0;
 
   return (
-    <Card className="flex flex-col rounded-2xl border border-border/80 bg-card shadow-xs">
+    <Card className="flex flex-col rounded-md border border-border bg-card shadow-xs">
       <CardHeader className="items-center pb-0 pt-5">
         <div className="flex items-center justify-between w-full">
           <div>
@@ -137,7 +137,7 @@ export function AnswerAccuracyPieChart({ data }: Props) {
       </CardContent>
       <CardFooter className="flex-col gap-2 text-xs pt-3 pb-5 border-t border-border/50">
         <div className="grid grid-cols-3 gap-2 w-full text-center">
-          <div className="p-2 rounded-xl bg-emerald-500/10 border border-emerald-500/20">
+          <div className="p-2 rounded-md bg-emerald-500/10 border border-emerald-500/20">
             <span className="text-[10px] font-semibold text-emerald-600 dark:text-emerald-400 block">
               Correct
             </span>
@@ -145,7 +145,7 @@ export function AnswerAccuracyPieChart({ data }: Props) {
               {data?.correct || 0}
             </strong>
           </div>
-          <div className="p-2 rounded-xl bg-destructive/10 border border-destructive/20">
+          <div className="p-2 rounded-md bg-destructive/10 border border-destructive/20">
             <span className="text-[10px] font-semibold text-destructive block">
               Incorrect
             </span>
@@ -153,7 +153,7 @@ export function AnswerAccuracyPieChart({ data }: Props) {
               {data?.incorrect || 0}
             </strong>
           </div>
-          <div className="p-2 rounded-xl bg-muted/70 border border-border/60">
+          <div className="p-2 rounded-md bg-muted/70 border border-border/60">
             <span className="text-[10px] font-semibold text-muted-foreground block">
               Skipped
             </span>

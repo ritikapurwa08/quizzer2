@@ -24,7 +24,7 @@ export const MAIN_NAV_ITEMS: NavItem[] = [
   { label: "Tests", href: "/history", icon: History, exact: true },
   { label: "Saved", href: "/saved-questions", icon: Bookmark, exact: true },
   { label: "Analytics", href: "/analytics", icon: BarChart2, exact: true },
-  { label: "Profile", href: "#profile", icon: User, exact: true },
+  { label: "Profile", href: "/profile", icon: User, exact: true },
 ];
 
 export const BOTTOM_NAV_ITEMS: NavItem[] = MAIN_NAV_ITEMS;

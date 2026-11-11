@@ -131,25 +131,21 @@ export default function TopicDetailPage() {
               const isDone = completedSet.has(set._id);
               return (
                 <Link key={set._id} href={`/quiz/${set._id}`} className="block focus-visible:outline-hidden">
-                  <Card className="flex flex-row items-center justify-between p-4 border border-border/80 hover:border-foreground/30 bg-card hover:shadow-xs transition-all group rounded-xl min-h-[4rem] select-none">
-                    <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
-                      <div className="p-2 rounded-lg shrink-0 transition-all duration-200 bg-muted text-foreground group-hover:bg-foreground group-hover:text-background">
-                        {isDone ? (
-                          <CheckCircle2 className="h-4 w-4" />
-                        ) : (
-                          <FileText className="h-4 w-4" />
+                  <Card className="flex flex-row items-center justify-between p-4 border border-border bg-card hover:border-primary/50 hover:shadow-xs transition-all group rounded-md min-h-[4rem] select-none">
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <h3 className="font-medium text-xs sm:text-sm transition-colors truncate text-foreground group-hover:text-primary font-hindi">
+                          {set.name}
+                        </h3>
+                        {isDone && (
+                          <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-emerald-500 bg-emerald-500/10 px-1.5 py-0.2 rounded-xs border border-emerald-500/20">
+                            Completed
+                          </span>
                         )}
                       </div>
-                      <div className="min-w-0 flex-1">
-                        <div className="flex items-center gap-2 flex-wrap">
-                          <h3 className="font-medium text-xs sm:text-sm transition-colors truncate text-foreground group-hover:text-primary">
-                            {set.name}
-                          </h3>
-                        </div>
-                      </div>
                     </div>
-                    <div className="flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg shrink-0 ml-3 transition-all border border-border bg-card text-foreground group-hover:bg-foreground group-hover:text-background">
-                      <Play className="h-3.5 w-3.5 fill-current" />
+                    <div className="flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md shrink-0 ml-3 transition-all border border-border/80 bg-secondary text-secondary-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary">
+                      <Play className="h-3 w-3 fill-current" />
                       <span>{isDone ? "Retake" : "Start"}</span>
                     </div>
                   </Card>

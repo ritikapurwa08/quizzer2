@@ -51,7 +51,7 @@ export function MasteryRadialGaugeChart({
   const isPassing = safeAccuracy >= targetBenchmark;
 
   return (
-    <Card className="flex flex-col rounded-2xl border border-border/80 bg-card shadow-xs">
+    <Card className="flex flex-col rounded-md border border-border bg-card shadow-xs">
       <CardHeader className="items-center pb-0 pt-5">
         <div className="flex items-center justify-between w-full">
           <div>

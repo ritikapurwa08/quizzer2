@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { ConvexClientProvider } from "@/components/shared/ConvexClientProvider";
 import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
@@ -9,11 +8,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { PwaRegistrar } from "@/components/shared/PwaRegistrar";
 import { cn } from "@/lib/utils";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-sans",
-  display: "swap",
-});
+
 
 export const metadata: Metadata = {
   title: {
@@ -55,7 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <html
         lang="en"
         suppressHydrationWarning
-        className={cn("font-sans", inter.variable)}
+        className="font-sans"
       >
         <body>
           <ThemeProvider

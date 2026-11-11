@@ -1,5 +1,23 @@
 # QUIZZER2 - PROJECT CHANGELOG
 
+## [2026-11-11 - Part 5]
+- **`src/components/dashboard/ContinuePracticeCard.tsx`**:
+  - Implemented 2-Column Grid on Mobile (`grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3.5`).
+  - Reduced vertical spacing and padding (`p-2.5 sm:p-3.5`, `my-0.5 min-h-[2rem] sm:min-h-[2.4rem]`, `pt-1.5 mt-0.5`).
+  - Unified with Primary Sky-Blue brand theme: `Resume Attempt` uses solid `bg-primary text-white border-primary/40`, and `Start Practice Test` uses neutral `bg-secondary/60 text-foreground border-border/50`.
+  - Added responsive button labels (`Resume` / `Start Test` on mobile; `Resume Attempt` / `Start Practice Test` on desktop) preventing text truncation.
+- **`src/components/shared/navigation/DesktopNavSection.tsx` & `MobileBottomNavBar.tsx`**:
+  - Removed permanent grey borders (`border-0` by default) around all unselected navigation items (`Home`, `Tests`, `Saved`, `Analytics`, `Profile`).
+  - Standardized active/selected state across desktop and mobile to 10% primary Sky-Blue tint (`bg-primary/10 text-primary border border-primary/20 font-medium shadow-2xs`).
+  - Fixed "Profile" nav item bug: normalized font size and weight to match the other 4 nav items (`font-normal text-muted-foreground` when unselected).
+- **`src/app/(student)/saved-questions/page.tsx` & `src/app/design-preview/page.tsx`**:
+  - Redesigned `Wrong Questions` vs `Bookmarks` segmented tab switchers with clean semantic tint states (`bg-rose-500/10 text-rose-500 border-rose-500/30` for Wrong Questions; `bg-amber-500/10 text-amber-500 border-amber-500/30` for Bookmarks) eliminating stark white fills.
+- **`src/components/analytics/SubjectAccuracyChart.tsx`**:
+  - Fixed Light Theme SVG rendering bug where Recharts track rendered as solid black rectangles. Replaced `var(--color-muted)` with `rgba(128, 128, 128, 0.12)`.
+  - Moved Hindi subject titles to an aligned YAxis to prevent text overlapping progress bars.
+- **`src/app/design-preview/page.tsx`**:
+  - Synchronized mock emulator with live app changes, supporting synchronous URL search params reading for immediate headless screenshot capture across device modes (`desktop`, `tablet`, `mobile`) and themes (`light`, `dark`).
+
 ## [2026-11-11 - Part 4]
 - **`src/app/globals.css`**: Strictly clamped all geometric radii down to 2px–3px max (`--radius: 3px`, `--radius-xs: 2px`, `--radius-sm: 2px`, `--radius-md: 3px`, `--radius-lg: 4px`, `--radius-xl: 4px`, `--radius-2xl: 4px`, `--radius-3xl: 4px`) so no component in the entire project can ever render with bubbly or rounded corners.
 - **`src/components/ui/card.tsx`**: Changed base class from `rounded-md` to razor-sharp `rounded-sm` (2px-3px).
@@ -11,6 +29,15 @@
   - Exact Syllabus Tracker matching `media_1794373900125_4b953c6e.jpg` (scope pills, section pills, search bar, 55 topics progress banner, topic checklist).
   - Exact Test History matching `media_1794373917779_d96e66aa.png` (filter row, Clean 0-score tests in red, chronological attempts with scores and accuracy percentages).
   - Active interactive quiz runner with instant option feedback, timer, question palette, and results breakdown.
+
+## [2026-11-11 - Part 3]
+- **`src/app/globals.css`**: Enforced razor-sharp "चौकोर" geometric radii (`--radius: 0.25rem` / 4px max; `--radius-xs: 2px`, `--radius-sm: 3px`, `--radius-md: 4px`, `--radius-lg: 5px`, `--radius-xl: 6px`). Configured crisp 1px borders (`rgba(255, 255, 255, 0.08)` in dark mode). Integrated Noto Sans Devanagari via Google Fonts `@import` for ultra-smooth Hindi typography.
+- **`src/components/ui/card.tsx`**: Replaced hardcoded `rounded-2xl` with razor-sharp `rounded-md` (4px) and subtle 1px border.
+- **`src/components/ui/button.tsx`**: Updated `buttonVariants` to `rounded-md` (4px).
+- **`src/app/(student)/dashboard/page.tsx`**: Replaced all `rounded-2xl border-0` with razor-sharp `rounded-md border border-border` across stat cards, continue practice cards, 4 canonical subjects grid, and Coming Soon sections.
+- **`src/components/shared/navigation/DesktopNavSection.tsx` & `MobileBottomNavBar.tsx`**: Replaced bloated active pills with crisp rectangular active state (`rounded-md`, 4px).
+- **`src/components/shared/FilterBar.tsx` & `src/components/syllabus/SyllabusFilterControls.tsx`**: Replaced rounded pill filters with sharp rectangular segmented controls (`rounded-md`, 4px).
+- **`src/app/design-preview/page.tsx`**: Upgraded to a complete, 100% unauthenticated live interactive application emulator with mock data across 9 views: Dashboard, Practice Sets (Topic 3: Climate - 12 sets), Active Interactive Quiz Runner with real-time feedback and question palette, Quiz Results with detailed Hindi explanations, Saved & Review Questions, Syllabus Tracker (interactive 55 topics checklist), Test History, Analytics, and Profile. Supports live device frames (Desktop, Tablet 768px, Mobile 390px) and Dark/Light mode.
 
 ## [2026-11-11 - Part 3]
 - **`src/app/globals.css`**: Enforced razor-sharp "चौकोर" geometric radii (`--radius: 0.25rem` / 4px max; `--radius-xs: 2px`, `--radius-sm: 3px`, `--radius-md: 4px`, `--radius-lg: 5px`, `--radius-xl: 6px`). Configured crisp 1px borders (`rgba(255, 255, 255, 0.08)` in dark mode). Integrated Noto Sans Devanagari via Google Fonts `@import` for ultra-smooth Hindi typography.

@@ -53,19 +53,19 @@ export function ContinuePracticeCard() {
         <div className="flex items-center justify-between">
           <Skeleton className="h-4 w-48 rounded" />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3.5">
           {Array.from({ length: 6 }).map((_, i) => (
-            <Card key={i} className="p-4 sm:p-5 rounded-2xl border border-border/70 bg-card space-y-3 shadow-none">
-              <div className="flex items-center justify-between">
-                <Skeleton className="h-4 w-20 rounded" />
-                <Skeleton className="h-4 w-14 rounded" />
-              </div>
-              <Skeleton className="h-10 w-full rounded" />
+            <Card key={i} className="p-2.5 sm:p-3.5 rounded-md border border-border bg-card space-y-2 shadow-none">
               <div className="flex items-center justify-between">
                 <Skeleton className="h-3.5 w-16 rounded" />
-                <Skeleton className="h-3.5 w-20 rounded" />
+                <Skeleton className="h-3.5 w-12 rounded" />
               </div>
-              <Skeleton className="h-8.5 w-full rounded-xl" />
+              <Skeleton className="h-8 w-full rounded" />
+              <div className="flex items-center justify-between">
+                <Skeleton className="h-3 w-14 rounded" />
+                <Skeleton className="h-3 w-16 rounded" />
+              </div>
+              <Skeleton className="h-7 sm:h-8 w-full rounded-sm" />
             </Card>
           ))}
         </div>
@@ -82,7 +82,6 @@ export function ContinuePracticeCard() {
       {/* Section Header with Responsive Title (No Overlap/Collision) */}
       <div className="flex items-center justify-between gap-3">
         <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2 min-w-0">
-          <Sparkles className="h-4 w-4 text-primary shrink-0" />
           <span>Continue Practice</span>
           <span className="hidden sm:inline text-muted-foreground/60">· Next Available Tests</span>
           <span className="font-bold text-foreground tabular-nums shrink-0">({recommendations.length})</span>
@@ -95,8 +94,8 @@ export function ContinuePracticeCard() {
         </Link>
       </div>
 
-      {/* Spacious 3-Column Grid (Row 1: 3 cards, Row 2: 3 cards — No Truncation, Ample Whitespace) */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
+      {/* 2-Column Grid on Mobile, 3-Column on Desktop */}
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3.5">
         {recommendations.map((rec) => {
           const SectionIcon = getSubjectSectionIcon(rec.subjectName);
           const shortSubject = getShortSubjectTag(rec.subjectName);
@@ -108,27 +107,21 @@ export function ContinuePracticeCard() {
             <Link
               key={rec.testSetId}
               href={`/quiz/${rec.testSetId}`}
-              className="block group focus-visible:outline-hidden"
+              className="block group focus-visible:outline-hidden h-full"
             >
               <Card
-                className={cn(
-                  "p-4 sm:p-5 rounded-2xl border transition-all flex flex-col justify-between gap-3 h-full relative select-none",
-                  isResume
-                    ? "border-amber-500/30 bg-amber-500/[0.03] hover:border-amber-500/50 hover:bg-amber-500/[0.06]"
-                    : "border-border/80 bg-card hover:border-primary/40 hover:bg-card/90",
-                  "shadow-2xs hover:shadow-xs"
-                )}
+                className="p-2.5 sm:p-3.5 rounded-md border border-border bg-card hover:border-primary/50 transition-all flex flex-col justify-between gap-2 h-full relative select-none shadow-xs"
               >
                 {/* Top Row: Subject Tag with Icon + Part Badge */}
-                <div className="flex items-center justify-between gap-2">
-                  <div className="flex items-center gap-2 min-w-0">
+                <div className="flex items-center justify-between gap-1.5">
+                  <div className="flex items-center gap-1.5 min-w-0">
                     <SectionIcon
                       className={cn(
-                        "h-4 w-4 shrink-0 transition-colors",
-                        isResume ? "text-amber-400" : "text-muted-foreground group-hover:text-primary"
+                        "h-3.5 w-3.5 shrink-0 transition-colors",
+                        isResume ? "text-primary" : "text-muted-foreground group-hover:text-primary"
                       )}
                     />
-                    <span className="text-xs font-semibold text-muted-foreground group-hover:text-foreground transition-colors font-hindi truncate">
+                    <span className="text-[11px] sm:text-xs font-medium text-muted-foreground group-hover:text-foreground transition-colors font-hindi truncate">
                       {shortSubject}
                     </span>
                   </div>
@@ -136,10 +129,10 @@ export function ContinuePracticeCard() {
                   {partLabel && (
                     <span
                       className={cn(
-                        "shrink-0 text-[11px] font-bold px-2 py-0.5 rounded-md font-mono tracking-tight border transition-colors",
+                        "shrink-0 text-[10px] font-bold px-1.5 py-0.2 rounded-xs font-mono tracking-tight border transition-colors",
                         isResume
-                          ? "bg-amber-500/15 text-amber-400 border-amber-500/30"
-                          : "bg-muted text-foreground border-border/70 group-hover:border-primary/40"
+                          ? "bg-primary/15 text-primary border-primary/30"
+                          : "bg-muted text-muted-foreground border-border/70 group-hover:border-primary/40"
                       )}
                     >
                       {partLabel}
@@ -147,10 +140,10 @@ export function ContinuePracticeCard() {
                   )}
                 </div>
 
-                {/* Title: Uncongested, Full Width, 2 Clean Lines */}
-                <div className="my-1 min-h-[2.75rem] flex items-center">
+                {/* Title: Compact, No Unneeded Vertical Gap */}
+                <div className="my-0.5 min-h-[2rem] sm:min-h-[2.4rem] flex items-center">
                   <h3
-                    className="font-bold text-sm sm:text-[14.5px] leading-snug text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-2"
+                    className="font-medium text-xs sm:text-[13.5px] leading-snug text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-2"
                     title={rec.testSetName}
                   >
                     {cleanTitle}
@@ -158,38 +151,39 @@ export function ContinuePracticeCard() {
                 </div>
 
                 {/* Status & Questions Row */}
-                <div className="flex items-center justify-between text-xs pt-1 border-t border-border/40">
-                  <span className="tabular-nums font-semibold text-muted-foreground">{rec.questionCount} प्रश्न</span>
+                <div className="flex items-center justify-between text-[11px] sm:text-xs pt-1.5 mt-0.5 border-t border-border/40">
+                  <span className="tabular-nums font-medium text-muted-foreground">{rec.questionCount} प्रश्न</span>
                   {isResume ? (
-                    <span className="text-amber-400 font-semibold flex items-center gap-1.5 text-xs">
-                      <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
+                    <span className="text-primary font-medium flex items-center gap-1 text-[11px] sm:text-xs">
+                      <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
                       In Progress
                     </span>
                   ) : isNext ? (
-                    <span className="text-emerald-400 font-semibold flex items-center gap-1 text-xs">
-                      <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+                    <span className="text-primary/90 font-medium flex items-center gap-1 text-[11px] sm:text-xs">
+                      <span className="h-1.5 w-1.5 rounded-full bg-primary" />
                       Up Next
                     </span>
                   ) : (
-                    <span className="text-muted-foreground text-xs">New Practice</span>
+                    <span className="text-muted-foreground text-[11px] sm:text-xs font-normal">New Practice</span>
                   )}
                 </div>
 
-                {/* Dedicated Action Button Row — Uniform, High Contrast, Dark-Mode Native */}
+                {/* Button: Compact, High Contrast Sky-Blue Theme */}
                 {isResume ? (
-                  <div className="w-full h-8.5 rounded-xl font-semibold text-xs flex items-center justify-center gap-2 bg-amber-500/15 text-amber-300 border border-amber-500/30 group-hover:bg-amber-500 group-hover:text-black transition-all duration-150 shadow-2xs">
-                    <RotateCcw className="h-3.5 w-3.5" />
-                    <span>Resume Attempt</span>
-                  </div>
-                ) : isNext ? (
-                  <div className="w-full h-8.5 rounded-xl font-semibold text-xs flex items-center justify-center gap-2 bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 group-hover:bg-emerald-500 group-hover:text-black transition-all duration-150 shadow-2xs">
-                    <Play className="h-3 w-3 fill-current" />
-                    <span>Start Next Part</span>
+                  <div className="w-full h-7 sm:h-8 rounded-sm font-medium text-xs flex items-center justify-center gap-1.5 bg-primary text-white hover:bg-primary/90 border border-primary/40 transition-all duration-150 shadow-2xs">
+                    <RotateCcw className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-white shrink-0" />
+                    <span className="text-white font-medium truncate">
+                      <span className="sm:hidden">Resume</span>
+                      <span className="hidden sm:inline">Resume Attempt</span>
+                    </span>
                   </div>
                 ) : (
-                  <div className="w-full h-8.5 rounded-xl font-semibold text-xs flex items-center justify-center gap-2 bg-muted/70 text-foreground border border-border/80 group-hover:bg-foreground group-hover:text-background transition-all duration-150 shadow-2xs">
-                    <Play className="h-3 w-3 fill-current" />
-                    <span>Start Practice Test</span>
+                  <div className="w-full h-7 sm:h-8 rounded-sm font-medium text-xs flex items-center justify-center gap-1.5 bg-secondary/60 text-foreground border border-border/50 hover:bg-primary/10 hover:text-primary transition-all duration-150 shadow-2xs">
+                    <Play className="h-3 w-3 fill-current shrink-0" />
+                    <span className="truncate">
+                      <span className="sm:hidden">Start Test</span>
+                      <span className="hidden sm:inline">Start Practice Test</span>
+                    </span>
                   </div>
                 )}
               </Card>
