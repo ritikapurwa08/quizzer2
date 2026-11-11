@@ -44,7 +44,7 @@ export function DesktopNavSection({
                   onPointerUp={onProfilePointerUp}
                   onPointerLeave={onProfilePointerLeave}
                   className={cn(
-                    "w-full flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium transition-all group select-none cursor-pointer border",
+                    "w-full flex items-center justify-between px-3 py-2 rounded-md text-xs font-medium transition-all group select-none cursor-pointer border",
                     active
                       ? "bg-zinc-800/90 text-zinc-100 border-zinc-700/80 shadow-2xs font-semibold"
                       : "text-zinc-400 hover:bg-zinc-800/40 hover:text-zinc-200 border-transparent"
@@ -69,7 +69,7 @@ export function DesktopNavSection({
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium transition-all group select-none border",
+                  "flex items-center justify-between px-3 py-2 rounded-md text-xs font-medium transition-all group select-none border",
                   active
                     ? "bg-zinc-800/90 text-zinc-100 border-zinc-700/80 shadow-2xs font-semibold"
                     : "text-zinc-400 hover:bg-zinc-800/40 hover:text-zinc-200 border-transparent"

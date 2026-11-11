@@ -25,7 +25,7 @@ export function MobileBottomNavBar({
 }: MobileBottomNavBarProps) {
   return (
     <nav
-      className="fixed bottom-0 left-0 right-0 z-40 md:hidden border-0 bg-card/95 backdrop-blur-md safe-bottom shadow-lg print:hidden"
+      className="fixed bottom-0 left-0 right-0 z-40 md:hidden border-t border-border bg-card/95 backdrop-blur-md safe-bottom shadow-lg print:hidden"
       aria-label="Mobile navigation"
     >
       <div className="grid grid-cols-5 items-center px-1 py-1.5">
@@ -44,12 +44,12 @@ export function MobileBottomNavBar({
                 onPointerUp={onProfilePointerUp}
                 onPointerLeave={onProfilePointerLeave}
                 className={cn(
-                  "flex flex-col items-center justify-center gap-0.5 px-1 py-1.5 rounded-xl min-w-0 w-full transition-all select-none cursor-pointer border-0",
+                  "flex flex-col items-center justify-center gap-0.5 px-1 py-1.5 rounded-md min-w-0 w-full transition-all select-none cursor-pointer border-0",
                   active ? "text-foreground font-bold" : "text-muted-foreground hover:text-foreground"
                 )}
                 aria-label="User Profile and Settings"
               >
-                <div className={cn("p-1 rounded-lg transition-all", active ? "bg-foreground/10 text-foreground" : "")}>
+                <div className={cn("p-1 rounded-sm transition-all", active ? "bg-foreground/10 text-foreground" : "")}>
                   <Icon
                     className={cn(
                       "h-5 w-5 shrink-0",
@@ -74,12 +74,12 @@ export function MobileBottomNavBar({
               key={item.href}
               href={item.href}
               className={cn(
-                "flex flex-col items-center justify-center gap-0.5 px-1 py-1.5 rounded-xl min-w-0 w-full transition-all select-none border-0",
+                "flex flex-col items-center justify-center gap-0.5 px-1 py-1.5 rounded-md min-w-0 w-full transition-all select-none border-0",
                 active ? "text-foreground font-bold" : "text-muted-foreground hover:text-foreground"
               )}
               aria-current={active ? "page" : undefined}
             >
-              <div className={cn("p-1 rounded-lg transition-all", active ? "bg-foreground/10" : "")}>
+              <div className={cn("p-1 rounded-sm transition-all", active ? "bg-foreground/10" : "")}>
                 <Icon
                   className={cn(
                     "h-5 w-5 shrink-0",

@@ -50,7 +50,7 @@ export function FilterBar({
   return (
     <div
       className={cn(
-        "bg-secondary/60 p-0.5 rounded-lg border border-border flex items-center gap-1 overflow-x-auto no-scrollbar max-w-full",
+        "bg-secondary/60 p-0.5 rounded-md border border-border flex items-center gap-1 overflow-x-auto no-scrollbar max-w-full",
         className
       )}
     >
@@ -69,7 +69,7 @@ export function FilterBar({
               }}
             </SelectValue>
           </SelectTrigger>
-          <SelectContent className="bg-popover border border-border shadow-lg max-w-[320px] rounded-lg">
+          <SelectContent className="bg-popover border border-border shadow-lg max-w-[320px] rounded-md">
             {subjects.map((s) => (
               <SelectItem key={s.value} value={s.value} className="typo-small cursor-pointer">
                 <span className="truncate">{s.label}</span>
@@ -103,7 +103,7 @@ export function FilterBar({
                 }}
               </SelectValue>
             </SelectTrigger>
-            <SelectContent className="bg-popover border border-border shadow-lg max-w-[320px] rounded-lg">
+            <SelectContent className="bg-popover border border-border shadow-lg max-w-[320px] rounded-md">
               <SelectItem value="all" className="typo-small cursor-pointer">
                 All Topics
               </SelectItem>

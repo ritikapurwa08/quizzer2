@@ -243,12 +243,12 @@ function SavedQuestionsContent() {
         </div>
 
         {/* ── Segmented Tab Switcher (Crisp "चौकोर" Linear / Raycast Style) ── */}
-        <div className="inline-flex items-center p-0.5 rounded-lg bg-secondary/80 border border-border self-start sm:self-auto gap-0.5">
+        <div className="inline-flex items-center p-0.5 rounded-md bg-secondary/80 border border-border self-start sm:self-auto gap-0.5">
           <button
             type="button"
             onClick={() => setTab("wrong")}
             className={cn(
-              "inline-flex items-center gap-2 h-8 px-3 rounded-md text-xs font-medium transition-all cursor-pointer border",
+              "inline-flex items-center gap-2 h-8 px-3 rounded-sm text-xs font-medium transition-all cursor-pointer border",
               activeTab === "wrong"
                 ? "bg-card text-foreground border-border shadow-2xs font-semibold"
                 : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
@@ -258,7 +258,7 @@ function SavedQuestionsContent() {
             <span>Wrong Questions</span>
             <span
               className={cn(
-                "text-[10px] font-bold px-1.5 py-0.2 rounded-md tabular-nums border",
+                "text-[10px] font-bold px-1.5 py-0.2 rounded-xs tabular-nums border",
                 activeTab === "wrong"
                   ? "bg-rose-500/15 text-rose-600 dark:text-rose-400 border-rose-500/20"
                   : "bg-muted text-muted-foreground border-transparent"
@@ -272,7 +272,7 @@ function SavedQuestionsContent() {
             type="button"
             onClick={() => setTab("bookmarks")}
             className={cn(
-              "inline-flex items-center gap-2 h-8 px-3 rounded-md text-xs font-medium transition-all cursor-pointer border",
+              "inline-flex items-center gap-2 h-8 px-3 rounded-sm text-xs font-medium transition-all cursor-pointer border",
               activeTab === "bookmarks"
                 ? "bg-card text-foreground border-border shadow-2xs font-semibold"
                 : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
@@ -282,7 +282,7 @@ function SavedQuestionsContent() {
             <span>Bookmarks</span>
             <span
               className={cn(
-                "text-[10px] font-bold px-1.5 py-0.2 rounded-md tabular-nums border",
+                "text-[10px] font-bold px-1.5 py-0.2 rounded-xs tabular-nums border",
                 activeTab === "bookmarks"
                   ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 border-amber-500/20"
                   : "bg-muted text-muted-foreground border-transparent"

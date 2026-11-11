@@ -37,19 +37,19 @@ export function SyllabusFilterControls({
   return (
     <div className="space-y-3">
       {/* Subject / Scope Segmented Switcher (Crisp Linear/Raycast Style) */}
-      <div className="inline-flex items-center p-0.5 bg-secondary/80 rounded-lg border border-border self-start gap-0.5">
+      <div className="inline-flex items-center p-0.5 bg-secondary/80 rounded-md border border-border self-start gap-0.5">
         <button
           type="button"
           onClick={() => onScopeChange("rajasthan_gk")}
           className={cn(
-            "px-3 py-1.5 rounded-md text-xs font-medium transition-all cursor-pointer select-none flex items-center gap-1.5 border",
+            "px-3 py-1.5 rounded-sm text-xs font-medium transition-all cursor-pointer select-none flex items-center gap-1.5 border",
             scope === "rajasthan_gk"
               ? "bg-card text-foreground font-semibold shadow-2xs border-border"
               : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
           )}
         >
           <span>राजस्थान GK (Paper-I)</span>
-          <span className="text-[10px] px-1.5 py-0.2 rounded-md font-bold bg-primary/15 text-primary border border-primary/20">
+          <span className="text-[10px] px-1.5 py-0.2 rounded-xs font-bold bg-primary/15 text-primary border border-primary/20">
             55
           </span>
         </button>
@@ -58,14 +58,14 @@ export function SyllabusFilterControls({
           type="button"
           onClick={() => onScopeChange("english")}
           className={cn(
-            "px-3 py-1.5 rounded-md text-xs font-medium transition-all cursor-pointer select-none flex items-center gap-1.5 border",
+            "px-3 py-1.5 rounded-sm text-xs font-medium transition-all cursor-pointer select-none flex items-center gap-1.5 border",
             scope === "english"
               ? "bg-card text-foreground font-semibold shadow-2xs border-border"
               : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
           )}
         >
           <span>English (Paper-II)</span>
-          <span className="text-[10px] px-1.5 py-0.2 rounded-md font-bold bg-primary/15 text-primary border border-primary/20">
+          <span className="text-[10px] px-1.5 py-0.2 rounded-xs font-bold bg-primary/15 text-primary border border-primary/20">
             33
           </span>
         </button>
@@ -74,14 +74,14 @@ export function SyllabusFilterControls({
           type="button"
           onClick={() => onScopeChange("all")}
           className={cn(
-            "px-2.5 py-1.5 rounded-md text-xs font-medium transition-all cursor-pointer select-none flex items-center gap-1.5 border",
+            "px-2.5 py-1.5 rounded-sm text-xs font-medium transition-all cursor-pointer select-none flex items-center gap-1.5 border",
             scope === "all"
               ? "bg-card text-foreground font-semibold shadow-2xs border-border"
               : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
           )}
         >
           <span>All Topics</span>
-          <span className="text-[10px] px-1.5 py-0.2 rounded-md font-bold bg-muted text-muted-foreground">
+          <span className="text-[10px] px-1.5 py-0.2 rounded-xs font-bold bg-muted text-muted-foreground">
             88
           </span>
         </button>
@@ -98,7 +98,7 @@ export function SyllabusFilterControls({
                 type="button"
                 onClick={() => onSelectSection(sec.id)}
                 className={cn(
-                  "px-3 py-1.5 rounded-lg text-xs font-medium transition-all cursor-pointer select-none whitespace-nowrap flex items-center gap-1.5 border",
+                  "px-3 py-1.5 rounded-md text-xs font-medium transition-all cursor-pointer select-none whitespace-nowrap flex items-center gap-1.5 border",
                   isActive
                     ? "bg-zinc-800 text-zinc-100 border-zinc-700 font-semibold shadow-2xs"
                     : "bg-card text-muted-foreground hover:text-foreground hover:bg-muted border-border/80"
@@ -107,7 +107,7 @@ export function SyllabusFilterControls({
                 <span>{sec.title}</span>
                 <span
                   className={cn(
-                    "text-[10px] px-1.5 py-0.2 rounded-md font-bold",
+                    "text-[10px] px-1.5 py-0.2 rounded-xs font-bold",
                     isActive ? "bg-zinc-700 text-zinc-200" : "bg-muted text-muted-foreground"
                   )}
                 >
@@ -120,14 +120,14 @@ export function SyllabusFilterControls({
       )}
 
       {/* Search and Status Filter Row */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 bg-card p-2.5 rounded-xl border border-border shadow-xs">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 bg-card p-2.5 rounded-md border border-border shadow-xs">
         <div className="relative min-w-0 flex-1">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground" />
           <Input
             value={searchQuery}
             onChange={(e) => onSearchChange(e.target.value)}
             placeholder="Search topic by name, #ID, or keyword..."
-            className="pl-9 h-8.5 text-xs rounded-lg bg-background border-border"
+            className="pl-9 h-8.5 text-xs rounded-sm bg-background border-border"
           />
           {searchQuery && (
             <button
@@ -139,14 +139,14 @@ export function SyllabusFilterControls({
           )}
         </div>
 
-        <div className="flex items-center gap-0.5 bg-muted/60 p-0.5 rounded-lg border border-border/70 self-start sm:self-auto shrink-0">
+        <div className="flex items-center gap-0.5 bg-muted/60 p-0.5 rounded-md border border-border/70 self-start sm:self-auto shrink-0">
           {(["all", "completed", "pending"] as StatusFilter[]).map((st) => (
             <button
               key={st}
               type="button"
               onClick={() => onStatusFilterChange(st)}
               className={cn(
-                "px-2.5 py-1 text-xs font-medium rounded-md capitalize transition-colors cursor-pointer select-none border",
+                "px-2.5 py-1 text-xs font-medium rounded-sm capitalize transition-colors cursor-pointer select-none border",
                 statusFilter === st
                   ? "bg-card text-foreground shadow-2xs font-semibold border-border"
                   : "text-muted-foreground hover:text-foreground border-transparent"

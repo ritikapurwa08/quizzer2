@@ -1,5 +1,14 @@
 # QUIZZER2 - PROJECT CHANGELOG
 
+## [2026-11-11 - Part 3]
+- **`src/app/globals.css`**: Enforced razor-sharp "चौकोर" geometric radii (`--radius: 0.25rem` / 4px max; `--radius-xs: 2px`, `--radius-sm: 3px`, `--radius-md: 4px`, `--radius-lg: 5px`, `--radius-xl: 6px`). Configured crisp 1px borders (`rgba(255, 255, 255, 0.08)` in dark mode). Integrated Noto Sans Devanagari via Google Fonts `@import` for ultra-smooth Hindi typography.
+- **`src/components/ui/card.tsx`**: Replaced hardcoded `rounded-2xl` with razor-sharp `rounded-md` (4px) and subtle 1px border.
+- **`src/components/ui/button.tsx`**: Updated `buttonVariants` to `rounded-md` (4px).
+- **`src/app/(student)/dashboard/page.tsx`**: Replaced all `rounded-2xl border-0` with razor-sharp `rounded-md border border-border` across stat cards, continue practice cards, 4 canonical subjects grid, and Coming Soon sections.
+- **`src/components/shared/navigation/DesktopNavSection.tsx` & `MobileBottomNavBar.tsx`**: Replaced bloated active pills with crisp rectangular active state (`rounded-md`, 4px).
+- **`src/components/shared/FilterBar.tsx` & `src/components/syllabus/SyllabusFilterControls.tsx`**: Replaced rounded pill filters with sharp rectangular segmented controls (`rounded-md`, 4px).
+- **`src/app/design-preview/page.tsx`**: Upgraded to a complete, 100% unauthenticated live interactive application emulator with mock data across 9 views: Dashboard, Practice Sets (Topic 3: Climate - 12 sets), Active Interactive Quiz Runner with real-time feedback and question palette, Quiz Results with detailed Hindi explanations, Saved & Review Questions, Syllabus Tracker (interactive 55 topics checklist), Test History, Analytics, and Profile. Supports live device frames (Desktop, Tablet 768px, Mobile 390px) and Dark/Light mode.
+
 ## [2026-11-11 - Part 2]
 - **`components.json` & `src/app/globals.css`**: Applied user's chosen Shadcn theme preset `b2LWRjVn5G`.
 - **`src/app/globals.css`**: Enforced strict `border-0` philosophy (`* { border-color: transparent; }`), surface contrast tokens, and implemented the 8-tier responsive typography system (`.typo-display`, `.typo-h1`, `.typo-h2`, `.typo-h3`, `.typo-question`, `.typo-body`, `.typo-small`, `.typo-caption`).
