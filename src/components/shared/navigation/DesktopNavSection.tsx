@@ -25,10 +25,10 @@ export function DesktopNavSection({
   return (
     <div className="space-y-4">
       <div className="space-y-1">
-        <span className="px-3 text-[11px] font-bold uppercase tracking-wider text-muted-foreground/80">
+        <span className="px-3 text-[10px] font-bold uppercase tracking-wider text-muted-foreground/70">
           Navigation
         </span>
-        <nav className="mt-1.5 space-y-1">
+        <nav className="mt-1 space-y-1">
           {MAIN_NAV_ITEMS.map((item) => {
             const isProfile = item.href === "#profile";
             const active = isProfile ? profileOpen : isItemActive(item);
@@ -44,18 +44,18 @@ export function DesktopNavSection({
                   onPointerUp={onProfilePointerUp}
                   onPointerLeave={onProfilePointerLeave}
                   className={cn(
-                    "w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-semibold transition-all group select-none cursor-pointer border-0",
+                    "w-full flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium transition-all group select-none cursor-pointer border",
                     active
-                      ? "bg-foreground text-background shadow-xs font-bold"
-                      : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                      ? "bg-zinc-800/90 text-zinc-100 border-zinc-700/80 shadow-2xs font-semibold"
+                      : "text-zinc-400 hover:bg-zinc-800/40 hover:text-zinc-200 border-transparent"
                   )}
                   aria-label="Profile and Settings (Hold for Admin)"
                 >
                   <div className="flex items-center gap-2.5 min-w-0">
                     <Icon
                       className={cn(
-                        "h-4 w-4 shrink-0 transition-transform group-hover:scale-110",
-                        active ? "text-background" : "text-muted-foreground group-hover:text-foreground"
+                        "h-4 w-4 shrink-0 transition-transform group-hover:scale-105",
+                        active ? "text-primary" : "text-zinc-400 group-hover:text-zinc-200"
                       )}
                     />
                     <span className="truncate">{item.label}</span>
@@ -69,25 +69,25 @@ export function DesktopNavSection({
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-semibold transition-all group select-none border-0",
+                  "flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium transition-all group select-none border",
                   active
-                    ? "bg-foreground text-background shadow-xs font-bold"
-                    : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                    ? "bg-zinc-800/90 text-zinc-100 border-zinc-700/80 shadow-2xs font-semibold"
+                    : "text-zinc-400 hover:bg-zinc-800/40 hover:text-zinc-200 border-transparent"
                 )}
               >
                 <div className="flex items-center gap-2.5 min-w-0">
                   <Icon
                     className={cn(
-                      "h-4 w-4 shrink-0 transition-transform group-hover:scale-110",
-                      active ? "text-background" : "text-muted-foreground group-hover:text-foreground"
+                      "h-4 w-4 shrink-0 transition-transform group-hover:scale-105",
+                      active ? "text-primary" : "text-zinc-400 group-hover:text-zinc-200"
                     )}
                   />
                   <span className="truncate">{item.label}</span>
                 </div>
                 {item.badge && (
                   <Badge
-                    variant={active ? "secondary" : "outline"}
-                    className="text-[10px] h-4.5 px-1.5 font-bold border-0"
+                    variant="outline"
+                    className="text-[10px] h-4.5 px-1.5 font-bold border-border/80"
                   >
                     {item.badge}
                   </Badge>

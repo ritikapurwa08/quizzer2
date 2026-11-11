@@ -242,26 +242,26 @@ function SavedQuestionsContent() {
           </p>
         </div>
 
-        {/* ── Segmented Tab Switcher (border-0 bg-muted p-1 rounded-xl) ── */}
-        <div className="inline-flex items-center p-1 rounded-xl bg-muted border-0 self-start sm:self-auto gap-1">
+        {/* ── Segmented Tab Switcher (Crisp "चौकोर" Linear / Raycast Style) ── */}
+        <div className="inline-flex items-center p-0.5 rounded-lg bg-secondary/80 border border-border self-start sm:self-auto gap-0.5">
           <button
             type="button"
             onClick={() => setTab("wrong")}
             className={cn(
-              "inline-flex items-center gap-2 h-9 px-3.5 rounded-lg typo-small font-semibold transition-all cursor-pointer border-0",
+              "inline-flex items-center gap-2 h-8 px-3 rounded-md text-xs font-medium transition-all cursor-pointer border",
               activeTab === "wrong"
-                ? "bg-card text-foreground shadow-xs font-bold"
-                : "text-muted-foreground hover:text-foreground hover:bg-card/40"
+                ? "bg-card text-foreground border-border shadow-2xs font-semibold"
+                : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
             )}
           >
             <AlertCircle className="h-3.5 w-3.5 text-rose-500" />
             <span>Wrong Questions</span>
             <span
               className={cn(
-                "text-[10px] font-bold px-1.5 py-0.2 rounded-full tabular-nums",
+                "text-[10px] font-bold px-1.5 py-0.2 rounded-md tabular-nums border",
                 activeTab === "wrong"
-                  ? "bg-rose-500/15 text-rose-600 dark:text-rose-400"
-                  : "bg-muted text-muted-foreground"
+                  ? "bg-rose-500/15 text-rose-600 dark:text-rose-400 border-rose-500/20"
+                  : "bg-muted text-muted-foreground border-transparent"
               )}
             >
               {totalWrongCount}
@@ -272,20 +272,20 @@ function SavedQuestionsContent() {
             type="button"
             onClick={() => setTab("bookmarks")}
             className={cn(
-              "inline-flex items-center gap-2 h-9 px-3.5 rounded-lg typo-small font-semibold transition-all cursor-pointer border-0",
+              "inline-flex items-center gap-2 h-8 px-3 rounded-md text-xs font-medium transition-all cursor-pointer border",
               activeTab === "bookmarks"
-                ? "bg-card text-foreground shadow-xs font-bold"
-                : "text-muted-foreground hover:text-foreground hover:bg-card/40"
+                ? "bg-card text-foreground border-border shadow-2xs font-semibold"
+                : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
             )}
           >
             <Bookmark className="h-3.5 w-3.5 text-amber-500" />
             <span>Bookmarks</span>
             <span
               className={cn(
-                "text-[10px] font-bold px-1.5 py-0.2 rounded-full tabular-nums",
+                "text-[10px] font-bold px-1.5 py-0.2 rounded-md tabular-nums border",
                 activeTab === "bookmarks"
-                  ? "bg-amber-500/15 text-amber-600 dark:text-amber-400"
-                  : "bg-muted text-muted-foreground"
+                  ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 border-amber-500/20"
+                  : "bg-muted text-muted-foreground border-transparent"
               )}
             >
               {totalBmCount}

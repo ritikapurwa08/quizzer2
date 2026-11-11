@@ -83,10 +83,10 @@ export default function DashboardPage() {
 
       {/* ── 4 Stat Cards: Desktop 4-col / Mobile 2x2 ── */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5">
-        <Card className="p-4 rounded-2xl border-0 bg-card shadow-xs space-y-2">
+        <Card className="p-4 rounded-xl border border-border bg-card shadow-xs space-y-2">
           <div className="flex items-center justify-between">
             <span className="typo-small text-muted-foreground">Questions Solved</span>
-            <div className="p-2 rounded-xl bg-primary/10 text-primary">
+            <div className="p-2 rounded-lg bg-primary/10 text-primary">
               <CheckCircle2 className="h-4 w-4" />
             </div>
           </div>
@@ -98,10 +98,10 @@ export default function DashboardPage() {
           </div>
         </Card>
 
-        <Card className="p-4 rounded-2xl border-0 bg-card shadow-xs space-y-2">
+        <Card className="p-4 rounded-xl border border-border bg-card shadow-xs space-y-2">
           <div className="flex items-center justify-between">
             <span className="typo-small text-muted-foreground">Accuracy %</span>
-            <div className="p-2 rounded-xl bg-emerald-500/10 text-emerald-500">
+            <div className="p-2 rounded-lg bg-emerald-500/10 text-emerald-500">
               <Percent className="h-4 w-4" />
             </div>
           </div>
@@ -113,10 +113,10 @@ export default function DashboardPage() {
           </div>
         </Card>
 
-        <Card className="p-4 rounded-2xl border-0 bg-card shadow-xs space-y-2">
+        <Card className="p-4 rounded-xl border border-border bg-card shadow-xs space-y-2">
           <div className="flex items-center justify-between">
             <span className="typo-small text-muted-foreground">Saved Items</span>
-            <div className="p-2 rounded-xl bg-amber-500/10 text-amber-500">
+            <div className="p-2 rounded-lg bg-amber-500/10 text-amber-500">
               <Bookmark className="h-4 w-4" />
             </div>
           </div>
@@ -128,10 +128,10 @@ export default function DashboardPage() {
           </div>
         </Card>
 
-        <Card className="p-4 rounded-2xl border-0 bg-card shadow-xs space-y-2">
+        <Card className="p-4 rounded-xl border border-border bg-card shadow-xs space-y-2">
           <div className="flex items-center justify-between">
             <span className="typo-small text-muted-foreground">Active Streak</span>
-            <div className="p-2 rounded-xl bg-rose-500/10 text-rose-500">
+            <div className="p-2 rounded-lg bg-rose-500/10 text-rose-500">
               <Flame className="h-4 w-4" />
             </div>
           </div>
@@ -170,8 +170,8 @@ export default function DashboardPage() {
         {subjects === undefined ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {Array.from({ length: 4 }).map((_, i) => (
-              <Card key={i} className="p-5 border-0 bg-card rounded-2xl space-y-3 shadow-xs">
-                <Skeleton className="h-10 w-10 rounded-xl" />
+              <Card key={i} className="p-5 border border-border bg-card rounded-xl space-y-3 shadow-xs">
+                <Skeleton className="h-10 w-10 rounded-lg" />
                 <Skeleton className="h-5 w-3/4" />
                 <Skeleton className="h-3 w-1/2" />
               </Card>
@@ -187,12 +187,12 @@ export default function DashboardPage() {
                   href={`/subjects/${subject._id}`}
                   className="group block"
                 >
-                  <Card className="p-5 border-0 bg-card rounded-2xl shadow-xs hover:shadow-md transition-all group-hover:-translate-y-0.5 space-y-3 cursor-pointer">
+                  <Card className="p-5 border border-border bg-card rounded-xl shadow-xs hover:border-primary/50 transition-all group-hover:-translate-y-0.5 space-y-3 cursor-pointer">
                     <div className="flex items-center justify-between">
-                      <div className="p-2.5 rounded-xl bg-primary/10 text-primary group-hover:scale-105 transition-transform">
+                      <div className="p-2 rounded-lg bg-primary/10 text-primary group-hover:scale-105 transition-transform">
                         <BookOpen className="h-5 w-5" />
                       </div>
-                      <Badge variant="secondary" className="typo-caption border-0 bg-muted text-muted-foreground font-semibold">
+                      <Badge variant="secondary" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
                         {topicCount}
                       </Badge>
                     </div>
@@ -232,12 +232,12 @@ export default function DashboardPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Column 1: Grammar & Core Rules (Active / Practice Ready) */}
           <Link href="/subjects" className="group block">
-            <Card className="p-5 border-0 bg-card rounded-2xl shadow-xs hover:shadow-md transition-all group-hover:-translate-y-0.5 space-y-3 cursor-pointer">
+            <Card className="p-5 border border-border bg-card rounded-xl shadow-xs hover:border-emerald-500/50 transition-all group-hover:-translate-y-0.5 space-y-3 cursor-pointer">
               <div className="flex items-center justify-between">
-                <div className="p-2.5 rounded-xl bg-emerald-500/10 text-emerald-500 group-hover:scale-105 transition-transform">
+                <div className="p-2 rounded-lg bg-emerald-500/10 text-emerald-500 group-hover:scale-105 transition-transform">
                   <FileCheck2 className="h-5 w-5" />
                 </div>
-                <Badge className="typo-caption border-0 bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 font-bold">
+                <Badge className="typo-caption border border-emerald-500/30 bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 font-bold">
                   Active Ready
                 </Badge>
               </div>
@@ -259,12 +259,12 @@ export default function DashboardPage() {
           </Link>
 
           {/* Column 2: Part 2: Vocabulary & Idioms (Coming Soon) */}
-          <Card className="p-5 border-0 bg-card/70 rounded-2xl shadow-xs space-y-3 select-none">
+          <Card className="p-5 border border-border bg-card/70 rounded-xl shadow-xs space-y-3 select-none">
             <div className="flex items-center justify-between">
-              <div className="p-2.5 rounded-xl bg-muted text-muted-foreground">
+              <div className="p-2 rounded-lg bg-muted text-muted-foreground">
                 <Lock className="h-5 w-5" />
               </div>
-              <Badge variant="outline" className="typo-caption border-0 bg-muted/80 text-muted-foreground font-semibold">
+              <Badge variant="outline" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
                 Coming Soon
               </Badge>
             </div>
@@ -284,12 +284,12 @@ export default function DashboardPage() {
           </Card>
 
           {/* Column 3: Part 3: Comprehension & Usage (Coming Soon) */}
-          <Card className="p-5 border-0 bg-card/70 rounded-2xl shadow-xs space-y-3 select-none">
+          <Card className="p-5 border border-border bg-card/70 rounded-xl shadow-xs space-y-3 select-none">
             <div className="flex items-center justify-between">
-              <div className="p-2.5 rounded-xl bg-muted text-muted-foreground">
+              <div className="p-2 rounded-lg bg-muted text-muted-foreground">
                 <Lock className="h-5 w-5" />
               </div>
-              <Badge variant="outline" className="typo-caption border-0 bg-muted/80 text-muted-foreground font-semibold">
+              <Badge variant="outline" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
                 Coming Soon
               </Badge>
             </div>
@@ -323,12 +323,12 @@ export default function DashboardPage() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {/* Card 1: Indian Geography */}
-          <Card className="p-5 border-0 bg-card/70 rounded-2xl shadow-xs space-y-3 select-none">
+          <Card className="p-5 border border-border bg-card/70 rounded-xl shadow-xs space-y-3 select-none">
             <div className="flex items-center justify-between">
-              <div className="p-2.5 rounded-xl bg-muted text-muted-foreground">
+              <div className="p-2 rounded-lg bg-muted text-muted-foreground">
                 <Compass className="h-5 w-5" />
               </div>
-              <Badge variant="outline" className="typo-caption border-0 bg-muted/80 text-muted-foreground font-semibold">
+              <Badge variant="outline" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
                 Coming Soon
               </Badge>
             </div>
@@ -341,12 +341,12 @@ export default function DashboardPage() {
           </Card>
 
           {/* Card 2: World Geography */}
-          <Card className="p-5 border-0 bg-card/70 rounded-2xl shadow-xs space-y-3 select-none">
+          <Card className="p-5 border border-border bg-card/70 rounded-xl shadow-xs space-y-3 select-none">
             <div className="flex items-center justify-between">
-              <div className="p-2.5 rounded-xl bg-muted text-muted-foreground">
+              <div className="p-2 rounded-lg bg-muted text-muted-foreground">
                 <Globe className="h-5 w-5" />
               </div>
-              <Badge variant="outline" className="typo-caption border-0 bg-muted/80 text-muted-foreground font-semibold">
+              <Badge variant="outline" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
                 Coming Soon
               </Badge>
             </div>
@@ -359,12 +359,12 @@ export default function DashboardPage() {
           </Card>
 
           {/* Card 3: Indian Economy */}
-          <Card className="p-5 border-0 bg-card/70 rounded-2xl shadow-xs space-y-3 select-none">
+          <Card className="p-5 border border-border bg-card/70 rounded-xl shadow-xs space-y-3 select-none">
             <div className="flex items-center justify-between">
-              <div className="p-2.5 rounded-xl bg-muted text-muted-foreground">
+              <div className="p-2 rounded-lg bg-muted text-muted-foreground">
                 <TrendingUp className="h-5 w-5" />
               </div>
-              <Badge variant="outline" className="typo-caption border-0 bg-muted/80 text-muted-foreground font-semibold">
+              <Badge variant="outline" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
                 Coming Soon
               </Badge>
             </div>
@@ -377,12 +377,12 @@ export default function DashboardPage() {
           </Card>
 
           {/* Card 4: Indian Polity & History */}
-          <Card className="p-5 border-0 bg-card/70 rounded-2xl shadow-xs space-y-3 select-none">
+          <Card className="p-5 border border-border bg-card/70 rounded-xl shadow-xs space-y-3 select-none">
             <div className="flex items-center justify-between">
-              <div className="p-2.5 rounded-xl bg-muted text-muted-foreground">
+              <div className="p-2 rounded-lg bg-muted text-muted-foreground">
                 <Landmark className="h-5 w-5" />
               </div>
-              <Badge variant="outline" className="typo-caption border-0 bg-muted/80 text-muted-foreground font-semibold">
+              <Badge variant="outline" className="typo-caption border border-border/60 bg-muted/80 text-muted-foreground font-semibold">
                 Coming Soon
               </Badge>
             </div>
@@ -400,10 +400,10 @@ export default function DashboardPage() {
           SECTION 4: CURRENT AFFAIRS (COMING SOON CARD)
           ══════════════════════════════════════════════════════════════════════ */}
       <section aria-label="Current Affairs">
-        <Card className="p-6 border-0 bg-card/70 rounded-2xl shadow-xs select-none">
+        <Card className="p-6 border border-border bg-card/70 rounded-xl shadow-xs select-none">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="flex items-start gap-4">
-              <div className="p-3 rounded-2xl bg-primary/10 text-primary shrink-0 mt-0.5">
+              <div className="p-2.5 rounded-lg bg-primary/10 text-primary shrink-0 mt-0.5">
                 <Radio className="h-6 w-6" />
               </div>
               <div>
@@ -411,7 +411,7 @@ export default function DashboardPage() {
                   <h3 className="typo-h3 text-foreground">
                     Current Affairs (Rajasthan, India &amp; World)
                   </h3>
-                  <Badge variant="outline" className="typo-caption border-0 bg-muted text-muted-foreground font-semibold">
+                  <Badge variant="outline" className="typo-caption border border-border/60 bg-muted text-muted-foreground font-semibold">
                     Coming Soon
                   </Badge>
                 </div>
@@ -421,7 +421,7 @@ export default function DashboardPage() {
               </div>
             </div>
 
-            <Badge variant="secondary" className="typo-caption border-0 bg-muted self-start sm:self-auto px-3 py-1 font-semibold text-muted-foreground">
+            <Badge variant="secondary" className="typo-caption border border-border/60 bg-muted self-start sm:self-auto px-3 py-1 font-semibold text-muted-foreground">
               Module In Development
             </Badge>
           </div>
@@ -430,7 +430,7 @@ export default function DashboardPage() {
 
       {/* ── Recent Attempts & Syllabus Overview ── */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-2">
-        <Card className="p-5 border-0 bg-card shadow-xs rounded-2xl space-y-3">
+        <Card className="p-5 border border-border bg-card shadow-xs rounded-xl space-y-3">
           <div className="flex items-center justify-between">
             <h3 className="typo-h3 text-foreground">Recent Attempts</h3>
             <Button asChild variant="ghost" size="sm" className="typo-small text-primary hover:bg-muted border-0 p-0 h-auto">
