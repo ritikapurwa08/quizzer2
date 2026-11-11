@@ -10,6 +10,7 @@ import {
   FileUp,
   GitCompare,
   Pencil,
+  User,
 } from "lucide-react";
 
 export interface NavItem {
@@ -20,13 +21,13 @@ export interface NavItem {
   badge?: string | number;
 }
 
-// 5 items for mobile bottom nav bar for all users
+// Strictly 5 items for mobile bottom nav bar (grid-cols-5, no 6th button)
 export const BOTTOM_NAV_ITEMS: NavItem[] = [
-  { label: "Dashboard", href: "/dashboard", icon: LayoutGrid, exact: true },
+  { label: "Home", href: "/dashboard", icon: LayoutGrid, exact: true },
   { label: "Subjects", href: "/subjects", icon: BookOpen },
+  { label: "Tests", href: "/history", icon: History, exact: true },
   { label: "Analytics", href: "/analytics", icon: BarChart2, exact: true },
-  { label: "History", href: "/history", icon: History, exact: true },
-  { label: "Saved", href: "/saved-questions", icon: Bookmark },
+  { label: "Profile", href: "#profile", icon: User },
 ];
 
 // Full student nav for desktop sidebar
@@ -47,4 +48,3 @@ export const ADMIN_NAV_ITEMS: NavItem[] = [
   { label: "Dedup Review", href: "/admin/dedup", icon: GitCompare, exact: true },
   { label: "Import Sets", href: "/admin/import", icon: FileUp, exact: true },
 ];
-

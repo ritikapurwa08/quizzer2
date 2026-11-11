@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useQuery } from "convex/react";
@@ -8,7 +8,7 @@ import { useAuthActions } from "@convex-dev/auth/react";
 import { useTheme } from "next-themes";
 import { api } from "../../../convex/_generated/api";
 import { isUserAdmin } from "@/lib/constants";
-import { QuizzerLogoIcon } from "@/components/icons/QuizzerIcons";
+import { BrandLogo } from "@/components/ui/brand-logo";
 import {
   type NavItem,
   MobileAdminBottomSheet,
@@ -23,16 +23,16 @@ export function AppSidebar() {
   const me = useQuery(api.users.me);
   const { signOut } = useAuthActions();
   const { theme, setTheme } = useTheme();
-  const [adminMenuOpen, setAdminMenuOpen] = useState(false);
+  const [profileOpen, setProfileOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  // Close admin bottom sheet on route change
+  // Close profile bottom sheet on route change
   useEffect(() => {
-    setAdminMenuOpen(false);
+    setProfileOpen(false);
   }, [pathname]);
 
   const isAdmin = isUserAdmin(me);
@@ -59,33 +59,103 @@ export function AppSidebar() {
     [pathname]
   );
 
+  // ── Keyboard shortcut: Ctrl + Shift + A -> /admin ──
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === "a" || e.key === "A")) {
+        e.preventDefault();
+        if (isAdmin) {
+          router.push("/admin");
+        }
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [isAdmin, router]);
+
+  // ── Double-click / Long-press Admin Trigger ──
+  const handleAdminTrigger = useCallback(() => {
+    if (isAdmin) {
+      router.push("/admin");
+    }
+  }, [isAdmin, router]);
+
+  const longPressTimerRef = useRef<NodeJS.Timeout | null>(null);
+
+  const handleTouchStart = useCallback(() => {
+    if (!isAdmin) return;
+    longPressTimerRef.current = setTimeout(() => {
+      handleAdminTrigger();
+    }, 600);
+  }, [isAdmin, handleAdminTrigger]);
+
+  const handleTouchEnd = useCallback(() => {
+    if (longPressTimerRef.current) {
+      clearTimeout(longPressTimerRef.current);
+      longPressTimerRef.current = null;
+    }
+  }, []);
+
   return (
     <>
-      {/* ── MOBILE ADMIN BOTTOM SHEET (Admin only) ── */}
-      {isAdmin && (
-        <MobileAdminBottomSheet
-          isOpen={adminMenuOpen}
-          onClose={() => setAdminMenuOpen(false)}
-          pathname={pathname || ""}
-          userEmail={me?.email}
-          displayName={displayName}
-          initials={initials}
-          theme={theme}
-          mounted={mounted}
-          onToggleTheme={handleToggleTheme}
-          onSignOut={handleSignOut}
-          isItemActive={isItemActive}
-        />
+      {/* ── MOBILE TOP HEADER BAR (Mobile only, hidden during quiz) ── */}
+      {!isQuizActive && (
+        <header className="md:hidden sticky top-0 z-30 flex items-center justify-between px-4 py-2.5 border-b border-border/80 bg-card/95 backdrop-blur-md safe-top print:hidden">
+          <div
+            onDoubleClick={handleAdminTrigger}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+            className="cursor-pointer"
+            title={isAdmin ? "Quizzer (Double-tap or Long-press for Admin)" : "Quizzer"}
+          >
+            <Link href="/dashboard" className="flex items-center">
+              <BrandLogo size="sm" />
+            </Link>
+          </div>
+
+          <button
+            type="button"
+            onClick={() => setProfileOpen(true)}
+            onDoubleClick={handleAdminTrigger}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+            className="flex items-center gap-2 p-1 pl-2.5 rounded-xl border border-border/60 bg-muted/40 hover:bg-muted transition-colors cursor-pointer"
+            aria-label="Profile and Settings"
+            title={isAdmin ? "Profile (Double-tap for Admin)" : "Profile"}
+          >
+            <span className="text-xs font-semibold text-foreground max-w-[90px] truncate">
+              {displayName}
+            </span>
+            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-foreground text-background font-bold text-xs shadow-2xs">
+              {initials}
+            </div>
+          </button>
+        </header>
       )}
 
-      {/* ── MOBILE BOTTOM NAVIGATION BAR ── */}
+      {/* ── MOBILE USER PROFILE & ADMIN BOTTOM SHEET ── */}
+      <MobileAdminBottomSheet
+        isOpen={profileOpen}
+        onClose={() => setProfileOpen(false)}
+        pathname={pathname || ""}
+        userEmail={me?.email}
+        displayName={displayName}
+        initials={initials}
+        isAdmin={isAdmin}
+        theme={theme}
+        mounted={mounted}
+        onToggleTheme={handleToggleTheme}
+        onSignOut={handleSignOut}
+        isItemActive={isItemActive}
+      />
+
+      {/* ── MOBILE BOTTOM NAVIGATION BAR (Strictly 5 items, grid-cols-5) ── */}
       {!isQuizActive && (
         <MobileBottomNavBar
           pathname={pathname || ""}
-          isAdmin={isAdmin}
-          adminMenuOpen={adminMenuOpen}
-          onToggleAdminMenu={() => setAdminMenuOpen((prev) => !prev)}
           isItemActive={isItemActive}
+          profileOpen={profileOpen}
+          onOpenProfile={() => setProfileOpen(true)}
         />
       )}
 
@@ -93,17 +163,17 @@ export function AppSidebar() {
       <aside className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0 z-30 border-r border-border bg-card print:hidden">
         {/* Brand header */}
         <div className="p-4 border-b border-border/80 flex items-center justify-between">
-          <Link href="/dashboard" className="flex items-center gap-2.5 group">
-            <QuizzerLogoIcon className="h-7 w-7 transition-transform group-hover:scale-105" />
-            <div>
-              <span className="font-bold text-base tracking-tight text-foreground group-hover:text-primary transition-colors block leading-tight">
-                Quizzer
-              </span>
-              <span className="text-[10px] font-medium text-muted-foreground block">
-                RPSC 2nd Grade GK
-              </span>
-            </div>
-          </Link>
+          <div
+            onDoubleClick={handleAdminTrigger}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+            className="cursor-pointer"
+            title={isAdmin ? "Quizzer (Double-click or Ctrl+Shift+A for Admin)" : "Quizzer"}
+          >
+            <Link href="/dashboard" className="flex items-center">
+              <BrandLogo size="md" />
+            </Link>
+          </div>
         </div>
 
         {/* Scrollable Navigation */}

@@ -1,7 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Sun, Moon, LogOut } from "lucide-react";
+import { Sun, Moon, LogOut, Shield } from "lucide-react";
 
 interface SidebarUserProfileProps {
   initials: string;
@@ -38,6 +39,17 @@ export function SidebarUserProfile({
         </div>
 
         <div className="flex items-center gap-1 shrink-0">
+          {isAdmin && (
+            <Link
+              href="/admin"
+              className="h-8 w-8 rounded-lg flex items-center justify-center text-amber-500 hover:bg-amber-500/15 hover:text-amber-600 dark:hover:text-amber-400 transition-colors cursor-pointer"
+              title="Admin Console (Ctrl+Shift+A)"
+              aria-label="Admin Console"
+            >
+              <Shield className="h-4 w-4" />
+            </Link>
+          )}
+
           <Button
             variant="ghost"
             size="icon"
@@ -70,4 +82,3 @@ export function SidebarUserProfile({
     </div>
   );
 }
-
