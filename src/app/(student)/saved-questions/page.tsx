@@ -242,16 +242,16 @@ function SavedQuestionsContent() {
           </p>
         </div>
 
-        {/* ── Segmented Tab Switcher ── */}
-        <div className="inline-flex items-center p-1 rounded-2xl bg-muted/40 border border-border/80 self-start sm:self-auto">
+        {/* ── Segmented Tab Switcher (border-0 bg-muted p-1 rounded-xl) ── */}
+        <div className="inline-flex items-center p-1 rounded-xl bg-muted border-0 self-start sm:self-auto gap-1">
           <button
             type="button"
             onClick={() => setTab("wrong")}
             className={cn(
-              "inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer",
+              "inline-flex items-center gap-2 h-9 px-3.5 rounded-lg typo-small font-semibold transition-all cursor-pointer border-0",
               activeTab === "wrong"
-                ? "bg-card text-foreground shadow-xs border border-border/80 font-bold"
-                : "text-muted-foreground hover:text-foreground"
+                ? "bg-card text-foreground shadow-xs font-bold"
+                : "text-muted-foreground hover:text-foreground hover:bg-card/40"
             )}
           >
             <AlertCircle className="h-3.5 w-3.5 text-rose-500" />
@@ -272,10 +272,10 @@ function SavedQuestionsContent() {
             type="button"
             onClick={() => setTab("bookmarks")}
             className={cn(
-              "inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer",
+              "inline-flex items-center gap-2 h-9 px-3.5 rounded-lg typo-small font-semibold transition-all cursor-pointer border-0",
               activeTab === "bookmarks"
-                ? "bg-card text-foreground shadow-xs border border-border/80 font-bold"
-                : "text-muted-foreground hover:text-foreground"
+                ? "bg-card text-foreground shadow-xs font-bold"
+                : "text-muted-foreground hover:text-foreground hover:bg-card/40"
             )}
           >
             <Bookmark className="h-3.5 w-3.5 text-amber-500" />

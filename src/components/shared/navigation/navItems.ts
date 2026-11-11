@@ -1,14 +1,11 @@
 import {
   LayoutGrid,
-  BookOpen,
-  ListChecks,
   BarChart2,
   History,
   Bookmark,
   Shield,
   Database,
   FileUp,
-  GitCompare,
   Pencil,
   User,
 } from "lucide-react";
@@ -21,30 +18,22 @@ export interface NavItem {
   badge?: string | number;
 }
 
-// Strictly 5 items for mobile bottom nav bar (grid-cols-5, no 6th button)
-export const BOTTOM_NAV_ITEMS: NavItem[] = [
+// Strictly 5 items for Mobile Bottom Bar & Desktop Sidebar (student-identical)
+export const MAIN_NAV_ITEMS: NavItem[] = [
   { label: "Home", href: "/dashboard", icon: LayoutGrid, exact: true },
-  { label: "Subjects", href: "/subjects", icon: BookOpen },
   { label: "Tests", href: "/history", icon: History, exact: true },
+  { label: "Saved", href: "/saved-questions", icon: Bookmark, exact: true },
   { label: "Analytics", href: "/analytics", icon: BarChart2, exact: true },
-  { label: "Profile", href: "#profile", icon: User },
+  { label: "Profile", href: "#profile", icon: User, exact: true },
 ];
 
-// Full student nav for desktop sidebar
-export const STUDENT_NAV_ITEMS: NavItem[] = [
-  { label: "Dashboard", href: "/dashboard", icon: LayoutGrid, exact: true },
-  { label: "Subjects", href: "/subjects", icon: BookOpen },
-  { label: "Syllabus Tracker", href: "/syllabus", icon: ListChecks, exact: true },
-  { label: "Analytics", href: "/analytics", icon: BarChart2, exact: true },
-  { label: "Test History", href: "/history", icon: History, exact: true },
-  { label: "Saved Questions", href: "/saved-questions", icon: Bookmark },
-];
+export const BOTTOM_NAV_ITEMS: NavItem[] = MAIN_NAV_ITEMS;
+export const STUDENT_NAV_ITEMS: NavItem[] = MAIN_NAV_ITEMS;
 
-// Admin navigation items
+// Exactly 4 Admin links (opened via long-press on Profile or Ctrl+Shift+A)
 export const ADMIN_NAV_ITEMS: NavItem[] = [
   { label: "Admin Overview", href: "/admin", icon: Shield, exact: true },
   { label: "Question Editor", href: "/admin/questions", icon: Pencil, exact: true },
-  { label: "55 Topics Pool", href: "/admin/pool", icon: Database, exact: true },
-  { label: "Dedup Review", href: "/admin/dedup", icon: GitCompare, exact: true },
-  { label: "Import Sets", href: "/admin/import", icon: FileUp, exact: true },
+  { label: "55 Topic Pool", href: "/admin/pool", icon: Database, exact: true },
+  { label: "Import Set", href: "/admin/import", icon: FileUp, exact: true },
 ];

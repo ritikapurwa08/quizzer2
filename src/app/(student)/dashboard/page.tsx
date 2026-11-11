@@ -2,200 +2,213 @@
 
 import Link from "next/link";
 import { useQuery } from "convex/react";
-import { StatCard } from "@/components/dashboard/StatCard";
-import { ContinuePracticeCard } from "@/components/dashboard/ContinuePracticeCard";
-import { ResultHistoryItem } from "@/components/shared/ResultHistoryItem";
-import { Card } from "@/components/ui/card";
-import { Skeleton } from "@/components/ui/skeleton";
-import { Button } from "@/components/ui/button";
-import { EmptyState } from "@/components/shared/EmptyState";
+import { useTheme } from "next-themes";
 import {
   CheckCircle2,
-  ListChecks,
   Percent,
   Bookmark,
-  History,
+  Flame,
+  Sun,
+  Moon,
   ArrowRight,
   BookOpen,
+  Compass,
+  Globe,
+  TrendingUp,
+  Landmark,
+  Radio,
+  FileCheck2,
+  Lock,
   Sparkles,
 } from "lucide-react";
-import { formatAccuracy, getSubjectDisplayName, cn } from "@/lib/utils";
+import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
+import { formatAccuracy } from "@/lib/utils";
 import { api } from "../../../../convex/_generated/api";
+import { ContinuePracticeCard } from "@/components/dashboard/ContinuePracticeCard";
 import { SyllabusOverviewCard } from "@/components/dashboard/SyllabusOverviewCard";
-import { getSubjectSectionIcon } from "@/components/icons/QuizzerIcons";
-
-function getSubjectTheme(name: string) {
-  if (name.includes("भूगोल") || name.includes("सामान्य ज्ञान")) {
-    return {
-      accent: "text-emerald-400",
-      bg: "bg-emerald-500/10",
-      border: "border-emerald-500/20 hover:border-emerald-500/40",
-      gradient: "from-emerald-500/[0.04] to-card/50",
-      badge: "15 Topics",
-      badgeStyle: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
-    };
-  }
-  if (name.includes("इतिहास")) {
-    return {
-      accent: "text-amber-400",
-      bg: "bg-amber-500/10",
-      border: "border-amber-500/20 hover:border-amber-500/40",
-      gradient: "from-amber-500/[0.04] to-card/50",
-      badge: "10 Topics",
-      badgeStyle: "bg-amber-500/10 text-amber-400 border-amber-500/20",
-    };
-  }
-  if (name.includes("कला") || name.includes("संस्कृति")) {
-    return {
-      accent: "text-purple-400",
-      bg: "bg-purple-500/10",
-      border: "border-purple-500/20 hover:border-purple-500/40",
-      gradient: "from-purple-500/[0.04] to-card/50",
-      badge: "15 Topics",
-      badgeStyle: "bg-purple-500/10 text-purple-400 border-purple-500/20",
-    };
-  }
-  if (name.includes("राजव्यवस्था") || name.includes("प्रशासन")) {
-    return {
-      accent: "text-blue-400",
-      bg: "bg-blue-500/10",
-      border: "border-blue-500/20 hover:border-blue-500/40",
-      gradient: "from-blue-500/[0.04] to-card/50",
-      badge: "15 Topics",
-      badgeStyle: "bg-blue-500/10 text-blue-400 border-blue-500/20",
-    };
-  }
-  return {
-    accent: "text-cyan-400",
-    bg: "bg-cyan-500/10",
-    border: "border-cyan-500/20 hover:border-cyan-500/40",
-    gradient: "from-cyan-500/[0.04] to-card/50",
-    badge: "Paper-II",
-    badgeStyle: "bg-cyan-500/10 text-cyan-400 border-cyan-500/20",
-  };
-}
+import { ResultHistoryItem } from "@/components/shared/ResultHistoryItem";
+import { EmptyState } from "@/components/shared/EmptyState";
 
 export default function DashboardPage() {
   const me = useQuery(api.users.me);
   const stats = useQuery(api.analytics.dashboardStats, {});
   const recent = useQuery(api.attempts.recentByUser, { limit: 5 });
   const subjects = useQuery(api.subjects.list);
+  const { theme, setTheme } = useTheme();
 
   const displayName = me?.name ? me.name.split(" ")[0] : "Student";
 
+  // Filter Rajasthan GK subjects from the list
+  const rajasthanSubjects = (subjects || []).filter(
+    (s) => !s.name.toLowerCase().includes("english")
+  );
+
   return (
-    <div className="space-y-6 pb-10">
-      {/* ── Page Header & Personal Greeting ── */}
-      <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
+    <div className="max-w-7xl mx-auto px-4 md:px-8 py-6 space-y-8 pb-16">
+      {/* ── Top Row & Quick Metrics Strip ── */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-0">
         <div>
           <div className="flex items-center gap-2">
-            <h1 className="text-xl sm:text-2xl font-black tracking-tight text-foreground">
+            <h1 className="typo-h1 text-foreground">
               Welcome back, {displayName}
             </h1>
-            <Sparkles className="h-4 w-4 text-primary shrink-0 hidden sm:inline" />
+            <Sparkles className="h-4 w-4 text-primary shrink-0" />
           </div>
-          <p className="text-xs sm:text-sm text-muted-foreground mt-0.5">
-            Continue your RPSC 2nd Grade GK exam revision and practice tests.
+          <p className="typo-small text-muted-foreground mt-0.5">
+            Your personalized RPSC 2nd Grade GK exam revision &amp; practice command center.
           </p>
         </div>
-        <Button asChild variant="outline" className="rounded-xl shrink-0 shadow-2xs h-9 px-4 text-xs sm:text-sm font-semibold border-border/80 bg-card hover:bg-muted text-foreground">
-          <Link href="/subjects" className="inline-flex items-center gap-1.5">
-            Browse All Subjects <ArrowRight className="h-3.5 w-3.5" />
-          </Link>
-        </Button>
+
+        {/* Right side: Streak Badge + Light/Dark Theme Toggle */}
+        <div className="flex items-center gap-2.5 self-start sm:self-auto shrink-0">
+          <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 border-0 shadow-2xs typo-small font-bold">
+            <Flame className="h-4 w-4 fill-amber-500 text-amber-500 animate-pulse" />
+            <span>3-Day Streak</span>
+          </div>
+
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            className="h-9 w-9 rounded-xl bg-card text-muted-foreground hover:text-foreground border-0 shadow-xs cursor-pointer"
+            aria-label="Toggle theme"
+          >
+            {theme === "dark" ? <Sun className="h-4 w-4 text-amber-400" /> : <Moon className="h-4 w-4 text-blue-500" />}
+          </Button>
+        </div>
       </div>
 
+      {/* ── 4 Stat Cards: Desktop 4-col / Mobile 2x2 ── */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5">
+        <Card className="p-4 rounded-2xl border-0 bg-card shadow-xs space-y-2">
+          <div className="flex items-center justify-between">
+            <span className="typo-small text-muted-foreground">Questions Solved</span>
+            <div className="p-2 rounded-xl bg-primary/10 text-primary">
+              <CheckCircle2 className="h-4 w-4" />
+            </div>
+          </div>
+          <div>
+            <span className="typo-display text-foreground block">
+              {stats ? stats.questionsSolved.toLocaleString("en-IN") : <Skeleton className="h-8 w-20" />}
+            </span>
+            <span className="text-[11px] text-muted-foreground">Across verified sets</span>
+          </div>
+        </Card>
+
+        <Card className="p-4 rounded-2xl border-0 bg-card shadow-xs space-y-2">
+          <div className="flex items-center justify-between">
+            <span className="typo-small text-muted-foreground">Accuracy %</span>
+            <div className="p-2 rounded-xl bg-emerald-500/10 text-emerald-500">
+              <Percent className="h-4 w-4" />
+            </div>
+          </div>
+          <div>
+            <span className="typo-display text-foreground block">
+              {stats ? formatAccuracy(stats.overallAccuracy) : <Skeleton className="h-8 w-20" />}
+            </span>
+            <span className="text-[11px] text-muted-foreground">Overall success rate</span>
+          </div>
+        </Card>
+
+        <Card className="p-4 rounded-2xl border-0 bg-card shadow-xs space-y-2">
+          <div className="flex items-center justify-between">
+            <span className="typo-small text-muted-foreground">Saved Items</span>
+            <div className="p-2 rounded-xl bg-amber-500/10 text-amber-500">
+              <Bookmark className="h-4 w-4" />
+            </div>
+          </div>
+          <div>
+            <span className="typo-display text-foreground block">
+              {stats ? stats.bookmarkCount : <Skeleton className="h-8 w-16" />}
+            </span>
+            <span className="text-[11px] text-muted-foreground">Bookmarks &amp; wrong Qs</span>
+          </div>
+        </Card>
+
+        <Card className="p-4 rounded-2xl border-0 bg-card shadow-xs space-y-2">
+          <div className="flex items-center justify-between">
+            <span className="typo-small text-muted-foreground">Active Streak</span>
+            <div className="p-2 rounded-xl bg-rose-500/10 text-rose-500">
+              <Flame className="h-4 w-4" />
+            </div>
+          </div>
+          <div>
+            <span className="typo-display text-foreground block">
+              3 <span className="typo-h3 font-medium text-muted-foreground">Days</span>
+            </span>
+            <span className="text-[11px] text-muted-foreground">Daily practice consistency</span>
+          </div>
+        </Card>
+      </div>
+
+      {/* ── Continue Practice Shortcut ── */}
+      <section aria-label="Continue Practice">
+        <ContinuePracticeCard />
+      </section>
+
       {/* ══════════════════════════════════════════════════════════════════════
-          1. SUBJECTS (ORDER 1 — TOP OF DASHBOARD, FULLY READABLE NO TRUNCATION)
+          SECTION 1: RAJASTHAN GENERAL KNOWLEDGE (ACTIVE)
           ══════════════════════════════════════════════════════════════════════ */}
-      <section aria-label="Subjects" className="space-y-3">
+      <section aria-label="Rajasthan General Knowledge" className="space-y-4">
         <div className="flex items-center justify-between">
-          <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2">
-            <BookOpen className="h-4 w-4 text-foreground" />
-            Subjects
-            {subjects !== undefined && (
-              <span className="font-bold text-foreground tabular-nums">({subjects.length})</span>
-            )}
-          </h2>
-          <Link
-            href="/subjects"
-            className="text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"
-          >
-            All Subjects <ArrowRight className="h-3 w-3" />
-          </Link>
+          <div>
+            <h2 className="typo-h2 text-foreground">Rajasthan General Knowledge</h2>
+            <p className="typo-small text-muted-foreground">
+              Official 55 Master Topics across 4 Canonical Subjects (RPSC Senior Teacher 2nd Grade)
+            </p>
+          </div>
+          <Button asChild variant="ghost" size="sm" className="typo-small text-primary hover:bg-muted border-0 gap-1 cursor-pointer">
+            <Link href="/subjects">
+              View All <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
+          </Button>
         </div>
 
         {subjects === undefined ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <Card
-                key={i}
-                className="p-4 border border-border/80 bg-card rounded-2xl space-y-3 shadow-none"
-              >
-                <div className="flex items-center justify-between">
-                  <Skeleton className="h-8 w-8 rounded-lg" />
-                  <Skeleton className="h-4 w-14 rounded-md" />
-                </div>
-                <Skeleton className="h-8 w-full rounded" />
-                <Skeleton className="h-3 w-16 rounded" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {Array.from({ length: 4 }).map((_, i) => (
+              <Card key={i} className="p-5 border-0 bg-card rounded-2xl space-y-3 shadow-xs">
+                <Skeleton className="h-10 w-10 rounded-xl" />
+                <Skeleton className="h-5 w-3/4" />
+                <Skeleton className="h-3 w-1/2" />
               </Card>
             ))}
           </div>
-        ) : subjects.length === 0 ? (
-          <EmptyState
-            icon={BookOpen}
-            title="No subjects available"
-            description="No subjects have been created yet."
-          />
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-            {subjects.map((s) => {
-              const SectionIcon = getSubjectSectionIcon(s.slug || s.name);
-              const displayName = getSubjectDisplayName(s);
-              const theme = getSubjectTheme(displayName);
-
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {rajasthanSubjects.slice(0, 4).map((subject) => {
+              const topicCount = subject.name.includes("इतिहास") ? "10 Topics" : "15 Topics";
               return (
-                <Link key={s._id} href={`/subjects/${s._id}`} className="block focus-visible:outline-hidden group">
-                  <Card
-                    className={cn(
-                      "p-4 border bg-gradient-to-b transition-all flex flex-col justify-between gap-3 h-full rounded-2xl select-none relative overflow-hidden shadow-2xs hover:shadow-xs",
-                      theme.border,
-                      theme.gradient
-                    )}
-                  >
-                    {/* Top Row: Themed Icon + Themed Badge */}
-                    <div className="flex items-center justify-between gap-2">
-                      <div
-                        className={cn(
-                          "flex h-8 w-8 items-center justify-center rounded-xl border transition-colors duration-200 shrink-0",
-                          theme.bg,
-                          theme.accent,
-                          theme.border
-                        )}
-                      >
-                        <SectionIcon className="h-4 w-4" />
+                <Link
+                  key={subject._id}
+                  href={`/subjects/${subject._id}`}
+                  className="group block"
+                >
+                  <Card className="p-5 border-0 bg-card rounded-2xl shadow-xs hover:shadow-md transition-all group-hover:-translate-y-0.5 space-y-3 cursor-pointer">
+                    <div className="flex items-center justify-between">
+                      <div className="p-2.5 rounded-xl bg-primary/10 text-primary group-hover:scale-105 transition-transform">
+                        <BookOpen className="h-5 w-5" />
                       </div>
-                      <span
-                        className={cn(
-                          "text-[10px] font-bold px-2 py-0.5 rounded-lg border font-mono tracking-tight transition-colors",
-                          theme.badgeStyle
-                        )}
-                      >
-                        {theme.badge}
-                      </span>
+                      <Badge variant="secondary" className="typo-caption border-0 bg-muted text-muted-foreground font-semibold">
+                        {topicCount}
+                      </Badge>
                     </div>
 
-                    {/* Middle: Fully Readable 2-Line Title (No Truncation) */}
-                    <div className="min-h-[2.5rem] flex items-center">
-                      <h3 className="font-bold text-xs sm:text-[13px] text-foreground leading-snug group-hover:text-primary transition-colors font-hindi line-clamp-2">
-                        {displayName}
+                    <div>
+                      <h3 className="typo-h3 text-foreground group-hover:text-primary transition-colors line-clamp-2">
+                        {subject.name}
                       </h3>
+                      <p className="typo-small text-muted-foreground mt-1 line-clamp-1">
+                        {subject.description || "Authentic practice sets with answer verification"}
+                      </p>
                     </div>
 
-                    {/* Bottom: Explore Link */}
-                    <div className="flex items-center justify-between pt-2 border-t border-border/40 text-[11px] font-medium text-muted-foreground group-hover:text-foreground transition-colors">
-                      <span>Explore</span>
-                      <ArrowRight className="h-3.5 w-3.5 text-muted-foreground group-hover:text-foreground group-hover:translate-x-1 transition-transform duration-200" />
+                    <div className="flex items-center justify-between pt-1 typo-caption text-primary font-semibold">
+                      <span>Practice Tests</span>
+                      <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
                     </div>
                   </Card>
                 </Link>
@@ -206,111 +219,236 @@ export default function DashboardPage() {
       </section>
 
       {/* ══════════════════════════════════════════════════════════════════════
-          2. CONTINUE PRACTICE · NEXT AVAILABLE SETS (ORDER 2 — 6-COL REFINED)
+          SECTION 2: GENERAL ENGLISH (DEDICATED 3-COLUMN GRID)
           ══════════════════════════════════════════════════════════════════════ */}
-      <section aria-label="Continue Practice">
-        <ContinuePracticeCard />
+      <section aria-label="General English" className="space-y-4">
+        <div>
+          <h2 className="typo-h2 text-foreground">General English</h2>
+          <p className="typo-small text-muted-foreground">
+            Paper-II English Grammar, Core Syntax, Vocabulary &amp; Comprehension
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {/* Column 1: Grammar & Core Rules (Active / Practice Ready) */}
+          <Link href="/subjects" className="group block">
+            <Card className="p-5 border-0 bg-card rounded-2xl shadow-xs hover:shadow-md transition-all group-hover:-translate-y-0.5 space-y-3 cursor-pointer">
+              <div className="flex items-center justify-between">
+                <div className="p-2.5 rounded-xl bg-emerald-500/10 text-emerald-500 group-hover:scale-105 transition-transform">
+                  <FileCheck2 className="h-5 w-5" />
+                </div>
+                <Badge className="typo-caption border-0 bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 font-bold">
+                  Active Ready
+                </Badge>
+              </div>
+
+              <div>
+                <h3 className="typo-h3 text-foreground group-hover:text-primary transition-colors">
+                  Grammar &amp; Core Rules
+                </h3>
+                <p className="typo-small text-muted-foreground mt-1">
+                  Tenses, voice, narration, prepositions, articles &amp; sentence transformation tests.
+                </p>
+              </div>
+
+              <div className="flex items-center justify-between pt-1 typo-caption text-primary font-semibold">
+                <span>Start Practice</span>
+                <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </Card>
+          </Link>
+
+          {/* Column 2: Part 2: Vocabulary & Idioms (Coming Soon) */}
+          <Card className="p-5 border-0 bg-card/70 rounded-2xl shadow-xs space-y-3 select-none">
+            <div className="flex items-center justify-between">
+              <div className="p-2.5 rounded-xl bg-muted text-muted-foreground">
+                <Lock className="h-5 w-5" />
+              </div>
+              <Badge variant="outline" className="typo-caption border-0 bg-muted/80 text-muted-foreground font-semibold">
+                Coming Soon
+              </Badge>
+            </div>
+
+            <div>
+              <h3 className="typo-h3 text-foreground/80">
+                Part 2: Vocabulary &amp; Idioms
+              </h3>
+              <p className="typo-small text-muted-foreground mt-1">
+                Synonyms, antonyms, one-word substitutions, phrasal verbs &amp; common idioms.
+              </p>
+            </div>
+
+            <div className="pt-1 typo-caption text-muted-foreground font-medium">
+              Curating authentic exam question sets
+            </div>
+          </Card>
+
+          {/* Column 3: Part 3: Comprehension & Usage (Coming Soon) */}
+          <Card className="p-5 border-0 bg-card/70 rounded-2xl shadow-xs space-y-3 select-none">
+            <div className="flex items-center justify-between">
+              <div className="p-2.5 rounded-xl bg-muted text-muted-foreground">
+                <Lock className="h-5 w-5" />
+              </div>
+              <Badge variant="outline" className="typo-caption border-0 bg-muted/80 text-muted-foreground font-semibold">
+                Coming Soon
+              </Badge>
+            </div>
+
+            <div>
+              <h3 className="typo-h3 text-foreground/80">
+                Part 3: Comprehension &amp; Usage
+              </h3>
+              <p className="typo-small text-muted-foreground mt-1">
+                Reading passages, cloze test passages, paragraph coherence &amp; precise usage.
+              </p>
+            </div>
+
+            <div className="pt-1 typo-caption text-muted-foreground font-medium">
+              In final review &amp; formatting
+            </div>
+          </Card>
+        </div>
       </section>
 
       {/* ══════════════════════════════════════════════════════════════════════
-          3. KEY STATISTICS / STATS (ORDER 3 — PLACED AT POSITION 3 AS REQUESTED)
+          SECTION 3: INDIA & WORLD GK (4-COLUMN GRID — COMING SOON)
           ══════════════════════════════════════════════════════════════════════ */}
-      <section aria-label="Key Statistics" className="space-y-3">
-        <div className="flex items-center justify-between">
-          <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2">
-            <ListChecks className="h-4 w-4 text-foreground" />
-            Performance Overview
-          </h2>
-          <span className="text-xs font-semibold text-muted-foreground">Live Analytics</span>
+      <section aria-label="India & World GK" className="space-y-4">
+        <div>
+          <h2 className="typo-h2 text-foreground">India &amp; World GK</h2>
+          <p className="typo-small text-muted-foreground">
+            Complete syllabus modules for National &amp; Global General Knowledge
+          </p>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
-          {stats === undefined ? (
-            Array.from({ length: 4 }).map((_, i) => (
-              <Card
-                key={i}
-                className="p-4 rounded-2xl border border-border/80 bg-card space-y-3 shadow-none"
-              >
-                <div className="flex items-center justify-between">
-                  <Skeleton className="h-3.5 w-24 rounded" />
-                  <Skeleton className="h-7 w-7 rounded-lg" />
-                </div>
-                <div className="space-y-1.5">
-                  <Skeleton className="h-8 w-16 rounded" />
-                  <Skeleton className="h-3 w-28 rounded" />
-                </div>
-              </Card>
-            ))
-          ) : (
-            <>
-              <StatCard
-                icon={ListChecks}
-                label="Tests Taken"
-                value={stats.testsAttempted}
-                subtitle="Completed practice tests"
-              />
-              <StatCard
-                icon={CheckCircle2}
-                label="Questions Solved"
-                value={stats.questionsSolved.toLocaleString("en-IN")}
-                subtitle="Across 5 subjects"
-              />
-              <StatCard
-                icon={Percent}
-                label="Accuracy"
-                value={formatAccuracy(stats.overallAccuracy)}
-                subtitle="Overall score rate"
-              />
-              <StatCard
-                icon={Bookmark}
-                label="Bookmarks"
-                value={stats.bookmarkCount}
-                subtitle="Saved for revision"
-              />
-            </>
-          )}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {/* Card 1: Indian Geography */}
+          <Card className="p-5 border-0 bg-card/70 rounded-2xl shadow-xs space-y-3 select-none">
+            <div className="flex items-center justify-between">
+              <div className="p-2.5 rounded-xl bg-muted text-muted-foreground">
+                <Compass className="h-5 w-5" />
+              </div>
+              <Badge variant="outline" className="typo-caption border-0 bg-muted/80 text-muted-foreground font-semibold">
+                Coming Soon
+              </Badge>
+            </div>
+            <div>
+              <h3 className="typo-h3 text-foreground/80">Indian Geography</h3>
+              <p className="typo-small text-muted-foreground mt-1">
+                Physical features, major rivers, monsoons, soil types, forests &amp; mineral resources.
+              </p>
+            </div>
+          </Card>
+
+          {/* Card 2: World Geography */}
+          <Card className="p-5 border-0 bg-card/70 rounded-2xl shadow-xs space-y-3 select-none">
+            <div className="flex items-center justify-between">
+              <div className="p-2.5 rounded-xl bg-muted text-muted-foreground">
+                <Globe className="h-5 w-5" />
+              </div>
+              <Badge variant="outline" className="typo-caption border-0 bg-muted/80 text-muted-foreground font-semibold">
+                Coming Soon
+              </Badge>
+            </div>
+            <div>
+              <h3 className="typo-h3 text-foreground/80">World Geography</h3>
+              <p className="typo-small text-muted-foreground mt-1">
+                Continents, major ocean currents, global wind circulation, climate zones &amp; ecology.
+              </p>
+            </div>
+          </Card>
+
+          {/* Card 3: Indian Economy */}
+          <Card className="p-5 border-0 bg-card/70 rounded-2xl shadow-xs space-y-3 select-none">
+            <div className="flex items-center justify-between">
+              <div className="p-2.5 rounded-xl bg-muted text-muted-foreground">
+                <TrendingUp className="h-5 w-5" />
+              </div>
+              <Badge variant="outline" className="typo-caption border-0 bg-muted/80 text-muted-foreground font-semibold">
+                Coming Soon
+              </Badge>
+            </div>
+            <div>
+              <h3 className="typo-h3 text-foreground/80">Indian Economy</h3>
+              <p className="typo-small text-muted-foreground mt-1">
+                Agricultural patterns, industrial policies, national budget, inflation &amp; GST reforms.
+              </p>
+            </div>
+          </Card>
+
+          {/* Card 4: Indian Polity & History */}
+          <Card className="p-5 border-0 bg-card/70 rounded-2xl shadow-xs space-y-3 select-none">
+            <div className="flex items-center justify-between">
+              <div className="p-2.5 rounded-xl bg-muted text-muted-foreground">
+                <Landmark className="h-5 w-5" />
+              </div>
+              <Badge variant="outline" className="typo-caption border-0 bg-muted/80 text-muted-foreground font-semibold">
+                Coming Soon
+              </Badge>
+            </div>
+            <div>
+              <h3 className="typo-h3 text-foreground/80">Indian Polity &amp; History</h3>
+              <p className="typo-small text-muted-foreground mt-1">
+                Constitution, fundamental rights, parliament, supreme court &amp; national freedom struggle.
+              </p>
+            </div>
+          </Card>
         </div>
       </section>
 
       {/* ══════════════════════════════════════════════════════════════════════
-          4. RECENT TEST ATTEMPTS (ORDER 4)
+          SECTION 4: CURRENT AFFAIRS (COMING SOON CARD)
           ══════════════════════════════════════════════════════════════════════ */}
-      <section aria-label="Recent Attempts">
-        <Card className="p-4 sm:p-5 rounded-2xl border border-border shadow-xs space-y-3">
-          <div className="flex items-center justify-between">
-            <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2">
-              <History className="h-4 w-4 text-foreground" />
-              Recent Attempts
-              {recent && <span className="font-bold text-foreground tabular-nums">({recent.length})</span>}
-            </h2>
-            <Link
-              href="/history"
-              className="text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"
-            >
-              View All History <ArrowRight className="h-3 w-3" />
-            </Link>
+      <section aria-label="Current Affairs">
+        <Card className="p-6 border-0 bg-card/70 rounded-2xl shadow-xs select-none">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div className="flex items-start gap-4">
+              <div className="p-3 rounded-2xl bg-primary/10 text-primary shrink-0 mt-0.5">
+                <Radio className="h-6 w-6" />
+              </div>
+              <div>
+                <div className="flex items-center gap-2.5">
+                  <h3 className="typo-h3 text-foreground">
+                    Current Affairs (Rajasthan, India &amp; World)
+                  </h3>
+                  <Badge variant="outline" className="typo-caption border-0 bg-muted text-muted-foreground font-semibold">
+                    Coming Soon
+                  </Badge>
+                </div>
+                <p className="typo-small text-muted-foreground mt-1 max-w-2xl">
+                  Monthly compilations, major government flagship schemes, recent appointments, sports honors, awards, and national/international summit coverage.
+                </p>
+              </div>
+            </div>
+
+            <Badge variant="secondary" className="typo-caption border-0 bg-muted self-start sm:self-auto px-3 py-1 font-semibold text-muted-foreground">
+              Module In Development
+            </Badge>
           </div>
+        </Card>
+      </section>
+
+      {/* ── Recent Attempts & Syllabus Overview ── */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-2">
+        <Card className="p-5 border-0 bg-card shadow-xs rounded-2xl space-y-3">
+          <div className="flex items-center justify-between">
+            <h3 className="typo-h3 text-foreground">Recent Attempts</h3>
+            <Button asChild variant="ghost" size="sm" className="typo-small text-primary hover:bg-muted border-0 p-0 h-auto">
+              <Link href="/history">View History</Link>
+            </Button>
+          </div>
+
           {recent === undefined ? (
             <div className="space-y-2">
               {Array.from({ length: 3 }).map((_, i) => (
-                <div key={i} className="flex items-center justify-between px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl border border-border/60 bg-muted/15">
-                  <div className="space-y-1 min-w-0 flex-1">
-                    <Skeleton className="h-3.5 w-44 rounded" />
-                    <Skeleton className="h-2.5 w-24 rounded" />
-                  </div>
-                  <div className="flex items-center gap-2 shrink-0">
-                    <Skeleton className="h-5 w-11 rounded-md" />
-                    <Skeleton className="h-5 w-14 rounded-md" />
-                    <Skeleton className="h-3.5 w-3.5 rounded" />
-                  </div>
-                </div>
+                <Skeleton key={i} className="h-12 w-full rounded-xl" />
               ))}
             </div>
           ) : recent.length === 0 ? (
             <EmptyState
-              icon={ListChecks}
+              icon={BookOpen}
               title="No tests attempted yet"
-              description="Start practicing test sets from any subject above to evaluate your preparation."
+              description="Start practicing questions from any Rajasthan GK topic above."
               className="py-4"
             />
           ) : (
@@ -331,14 +469,11 @@ export default function DashboardPage() {
             </ul>
           )}
         </Card>
-      </section>
 
-      {/* ══════════════════════════════════════════════════════════════════════
-          5. SYLLABUS TRACKER OVERVIEW (ORDER 5)
-          ══════════════════════════════════════════════════════════════════════ */}
-      <section aria-label="Syllabus Overview">
-        <SyllabusOverviewCard />
-      </section>
+        <div>
+          <SyllabusOverviewCard />
+        </div>
+      </div>
     </div>
   );
 }

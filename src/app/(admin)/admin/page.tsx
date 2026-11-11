@@ -80,35 +80,35 @@ export default function AdminOverviewPage() {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <Link href="/admin/pool">
-            <Card className="flex items-center gap-3 p-3.5 hover:border-primary/50 hover:shadow-xs transition-all rounded-xl group bg-card border border-primary/20">
+            <Card className="flex items-center gap-3 p-3.5 hover:shadow-xs transition-all rounded-xl group bg-card border-0 shadow-2xs">
               <div className="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors shrink-0">
                 <Layers className="h-4 w-4" />
               </div>
               <div className="min-w-0">
-                <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">55 Topics Pool & Inventory</p>
-                <p className="text-[11px] text-muted-foreground truncate">15,949 Qs master pool & sets</p>
-              </div>
-            </Card>
-          </Link>
-          <Link href="/admin/dedup">
-            <Card className="flex items-center gap-3 p-3.5 hover:border-amber-500/50 hover:shadow-xs transition-all rounded-xl group bg-card border border-amber-500/20">
-              <div className="p-2.5 rounded-lg bg-amber-500/10 text-amber-500 group-hover:bg-amber-500 group-hover:text-white transition-colors shrink-0">
-                <GitCompare className="h-4 w-4" />
-              </div>
-              <div className="min-w-0">
-                <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">Dedup & Review Station</p>
-                <p className="text-[11px] text-muted-foreground truncate">3,397 review pairs & 959 groups</p>
+                <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">55 Topics Pool &amp; Inventory</p>
+                <p className="text-[11px] text-muted-foreground truncate">15,949 Qs master pool &amp; sets</p>
               </div>
             </Card>
           </Link>
           <Link href="/admin/questions">
-            <Card className="flex items-center gap-3 p-3.5 hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl group bg-card border border-border/80">
+            <Card className="flex items-center gap-3 p-3.5 hover:shadow-xs transition-all rounded-xl group bg-card border-0 shadow-2xs">
               <div className="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors shrink-0">
                 <Pencil className="h-4 w-4" />
               </div>
               <div className="min-w-0">
                 <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">Question Editor &amp; Bank</p>
                 <p className="text-[11px] text-muted-foreground truncate">Format, edit answers &amp; live preview</p>
+              </div>
+            </Card>
+          </Link>
+          <Link href="/admin/import">
+            <Card className="flex items-center gap-3 p-3.5 hover:shadow-xs transition-all rounded-xl group bg-card border-0 shadow-2xs">
+              <div className="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors shrink-0">
+                <Upload className="h-4 w-4" />
+              </div>
+              <div className="min-w-0">
+                <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">Import Set Wizard</p>
+                <p className="text-[11px] text-muted-foreground truncate">AI prompt, validation &amp; publish</p>
               </div>
             </Card>
           </Link>

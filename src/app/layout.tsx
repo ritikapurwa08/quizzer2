@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Google_Sans } from "next/font/google";
+import { Plus_Jakarta_Sans, Noto_Sans_Devanagari } from "next/font/google";
 import "./globals.css";
 import { ConvexClientProvider } from "@/components/shared/ConvexClientProvider";
 import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
@@ -7,11 +7,17 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ToastProvider } from "@/components/ui/Toast";
 import { ThemeProvider } from "@/components/theme-provider";
 import { PwaRegistrar } from "@/components/shared/PwaRegistrar";
+import { cn } from "@/lib/utils";
 
-const googleSans = Google_Sans({
-  subsets: ["latin", "devanagari"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-google-sans",
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
+
+const notoSansDevanagari = Noto_Sans_Devanagari({
+  subsets: ["devanagari"],
+  variable: "--font-devanagari",
   display: "swap",
 });
 
@@ -53,9 +59,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <ConvexAuthNextjsServerProvider>
       <html
-        lang="hi"
+        lang="en"
         suppressHydrationWarning
-        className={googleSans.variable}
+        className={cn("font-sans", plusJakartaSans.variable, notoSansDevanagari.variable)}
       >
         <body>
           <ThemeProvider

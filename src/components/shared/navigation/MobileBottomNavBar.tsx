@@ -2,13 +2,16 @@
 
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import { BOTTOM_NAV_ITEMS, type NavItem } from "./navItems";
+import { MAIN_NAV_ITEMS, type NavItem } from "./navItems";
 
 interface MobileBottomNavBarProps {
   pathname: string;
   isItemActive: (item: NavItem) => boolean;
   profileOpen?: boolean;
   onOpenProfile: () => void;
+  onProfilePointerDown?: () => void;
+  onProfilePointerUp?: () => void;
+  onProfilePointerLeave?: () => void;
 }
 
 export function MobileBottomNavBar({
@@ -16,14 +19,17 @@ export function MobileBottomNavBar({
   isItemActive,
   profileOpen = false,
   onOpenProfile,
+  onProfilePointerDown,
+  onProfilePointerUp,
+  onProfilePointerLeave,
 }: MobileBottomNavBarProps) {
   return (
     <nav
-      className="fixed bottom-0 left-0 right-0 z-40 md:hidden border-t border-border bg-card/95 backdrop-blur-md safe-bottom print:hidden"
+      className="fixed bottom-0 left-0 right-0 z-40 md:hidden border-0 bg-card/95 backdrop-blur-md safe-bottom shadow-lg print:hidden"
       aria-label="Mobile navigation"
     >
-      <div className="grid grid-cols-5 items-center px-1 py-1">
-        {BOTTOM_NAV_ITEMS.map((item) => {
+      <div className="grid grid-cols-5 items-center px-1 py-1.5">
+        {MAIN_NAV_ITEMS.map((item) => {
           const isProfile = item.href === "#profile";
           const active = isProfile ? profileOpen : isItemActive(item);
           const Icon = item.icon;
@@ -34,8 +40,11 @@ export function MobileBottomNavBar({
                 key="profile"
                 type="button"
                 onClick={onOpenProfile}
+                onPointerDown={onProfilePointerDown}
+                onPointerUp={onProfilePointerUp}
+                onPointerLeave={onProfilePointerLeave}
                 className={cn(
-                  "flex flex-col items-center justify-center gap-0.5 px-1 py-1.5 rounded-xl min-w-0 w-full transition-all select-none cursor-pointer",
+                  "flex flex-col items-center justify-center gap-0.5 px-1 py-1.5 rounded-xl min-w-0 w-full transition-all select-none cursor-pointer border-0",
                   active ? "text-foreground font-bold" : "text-muted-foreground hover:text-foreground"
                 )}
                 aria-label="User Profile and Settings"
@@ -65,7 +74,7 @@ export function MobileBottomNavBar({
               key={item.href}
               href={item.href}
               className={cn(
-                "flex flex-col items-center justify-center gap-0.5 px-1 py-1.5 rounded-xl min-w-0 w-full transition-all select-none",
+                "flex flex-col items-center justify-center gap-0.5 px-1 py-1.5 rounded-xl min-w-0 w-full transition-all select-none border-0",
                 active ? "text-foreground font-bold" : "text-muted-foreground hover:text-foreground"
               )}
               aria-current={active ? "page" : undefined}

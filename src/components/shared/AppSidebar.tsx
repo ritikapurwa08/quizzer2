@@ -10,11 +10,20 @@ import { api } from "../../../convex/_generated/api";
 import { isUserAdmin } from "@/lib/constants";
 import { BrandLogo } from "@/components/ui/brand-logo";
 import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from "@/components/ui/dialog";
+import { Shield, ArrowRight, Layers, Pencil, FileUp, Sparkles } from "lucide-react";
+import {
   type NavItem,
   MobileAdminBottomSheet,
   MobileBottomNavBar,
   DesktopNavSection,
   SidebarUserProfile,
+  ADMIN_NAV_ITEMS,
 } from "./navigation";
 
 export function AppSidebar() {
@@ -24,15 +33,17 @@ export function AppSidebar() {
   const { signOut } = useAuthActions();
   const { theme, setTheme } = useTheme();
   const [profileOpen, setProfileOpen] = useState(false);
+  const [adminDialogOpen, setAdminDialogOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  // Close profile bottom sheet on route change
+  // Close modals on route change
   useEffect(() => {
     setProfileOpen(false);
+    setAdminDialogOpen(false);
   }, [pathname]);
 
   const isAdmin = isUserAdmin(me);
@@ -59,81 +70,47 @@ export function AppSidebar() {
     [pathname]
   );
 
-  // ── Keyboard shortcut: Ctrl + Shift + A -> /admin ──
+  // ── Keyboard Shortcut: Ctrl + Shift + A -> Admin Dialog ──
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === "a" || e.key === "A")) {
         e.preventDefault();
         if (isAdmin) {
-          router.push("/admin");
+          setAdminDialogOpen(true);
         }
       }
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isAdmin, router]);
+  }, [isAdmin]);
 
-  // ── Double-click / Long-press Admin Trigger ──
-  const handleAdminTrigger = useCallback(() => {
-    if (isAdmin) {
-      router.push("/admin");
-    }
-  }, [isAdmin, router]);
+  // ── 600ms Long-Press (Hold) on Profile to Unlock Admin ──
+  const holdTimerRef = useRef<NodeJS.Timeout | null>(null);
 
-  const longPressTimerRef = useRef<NodeJS.Timeout | null>(null);
-
-  const handleTouchStart = useCallback(() => {
+  const handleProfilePointerDown = useCallback(() => {
     if (!isAdmin) return;
-    longPressTimerRef.current = setTimeout(() => {
-      handleAdminTrigger();
+    holdTimerRef.current = setTimeout(() => {
+      setAdminDialogOpen(true);
     }, 600);
-  }, [isAdmin, handleAdminTrigger]);
+  }, [isAdmin]);
 
-  const handleTouchEnd = useCallback(() => {
-    if (longPressTimerRef.current) {
-      clearTimeout(longPressTimerRef.current);
-      longPressTimerRef.current = null;
+  const handleProfilePointerUp = useCallback(() => {
+    if (holdTimerRef.current) {
+      clearTimeout(holdTimerRef.current);
+      holdTimerRef.current = null;
+    }
+  }, []);
+
+  const handleProfilePointerLeave = useCallback(() => {
+    if (holdTimerRef.current) {
+      clearTimeout(holdTimerRef.current);
+      holdTimerRef.current = null;
     }
   }, []);
 
   return (
     <>
-      {/* ── MOBILE TOP HEADER BAR (Mobile only, hidden during quiz) ── */}
-      {!isQuizActive && (
-        <header className="md:hidden sticky top-0 z-30 flex items-center justify-between px-4 py-2.5 border-b border-border/80 bg-card/95 backdrop-blur-md safe-top print:hidden">
-          <div
-            onDoubleClick={handleAdminTrigger}
-            onTouchStart={handleTouchStart}
-            onTouchEnd={handleTouchEnd}
-            className="cursor-pointer"
-            title={isAdmin ? "Quizzer (Double-tap or Long-press for Admin)" : "Quizzer"}
-          >
-            <Link href="/dashboard" className="flex items-center">
-              <BrandLogo size="sm" />
-            </Link>
-          </div>
-
-          <button
-            type="button"
-            onClick={() => setProfileOpen(true)}
-            onDoubleClick={handleAdminTrigger}
-            onTouchStart={handleTouchStart}
-            onTouchEnd={handleTouchEnd}
-            className="flex items-center gap-2 p-1 pl-2.5 rounded-xl border border-border/60 bg-muted/40 hover:bg-muted transition-colors cursor-pointer"
-            aria-label="Profile and Settings"
-            title={isAdmin ? "Profile (Double-tap for Admin)" : "Profile"}
-          >
-            <span className="text-xs font-semibold text-foreground max-w-[90px] truncate">
-              {displayName}
-            </span>
-            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-foreground text-background font-bold text-xs shadow-2xs">
-              {initials}
-            </div>
-          </button>
-        </header>
-      )}
-
-      {/* ── MOBILE USER PROFILE & ADMIN BOTTOM SHEET ── */}
+      {/* ── MOBILE USER PROFILE BOTTOM SHEET (Standard Student / Candidate Profile) ── */}
       <MobileAdminBottomSheet
         isOpen={profileOpen}
         onClose={() => setProfileOpen(false)}
@@ -149,36 +126,38 @@ export function AppSidebar() {
         isItemActive={isItemActive}
       />
 
-      {/* ── MOBILE BOTTOM NAVIGATION BAR (Strictly 5 items, grid-cols-5) ── */}
+      {/* ── MOBILE BOTTOM NAVIGATION BAR (Strictly 5 items, grid-cols-5, zero top bar) ── */}
       {!isQuizActive && (
         <MobileBottomNavBar
           pathname={pathname || ""}
           isItemActive={isItemActive}
           profileOpen={profileOpen}
           onOpenProfile={() => setProfileOpen(true)}
+          onProfilePointerDown={handleProfilePointerDown}
+          onProfilePointerUp={handleProfilePointerUp}
+          onProfilePointerLeave={handleProfilePointerLeave}
         />
       )}
 
-      {/* ── DESKTOP PERSISTENT SIDEBAR ── */}
-      <aside className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0 z-30 border-r border-border bg-card print:hidden">
+      {/* ── DESKTOP PERSISTENT SIDEBAR (100% Student-Identical View) ── */}
+      <aside className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0 z-30 border-0 bg-card shadow-xs print:hidden">
         {/* Brand header */}
-        <div className="p-4 border-b border-border/80 flex items-center justify-between">
-          <div
-            onDoubleClick={handleAdminTrigger}
-            onTouchStart={handleTouchStart}
-            onTouchEnd={handleTouchEnd}
-            className="cursor-pointer"
-            title={isAdmin ? "Quizzer (Double-click or Ctrl+Shift+A for Admin)" : "Quizzer"}
-          >
-            <Link href="/dashboard" className="flex items-center">
-              <BrandLogo size="md" />
-            </Link>
-          </div>
+        <div className="p-4 flex items-center justify-between border-0">
+          <Link href="/dashboard" className="flex items-center">
+            <BrandLogo size="md" />
+          </Link>
         </div>
 
         {/* Scrollable Navigation */}
         <div className="flex-1 overflow-y-auto p-3.5 scrollbar-thin">
-          <DesktopNavSection isAdmin={isAdmin} isItemActive={isItemActive} />
+          <DesktopNavSection
+            isItemActive={isItemActive}
+            profileOpen={profileOpen}
+            onOpenProfile={() => setProfileOpen(true)}
+            onProfilePointerDown={handleProfilePointerDown}
+            onProfilePointerUp={handleProfilePointerUp}
+            onProfilePointerLeave={handleProfilePointerLeave}
+          />
         </div>
 
         {/* Footer: User profile, compact theme toggle & sign out */}
@@ -190,8 +169,57 @@ export function AppSidebar() {
           mounted={mounted}
           onToggleTheme={handleToggleTheme}
           onSignOut={handleSignOut}
+          onProfilePointerDown={handleProfilePointerDown}
+          onProfilePointerUp={handleProfilePointerUp}
+          onProfilePointerLeave={handleProfilePointerLeave}
         />
       </aside>
+
+      {/* ── UNLOCKED ADMIN MODAL (Clean border-0 Dialog with ONLY 4 Admin Links) ── */}
+      <Dialog open={adminDialogOpen} onOpenChange={setAdminDialogOpen}>
+        <DialogContent className="max-w-md p-6 rounded-2xl bg-card border-0 shadow-2xl">
+          <DialogHeader>
+            <div className="flex items-center gap-2.5">
+              <div className="p-2.5 rounded-xl bg-amber-500/10 text-amber-500">
+                <Shield className="h-5 w-5" />
+              </div>
+              <div>
+                <DialogTitle className="text-lg font-bold text-foreground">
+                  Admin Console
+                </DialogTitle>
+                <DialogDescription className="text-xs text-muted-foreground mt-0.5">
+                  Authorized access unlocked via Profile Hold or shortcut.
+                </DialogDescription>
+              </div>
+            </div>
+          </DialogHeader>
+
+          <div className="mt-4 space-y-2">
+            {ADMIN_NAV_ITEMS.map((item) => {
+              const Icon = item.icon;
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setAdminDialogOpen(false)}
+                  className="flex items-center justify-between p-3 rounded-xl bg-muted/40 hover:bg-muted text-foreground transition-all group border-0"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="p-2 rounded-lg bg-card shadow-2xs text-primary group-hover:scale-105 transition-transform">
+                      <Icon className="h-4 w-4" />
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold text-foreground">{item.label}</p>
+                      <p className="text-[11px] text-muted-foreground font-mono">{item.href}</p>
+                    </div>
+                  </div>
+                  <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-foreground group-hover:translate-x-0.5 transition-all" />
+                </Link>
+              );
+            })}
+          </div>
+        </DialogContent>
+      </Dialog>
     </>
   );
 }
