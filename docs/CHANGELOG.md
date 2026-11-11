@@ -1,5 +1,17 @@
 # QUIZZER2 - PROJECT CHANGELOG
 
+## [2026-11-11 - Part 4]
+- **`src/app/globals.css`**: Strictly clamped all geometric radii down to 2px–3px max (`--radius: 3px`, `--radius-xs: 2px`, `--radius-sm: 2px`, `--radius-md: 3px`, `--radius-lg: 4px`, `--radius-xl: 4px`, `--radius-2xl: 4px`, `--radius-3xl: 4px`) so no component in the entire project can ever render with bubbly or rounded corners.
+- **`src/components/ui/card.tsx`**: Changed base class from `rounded-md` to razor-sharp `rounded-sm` (2px-3px).
+- **`src/app/design-preview/page.tsx`**: Upgraded into a 100% exact live app clone matching the user's real application screens pixel-for-pixel:
+  - Exact live desktop sidebar (`LEARNING & PRACTICE` + `ADMIN CONSOLE (PROTECTED)` + user profile footer).
+  - Exact live Dashboard (4 stat cards, 5 Continue Practice test cards with In Progress / Start buttons, 4 Canonical Subjects grid, English Paper-II grid).
+  - Exact Practice Sets page for Topic 3: राजस्थान की जलवायु with 12 sets (Part 1-3 completed with `Retake`, Part 4-12 with `Start`).
+  - Exact Saved Questions page matching `media_1794373844309_e7daeaa6.png` (segmented controls, filters, question stem, Option A green highlight with right check, detailed explanation, Admin RG_000535 footer).
+  - Exact Syllabus Tracker matching `media_1794373900125_4b953c6e.jpg` (scope pills, section pills, search bar, 55 topics progress banner, topic checklist).
+  - Exact Test History matching `media_1794373917779_d96e66aa.png` (filter row, Clean 0-score tests in red, chronological attempts with scores and accuracy percentages).
+  - Active interactive quiz runner with instant option feedback, timer, question palette, and results breakdown.
+
 ## [2026-11-11 - Part 3]
 - **`src/app/globals.css`**: Enforced razor-sharp "चौकोर" geometric radii (`--radius: 0.25rem` / 4px max; `--radius-xs: 2px`, `--radius-sm: 3px`, `--radius-md: 4px`, `--radius-lg: 5px`, `--radius-xl: 6px`). Configured crisp 1px borders (`rgba(255, 255, 255, 0.08)` in dark mode). Integrated Noto Sans Devanagari via Google Fonts `@import` for ultra-smooth Hindi typography.
 - **`src/components/ui/card.tsx`**: Replaced hardcoded `rounded-2xl` with razor-sharp `rounded-md` (4px) and subtle 1px border.
