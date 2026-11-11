@@ -29,7 +29,7 @@ import { EmptyState } from "@/components/shared/EmptyState";
 export default function DashboardPage() {
   const me = useQuery(api.users.me);
   const stats = useQuery(api.analytics.dashboardStats, {});
-  const recent = useQuery(api.attempts.recentByUser, { limit: 5 });
+  const recent = useQuery(api.attempts.recentByUser, { limit: 4 });
   const subjects = useQuery(api.subjects.list);
   const setCounts = useQuery(api.subjects.setCountsAllSubjects) ?? {};
   const siteStats = useQuery(api.testSets.siteStats);
@@ -221,7 +221,7 @@ export default function DashboardPage() {
 
           {recent === undefined ? (
             <div className="space-y-2">
-              {Array.from({ length: 3 }).map((_, i) => (
+              {Array.from({ length: 4 }).map((_, i) => (
                 <Skeleton key={i} className="h-12 w-full rounded-xl" />
               ))}
             </div>
@@ -234,7 +234,7 @@ export default function DashboardPage() {
             />
           ) : (
             <ul className="space-y-2">
-              {recent.map((a: any) => (
+              {recent.slice(0, 4).map((a: any) => (
                 <li key={a._id}>
                   <ResultHistoryItem
                     attemptId={a._id}
