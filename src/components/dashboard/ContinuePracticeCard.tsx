@@ -5,8 +5,7 @@ import { useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { Card } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Play, RotateCcw, ArrowRight } from "lucide-react";
-import { getSubjectSectionIcon } from "@/components/icons/QuizzerIcons";
+import { Play, RotateCcw, ChevronRight, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 /**
@@ -54,20 +53,21 @@ export function ContinuePracticeCard() {
         <div className="flex items-center justify-between">
           <Skeleton className="h-4 w-48 rounded" />
         </div>
-        {/* Exactly 4 skeleton cards: 2-col on mobile, 4-col on desktop */}
+        {/* Exactly 4 skeleton cards matching Subject Card vertical height */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-3.5">
           {Array.from({ length: 4 }).map((_, i) => (
-            <Card key={i} className="p-2.5 sm:p-3.5 rounded-2xl border-0 bg-card space-y-2 shadow-xs">
+            <Card key={i} className="p-3 sm:p-3.5 rounded-2xl border-0 bg-card space-y-2.5 shadow-xs flex flex-col justify-between h-full">
               <div className="flex items-center justify-between">
-                <Skeleton className="h-3.5 w-16 rounded" />
-                <Skeleton className="h-3.5 w-12 rounded" />
+                <div className="flex items-center gap-2">
+                  <Skeleton className="h-8 w-8 rounded-xl" />
+                  <Skeleton className="h-3.5 w-14 rounded" />
+                </div>
+                <Skeleton className="h-4 w-10 rounded-full" />
               </div>
-              <Skeleton className="h-8 w-full rounded" />
-              <div className="flex items-center justify-between">
-                <Skeleton className="h-3 w-14 rounded" />
-                <Skeleton className="h-3 w-16 rounded" />
+              <div className="space-y-1">
+                <Skeleton className="h-4 w-3/4 rounded" />
+                <Skeleton className="h-3 w-1/2 rounded" />
               </div>
-              <Skeleton className="h-8 w-full rounded-xl" />
             </Card>
           ))}
         </div>
@@ -108,10 +108,9 @@ export function ContinuePracticeCard() {
         </Link>
       </div>
 
-      {/* Strictly 4 Cards: 2-Column on Mobile (2x2 grid), 4-Column on Desktop (single clean row) */}
+      {/* Strictly 4 Cards: Symmetrical 2x2 on Mobile, 4x1 on Desktop — Compact Height Matching Subject Cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-3.5">
         {displayCards.map((rec) => {
-          const SectionIcon = getSubjectSectionIcon(rec.subjectName);
           const shortSubject = getShortSubjectTag(rec.subjectName);
           const { cleanTitle, partLabel } = parseSetDisplay(rec.testSetName);
           const isResume = rec.type === "resume";
@@ -124,82 +123,72 @@ export function ContinuePracticeCard() {
               className="block group focus-visible:outline-hidden h-full"
             >
               <Card
-                className="p-2.5 sm:p-3.5 rounded-2xl border-0 bg-card hover:bg-muted/40 transition-all flex flex-col justify-between gap-2.5 h-full relative select-none shadow-xs"
+                className="p-3 sm:p-3.5 rounded-2xl border-0 bg-card hover:bg-muted/30 transition-all flex flex-col justify-between gap-2.5 h-full relative select-none shadow-xs"
               >
-                {/* Top Row: Subject Tag with Icon + Part Badge */}
+                {/* Top Row: Action Icon + Subject on left, Part badge + Chevron on right */}
                 <div className="flex items-center justify-between gap-1.5">
-                  <div className="flex items-center gap-1.5 min-w-0">
-                    <SectionIcon
+                  <div className="flex items-center gap-2 min-w-0">
+                    <div
                       className={cn(
-                        "h-3.5 w-3.5 shrink-0 transition-colors",
-                        isResume ? "text-primary" : "text-muted-foreground group-hover:text-primary"
+                        "flex h-8 w-8 items-center justify-center rounded-xl shrink-0 transition-colors duration-150",
+                        isResume
+                          ? "bg-primary text-white shadow-2xs"
+                          : "bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white"
                       )}
-                    />
+                    >
+                      {isResume ? (
+                        <RotateCcw className="h-3.5 w-3.5" />
+                      ) : (
+                        <Play className="h-3.5 w-3.5 fill-current ml-0.5" />
+                      )}
+                    </div>
                     <span className="text-[11px] sm:text-xs font-medium text-muted-foreground group-hover:text-foreground transition-colors font-hindi truncate">
                       {shortSubject}
                     </span>
                   </div>
 
-                  {partLabel && (
-                    <span
-                      className={cn(
-                        "shrink-0 text-[10px] font-bold px-1.5 py-0.2 rounded-full font-mono tracking-tight transition-colors",
-                        isResume
-                          ? "bg-primary/15 text-primary"
-                          : "bg-muted text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary"
-                      )}
-                    >
-                      {partLabel}
-                    </span>
-                  )}
+                  <div className="flex items-center gap-1.5 shrink-0">
+                    {partLabel && (
+                      <span
+                        className={cn(
+                          "text-[10px] font-bold px-1.5 py-0.5 rounded-full font-mono tracking-tight transition-colors",
+                          isResume
+                            ? "bg-primary/15 text-primary"
+                            : "bg-muted text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary"
+                        )}
+                      >
+                        {partLabel}
+                      </span>
+                    )}
+                    <ChevronRight className="h-3.5 w-3.5 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
+                  </div>
                 </div>
 
-                {/* Title: Compact, Equal Min-Height for Grid Uniformity */}
-                <div className="my-0.5 min-h-[2.2rem] sm:min-h-[2.6rem] flex items-center">
+                {/* Bottom Row: Clean Title + Status/Question count (No clunky long button!) */}
+                <div>
                   <h3
-                    className="font-medium text-xs sm:text-[13.5px] leading-snug text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-2"
+                    className="font-medium text-xs sm:text-[13.5px] leading-snug text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-1 sm:line-clamp-2"
                     title={rec.testSetName}
                   >
                     {cleanTitle}
                   </h3>
-                </div>
-
-                {/* Status & Questions Row */}
-                <div className="flex items-center justify-between text-[11px] sm:text-xs pt-1.5 mt-0.5 border-t border-border/40">
-                  <span className="tabular-nums font-medium text-muted-foreground">{rec.questionCount} प्रश्न</span>
-                  {isResume ? (
-                    <span className="text-primary font-medium flex items-center gap-1 text-[11px] sm:text-xs">
-                      <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-                      In Progress
-                    </span>
-                  ) : isNext ? (
-                    <span className="text-primary/90 font-medium flex items-center gap-1 text-[11px] sm:text-xs">
-                      <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-                      Up Next
-                    </span>
-                  ) : (
-                    <span className="text-muted-foreground text-[11px] sm:text-xs font-normal">New Practice</span>
-                  )}
-                </div>
-
-                {/* Action Button: Compact, High Contrast Sky-Blue Theme */}
-                {isResume ? (
-                  <div className="w-full h-8 rounded-xl font-medium text-xs flex items-center justify-center gap-1.5 bg-primary text-white hover:bg-primary/90 transition-all duration-150 shadow-2xs border-0">
-                    <RotateCcw className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-white shrink-0" />
-                    <span className="text-white font-medium truncate">
-                      <span className="sm:hidden">Resume</span>
-                      <span className="hidden sm:inline">Resume Attempt</span>
-                    </span>
+                  <div className="flex items-center justify-between text-[11px] text-muted-foreground mt-1">
+                    <span className="tabular-nums font-medium">{rec.questionCount} प्रश्न</span>
+                    {isResume ? (
+                      <span className="text-primary font-medium flex items-center gap-1">
+                        <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
+                        In Progress
+                      </span>
+                    ) : isNext ? (
+                      <span className="text-primary/90 font-medium flex items-center gap-1">
+                        <span className="h-1.5 w-1.5 rounded-full bg-primary" />
+                        Up Next
+                      </span>
+                    ) : (
+                      <span className="text-muted-foreground/80">New Practice</span>
+                    )}
                   </div>
-                ) : (
-                  <div className="w-full h-8 rounded-xl font-medium text-xs flex items-center justify-center gap-1.5 bg-secondary/80 text-foreground border-0 hover:bg-primary/10 hover:text-primary transition-all duration-150 shadow-2xs">
-                    <Play className="h-3 w-3 fill-current shrink-0" />
-                    <span className="truncate">
-                      <span className="sm:hidden">Start Test</span>
-                      <span className="hidden sm:inline">Start Practice Test</span>
-                    </span>
-                  </div>
-                )}
+                </div>
               </Card>
             </Link>
           );
