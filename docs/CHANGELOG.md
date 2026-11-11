@@ -1,5 +1,31 @@
 # QUIZZER2 - PROJECT CHANGELOG
 
+## [2026-11-11 - Part 6] - Deep Workspace Cleanup & Performance Optimization
+- **`src/app/design-preview/`**: Completely removed the mock lab route and `page.tsx` (105 KB mock emulator), freeing bundle overhead and cleaning route tree down to strictly 23 production routes.
+- **`src/components/shared/PwaInstallPrompt.tsx`**: Cleaned up legacy `/design-preview` route bypass check.
+- **Unused Dead Code Removal**:
+  - Permanently deleted `src/components/dashboard/StatCard.tsx` (dead duplicate card).
+  - Permanently deleted `src/components/admin/DataTable.tsx` (dead admin table).
+  - Cleaned empty `src/lib/prompts/` directory.
+- **`data/questions/` Quota & Memory Bloat Cleanup (-47.1 MB)**:
+  - Deleted redundant duplicate question directories and intermediate scraping files:
+    - `data/questions/rajasthan-gk-backup-full/` (23.52 MB duplicate)
+    - `data/questions/gemini_batches/` (10.38 MB intermediate batches)
+    - `data/questions/extracted_non_mcqs_master.json` (5.17 MB intermediate)
+    - `data/questions/extracted_by_topic/` (5.11 MB intermediate extraction)
+    - `data/questions/gemini_audited_batches/` (2.42 MB intermediate batches)
+    - `data/questions/audit_heal_211_report.json`
+- **Root Audit Caches Cleanup (-27.5 MB)**:
+  - Deleted all 18 stale `audit_results_t1` through `audit_results_t18` CSV audit directories.
+- **`scripts/` Temporary Scratch Files Cleanup**:
+  - Cleaned 70+ obsolete scratch test, inspect, check, and heal scripts matching gitignore audit patterns (`scripts/test_*.*`, `scripts/inspect_*.*`, `scripts/check_*.*`, `scripts/heal_*.*`).
+- **Turbopack Build Cache Cleanup (-1.9 GB)**:
+  - Purged 1.9 GB stale `.next/` build cache.
+- **`src/app/layout.tsx`**:
+  - Added parallel non-blocking `<link rel="preconnect">` tags for Google Fonts and gstatic in document `<head>` to eliminate font rendering waterfall and eliminate input lag.
+- **Production Build & Verification**:
+  - Production build passed in 1.8 seconds with code 0 (`next start` ready in 191ms, homepage response in 194ms).
+
 ## [2026-11-11 - Part 5]
 - **`src/components/dashboard/ContinuePracticeCard.tsx`**:
   - Implemented 2-Column Grid on Mobile (`grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3.5`).

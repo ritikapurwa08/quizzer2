@@ -16,7 +16,6 @@ export function PwaInstallPrompt() {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    if (window.location.pathname.startsWith("/design-preview")) return;
 
     // Check if already in standalone PWA mode
     const isStandaloneMode =
