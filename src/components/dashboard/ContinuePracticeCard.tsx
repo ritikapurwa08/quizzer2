@@ -5,7 +5,7 @@ import { useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { Card } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Play, Sparkles, RotateCcw, ArrowRight } from "lucide-react";
+import { Play, RotateCcw, ArrowRight } from "lucide-react";
 import { getSubjectSectionIcon } from "@/components/icons/QuizzerIcons";
 import { cn } from "@/lib/utils";
 
@@ -45,7 +45,8 @@ function parseSetDisplay(name: string) {
 }
 
 export function ContinuePracticeCard() {
-  const recommendations = useQuery(api.testSets.nextRecommendedSets, { limit: 6 });
+  // Strictly fetch up to 4 recommended practice sets
+  const recommendations = useQuery(api.testSets.nextRecommendedSets, { limit: 4 });
 
   if (recommendations === undefined) {
     return (
@@ -53,9 +54,10 @@ export function ContinuePracticeCard() {
         <div className="flex items-center justify-between">
           <Skeleton className="h-4 w-48 rounded" />
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3.5">
-          {Array.from({ length: 6 }).map((_, i) => (
-            <Card key={i} className="p-2.5 sm:p-3.5 rounded-xl border-0 bg-card space-y-2 shadow-xs">
+        {/* Exactly 4 skeleton cards: 2-col on mobile, 4-col on desktop */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-3.5">
+          {Array.from({ length: 4 }).map((_, i) => (
+            <Card key={i} className="p-2.5 sm:p-3.5 rounded-2xl border-0 bg-card space-y-2 shadow-xs">
               <div className="flex items-center justify-between">
                 <Skeleton className="h-3.5 w-16 rounded" />
                 <Skeleton className="h-3.5 w-12 rounded" />
@@ -65,7 +67,7 @@ export function ContinuePracticeCard() {
                 <Skeleton className="h-3 w-14 rounded" />
                 <Skeleton className="h-3 w-16 rounded" />
               </div>
-              <Skeleton className="h-7 sm:h-8 w-full rounded-lg" />
+              <Skeleton className="h-8 w-full rounded-xl" />
             </Card>
           ))}
         </div>
@@ -73,18 +75,30 @@ export function ContinuePracticeCard() {
     );
   }
 
-  if (recommendations.length === 0) {
+  // Guard: Strictly clamp to max 4 cards (with preview mock support)
+  const isPreview = typeof window !== "undefined" && window.location.search.includes("preview=true");
+  const fallbackMock = [
+    { testSetId: "mock-1", testSetName: "राजस्थान की मृदा भाग 8", subjectName: "राजस्थान सामान्य ज्ञान एवं भूगोल", questionCount: 20, type: "resume" as const },
+    { testSetId: "mock-2", testSetName: "राजस्थान की मृदा भाग 6", subjectName: "राजस्थान सामान्य ज्ञान एवं भूगोल", questionCount: 20, type: "resume" as const },
+    { testSetId: "mock-3", testSetName: "भौतिक स्वरूप एवं भूगोल भाग 40", subjectName: "राजस्थान सामान्य ज्ञान एवं भूगोल", questionCount: 20, type: "next_in_topic" as const },
+    { testSetId: "mock-4", testSetName: "राजस्थान का सामान्य ज्ञान भाग 1", subjectName: "राजस्थान सामान्य ज्ञान एवं भूगोल", questionCount: 20, type: "new" as const },
+  ];
+
+  const rawList = recommendations && recommendations.length > 0 ? recommendations : isPreview ? fallbackMock : [];
+  const displayCards = rawList.slice(0, 4);
+
+  if (displayCards.length === 0) {
     return null;
   }
 
   return (
     <div className="space-y-3">
-      {/* Section Header with Responsive Title (No Overlap/Collision) */}
+      {/* Section Header with Responsive Title */}
       <div className="flex items-center justify-between gap-3">
         <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2 min-w-0">
           <span>Continue Practice</span>
           <span className="hidden sm:inline text-muted-foreground/60">· Next Available Tests</span>
-          <span className="font-bold text-foreground tabular-nums shrink-0">({recommendations.length})</span>
+          <span className="font-bold text-foreground tabular-nums shrink-0">({displayCards.length})</span>
         </h2>
         <Link
           href="/subjects"
@@ -94,9 +108,9 @@ export function ContinuePracticeCard() {
         </Link>
       </div>
 
-      {/* 2-Column Grid on Mobile, 3-Column on Desktop */}
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3.5">
-        {recommendations.map((rec) => {
+      {/* Strictly 4 Cards: 2-Column on Mobile (2x2 grid), 4-Column on Desktop (single clean row) */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-3.5">
+        {displayCards.map((rec) => {
           const SectionIcon = getSubjectSectionIcon(rec.subjectName);
           const shortSubject = getShortSubjectTag(rec.subjectName);
           const { cleanTitle, partLabel } = parseSetDisplay(rec.testSetName);
@@ -110,7 +124,7 @@ export function ContinuePracticeCard() {
               className="block group focus-visible:outline-hidden h-full"
             >
               <Card
-                className="p-2.5 sm:p-3.5 rounded-xl border-0 bg-card hover:bg-muted/40 transition-all flex flex-col justify-between gap-2 h-full relative select-none shadow-xs"
+                className="p-2.5 sm:p-3.5 rounded-2xl border-0 bg-card hover:bg-muted/40 transition-all flex flex-col justify-between gap-2.5 h-full relative select-none shadow-xs"
               >
                 {/* Top Row: Subject Tag with Icon + Part Badge */}
                 <div className="flex items-center justify-between gap-1.5">
@@ -140,8 +154,8 @@ export function ContinuePracticeCard() {
                   )}
                 </div>
 
-                {/* Title: Compact, No Unneeded Vertical Gap */}
-                <div className="my-0.5 min-h-[2rem] sm:min-h-[2.4rem] flex items-center">
+                {/* Title: Compact, Equal Min-Height for Grid Uniformity */}
+                <div className="my-0.5 min-h-[2.2rem] sm:min-h-[2.6rem] flex items-center">
                   <h3
                     className="font-medium text-xs sm:text-[13.5px] leading-snug text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-2"
                     title={rec.testSetName}
@@ -168,9 +182,9 @@ export function ContinuePracticeCard() {
                   )}
                 </div>
 
-                {/* Button: Compact, High Contrast Sky-Blue Theme */}
+                {/* Action Button: Compact, High Contrast Sky-Blue Theme */}
                 {isResume ? (
-                  <div className="w-full h-7 sm:h-8 rounded-xl font-medium text-xs flex items-center justify-center gap-1.5 bg-primary text-white hover:bg-primary/90 transition-all duration-150 shadow-2xs border-0">
+                  <div className="w-full h-8 rounded-xl font-medium text-xs flex items-center justify-center gap-1.5 bg-primary text-white hover:bg-primary/90 transition-all duration-150 shadow-2xs border-0">
                     <RotateCcw className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-white shrink-0" />
                     <span className="text-white font-medium truncate">
                       <span className="sm:hidden">Resume</span>
@@ -178,7 +192,7 @@ export function ContinuePracticeCard() {
                     </span>
                   </div>
                 ) : (
-                  <div className="w-full h-7 sm:h-8 rounded-xl font-medium text-xs flex items-center justify-center gap-1.5 bg-secondary/80 text-foreground border-0 hover:bg-primary/10 hover:text-primary transition-all duration-150 shadow-2xs">
+                  <div className="w-full h-8 rounded-xl font-medium text-xs flex items-center justify-center gap-1.5 bg-secondary/80 text-foreground border-0 hover:bg-primary/10 hover:text-primary transition-all duration-150 shadow-2xs">
                     <Play className="h-3 w-3 fill-current shrink-0" />
                     <span className="truncate">
                       <span className="sm:hidden">Start Test</span>
