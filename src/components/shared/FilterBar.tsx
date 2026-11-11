@@ -50,7 +50,7 @@ export function FilterBar({
   return (
     <div
       className={cn(
-        "bg-secondary/60 p-0.5 rounded-md border border-border flex items-center gap-1 overflow-x-auto no-scrollbar max-w-full",
+        "bg-secondary/60 p-1 rounded-xl border-0 flex items-center gap-1.5 overflow-x-auto no-scrollbar max-w-full",
         className
       )}
     >
@@ -59,7 +59,7 @@ export function FilterBar({
         <Select value={selectedSubject} onValueChange={(v) => onSubjectChange(v ?? selectedSubject)}>
           <SelectTrigger
             id="filter-subject"
-            className="h-8.5 w-full typo-small rounded-md border border-border/80 bg-card shadow-2xs text-foreground font-medium truncate cursor-pointer px-3 hover:bg-muted/60 transition-colors"
+            className="h-8.5 w-full typo-small rounded-lg border-0 bg-card shadow-2xs text-foreground font-medium truncate cursor-pointer px-3 hover:bg-muted/60 transition-colors"
             aria-label="Select Subject"
           >
             <SelectValue placeholder="All Subjects" className="truncate">
@@ -90,7 +90,7 @@ export function FilterBar({
             <SelectTrigger
               id="filter-topic"
               className={cn(
-                "h-8.5 w-full typo-small rounded-md border border-border/80 bg-card shadow-2xs text-foreground font-medium truncate cursor-pointer px-3 hover:bg-muted/60 transition-colors",
+                "h-8.5 w-full typo-small rounded-lg border-0 bg-card shadow-2xs text-foreground font-medium truncate cursor-pointer px-3 hover:bg-muted/60 transition-colors",
                 isTopicDisabled && "opacity-50 cursor-not-allowed bg-transparent border-transparent shadow-none"
               )}
               aria-label="Select Topic"
@@ -123,7 +123,7 @@ export function FilterBar({
           <Select value={selectedSort} onValueChange={(v) => onSortChange(v ?? "recent")}>
             <SelectTrigger
               id="filter-sort"
-              className="h-8.5 w-full typo-small rounded-md border border-border/80 bg-card shadow-2xs text-foreground font-medium truncate cursor-pointer px-3 hover:bg-muted/60 transition-colors"
+              className="h-8.5 w-full typo-small rounded-lg border-0 bg-card shadow-2xs text-foreground font-medium truncate cursor-pointer px-3 hover:bg-muted/60 transition-colors"
               aria-label="Sort by"
             >
               <SelectValue placeholder="Sort by" className="truncate">

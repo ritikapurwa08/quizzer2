@@ -5,7 +5,7 @@ import { useQuery } from "convex/react";
 import { api } from "../../../../convex/_generated/api";
 import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/shared/EmptyState";
-import { LoadingState } from "@/components/shared/LoadingState";
+import { Skeleton } from "@/components/ui/skeleton";
 import { FilterBar } from "@/components/shared/FilterBar";
 import { Pagination } from "@/components/shared/Pagination";
 import { ResultHistoryItem } from "@/components/shared/ResultHistoryItem";
@@ -111,8 +111,23 @@ export default function HistoryPage() {
       </div>
 
       <Card className="p-4 sm:p-5 rounded-md border border-border bg-card shadow-xs min-h-[480px] flex flex-col justify-between">
-        {/* Loading */}
-        {result === undefined && <LoadingState />}
+        {/* Loading Skeletons */}
+        {result === undefined && (
+          <div className="space-y-2.5">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <div key={i} className="p-3.5 rounded-sm border border-border/60 bg-secondary/30 flex items-center justify-between gap-3 animate-pulse">
+                <div className="space-y-1.5 flex-1">
+                  <Skeleton className="h-4 w-48 sm:w-64 rounded-xs" />
+                  <Skeleton className="h-3 w-28 sm:w-36 rounded-xs" />
+                </div>
+                <div className="flex items-center gap-3">
+                  <Skeleton className="h-6 w-14 rounded-xs" />
+                  <Skeleton className="h-6 w-12 rounded-xs" />
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
 
         {/* Empty state */}
         {result !== undefined && filtered.length === 0 && (

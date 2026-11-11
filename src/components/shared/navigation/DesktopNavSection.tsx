@@ -35,7 +35,7 @@ export function DesktopNavSection({
             const Icon = item.icon;
 
             const navItemClasses = cn(
-              "w-full flex items-center justify-between px-3.5 py-2.5 rounded-md text-sm transition-all group select-none cursor-pointer",
+              "w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-sm transition-all group select-none cursor-pointer border-0",
               active
                 ? "bg-primary/10 text-primary border border-primary/20 font-medium shadow-2xs"
                 : "bg-transparent text-muted-foreground hover:bg-muted/50 hover:text-foreground border-0 font-normal"

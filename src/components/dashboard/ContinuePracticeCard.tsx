@@ -55,7 +55,7 @@ export function ContinuePracticeCard() {
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3.5">
           {Array.from({ length: 6 }).map((_, i) => (
-            <Card key={i} className="p-2.5 sm:p-3.5 rounded-md border border-border bg-card space-y-2 shadow-none">
+            <Card key={i} className="p-2.5 sm:p-3.5 rounded-xl border-0 bg-card space-y-2 shadow-xs">
               <div className="flex items-center justify-between">
                 <Skeleton className="h-3.5 w-16 rounded" />
                 <Skeleton className="h-3.5 w-12 rounded" />
@@ -65,7 +65,7 @@ export function ContinuePracticeCard() {
                 <Skeleton className="h-3 w-14 rounded" />
                 <Skeleton className="h-3 w-16 rounded" />
               </div>
-              <Skeleton className="h-7 sm:h-8 w-full rounded-sm" />
+              <Skeleton className="h-7 sm:h-8 w-full rounded-lg" />
             </Card>
           ))}
         </div>
@@ -110,7 +110,7 @@ export function ContinuePracticeCard() {
               className="block group focus-visible:outline-hidden h-full"
             >
               <Card
-                className="p-2.5 sm:p-3.5 rounded-md border border-border bg-card hover:border-primary/50 transition-all flex flex-col justify-between gap-2 h-full relative select-none shadow-xs"
+                className="p-2.5 sm:p-3.5 rounded-xl border-0 bg-card hover:bg-muted/40 transition-all flex flex-col justify-between gap-2 h-full relative select-none shadow-xs"
               >
                 {/* Top Row: Subject Tag with Icon + Part Badge */}
                 <div className="flex items-center justify-between gap-1.5">
@@ -129,10 +129,10 @@ export function ContinuePracticeCard() {
                   {partLabel && (
                     <span
                       className={cn(
-                        "shrink-0 text-[10px] font-bold px-1.5 py-0.2 rounded-xs font-mono tracking-tight border transition-colors",
+                        "shrink-0 text-[10px] font-bold px-1.5 py-0.2 rounded-full font-mono tracking-tight transition-colors",
                         isResume
-                          ? "bg-primary/15 text-primary border-primary/30"
-                          : "bg-muted text-muted-foreground border-border/70 group-hover:border-primary/40"
+                          ? "bg-primary/15 text-primary"
+                          : "bg-muted text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary"
                       )}
                     >
                       {partLabel}
@@ -170,7 +170,7 @@ export function ContinuePracticeCard() {
 
                 {/* Button: Compact, High Contrast Sky-Blue Theme */}
                 {isResume ? (
-                  <div className="w-full h-7 sm:h-8 rounded-sm font-medium text-xs flex items-center justify-center gap-1.5 bg-primary text-white hover:bg-primary/90 border border-primary/40 transition-all duration-150 shadow-2xs">
+                  <div className="w-full h-7 sm:h-8 rounded-xl font-medium text-xs flex items-center justify-center gap-1.5 bg-primary text-white hover:bg-primary/90 transition-all duration-150 shadow-2xs border-0">
                     <RotateCcw className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-white shrink-0" />
                     <span className="text-white font-medium truncate">
                       <span className="sm:hidden">Resume</span>
@@ -178,7 +178,7 @@ export function ContinuePracticeCard() {
                     </span>
                   </div>
                 ) : (
-                  <div className="w-full h-7 sm:h-8 rounded-sm font-medium text-xs flex items-center justify-center gap-1.5 bg-secondary/60 text-foreground border border-border/50 hover:bg-primary/10 hover:text-primary transition-all duration-150 shadow-2xs">
+                  <div className="w-full h-7 sm:h-8 rounded-xl font-medium text-xs flex items-center justify-center gap-1.5 bg-secondary/80 text-foreground border-0 hover:bg-primary/10 hover:text-primary transition-all duration-150 shadow-2xs">
                     <Play className="h-3 w-3 fill-current shrink-0" />
                     <span className="truncate">
                       <span className="sm:hidden">Start Test</span>

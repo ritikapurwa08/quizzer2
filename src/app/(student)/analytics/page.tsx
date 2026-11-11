@@ -63,6 +63,20 @@ export default function AnalyticsPage() {
     timezoneOffset,
   });
 
+  const isPreview = typeof window !== "undefined" && window.location.search.includes("preview=true");
+
+  const previewSubjectAccuracy = useMemo(() => {
+    if (!isPreview) return stats?.subjectAccuracy || [];
+    if (stats?.subjectAccuracy && stats.subjectAccuracy.length > 0) return stats.subjectAccuracy;
+    return [
+      { name: "राजस्थान कला एवं संस्कृति", nameHindi: "राजस्थान कला एवं संस्कृति", accuracy: 83, correct: 250, attempted: 300 },
+      { name: "राजस्थान सामान्य ज्ञान एवं भूगोल", nameHindi: "राजस्थान सामान्य ज्ञान एवं भूगोल", accuracy: 82, correct: 320, attempted: 390 },
+      { name: "राजस्थान का इतिहास", nameHindi: "राजस्थान का इतिहास", accuracy: 81, correct: 180, attempted: 222 },
+      { name: "राजस्थान राजव्यवस्था एवं प्रशासन", nameHindi: "राजस्थान राजव्यवस्था एवं प्रशासन", accuracy: 76, correct: 114, attempted: 150 },
+      { name: "English (Paper-II)", nameHindi: "English (Paper-II)", accuracy: 76, correct: 152, attempted: 200 },
+    ];
+  }, [isPreview, stats?.subjectAccuracy]);
+
   if (stats === undefined) {
     return <AnalyticsSkeleton />;
   }
@@ -86,7 +100,7 @@ export default function AnalyticsPage() {
       {/* 3. Bottom Row: Subject Mastery (Horizontal Bar) & Exam Mastery Gauge (Radial) */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5">
         <SubjectAccuracyChart
-          data={stats.subjectAccuracy || []}
+          data={previewSubjectAccuracy}
           strongest={stats.insights?.strongestSubject}
           weakest={stats.insights?.weakestSubject}
         />

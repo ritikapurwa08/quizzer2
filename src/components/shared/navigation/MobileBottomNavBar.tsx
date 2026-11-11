@@ -37,7 +37,7 @@ export function MobileBottomNavBar({
           const pillContent = (
             <div
               className={cn(
-                "flex flex-col items-center justify-center gap-1 w-full py-1.5 px-1 rounded-md transition-all select-none",
+                "flex flex-col items-center justify-center gap-1 w-full py-1.5 px-1 rounded-xl transition-all select-none border-0",
                 active
                   ? "bg-primary/10 text-primary border border-primary/20 font-medium shadow-2xs"
                   : "bg-transparent text-muted-foreground hover:text-foreground border-0 font-normal"

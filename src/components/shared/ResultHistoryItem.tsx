@@ -56,7 +56,7 @@ export function ResultHistoryItem({
       href={`/quiz/${testSetId}/results`}
       className="block focus-visible:outline-hidden group"
     >
-      <div className="flex items-center justify-between gap-2.5 sm:gap-3 px-3 sm:px-4 py-2 sm:py-2.5 rounded-md border border-border bg-card hover:bg-muted/30 hover:border-primary/40 transition-all select-none shadow-xs">
+      <div className="flex items-center justify-between gap-2.5 sm:gap-3 px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl border-0 bg-secondary/50 hover:bg-muted/60 transition-all select-none shadow-xs">
         {/* Left Side: Title & Meta Info (Maximum Horizontal Space — Left Icon Removed) */}
         <div className="min-w-0 flex-1 space-y-0.5">
           {/* Line 1: Title + Part Badge with Full Horizontal Room */}

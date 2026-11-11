@@ -6,7 +6,8 @@ import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../../convex/_generated/api";
 import { QuestionReviewCard } from "@/components/quiz";
 import { EmptyState } from "@/components/shared/EmptyState";
-import { LoadingState } from "@/components/shared/LoadingState";
+import { SavedQuestionsSkeleton } from "@/components/saved/SavedQuestionsSkeleton";
+import { Skeleton } from "@/components/ui/skeleton";
 import { FilterBar } from "@/components/shared/FilterBar";
 import { Pagination } from "@/components/shared/Pagination";
 import { AlertCircle, Bookmark, CheckCircle2 } from "lucide-react";
@@ -243,25 +244,25 @@ function SavedQuestionsContent() {
         </div>
 
         {/* ── Segmented Tab Switcher (Crisp High-Contrast Style) ── */}
-        <div className="inline-flex items-center p-1 rounded-md bg-secondary border border-border self-start sm:self-auto gap-1">
+        <div className="inline-flex items-center p-1 rounded-xl bg-secondary/80 self-start sm:self-auto gap-1 max-w-full overflow-x-auto no-scrollbar border-0">
           <button
             type="button"
             onClick={() => setTab("wrong")}
             className={cn(
-              "inline-flex items-center gap-2 h-8 px-3.5 rounded-sm text-xs transition-all cursor-pointer border select-none",
+              "inline-flex items-center gap-2 h-8 px-3 py-1.5 rounded-lg text-xs sm:text-sm whitespace-nowrap transition-all cursor-pointer border-0 select-none shrink-0",
               activeTab === "wrong"
-                ? "bg-rose-500/10 text-rose-500 border-rose-500/30 shadow-2xs font-semibold"
-                : "text-muted-foreground hover:text-foreground border-transparent hover:bg-muted/50 font-normal"
+                ? "bg-card text-rose-600 dark:text-rose-400 shadow-2xs font-semibold"
+                : "text-muted-foreground hover:text-foreground hover:bg-muted/50 font-normal"
             )}
           >
-            <AlertCircle className={cn("h-3.5 w-3.5", activeTab === "wrong" ? "text-rose-500" : "text-rose-500/70")} />
-            <span>Wrong Questions</span>
+            <AlertCircle className={cn("h-3.5 w-3.5 shrink-0", activeTab === "wrong" ? "text-rose-500" : "text-rose-500/70")} />
+            <span>Incorrect</span>
             <span
               className={cn(
-                "text-[10px] font-bold px-1.5 py-0.2 rounded-xs tabular-nums border",
+                "text-[10px] font-bold px-1.5 py-0.2 rounded-full tabular-nums shrink-0 border-0",
                 activeTab === "wrong"
-                  ? "bg-rose-500/15 text-rose-600 dark:text-rose-400 border-rose-500/30"
-                  : "bg-muted text-muted-foreground border-border/60"
+                  ? "bg-rose-500/15 text-rose-600 dark:text-rose-400"
+                  : "bg-muted text-muted-foreground"
               )}
             >
               {totalWrongCount}
@@ -272,20 +273,20 @@ function SavedQuestionsContent() {
             type="button"
             onClick={() => setTab("bookmarks")}
             className={cn(
-              "inline-flex items-center gap-2 h-8 px-3.5 rounded-sm text-xs transition-all cursor-pointer border select-none",
+              "inline-flex items-center gap-2 h-8 px-3 py-1.5 rounded-lg text-xs sm:text-sm whitespace-nowrap transition-all cursor-pointer border-0 select-none shrink-0",
               activeTab === "bookmarks"
-                ? "bg-amber-500/10 text-amber-500 border-amber-500/30 shadow-2xs font-semibold"
-                : "text-muted-foreground hover:text-foreground border-transparent hover:bg-muted/50 font-normal"
+                ? "bg-card text-amber-600 dark:text-amber-400 shadow-2xs font-semibold"
+                : "text-muted-foreground hover:text-foreground hover:bg-muted/50 font-normal"
             )}
           >
-            <Bookmark className={cn("h-3.5 w-3.5", activeTab === "bookmarks" ? "text-amber-500" : "text-amber-500/70")} />
+            <Bookmark className={cn("h-3.5 w-3.5 shrink-0", activeTab === "bookmarks" ? "text-amber-500" : "text-amber-500/70")} />
             <span>Bookmarks</span>
             <span
               className={cn(
-                "text-[10px] font-bold px-1.5 py-0.2 rounded-xs tabular-nums border",
+                "text-[10px] font-bold px-1.5 py-0.2 rounded-full tabular-nums shrink-0 border-0",
                 activeTab === "bookmarks"
-                  ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 border-amber-500/30"
-                  : "bg-muted text-muted-foreground border-border/60"
+                  ? "bg-amber-500/15 text-amber-600 dark:text-amber-400"
+                  : "bg-muted text-muted-foreground"
               )}
             >
               {totalBmCount}
@@ -330,7 +331,7 @@ function SavedQuestionsContent() {
           </div>
 
           {wrongData === undefined ? (
-            <LoadingState message="Loading wrong questions..." />
+            <SavedQuestionsSkeleton />
           ) : filteredWrongQuestions.length === 0 ? (
             <EmptyState
               icon={CheckCircle2}
@@ -354,8 +355,10 @@ function SavedQuestionsContent() {
                     const question = resolvedQuestions[questionId];
                     if (!question) {
                       return (
-                        <div key={wrongQuestion._id} className="p-4 rounded-md border border-border/50 bg-card/50 text-xs text-muted-foreground animate-pulse">
-                          Loading question...
+                        <div key={wrongQuestion._id} className="p-4 rounded-md border border-border/50 bg-card/50 space-y-2.5 animate-pulse">
+                          <Skeleton className="h-5 w-24 rounded-xs" />
+                          <Skeleton className="h-4 w-3/4 rounded-xs" />
+                          <Skeleton className="h-4 w-1/2 rounded-xs" />
                         </div>
                       );
                     }
@@ -424,7 +427,7 @@ function SavedQuestionsContent() {
           </div>
 
           {bmData === undefined ? (
-            <LoadingState message="Loading bookmarked questions..." />
+            <SavedQuestionsSkeleton />
           ) : filteredBookmarks.length === 0 ? (
             <EmptyState
               icon={Bookmark}
@@ -448,8 +451,10 @@ function SavedQuestionsContent() {
                     const question = resolvedQuestions[questionId];
                     if (!question) {
                       return (
-                        <div key={bookmark._id} className="p-4 rounded-md border border-border/50 bg-card/50 text-xs text-muted-foreground animate-pulse">
-                          Loading bookmark...
+                        <div key={bookmark._id} className="p-4 rounded-md border border-border/50 bg-card/50 space-y-2.5 animate-pulse">
+                          <Skeleton className="h-5 w-24 rounded-xs" />
+                          <Skeleton className="h-4 w-3/4 rounded-xs" />
+                          <Skeleton className="h-4 w-1/2 rounded-xs" />
                         </div>
                       );
                     }
@@ -492,7 +497,7 @@ function SavedQuestionsContent() {
 
 export default function SavedQuestionsPage() {
   return (
-    <Suspense fallback={<LoadingState message="Loading saved questions..." />}>
+    <Suspense fallback={<SavedQuestionsSkeleton />}>
       <SavedQuestionsContent />
     </Suspense>
   );

@@ -24,44 +24,44 @@ export function TopicChecklistItem({
   return (
     <div
       className={cn(
-        "p-3.5 sm:p-4 rounded-md border transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-card shadow-xs group",
+        "p-2.5 sm:p-3 rounded-xl border-0 transition-all flex items-center justify-between gap-2.5 bg-card shadow-xs group",
         isDone
-          ? "border-emerald-500/40 bg-emerald-500/5 hover:border-emerald-500/60"
-          : "border-border hover:border-foreground/30"
+          ? "bg-emerald-500/5 hover:bg-emerald-500/10"
+          : "hover:bg-muted/40"
       )}
     >
       {/* Left: Checkbox + Topic Number + Title */}
-      <div className="flex items-start gap-3 min-w-0 flex-1">
+      <div className="flex items-center gap-2.5 min-w-0 flex-1">
         <button
           type="button"
           onClick={() => onToggle(topic.id)}
           className={cn(
-            "mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-sm border transition-all cursor-pointer",
+            "flex h-5.5 w-5.5 shrink-0 items-center justify-center rounded-lg transition-all cursor-pointer border-0",
             isDone
-              ? "bg-emerald-500 border-emerald-500 text-white shadow-xs"
-              : "border-border hover:border-foreground/40 bg-background"
+              ? "bg-emerald-500 text-white shadow-xs"
+              : "border border-border/80 hover:border-foreground/50 bg-background"
           )}
           aria-label={`Mark topic ${topic.id} as ${isDone ? "pending" : "completed"}`}
         >
           {isDone ? (
-            <Check className="h-3.5 w-3.5 stroke-3" />
+            <Check className="h-3 w-3 stroke-3" />
           ) : (
-            <Circle className="h-2 w-2 text-transparent" />
+            <Circle className="h-1.5 w-1.5 text-transparent" />
           )}
         </button>
 
-        <div className="min-w-0 space-y-0.5 flex-1">
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-[10px] font-semibold px-1.5 py-0.2 rounded-xs bg-muted text-muted-foreground tabular-nums">
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <span className="text-[10px] font-semibold px-1.5 py-0.2 rounded-full bg-muted text-muted-foreground tabular-nums">
               #{topic.id.toString().padStart(2, "0")}
             </span>
-            <span className="text-[11px] font-medium text-muted-foreground flex items-center gap-1">
-              <SectionIcon className="h-3 w-3" />
-              {topic.subjectHindi}
+            <span className="text-[10.5px] font-medium text-muted-foreground flex items-center gap-1 truncate">
+              <SectionIcon className="h-3 w-3 shrink-0" />
+              <span>{topic.subjectHindi}</span>
             </span>
             {isDone && (
-              <Badge className="text-[10px] h-4.5 px-2 bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border-emerald-500/30 font-bold">
-                Completed
+              <Badge className="text-[9px] h-4 px-1.5 bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border-0 font-bold">
+                Done
               </Badge>
             )}
           </div>
@@ -69,23 +69,23 @@ export function TopicChecklistItem({
           <h3
             onClick={() => onToggle(topic.id)}
             className={cn(
-              "text-xs sm:text-sm font-medium text-foreground leading-snug cursor-pointer font-hindi transition-colors",
-              isDone && "line-through opacity-75"
+              "text-xs sm:text-sm font-medium text-foreground leading-snug cursor-pointer font-hindi transition-colors truncate mt-0.5",
+              isDone && "line-through opacity-70"
             )}
+            title={topic.nameHindi}
           >
             {topic.nameHindi}
           </h3>
-          <p className="text-[11px] text-muted-foreground truncate">{topic.nameEnglish}</p>
         </div>
       </div>
 
       {/* Right: Quick Action Link */}
-      <div className="flex items-center gap-2 shrink-0 self-end sm:self-center">
+      <div className="shrink-0">
         <Button
           asChild
           variant="outline"
           size="sm"
-          className="h-8 rounded-md text-xs font-semibold gap-1.5 border-border hover:bg-muted"
+          className="h-7 sm:h-7.5 px-2.5 rounded-lg text-xs font-medium gap-1 border-0 bg-secondary/80 hover:bg-muted"
         >
           <Link href={`/subjects`}>
             <span>Practice</span>
@@ -96,4 +96,3 @@ export function TopicChecklistItem({
     </div>
   );
 }
-

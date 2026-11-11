@@ -28,5 +28,6 @@ export { QuestionPaletteToggle } from "./QuestionPaletteToggle";
 export { QuestionReviewCard } from "./QuestionReviewCard";
 export { QuestionReviewFilter } from "./QuestionReviewFilter";
 export { QuestionShellSkeleton } from "./QuestionShellSkeleton";
+export { TestPageSkeleton } from "./TestPageSkeleton";
 export { SimilarQuestionsCarousel } from "./SimilarQuestionsCarousel";
 export { AdminQuestionFlagMenu } from "./AdminQuestionFlagMenu";
