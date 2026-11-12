@@ -108,26 +108,29 @@ export const dashboardStats = query({
     const totalUnanswered = Math.max(0, totalQuestionSlots - totalAnswered);
     const overallAccuracy = totalAnswered > 0 ? (totalCorrect / totalAnswered) * 100 : 0;
 
-    const [bookmarks, wrongQuestions, allSubjects, allTopics, allTestSets] = await Promise.all([
+    const attemptedSetIds = Array.from(new Set(attempts.map((a) => a.testSetId)));
+    const [bookmarks, wrongQuestions, allSubjects, allTopics, attemptedTestSets] = await Promise.all([
       ctx.db
         .query("bookmarks")
         .withIndex("by_user", (q) => q.eq("userId", user._id))
-        .collect(),
+        .take(200),
       ctx.db
         .query("wrongQuestions")
         .withIndex("by_user_resolved", (q) => q.eq("userId", user._id).eq("resolved", false))
-        .collect(),
+        .take(200),
       ctx.db.query("subjects").collect(),
       ctx.db.query("topics").collect(),
-      ctx.db.query("testSets").collect(),
+      Promise.all(attemptedSetIds.map((id) => ctx.db.get(id))),
     ]);
 
     allSubjects.sort((a, b) => a.order - b.order);
 
     // Build O(1) in-memory catalog maps to eliminate all N+1 DB reads
     const testSetMap = new Map<string, { topicId: string; name: string; questionCount: number }>();
-    for (const ts of allTestSets) {
-      testSetMap.set(ts._id as string, { topicId: ts.topicId as string, name: ts.name, questionCount: ts.questionCount ?? 0 });
+    for (const ts of attemptedTestSets) {
+      if (ts) {
+        testSetMap.set(ts._id as string, { topicId: ts.topicId as string, name: ts.name, questionCount: ts.questionCount ?? 0 });
+      }
     }
 
     const topicMap = new Map<string, { subjectId: string; name: string }>();
@@ -299,15 +302,17 @@ export const dashboardStats = query({
     const periodUnanswered = Math.max(0, periodQuestionSlots - periodAnswered);
     const periodAccuracy = periodAnswered > 0 ? (periodCorrect / periodAnswered) * 100 : 0;
 
-    // ── Pool counts ────────────────────────────────────────────────────────
+    // ── Pool counts (derived from attempted test sets) ────────────────────────
     const subjectAvailableQuestions = new Map<string, number>();
-    for (const ts of allTestSets) {
-      const subId = topicToSubject.get(ts.topicId as string);
-      if (subId) {
-        subjectAvailableQuestions.set(
-          subId,
-          (subjectAvailableQuestions.get(subId) ?? 0) + (ts.questionCount ?? 0)
-        );
+    for (const ts of attemptedTestSets) {
+      if (ts) {
+        const subId = topicToSubject.get(ts.topicId as string);
+        if (subId) {
+          subjectAvailableQuestions.set(
+            subId,
+            (subjectAvailableQuestions.get(subId) ?? 0) + (ts.questionCount ?? 0)
+          );
+        }
       }
     }
 

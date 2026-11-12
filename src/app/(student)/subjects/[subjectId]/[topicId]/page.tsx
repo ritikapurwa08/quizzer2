@@ -68,7 +68,7 @@ export default function TopicDetailPage() {
   }, [testSets, localTopicSets, isLocalLoaded]);
 
   const topicProgress = useQuery(api.topics.getProgress, { topicId: tId });
-  const completedIds = useQuery(api.testSets.completedSetIds) ?? [];
+  const completedIds = useQuery(api.testSets.completedSetIds, { topicId: tId }) ?? [];
 
   const completedSet = new Set(completedIds);
   const totalSets = allTopicSets.length;

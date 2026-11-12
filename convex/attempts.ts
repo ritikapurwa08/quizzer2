@@ -637,15 +637,15 @@ export const historyByUser = query({
     }
     const { numItems, cursor } = args.paginationOpts;
 
-    // Use by_user_status index, then sort strictly by submittedAt desc
-    // so any newly submitted test (even if resumed from an older in-progress attempt) appears immediately at the top!
+    // Quota-protected: bound query to recent submitted attempts instead of unbounded collection
+    const fetchLimit = Math.max(numItems + (cursor ? parseInt(cursor, 10) : 0), 60);
     const allSubmitted = await ctx.db
       .query("attempts")
       .withIndex("by_user_status", (q) =>
         q.eq("userId", user._id).eq("status", "submitted"),
       )
       .order("desc")
-      .collect();
+      .take(Math.min(fetchLimit, 150));
 
     allSubmitted.sort((a, b) => {
       const timeA = a.submittedAt ?? a.completedAt ?? a._creationTime ?? 0;
@@ -688,8 +688,10 @@ export const historyByUser = query({
           }
         }
 
+        // Omit heavy raw question answers from history list view to save database I/O & egress
+        const { answers, ...attemptWithoutAnswers } = a;
         return {
-          ...a,
+          ...attemptWithoutAnswers,
           testSetName: testSet?.name ?? "अभ्यास सेट",
           topicId,
           subjectId,

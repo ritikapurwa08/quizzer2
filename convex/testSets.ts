@@ -41,8 +41,8 @@ export const countsBySubject = query({
 
 /** IDs of test sets the current user has submitted at least once. */
 export const completedSetIds = query({
-  args: {},
-  handler: async (ctx) => {
+  args: { topicId: v.optional(v.union(v.id("topics"), v.string())) },
+  handler: async (ctx, args) => {
     // Use requireUser() — the canonical user-resolution path used across the
     // entire backend. The old ctx.auth.getUserIdentity().email lookup was
     // unreliable: it could silently return [] if the email was missing or
@@ -54,10 +54,32 @@ export const completedSetIds = query({
       return [] as string[];
     }
 
+    // Quota-protected: if topicId is provided, query only sets belonging to this topic
+    if (args.topicId) {
+      const topicSets = await ctx.db
+        .query("testSets")
+        .withIndex("by_topic", (q) => q.eq("topicId", args.topicId as any))
+        .collect();
+
+      const completedIds: string[] = [];
+      for (const s of topicSets) {
+        const attempt = await ctx.db
+          .query("attempts")
+          .withIndex("by_user_test_set_status", (q) =>
+            q.eq("userId", user._id).eq("testSetId", s._id).eq("status", "submitted")
+          )
+          .first();
+        if (attempt) {
+          completedIds.push(s._id);
+        }
+      }
+      return completedIds;
+    }
+
     const submitted = await ctx.db
       .query("attempts")
       .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "submitted"))
-      .collect();
+      .take(100);
 
     return [...new Set(submitted.map((a) => a.testSetId as string))];
   },
@@ -293,15 +315,36 @@ export const nextRecommendedSets = query({
       .order("desc")
       .take(10);
 
-    // 2. Fetch submitted attempts (newest first)
+    // 2. Fetch submitted attempts (newest first, limit to 8 to avoid N+1 DB churn)
     const submittedAttempts = await ctx.db
       .query("attempts")
       .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "submitted"))
       .order("desc")
-      .take(40);
+      .take(8);
 
     const completedSetIds = new Set(submittedAttempts.map((a) => a.testSetId as string));
     const addedSetIds = new Set<string>();
+
+    // In-memory entity lookup caches for this query
+    const topicCache = new Map<string, any>();
+    const subjectCache = new Map<string, any>();
+    const siblingCache = new Map<string, any[]>();
+
+    async function getTopicCached(topicId: Id<"topics">) {
+      const key = String(topicId);
+      if (!topicCache.has(key)) {
+        topicCache.set(key, await ctx.db.get(topicId));
+      }
+      return topicCache.get(key);
+    }
+
+    async function getSubjectCached(subjectId: Id<"subjects">) {
+      const key = String(subjectId);
+      if (!subjectCache.has(key)) {
+        subjectCache.set(key, await ctx.db.get(subjectId));
+      }
+      return subjectCache.get(key);
+    }
 
     type RecommendedItem = {
       testSetId: Id<"testSets">;
@@ -360,9 +403,9 @@ export const nextRecommendedSets = query({
       if (gkRecommendations.length >= 5 && englishRecommendations.length >= 1) break;
       const testSet = await ctx.db.get(sub.testSetId);
       if (!testSet || testSet.isArchived) continue;
-      const topic = await ctx.db.get(testSet.topicId);
+      const topic = await getTopicCached(testSet.topicId);
       if (!topic) continue;
-      const subject = await ctx.db.get(topic.subjectId);
+      const subject = await getSubjectCached(topic.subjectId);
       if (!subject) continue;
 
       const subName = subject.nameHindi || subject.name;
@@ -371,12 +414,17 @@ export const nextRecommendedSets = query({
       if (isEng && englishRecommendations.length >= 1) continue;
       if (!isEng && (gkRecommendations.length >= 5 || seenGkTopics.has(topic._id as string))) continue;
 
-      // Find sibling sets in this topic ordered by order (exclude archived)
-      const siblingSets = (await ctx.db
-        .query("testSets")
-        .withIndex("by_topic", (q) => q.eq("topicId", testSet.topicId))
-        .collect()).filter((s) => !s.isArchived);
-      siblingSets.sort((a, b) => a.order - b.order);
+      // Find sibling sets in this topic ordered by order (exclude archived) with cache
+      const topicKey = String(testSet.topicId);
+      if (!siblingCache.has(topicKey)) {
+        const sets = (await ctx.db
+          .query("testSets")
+          .withIndex("by_topic", (q) => q.eq("topicId", testSet.topicId))
+          .collect()).filter((s) => !s.isArchived);
+        sets.sort((a, b) => a.order - b.order);
+        siblingCache.set(topicKey, sets);
+      }
+      const siblingSets = siblingCache.get(topicKey) || [];
 
       const nextSet = siblingSets.find(
         (s) => s.order > testSet.order && !completedSetIds.has(s._id as string) && !addedSetIds.has(s._id as string)
@@ -410,7 +458,7 @@ export const nextRecommendedSets = query({
     // ── STEP 3: FRESH UNATTEMPTED SETS (TARGET: 4-5 GK + 1 ENGLISH) ──
     const targetGkCount = 5;
     if (gkRecommendations.length < targetGkCount || englishRecommendations.length < 1) {
-      const allSets = await ctx.db.query("testSets").take(200);
+      const allSets = await ctx.db.query("testSets").take(25);
 
       // Pass 3A: Diverse topics pass
       for (const set of allSets) {
@@ -419,9 +467,9 @@ export const nextRecommendedSets = query({
           continue;
         }
 
-        const topic = await ctx.db.get(set.topicId);
+        const topic = await getTopicCached(set.topicId);
         if (!topic) continue;
-        const subject = await ctx.db.get(topic.subjectId);
+        const subject = await getSubjectCached(topic.subjectId);
         if (!subject) continue;
 
         const subName = subject.nameHindi || subject.name;
@@ -465,9 +513,9 @@ export const nextRecommendedSets = query({
           if (completedSetIds.has(set._id as string) || addedSetIds.has(set._id as string) || set.questionCount === 0 || set.isArchived) {
             continue;
           }
-          const topic = await ctx.db.get(set.topicId);
+          const topic = await getTopicCached(set.topicId);
           if (!topic) continue;
-          const subject = await ctx.db.get(topic.subjectId);
+          const subject = await getSubjectCached(topic.subjectId);
           if (!subject || isEnglishSubject(subject.nameHindi || subject.name)) continue;
 
           gkRecommendations.push({

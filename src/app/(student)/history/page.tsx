@@ -22,9 +22,9 @@ export default function HistoryPage() {
 
   const subjects = useQuery(api.subjects.list) ?? [];
 
-  // Load all history
+  // Load history (quota-protected batch size)
   const result = useQuery(api.attempts.historyByUser, {
-    paginationOpts: { numItems: 500, cursor: null },
+    paginationOpts: { numItems: 60, cursor: null },
   });
 
   // Load topics for the selected subject
