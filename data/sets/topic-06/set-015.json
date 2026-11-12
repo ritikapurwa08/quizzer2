@@ -1,0 +1,704 @@
+{
+  "setId": "topic-6-set-015",
+  "masterTopicId": 6,
+  "masterTopic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+  "setNumber": 15,
+  "completedAt": "2026-11-12T15:36:16.409Z",
+  "questionCount": 20,
+  "questionIds": [
+    "rg_003499",
+    "rg_003502",
+    "rg_013591",
+    "rg_003463",
+    "rg_003503",
+    "rg_003506",
+    "rg_003509",
+    "rg_003490",
+    "rg_003491",
+    "rg_013603",
+    "rg_003366",
+    "rg_003367",
+    "rg_003258",
+    "rg_003393",
+    "rg_003396",
+    "rg_003398",
+    "rg_003400",
+    "rg_003401",
+    "rg_003402",
+    "rg_003404"
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित नदी बेसिनों में से कहाँ अधिकतम बीहड़ भूमि (Ravines) पाई जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चंबल बेसिन"
+        },
+        {
+          "id": "opt2",
+          "text": "मध्य माही बेसिन"
+        },
+        {
+          "id": "opt3",
+          "text": "ऊपरी बनास बेसिन"
+        },
+        {
+          "id": "opt4",
+          "text": "लूणी बेसिन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चंबल नदी द्वारा किए जाने वाले तीव्र अवनालिका अपरदन (Gully Erosion) के कारण चंबल बेसिन में सर्वाधिक बीहड़ भूमि (उत्खात स्थलाकृति) का निर्माण हुआ है, जिसका सर्वाधिक विस्तार कोटा, सवाई माधोपुर, करौली और धौलपुर जिलों में है।",
+      "reference": "📌 PYQ — Sr. Teacher Gr-II  GK 2016",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003499",
+        "exam": "Sr. Teacher Gr-II Comp. Exam GK",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विंध्यन कगार भूमि (Vindhyan Scarp Land) किन दो नदियों के मध्य स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाणगंगा व बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "कालीसिंध व चंबल"
+        },
+        {
+          "id": "opt3",
+          "text": "बेड़च व बनास"
+        },
+        {
+          "id": "opt4",
+          "text": "चंबल व बनास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "दक्षिण-पूर्वी पठारी प्रदेश के अंतर्गत विंध्यन कगार भूमि मुख्यतः चंबल और बनास नदियों के मध्य के क्षेत्र में विस्तृत है, जो बलुआ पत्थरों और चूना पत्थरों से निर्मित है।",
+      "reference": "📌 PYQ — Sr. Teacher Gr-II  GK 2016",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003502",
+        "exam": "Sr. Teacher Gr-II Comp. Exam GK",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "फलोदी के निकट स्थित 'बाप' (Bap) क्षेत्र किसके लिए जाना जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चूना पत्थर उत्पादन के लिए"
+        },
+        {
+          "id": "opt2",
+          "text": "ग्रेफाइट उत्पादन के लिए"
+        },
+        {
+          "id": "opt3",
+          "text": "चाँदी उत्पादन के लिए"
+        },
+        {
+          "id": "opt4",
+          "text": "नमक उत्पादन के लिए"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "फलोदी जिले में स्थित बाप क्षेत्र (बाप रण/झील) एक प्रमुख खारे पानी का गर्त है, जो परंपरागत रूप से नमक उत्पादन के लिए प्रसिद्ध है।",
+      "reference": "📌 PYQ — Compiler 2016",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013591",
+        "exam": "Compiler Exam",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित नदियों पर विचार कीजिए:\n\n1. माही\n2. कांतली\n3. साबी (साहीबी)\n4. गंभीरी\n\nउपर्युक्त में से कौन-सी नदियाँ आंतरिक अपवाह तंत्र से संबंधित हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2 और 3"
+        },
+        {
+          "id": "opt2",
+          "text": "2, 3 और 4"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल 2 और 3"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल 2 और 4"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कांतली (सीकर-झुंझुनूं) और साबी (कोटपूतली-बहरोड़ व खैरथल-तिजारा) राजस्थान की आंतरिक प्रवाह की नदियाँ हैं। जबकि माही अरब सागरीय अपवाह तंत्र और गंभीरी (बेड़च की सहायक) बंगाल की खाड़ी अपवाह तंत्र का हिस्सा है।",
+      "reference": "📌 PYQ — AAO 2015",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003463",
+        "exam": "Asst. Agriculture Officer (TSP) Paper-1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा युग्म (मुख्य नदी - सहायक नदी) सही सुमेलित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास - बाणगंगा"
+        },
+        {
+          "id": "opt2",
+          "text": "लूणी - कोठारी"
+        },
+        {
+          "id": "opt3",
+          "text": "चंबल - सूकड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "माही - जाखम"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जाखम नदी माही की प्रमुख सहायक नदी है, जो प्रतापगढ़ से निकलकर बेणेश्वर (डूंगरपुर) में सोम व माही के साथ त्रिवेणी संगम बनाती है। कोठारी बनास की तथा सूकड़ी लूणी की सहायक नदी है।",
+      "reference": "📌 PYQ — AAO 2015",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003503",
+        "exam": "Asst. Agriculture Officer Paper-1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित नदियों पर विचार कीजिए:\n\n1. काकनी\n2. कांतली\n3. मेंढ़ा\n4. रूपनगढ़\n\nउपर्युक्त में से कौन-सी नदियाँ सांभर झील में गिरती हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3 और 4"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 2 और 3"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 3 और 4"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल 3 और 4"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मेंढ़ा (मेंथा) और रूपनगढ़ नदियाँ सीधे सांभर झील में अपना जल गिराती हैं। काकनी (मसूरदी) जैसलमेर में बुझ झील का निर्माण करती है और कांतली शेखावाटी क्षेत्र में बहकर विलुप्त हो जाती है।",
+      "reference": "📌 PYQ — AAO 2015",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003506",
+        "exam": "Asst. Agriculture Officer Paper-1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्तमान में राजस्थान में भू-जल की कौन-सी समस्या सर्वाधिक चिंताजनक बनती जा रही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सतही जल का प्रवाह बढ़ना"
+        },
+        {
+          "id": "opt2",
+          "text": "नदियों में बाढ़ की आवृत्ति"
+        },
+        {
+          "id": "opt3",
+          "text": "बाँधों में गाद का कम होना"
+        },
+        {
+          "id": "opt4",
+          "text": "अंध और धूसर (Dark and Grey) क्षेत्रों की बढ़ती संख्या"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भू-जल के अत्यधिक दोहन के कारण राजस्थान के अधिकांश पंचायत समितियों/ब्लॉकों का भू-जल स्तर गिरता जा रहा है, जिससे अतिदोहित अर्थात् अंध (Dark) और धूसर (Grey) क्षेत्रों की संख्या लगातार बढ़ना एक गंभीर संकट है।",
+      "reference": "📌 PYQ — Patwar 2015",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003509",
+        "exam": "Patwar Main Exam",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बीसलपुर बाँध किस नदी पर निर्मित किया गया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कालीसिंध"
+        },
+        {
+          "id": "opt2",
+          "text": "बनास"
+        },
+        {
+          "id": "opt3",
+          "text": "जाखम"
+        },
+        {
+          "id": "opt4",
+          "text": "लूणी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बीसलपुर बाँध टोंक जिले के टोडारायसिंह क्षेत्र में बनास नदी पर स्थित एक प्रमुख कंक्रीट गुरुत्व बाँध है। यह जयपुर, अजमेर और टोंक जिलों की पेयजल आपूर्ति तथा सिंचाई का प्रमुख स्रोत है।",
+      "reference": "📌 PYQ — Asst. Professor 2014",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003490",
+        "exam": "Lect. College Edu. Exam (GK)",
+        "year": 2014
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी नदी अंतःप्रवाहित (आंतरिक प्रवाह) नदी नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साबी"
+        },
+        {
+          "id": "opt2",
+          "text": "कांतली"
+        },
+        {
+          "id": "opt3",
+          "text": "काकनी"
+        },
+        {
+          "id": "opt4",
+          "text": "खारी (बनास की सहायक)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजसमंद के बिजराल से निकलने वाली खारी नदी बनास की सहायक है, जो बंगाल की खाड़ी अपवाह तंत्र का अंग है। इसके विपरीत साबी, कांतली और काकनी आंतरिक प्रवाह की नदियाँ हैं।",
+      "reference": "📌 PYQ — Asst. Professor 2014",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003491",
+        "exam": "Lect. College Edu. Exam (GK)",
+        "year": 2014
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयसमंद झील (ढेबर झील) वर्तमान में किस जिले में स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "सलूम्बर"
+        },
+        {
+          "id": "opt3",
+          "text": "राजसमंद"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में मीठे पानी की सबसे बड़ी कृत्रिम झील जयसमंद (ढेबर झील) वर्तमान में सलूम्बर जिले में स्थित है। इसका निर्माण मेवाड़ के महाराणा जयसिंह द्वारा 1685-1691 ई. के मध्य गोमती नदी पर बाँध बनवाकर करवाया गया था।",
+      "reference": "📌 PYQ — Sub Inspector 2014",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013603",
+        "exam": "Police SI Exam General",
+        "year": 2014
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हड़प्पा सभ्यता का प्रसिद्ध स्थल 'कालीबंगा' किस प्राचीन नदी के किनारे विकसित हुआ था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सरस्वती (घग्घर)"
+        },
+        {
+          "id": "opt2",
+          "text": "यमुना"
+        },
+        {
+          "id": "opt3",
+          "text": "बनास"
+        },
+        {
+          "id": "opt4",
+          "text": "सिंधु"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हनुमानगढ़ जिले में स्थित कालीबंगा पुरातात्विक स्थल प्राचीन सरस्वती (वर्तमान घग्घर) नदी के बाएँ तट पर विकसित हुआ था।",
+      "reference": "📌 PYQ — AAO 2011",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003366",
+        "exam": "Asst. Agriculture Officer",
+        "year": 2011
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "'सोम' नदी का उद्गम किस स्थान से होता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माउंट आबू"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीछामेड़ा की पहाड़ियाँ"
+        },
+        {
+          "id": "opt4",
+          "text": "पचमेड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सोम नदी उदयपुर जिले में ऋषभदेव के पास बीछामेड़ा की पहाड़ियों से निकलती है। यह उदयपुर, सलूम्बर और डूंगरपुर में बहती हुई बेणेश्वर में माही नदी में मिल जाती है।",
+      "reference": "📌 PYQ — AAO 2011",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003367",
+        "exam": "Asst. Agriculture Officer",
+        "year": 2011
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बामणी (वामणी) किस नदी की सहायक नदी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कालीसिंध"
+        },
+        {
+          "id": "opt2",
+          "text": "चंबल"
+        },
+        {
+          "id": "opt3",
+          "text": "बनास"
+        },
+        {
+          "id": "opt4",
+          "text": "पार्वती"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बामणी नदी चित्तौड़गढ़ के हरिपुरा गाँव से निकलकर भैंसरोड़गढ़ के निकट चंबल नदी में मिलती है। इस संगम के समीप चंबल नदी पर राजस्थान का सबसे ऊँचा 'चूलिया जलप्रपात' (18 मीटर) स्थित है।",
+      "reference": "📌 PYQ — RSMSSB PTI Grade-III P1",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003258",
+        "exam": "RSMSSB PTI Grade-III P1"
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में जल द्वारा मृदा अपरदन (अवनालिका अपरदन) सर्वाधिक किस नदी से होता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माही"
+        },
+        {
+          "id": "opt2",
+          "text": "लूणी"
+        },
+        {
+          "id": "opt3",
+          "text": "चंबल"
+        },
+        {
+          "id": "opt4",
+          "text": "बनास"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चंबल नदी अपने तीव्र वेग और कगारों के कटाव के कारण राजस्थान में सर्वाधिक अवनालिका अपरदन (Gully Erosion) करती है, जिससे कोटा से धौलपुर तक विशाल बीहड़ क्षेत्रों का निर्माण हुआ है।",
+      "reference": "📌 PYQ — Junior Instructor",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003393",
+        "exam": "Junior Instructor (Welder)"
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी नदी बांसवाड़ा जिले में नहीं बहती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चेना (चाप)"
+        },
+        {
+          "id": "opt2",
+          "text": "माही"
+        },
+        {
+          "id": "opt3",
+          "text": "अनास"
+        },
+        {
+          "id": "opt4",
+          "text": "सोम"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सोम नदी उदयपुर की बीछामेड़ा पहाड़ियों से निकलकर उदयपुर, सलूम्बर और डूंगरपुर जिलों में बहती हुई बेणेश्वर में माही में मिलती है; यह बांसवाड़ा जिले में प्रवाहित नहीं होती है।",
+      "reference": "📌 PYQ — Junior Instructor",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003396",
+        "exam": "Junior Instructor (Welder)"
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बेणेश्वर धाम किन नदियों के संगम पर स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माही, अनास और चाप"
+        },
+        {
+          "id": "opt2",
+          "text": "माही, इरू और मोरेन"
+        },
+        {
+          "id": "opt3",
+          "text": "माही, सोम और जाखम"
+        },
+        {
+          "id": "opt4",
+          "text": "माही, साबरमती और वाकल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "डूंगरपुर जिले की आसपुर तहसील के नवाटापुरा गाँव में स्थित बेणेश्वर धाम में माही, सोम और जाखम नदियों का पवित्र त्रिवेणी संगम होता है।",
+      "reference": "📌 PYQ — Junior Instructor",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003398",
+        "exam": "Junior Instructor (Fitter)"
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित में से किस जिले में कालीसिंध नदी चंबल से मिलती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बारां"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मध्य प्रदेश के देवास (बागली गाँव) से निकलने वाली कालीसिंध नदी झालावाड़ और कोटा जिलों में बहती हुई कोटा के नानेरा (नोनेरा) नामक स्थान पर चंबल नदी में मिल जाती है।",
+      "reference": "📌 PYQ — Junior Instructor",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003400",
+        "exam": "Junior Instructor (Fitter)"
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोठारी नदी का उद्गम स्रोत कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बिजराल की पहाड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "दिवेर की पहाड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "गोगुंदा की पहाड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "पडरार की पहाड़ी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कोठारी नदी का उद्गम राजसमंद जिले की दिवेर की पहाड़ियों से होता है। भीलवाड़ा जिले में इसी नदी पर प्रसिद्ध मेजा बाँध निर्मित है।",
+      "reference": "📌 PYQ — Junior Instructor",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003401",
+        "exam": "Junior Instructor (COPA)"
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "'डाई नदी' का उद्गम राजस्थान के किस जिले से होता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "दौसा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "डाई नदी अजमेर जिले की नसीराबाद तहसील की अरावली पहाड़ियों से निकलकर अजमेर, केकड़ी व टोंक जिलों में बहती हुई बीसलपुर (राजमहल) के निकट बनास नदी में मिल जाती है।",
+      "reference": "📌 PYQ — Junior Instructor",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003402",
+        "exam": "Junior Instructor (COPA)"
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जाखम, माही तथा इरू (ऐराव) तीनों नदियाँ राजस्थान के निम्नलिखित में से किस जिले में प्रवाहित होती हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जाखम, माही और इरू (ऐराव) नदियाँ दक्षिणी राजस्थान के प्रतापगढ़ जिले के अपवाह तंत्र का प्रमुख हिस्सा हैं। जाखम नदी प्रतापगढ़ की छोटी सादड़ी की भँवरमाता पहाड़ियों से निकलती है।",
+      "reference": "📌 PYQ — Junior Instructor",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003404",
+        "exam": "Junior Instructor (Eco. Investigator)"
+      }
+    }
+  ]
+}

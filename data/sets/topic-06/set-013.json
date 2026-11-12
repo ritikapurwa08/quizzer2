@@ -1,0 +1,712 @@
+{
+  "setId": "topic-6-set-013",
+  "masterTopicId": 6,
+  "masterTopic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+  "setNumber": 13,
+  "completedAt": "2026-11-12T15:34:48.232Z",
+  "questionCount": 20,
+  "questionIds": [
+    "rg_003252",
+    "rg_003253",
+    "rg_003254",
+    "rg_003255",
+    "rg_003307",
+    "rg_003308",
+    "rg_003309",
+    "rg_003311",
+    "rg_003313",
+    "rg_003343",
+    "rg_003346",
+    "rg_013482",
+    "rg_013492",
+    "rg_013506",
+    "rg_013509",
+    "rg_003392",
+    "rg_013517",
+    "rg_003354",
+    "rg_003411",
+    "rg_003420"
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सर्वाधिक विस्तृत जलग्रहण क्षेत्र वाली नदी कौन-सी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "लूनी"
+        },
+        {
+          "id": "opt3",
+          "text": "माही"
+        },
+        {
+          "id": "opt4",
+          "text": "साबरमती"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान राज्य के भीतर सर्वाधिक जलग्रहण क्षेत्र बनास नदी (~45,833 वर्ग किमी) का है। इसके पश्चात क्रमशः लूनी (~37,363 वर्ग किमी), चम्बल (~31,360 वर्ग किमी) एवं माही (~16,985 वर्ग किमी) का स्थान आता है।",
+      "reference": "📌 PYQ — Evaluation Officer 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003252",
+        "exam": "Evaluation Officer",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी एक अन्तः प्रवाही नदी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पश्चिमी बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "कांतली"
+        },
+        {
+          "id": "opt3",
+          "text": "गम्भीरी"
+        },
+        {
+          "id": "opt4",
+          "text": "खारी (बनास की सहायक)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कांतली नदी सीकर की खंडेला पहाड़ियों से निकलकर सीकर, नीमकाथाना व झुंझुनू में बहती हुई चूरू की सीमा पर विलीन हो जाती है। यह पूर्णतः राजस्थान में बहने वाली आंतरिक प्रवाह की सबसे लंबी नदी (~100 किमी) है।",
+      "reference": "📌 PYQ — Evaluation Officer 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003253",
+        "exam": "Evaluation Officer",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस नदी का उद्गम सेवर पहाड़ियों से होता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "काकनी"
+        },
+        {
+          "id": "opt2",
+          "text": "मोरेल"
+        },
+        {
+          "id": "opt3",
+          "text": "साबी"
+        },
+        {
+          "id": "opt4",
+          "text": "सोम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "आंतरिक प्रवाह की प्रमुख नदी साबी का उद्गम कोटपूतली-बहरोड़ जिले की सेवर पहाड़ियों से होता है। यह खैरथल-तिजारा होते हुए हरियाणा के पटौदी क्षेत्र में जाकर विलीन हो जाती है।",
+      "reference": "📌 PYQ — Evaluation Officer 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003254",
+        "exam": "Evaluation Officer",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी आंतरिक अपवाह प्रणाली की नदी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मासी"
+        },
+        {
+          "id": "opt2",
+          "text": "सूकड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "मीठड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "साबी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "साबी आंतरिक अपवाह तंत्र की नदी है जो सेवर पहाड़ियों से निकलकर हरियाणा के मैदान में विलीन हो जाती है। मासी बनास की सहायक है, जबकि सूकड़ी व मीठड़ी लूनी नदी की सहायक नदियाँ हैं।",
+      "reference": "📌 PYQ — Forester 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003255",
+        "exam": "Forester Exam Shift 2",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी नदी 'उटंगन नदी' के नाम से भी जानी जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंभीर नदी"
+        },
+        {
+          "id": "opt2",
+          "text": "काली सिंध नदी"
+        },
+        {
+          "id": "opt3",
+          "text": "लूनी नदी"
+        },
+        {
+          "id": "opt4",
+          "text": "रूपारेल नदी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "करौली की सपोटरा/नादौती पहाड़ियों से निकलने वाली गंभीर नदी को स्थानीय रूप से 'उटंगन नदी' भी कहा जाता है। यह भरतपुर व धौलपुर होते हुए उत्तर प्रदेश में यमुना नदी में मिल जाती है।",
+      "reference": "📌 PYQ — Police Constable 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003307",
+        "exam": "Raj Police Constable Exam (8 Nov S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अरवरी नदी का उद्गम निम्नलिखित में से कहाँ से होता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई माधोपुर जिले से"
+        },
+        {
+          "id": "opt2",
+          "text": "थानागाजी के पास सकरा बांध से"
+        },
+        {
+          "id": "opt3",
+          "text": "पाली जिले से"
+        },
+        {
+          "id": "opt4",
+          "text": "हेमवास बांध से"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अरवरी नदी का उद्गम अलवर जिले के थानागाजी के निकट सकरा बांध (सरिस्का पहाड़ियों) से होता है। जल पुरुष डॉ. राजेंद्र सिंह के प्रयासों से इस नदी को पुनर्जीवित किया गया था।",
+      "reference": "📌 PYQ — Police Constable 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003308",
+        "exam": "Raj Police Constable Exam (8 Nov S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस नदी का जल जयसमंद झील द्वारा उपयोग में लाया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "चंबल"
+        },
+        {
+          "id": "opt3",
+          "text": "गोमती"
+        },
+        {
+          "id": "opt4",
+          "text": "सोम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जयसमंद झील (सलूम्बर) का निर्माण महाराणा जयसिंह द्वारा गोमती नदी के जल को रोककर करवाया गया था। इसमें गोमती, झावरी व बागर नदियों का जल ढेबर दर्रे से होकर आता है।",
+      "reference": "📌 PYQ — Police Constable 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003309",
+        "exam": "Raj Police Constable Exam (8 Nov S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की कौन-सी नदी 'अर्जुन की गंगा' कहलाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माही"
+        },
+        {
+          "id": "opt2",
+          "text": "लूनी"
+        },
+        {
+          "id": "opt3",
+          "text": "चंबल"
+        },
+        {
+          "id": "opt4",
+          "text": "बाणगंगा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बैराठ की पहाड़ियों (कोटपूतली-बहरोड़) से निकलने वाली बाणगंगा नदी को 'अर्जुन की गंगा', 'रुण्डित नदी' तथा 'ताला नदी' कहा जाता है। इसके तट पर प्राचीन बैराठ सभ्यता विकसित हुई।",
+      "reference": "📌 PYQ — Police Constable 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003311",
+        "exam": "Raj Police Constable Exam (7 Nov S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में चंबल नदी की सबसे बड़ी सहायक नदी कौन-सी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "दृषद्वती"
+        },
+        {
+          "id": "opt3",
+          "text": "लूनी"
+        },
+        {
+          "id": "opt4",
+          "text": "साबरमती"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पूर्णतः राजस्थान में बहने वाली सबसे लंबी नदी बनास (~512 किमी) चंबल की सबसे बड़ी सहायक नदी है, जो सवाई माधोपुर के रामेश्वरम् (पदरा गाँव) में चंबल व सीप के साथ त्रिवेणी संगम बनाती है।",
+      "reference": "📌 PYQ — Police Constable 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003313",
+        "exam": "Raj Police Constable Exam (6 Nov S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी राजस्थान में अंतर्देशीय (आंतरिक प्रवाह) नदी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "कांतली"
+        },
+        {
+          "id": "opt3",
+          "text": "कोठारी"
+        },
+        {
+          "id": "opt4",
+          "text": "काली सिंध"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कांतली नदी एक अंतर्देशीय (आंतरिक प्रवाह) नदी है जो शेखावाटी क्षेत्र में बहती हुई चूरू सीमा से पूर्व रेतीले मैदान में विलीन हो जाती है, जबकि बनास, कोठारी व काली सिंध बंगाल की खाड़ी अपवाह तंत्र का हिस्सा हैं।",
+      "reference": "📌 PYQ — ARO 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003343",
+        "exam": "Agriculture Research Officer",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित बेसिनों में से कौन-सा 'गोडवाड़ प्रदेश' के नाम से जाना जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चम्बल बेसिन"
+        },
+        {
+          "id": "opt2",
+          "text": "मध्य माही बेसिन"
+        },
+        {
+          "id": "opt3",
+          "text": "लूनी बेसिन"
+        },
+        {
+          "id": "opt4",
+          "text": "सांभर बेसिन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दक्षिण-पूर्वी बाड़मेर, जालौर, सांचौर तथा पश्चिमी सिरोही व पाली में विस्तृत लूनी नदी बेसिन क्षेत्र को ऐतिहासिक एवं भौगोलिक रूप से 'गोडवाड़ प्रदेश' कहा जाता है।",
+      "reference": "📌 PYQ — ARO 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003346",
+        "exam": "Agriculture Research Officer",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा युग्म (झील - जिला) अशुद्ध है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गड़ीसर - जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "मांडलताल - भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "फॉयसागर - अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "तालाब-ए-शाही - बारां"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "तालाब-ए-शाही धौलपुर जिले (बाड़ी) में स्थित ऐतिहासिक झील है, बारां में नहीं। गड़ीसर जैसलमेर में, मांडलताल भीलवाड़ा में तथा फॉयसागर अजमेर में स्थित है।",
+      "reference": "📌 PYQ — Evaluation Officer 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013482",
+        "exam": "Evaluation Officer",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बिजोलिया अभिलेख के अनुसार सांभर झील का निर्माण चौहान वंश के किस शासक ने करवाया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वासुदेव"
+        },
+        {
+          "id": "opt2",
+          "text": "विग्रहराज प्रथम"
+        },
+        {
+          "id": "opt3",
+          "text": "दुर्लभराज प्रथम"
+        },
+        {
+          "id": "opt4",
+          "text": "वाक्पतिराज"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1170 ई. के बिजोलिया शिलालेख के अनुसार शाकम्भरी के चौहान वंश के संस्थापक शासक वासुदेव चौहान (551 ई.) ने सांभर झील का निर्माण करवाया था।",
+      "reference": "📌 PYQ — Agriculture Officer 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013492",
+        "exam": "Agriculture Officer",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जोधपुर से 8 किमी पश्चिम में स्थित कायलाना झील को वर्तमान स्वरूप प्रदान कर किसने निर्मित करवाया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीम सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रताप सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "तख्त सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "अर्णोराज"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जोधपुर के पश्चिम में स्थित कायलाना झील को आधुनिक स्वरूप प्रदान कर सर प्रताप सिंह ने निर्मित करवाया था। वर्तमान में यह जोधपुर शहर की पेयजल आपूर्ति का प्रमुख स्रोत है।",
+      "reference": "📌 PYQ — Police Constable 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013506",
+        "exam": "Raj Police Constable Exam (8 Nov S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पचपदरा झील के नमक में सोडियम क्लोराइड (NaCl) का अनुमानित स्तर कितना होता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "80%"
+        },
+        {
+          "id": "opt2",
+          "text": "70%"
+        },
+        {
+          "id": "opt3",
+          "text": "98%"
+        },
+        {
+          "id": "opt4",
+          "text": "85%"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बालोतरा जिले में स्थित पचपदरा झील से खारवाल जाति के लोगों द्वारा मोरली झाड़ी की टहनियों से स्फटिक नमक तैयार किया जाता है, जिसमें 98% तक सोडियम क्लोराइड पाया जाता है।",
+      "reference": "📌 PYQ — Police Constable 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013509",
+        "exam": "Raj Police Constable Exam (7 Nov S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान की कौन-सी नदी जैसलमेर बेसिन में नहीं गिरती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चितकी"
+        },
+        {
+          "id": "opt2",
+          "text": "सूकड़ी (जैसलमेर स्थानीय)"
+        },
+        {
+          "id": "opt3",
+          "text": "घूघरी"
+        },
+        {
+          "id": "opt4",
+          "text": "लीलड़ी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "लीलड़ी नदी ब्यावर के जवाजा की पहाड़ियों से निकलकर लूनी नदी में मिलने वाली प्रथम सहायक नदी है, जबकि चितकी, घूघरी व स्थानीय सूकड़ी जैसलमेर के आंतरिक बेसिन में प्रवाहित होती हैं।",
+      "reference": "📌 PYQ — JSA Ballistic 2019",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003392",
+        "exam": "JSA Ballistic (Rajasthan GK)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किशोर सागर झील (तालाब) राजस्थान के किस शहर/जिले में स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt3",
+          "text": "किशनगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "बिजोलिया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "किशोर सागर तालाब कोटा शहर में स्थित है, जिसका निर्माण 1346 ई. में बूंदी के राजकुमार धीरदेह द्वारा करवाया गया था। इसके मध्य में प्रसिद्ध 'जगमंदिर' महल स्थित है।",
+      "reference": "📌 PYQ — JSA Serology 2019",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013517",
+        "exam": "JSA Serology (Rajasthan GK)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के आंतरिक अपवाह तंत्र में निम्नांकित में से कौन-सी नदी सम्मिलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "काकनेय"
+        },
+        {
+          "id": "opt2",
+          "text": "जाखम"
+        },
+        {
+          "id": "opt3",
+          "text": "सोता"
+        },
+        {
+          "id": "opt4",
+          "text": "घग्घर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जाखम नदी प्रतापगढ़ की छोटी सादड़ी (भंवरमाता पहाड़ियों) से निकलकर बेणेश्वर (डूंगरपुर) में सोम व माही से मिलती है तथा अरब सागर अपवाह तंत्र का हिस्सा है। काकनेय, सोता व घग्घर आंतरिक प्रवाह की नदियाँ हैं।",
+      "reference": "📌 PYQ — Librarian Grade III 2018",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003354",
+        "exam": "Librarian Grade III",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किस सिंचाई स्रोत से सर्वाधिक क्षेत्रफल पर सिंचाई की जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नहरों द्वारा"
+        },
+        {
+          "id": "opt2",
+          "text": "तालाबों द्वारा"
+        },
+        {
+          "id": "opt3",
+          "text": "कुओं एवं नलकूपों द्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "झरनों एवं एनीकट द्वारा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान के कुल सिंचित क्षेत्रफल के लगभग 66-70% भाग पर कुओं एवं नलकूपों (मुख्यतः जयपुर, अलवर, भरतपुर क्षेत्र में) से सिंचाई की जाती है, इसके बाद नहरों (~28-30%) का स्थान आता है।",
+      "reference": "📌 PYQ — Asst. Professor 2018",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003411",
+        "exam": "College Lecturer (Sarangi Instrument) GK",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के नदी अपवाह बेसिनों का उत्तर से दक्षिण की ओर सही क्रम कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साबी - बाणगंगा - बेड़च - सोम"
+        },
+        {
+          "id": "opt2",
+          "text": "बाणगंगा - साबी - बेड़च - सोम"
+        },
+        {
+          "id": "opt3",
+          "text": "बनास - पश्चिमी बनास - सोम - बेड़च"
+        },
+        {
+          "id": "opt4",
+          "text": "साबी - बेड़च - सोम - पश्चिमी बनास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "उत्तर से दक्षिण की ओर अवस्थिति: साबी बेसिन (कोटपूतली-बहरोड़/खैरथल-तिजारा) → बेड़च बेसिन (उदयपुर/चित्तौड़गढ़) → सोम बेसिन (उदयपुर/सलूम्बर/डूंगरपुर) → पश्चिमी बनास बेसिन (सिरोही का दक्षिणी भाग)।",
+      "reference": "📌 PYQ — AAO 2018",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003420",
+        "exam": "Asst. Agriculture Officer (Paper-1)",
+        "year": 2018
+      }
+    }
+  ]
+}

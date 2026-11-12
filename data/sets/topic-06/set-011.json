@@ -1,0 +1,1006 @@
+{
+  "setId": "topic-6-set-011",
+  "masterTopicId": 6,
+  "masterTopic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+  "setNumber": 11,
+  "completedAt": "2026-11-12T15:32:20.942Z",
+  "questionCount": 20,
+  "questionIds": [
+    "rg_013383",
+    "rg_013384",
+    "rg_013385",
+    "rg_013389",
+    "rg_013391",
+    "rg_013396",
+    "rg_003069",
+    "rg_003096",
+    "rg_003125",
+    "rg_003132",
+    "rg_003135",
+    "rg_003136",
+    "rg_003142",
+    "rg_003153",
+    "rg_003168",
+    "rg_013427",
+    "rg_013479",
+    "rg_013480",
+    "rg_013490",
+    "rg_013494"
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान की खारे पानी (लवणीय) की झीलें कौन-सी हैं?\na. डीडवाना\nb. लूणकरणसर\nc. पिछोला\nd. पचपदरा\ne. पुष्कर\n\nनीचे दिए गए विकल्पों में से सही कूट का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल a, b और d"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल b, c और d"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल a, b, c और d"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल b, d और e"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "डीडवाना, लूणकरणसर और पचपदरा राजस्थान की खारे पानी की झीलें हैं, जबकि पिछोला (उदयपुर) और पुष्कर (अजमेर) मीठे पानी की प्रसिद्ध झीलें हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013383",
+        "exam": "3rd Grade Teacher Sanskrit (L-1)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) कहा गया है:\n\nअभिकथन (A): नक्की झील राजस्थान के बूंदी जिले में स्थित है।\n\nकारण (R): नक्की झील गरासिया जनजाति द्वारा अत्यंत पवित्र मानी जाती है और वे यहाँ अपने पूर्वजों की अस्थियाँ विसर्जित करते हैं।\n\nउपर्युक्त कथनों के आलोक में निम्नलिखित में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A और R दोनों सही हैं और R, A की सही व्याख्या है।"
+        },
+        {
+          "id": "opt2",
+          "text": "A गलत है लेकिन R सही है।"
+        },
+        {
+          "id": "opt3",
+          "text": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है।"
+        },
+        {
+          "id": "opt4",
+          "text": "A सही है लेकिन R गलत है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अभिकथन (A) गलत है क्योंकि नक्की झील माउंट आबू (सिरोही) में स्थित है, न कि बूंदी में। कारण (R) सही है क्योंकि गरासिया जनजाति इस झील को अत्यंत पवित्र मानती है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013384",
+        "exam": "3rd Grade Teacher Sanskrit (L-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर चुनिए:\nसूची-I (झील)\na. पुष्कर\nb. सिलीसेढ़\nc. गड़ीसर\nd. मानसागर\n\nसूची-II (अवस्थिति)\nI. अजमेर\nII. जैसलमेर\nIII. अलवर\nIV. जयपुर",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-I, b-II, c-IV, d-III"
+        },
+        {
+          "id": "opt2",
+          "text": "a-I, b-IV, c-III, d-II"
+        },
+        {
+          "id": "opt3",
+          "text": "a-I, b-III, c-II, d-IV"
+        },
+        {
+          "id": "opt4",
+          "text": "a-II, b-I, c-III, d-IV"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पुष्कर → अजमेर (I) | सिलीसेढ़ → अलवर (III) | गड़ीसर → जैसलमेर (II) | मानसागर (जलमहल स्थित) → जयपुर (IV)। अतः सही कूट 'a-I, b-III, c-II, d-IV' है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "पुष्कर"
+          },
+          {
+            "id": "b",
+            "text": "सिलीसेढ़"
+          },
+          {
+            "id": "c",
+            "text": "गड़ीसर"
+          },
+          {
+            "id": "d",
+            "text": "मानसागर"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "अजमेर"
+          },
+          {
+            "id": "II",
+            "text": "जैसलमेर"
+          },
+          {
+            "id": "III",
+            "text": "अलवर"
+          },
+          {
+            "id": "IV",
+            "text": "जयपुर"
+          }
+        ],
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013385",
+        "exam": "3rd Grade Teacher Sanskrit (L-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर चुनिए:\nसूची-I (झील)\na. पिछोला झील\nb. सांभर झील\nc. आनासागर झील\nd. कोलायत झील\n\nसूची-II (ज़िला)\nI. जयपुर\nII. बीकानेर\nIII. अजमेर\nIV. उदयपुर",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-I, b-II, c-III, d-IV"
+        },
+        {
+          "id": "opt2",
+          "text": "a-II, b-I, c-IV, d-III"
+        },
+        {
+          "id": "opt3",
+          "text": "a-IV, b-I, c-II, d-III"
+        },
+        {
+          "id": "opt4",
+          "text": "a-IV, b-I, c-III, d-II"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पिछोला झील → उदयपुर (IV) | सांभर झील → जयपुर/डीडवाना-कुचामन (I) | आनासागर झील → अजमेर (III) | कोलायत झील → बीकानेर (II)। अतः सही कूट 'a-IV, b-I, c-III, d-II' है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "पिछोला झील"
+          },
+          {
+            "id": "b",
+            "text": "सांभर झील"
+          },
+          {
+            "id": "c",
+            "text": "आनासागर झील"
+          },
+          {
+            "id": "d",
+            "text": "कोलायत झील"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "जयपुर"
+          },
+          {
+            "id": "II",
+            "text": "बीकानेर"
+          },
+          {
+            "id": "III",
+            "text": "अजमेर"
+          },
+          {
+            "id": "IV",
+            "text": "उदयपुर"
+          }
+        ],
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013389",
+        "exam": "3rd Grade Teacher Social Studies (L-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा युग्म (झील का नाम - संबंधित ज़िला) सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गैब सागर झील - बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "सिलीसेढ़ झील - अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "गड़ीसर झील - जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोलायत झील - बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "गैब सागर (एडवर्ड सागर) झील डूंगरपुर जिले में स्थित है, बांसवाड़ा में नहीं। इसके तट पर प्रसिद्ध बादल महल तथा कालीबाई का स्मारक स्थित है। अन्य तीनों युग्म सही सुमेलित हैं।",
+      "reference": "📌 PYQ — Deputy Commandant 2025",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013391",
+        "exam": "Deputy Commandant (Home Guard Deptt.) Exam",
+        "year": 2025
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर चुनिए:\nसूची-I (झील)\na. कनक सागर (दुगारी)\nb. डायलाब झील\nc. बालसमंद झील\nd. पिछोला झील\n\nसूची-II (ज़िला)\nI. जोधपुर\nII. उदयपुर\nIII. बांसवाड़ा\nIV. बूंदी",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-I, b-II, c-III, d-IV"
+        },
+        {
+          "id": "opt2",
+          "text": "a-IV, b-III, c-I, d-II"
+        },
+        {
+          "id": "opt3",
+          "text": "a-II, b-III, c-IV, d-I"
+        },
+        {
+          "id": "opt4",
+          "text": "a-I, b-IV, c-III, d-II"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कनक सागर → बूंदी (IV) | डायलाब झील → बांसवाड़ा (III) | बालसमंद झील → जोधपुर (I) | पिछोला झील → उदयपुर (II)। अतः सही कूट 'a-IV, b-III, c-I, d-II' है।",
+      "reference": "📌 PYQ — Platoon Commander 2025",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "कनक सागर (दुगारी)"
+          },
+          {
+            "id": "b",
+            "text": "डायलाब झील"
+          },
+          {
+            "id": "c",
+            "text": "बालसमंद झील"
+          },
+          {
+            "id": "d",
+            "text": "पिछोला झील"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "जोधपुर"
+          },
+          {
+            "id": "II",
+            "text": "उदयपुर"
+          },
+          {
+            "id": "III",
+            "text": "बांसवाड़ा"
+          },
+          {
+            "id": "IV",
+            "text": "बूंदी"
+          }
+        ],
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013396",
+        "exam": "Platoon Commander Exam",
+        "year": 2025
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर चुनिए:\nसूची-I (नदी)\na. जोजड़ी\nb. माही\nc. मानसी\nd. काली (स्थानीय)\n\nसूची-II (प्रवाह क्षेत्र/जिला)\nI. जोधपुर\nII. बांसवाड़ा\nIII. भीलवाड़ा\nIV. अलवर",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-I, b-II, c-IV, d-III"
+        },
+        {
+          "id": "opt2",
+          "text": "a-I, b-III, c-IV, d-II"
+        },
+        {
+          "id": "opt3",
+          "text": "a-I, b-II, c-III, d-IV"
+        },
+        {
+          "id": "opt4",
+          "text": "a-IV, b-III, c-II, d-I"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जोजड़ी → जोधपुर (I) | माही → बांसवाड़ा (II) | मानसी → भीलवाड़ा/शाहपुरा (III) | काली नदी → अलवर क्षेत्र (IV)। अतः सही कूट 'a-I, b-II, c-III, d-IV' है।",
+      "reference": "📌 PYQ — वाहन चालक सीधी भर्ती परीक्षा 2024",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "जोजड़ी"
+          },
+          {
+            "id": "b",
+            "text": "माही"
+          },
+          {
+            "id": "c",
+            "text": "मानसी"
+          },
+          {
+            "id": "d",
+            "text": "काली (स्थानीय)"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "जोधपुर"
+          },
+          {
+            "id": "II",
+            "text": "बांसवाड़ा"
+          },
+          {
+            "id": "III",
+            "text": "भीलवाड़ा"
+          },
+          {
+            "id": "IV",
+            "text": "अलवर"
+          }
+        ],
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003069",
+        "exam": "वाहन चालक सीधी भर्ती परीक्षा",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में जलग्रहण क्षेत्र (कैचमेंट एरिया) के अनुसार निम्नलिखित नदियों का सही अवरोही क्रम क्या है?\na. बनास\nb. माही\nc. लूनी\nd. बाणगंगा\n\nनीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a, b, c, d"
+        },
+        {
+          "id": "opt2",
+          "text": "d, b, c, a"
+        },
+        {
+          "id": "opt3",
+          "text": "b, a, d, c"
+        },
+        {
+          "id": "opt4",
+          "text": "a, c, b, d"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में जलग्रहण क्षेत्र का सही अवरोही क्रम है: बनास (~46,570 वर्ग किमी) > लूनी (~37,363 वर्ग किमी) > माही (~16,030 वर्ग किमी) > बाणगंगा (~8,878 वर्ग किमी)। अतः सही क्रम 'a, c, b, d' है।",
+      "reference": "📌 PYQ — Chemist 2024",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003096",
+        "exam": "Chemist (Archives Dept.) Comp. Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I (नदी) को सूची-II (सहायक नदी) से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर चुनिए:\nसूची-I (मुख्य नदी)\na. माही\nb. काली सिंध\nc. पार्वती\nd. बेड़च\n\nसूची-II (सहायक नदी)\nI. निवाज\nII. गंभीरी\nIII. अनास\nIV. अहेली",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-III, b-I, c-IV, d-II"
+        },
+        {
+          "id": "opt2",
+          "text": "a-II, b-I, c-III, d-IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a-IV, b-III, c-II, d-I"
+        },
+        {
+          "id": "opt4",
+          "text": "a-III, b-IV, c-I, d-II"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "माही → अनास (III) | काली सिंध → निवाज (I) | पार्वती → अहेली (IV) | बेड़च → गंभीरी (II)। अतः सही कूट 'a-III, b-I, c-IV, d-II' है।",
+      "reference": "📌 PYQ — RPSC 1st Grade 2024",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "माही"
+          },
+          {
+            "id": "b",
+            "text": "काली सिंध"
+          },
+          {
+            "id": "c",
+            "text": "पार्वती"
+          },
+          {
+            "id": "d",
+            "text": "बेड़च"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "निवाज"
+          },
+          {
+            "id": "II",
+            "text": "गंभीरी"
+          },
+          {
+            "id": "III",
+            "text": "अनास"
+          },
+          {
+            "id": "IV",
+            "text": "अहेली"
+          }
+        ],
+        "leftTitle": "सूची – I (नदी)",
+        "rightTitle": "सूची – II (सहायक नदी)",
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003125",
+        "exam": "School Lecturer (School Edu.) GA and GS (G-A)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I (नदी) को सूची-II (सहायक नदी) से सुमेलित कीजिए:\nसूची-I (मुख्य नदी)\na. बनास\nb. लूनी\nc. माही\nd. चम्बल\n\nसूची-II (सहायक नदी)\nI. मोरेल\nII. बाण्डी\nIII. जाखम\nIV. काली सिन्ध\n\nनीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-III, b-II, c-IV, d-I"
+        },
+        {
+          "id": "opt2",
+          "text": "a-I, b-II, c-III, d-IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a-III, b-IV, c-II, d-I"
+        },
+        {
+          "id": "opt4",
+          "text": "a-IV, b-III, c-I, d-II"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बनास → मोरेल (I) | लूनी → बाण्डी (II) | माही → जाखम (III) | चम्बल → काली सिन्ध (IV)। अतः सही कूट 'a-I, b-II, c-III, d-IV' है।",
+      "reference": "📌 PYQ — Junior Instructor 2024",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "बनास"
+          },
+          {
+            "id": "b",
+            "text": "लूनी"
+          },
+          {
+            "id": "c",
+            "text": "माही"
+          },
+          {
+            "id": "d",
+            "text": "चम्बल"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "मोरेल"
+          },
+          {
+            "id": "II",
+            "text": "बाण्डी"
+          },
+          {
+            "id": "III",
+            "text": "जाखम"
+          },
+          {
+            "id": "IV",
+            "text": "काली सिन्ध"
+          }
+        ],
+        "leftTitle": "सूची – I (नदी)",
+        "rightTitle": "सूची – II (सहायक नदी)",
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003132",
+        "exam": "Junior Instructor (COS) Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-से जिले लूनी नदी के अपवाह बेसिन में सम्मिलित हैं?\na. जोधपुर\nb. सिरोही\nc. पाली\n\nनीचे दिए गए विकल्पों में से सही उत्तर का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल a और b"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल b और c"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल a और c"
+        },
+        {
+          "id": "opt4",
+          "text": "a, b और c सभी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "लूनी बेसिन (गोधवाड़ प्रदेश) में मुख्य रूप से अजमेर, ब्यावर, नागौर, पाली, जोधपुर, जोधपुर ग्रामीण, बालोतरा, बाड़मेर और जालौर/सांचौर जिले सम्मिलित हैं, जबकि सिरोही पश्चिमी बनास बेसिन में आता है।",
+      "reference": "📌 PYQ — Junior Instructor 2024",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003135",
+        "exam": "Junior Instructor (STE) Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा एक युग्म (बाँध - नदी) सही सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माही बाँध - माही नदी"
+        },
+        {
+          "id": "opt2",
+          "text": "जवाई बाँध - जवाई नदी"
+        },
+        {
+          "id": "opt3",
+          "text": "दांतीवाड़ा बाँध - पश्चिमी बनास नदी"
+        },
+        {
+          "id": "opt4",
+          "text": "मेजा बाँध - मेज नदी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मेजा बाँध भीलवाड़ा जिले के मांडलगढ़ क्षेत्र में कोठारी नदी पर निर्मित है, न कि मेज नदी पर। शेष तीनों बांध संबंधित नदियों से सही सुमेलित हैं।",
+      "reference": "📌 PYQ — Junior Instructor 2024",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003136",
+        "exam": "Junior Instructor (STE) Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट में से सही उत्तर चुनिए:\nसूची-I (मुख्य नदी)\na. कालीसिंध\nb. लूनी\nc. माही\nd. बनास\n\nसूची-II (सहायक नदी)\nI. अनास\nII. ढूंढ\nIII. परवन\nIV. सागी",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-III, b-IV, c-I, d-II"
+        },
+        {
+          "id": "opt2",
+          "text": "a-III, b-II, c-I, d-IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a-I, b-II, c-IV, d-III"
+        },
+        {
+          "id": "opt4",
+          "text": "a-I, b-IV, c-II, d-III"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कालीसिंध → परवन (III) | लूनी → सागी (IV) | माही → अनास (I) | बनास → ढूंढ (II)। अतः सही कूट 'a-III, b-IV, c-I, d-II' है।",
+      "reference": "📌 PYQ — Agriculture Officer 2024",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "कालीसिंध"
+          },
+          {
+            "id": "b",
+            "text": "लूनी"
+          },
+          {
+            "id": "c",
+            "text": "माही"
+          },
+          {
+            "id": "d",
+            "text": "बनास"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "अनास"
+          },
+          {
+            "id": "II",
+            "text": "ढूंढ"
+          },
+          {
+            "id": "III",
+            "text": "परवन"
+          },
+          {
+            "id": "IV",
+            "text": "सागी"
+          }
+        ],
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003142",
+        "exam": "Agriculture Officer (Agri. Deptt.) Comp. Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I (जिला) को सूची-II (नदी) से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर का चयन कीजिए:\nसूची-I (जिला)\na. उदयपुर\nb. बूँदी\nc. भरतपुर\nd. अलवर\n\nसूची-II (नदी)\nI. साबी तथा रूपारेल\nII. बाणगंगा तथा गम्भीर\nIII. सोम तथा जाखम\nIV. कुराल",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-III, b-IV, c-I, d-II"
+        },
+        {
+          "id": "opt2",
+          "text": "a-III, b-IV, c-II, d-I"
+        },
+        {
+          "id": "opt3",
+          "text": "a-IV, b-III, c-II, d-I"
+        },
+        {
+          "id": "opt4",
+          "text": "a-I, b-III, c-II, d-IV"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उदयपुर → सोम तथा जाखम (III) | बूँदी → कुराल (IV) | भरतपुर → बाणगंगा तथा गम्भीर (II) | अलवर → साबी तथा रूपारेल (I)। अतः सही कूट 'a-III, b-IV, c-II, d-I' है।",
+      "reference": "📌 PYQ — RAS 2024",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "उदयपुर"
+          },
+          {
+            "id": "b",
+            "text": "बूँदी"
+          },
+          {
+            "id": "c",
+            "text": "भरतपुर"
+          },
+          {
+            "id": "d",
+            "text": "अलवर"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "साबी तथा रूपारेल"
+          },
+          {
+            "id": "II",
+            "text": "बाणगंगा तथा गम्भीर"
+          },
+          {
+            "id": "III",
+            "text": "सोम तथा जाखम"
+          },
+          {
+            "id": "IV",
+            "text": "कुराल"
+          }
+        ],
+        "leftTitle": "सूची – I (जिला)",
+        "rightTitle": "सूची – II (नदी)",
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003153",
+        "exam": "RAS Pre Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा युग्म (सहायक नदियाँ - मुख्य नदी) सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मानसी और खारी - बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "उजाड़ और आहू - कालीसिन्ध"
+        },
+        {
+          "id": "opt3",
+          "text": "मेज और सागी - चम्बल"
+        },
+        {
+          "id": "opt4",
+          "text": "चाप और जाखम - माही"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सागी नदी लूनी नदी की सहायक नदी है (न कि चम्बल की), जबकि मेज चम्बल की सहायक नदी है। अतः यह युग्म असंगत है। अन्य तीनों युग्म पूर्णतः सुमेलित हैं।",
+      "reference": "📌 PYQ — RPSC 1st Grade 2024",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003168",
+        "exam": "School Lecturer (Sanskrit Edu. Deptt.) Comp. Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा युग्म (ज़िला - झीलें) सही सुमेलित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धौलपुर - तालाबशाही, भीमसागर"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर - बालसमन्द, जयसागर"
+        },
+        {
+          "id": "opt3",
+          "text": "दौसा - झिलमिली, मोतीसागर"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी - भीमताल, जैतसागर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बूंदी जिले में भीमताल, जैतसागर, नवलखा तथा कनक सागर झीलें स्थित हैं। भीमसागर झालावाड़ में, बालसमन्द जोधपुर में, तथा मोतीसागर टोंक में स्थित है।",
+      "reference": "📌 PYQ — Agriculture Officer 2024",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013427",
+        "exam": "Agriculture Officer (Agri. Deptt.) Comp. Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस झील का निर्माण 1891-92 के दौरान अकाल राहत कार्यों के तहत करवाया गया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फॉयसागर झील"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमंद झील"
+        },
+        {
+          "id": "opt3",
+          "text": "फतेहसागर झील"
+        },
+        {
+          "id": "opt4",
+          "text": "नक्की झील"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "फॉयसागर झील अजमेर में स्थित है, जिसका निर्माण 1891-92 में अंग्रेज अभियंता फॉय के निर्देशन में बांडी नदी के पानी को रोककर अकाल/बाढ़ राहत परियोजना के तहत करवाया गया था।",
+      "reference": "📌 PYQ — Forest Guard 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013479",
+        "exam": "Forest Guard Exam (11 Dec Evening Shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की निम्नलिखित में से कौन-सी झील को सर्वप्रथम रामसर वेटलैंड कन्वेंशन में शामिल किया गया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयसमंद"
+        },
+        {
+          "id": "opt2",
+          "text": "सांभर"
+        },
+        {
+          "id": "opt3",
+          "text": "आना सागर"
+        },
+        {
+          "id": "opt4",
+          "text": "पचपदरा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सांभर झील को 23 मार्च 1990 को रामसर साइट घोषित किया गया था। बिजोलिया शिलालेख के अनुसार इसका निर्माण चौहान शासक वासुदेव ने करवाया था और यह भारत की सबसे बड़ी अंतःस्थलीय खारे पानी की झील है।",
+      "reference": "📌 PYQ — Forest Guard 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013480",
+        "exam": "Forest Guard Exam Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रूपनगढ़, मैंथा और खंडेला नदियाँ अपना जल किस झील में जमा करती हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पचपदरा"
+        },
+        {
+          "id": "opt2",
+          "text": "डीडवाना"
+        },
+        {
+          "id": "opt3",
+          "text": "सांभर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोलायत"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सांभर झील में मुख्य रूप से खारी, खंडेला, मैंथा (मेंढा) और रूपनगढ़ नदियाँ अपना जल विसर्जित करती हैं। यह झील जयपुर, जयपुर ग्रामीण व डीडवाना-कुचामन की सीमा पर फैली है।",
+      "reference": "📌 PYQ — JEN 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013490",
+        "exam": "JEN Agriculture",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की निम्नलिखित झीलों में से कौन-सी राष्ट्रीय झील संरक्षण कार्यक्रम (NLCP) के अंतर्गत नहीं आती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आना सागर"
+        },
+        {
+          "id": "opt2",
+          "text": "पिछोला"
+        },
+        {
+          "id": "opt3",
+          "text": "फतेह सागर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोलायत"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राष्ट्रीय झील संरक्षण योजना के अंतर्गत राजस्थान की 6 झीलें शामिल हैं: फतेह सागर व पिछोला (उदयपुर), आना सागर व पुष्कर (अजमेर), नक्की झील (माउंट आबू, सिरोही) तथा मानसागर झील (जयपुर)। कोलायत झील (बीकानेर) इसमें शामिल नहीं है।",
+      "reference": "📌 PYQ — JEN 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013494",
+        "exam": "JEN: Civil Diploma (GK)",
+        "year": 2022
+      }
+    }
+  ]
+}

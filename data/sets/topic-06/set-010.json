@@ -1,0 +1,1002 @@
+{
+  "setId": "topic-6-set-010",
+  "masterTopicId": 6,
+  "masterTopic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+  "setNumber": 10,
+  "completedAt": "2026-11-12T15:32:20.942Z",
+  "questionCount": 20,
+  "questionIds": [
+    "rg_003046",
+    "rg_003047",
+    "rg_003050",
+    "rg_003051",
+    "rg_003052",
+    "rg_003054",
+    "rg_013376",
+    "rg_013378",
+    "rg_003055",
+    "rg_003058",
+    "rg_003060",
+    "rg_003062",
+    "rg_003064",
+    "rg_003065",
+    "rg_003085",
+    "rg_003091",
+    "rg_003101",
+    "rg_003103",
+    "rg_013380",
+    "rg_013381"
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "चंबल नदी पर निर्मित निम्नलिखित में से कौन-से बांध/बैराज राजस्थान में स्थित हैं?\n(a) राणा प्रताप सागर बांध\n(b) कोटा बैराज\n(c) जवाहर सागर बांध\n(d) गांधी सागर बांध\n\nनीचे दिए गए कूट में से सही उत्तर का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (a), (b) और (d)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (b) और (c)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (a) और (b)"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (a), (b) और (c)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चंबल नदी पर निर्मित चार बांधों में से राणा प्रताप सागर (रावतभाटा, चित्तौड़गढ़), कोटा बैराज (कोटा) तथा जवाहर सागर बांध (कोटा/बूंदी) राजस्थान में स्थित हैं, जबकि गांधी सागर बांध मंदसौर (मध्य प्रदेश) में स्थित है।",
+      "reference": "📌 PYQ — Forester 2026",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003046",
+        "exam": "Forester Exam",
+        "year": 2026
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए:\nसूची-I (नदी)\na. बनास नदी\nb. काली सिंध नदी\nc. लूणी नदी\nd. माही नदी\n\nसूची-II (सहायक नदियाँ)\nI. परवण\nII. सूकड़ी\nIII. जाखम\nIV. कोठारी, मेनाल\n\nनीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-IV, b-I, c-II, d-III"
+        },
+        {
+          "id": "opt2",
+          "text": "a-III, b-I, c-II, d-IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a-IV, b-II, c-I, d-III"
+        },
+        {
+          "id": "opt4",
+          "text": "a-IV, b-III, c-I, d-II"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बनास नदी → कोठारी, मेनाल (IV) | काली सिंध नदी → परवण (I) | लूणी नदी → सूकड़ी (II) | माही नदी → जाखम (III)। अतः सही कूट 'a-IV, b-I, c-II, d-III' है।",
+      "reference": "📌 PYQ — Lab Assistant 2026",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "बनास नदी"
+          },
+          {
+            "id": "b",
+            "text": "काली सिंध नदी"
+          },
+          {
+            "id": "c",
+            "text": "लूणी नदी"
+          },
+          {
+            "id": "d",
+            "text": "माही नदी"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "परवण"
+          },
+          {
+            "id": "II",
+            "text": "सूकड़ी"
+          },
+          {
+            "id": "III",
+            "text": "जाखम"
+          },
+          {
+            "id": "IV",
+            "text": "कोठारी, मेनाल"
+          }
+        ],
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003047",
+        "exam": "Lab Assistant Exam (Science)",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की अपवाह प्रणाली के संबंध में निम्नलिखित कथनों पर विचार कर सही कथनों का चयन कीजिए:\na. राजस्थान की अपवाह प्रणाली अरावली श्रृंखला द्वारा निर्धारित होती है।\nb. भारत की महान जल विभाजक रेखा राजस्थान की नदियों को दो भागों में बाँटती है।\nc. जल विभाजक के पूर्व में, बनास और इसकी सहायक नदियाँ चंबल में मिलती हैं।\nd. जल विभाजक के पश्चिम और दक्षिण की नदियाँ बंगाल की खाड़ी में प्रवाहित होती हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल a और d"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल b और d"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल a, b और d"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल a, b और c"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अरावली पर्वतमाला भारत की महान जल विभाजक रेखा का भाग है। इसके पूर्व की नदियाँ (चंबल, बनास आदि) बंगाल की खाड़ी में जाती हैं, जबकि कथन d असत्य है क्योंकि इसके पश्चिम व दक्षिण-पश्चिम की नदियाँ (लूणी, पश्चिमी बनास, साबरमती, माही) अरब सागर में गिरती हैं।",
+      "reference": "📌 PYQ — Lab Assistant 2026",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003050",
+        "exam": "Lab Assistant Exam (Science)",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित नदियों को उनकी कुल लंबाई के आधार पर अवरोही क्रम (लंबी से छोटी) में व्यवस्थित कीजिए:\na. बनास\nb. चंबल\nc. बाणगंगा\nd. लूणी\ne. माही",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "b, a, e, c, d"
+        },
+        {
+          "id": "opt2",
+          "text": "b, e, a, d, c"
+        },
+        {
+          "id": "opt3",
+          "text": "a, b, c, d, e"
+        },
+        {
+          "id": "opt4",
+          "text": "a, c, b, e, d"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "नदियों की कुल लंबाई का सही अवरोही क्रम है: चंबल (~1051 किमी), माही (~576 किमी), बनास (~512 किमी), लूणी (~495 किमी), तथा बाणगंगा (~380 किमी)। अतः सही अनुक्रम 'b, e, a, d, c' है।",
+      "reference": "📌 PYQ — Lab Assistant 2026",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003051",
+        "exam": "Lab Assistant Exam (Geography)",
+        "year": 2026
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए:\nसूची-I (नदी)\na. चंबल नदी\nb. बनास नदी\nc. बाणगंगा नदी\nd. पार्वती नदी\n\nसूची-II (उद्गम स्थल)\nI. विराटनगर की पहाड़ियाँ\nII. विंध्य श्रृंखला (सीहोर)\nIII. खमनौर पहाड़ियाँ\nIV. जानापाव पहाड़ियाँ\n\nनीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-II, b-I, c-III, d-IV"
+        },
+        {
+          "id": "opt2",
+          "text": "a-IV, b-I, c-III, d-II"
+        },
+        {
+          "id": "opt3",
+          "text": "a-IV, b-III, c-I, d-II"
+        },
+        {
+          "id": "opt4",
+          "text": "a-II, b-III, c-I, d-IV"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चंबल नदी → जानापाव पहाड़ियाँ, म.प्र. (IV) | बनास नदी → खमनौर पहाड़ियाँ, राजसमंद (III) | बाणगंगा नदी → विराटनगर की पहाड़ियाँ, जयपुर (I) | पार्वती नदी → विंध्य श्रृंखला, सीहोर, म.प्र. (II)। अतः सही कूट 'a-IV, b-III, c-I, d-II' है।",
+      "reference": "📌 PYQ — Lab Assistant 2026",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "चंबल नदी"
+          },
+          {
+            "id": "b",
+            "text": "बनास नदी"
+          },
+          {
+            "id": "c",
+            "text": "बाणगंगा नदी"
+          },
+          {
+            "id": "d",
+            "text": "पार्वती नदी"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "विराटनगर की पहाड़ियाँ"
+          },
+          {
+            "id": "II",
+            "text": "विंध्य श्रृंखला (सीहोर)"
+          },
+          {
+            "id": "III",
+            "text": "खमनौर पहाड़ियाँ"
+          },
+          {
+            "id": "IV",
+            "text": "जानापाव पहाड़ियाँ"
+          }
+        ],
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003052",
+        "exam": "Lab Assistant Exam (Geography)",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "साबरमती नदी के संबंध में निम्नलिखित में से कौन-से कथन सत्य हैं?\n(a) यह भारत की प्रमुख पश्चिमवाही नदी है।\n(b) पनम इसकी प्रमुख सहायक नदी है।\n(c) इसका उद्गम अरावली श्रृंखला से होता है।\n(d) गुजरात की तुलना में इसकी लंबाई राजस्थान में अधिक है।\n\nनीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (c) और (d)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (a) और (b)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (a) और (c)"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (b) और (d)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "साबरमती अरावली (उदयपुर के कोटड़ा) से निकलकर पश्चिम की ओर प्रवाहित होती हुई खंभात की खाड़ी में गिरती है। इसकी कुल लंबाई 416 किमी में से केवल 45 किमी राजस्थान में तथा 371 किमी गुजरात में है। पनम (पानम) माही नदी की सहायक नदी है।",
+      "reference": "📌 PYQ — Agriculture Supervisor 2026",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003054",
+        "exam": "Agriculture Supervisor Exam",
+        "year": 2026
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर चुनिए:\nसूची-I (झील)\na. सिलीसेढ़\nb. पुष्कर\nc. डीडवाना\nd. लूणकरणसर\n\nसूची-II (ज़िला)\nI. अजमेर\nII. डीडवाना-कुचामन\nIII. अलवर\nIV. बीकानेर",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-IV, b-I, c-II, d-III"
+        },
+        {
+          "id": "opt2",
+          "text": "a-III, b-II, c-IV, d-I"
+        },
+        {
+          "id": "opt3",
+          "text": "a-III, b-I, c-II, d-IV"
+        },
+        {
+          "id": "opt4",
+          "text": "a-II, b-I, c-IV, d-III"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सिलीसेढ़ → अलवर (III) | पुष्कर → अजमेर (I) | डीडवाना → डीडवाना-कुचामन (II) | लूणकरणसर → बीकानेर (IV)। अतः सही कूट 'a-III, b-I, c-II, d-IV' है।",
+      "reference": "📌 PYQ — Lab Assistant 2026",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "सिलीसेढ़"
+          },
+          {
+            "id": "b",
+            "text": "पुष्कर"
+          },
+          {
+            "id": "c",
+            "text": "डीडवाना"
+          },
+          {
+            "id": "d",
+            "text": "लूणकरणसर"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "अजमेर"
+          },
+          {
+            "id": "II",
+            "text": "डीडवाना-कुचामन"
+          },
+          {
+            "id": "III",
+            "text": "अलवर"
+          },
+          {
+            "id": "IV",
+            "text": "बीकानेर"
+          }
+        ],
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013376",
+        "exam": "Lab Assistant Exam (Science)",
+        "year": 2026
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर चुनिए:\nसूची-I (झील)\na. पचपदरा\nb. सिलीसेढ़\nc. कायलाना\nd. लूणकरणसर\n\nसूची-II (ज़िला)\nI. बीकानेर\nII. जोधपुर\nIII. अलवर\nIV. बालोतरा",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-IV, b-II, c-III, d-I"
+        },
+        {
+          "id": "opt2",
+          "text": "a-IV, b-III, c-II, d-I"
+        },
+        {
+          "id": "opt3",
+          "text": "a-II, b-III, c-IV, d-I"
+        },
+        {
+          "id": "opt4",
+          "text": "a-II, b-I, c-III, d-IV"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पचपदरा → बालोतरा (IV) | सिलीसेढ़ → अलवर (III) | कायलाना → जोधपुर (II) | लूणकरणसर → बीकानेर (I)। अतः सही कूट 'a-IV, b-III, c-II, d-I' है।",
+      "reference": "📌 PYQ — Lab Assistant 2026",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "पचपदरा"
+          },
+          {
+            "id": "b",
+            "text": "सिलीसेढ़"
+          },
+          {
+            "id": "c",
+            "text": "कायलाना"
+          },
+          {
+            "id": "d",
+            "text": "लूणकरणसर"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "बीकानेर"
+          },
+          {
+            "id": "II",
+            "text": "जोधपुर"
+          },
+          {
+            "id": "III",
+            "text": "अलवर"
+          },
+          {
+            "id": "IV",
+            "text": "बालोतरा"
+          }
+        ],
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013378",
+        "exam": "Lab Assistant Exam (Geography)",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा युग्म (नदी का नाम - उद्गम स्थल) सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कांतली - कालवा की पहाड़ियाँ"
+        },
+        {
+          "id": "opt2",
+          "text": "बेड़च - गोगुन्दा की पहाड़ियाँ"
+        },
+        {
+          "id": "opt3",
+          "text": "साबी - सेवर की पहाड़ियाँ"
+        },
+        {
+          "id": "opt4",
+          "text": "बनास - खमनौर की पहाड़ियाँ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कांतली नदी का उद्गम सीकर जिले की खंडेला की पहाड़ियों से होता है, न कि कालवा की पहाड़ियों से। इसका अपवाह क्षेत्र 'तोरावाटी' कहलाता है। अन्य तीनों युग्म पूर्णतः सुमेलित हैं।",
+      "reference": "📌 PYQ — Veterinary Officer 2025",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003055",
+        "exam": "Veterinary Officer (Veterinary Deptt.) Exam",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अपवाह क्षेत्र (कैचमेंट एरिया) के दृष्टिकोण से राजस्थान की नदी द्रोणियों (बेसिनों) का सही अवरोही क्रम कौन-सा है?\na. साबरमती बेसिन\nb. चंबल बेसिन\nc. लूणी बेसिन\nd. बनास बेसिन",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "b, d, c, a"
+        },
+        {
+          "id": "opt2",
+          "text": "d, c, b, a"
+        },
+        {
+          "id": "opt3",
+          "text": "d, b, c, a"
+        },
+        {
+          "id": "opt4",
+          "text": "b, c, a, d"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में सर्वाधिक अपवाह क्षेत्र बनास बेसिन (~45,833 वर्ग किमी) का है, इसके पश्चात क्रमशः लूणी बेसिन (~37,363 वर्ग किमी), चंबल बेसिन (~31,360 वर्ग किमी) एवं साबरमती बेसिन (~4,164 वर्ग किमी) आते हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003058",
+        "exam": "3rd Grade Teacher Sanskrit (L-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I (बांध) को सूची-II (नदी) से सुमेलित कीजिए:\nसूची-I (बांध)\na. पोंग\nb. बीसलपुर\nc. मेजा\nd. पांचना\n\nसूची-II (नदी)\nI. ब्यास\nII. बनास\nIII. गंभीर\nIV. कोठारी\n\nनीचे दिए गए विकल्पों में से सही कूट चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-II, b-I, c-IV, d-III"
+        },
+        {
+          "id": "opt2",
+          "text": "a-IV, b-III, c-II, d-I"
+        },
+        {
+          "id": "opt3",
+          "text": "a-I, b-II, c-IV, d-III"
+        },
+        {
+          "id": "opt4",
+          "text": "a-III, b-II, c-IV, d-I"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पोंग बांध → ब्यास नदी (I) | बीसलपुर बांध → बनास नदी, टोंक (II) | मेजा बांध → कोठारी नदी, भीलवाड़ा (IV) | पांचना बांध → गंभीर नदी, करौली (III)। अतः सही कूट 'a-I, b-II, c-IV, d-III' है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "पोंग"
+          },
+          {
+            "id": "b",
+            "text": "बीसलपुर"
+          },
+          {
+            "id": "c",
+            "text": "मेजा"
+          },
+          {
+            "id": "d",
+            "text": "पांचना"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "ब्यास"
+          },
+          {
+            "id": "II",
+            "text": "बनास"
+          },
+          {
+            "id": "III",
+            "text": "गंभीर"
+          },
+          {
+            "id": "IV",
+            "text": "कोठारी"
+          }
+        ],
+        "leftTitle": "सूची – I (बांध)",
+        "rightTitle": "सूची – II (नदी)",
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003060",
+        "exam": "3rd Grade Teacher Sanskrit (L-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए:\nसूची-I (राजस्थान की नदियाँ)\na. बनास\nb. माही\nc. लूणी\nd. साबरमती\n\nसूची-II (सहायक नदी)\nI. जोजड़ी\nII. मेनाली\nIII. वाकल\nIV. पनम\n\nनीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-I, b-II, c-III, d-IV"
+        },
+        {
+          "id": "opt2",
+          "text": "a-IV, b-III, c-II, d-I"
+        },
+        {
+          "id": "opt3",
+          "text": "a-III, b-II, c-IV, d-I"
+        },
+        {
+          "id": "opt4",
+          "text": "a-II, b-IV, c-I, d-III"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बनास → मेनाली (II) | माही → पनम/पानम (IV) | लूणी → जोजड़ी (I) | साबरमती → वाकल (III)। अतः सही कूट 'a-II, b-IV, c-I, d-III' है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "बनास"
+          },
+          {
+            "id": "b",
+            "text": "माही"
+          },
+          {
+            "id": "c",
+            "text": "लूणी"
+          },
+          {
+            "id": "d",
+            "text": "साबरमती"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "जोजड़ी"
+          },
+          {
+            "id": "II",
+            "text": "मेनाली"
+          },
+          {
+            "id": "III",
+            "text": "वाकल"
+          },
+          {
+            "id": "IV",
+            "text": "पनम"
+          }
+        ],
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003062",
+        "exam": "3rd Grade Teacher Science-Maths (L-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर चुनिए:\nसूची-I (नदी)\na. चंबल\nb. लूनी\nc. बनास\nd. बाणगंगा\n\nसूची-II (उद्गम स्रोत)\nI. बैराठ की पहाड़ियाँ (जयपुर क्षेत्र)\nII. महू के दक्षिण में मानपुर (जानापाव)\nIII. अरावली श्रृंखला में नाग पहाड़/पुष्कर घाटी\nIV. खमनौर पहाड़ियाँ (वेरों का मठ)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-II, b-III, c-IV, d-I"
+        },
+        {
+          "id": "opt2",
+          "text": "a-I, b-II, c-III, d-IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a-III, b-II, c-IV, d-I"
+        },
+        {
+          "id": "opt4",
+          "text": "a-II, b-IV, c-I, d-III"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चंबल → महू के दक्षिण में मानपुर/जानापाव, म.प्र. (II) | लूनी → अरावली श्रृंखला में नाग पहाड़/पुष्कर घाटी, अजमेर (III) | बनास → खमनौर पहाड़ियाँ, राजसमंद (IV) | बाणगंगा → बैराठ की पहाड़ियाँ (I)।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "चंबल"
+          },
+          {
+            "id": "b",
+            "text": "लूनी"
+          },
+          {
+            "id": "c",
+            "text": "बनास"
+          },
+          {
+            "id": "d",
+            "text": "बाणगंगा"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "बैराठ की पहाड़ियाँ (जयपुर क्षेत्र)"
+          },
+          {
+            "id": "II",
+            "text": "महू के दक्षिण में मानपुर (जानापाव)"
+          },
+          {
+            "id": "III",
+            "text": "अरावली श्रृंखला में नाग पहाड़/पुष्कर घाटी"
+          },
+          {
+            "id": "IV",
+            "text": "खमनौर पहाड़ियाँ (वेरों का मठ)"
+          }
+        ],
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003064",
+        "exam": "3rd Grade Teacher Social Studies (L-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी नदियाँ लूणी नदी की सहायक नदियाँ हैं?\na. बांडी\nb. जोजड़ी\nc. माही\nd. सूकड़ी\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल a, b और c"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल a, b और d"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल b, c और d"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल a, c और d"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बांडी, जोजड़ी और सूकड़ी लूणी नदी की प्रमुख सहायक नदियाँ हैं। माही एक स्वतंत्र नदी प्रणाली है जो खंभात की खाड़ी में गिरती है और लूणी की सहायक नहीं है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003065",
+        "exam": "3rd Grade Teacher Social Studies (L-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी नदी बनास नदी की सहायक नदी नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बेड़च"
+        },
+        {
+          "id": "opt2",
+          "text": "कोठारी"
+        },
+        {
+          "id": "opt3",
+          "text": "जाखम"
+        },
+        {
+          "id": "opt4",
+          "text": "खारी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जाखम नदी प्रतापगढ़ की छोटी सादड़ी (भंवरमाता की पहाड़ियों) से निकलकर डूंगरपुर के बेणेश्वर के निकट सोम एवं माही नदी में मिलती है; यह माही अपवाह तंत्र की नदी है। बेड़च, कोठारी व खारी बनास की सहायक नदियाँ हैं।",
+      "reference": "📌 PYQ — RSSB 4th Class 2025",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003085",
+        "exam": "RSSB Fourth Class Exam (21 Sep. 1st Shift)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी नदी चंबल नदी की सहायक नदी नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पार्वती नदी"
+        },
+        {
+          "id": "opt2",
+          "text": "कालीसिंध नदी"
+        },
+        {
+          "id": "opt3",
+          "text": "बनास नदी"
+        },
+        {
+          "id": "opt4",
+          "text": "जवाई नदी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पार्वती, कालीसिंध और बनास चंबल नदी की प्रमुख सहायक नदियाँ हैं, जबकि जवाई नदी पश्चिमी राजस्थान में लूनी नदी की प्रमुख सहायक नदी है जिस पर पाली में जवाई बांध बना है।",
+      "reference": "📌 PYQ — RSSB 4th Class 2025",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003091",
+        "exam": "RSSB Fourth Class Exam (19 Sep. 2nd Shift)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की सोम नदी के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह ऋषभदेव (उदयपुर) के निकट बिछामेड़ा की पहाड़ियों से निकलती है।\n2. यह दक्षिण-पूर्व दिशा में बहकर बेणेश्वर के निकट माही नदी में मिलती है।\n3. इस नदी पर डूंगरपुर में 'सोम-कमला-अम्बा' परियोजना निर्मित है।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2 और 3 (सभी)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल 1 और 2"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल 1 और 3"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल 2 और 3"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सोम नदी बिछामेड़ा पहाड़ियों (उदयपुर) से निकलकर डूंगरपुर के बेणेश्वर में माही से मिलती है तथा इस पर उदयपुर में 'सोम-कागदर' व डूंगरपुर में 'सोम-कमला-अम्बा' सिंचाई परियोजनाएँ निर्मित हैं। अतः तीनों कथन सत्य हैं।",
+      "reference": "📌 PYQ — Police Constable 2025",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003101",
+        "exam": "Raj Police Constable (Telecommunication) Exam",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के अपवाह तंत्र के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\nकथन-I: चंबल नदी को छोड़कर राजस्थान की अधिकांश नदियाँ मौसमी (अल्पकालिक) हैं।\nकथन-II: राजस्थान की अधिकांश नदियाँ हिमालय से निकलकर कच्छ के रण में विलीन होती हैं।\n\nनीचे दिए गए विकल्पों में से सही उत्तर का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कथन I और कथन II दोनों सही हैं"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल कथन I सही है"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल कथन II सही है"
+        },
+        {
+          "id": "opt4",
+          "text": "कथन I और कथन II दोनों गलत हैं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान की अधिकांश नदियाँ वर्षा पर निर्भर होने के कारण मौसमी हैं और केवल चंबल वर्षभर बहती है (कथन-I सही)। राजस्थान की कोई भी नदी हिमालय से नहीं निकलती अपितु अरावली व विंध्याचल से निकलती है (कथन-II गलत)।",
+      "reference": "📌 PYQ — Police Constable 2025",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003103",
+        "exam": "Raj Police Constable (Telecommunication) Exam",
+        "year": 2025
+      }
+    },
+    {
+      "type": "match_following",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर चुनिए:\nसूची-I (झील)\na. गैब सागर\nb. गड़ीसर\nc. तालछापर\nd. तालाब-ए-शाही\n\nसूची-II (अवस्थिति)\nI. जैसलमेर\nII. धौलपुर\nIII. डूंगरपुर\nIV. चूरू",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-IV, b-I, c-III, d-II"
+        },
+        {
+          "id": "opt2",
+          "text": "a-III, b-II, c-I, d-IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a-III, b-I, c-IV, d-II"
+        },
+        {
+          "id": "opt4",
+          "text": "a-II, b-III, c-IV, d-I"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गैब सागर → डूंगरपुर (III) | गड़ीसर → जैसलमेर (I) | तालछापर → चूरू (IV) | तालाब-ए-शाही → धौलपुर (II)। अतः सही कूट 'a-III, b-I, c-IV, d-II' है।",
+      "reference": "📌 PYQ — Veterinary Officer 2025",
+      "difficulty": "medium",
+      "meta": {
+        "left": [
+          {
+            "id": "a",
+            "text": "गैब सागर"
+          },
+          {
+            "id": "b",
+            "text": "गड़ीसर"
+          },
+          {
+            "id": "c",
+            "text": "तालछापर"
+          },
+          {
+            "id": "d",
+            "text": "तालाब-ए-शाही"
+          }
+        ],
+        "right": [
+          {
+            "id": "I",
+            "text": "जैसलमेर"
+          },
+          {
+            "id": "II",
+            "text": "धौलपुर"
+          },
+          {
+            "id": "III",
+            "text": "डूंगरपुर"
+          },
+          {
+            "id": "IV",
+            "text": "चूरू"
+          }
+        ],
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013380",
+        "exam": "Veterinary Officer (Veterinary Deptt.) Exam",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कौन-से आर्द्रभूमि स्थल वर्ष 2024-25 में अंतरराष्ट्रीय रामसर स्थल सूची के लिए प्रस्तावित/शामिल किए गए हैं?\na. पुष्कर झील (अजमेर)\nb. खींचण (फलौदी)\nc. मेनार (उदयपुर)\nd. पचपदरा (बालोतरा)\n\nनीचे दिए गए कूट से सही उत्तर का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a और b"
+        },
+        {
+          "id": "opt2",
+          "text": "a और d"
+        },
+        {
+          "id": "opt3",
+          "text": "c और d"
+        },
+        {
+          "id": "opt4",
+          "text": "b और c"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "खींचण (फलौदी - कुरंजा पक्षी हेतु प्रसिद्ध) तथा मेनार (उदयपुर - पक्षी ग्राम) को राजस्थान की नई अंतरराष्ट्रीय रामसर आर्द्रभूमियों के रूप में अधिसूचित किया गया है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013381",
+        "exam": "3rd Grade Teacher Sanskrit (L-1)",
+        "year": 2025
+      }
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+{
+  "setId": "topic-6-set-012",
+  "masterTopicId": 6,
+  "masterTopic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+  "setNumber": 12,
+  "completedAt": "2026-11-12T15:34:48.232Z",
+  "questionCount": 20,
+  "questionIds": [
+    "rg_003068",
+    "rg_013437",
+    "rg_013447",
+    "rg_003177",
+    "rg_013464",
+    "rg_013477",
+    "rg_013493",
+    "rg_013496",
+    "rg_013497",
+    "rg_013498",
+    "rg_013499",
+    "rg_013501",
+    "rg_003265",
+    "rg_003304",
+    "rg_003305",
+    "rg_013475",
+    "rg_013491",
+    "rg_013502",
+    "rg_013503",
+    "rg_003210"
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित नदी तंत्रों को उनके द्वारा अपवाहित क्षेत्रफल (वर्ग किमी में) के आधार पर सही अवरोही क्रम में व्यवस्थित कीजिए:\na. चम्बल नदी तंत्र\nb. माही नदी तंत्र\nc. बाणगंगा नदी तंत्र\nd. साबरमती नदी तंत्र\n\nनीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a, b, c, d"
+        },
+        {
+          "id": "opt2",
+          "text": "d, c, b, a"
+        },
+        {
+          "id": "opt3",
+          "text": "c, b, a, d"
+        },
+        {
+          "id": "opt4",
+          "text": "d, a, b, c"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अपवाहित क्षेत्रफल का अवरोही क्रम: चम्बल बेसिन (~31,360 वर्ग किमी) > माही बेसिन (~16,985 वर्ग किमी) > बाणगंगा बेसिन (~8,878 वर्ग किमी) > साबरमती बेसिन (~4,164 वर्ग किमी)। अतः सही अनुक्रम 'a, b, c, d' है।",
+      "reference": "📌 PYQ — वाहन चालक सीधी भर्ती परीक्षा 2024",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003068",
+        "exam": "वाहन चालक सीधी भर्ती परीक्षा",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नांकित में से कौन-सा युग्म (झील - ज़िला) सही सुमेलित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कायलाना - जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "कुचामन - डीडवाना-कुचामन"
+        },
+        {
+          "id": "opt3",
+          "text": "लूणकरणसर - जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "सांभर - बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कुचामन खारे पानी की झील डीडवाना-कुचामन (पूर्व नागौर) जिले में स्थित है। कायलाना झील जोधपुर में, लूणकरणसर बीकानेर में तथा सांभर झील जयपुर, जयपुर ग्रामीण व डीडवाना-कुचामन की सीमा पर स्थित है।",
+      "reference": "📌 PYQ — Junior Instructor 2024",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013437",
+        "exam": "Junior Instructor (MDE) Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान की कौन-सी झील खारे पानी की झील नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पचपदरा"
+        },
+        {
+          "id": "opt2",
+          "text": "सांभर"
+        },
+        {
+          "id": "opt3",
+          "text": "पिछोला"
+        },
+        {
+          "id": "opt4",
+          "text": "डीडवाना"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पिछोला झील उदयपुर में स्थित एक मीठे पानी की प्रसिद्ध झील है, जबकि सांभर, पचपदरा और डीडवाना राजस्थान की प्रमुख खारे पानी (लवणीय) की झीलें हैं।",
+      "reference": "📌 PYQ — CET Graduate 2024",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013447",
+        "exam": "CET (Graduate) 27 September Shift-2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित में से कौन-सी नदी चंबल नदी की सहायक नदी नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "काली सिंध"
+        },
+        {
+          "id": "opt2",
+          "text": "बनास"
+        },
+        {
+          "id": "opt3",
+          "text": "पार्वती"
+        },
+        {
+          "id": "opt4",
+          "text": "लूनी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "काली सिंध, बनास और पार्वती चंबल की प्रमुख सहायक नदियाँ हैं। लूनी नदी अजमेर के नाग पहाड़ से निकलकर कच्छ के रण में विलीन होने वाली पश्चिमी राजस्थान की स्वतंत्र नदी प्रणाली है।",
+      "reference": "📌 PYQ — Assistant Engineer - Civil 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003177",
+        "exam": "Assistant Engineer - Civil (LSGD)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी राजस्थान की खारे पानी की प्रमुख झील नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ढेबर"
+        },
+        {
+          "id": "opt2",
+          "text": "पचपदरा"
+        },
+        {
+          "id": "opt3",
+          "text": "लूणकरणसर"
+        },
+        {
+          "id": "opt4",
+          "text": "डीडवाना"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ढेबर झील (जयसमंद) सलूम्बर जिले में स्थित मीठे पानी की एशिया की दूसरी सबसे बड़ी कृत्रिम झील है, जिसका निर्माण महाराणा जयसिंह ने गोमती नदी पर बांध बनवाकर करवाया था। अन्य तीनों खारे पानी की झीलें हैं।",
+      "reference": "📌 PYQ — RPSC EO/RO 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013464",
+        "exam": "RPSC EO/RO Exam Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में नक्की झील स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सिरोही जिले के माउंट आबू में स्थित नक्की झील राजस्थान की सर्वाधिक ऊँचाई पर स्थित तथा सबसे गहरी झील है। यह राजस्थान की एकमात्र झील है जो शीत ऋतु में जम जाती है।",
+      "reference": "📌 PYQ — A.R.O. 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013477",
+        "exam": "A.R.O. (GK and Plant Pathology)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पचपदरा राजस्थान के किस जिले में स्थित खारे पानी की झील है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "चूरू"
+        },
+        {
+          "id": "opt3",
+          "text": "बालोतरा"
+        },
+        {
+          "id": "opt4",
+          "text": "भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पचपदरा झील बालोतरा जिले में स्थित है। इसका निर्माण पंचा भील द्वारा करवाया गया था और इसके नमक में 98% तक सोडियम क्लोराइड (NaCl) पाया जाता है, जो इसे सर्वश्रेष्ठ बनाता है।",
+      "reference": "📌 PYQ — RSMSSB LSA 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013493",
+        "exam": "RSMSSB LSA",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की निम्नलिखित झीलों में से कौन-सी झील 'राष्ट्रीय झील संरक्षण कार्यक्रम' (NLCP) के अंतर्गत नहीं आती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मानसागर"
+        },
+        {
+          "id": "opt2",
+          "text": "आनासागर"
+        },
+        {
+          "id": "opt3",
+          "text": "पुष्कर"
+        },
+        {
+          "id": "opt4",
+          "text": "बजाज सागर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राष्ट्रीय झील संरक्षण योजना (NLCP) में राजस्थान की 6 झीलें शामिल हैं: फतेहसागर व पिछोला (उदयपुर), आनासागर व पुष्कर (अजमेर), नक्की (सिरोही) तथा मानसागर (जयपुर)। माही बजाज सागर बांध (बांसवाड़ा) इसमें शामिल नहीं है।",
+      "reference": "📌 PYQ — Lab Assistant 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013496",
+        "exam": "Lab Assistant Exam (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी एक मीठे पानी की झील नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तालछापर"
+        },
+        {
+          "id": "opt2",
+          "text": "पिछोला"
+        },
+        {
+          "id": "opt3",
+          "text": "पुष्कर"
+        },
+        {
+          "id": "opt4",
+          "text": "आनासागर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "तालछापर चूरू जिले में स्थित खारे पानी की झील (लवणीय गर्त) है, जहाँ कृष्णमृग अभयारण्य भी स्थित है। पिछोला (उदयपुर) तथा पुष्कर व आनासागर (अजमेर) मीठे पानी की झीलें हैं।",
+      "reference": "📌 PYQ — Lab Assistant 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013497",
+        "exam": "Lab Assistant Exam (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पिछोला झील का निर्माण किस शासक के काल में हुआ था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बप्पा रावल"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराणा लाखा"
+        },
+        {
+          "id": "opt3",
+          "text": "राणा साँगा"
+        },
+        {
+          "id": "opt4",
+          "text": "राव चूण्डा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "14वीं शताब्दी के अंत में मेवाड़ के शासक महाराणा लाखा के शासनकाल में पिच्छू नामक बंजारे ने अपने बैल की स्मृति में उदयपुर की पिछोला झील का निर्माण करवाया था। इसमें जगमंदिर व जगनिवास महल बने हैं।",
+      "reference": "📌 PYQ — REET 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013498",
+        "exam": "REET Level-2 (SST) Shift-IV",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की सांभर झील को पाँच नदियों से पानी मिलता है। निम्नलिखित में से कौन-सी नदी उन नदियों में से एक है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "काली सिंध"
+        },
+        {
+          "id": "opt3",
+          "text": "सामोद"
+        },
+        {
+          "id": "opt4",
+          "text": "जवाई"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सांभर झील में मेंथा (मेढ़ा), रूपनगढ़, खारी, खंडेला तथा सामोद नदियाँ आकर गिरती हैं। बनास और काली सिंध बंगाल की खाड़ी अपवाह तंत्र की तथा जवाई लूनी की सहायक नदी है।",
+      "reference": "📌 PYQ — Police Constable 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013499",
+        "exam": "Police Constable Exam (13 May Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी नमकीन (खारे) पानी की झील नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रेवासा"
+        },
+        {
+          "id": "opt2",
+          "text": "डीडवाना"
+        },
+        {
+          "id": "opt3",
+          "text": "कावोद"
+        },
+        {
+          "id": "opt4",
+          "text": "जैतसागर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जैतसागर बूंदी जिले में स्थित मीठे पानी की प्रसिद्ध झील है। रेवासा (सीकर), डीडवाना (डीडवाना-कुचामन) तथा कावोद (जैसलमेर) खारे पानी की झीलें हैं।",
+      "reference": "📌 PYQ — VDO 2022",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013501",
+        "exam": "RSMSSB VDO Mains",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी माही नदी की सहायक नदी नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोजड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "सोम"
+        },
+        {
+          "id": "opt3",
+          "text": "अनास"
+        },
+        {
+          "id": "opt4",
+          "text": "चाप"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जोजड़ी (जोजरी) नागौर के पोंडलू गाँव की पहाड़ियों से निकलकर जोधपुर में लूनी नदी के दाएँ किनारे पर मिलने वाली एकमात्र सहायक नदी है। सोम, अनास और चाप माही की सहायक नदियाँ हैं।",
+      "reference": "📌 PYQ — Superintendent Garden 2021",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003265",
+        "exam": "Superintendent Garden (GK)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रतापगढ़ जिले में माही नदी का तटीय भाग क्या कहलाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवल"
+        },
+        {
+          "id": "opt2",
+          "text": "कांठल"
+        },
+        {
+          "id": "opt3",
+          "text": "छप्पन"
+        },
+        {
+          "id": "opt4",
+          "text": "थली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "माही नदी के किनारे स्थित प्रतापगढ़ का भू-भाग प्राचीन काल से 'कांठल' कहलाता है, इसी कारण माही नदी को 'कांठल की गंगा' तथा 'वागड़ की गंगा' के उपनामों से जाना जाता है।",
+      "reference": "📌 PYQ — VDO 2021",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003304",
+        "exam": "VDO Exam 2nd Shift 27 Dec",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि हम लूनी नदी के किनारे इसके उद्गम से अंत तक यात्रा करते हैं, तो हम इसकी सहायक नदियों को किस क्रम में पाएँगे?\n1. जवाई\n2. बाण्डी\n3. सूकड़ी\n4. गुहिया\n\nनीचे दिए गए कूट में से सही क्रम चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3, 2, 1, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "id": "opt3",
+          "text": "4, 2, 3, 1"
+        },
+        {
+          "id": "opt4",
+          "text": "4, 3, 2, 1"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "लूनी नदी के उद्गम (अजमेर) से अंत (कच्छ का रण) की ओर बाएँ किनारे से मिलने वाली सहायक नदियों का सही भौगोलिक क्रम: लीलड़ी → गुहिया (4) → बाण्डी (2) → सूकड़ी (3) → जवाई (1) → सागी है।",
+      "reference": "📌 PYQ — VDO 2021",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003305",
+        "exam": "VDO Exam 1st Shift 27 Dec",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा युग्म (झील - जिला) सही सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "छपरवाड़ा झील - जयपुर ग्रामीण"
+        },
+        {
+          "id": "opt2",
+          "text": "तालछापर झील - चूरू"
+        },
+        {
+          "id": "opt3",
+          "text": "जयसमन्द झील - सलूम्बर"
+        },
+        {
+          "id": "opt4",
+          "text": "बालसमन्द झील - राजसमन्द"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बालसमन्द झील जोधपुर-मंडोर मार्ग पर स्थित है (राजसमन्द में नहीं), जिसका निर्माण 1159 ई. में परिहार शासक बालकराव ने करवाया था। शेष तीनों युग्म सही सुमेलित हैं।",
+      "reference": "📌 PYQ — RPSC ACF FRO 2021",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013475",
+        "exam": "RPSC ACF FRO",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा लवणीय गर्त (खारे पानी का गर्त) नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कायलाना"
+        },
+        {
+          "id": "opt2",
+          "text": "डीडवाना"
+        },
+        {
+          "id": "opt3",
+          "text": "सुजानगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "तालछापर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कायलाना जोधपुर में स्थित मीठे पानी की कृत्रिम झील है जिसे वर्तमान स्वरूप सर प्रताप सिंह ने दिया और इसमें राजीव गांधी लिफ्ट नहर से पानी आता है। डीडवाना, सुजानगढ़ और तालछापर लवणीय गर्त हैं।",
+      "reference": "📌 PYQ — Asst. Testing Officer 2021",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013491",
+        "exam": "Asst. Testing Officer",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मीठे पानी की सबसे बड़ी कृत्रिम झील कौन-सी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजसमन्द"
+        },
+        {
+          "id": "opt2",
+          "text": "जयसमन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "कायलाना"
+        },
+        {
+          "id": "opt4",
+          "text": "सिलीसेढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जयसमन्द (ढेबर झील) राजस्थान की सबसे बड़ी मीठे पानी की कृत्रिम झील है। इसका निर्माण महाराणा जयसिंह ने 1687-91 ई. के मध्य गोमती नदी पर बांध बनवाकर करवाया था; इसमें 7 छोटे-बड़े टापू हैं।",
+      "reference": "📌 PYQ — REET 2021",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013502",
+        "exam": "REET Level-2 (SST)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर स्थित पवित्र पुष्कर झील कितने घाटों से घिरी हुई है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "42"
+        },
+        {
+          "id": "opt2",
+          "text": "46"
+        },
+        {
+          "id": "opt3",
+          "text": "52"
+        },
+        {
+          "id": "opt4",
+          "text": "58"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अजमेर जिले में स्थित पुष्कर झील राजस्थान की सबसे पवित्र प्राकृतिक झील (काल्डेरा झील) मानी जाती है। इसके चारों ओर 52 घाट बने हुए हैं, जिनमें गांधी घाट (पूर्व में जनाना घाट) प्रमुख है।",
+      "reference": "📌 PYQ — VDO 2021",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_013503",
+        "exam": "VDO Exam 2nd Shift 28 Dec",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस स्थान से चम्बल नदी राजस्थान राज्य में प्रवेश करती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भैंसरोड़गढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "कुम्भलगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "चौरासीगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मध्य प्रदेश के जानापाव (महू) पहाड़ियों से निकलने वाली चम्बल नदी चित्तौड़गढ़ जिले के चौरासीगढ़ नामक स्थान से राजस्थान में प्रवेश करती है और भैंसरोड़गढ़ के निकट चूलिया जलप्रपात बनाती है।",
+      "reference": "📌 PYQ — Lecturer 2020",
+      "difficulty": "medium",
+      "meta": {
+        "masterTopicId": 6,
+        "topic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_003210",
+        "exam": "Lecturer (Tech. Edu.) Exam Paper-III",
+        "year": 2020
+      }
+    }
+  ]
+}
