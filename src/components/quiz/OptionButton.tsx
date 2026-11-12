@@ -84,7 +84,7 @@ export function OptionButton({
 
       <span
         className={cn(
-          "min-w-0 flex-1 text-foreground text-sm sm:text-base leading-relaxed font-normal",
+          "min-w-0 flex-1 text-foreground text-[15px] sm:text-base leading-relaxed font-normal",
           isHindi && "font-hindi",
           "print:text-xs print:leading-snug"
         )}

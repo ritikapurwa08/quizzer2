@@ -129,7 +129,7 @@ export function QuestionShell({
       {cleanedText ? (
         <p
           className={cn(
-            "mb-3.5 sm:mb-4 text-foreground whitespace-pre-wrap text-sm sm:text-base leading-relaxed font-normal",
+            "mb-3.5 sm:mb-4 text-foreground whitespace-pre-wrap text-[15.5px] sm:text-base leading-relaxed font-normal",
             isHindi && "font-hindi",
             "print:text-xs print:font-semibold print:leading-snug print:mb-2"
           )}
@@ -142,10 +142,10 @@ export function QuestionShell({
     </>
   );
 
-  if (unwrapped) return <div>{content}</div>;
+  if (unwrapped) return <div className="w-full">{content}</div>;
 
   return (
-    <div className="rounded-2xl border border-border bg-card p-3.5 sm:p-5 shadow-xs">
+    <div className="w-full rounded-2xl border border-border bg-card p-4 sm:p-5 shadow-xs">
       {content}
     </div>
   );

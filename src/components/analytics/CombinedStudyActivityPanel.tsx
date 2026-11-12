@@ -169,7 +169,10 @@ export function CombinedStudyActivityPanel({
               <span>Study &amp; Consistency</span>
             </CardTitle>
             <CardDescription className="text-xs text-muted-foreground mt-0.5">
-              {viewMode === "daily" && `${activeDays} active study days across last ${rangeDays} days`}
+              {viewMode === "daily" &&
+                (rangeDays >= 365
+                  ? `${activeDays} active study days (Overall)`
+                  : `${activeDays} active study days across last ${rangeDays} days`)}
               {viewMode === "hourly" && "24-Hour peak study pattern & test submission frequency"}
               {viewMode === "recent" && "Question breakdown across recent test attempts"}
             </CardDescription>
@@ -235,6 +238,7 @@ export function CombinedStudyActivityPanel({
                 tickLine={false}
                 axisLine={false}
                 tickMargin={8}
+                minTickGap={28}
                 className="text-[11px] font-medium"
               />
               <YAxis
@@ -373,7 +377,11 @@ export function CombinedStudyActivityPanel({
           </span>
         </div>
         <span className="text-[11px] text-muted-foreground font-medium">
-          {viewMode !== "recent" ? `Last ${rangeDays} Days` : "Chronological"}
+          {viewMode !== "recent"
+            ? rangeDays >= 365
+              ? "Overall"
+              : `Last ${rangeDays} Days`
+            : "Chronological"}
         </span>
       </CardFooter>
     </Card>

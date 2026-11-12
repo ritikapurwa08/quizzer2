@@ -36,7 +36,7 @@ export function TableRenderer({ question, selected, onSelect, mode }: QuestionRe
   }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 w-full">
       {headers && headers.length > 0 && rows && rows.length > 0 && (
         <div className="overflow-x-auto rounded-xl border border-border bg-card/60 shadow-2xs">
           <table className="w-full text-xs sm:text-sm">

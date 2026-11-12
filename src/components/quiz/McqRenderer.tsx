@@ -39,7 +39,7 @@ export function McqRenderer(props: QuestionRendererProps) {
   const rawCorrect = String(question.correctAnswer || question.answer || "").trim();
 
   return (
-    <div className="space-y-2">
+    <div className="space-y-2 w-full">
       {(question.options || []).map((opt: any, i: number) => {
         const optId = typeof opt === "string" ? `opt${i + 1}` : opt?.id || `opt${i + 1}`;
         const optText = healOptionText(typeof opt === "string" ? opt : opt?.text || "");

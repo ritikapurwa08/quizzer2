@@ -108,7 +108,7 @@ export function MatchFollowingRenderer({
   const rowCount = Math.max(columnA.length, columnB.length);
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 w-full">
       {/* Match Lists — Side-by-side two-column table */}
       {(columnA.length > 0 || columnB.length > 0) && (
         <div className="rounded-xl border border-border/80 bg-card/60 overflow-hidden shadow-2xs">

@@ -26,7 +26,7 @@ export function SequenceRenderer({ question, selected, onSelect, mode }: Questio
   const selectedValue = typeof selected === "string" ? selected : "";
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 w-full">
       {/* Items Reference Display */}
       {items.length > 0 && (
         <div className="space-y-2 rounded-xl border border-border bg-muted/30 p-3.5">

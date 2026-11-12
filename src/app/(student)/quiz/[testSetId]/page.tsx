@@ -261,9 +261,9 @@ export default function QuizPage() {
   }
 
   return (
-    <div className="flex flex-col lg:flex-row items-start lg:items-stretch gap-6">
+    <div className="flex flex-col lg:flex-row items-stretch gap-6 w-full">
       {/* ── Main question column ── */}
-      <div className="flex-1 space-y-3 min-w-0 pb-20 lg:pb-0 min-h-[580px]">
+      <div className="w-full flex-1 space-y-3 min-w-0 pb-20 lg:pb-0 min-h-[580px]">
         {/* Desktop Header */}
         <div className="hidden lg:block border-b border-border/60 pb-2">
           <h1 className="font-semibold text-lg tracking-tight text-foreground font-hindi">
