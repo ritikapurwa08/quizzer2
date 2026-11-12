@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getAllGkQuestions } from "@/lib/questionPool";
+import { getAllGkQuestions, invalidateQuestionPoolCache } from "@/lib/questionPool";
 
 export const dynamic = "force-dynamic";
 
@@ -9,6 +9,9 @@ export async function GET(request: NextRequest) {
     const page = Math.max(0, parseInt(searchParams.get("page") || "0", 10));
     const pageSize = Math.min(1000, Math.max(50, parseInt(searchParams.get("pageSize") || "500", 10)));
 
+    if (page === 0) {
+      invalidateQuestionPoolCache();
+    }
     const gkOnly = getAllGkQuestions();
 
     const start = page * pageSize;

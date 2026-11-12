@@ -110,6 +110,7 @@ export async function GET() {
     // Build topic overview for canonical GK sections only (A, B, C, D) — English (E) excluded
     const topicsList: any[] = [];
     let grandPoolTotal = 0;
+    let grandArchivedVariants = 0;
     let grandPyqTotal = 0;
     let grandPracticeTotal = 0;
     let grandLiveQuestions = 0;
@@ -137,7 +138,9 @@ export async function GET() {
             if (fileName) {
               const fileData = JSON.parse(fs.readFileSync(path.join(gkTopicsDir, fileName), "utf-8"));
               const questions: any[] = fileData.questions || [];
+              const archivedVariants: any[] = fileData.archivedVariants || [];
               poolCount = questions.length;
+              grandArchivedVariants += archivedVariants.length;
 
               for (const q of questions) {
                 // Exam / PYQ metadata extraction
@@ -229,6 +232,7 @@ export async function GET() {
           totalMasterTopics: topicsList.length,
           totalSubjects: GK_SECTIONS.length,
           totalPoolQuestions: grandPoolTotal,
+          totalArchivedVariants: grandArchivedVariants,
           totalPyqQuestions: grandPyqTotal,
           totalPracticeQuestions: grandPracticeTotal,
           globalExamBreakdown: Array.from(globalExamMap.entries())

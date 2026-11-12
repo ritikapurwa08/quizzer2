@@ -84,6 +84,7 @@ interface OverviewData {
     totalMasterTopics: number;
     totalSubjects: number;
     totalPoolQuestions: number;
+    totalArchivedVariants?: number;
     totalPyqQuestions?: number;
     totalPracticeQuestions?: number;
     globalExamBreakdown?: Array<{ exam: string; count: number }>;
@@ -543,7 +544,7 @@ export default function AdminPoolOverviewPage() {
               {summary.totalDuplicatesInDb}
             </div>
             <p className="text-[11px] text-muted-foreground mt-0.5 flex items-center gap-1 font-medium underline">
-              View Audit Details <ChevronRight className="h-3 w-3" />
+              {summary.totalArchivedVariants ? `${summary.totalArchivedVariants} Filtered` : "View Audit Details"} <ChevronRight className="h-3 w-3" />
             </p>
           </div>
         </Card>

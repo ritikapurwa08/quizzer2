@@ -328,31 +328,6 @@
       "extractionReason": "type: statement_reason"
     }
   ],
-  "archivedVariants": [
-    {
-      "id": "rg_012005",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 173,
-      "sourceTopic": "संवैधानिक आयोग",
-      "masterTopicId": 52,
-      "masterTopic": "राजस्थान राज्य वित्त आयोग (RSFC)",
-      "question": "राजस्थान के प्रथम वित्त आयोग का अध्यक्ष कौन था -",
-      "options": [
-        "कृष्ण कुमार गोयल",
-        "ज्योति किरण",
-        "माणिक चंद सुराणा",
-        "हीरालाल देवपुरा"
-      ],
-      "answer": "A",
-      "exam": "CET (12th Level) 05 February Shift-1",
-      "year": 2023,
-      "explanation": "कृष्ण कुमार गोयल राजस्थान के प्रथम वित्त आयोग के अध्यक्ष थे।",
-      "topic": "राजस्थान राज्य वित्त आयोग (RSFC)",
-      "topicId": 52,
-      "type": "mcq",
-      "questionText": "राजस्थान के प्रथम वित्त आयोग का अध्यक्ष कौन था -",
-      "meta": {}
-    }
-  ],
+  "archivedVariants": [],
   "totalArchivedVariants": 1
 }
