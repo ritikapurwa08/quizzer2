@@ -97,6 +97,13 @@ export const siteStats = query({
   },
 });
 
+export const getAll = query({
+  args: {},
+  handler: async (ctx) => {
+    return await ctx.db.query("testSets").collect();
+  },
+});
+
 export const get = query({
   args: { id: v.union(v.id("testSets"), v.string()) },
   handler: async (ctx, args): Promise<Doc<"testSets"> | null> => {
