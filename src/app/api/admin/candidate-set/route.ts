@@ -31,10 +31,49 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    const setNumber = setNumberParam ? Math.max(1, parseInt(setNumberParam, 10) || 1) : 1;
     const topicInfo = MASTER_TOPICS_LIST.find((mt) => mt.id === masterTopicId);
-
     const padTopic = String(masterTopicId).padStart(2, "0");
+
+    // 1. Authoritative sync: Read all active published sets & questions from published-sets.json
+    const publishedPath = DATA_PATHS.publishedSets;
+    const usedSet = new Set<string>();
+    let existingTopicSets: any[] = [];
+
+    if (fs.existsSync(publishedPath)) {
+      try {
+        const pubSets = JSON.parse(fs.readFileSync(publishedPath, "utf-8"));
+        const mapPath = DATA_PATHS.topicIdMapping;
+        let topicConvexId: string | null = null;
+        if (fs.existsSync(mapPath)) {
+          try {
+            const mapping = JSON.parse(fs.readFileSync(mapPath, "utf-8"));
+            topicConvexId = mapping[String(masterTopicId)] || null;
+          } catch {}
+        }
+
+        for (const s of pubSets) {
+          if (s.status === "archived" || s.isArchived) continue;
+          if (s.masterTopicId === masterTopicId || (topicConvexId && s.topicId === topicConvexId)) {
+            existingTopicSets.push(s);
+          }
+          if (Array.isArray(s.questionIds)) {
+            for (const qid of s.questionIds) {
+              usedSet.add(String(qid));
+            }
+          }
+        }
+      } catch (err) {
+        console.error("Error reading published sets for candidate-set:", err);
+      }
+    }
+
+    const nextCalculatedSetNumber = existingTopicSets.length + 1;
+    const requestedSetNumber = setNumberParam ? parseInt(setNumberParam, 10) : 0;
+    // If setNumberParam is missing or 1 while sets already exist, default to the next sequential part!
+    const setNumber = (requestedSetNumber > 1 || existingTopicSets.length === 0)
+      ? Math.max(1, requestedSetNumber || 1)
+      : nextCalculatedSetNumber;
+
     const padSet = String(setNumber).padStart(3, "0");
 
     const isEnglish = masterTopicId >= 56 && masterTopicId <= 88;
@@ -50,9 +89,6 @@ export async function GET(request: NextRequest) {
     const candidateFilePad = path.join(candidatesDirPad, `candidate-set-${padSet}.json`);
     const candidateFileRaw = path.join(candidatesDirRaw, `candidate-set-${padSet}.json`);
 
-    const poolStateFile = isEnglish
-      ? path.join(DATA_PATHS.englishDir, "pool-state.json")
-      : DATA_PATHS.poolState;
     const topicsDir = isEnglish
       ? path.join(DATA_PATHS.englishDir, "topics")
       : DATA_PATHS.gkTopicsDir;
@@ -60,7 +96,7 @@ export async function GET(request: NextRequest) {
     let candidateQuestions: any[] = [];
     let totalRemainingCount = 0;
 
-    // 1. If candidate file already exists on disk, load it
+    // If candidate file already exists on disk, load it
     const existingCandidateFile = fs.existsSync(candidateFilePad)
       ? candidateFilePad
       : fs.existsSync(candidateFileRaw)
@@ -76,7 +112,7 @@ export async function GET(request: NextRequest) {
       }
     }
 
-    // 2. If no candidate file on disk, read dynamically from pool-state.json excluding any USED questions
+    // Read dynamically from authoritative local questions excluding active published questions
     if (candidateQuestions.length === 0 && fs.existsSync(topicsDir)) {
       try {
         // Find topic file in topicsDir
@@ -90,86 +126,6 @@ export async function GET(request: NextRequest) {
           const topicFilePath = path.join(topicsDir, topicFileName);
           const topicData = JSON.parse(fs.readFileSync(topicFilePath, "utf-8"));
           const allQuestions: any[] = topicData.questions || [];
-          const questionMap = new Map<string, any>();
-          for (const q of allQuestions) {
-            questionMap.set(String(q.id), q);
-          }
-
-          let poolState: any = null;
-          if (fs.existsSync(poolStateFile)) {
-            poolState = JSON.parse(fs.readFileSync(poolStateFile, "utf-8"));
-          }
-
-          const topicState = poolState?.topics?.[String(masterTopicId)];
-          let targetIds: string[] = [];
-
-          // Collect already used IDs from local state
-          const usedSet = new Set<string>();
-          if (Array.isArray(topicState?.used)) {
-            for (const u of topicState.used) {
-              const uid = typeof u === "object" && u !== null ? u.id : String(u);
-              if (uid) usedSet.add(uid);
-            }
-          }
-
-          // Authoritative sync: Read all published questions from local published-sets.json
-          const publishedPath = DATA_PATHS.publishedSets;
-          if (fs.existsSync(publishedPath)) {
-            try {
-              const pubSets = JSON.parse(fs.readFileSync(publishedPath, "utf-8"));
-              for (const s of pubSets) {
-                if (Array.isArray(s.questionIds)) {
-                  for (const qid of s.questionIds) {
-                    usedSet.add(String(qid));
-                  }
-                }
-              }
-            } catch (err) {
-              console.error("Error reading published sets for candidate-set:", err);
-            }
-          }
-
-          // Authoritative sync: Prioritize local convex backup to prevent exhausting live Convex Cloud quota
-          if (hasConvexBackup()) {
-            const backupExisting = getBackupExistingQuestionIds();
-            for (const id of backupExisting) {
-              usedSet.add(id);
-            }
-          } else {
-            // Only fallback to Convex Cloud if local backup does not exist
-            try {
-              const urlsToCheck = Array.from(new Set([
-                "https://shiny-wildcat-270.convex.cloud",
-                process.env.NEXT_PUBLIC_CONVEX_URL,
-              ])).filter(Boolean) as string[];
-
-              const checkIds = allQuestions.map((q) => String(q.id));
-              for (const cUrl of urlsToCheck) {
-                try {
-                  const convexRes = await fetch(`${cUrl}/api/query`, {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                      path: "questions:checkExistingProvenance",
-                      args: { sourceQuestionIds: checkIds },
-                    }),
-                  });
-                  if (convexRes.ok) {
-                    const convexData = await convexRes.json();
-                    if (Array.isArray(convexData.value?.existingSourceIds)) {
-                      for (const exId of convexData.value.existingSourceIds) {
-                        usedSet.add(String(exId));
-                      }
-                    }
-                  }
-                } catch {
-                  // Ignore individual connection errors
-                }
-              }
-            } catch (convexErr) {
-              console.error("Convex check in candidate-set:", convexErr);
-            }
-          }
 
           // If disk file had candidateQuestions, filter them against usedSet
           if (candidateQuestions.length > 0) {

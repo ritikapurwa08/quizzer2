@@ -170,6 +170,11 @@ export function QuestionImportEditor({
           if (data.isFinalTopicSet && data.remainingCount && data.remainingCount < batchSize) {
             setBatchSize(data.remainingCount);
           }
+          if (data.setName && (!subtopicName.trim() || subtopicName.endsWith("भाग 1") || subtopicName.endsWith("Part 1"))) {
+            if (data.setNumber && data.setNumber > 1) {
+              onSubtopicNameChange(data.setName);
+            }
+          }
         } else {
           setCandidateData(null);
           setCandidateError(data.message || data.error || "Failed to load candidate questions.");
