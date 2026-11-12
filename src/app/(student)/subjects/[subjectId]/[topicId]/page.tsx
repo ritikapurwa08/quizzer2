@@ -8,6 +8,7 @@ import { useQuery } from "convex/react";
 import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { Card } from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
 import {
   FileText,
   Play,
@@ -26,33 +27,43 @@ export default function TopicDetailPage() {
   const topic = useQuery(api.topics.get, { id: tId });
   const testSets = useQuery(api.testSets.listByTopic, { topicId: tId });
   const [localTopicSets, setLocalTopicSets] = useState<any[]>([]);
+  const [isLocalLoaded, setIsLocalLoaded] = useState(false);
 
   useEffect(() => {
     fetch(`/api/sets/by-topic/${tId}`)
       .then((res) => res.json())
       .then((json) => {
-        if (json.success && json.sets) {
+        if (json.success && Array.isArray(json.sets)) {
           setLocalTopicSets(json.sets);
         }
+        setIsLocalLoaded(true);
       })
-      .catch((e) => console.error("Error loading local topic sets:", e));
+      .catch((e) => {
+        console.error("Error loading local topic sets:", e);
+        setIsLocalLoaded(true);
+      });
   }, [tId]);
 
-  // Authoritative test sets: Convex DB is the primary source; fallback to local published sets only if Convex is empty.
+  // Authoritative test sets: The local published pool defines the playable question sets.
+  // We intersect with Convex metadata so obsolete/retired sets (e.g. from pre-dedup audit) never appear as broken ghost sets!
   const allTopicSets = useMemo(() => {
-    const sourceList = (testSets && testSets.length > 0) ? testSets : localTopicSets;
-    const map = new Map<string, any>();
-    const seenNames = new Set<string>();
-
-    for (const s of sourceList || []) {
-      const cleanName = (s.name || "").replace(/\s+/g, " ").trim().toLowerCase();
-      if (!map.has(s._id) && (!cleanName || !seenNames.has(cleanName))) {
-        map.set(s._id, s);
-        if (cleanName) seenNames.add(cleanName);
+    if (localTopicSets.length > 0) {
+      const localIdSet = new Set(localTopicSets.map((s) => s.id || s._id));
+      if (testSets && testSets.length > 0) {
+        const validConvex = testSets.filter((s) => localIdSet.has(s._id));
+        if (validConvex.length > 0) {
+          return validConvex.sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+        }
       }
+      return [...localTopicSets].sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
     }
-    return Array.from(map.values()).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
-  }, [testSets, localTopicSets]);
+
+    if (isLocalLoaded && (!testSets || testSets.length === 0)) {
+      return [];
+    }
+
+    return (testSets || []).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+  }, [testSets, localTopicSets, isLocalLoaded]);
 
   const topicProgress = useQuery(api.topics.getProgress, { topicId: tId });
   const completedIds = useQuery(api.testSets.completedSetIds) ?? [];
@@ -103,8 +114,25 @@ export default function TopicDetailPage() {
         </div>
       </div>
 
+      {/* ── Loading Skeleton Placeholder ─────────────────────────────────── */}
+      {!isLocalLoaded && testSets === undefined && (
+        <div className="space-y-3">
+          <div className="flex items-center justify-between">
+            <Skeleton className="h-4 w-36 rounded" />
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <div key={i} className="p-4 rounded-md border border-border bg-card flex items-center justify-between animate-pulse">
+                <Skeleton className="h-4 w-40 rounded" />
+                <Skeleton className="h-7 w-16 rounded" />
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* ── Quiz Sets List ───────────────────────────────────────────────── */}
-      {testSets !== undefined && allTopicSets.length === 0 && (
+      {(isLocalLoaded || testSets !== undefined) && allTopicSets.length === 0 && (
         <EmptyState
           icon={FileText}
           title="No practice sets available yet"

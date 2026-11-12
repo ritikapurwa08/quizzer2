@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useQuery } from "convex/react";
@@ -55,9 +55,29 @@ export default function SubjectDetailPage() {
   const setCounts = useQuery(api.testSets.countsBySubject, { subjectId: id }) ?? {};
   const progressMap = useQuery(api.topics.progressBySubject, { subjectId: id }) ?? {};
 
+  const [localTopicCounts, setLocalTopicCounts] = useState<Record<string, number>>({});
+
+  useEffect(() => {
+    fetch("/api/sets/counts")
+      .then((res) => res.json())
+      .then((json) => {
+        if (json.success && json.topicCounts) {
+          setLocalTopicCounts(json.topicCounts);
+        }
+      })
+      .catch(() => {});
+  }, []);
+
+  const effectiveCounts = useMemo(() => {
+    if (Object.keys(localTopicCounts).length > 0) {
+      return { ...setCounts, ...localTopicCounts };
+    }
+    return setCounts;
+  }, [setCounts, localTopicCounts]);
+
   const subjectTitle = getSubjectDisplayName(subject) || "Subject";
 
-  const totalQuizSets = Object.values(setCounts).reduce((acc, curr) => acc + curr, 0);
+  const totalQuizSets = Object.values(effectiveCounts).reduce((acc, curr) => acc + curr, 0);
 
   return (
     <div className="space-y-6 max-w-5xl mx-auto">
@@ -117,7 +137,7 @@ export default function SubjectDetailPage() {
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
             {topics.map((t, index) => {
-              const setCount = setCounts[t._id] ?? 0;
+              const setCount = effectiveCounts[t._id] ?? 0;
               const progress = progressMap[t._id];
               const isCompleted = progress?.status === "completed";
               const isInProgress = progress?.status === "in_progress";
