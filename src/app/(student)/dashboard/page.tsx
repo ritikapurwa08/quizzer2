@@ -240,7 +240,7 @@ export default function DashboardPage() {
                     attemptId={a._id}
                     testSetId={a.testSetId}
                     testSetName={a.testSetName}
-                    submittedAt={a.submittedAt ?? 0}
+                    submittedAt={a.submittedAt ?? a.completedAt ?? a._creationTime ?? Date.now()}
                     score={a.score}
                     totalQuestions={a.totalQuestions}
                     answers={a.answers ?? []}

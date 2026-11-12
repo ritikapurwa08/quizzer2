@@ -225,7 +225,28 @@ export const dashboardStats = query({
     let totalPeriodTests = 0;
     let activeDays = 0;
 
-    for (let i = rangeDays - 1; i >= 0; i--) {
+    // For "Overall (All Time)" (rangeDays >= 365), calculate the user's earliest attempt
+    // so the timeline starts cleanly on their first active day rather than 365 days ago with flat zero!
+    let effectiveRangeDays = rangeDays;
+    if (rangeDays >= 365) {
+      if (attempts.length > 0) {
+        let earliestTs = Infinity;
+        for (const a of attempts) {
+          const ts = a.submittedAt ?? a.completedAt ?? a.startedAt;
+          if (ts && ts < earliestTs) earliestTs = ts;
+        }
+        if (earliestTs !== Infinity) {
+          const daysSinceEarliest = Math.ceil((Date.now() - earliestTs) / 86400000) + 1;
+          effectiveRangeDays = Math.max(7, Math.min(rangeDays, daysSinceEarliest));
+        } else {
+          effectiveRangeDays = 7;
+        }
+      } else {
+        effectiveRangeDays = 7;
+      }
+    }
+
+    for (let i = effectiveRangeDays - 1; i >= 0; i--) {
       const d = new Date(today);
       d.setUTCDate(today.getUTCDate() - i);
       const day = d.toISOString().slice(0, 10);

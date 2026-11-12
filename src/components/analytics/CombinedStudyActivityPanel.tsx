@@ -132,13 +132,24 @@ export function CombinedStudyActivityPanel({
       });
     }
 
+    // If All Time (rangeDays >= 365), trim any leading 0-activity days so the chart starts directly on first test
+    let trimmed = formatted;
+    if (rangeDays >= 365 && formatted.length > 0) {
+      const firstActiveIdx = formatted.findIndex((item) => item.count > 0 || item.tests > 0);
+      if (firstActiveIdx > 0) {
+        // Keep 1 day before first active day if available for clean baseline
+        const startIdx = Math.max(0, firstActiveIdx - 1);
+        trimmed = formatted.slice(startIdx);
+      }
+    }
+
     return {
       totalQuestions: qSum,
       totalTests: tSum,
       activeDays: act,
-      formattedDaily: formatted,
+      formattedDaily: trimmed,
     };
-  }, [dailyData]);
+  }, [dailyData, rangeDays]);
 
   const recentChartData = useMemo(() => {
     if (!recentAttempts || recentAttempts.length === 0) return [];

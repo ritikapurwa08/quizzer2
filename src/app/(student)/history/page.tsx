@@ -48,8 +48,16 @@ export default function HistoryPage() {
     ...subjects.map((s) => ({ value: s._id, label: getSubjectDisplayName(s) })),
   ], [subjects]);
 
-  // Filter history by subject + topic
-  const allItems = result?.page ?? [];
+  // Sort all history items newest-first strictly by submittedAt / completedAt
+  const allItems = useMemo(() => {
+    const raw = result?.page ?? [];
+    return [...raw].sort((a: any, b: any) => {
+      const timeA = a.submittedAt ?? a.completedAt ?? a._creationTime ?? 0;
+      const timeB = b.submittedAt ?? b.completedAt ?? b._creationTime ?? 0;
+      return timeB - timeA;
+    });
+  }, [result?.page]);
+
   const filtered = useMemo(() => {
     return allItems.filter((a: any) => {
       if (selectedSubjectId !== "all" && a.subjectId !== selectedSubjectId) return false;
@@ -156,7 +164,7 @@ export default function HistoryPage() {
                   attemptId={attempt._id}
                   testSetId={attempt.testSetId}
                   testSetName={attempt.testSetName}
-                  submittedAt={attempt.submittedAt ?? 0}
+                  submittedAt={attempt.submittedAt ?? attempt.completedAt ?? attempt._creationTime ?? Date.now()}
                   score={attempt.score}
                   totalQuestions={attempt.totalQuestions}
                   answers={attempt.answers ?? []}

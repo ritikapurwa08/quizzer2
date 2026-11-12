@@ -498,13 +498,21 @@ export const latestSubmittedForTestSet = query({
     try {
       let latest: any = null;
       try {
-        latest = await ctx.db
+        const attemptsForSet = await ctx.db
           .query("attempts")
           .withIndex("by_user_test_set_status", (q) =>
             q.eq("userId", user._id).eq("testSetId", args.testSetId as Id<"testSets">).eq("status", "submitted"),
           )
-          .order("desc")
-          .first();
+          .collect();
+
+        if (attemptsForSet.length > 0) {
+          attemptsForSet.sort((a, b) => {
+            const timeA = a.submittedAt ?? a.completedAt ?? a._creationTime ?? 0;
+            const timeB = b.submittedAt ?? b.completedAt ?? b._creationTime ?? 0;
+            return timeB - timeA;
+          });
+          latest = attemptsForSet[0];
+        }
       } catch {
         // withIndex may throw if args.testSetId is not a Convex Id<"testSets">
       }
@@ -516,11 +524,19 @@ export const latestSubmittedForTestSet = query({
             q.eq("userId", user._id).eq("status", "submitted"),
           )
           .order("desc")
-          .take(50);
-        latest =
-          recentSubmitted.find(
-            (a) => String(a.testSetId) === String(args.testSetId)
-          ) ?? null;
+          .take(100);
+
+        const matching = recentSubmitted.filter(
+          (a) => String(a.testSetId) === String(args.testSetId)
+        );
+        if (matching.length > 0) {
+          matching.sort((a, b) => {
+            const timeA = a.submittedAt ?? a.completedAt ?? a._creationTime ?? 0;
+            const timeB = b.submittedAt ?? b.completedAt ?? b._creationTime ?? 0;
+            return timeB - timeA;
+          });
+          latest = matching[0];
+        }
       }
 
       if (!latest) return null;
@@ -545,19 +561,30 @@ export const recentByUser = query({
       return [];
     }
     const limit = args.limit ?? 5;
-    // Use by_user_status index (newest-first) and take only what we need.
-    const sorted = await ctx.db
+    // Query submitted attempts.
+    // Note: by_user_status orders by _creationTime desc, but a resumed attempt may have an older
+    // _creationTime despite being submitted recently. We fetch submitted attempts, sort strictly by
+    // submittedAt/completedAt desc, and take limit.
+    const allSubmitted = await ctx.db
       .query("attempts")
       .withIndex("by_user_status", (q) =>
         q.eq("userId", user._id).eq("status", "submitted"),
       )
       .order("desc")
-      .take(limit);
+      .take(100);
+
+    allSubmitted.sort((a, b) => {
+      const timeA = a.submittedAt ?? a.completedAt ?? a._creationTime ?? 0;
+      const timeB = b.submittedAt ?? b.completedAt ?? b._creationTime ?? 0;
+      return timeB - timeA;
+    });
+
+    const sorted = allSubmitted.slice(0, limit);
 
     const withSetNames = await Promise.all(
       sorted.map(async (a) => {
         const testSet = await ctx.db.get(a.testSetId);
-        return { ...a, testSetName: testSet?.name ?? "Practice Set" };
+        return { ...a, testSetName: testSet?.name ?? "अभ्यास सेट" };
       }),
     );
 
@@ -578,10 +605,16 @@ export const listByUser = query({
       .order("desc")
       .collect();
 
+    attempts.sort((a, b) => {
+      const timeA = a.submittedAt ?? a.completedAt ?? a._creationTime ?? 0;
+      const timeB = b.submittedAt ?? b.completedAt ?? b._creationTime ?? 0;
+      return timeB - timeA;
+    });
+
     const withSetNames = await Promise.all(
       attempts.map(async (a) => {
         const testSet = await ctx.db.get(a.testSetId);
-        return { ...a, testSetName: testSet?.name ?? "Unknown Set" };
+        return { ...a, testSetName: testSet?.name ?? "अभ्यास सेट" };
       }),
     );
 
@@ -604,7 +637,8 @@ export const historyByUser = query({
     }
     const { numItems, cursor } = args.paginationOpts;
 
-    // Use by_user_status index, newest-first
+    // Use by_user_status index, then sort strictly by submittedAt desc
+    // so any newly submitted test (even if resumed from an older in-progress attempt) appears immediately at the top!
     const allSubmitted = await ctx.db
       .query("attempts")
       .withIndex("by_user_status", (q) =>
@@ -612,6 +646,12 @@ export const historyByUser = query({
       )
       .order("desc")
       .collect();
+
+    allSubmitted.sort((a, b) => {
+      const timeA = a.submittedAt ?? a.completedAt ?? a._creationTime ?? 0;
+      const timeB = b.submittedAt ?? b.completedAt ?? b._creationTime ?? 0;
+      return timeB - timeA;
+    });
 
     // Manual cursor pagination
     const startIdx = cursor ? parseInt(cursor, 10) : 0;
