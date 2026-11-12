@@ -44,16 +44,28 @@ def main():
         print("Example: python scripts/pipeline/reaudit_published_set.py --topic 3 --set 8")
         sys.exit(1)
 
-    # Load published sets manifest
+    # Load published sets manifest and topic mapping
     manifest_path = os.path.join("data", "sets", "published-sets.json")
     with open(manifest_path, "r", encoding="utf-8") as f:
         manifests = json.load(f)
+
+    mapping_path = os.path.join("data", "sets", "topic-id-mapping.json")
+    topic_mapping = {}
+    rev_mapping = {}
+    if os.path.exists(mapping_path):
+        with open(mapping_path, "r", encoding="utf-8") as f:
+            topic_mapping = json.load(f)
+            rev_mapping = {v: int(k) for k, v in topic_mapping.items() if k.isdigit()}
 
     target_set = None
     if args.set_id:
         target_set = next((s for s in manifests if s.get("id") == args.set_id or s.get("_id") == args.set_id), None)
     else:
-        topic_sets = [s for s in manifests if s.get("masterTopicId") == args.topic]
+        convex_tid = topic_mapping.get(str(args.topic))
+        topic_sets = [
+            s for s in manifests 
+            if s.get("masterTopicId") == args.topic or (convex_tid and s.get("topicId") == convex_tid)
+        ]
         topic_sets.sort(key=lambda s: s.get("order", 0))
         if 1 <= args.set <= len(topic_sets):
             target_set = topic_sets[args.set - 1]
@@ -64,7 +76,7 @@ def main():
 
     set_id = target_set.get("id") or target_set.get("_id")
     set_name = target_set.get("name", "Unknown Set")
-    topic_id = target_set.get("masterTopicId")
+    topic_id = target_set.get("masterTopicId") or args.topic or rev_mapping.get(target_set.get("topicId"))
     qids = target_set.get("questionIds", [])
 
     print("=" * 70)

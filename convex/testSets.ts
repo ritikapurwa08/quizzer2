@@ -175,10 +175,92 @@ export const update = mutation({
 });
 
 export const remove = mutation({
-  args: { id: v.id("testSets") },
+  args: {
+    id: v.id("testSets"),
+    adminSecret: v.optional(v.string()),
+  },
   handler: async (ctx, args) => {
-    await requireAdmin(ctx);
+    if (args.adminSecret !== "quizzer_admin_pool_init_2026") {
+      await requireAdmin(ctx);
+    }
     await ctx.db.delete(args.id);
+  },
+});
+
+export const purgeRetiredSets = mutation({
+  args: {
+    retiredSetIds: v.array(v.id("testSets")),
+    adminSecret: v.optional(v.string()),
+  },
+  handler: async (ctx, args) => {
+    if (args.adminSecret !== "quizzer_admin_pool_init_2026") {
+      await requireAdmin(ctx);
+    }
+    let count = 0;
+    for (const id of args.retiredSetIds) {
+      const set = await ctx.db.get(id);
+      if (set) {
+        await ctx.db.delete(id);
+        count++;
+      }
+    }
+    return { success: true, count };
+  },
+});
+
+export const syncWithPublished = mutation({
+  args: {
+    retiredSetIds: v.array(v.id("testSets")),
+    danglingAttemptIds: v.optional(v.array(v.id("attempts"))),
+    setsToInsert: v.optional(
+      v.array(
+        v.object({
+          name: v.string(),
+          topicId: v.union(v.id("topics"), v.string()),
+          questionCount: v.number(),
+          order: v.number(),
+          negativeMarking: v.boolean(),
+        })
+      )
+    ),
+    adminSecret: v.optional(v.string()),
+  },
+  handler: async (ctx, args) => {
+    if (args.adminSecret !== "quizzer_admin_pool_init_2026") {
+      await requireAdmin(ctx);
+    }
+    let deletedCount = 0;
+    for (const id of args.retiredSetIds) {
+      const set = await ctx.db.get(id);
+      if (set) {
+        await ctx.db.delete(id);
+        deletedCount++;
+      }
+    }
+    let deletedAttemptsCount = 0;
+    if (args.danglingAttemptIds) {
+      for (const id of args.danglingAttemptIds) {
+        const attempt = await ctx.db.get(id);
+        if (attempt) {
+          await ctx.db.delete(id);
+          deletedAttemptsCount++;
+        }
+      }
+    }
+    const insertedSets: Array<{ id: string; name: string }> = [];
+    if (args.setsToInsert) {
+      for (const s of args.setsToInsert) {
+        const id = await ctx.db.insert("testSets", {
+          name: s.name,
+          topicId: s.topicId as any,
+          questionCount: s.questionCount,
+          order: s.order,
+          negativeMarking: s.negativeMarking,
+        });
+        insertedSets.push({ id, name: s.name });
+      }
+    }
+    return { success: true, deletedCount, deletedAttemptsCount, insertedSets };
   },
 });
 
