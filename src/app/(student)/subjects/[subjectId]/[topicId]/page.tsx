@@ -33,36 +33,39 @@ export default function TopicDetailPage() {
     fetch(`/api/sets/by-topic/${tId}`)
       .then((res) => res.json())
       .then((json) => {
-        if (json.success && Array.isArray(json.sets)) {
+        if (json.success && json.sets) {
           setLocalTopicSets(json.sets);
         }
-        setIsLocalLoaded(true);
       })
-      .catch((e) => {
-        console.error("Error loading local topic sets:", e);
-        setIsLocalLoaded(true);
-      });
+      .catch((e) => console.error("Error loading local topic sets:", e))
+      .finally(() => setIsLocalLoaded(true));
   }, [tId]);
 
-  // Authoritative test sets: The local published pool defines the playable question sets.
-  // We intersect with Convex metadata so obsolete/retired sets (e.g. from pre-dedup audit) never appear as broken ghost sets!
+  // Authoritative test sets: intersect with active local published sets so archived sets are excluded
   const allTopicSets = useMemo(() => {
-    if (localTopicSets.length > 0) {
-      const localIdSet = new Set(localTopicSets.map((s) => s.id || s._id));
-      if (testSets && testSets.length > 0) {
-        const validConvex = testSets.filter((s) => localIdSet.has(s._id));
-        if (validConvex.length > 0) {
-          return validConvex.sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
-        }
-      }
-      return [...localTopicSets].sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
-    }
-
-    if (isLocalLoaded && (!testSets || testSets.length === 0)) {
+    if (!isLocalLoaded && (!testSets || testSets.length === 0)) {
       return [];
     }
 
-    return (testSets || []).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+    const localActiveIds = new Set(localTopicSets.map((s) => s._id || s.id));
+    let sourceList = localTopicSets;
+    if (localTopicSets.length > 0 && testSets && testSets.length > 0) {
+      sourceList = testSets.filter((s) => localActiveIds.has(s._id));
+    } else if (localTopicSets.length === 0 && testSets && testSets.length > 0) {
+      sourceList = testSets.filter((s) => !s.isArchived);
+    }
+
+    const map = new Map<string, any>();
+    const seenNames = new Set<string>();
+
+    for (const s of sourceList || []) {
+      const cleanName = (s.name || "").replace(/\s+/g, " ").trim().toLowerCase();
+      if (!map.has(s._id) && (!cleanName || !seenNames.has(cleanName))) {
+        map.set(s._id, s);
+        if (cleanName) seenNames.add(cleanName);
+      }
+    }
+    return Array.from(map.values()).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
   }, [testSets, localTopicSets, isLocalLoaded]);
 
   const topicProgress = useQuery(api.topics.getProgress, { topicId: tId });
@@ -132,7 +135,7 @@ export default function TopicDetailPage() {
       )}
 
       {/* ── Quiz Sets List ───────────────────────────────────────────────── */}
-      {(isLocalLoaded || testSets !== undefined) && allTopicSets.length === 0 && (
+      {isLocalLoaded && testSets !== undefined && allTopicSets.length === 0 && (
         <EmptyState
           icon={FileText}
           title="No practice sets available yet"

@@ -66,6 +66,7 @@ export async function GET(
 
     const sets = getPublishedSetsList();
     const matchingSets = sets.filter((s) => {
+      if (s.status === "archived" || s.isArchived) return false;
       if (s.topicId === topicId || s.topicId === targetConvexId) return true;
       if (targetMasterId && String(s.masterTopicId) === targetMasterId) return true;
       return false;

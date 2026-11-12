@@ -28,7 +28,7 @@ export const setCountsAllSubjects = query({
           .query("testSets")
           .withIndex("by_topic", (q) => q.eq("topicId", topic._id))
           .collect();
-        count += sets.length;
+        count += sets.filter((s) => !s.isArchived).length;
       }
       result[subject._id] = count;
     }

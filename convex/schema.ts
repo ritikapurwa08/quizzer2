@@ -36,6 +36,7 @@ export default defineSchema({
     negativeMarking: v.boolean(),
     questionCount: v.number(),
     durationMinutes: v.optional(v.number()),
+    isArchived: v.optional(v.boolean()),
   }).index("by_topic", ["topicId"]),
 
   attempts: defineTable({

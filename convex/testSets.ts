@@ -11,7 +11,7 @@ export const listByTopic = query({
         .query("testSets")
         .withIndex("by_topic", (q) => q.eq("topicId", args.topicId as any))
         .collect();
-      return sets.sort((a, b) => a.order - b.order);
+      return sets.filter((s) => !s.isArchived).sort((a, b) => a.order - b.order);
     } catch {
       return [];
     }
@@ -33,7 +33,7 @@ export const countsBySubject = query({
         .query("testSets")
         .withIndex("by_topic", (q) => q.eq("topicId", topic._id))
         .collect();
-      result[topic._id] = sets.length;
+      result[topic._id] = sets.filter((s) => !s.isArchived).length;
     }
     return result;
   },
@@ -63,13 +63,14 @@ export const completedSetIds = query({
   },
 });
 
-/** Site-wide totals: total practice sets and total questions. */
+/** Site-wide totals: total active practice sets and total questions. */
 export const siteStats = query({
   args: {},
   handler: async (ctx) => {
     const sets = await ctx.db.query("testSets").collect();
-    const totalSets = sets.length;
-    const totalQuestions = sets.reduce((sum, s) => sum + s.questionCount, 0);
+    const activeSets = sets.filter((s) => !s.isArchived);
+    const totalSets = activeSets.length;
+    const totalQuestions = activeSets.reduce((sum, s) => sum + s.questionCount, 0);
     return { totalSets, totalQuestions };
   },
 });
@@ -322,7 +323,7 @@ export const nextRecommendedSets = query({
     // ── STEP 1: RESUME IN-PROGRESS ATTEMPTS ──
     for (const inProgress of inProgressAttempts) {
       const testSet = await ctx.db.get(inProgress.testSetId);
-      if (!testSet || addedSetIds.has(testSet._id as string)) continue;
+      if (!testSet || testSet.isArchived || addedSetIds.has(testSet._id as string)) continue;
       const topic = await ctx.db.get(testSet.topicId);
       if (!topic) continue;
       const subject = await ctx.db.get(topic.subjectId);
@@ -358,7 +359,7 @@ export const nextRecommendedSets = query({
     for (const sub of submittedAttempts) {
       if (gkRecommendations.length >= 5 && englishRecommendations.length >= 1) break;
       const testSet = await ctx.db.get(sub.testSetId);
-      if (!testSet) continue;
+      if (!testSet || testSet.isArchived) continue;
       const topic = await ctx.db.get(testSet.topicId);
       if (!topic) continue;
       const subject = await ctx.db.get(topic.subjectId);
@@ -370,11 +371,11 @@ export const nextRecommendedSets = query({
       if (isEng && englishRecommendations.length >= 1) continue;
       if (!isEng && (gkRecommendations.length >= 5 || seenGkTopics.has(topic._id as string))) continue;
 
-      // Find sibling sets in this topic ordered by order
-      const siblingSets = await ctx.db
+      // Find sibling sets in this topic ordered by order (exclude archived)
+      const siblingSets = (await ctx.db
         .query("testSets")
         .withIndex("by_topic", (q) => q.eq("topicId", testSet.topicId))
-        .collect();
+        .collect()).filter((s) => !s.isArchived);
       siblingSets.sort((a, b) => a.order - b.order);
 
       const nextSet = siblingSets.find(
@@ -414,7 +415,7 @@ export const nextRecommendedSets = query({
       // Pass 3A: Diverse topics pass
       for (const set of allSets) {
         if (gkRecommendations.length >= targetGkCount && englishRecommendations.length >= 1) break;
-        if (completedSetIds.has(set._id as string) || addedSetIds.has(set._id as string) || set.questionCount === 0) {
+        if (completedSetIds.has(set._id as string) || addedSetIds.has(set._id as string) || set.questionCount === 0 || set.isArchived) {
           continue;
         }
 
@@ -461,7 +462,7 @@ export const nextRecommendedSets = query({
       if (gkRecommendations.length < 4) {
         for (const set of allSets) {
           if (gkRecommendations.length >= targetGkCount) break;
-          if (completedSetIds.has(set._id as string) || addedSetIds.has(set._id as string) || set.questionCount === 0) {
+          if (completedSetIds.has(set._id as string) || addedSetIds.has(set._id as string) || set.questionCount === 0 || set.isArchived) {
             continue;
           }
           const topic = await ctx.db.get(set.topicId);
@@ -488,6 +489,48 @@ export const nextRecommendedSets = query({
     // Combine: 4-5 Rajasthan GK sets first, plus 1 English set
     // Total: 5 sets (3 in row 1, 2 in row 2) or 6 sets (3 in row 1, 3 in row 2)
     return [...gkRecommendations, ...englishRecommendations].slice(0, limit);
+  },
+});
+
+export const archiveSetsBatch = mutation({
+  args: {
+    archivedIds: v.array(v.id("testSets")),
+    activeUpdates: v.optional(
+      v.array(
+        v.object({
+          id: v.id("testSets"),
+          questionCount: v.number(),
+        })
+      )
+    ),
+    adminSecret: v.optional(v.string()),
+  },
+  handler: async (ctx, args) => {
+    if (args.adminSecret !== "quizzer_admin_pool_init_2026") {
+      await requireAdmin(ctx);
+    }
+    let archivedCount = 0;
+    for (const id of args.archivedIds) {
+      const set = await ctx.db.get(id);
+      if (set && !set.isArchived) {
+        await ctx.db.patch(id, { isArchived: true });
+        archivedCount++;
+      }
+    }
+    let activeUpdatedCount = 0;
+    if (args.activeUpdates) {
+      for (const item of args.activeUpdates) {
+        const set = await ctx.db.get(item.id);
+        if (set && (set.questionCount !== item.questionCount || set.isArchived)) {
+          await ctx.db.patch(item.id, {
+            questionCount: item.questionCount,
+            isArchived: false,
+          });
+          activeUpdatedCount++;
+        }
+      }
+    }
+    return { success: true, archivedCount, activeUpdatedCount };
   },
 });
 

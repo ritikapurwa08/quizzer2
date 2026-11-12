@@ -67,6 +67,7 @@ export async function GET() {
     // Collect all unique published question IDs to accurately compute unassigned questions
     const allPublishedQuestionIds = new Set<string>();
     for (const s of publishedSets || []) {
+      if (s.status === "archived" || s.isArchived) continue;
       if (Array.isArray(s.questionIds)) {
         for (const qid of s.questionIds) {
           allPublishedQuestionIds.add(String(qid));
@@ -81,6 +82,7 @@ export async function GET() {
     >();
 
     for (const s of publishedSets || []) {
+      if (s.status === "archived" || s.isArchived) continue;
       let masterTopicId: number | null = null;
       if (s.topicId && convexToMasterId.has(s.topicId)) {
         masterTopicId = convexToMasterId.get(s.topicId)!;

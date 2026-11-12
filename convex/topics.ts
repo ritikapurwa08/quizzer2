@@ -61,10 +61,11 @@ export const progressBySubject = query({
     }
 
     for (const topic of topics) {
-      const sets = await ctx.db
+      const allSets = await ctx.db
         .query("testSets")
         .withIndex("by_topic", (q) => q.eq("topicId", topic._id))
         .collect();
+      const sets = allSets.filter((s) => !s.isArchived);
 
       const totalSets = sets.length;
       let completedSets = 0;
@@ -134,10 +135,11 @@ export const getProgress = query({
         .unique();
     }
 
-    const sets = await ctx.db
+    const allSets = await ctx.db
       .query("testSets")
       .withIndex("by_topic", (q) => q.eq("topicId", args.topicId))
       .collect();
+    const sets = allSets.filter((s) => !s.isArchived);
 
     const totalSets = sets.length;
     let completedSets = 0;
