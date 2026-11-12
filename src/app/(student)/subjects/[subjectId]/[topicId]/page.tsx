@@ -41,27 +41,26 @@ export default function TopicDetailPage() {
       .finally(() => setIsLocalLoaded(true));
   }, [tId]);
 
-  // Authoritative test sets: intersect with active local published sets so archived sets are excluded
+  // Authoritative test sets: Use Convex active sets as primary source of truth,
+  // falling back to local published sets if Convex is loading or offline.
   const allTopicSets = useMemo(() => {
-    if (!isLocalLoaded && (!testSets || testSets.length === 0)) {
-      return [];
-    }
-
-    const localActiveIds = new Set(localTopicSets.map((s) => s._id || s.id));
-    let sourceList = localTopicSets;
-    if (localTopicSets.length > 0 && testSets && testSets.length > 0) {
-      sourceList = testSets.filter((s) => localActiveIds.has(s._id));
-    } else if (localTopicSets.length === 0 && testSets && testSets.length > 0) {
+    let sourceList: any[] = [];
+    if (testSets && testSets.length > 0) {
       sourceList = testSets.filter((s) => !s.isArchived);
+    } else if (localTopicSets && localTopicSets.length > 0) {
+      sourceList = localTopicSets.filter((s) => s.status !== "archived" && !s.isArchived);
+    } else if (!isLocalLoaded) {
+      return [];
     }
 
     const map = new Map<string, any>();
     const seenNames = new Set<string>();
 
-    for (const s of sourceList || []) {
+    for (const s of sourceList) {
+      const id = s._id || s.id;
       const cleanName = (s.name || "").replace(/\s+/g, " ").trim().toLowerCase();
-      if (!map.has(s._id) && (!cleanName || !seenNames.has(cleanName))) {
-        map.set(s._id, s);
+      if (!map.has(id) && (!cleanName || !seenNames.has(cleanName))) {
+        map.set(id, { ...s, _id: id });
         if (cleanName) seenNames.add(cleanName);
       }
     }

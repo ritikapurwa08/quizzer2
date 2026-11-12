@@ -9790,7 +9790,7 @@
     "status": "active"
   },
   {
-    "id": "kd77958xa71ktx9jd7x4rgvfwh8fd4gc",
+    "id": "kd78r6f9z85mtdgdrn37d6b7bd8j2pk2",
     "name": "राजस्थान की मृदा भाग 8",
     "topicId": "kh797tbpm0dv6xseb6d2mj63698ek0jq",
     "negativeMarking": true,
@@ -9818,7 +9818,7 @@
       "rg_013143",
       "rg_013145"
     ],
-    "status": "archived",
+    "status": "active",
     "isArchived": true
   },
   {
@@ -13262,7 +13262,7 @@
     "status": "active"
   },
   {
-    "id": "topic-5-set-008",
+    "id": "kd78r6f9z85mtdgdrn37d6b7bd8j2pk2",
     "name": "राजस्थान की मृदा भाग 8",
     "topicId": "kh797tbpm0dv6xseb6d2mj63698ek0jq",
     "masterTopicId": 5,
@@ -13302,10 +13302,11 @@
       "rg_013352",
       "rg_013353",
       "rg_013356"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-010",
+    "id": "kd7a04s76gp3y8j55qdhghdwyn8j2max",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 10",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13333,10 +13334,11 @@
       "rg_003103",
       "rg_013380",
       "rg_013381"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-011",
+    "id": "kd7956td7k8t6mjga0kf5hb57x8j3y3z",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 11",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13364,10 +13366,11 @@
       "rg_013480",
       "rg_013490",
       "rg_013494"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-012",
+    "id": "kd7et8h5bvnt7q7yjx89x4qt1h8j2wky",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 12",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13395,10 +13398,11 @@
       "rg_013502",
       "rg_013503",
       "rg_003210"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-013",
+    "id": "kd76w5tvrj7c041f6zegvthzj98j2t42",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 13",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13426,10 +13430,11 @@
       "rg_003354",
       "rg_003411",
       "rg_003420"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-014",
+    "id": "kd7da7ca773dnj1sqj0wwqst058j2np3",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 14",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13457,10 +13462,11 @@
       "rg_003492",
       "rg_003493",
       "rg_003498"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-015",
+    "id": "kd7fkpcc8e52znbk7prrgr138h8j2ehe",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 15",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13488,10 +13494,11 @@
       "rg_003401",
       "rg_003402",
       "rg_003404"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-016",
+    "id": "kd7aps7rcsfhadz7hj504d0xbn8j2842",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 16",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13519,10 +13526,11 @@
       "rg_013590",
       "rg_003056",
       "rg_003057"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-017",
+    "id": "kd753bcmv3860fb39c1mb5r1798j3ym7",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 17",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13550,10 +13558,11 @@
       "rg_003276",
       "rg_003290",
       "rg_003296"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-018",
+    "id": "kd76n9en1ej1rawq1571x9tz8d8j32py",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 18",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13581,10 +13590,11 @@
       "rg_003322",
       "rg_003324",
       "rg_003326"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-019",
+    "id": "kd70ydw6f5n8dtvct7bvzem11s8j35z0",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 19",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13612,10 +13622,11 @@
       "rg_003357",
       "rg_003358",
       "rg_003360"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-020",
+    "id": "kd74g707jdwsz3p797y8gvv35x8j3540",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 20",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13643,10 +13654,11 @@
       "rg_003389",
       "rg_003390",
       "rg_003394"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-021",
+    "id": "kd7db0ypdy300p7szaw4vzvna98j350f",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 21",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13674,10 +13686,11 @@
       "rg_003441",
       "rg_003447",
       "rg_003455"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-022",
+    "id": "kd76x4rg4bzcdyn41e77j4xz2n8j3tca",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 22",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13705,10 +13718,11 @@
       "rg_003486",
       "rg_003487",
       "rg_003497"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-023",
+    "id": "kd7e9ed8fpqde2kags37hyf0fx8j3cny",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 23",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13736,10 +13750,11 @@
       "rg_003544",
       "rg_013379",
       "rg_013395"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-024",
+    "id": "kd77fjm0snjcn95ea9mav7x6kn8j3cka",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 24",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13767,10 +13782,11 @@
       "rg_013459",
       "rg_013462",
       "rg_013463"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-025",
+    "id": "kd7crzng709tyft1jbwsp0mg298j368t",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 25",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13798,10 +13814,11 @@
       "rg_013537",
       "rg_013541",
       "rg_013553"
-    ]
+    ],
+    "status": "active"
   },
   {
-    "id": "topic-6-set-026",
+    "id": "kd78nd9e9j7kkp6d469x39x4bd8j3b0n",
     "name": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें भाग 26",
     "topicId": "kh72wepvnfmpbgkta81mh3ej758f3p6g",
     "masterTopicId": 6,
@@ -13863,6 +13880,7 @@
       "rg_013626",
       "rg_013631",
       "rg_013632"
-    ]
+    ],
+    "status": "active"
   }
 ]
