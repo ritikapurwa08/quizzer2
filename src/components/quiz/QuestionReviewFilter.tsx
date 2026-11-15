@@ -1,6 +1,14 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Layers, CheckCircle2, XCircle, HelpCircle } from "lucide-react";
 
 export type ReviewFilter = "all" | "correct" | "incorrect" | "unattempted";
 
@@ -17,8 +25,8 @@ interface QuestionReviewFilterProps {
 }
 
 /**
- * Authoritative 4-option Filter tabs for the Question Review section:
- * All | Correct | Incorrect | Unattempted
+ * Authoritative 4-option Select Dropdown for the Question Review section:
+ * All Questions | Correct | Incorrect | Unattempted
  */
 export function QuestionReviewFilter({
   value,
@@ -27,92 +35,126 @@ export function QuestionReviewFilter({
   className,
 }: QuestionReviewFilterProps) {
   return (
-    <div
-      role="group"
-      aria-label="Question Filter"
-      className={cn(
-        "inline-flex items-center p-1 bg-muted/60 border border-border/80 rounded-xl gap-1 shadow-2xs overflow-x-auto max-w-full",
-        className
-      )}
-    >
-      {/* 1. All */}
-      <button
-        type="button"
-        onClick={() => onChange("all")}
-        aria-pressed={value === "all"}
-        className={cn(
-          "flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 text-xs font-semibold rounded-lg transition-all cursor-pointer select-none whitespace-nowrap",
-          value === "all"
-            ? "bg-background text-foreground shadow-2xs border border-border/60 font-bold"
-            : "text-muted-foreground hover:text-foreground hover:bg-muted"
-        )}
+    <div className={cn("shrink-0", className)}>
+      <Select
+        value={value}
+        onValueChange={(val: string | null) => {
+          if (val) onChange(val as ReviewFilter);
+        }}
       >
-        <span>All</span>
-        <span
-          className={cn(
-            "px-1.5 py-0.5 rounded-md text-[10.5px] sm:text-[11px] font-bold tabular-nums",
-            value === "all"
-              ? "bg-muted text-foreground"
-              : "bg-muted/80 text-muted-foreground"
-          )}
+        <SelectTrigger
+          className="h-9 w-full sm:w-56 rounded-xl border border-border bg-card hover:bg-card/90 px-3 text-xs font-semibold transition-colors shadow-2xs cursor-pointer select-none gap-2"
+          aria-label="Filter Question Review"
         >
-          {counts.all}
-        </span>
-      </button>
+          <div className="flex items-center gap-2 flex-1 min-w-0">
+            {value === "all" && (
+              <>
+                <Layers className="h-3.5 w-3.5 text-muted-foreground shrink-0" />
+                <span className="truncate">All Questions</span>
+                <span className="ml-auto px-1.5 py-0.5 rounded-md text-[10.5px] font-bold bg-muted text-foreground tabular-nums">
+                  {counts.all}
+                </span>
+              </>
+            )}
+            {value === "correct" && (
+              <>
+                <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500 shrink-0" />
+                <span className="truncate text-emerald-600 dark:text-emerald-400">Correct Answers</span>
+                <span className="ml-auto px-1.5 py-0.5 rounded-md text-[10.5px] font-bold bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 tabular-nums">
+                  {counts.correct}
+                </span>
+              </>
+            )}
+            {value === "incorrect" && (
+              <>
+                <XCircle className="h-3.5 w-3.5 text-rose-500 shrink-0" />
+                <span className="truncate text-rose-600 dark:text-rose-400">Incorrect Only</span>
+                <span className="ml-auto px-1.5 py-0.5 rounded-md text-[10.5px] font-bold bg-rose-500/15 text-rose-600 dark:text-rose-400 tabular-nums">
+                  {counts.incorrect}
+                </span>
+              </>
+            )}
+            {value === "unattempted" && (
+              <>
+                <HelpCircle className="h-3.5 w-3.5 text-amber-500 shrink-0" />
+                <span className="truncate text-amber-600 dark:text-amber-400">Unattempted</span>
+                <span className="ml-auto px-1.5 py-0.5 rounded-md text-[10.5px] font-bold bg-amber-500/15 text-amber-600 dark:text-amber-400 tabular-nums">
+                  {counts.unattempted}
+                </span>
+              </>
+            )}
+          </div>
+        </SelectTrigger>
 
-      {/* 2. Correct */}
-      <button
-        type="button"
-        onClick={() => onChange("correct")}
-        aria-pressed={value === "correct"}
-        className={cn(
-          "flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 text-xs font-semibold rounded-lg transition-all cursor-pointer select-none whitespace-nowrap",
-          value === "correct"
-            ? "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30 shadow-2xs font-bold"
-            : "text-muted-foreground hover:text-emerald-600 dark:hover:text-emerald-300 hover:bg-muted"
-        )}
-      >
-        <span>Correct</span>
-        <span className="px-1.5 py-0.5 rounded-md text-[10.5px] sm:text-[11px] bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 font-bold tabular-nums">
-          {counts.correct}
-        </span>
-      </button>
+        <SelectContent
+          align="end"
+          className="bg-popover border border-border shadow-xl rounded-xl min-w-56 p-1.5"
+        >
+          {/* 1. All Questions */}
+          <SelectItem
+            value="all"
+            className="cursor-pointer text-xs font-medium py-2 rounded-lg"
+          >
+            <div className="flex items-center justify-between w-full gap-3">
+              <div className="flex items-center gap-2">
+                <Layers className="h-3.5 w-3.5 text-muted-foreground shrink-0" />
+                <span className="font-medium text-foreground">All Questions</span>
+              </div>
+              <span className="px-1.5 py-0.5 rounded-md text-[10.5px] font-bold bg-muted text-foreground tabular-nums">
+                {counts.all}
+              </span>
+            </div>
+          </SelectItem>
 
-      {/* 3. Incorrect */}
-      <button
-        type="button"
-        onClick={() => onChange("incorrect")}
-        aria-pressed={value === "incorrect"}
-        className={cn(
-          "flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 text-xs font-semibold rounded-lg transition-all cursor-pointer select-none whitespace-nowrap",
-          value === "incorrect"
-            ? "bg-rose-500/15 text-rose-600 dark:text-rose-400 border border-rose-500/30 shadow-2xs font-bold"
-            : "text-muted-foreground hover:text-rose-600 dark:hover:text-rose-300 hover:bg-muted"
-        )}
-      >
-        <span>Incorrect</span>
-        <span className="px-1.5 py-0.5 rounded-md text-[10.5px] sm:text-[11px] bg-rose-500/20 text-rose-700 dark:text-rose-300 font-bold tabular-nums">
-          {counts.incorrect}
-        </span>
-      </button>
+          {/* 2. Correct */}
+          <SelectItem
+            value="correct"
+            className="cursor-pointer text-xs font-medium py-2 rounded-lg"
+          >
+            <div className="flex items-center justify-between w-full gap-3">
+              <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400">
+                <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500 shrink-0" />
+                <span className="font-semibold">Correct Answers</span>
+              </div>
+              <span className="px-1.5 py-0.5 rounded-md text-[10.5px] font-bold bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 tabular-nums">
+                {counts.correct}
+              </span>
+            </div>
+          </SelectItem>
 
-      {/* 4. Unattempted */}
-      <button
-        type="button"
-        onClick={() => onChange("unattempted")}
-        aria-pressed={value === "unattempted"}
-        className={cn(
-          "flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 text-xs font-semibold rounded-lg transition-all cursor-pointer select-none whitespace-nowrap",
-          value === "unattempted"
-            ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-500/30 shadow-2xs font-bold"
-            : "text-muted-foreground hover:text-amber-600 dark:hover:text-amber-300 hover:bg-muted"
-        )}
-      >
-        <span>Unattempted</span>
-        <span className="px-1.5 py-0.5 rounded-md text-[10.5px] sm:text-[11px] bg-amber-500/20 text-amber-700 dark:text-amber-300 font-bold tabular-nums">
-          {counts.unattempted}
-        </span>
-      </button>
+          {/* 3. Incorrect */}
+          <SelectItem
+            value="incorrect"
+            className="cursor-pointer text-xs font-medium py-2 rounded-lg"
+          >
+            <div className="flex items-center justify-between w-full gap-3">
+              <div className="flex items-center gap-2 text-rose-600 dark:text-rose-400">
+                <XCircle className="h-3.5 w-3.5 text-rose-500 shrink-0" />
+                <span className="font-semibold">Incorrect (Review)</span>
+              </div>
+              <span className="px-1.5 py-0.5 rounded-md text-[10.5px] font-bold bg-rose-500/20 text-rose-700 dark:text-rose-300 tabular-nums">
+                {counts.incorrect}
+              </span>
+            </div>
+          </SelectItem>
+
+          {/* 4. Unattempted */}
+          <SelectItem
+            value="unattempted"
+            className="cursor-pointer text-xs font-medium py-2 rounded-lg"
+          >
+            <div className="flex items-center justify-between w-full gap-3">
+              <div className="flex items-center gap-2 text-amber-600 dark:text-amber-400">
+                <HelpCircle className="h-3.5 w-3.5 text-amber-500 shrink-0" />
+                <span className="font-semibold">Unattempted</span>
+              </div>
+              <span className="px-1.5 py-0.5 rounded-md text-[10.5px] font-bold bg-amber-500/20 text-amber-700 dark:text-amber-300 tabular-nums">
+                {counts.unattempted}
+              </span>
+            </div>
+          </SelectItem>
+        </SelectContent>
+      </Select>
     </div>
   );
 }

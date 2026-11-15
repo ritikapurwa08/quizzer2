@@ -68,29 +68,3 @@ export async function importGkPoolFromServer(
 
   return { total: totalImported, importedAt };
 }
-
-/** Duplicate management */
-export async function markLocalDuplicate(duplicateId: string, preferredId: string, markedBy: string): Promise<void> {
-  const db = getLocalDB();
-  const id = `${duplicateId}___${preferredId}`;
-  await db.localDuplicates.put({ id, duplicateId, preferredId, markedAt: Date.now(), markedBy });
-}
-
-export async function unmarkLocalDuplicate(duplicateId: string, preferredId: string): Promise<void> {
-  const db = getLocalDB();
-  const id = `${duplicateId}___${preferredId}`;
-  await db.localDuplicates.delete(id);
-}
-
-export async function getLocalDuplicatesForQuestion(questionSourceId: string): Promise<string[]> {
-  try {
-    if (typeof window === "undefined") return [];
-    const db = getLocalDB();
-    const results = await db.localDuplicates
-      .where("duplicateId").equals(questionSourceId)
-      .toArray();
-    return results.map((r) => r.preferredId);
-  } catch {
-    return [];
-  }
-}
