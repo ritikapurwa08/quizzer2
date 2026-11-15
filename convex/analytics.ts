@@ -37,6 +37,8 @@ export const dashboardStats = query({
       user = await requireUser(ctx);
     } catch {
       return {
+        currentStreak: 0,
+        bestStreak: 0,
         testsAttempted: 0,
         questionsSolved: 0,
         overallAccuracy: 0,
@@ -157,8 +159,8 @@ export const dashboardStats = query({
       return new Date(localMs).toISOString().slice(0, 10);
     }
 
-    // Maps: day → { count: total questions answered, tests: test count }
-    const dailyMap = new Map<string, { count: number; tests: number }>();
+    // Maps: day → { count: total questions answered, tests: test count, correct, incorrect, unanswered }
+    const dailyMap = new Map<string, { count: number; tests: number; correct: number; incorrect: number; unanswered: number }>();
     // Maps: day → subjectId → count
     const dailyBySubject = new Map<string, Map<string, number>>();
 
@@ -189,11 +191,18 @@ export const dashboardStats = query({
       };
 
       let attemptAnsweredCount = 0;
+      let attemptCorrectCount = 0;
+      let attemptIncorrectCount = 0;
       for (const answer of attempt.answers) {
         if (isAnswerAttempted(answer)) {
           attemptAnsweredCount += 1;
           ss.total += 1;
-          if (answer.isCorrect) ss.correct += 1;
+          if (answer.isCorrect) {
+            ss.correct += 1;
+            attemptCorrectCount += 1;
+          } else {
+            attemptIncorrectCount += 1;
+          }
         }
       }
       subjectStats.set(topic.subjectId, ss);
@@ -202,10 +211,15 @@ export const dashboardStats = query({
       const attemptTimestamp = attempt.submittedAt ?? attempt.completedAt;
       if (!attemptTimestamp) continue;
       const day = toLocalDayString(attemptTimestamp);
-      const existing = dailyMap.get(day) ?? { count: 0, tests: 0 };
+      const attemptUnansweredCount = Math.max(0, attempt.totalQuestions - attemptAnsweredCount);
+
+      const existing = dailyMap.get(day) ?? { count: 0, tests: 0, correct: 0, incorrect: 0, unanswered: 0 };
       dailyMap.set(day, {
         count: existing.count + attemptAnsweredCount,
         tests: existing.tests + 1,
+        correct: existing.correct + attemptCorrectCount,
+        incorrect: existing.incorrect + attemptIncorrectCount,
+        unanswered: existing.unanswered + attemptUnansweredCount,
       });
 
       // Per-subject daily breakdown for chart filtering
@@ -221,6 +235,9 @@ export const dashboardStats = query({
       day: string;
       count: number;
       tests: number;
+      correct: number;
+      incorrect: number;
+      unanswered: number;
       bySubject: Record<string, number>;
     }[] = [];
 
@@ -253,7 +270,7 @@ export const dashboardStats = query({
       const d = new Date(today);
       d.setUTCDate(today.getUTCDate() - i);
       const day = d.toISOString().slice(0, 10);
-      const entry = dailyMap.get(day) ?? { count: 0, tests: 0 };
+      const entry = dailyMap.get(day) ?? { count: 0, tests: 0, correct: 0, incorrect: 0, unanswered: 0 };
       const bySubjectRaw = dailyBySubject.get(day) ?? new Map<string, number>();
 
       if (entry.count > 0 || entry.tests > 0) {
@@ -266,6 +283,9 @@ export const dashboardStats = query({
         day,
         count: entry.count,
         tests: entry.tests,
+        correct: entry.correct ?? 0,
+        incorrect: entry.incorrect ?? 0,
+        unanswered: entry.unanswered ?? 0,
         bySubject: Object.fromEntries(bySubjectRaw),
       });
     }
@@ -473,7 +493,69 @@ export const dashboardStats = query({
     const activeUnanswered = args.rangeDays !== undefined ? periodUnanswered : totalUnanswered;
     const activeTotalQuestions = args.rangeDays !== undefined ? periodQuestionSlots : totalQuestionSlots;
 
+    // ── Real Streak & Best Streak Calculation ───────────────────────────────
+    const activeDatesList: string[] = [];
+    for (const [dayStr, dayData] of dailyMap.entries()) {
+      if (dayData.tests > 0 || dayData.count > 0) {
+        activeDatesList.push(dayStr);
+      }
+    }
+    activeDatesList.sort(); // ascending "YYYY-MM-DD"
+
+    const activeDatesSet = new Set(activeDatesList);
+
+    // Calculate current active streak
+    const todayLocalStr = toLocalDayString(Date.now());
+    const yesterdayDate = new Date(nowLocalMs);
+    yesterdayDate.setUTCDate(yesterdayDate.getUTCDate() - 1);
+    const yesterdayLocalStr = yesterdayDate.toISOString().slice(0, 10);
+
+    let currentStreak = 0;
+    let checkDate = new Date(nowLocalMs);
+
+    if (!activeDatesSet.has(todayLocalStr)) {
+      if (activeDatesSet.has(yesterdayLocalStr)) {
+        // Today not attempted yet, but yesterday was — streak is preserved!
+        checkDate = yesterdayDate;
+      }
+    }
+
+    if (activeDatesSet.has(todayLocalStr) || activeDatesSet.has(yesterdayLocalStr)) {
+      while (true) {
+        const checkStr = checkDate.toISOString().slice(0, 10);
+        if (activeDatesSet.has(checkStr)) {
+          currentStreak += 1;
+          checkDate.setUTCDate(checkDate.getUTCDate() - 1);
+        } else {
+          break;
+        }
+      }
+    }
+
+    // Calculate best (longest) streak across user lifetime
+    let bestStreak = 0;
+    if (activeDatesList.length > 0) {
+      let streakCounter = 1;
+      bestStreak = 1;
+
+      for (let i = 1; i < activeDatesList.length; i++) {
+        const prev = new Date(activeDatesList[i - 1] + "T00:00:00Z");
+        const curr = new Date(activeDatesList[i] + "T00:00:00Z");
+        const diffDays = Math.round((curr.getTime() - prev.getTime()) / 86400000);
+
+        if (diffDays === 1) {
+          streakCounter += 1;
+          if (streakCounter > bestStreak) bestStreak = streakCounter;
+        } else if (diffDays > 1) {
+          streakCounter = 1;
+        }
+      }
+      bestStreak = Math.max(bestStreak, currentStreak);
+    }
+
     return {
+      currentStreak,
+      bestStreak,
       testsAttempted: activeTestsCount,
       questionsSolved: activeQuestionsCount,
       overallAccuracy: Math.round(activeAccuracy * 10) / 10,

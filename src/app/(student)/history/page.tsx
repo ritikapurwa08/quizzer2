@@ -168,6 +168,8 @@ export default function HistoryPage() {
                   score={attempt.score}
                   totalQuestions={attempt.totalQuestions}
                   answers={attempt.answers ?? []}
+                  correctCount={attempt.correctCount}
+                  accuracy={attempt.accuracy}
                 />
               </li>
             ))}

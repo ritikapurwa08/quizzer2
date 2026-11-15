@@ -18,6 +18,9 @@ export interface DailyPoint {
   day: string; // "YYYY-MM-DD"
   count: number;
   tests: number;
+  correct?: number;
+  incorrect?: number;
+  unanswered?: number;
 }
 
 export interface HourlyPoint {
@@ -71,13 +74,17 @@ function formatDisplayDate(isoDate: string): string {
 }
 
 const dailyChartConfig = {
-  count: {
-    label: "Questions Solved",
-    color: "var(--color-chart-1)",
+  correct: {
+    label: "Right (सही)",
+    color: "#10b981",
   },
-  tests: {
-    label: "Tests Completed",
-    color: "var(--color-chart-2)",
+  incorrect: {
+    label: "Wrong (गलत)",
+    color: "#f43f5e",
+  },
+  unanswered: {
+    label: "Skipped (छोड़े)",
+    color: "#f59e0b",
   },
 } satisfies ChartConfig;
 
@@ -128,6 +135,9 @@ export function CombinedStudyActivityPanel({
       if (d.count > 0 || d.tests > 0) act += 1;
       formatted.push({
         ...d,
+        correct: d.correct ?? 0,
+        incorrect: d.incorrect ?? 0,
+        unanswered: d.unanswered ?? 0,
         displayDate: formatDisplayDate(d.day),
       });
     }
@@ -234,56 +244,118 @@ export function CombinedStudyActivityPanel({
       {/* ── Card Content ── */}
       <CardContent className="p-4 sm:p-5 pt-1 pb-2 flex-1 flex flex-col justify-center">
         {viewMode === "daily" ? (
-          /* Daily Area Chart */
-          <ChartContainer config={dailyChartConfig} className="min-h-[220px] w-full">
-            <AreaChart data={formattedDaily} margin={{ left: -16, right: 8, top: 12, bottom: 4 }}>
-              <defs>
-                <linearGradient id={gradientId} x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="var(--color-chart-1)" stopOpacity={0.4} />
-                  <stop offset="95%" stopColor="var(--color-chart-1)" stopOpacity={0.0} />
-                </linearGradient>
-              </defs>
-              <CartesianGrid vertical={false} strokeDasharray="3 3" className="stroke-border/40" />
-              <XAxis
-                dataKey="displayDate"
-                tickLine={false}
-                axisLine={false}
-                tickMargin={8}
-                minTickGap={28}
-                className="text-[11px] font-medium"
-              />
-              <YAxis
-                tickLine={false}
-                axisLine={false}
-                className="text-[11px]"
-                allowDecimals={false}
-              />
-              <ChartTooltip
-                content={
-                  <ChartTooltipContent
-                    formatter={(val, name, item) => (
-                      <div className="text-xs space-y-0.5">
-                        <p className="font-bold text-foreground">{item.payload.day}</p>
-                        <p className="text-muted-foreground">
-                          Questions: <strong className="text-foreground">{item.payload.count}</strong>
-                        </p>
-                        <p className="text-muted-foreground">
-                          Tests: <strong className="text-foreground">{item.payload.tests}</strong>
-                        </p>
-                      </div>
-                    )}
-                  />
-                }
-              />
-              <Area
-                type="monotone"
-                dataKey="count"
-                stroke="var(--color-chart-1)"
-                strokeWidth={2}
-                fill={`url(#${gradientId})`}
-              />
-            </AreaChart>
-          </ChartContainer>
+          /* Daily 3-Line Breakdown Chart (Right, Wrong, Skipped) with Dots */
+          <div className="space-y-2 w-full">
+            {/* Inline Legend for the 3 Categories */}
+            <div className="flex items-center justify-end gap-3.5 text-xs font-medium px-1">
+              <span className="inline-flex items-center gap-1.5 text-emerald-500">
+                <span className="h-2 w-2 rounded-full bg-emerald-500 shrink-0" />
+                Right (सही)
+              </span>
+              <span className="inline-flex items-center gap-1.5 text-rose-500">
+                <span className="h-2 w-2 rounded-full bg-rose-500 shrink-0" />
+                Wrong (गलत)
+              </span>
+              <span className="inline-flex items-center gap-1.5 text-amber-500">
+                <span className="h-2 w-2 rounded-full bg-amber-500 shrink-0" />
+                Skipped (छोड़े)
+              </span>
+            </div>
+
+            <ChartContainer config={dailyChartConfig} className="min-h-[220px] w-full">
+              <AreaChart data={formattedDaily} margin={{ left: -16, right: 8, top: 12, bottom: 4 }}>
+                <defs>
+                  <linearGradient id={`${gradientId}-correct`} x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#10b981" stopOpacity={0.25} />
+                    <stop offset="95%" stopColor="#10b981" stopOpacity={0.0} />
+                  </linearGradient>
+                  <linearGradient id={`${gradientId}-incorrect`} x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#f43f5e" stopOpacity={0.2} />
+                    <stop offset="95%" stopColor="#f43f5e" stopOpacity={0.0} />
+                  </linearGradient>
+                  <linearGradient id={`${gradientId}-unanswered`} x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#f59e0b" stopOpacity={0.15} />
+                    <stop offset="95%" stopColor="#f59e0b" stopOpacity={0.0} />
+                  </linearGradient>
+                </defs>
+                <CartesianGrid vertical={false} strokeDasharray="3 3" className="stroke-border/40" />
+                <XAxis
+                  dataKey="displayDate"
+                  tickLine={false}
+                  axisLine={false}
+                  tickMargin={8}
+                  minTickGap={28}
+                  className="text-[11px] font-medium"
+                />
+                <YAxis
+                  tickLine={false}
+                  axisLine={false}
+                  className="text-[11px]"
+                  allowDecimals={false}
+                />
+                <ChartTooltip
+                  content={
+                    <ChartTooltipContent
+                      formatter={(val, name, item) => (
+                        <div className="text-xs space-y-1.5 py-0.5">
+                          <p className="font-bold text-foreground">{item.payload.day}</p>
+                          <div className="space-y-0.5 text-[11px]">
+                            <div className="flex items-center justify-between gap-4">
+                              <span className="text-emerald-500 font-medium">Right (सही):</span>
+                              <strong className="text-foreground">{item.payload.correct ?? 0} Qs</strong>
+                            </div>
+                            <div className="flex items-center justify-between gap-4">
+                              <span className="text-rose-500 font-medium">Wrong (गलत):</span>
+                              <strong className="text-foreground">{item.payload.incorrect ?? 0} Qs</strong>
+                            </div>
+                            <div className="flex items-center justify-between gap-4">
+                              <span className="text-amber-500 font-medium">Skipped (छोड़े):</span>
+                              <strong className="text-foreground">{item.payload.unanswered ?? 0} Qs</strong>
+                            </div>
+                          </div>
+                          <div className="pt-1 mt-1 border-t border-border/50 text-[11px] flex items-center justify-between text-muted-foreground">
+                            <span>Total Attempted:</span>
+                            <strong className="text-foreground">{item.payload.count} Qs ({item.payload.tests} tests)</strong>
+                          </div>
+                        </div>
+                      )}
+                    />
+                  }
+                />
+                <Area
+                  type="monotone"
+                  dataKey="correct"
+                  name="Right"
+                  stroke="#10b981"
+                  strokeWidth={2}
+                  fill={`url(#${gradientId}-correct)`}
+                  dot={{ r: 3, fill: "#10b981", strokeWidth: 0 }}
+                  activeDot={{ r: 5, fill: "#10b981" }}
+                />
+                <Area
+                  type="monotone"
+                  dataKey="incorrect"
+                  name="Wrong"
+                  stroke="#f43f5e"
+                  strokeWidth={2}
+                  fill={`url(#${gradientId}-incorrect)`}
+                  dot={{ r: 3, fill: "#f43f5e", strokeWidth: 0 }}
+                  activeDot={{ r: 5, fill: "#f43f5e" }}
+                />
+                <Area
+                  type="monotone"
+                  dataKey="unanswered"
+                  name="Skipped"
+                  stroke="#f59e0b"
+                  strokeWidth={1.5}
+                  strokeDasharray="3 3"
+                  fill={`url(#${gradientId}-unanswered)`}
+                  dot={{ r: 2.5, fill: "#f59e0b", strokeWidth: 0 }}
+                  activeDot={{ r: 4, fill: "#f59e0b" }}
+                />
+              </AreaChart>
+            </ChartContainer>
+          </div>
         ) : viewMode === "hourly" ? (
           /* Hourly Bar Chart */
           <ChartContainer config={hourlyChartConfig} className="min-h-[220px] w-full">

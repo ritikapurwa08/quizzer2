@@ -57,7 +57,9 @@ export default function DashboardPage() {
         <div className="flex items-center gap-2.5 self-start sm:self-auto shrink-0">
           <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-amber-500/10 text-amber-600 dark:text-amber-400 border-0 shadow-2xs typo-small font-bold">
             <Flame className="h-4 w-4 fill-amber-500 text-amber-500 animate-pulse" />
-            <span>3-Day Streak</span>
+            <span>
+              {stats ? `${stats.currentStreak ?? 0}-Day Streak` : <Skeleton className="h-4 w-16 inline-block" />}
+            </span>
           </div>
 
           <Button
@@ -128,9 +130,18 @@ export default function DashboardPage() {
           </div>
           <div>
             <span className="typo-display text-foreground block">
-              3 <span className="typo-h3 font-medium text-muted-foreground">Days</span>
+              {stats ? (
+                stats.currentStreak ?? 0
+              ) : (
+                <Skeleton className="h-8 w-12" />
+              )}{" "}
+              <span className="typo-h3 font-medium text-muted-foreground">Days</span>
             </span>
-            <span className="text-[11px] text-muted-foreground">Daily practice consistency</span>
+            <span className="text-[11px] text-muted-foreground">
+              {stats && (stats.bestStreak ?? 0) > 0
+                ? `Best: ${stats.bestStreak} days consistency`
+                : "Daily practice consistency"}
+            </span>
           </div>
         </Card>
       </div>
@@ -244,6 +255,8 @@ export default function DashboardPage() {
                     score={a.score}
                     totalQuestions={a.totalQuestions}
                     answers={a.answers ?? []}
+                    correctCount={a.correctCount}
+                    accuracy={a.accuracy}
                   />
                 </li>
               ))}

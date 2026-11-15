@@ -688,10 +688,18 @@ export const historyByUser = query({
           }
         }
 
+        // Accurately compute correctCount and accuracy from answers before omitting raw question bodies
+        const rawAnswers: any[] = Array.isArray(a.answers) ? a.answers : [];
+        const correctCount = rawAnswers.filter((ans) => Boolean(ans?.isCorrect)).length;
+        const totalQ = a.totalQuestions > 0 ? a.totalQuestions : (rawAnswers.length > 0 ? rawAnswers.length : 20);
+        const accuracy = totalQ > 0 ? Math.round((correctCount / totalQ) * 100) : 0;
+
         // Omit heavy raw question answers from history list view to save database I/O & egress
         const { answers, ...attemptWithoutAnswers } = a;
         return {
           ...attemptWithoutAnswers,
+          correctCount,
+          accuracy,
           testSetName: testSet?.name ?? "अभ्यास सेट",
           topicId,
           subjectId,
