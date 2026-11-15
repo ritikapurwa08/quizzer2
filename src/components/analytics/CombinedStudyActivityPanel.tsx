@@ -3,12 +3,12 @@
 import { useMemo, useState } from "react";
 import {
   CartesianGrid,
+  ComposedChart,
   Line,
-  LineChart,
-  XAxis,
-  YAxis,
   Bar,
   BarChart,
+  XAxis,
+  YAxis,
 } from "recharts";
 import {
   Card,
@@ -108,16 +108,9 @@ const momentumChartConfig = {
     label: "Net Score (%)",
     color: "#3b82f6",
   },
-} satisfies ChartConfig;
-
-const hourlyChartConfig = {
-  correct: {
-    label: "Correct",
-    color: "var(--color-chart-2)",
-  },
-  incorrect: {
-    label: "Incorrect",
-    color: "var(--color-destructive)",
+  tests: {
+    label: "Daily Tests",
+    color: "var(--color-primary)",
   },
 } satisfies ChartConfig;
 
@@ -136,47 +129,6 @@ const recentChartConfig = {
   },
 } satisfies ChartConfig;
 
-function renderScaledDot(strokeColor: string) {
-  return function ScaledDot(props: any) {
-    const { cx, cy, payload } = props;
-    if (cx === undefined || cy === undefined || isNaN(cx) || isNaN(cy)) return null;
-    const tests = payload?.tests ?? 1;
-    const r = tests >= 4 ? 6.5 : tests >= 3 ? 5.5 : tests === 2 ? 4.5 : 3.5;
-    return (
-      <circle
-        key={`dot-${strokeColor}-${cx}-${cy}`}
-        cx={cx}
-        cy={cy}
-        r={r}
-        fill="hsl(var(--card))"
-        stroke={strokeColor}
-        strokeWidth={2.5}
-        className="transition-all duration-200"
-      />
-    );
-  };
-}
-
-function renderScaledActiveDot(strokeColor: string) {
-  return function ScaledActiveDot(props: any) {
-    const { cx, cy, payload } = props;
-    if (cx === undefined || cy === undefined || isNaN(cx) || isNaN(cy)) return null;
-    const tests = payload?.tests ?? 1;
-    const r = (tests >= 4 ? 6.5 : tests >= 3 ? 5.5 : tests === 2 ? 4.5 : 3.5) + 2.5;
-    return (
-      <circle
-        key={`act-dot-${strokeColor}-${cx}-${cy}`}
-        cx={cx}
-        cy={cy}
-        r={r}
-        fill="hsl(var(--card))"
-        stroke={strokeColor}
-        strokeWidth={3}
-      />
-    );
-  };
-}
-
 function DailyMomentumTooltip({ active, payload, thirdMetric }: any) {
   if (!active || !payload?.length) return null;
   const data = payload[0]?.payload;
@@ -186,8 +138,8 @@ function DailyMomentumTooltip({ active, payload, thirdMetric }: any) {
     <div className="rounded-xl border border-border/80 bg-popover/95 backdrop-blur-md p-3 text-xs shadow-xl min-w-[210px] space-y-2 select-none">
       <div className="flex items-center justify-between border-b border-border/60 pb-1.5">
         <span className="font-bold text-foreground text-xs">{data.displayDate}</span>
-        <span className="text-[11px] font-bold text-primary bg-primary/10 px-2 py-0.5 rounded-full">
-          {data.tests} {data.tests === 1 ? "test" : "tests"}
+        <span className="text-[11px] font-bold text-primary bg-primary/10 px-2.5 py-0.5 rounded-full">
+          {data.tests} {data.tests === 1 ? "test taken" : "tests taken"}
         </span>
       </div>
       <div className="space-y-1.5 text-[11px]">
@@ -231,17 +183,17 @@ function DailyMomentumTooltip({ active, payload, thirdMetric }: any) {
 
 export function CombinedStudyActivityPanel({
   dailyData,
-  hourlyData = [],
   recentAttempts = [],
   rangeDays,
 }: CombinedStudyActivityPanelProps) {
-  const [viewMode, setViewMode] = useState<"daily" | "hourly" | "recent">("daily");
+  const [viewMode, setViewMode] = useState<"daily" | "recent">("daily");
   const [thirdMetric, setThirdMetric] = useState<"skipped" | "netScore">("skipped");
 
-  const { chartPoints, totalQuestions, totalTests, activeDays, momentumStats } = useMemo(() => {
+  const { chartPoints, totalQuestions, totalTests, activeDays, maxDailyTests, momentumStats } = useMemo(() => {
     let qSum = 0;
     let tSum = 0;
     let act = 0;
+    let maxTests = 1;
     const active: Array<{
       day: string;
       displayDate: string;
@@ -261,36 +213,42 @@ export function CombinedStudyActivityPanel({
       const correct = d.correct ?? 0;
       const incorrect = d.incorrect ?? 0;
       const unanswered = d.unanswered ?? 0;
+      const answered = correct + incorrect;
+
+      // Filter out abandoned / 0-answered test sessions so accuracy does not falsely crash to 0%!
+      if (answered === 0) {
+        continue;
+      }
+
       let totalQ = correct + incorrect + unanswered;
       if (totalQ === 0 && d.count > 0) totalQ = d.count;
       if (totalQ === 0 && tests > 0) totalQ = tests * 20;
 
       qSum += (d.count > 0 ? d.count : totalQ);
       tSum += tests;
+      act += 1;
+      if (tests > maxTests) maxTests = tests;
 
-      if (tests > 0 || totalQ > 0) {
-        act += 1;
-        const correctPct = totalQ > 0 ? Number(((correct / totalQ) * 100).toFixed(1)) : 0;
-        const incorrectPct = totalQ > 0 ? Number(((incorrect / totalQ) * 100).toFixed(1)) : 0;
-        const skippedPct = totalQ > 0 ? Number(((unanswered / totalQ) * 100).toFixed(1)) : 0;
-        // Standard RPSC 1/3 negative marking: (correct - (incorrect / 3)) / totalQ * 100
-        const rawNet = ((correct - (incorrect / 3)) / totalQ) * 100;
-        const netScorePct = totalQ > 0 ? Number(Math.max(0, rawNet).toFixed(1)) : 0;
+      const correctPct = totalQ > 0 ? Number(((correct / totalQ) * 100).toFixed(1)) : 0;
+      const incorrectPct = totalQ > 0 ? Number(((incorrect / totalQ) * 100).toFixed(1)) : 0;
+      const skippedPct = totalQ > 0 ? Number(((unanswered / totalQ) * 100).toFixed(1)) : 0;
+      // Standard RPSC 1/3 negative marking: (correct - (incorrect / 3)) / totalQ * 100
+      const rawNet = ((correct - (incorrect / 3)) / totalQ) * 100;
+      const netScorePct = totalQ > 0 ? Number(Math.max(0, rawNet).toFixed(1)) : 0;
 
-        active.push({
-          day: d.day,
-          displayDate: formatDisplayDate(d.day),
-          tests,
-          totalQuestions: totalQ,
-          correct,
-          incorrect,
-          unanswered,
-          correctPct,
-          incorrectPct,
-          skippedPct,
-          netScorePct,
-        });
-      }
+      active.push({
+        day: d.day,
+        displayDate: formatDisplayDate(d.day),
+        tests,
+        totalQuestions: totalQ,
+        correct,
+        incorrect,
+        unanswered,
+        correctPct,
+        incorrectPct,
+        skippedPct,
+        netScorePct,
+      });
     }
 
     // Cap to latest 30 active days so payload and client rendering remain ultra lightweight
@@ -301,28 +259,30 @@ export function CombinedStudyActivityPanel({
       const latest = points[points.length - 1];
       const totalTestsInWindow = points.reduce((acc, p) => acc + p.tests, 0);
       const totalDays = points.length;
+      const avgTests = (totalTestsInWindow / totalDays).toFixed(1);
 
-      let trendText = "+100%";
-      if (totalDays >= 2) {
+      // Check for positive growth vs earlier half of the period
+      let isPositiveGrowth = false;
+      let growthPct = 0;
+
+      if (totalDays >= 4) {
         const mid = Math.floor(totalDays / 2);
         const firstHalf = points.slice(0, mid).reduce((a, b) => a + b.tests, 0);
         const secondHalf = points.slice(mid).reduce((a, b) => a + b.tests, 0);
-        if (firstHalf > 0) {
-          const diff = Math.round(((secondHalf - firstHalf) / firstHalf) * 100);
-          trendText = diff >= 0 ? `+${diff}%` : `${diff}%`;
-        } else {
-          trendText = `+${secondHalf * 100}%`;
+        if (firstHalf > 0 && secondHalf > firstHalf) {
+          isPositiveGrowth = true;
+          growthPct = Math.round(((secondHalf - firstHalf) / firstHalf) * 100);
         }
-      } else {
-        trendText = `+${latest.tests * 50}%`;
       }
 
       mStats = {
+        isPositiveGrowth,
+        growthPct,
         latestTests: latest.tests,
         latestDate: latest.displayDate,
         totalTests: totalTestsInWindow,
         daysCount: totalDays,
-        trendText,
+        avgTests,
         startStr: points[0].displayDate,
         endStr: latest.displayDate,
       };
@@ -333,6 +293,7 @@ export function CombinedStudyActivityPanel({
       totalQuestions: qSum,
       totalTests: tSum,
       activeDays: act,
+      maxDailyTests: maxTests,
       momentumStats: mStats,
     };
   }, [dailyData]);
@@ -364,90 +325,63 @@ export function CombinedStudyActivityPanel({
             <CardTitle className="text-base sm:text-lg font-bold text-foreground flex items-center gap-2">
               <Flame className="h-4 w-4 text-primary shrink-0" />
               <span>
-                {viewMode === "daily" ? "Daily Quiz Performance" : "Study & Consistency"}
+                {viewMode === "daily" ? "Daily Quiz Performance" : "Recent Test Breakdown"}
               </span>
             </CardTitle>
             <CardDescription className="text-xs text-muted-foreground mt-0.5">
               {viewMode === "daily" &&
                 (momentumStats
                   ? momentumStats.startStr === momentumStats.endStr
-                    ? `Accuracy progression & test volume (${momentumStats.startStr})`
-                    : `Accuracy progression & test volume (${momentumStats.startStr} – ${momentumStats.endStr})`
+                    ? `Accuracy progression & daily practice volume (${momentumStats.startStr})`
+                    : `Accuracy progression & daily practice volume (${momentumStats.startStr} – ${momentumStats.endStr})`
                   : rangeDays >= 365
                   ? `${activeDays} active study days (Overall)`
                   : `${activeDays} active study days across last ${rangeDays} days`)}
-              {viewMode === "hourly" && "24-Hour peak study pattern & test submission frequency"}
               {viewMode === "recent" && "Question breakdown across recent test attempts"}
             </CardDescription>
           </div>
 
-          {/* Unified 3-Mode Segmented Control */}
-          <div className="inline-flex items-center p-0.5 rounded-lg bg-secondary border border-border/80 self-start sm:self-auto gap-0.5">
-            <button
-              type="button"
-              onClick={() => setViewMode("daily")}
-              className={cn(
-                "h-7 px-2.5 text-xs font-semibold rounded-md transition-all cursor-pointer whitespace-nowrap border select-none",
-                viewMode === "daily"
-                  ? "bg-card text-foreground font-bold shadow-2xs border-border"
-                  : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
-              )}
-            >
-              Daily
-            </button>
-            <button
-              type="button"
-              onClick={() => setViewMode("hourly")}
-              className={cn(
-                "h-7 px-2.5 text-xs font-semibold rounded-md transition-all cursor-pointer whitespace-nowrap border select-none",
-                viewMode === "hourly"
-                  ? "bg-card text-foreground font-bold shadow-2xs border-border"
-                  : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
-              )}
-            >
-              Hourly
-            </button>
-            <button
-              type="button"
-              onClick={() => setViewMode("recent")}
-              className={cn(
-                "h-7 px-2.5 text-xs font-semibold rounded-md transition-all cursor-pointer whitespace-nowrap border select-none",
-                viewMode === "recent"
-                  ? "bg-card text-foreground font-bold shadow-2xs border-border"
-                  : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
-              )}
-            >
-              Recent Tests
-            </button>
-          </div>
-        </div>
-
-        {/* ── Daily Momentum Badge (Shown when in Daily view with active data) ── */}
-        {viewMode === "daily" && momentumStats && (
-          <div className="pt-2">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 text-xs font-semibold">
-              <TrendingUp className="h-3.5 w-3.5" />
-              <span>
-                {momentumStats.latestTests} {momentumStats.latestTests === 1 ? "test" : "tests"} on {momentumStats.latestDate} · {momentumStats.totalTests} tests in {momentumStats.daysCount} days ({momentumStats.trendText})
-              </span>
+          {/* Decluttered Header Controls: [ Daily | Recent Tests ] and [ Skipped | Net Score ] */}
+          <div className="flex flex-wrap items-center gap-2 self-start sm:self-auto">
+            {/* View Mode Switcher: Daily | Recent Tests */}
+            <div className="inline-flex items-center p-0.5 rounded-lg bg-secondary border border-border/80 gap-0.5">
+              <button
+                type="button"
+                onClick={() => setViewMode("daily")}
+                className={cn(
+                  "h-7 px-2.5 text-xs font-semibold rounded-md transition-all cursor-pointer whitespace-nowrap border select-none",
+                  viewMode === "daily"
+                    ? "bg-card text-foreground font-bold shadow-2xs border-border"
+                    : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
+                )}
+              >
+                Daily
+              </button>
+              <button
+                type="button"
+                onClick={() => setViewMode("recent")}
+                className={cn(
+                  "h-7 px-2.5 text-xs font-semibold rounded-md transition-all cursor-pointer whitespace-nowrap border select-none",
+                  viewMode === "recent"
+                    ? "bg-card text-foreground font-bold shadow-2xs border-border"
+                    : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
+                )}
+              >
+                Recent Tests
+              </button>
             </div>
-          </div>
-        )}
 
-        {/* ── Sub-bar: 3rd Series Toggle Tabs (Left) & Dot Scale Legend (Right) ── */}
-        {viewMode === "daily" && chartPoints.length > 0 && (
-          <div className="flex flex-wrap items-center justify-between gap-3 pt-3">
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-medium text-muted-foreground">3rd Series:</span>
-              <div className="inline-flex items-center p-0.5 rounded-full bg-secondary border border-border">
+            {/* 3rd Series Toggle: Skipped (%) | Net Score */}
+            {viewMode === "daily" && (
+              <div className="inline-flex items-center p-0.5 rounded-lg bg-secondary border border-border/80 gap-0.5">
                 <button
                   type="button"
                   onClick={() => setThirdMetric("skipped")}
                   className={cn(
-                    "px-3 py-1 text-xs font-semibold rounded-full transition-all cursor-pointer select-none",
+                    "h-7 px-2.5 text-xs font-semibold rounded-md transition-all cursor-pointer whitespace-nowrap border select-none",
                     thirdMetric === "skipped"
-                      ? "bg-card text-foreground font-bold shadow-2xs border border-border"
-                      : "text-muted-foreground hover:text-foreground"
+                      ? "bg-card text-foreground font-bold shadow-2xs border-border"
+                      : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
                   )}
                 >
                   Skipped (%)
@@ -456,32 +390,37 @@ export function CombinedStudyActivityPanel({
                   type="button"
                   onClick={() => setThirdMetric("netScore")}
                   className={cn(
-                    "px-3 py-1 text-xs font-semibold rounded-full transition-all cursor-pointer select-none",
+                    "h-7 px-2.5 text-xs font-semibold rounded-md transition-all cursor-pointer whitespace-nowrap border select-none",
                     thirdMetric === "netScore"
-                      ? "bg-card text-foreground font-bold shadow-2xs border border-border"
-                      : "text-muted-foreground hover:text-foreground"
+                      ? "bg-card text-foreground font-bold shadow-2xs border-border"
+                      : "text-muted-foreground hover:text-foreground border-transparent hover:bg-card/40"
                   )}
                 >
-                  Net Score (1/3 Neg)
+                  Net Score
                 </button>
               </div>
-            </div>
+            )}
+          </div>
+        </div>
 
-            {/* Dot Size Indicator */}
-            <div className="flex items-center gap-3 text-[11px] font-medium text-muted-foreground select-none">
-              <div className="flex items-center gap-1.5">
-                <svg className="w-2.5 h-2.5" viewBox="0 0 10 10">
-                  <circle cx="5" cy="5" r="3.5" fill="none" stroke="currentColor" strokeWidth="2" />
-                </svg>
-                <span>1 test</span>
+        {/* ── Moral Booster Badge (Always positive/encouraging, never negative in green) ── */}
+        {viewMode === "daily" && momentumStats && (
+          <div className="pt-2">
+            {momentumStats.isPositiveGrowth ? (
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 text-xs font-semibold">
+                <TrendingUp className="h-3.5 w-3.5" />
+                <span>
+                  +{momentumStats.growthPct}% Practice Volume · {momentumStats.totalTests} Tests Done
+                </span>
               </div>
-              <div className="flex items-center gap-1.5">
-                <svg className="w-4 h-4" viewBox="0 0 16 16">
-                  <circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" strokeWidth="2" />
-                </svg>
-                <span>4+ tests</span>
+            ) : (
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20 text-xs font-semibold">
+                <Flame className="h-3.5 w-3.5 fill-amber-500 text-amber-500" />
+                <span>
+                  🔥 {momentumStats.totalTests} Tests Completed · Avg {momentumStats.avgTests} tests/day
+                </span>
               </div>
-            </div>
+            )}
           </div>
         )}
       </CardHeader>
@@ -494,15 +433,15 @@ export function CombinedStudyActivityPanel({
               <div className="p-3 rounded-full bg-muted/60 text-muted-foreground">
                 <TrendingUp className="h-6 w-6" />
               </div>
-              <p className="text-sm font-semibold text-foreground">No Quiz Attempts in this Period</p>
+              <p className="text-sm font-semibold text-foreground">No Practice Attempts in this Period</p>
               <p className="text-xs text-muted-foreground max-w-sm">
-                Complete tests to track your daily accuracy trajectory, momentum streaks, and score progression.
+                Complete practice tests to view your daily test volume bars and 3-line accuracy trajectory.
               </p>
             </div>
           ) : (
             <div className="space-y-2 w-full">
               <ChartContainer config={momentumChartConfig} className="min-h-[250px] w-full">
-                <LineChart data={chartPoints} margin={{ left: -16, right: 12, top: 16, bottom: 6 }}>
+                <ComposedChart data={chartPoints} margin={{ left: -16, right: 12, top: 16, bottom: 6 }}>
                   <CartesianGrid vertical={false} strokeDasharray="3 3" className="stroke-border/40" />
                   <XAxis
                     dataKey="displayDate"
@@ -512,6 +451,7 @@ export function CombinedStudyActivityPanel({
                     className="text-[11px] font-medium"
                   />
                   <YAxis
+                    yAxisId="accuracy"
                     domain={[0, 100]}
                     ticks={[0, 25, 50, 75, 100]}
                     tickFormatter={(v) => `${v}%`}
@@ -519,67 +459,96 @@ export function CombinedStudyActivityPanel({
                     axisLine={false}
                     className="text-[11px] font-medium"
                   />
+                  {/* Secondary Y-Axis for subtle background bars (scaled to keep bars in lower half) */}
+                  <YAxis
+                    yAxisId="tests"
+                    orientation="right"
+                    hide={true}
+                    domain={[0, maxDailyTests > 0 ? maxDailyTests * 2.2 : 10]}
+                  />
                   <ChartTooltip
                     cursor={{ stroke: "hsl(var(--border))", strokeWidth: 1, strokeDasharray: "3 3" }}
                     content={<DailyMomentumTooltip thirdMetric={thirdMetric} />}
                   />
-                  {/* Line 1: Correct (%) — Emerald Green */}
+
+                  {/* Subtle Translucent Background Bars for Daily Practice Volume */}
+                  <Bar
+                    yAxisId="tests"
+                    dataKey="tests"
+                    name="Daily Tests"
+                    fill="currentColor"
+                    className="text-primary/20 dark:text-primary/25"
+                    radius={[4, 4, 0, 0]}
+                    maxBarSize={28}
+                  />
+
+                  {/* Line 1: Correct (%) — Solid Thick Emerald */}
                   <Line
+                    yAxisId="accuracy"
                     type="monotone"
                     dataKey="correctPct"
                     name="Correct %"
                     stroke="#10b981"
                     strokeWidth={2.5}
-                    dot={renderScaledDot("#10b981")}
-                    activeDot={renderScaledActiveDot("#10b981")}
+                    dot={{ r: 3.5, stroke: "#10b981", strokeWidth: 2, fill: "hsl(var(--card))" }}
+                    activeDot={{ r: 6, stroke: "#10b981", strokeWidth: 2.5, fill: "hsl(var(--card))" }}
                   />
-                  {/* Line 2: Incorrect (%) — Rose Red */}
+
+                  {/* Line 2: Incorrect (%) — Clean Coral/Red */}
                   <Line
+                    yAxisId="accuracy"
                     type="monotone"
                     dataKey="incorrectPct"
                     name="Incorrect %"
                     stroke="#ef4444"
                     strokeWidth={2.5}
-                    dot={renderScaledDot("#ef4444")}
-                    activeDot={renderScaledActiveDot("#ef4444")}
+                    dot={{ r: 3.5, stroke: "#ef4444", strokeWidth: 2, fill: "hsl(var(--card))" }}
+                    activeDot={{ r: 6, stroke: "#ef4444", strokeWidth: 2.5, fill: "hsl(var(--card))" }}
                   />
-                  {/* Line 3: Toggleable Skipped / Net Score — Blue */}
+
+                  {/* Line 3: 3rd Series (Skipped or Net Score) — Muted Slate/Sky/Blue */}
                   {thirdMetric === "skipped" ? (
                     <Line
+                      yAxisId="accuracy"
                       type="monotone"
                       dataKey="skippedPct"
                       name="Skipped %"
                       stroke="#38bdf8"
                       strokeWidth={2}
                       strokeDasharray="4 4"
-                      dot={renderScaledDot("#38bdf8")}
-                      activeDot={renderScaledActiveDot("#38bdf8")}
+                      dot={{ r: 3, stroke: "#38bdf8", strokeWidth: 1.5, fill: "hsl(var(--card))" }}
+                      activeDot={{ r: 5.5, stroke: "#38bdf8", strokeWidth: 2, fill: "hsl(var(--card))" }}
                     />
                   ) : (
                     <Line
+                      yAxisId="accuracy"
                       type="monotone"
                       dataKey="netScorePct"
                       name="Net Score %"
                       stroke="#3b82f6"
                       strokeWidth={2.5}
-                      dot={renderScaledDot("#3b82f6")}
-                      activeDot={renderScaledActiveDot("#3b82f6")}
+                      dot={{ r: 3.5, stroke: "#3b82f6", strokeWidth: 2, fill: "hsl(var(--card))" }}
+                      activeDot={{ r: 6, stroke: "#3b82f6", strokeWidth: 2.5, fill: "hsl(var(--card))" }}
                     />
                   )}
-                </LineChart>
+                </ComposedChart>
               </ChartContainer>
 
               {/* Bottom Legend */}
-              <div className="flex items-center justify-center gap-5 sm:gap-8 pt-2 pb-1 text-xs font-semibold select-none">
-                <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-7 pt-2 pb-1 text-xs font-semibold select-none">
+                <div className="flex items-center gap-1.5">
+                  <span className="h-3 w-2 rounded-xs bg-primary/25 border border-primary/40" />
+                  <span className="text-muted-foreground font-medium">Daily Tests (Bar)</span>
+                </div>
+                <div className="flex items-center gap-1.5">
                   <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" />
                   <span className="text-foreground">Correct %</span>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1.5">
                   <span className="h-2.5 w-2.5 rounded-full bg-rose-500" />
                   <span className="text-foreground">Incorrect %</span>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1.5">
                   <span
                     className={cn(
                       "h-2.5 w-2.5 rounded-full",
@@ -593,37 +562,6 @@ export function CombinedStudyActivityPanel({
               </div>
             </div>
           )
-        ) : viewMode === "hourly" ? (
-          /* Hourly Bar Chart */
-          <ChartContainer config={hourlyChartConfig} className="min-h-[250px] w-full">
-            <BarChart data={hourlyData} margin={{ left: -16, right: 8, top: 12, bottom: 4 }}>
-              <CartesianGrid vertical={false} strokeDasharray="3 3" className="stroke-border/40" />
-              <XAxis
-                dataKey="hourLabel"
-                tickLine={false}
-                axisLine={false}
-                tickMargin={8}
-                className="text-[10px]"
-                interval={2}
-              />
-              <YAxis
-                tickLine={false}
-                axisLine={false}
-                className="text-[11px]"
-                allowDecimals={false}
-              />
-              <ChartTooltip
-                content={
-                  <div className="rounded-xl border border-border/80 bg-popover/95 p-2.5 text-xs shadow-xl space-y-1">
-                    <p className="font-bold text-foreground">Peak Study Hour</p>
-                    <p className="text-muted-foreground">Submission activity distribution</p>
-                  </div>
-                }
-              />
-              <Bar dataKey="correct" stackId="hour" fill="var(--color-chart-2)" radius={[0, 0, 0, 0]} />
-              <Bar dataKey="incorrect" stackId="hour" fill="var(--color-destructive)" radius={[2, 2, 0, 0]} />
-            </BarChart>
-          </ChartContainer>
         ) : (
           /* Recent Test Stacked Bar Chart */
           recentChartData.length === 0 ? (
