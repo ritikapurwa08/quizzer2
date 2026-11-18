@@ -27,6 +27,19 @@ export function QuestionReviewCard({
   reviewBadge,
   missCount,
 }: QuestionReviewCardProps) {
+  if (!question || question.isOrphanedOrRemoved) {
+    return (
+      <Card className="border border-border/70 bg-muted/20 rounded-xl p-4 sm:p-5">
+        <div className="flex items-center gap-2.5 text-muted-foreground text-sm">
+          <span className="font-semibold text-xs px-2 py-0.5 rounded bg-muted">Q.{number}</span>
+          <span className="font-hindi text-xs sm:text-sm">
+            यह प्रश्न अपडेट हो चुका है, डुप्लीकेट होने के कारण हटा दिया गया है, या किसी अन्य सेट/टॉपिक में स्थानांतरित कर दिया गया है।
+          </span>
+        </div>
+      </Card>
+    );
+  }
+
   const sourceId = question?.sourceQuestionId || question?.meta?.sourceQuestionId || question?._id || "";
 
   const q = useMemo(() => {

@@ -8,7 +8,7 @@
       "source": "RajasthanGyan",
       "sourceTopicId": 24,
       "sourceTopic": "राजस्थान का भौतिक स्वरूप",
-      "masterTopicId": 2,
+      "masterTopicId": 6,
       "masterTopic": "राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें",
       "question": "निम्न कागारों से घिरी प्लाया झीलें रेगिस्तानी क्षेत्र में कहलाती है-",
       "options": [
@@ -9081,7 +9081,7 @@
       "meta": {
         "duplicateOf": "rg_003370",
         "duplicateType": "stem_variant",
-        "duplicateSimilarity": 100.0,
+        "duplicateSimilarity": 100,
         "subTopic": "नदियाँ एवं अपवाह तंत्र (त्रिवेणी संगम)"
       }
     },
@@ -13324,7 +13324,7 @@
       "meta": {
         "duplicateOf": "rg_003088",
         "duplicateType": "stem_variant",
-        "duplicateSimilarity": 100.0,
+        "duplicateSimilarity": 100,
         "subTopic": "नदियाँ एवं अपवाह तंत्र (त्रिवेणी संगम)"
       }
     },
@@ -13694,7 +13694,7 @@
       "meta": {
         "duplicateOf": "rg_003244",
         "duplicateType": "stem_variant",
-        "duplicateSimilarity": 100.0,
+        "duplicateSimilarity": 100,
         "subTopic": "नदियाँ एवं अपवाह तंत्र (त्रिवेणी संगम)"
       }
     },
@@ -14244,7 +14244,7 @@
       "meta": {
         "duplicateOf": "rg_003212",
         "duplicateType": "stem_variant",
-        "duplicateSimilarity": 95.0,
+        "duplicateSimilarity": 95,
         "subTopic": "नदियाँ एवं अपवाह तंत्र (त्रिवेणी संगम)"
       }
     }
@@ -14677,5 +14677,5 @@
       "meta": {}
     }
   ],
-  "totalArchivedVariants": 97
+  "totalArchivedVariants": 18
 }

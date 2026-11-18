@@ -20,6 +20,9 @@ export async function POST(request: NextRequest) {
       const rawQ = getAuthoritativeQuestion(id);
       if (rawQ) {
         resolved[id] = normalizeQuestion(rawQ);
+      } else {
+        // Cache as orphaned/removed to prevent repeated network round-trips
+        resolved[id] = { id, isOrphanedOrRemoved: true };
       }
     }
 

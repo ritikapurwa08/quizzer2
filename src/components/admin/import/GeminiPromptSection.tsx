@@ -46,7 +46,7 @@ export function GeminiPromptSection({
             : "Select a Subject and Master Topic above to load candidate questions from the pool."}
         </p>
 
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex items-center gap-2 flex-wrap sm:flex-nowrap shrink-0 w-full sm:w-auto">
           {candidateData?.geminiPrompt && (
             <Button
               type="button"
@@ -54,7 +54,7 @@ export function GeminiPromptSection({
               size="sm"
               onClick={onTogglePrompt}
               disabled={loadingCandidates}
-              className="h-9 px-3 text-xs font-semibold rounded-xl text-muted-foreground hover:text-foreground cursor-pointer"
+              className="h-9 px-3 text-xs font-semibold rounded-xl text-muted-foreground hover:text-foreground cursor-pointer flex-1 sm:flex-initial"
             >
               {promptOpen ? "Hide Prompt Preview" : "Show Prompt Preview"}
             </Button>
@@ -65,7 +65,7 @@ export function GeminiPromptSection({
             size="sm"
             onClick={onCopyPrompt}
             disabled={!candidateData?.geminiPrompt || loadingCandidates}
-            className="h-9 px-4 text-xs font-semibold rounded-xl gap-2 shadow-xs cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+            className="h-9 px-4 text-xs font-semibold rounded-xl gap-2 shadow-xs cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed flex-1 sm:flex-initial"
           >
             {loadingCandidates ? (
               <>

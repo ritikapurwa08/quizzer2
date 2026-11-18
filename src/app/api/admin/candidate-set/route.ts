@@ -6,6 +6,12 @@ import { DATA_PATHS } from "@/lib/dataPaths";
 import { comparePoolQuestions } from "@/lib/pool/sortQuestions";
 import { hasConvexBackup, getBackupExistingQuestionIds } from "@/lib/convex-backup";
 import { healOptionText } from "@/lib/optionTextHealer";
+import {
+  matchesSubTopic,
+  matchesSubTopicSetName,
+  calculateSubTopicNextPart,
+  filterQuestionsBySubTopic,
+} from "@/lib/pool/subTopicMatcher";
 
 export async function GET(request: NextRequest) {
   try {
@@ -13,6 +19,7 @@ export async function GET(request: NextRequest) {
     const topicIdParam = searchParams.get("masterTopicId") || searchParams.get("topicId");
     const setNumberParam = searchParams.get("setNumber") || searchParams.get("set");
     const batchSizeParam = searchParams.get("batchSize") || searchParams.get("count");
+    const subTopicIdParam = searchParams.get("subTopicId") || searchParams.get("subTopic") || "";
     const requestedBatchSize = batchSizeParam ? parseInt(batchSizeParam, 10) : 20;
     const batchSize = isNaN(requestedBatchSize) || requestedBatchSize < 20 ? 20 : requestedBatchSize;
 
@@ -67,12 +74,23 @@ export async function GET(request: NextRequest) {
       }
     }
 
-    const nextCalculatedSetNumber = existingTopicSets.length + 1;
+    const activeSubTopic =
+      subTopicIdParam && subTopicIdParam !== "all"
+        ? topicInfo?.subTopics?.find((s) => s.id === subTopicIdParam || s.name === subTopicIdParam) || {
+            id: subTopicIdParam,
+            name: subTopicIdParam,
+          }
+        : null;
+
+    const subNextCalculatedSetNumber = activeSubTopic
+      ? calculateSubTopicNextPart(existingTopicSets, activeSubTopic.id, activeSubTopic.name)
+      : existingTopicSets.length + 1;
+
     const requestedSetNumber = setNumberParam ? parseInt(setNumberParam, 10) : 0;
     // If setNumberParam is missing or 1 while sets already exist, default to the next sequential part!
     const setNumber = (requestedSetNumber > 1 || existingTopicSets.length === 0)
       ? Math.max(1, requestedSetNumber || 1)
-      : nextCalculatedSetNumber;
+      : subNextCalculatedSetNumber;
 
     const padSet = String(setNumber).padStart(3, "0");
 
@@ -96,12 +114,14 @@ export async function GET(request: NextRequest) {
     let candidateQuestions: any[] = [];
     let totalRemainingCount = 0;
 
-    // If candidate file already exists on disk, load it
-    const existingCandidateFile = fs.existsSync(candidateFilePad)
-      ? candidateFilePad
-      : fs.existsSync(candidateFileRaw)
-        ? candidateFileRaw
-        : null;
+    // If candidate file already exists on disk, load it (only for full topic imports without active subtopic)
+    const existingCandidateFile = !activeSubTopic
+      ? (fs.existsSync(candidateFilePad)
+          ? candidateFilePad
+          : fs.existsSync(candidateFileRaw)
+            ? candidateFileRaw
+            : null)
+      : null;
 
     if (existingCandidateFile) {
       try {
@@ -132,8 +152,13 @@ export async function GET(request: NextRequest) {
             candidateQuestions = candidateQuestions.filter((q) => !usedSet.has(String(q.id)));
           }
 
+          // Filter by subtopic if specified
+          const eligibleQuestions = activeSubTopic
+            ? filterQuestionsBySubTopic(allQuestions, activeSubTopic.id, activeSubTopic.name)
+            : allQuestions;
+
           // Fresh unassigned questions in pool
-          const freshAvailable = allQuestions
+          const freshAvailable = eligibleQuestions
             .filter((q) => !usedSet.has(String(q.id)))
             .sort(comparePoolQuestions);
 
@@ -162,7 +187,14 @@ export async function GET(request: NextRequest) {
     const topicEnglish = topicInfo?.nameEnglish || `Topic ${masterTopicId}`;
     const subjectHindi = topicInfo?.subjectHindi || (isEnglish ? "अंग्रेजी (Paper-II)" : "राजस्थान सामान्य ज्ञान");
 
+    const effectiveTitleHindi = activeSubTopic ? activeSubTopic.name : topicHindi;
+    const effectiveTitleEnglish = activeSubTopic ? activeSubTopic.name : topicEnglish;
+
     if (candidateQuestions.length === 0) {
+      const completeMessage = activeSubTopic
+        ? `सब-टॉपिक '${activeSubTopic.name}' के सभी प्रश्न इम्पोर्ट हो चुके हैं! All questions in this subtopic have already been published into live sets.`
+        : `Topic #${masterTopicId} (${topicHindi}) is 100% complete! All questions have already been published into live sets. No unassigned questions remain in the pool.`;
+
       return NextResponse.json({
         success: true,
         isComplete: true,
@@ -170,9 +202,11 @@ export async function GET(request: NextRequest) {
         masterTopic: isEnglish ? topicEnglish : topicHindi,
         masterTopicHindi: topicHindi,
         masterTopicEnglish: topicEnglish,
+        subTopicId: activeSubTopic?.id,
+        subTopic: activeSubTopic?.name,
         subjectName: subjectHindi,
         setNumber,
-        setName: isEnglish ? `${topicEnglish} Part ${setNumber}` : `${topicHindi} भाग ${setNumber}`,
+        setName: isEnglish ? `${effectiveTitleEnglish} Part ${setNumber}` : `${effectiveTitleHindi} भाग ${setNumber}`,
         batchSize,
         setCount: 0,
         targetCount: 0,
@@ -180,7 +214,7 @@ export async function GET(request: NextRequest) {
         remainingCount: 0,
         maxSetsAvailable: 0,
         isFinalTopicSet: false,
-        message: `Topic #${masterTopicId} (${topicHindi}) is 100% complete! All questions have already been published into live sets. No unassigned questions remain in the pool.`,
+        message: completeMessage,
         questions: [],
         geminiPrompt: "",
       });
@@ -208,11 +242,15 @@ export async function GET(request: NextRequest) {
 
     const setName = isEnglish
       ? setCount > 1
-        ? `${topicEnglish} Part ${setNumber} to Part ${setNumber + setCount - 1} (${setCount} Sets × 20 Questions)`
-        : `${topicEnglish} Part ${setNumber}`
+        ? `${effectiveTitleEnglish} Part ${setNumber} to Part ${setNumber + setCount - 1} (${setCount} Sets × 20 Questions)`
+        : `${effectiveTitleEnglish} Part ${setNumber}`
       : setCount > 1
-        ? `${topicHindi} भाग ${setNumber} से भाग ${setNumber + setCount - 1} (${setCount} सेट्स × 20 प्रश्न)`
-        : `${topicHindi} भाग ${setNumber}`;
+        ? `${effectiveTitleHindi} भाग ${setNumber} से भाग ${setNumber + setCount - 1} (${setCount} सेट्स × 20 प्रश्न)`
+        : `${effectiveTitleHindi} भाग ${setNumber}`;
+
+    const promptTopicTitle = activeSubTopic
+      ? `${topicHindi} (विशिष्ट सब-टॉपिक: ${activeSubTopic.name})`
+      : topicHindi;
 
     let geminiPrompt = "";
 
@@ -322,7 +360,7 @@ Return ONLY a valid, raw JSON array of objects. Do NOT include markdown code fen
       geminiPrompt = `आप राजस्थान प्रतियोगी परीक्षाओं (RPSC, RSMSSB, RAS, REET, पटवार, CET) के मुख्य प्रश्न-पत्र निर्माता एवं वरिष्ठ परीक्षा विशेषज्ञ (Lead Question Setter & Chief Examiner) हैं।
 
 विषय: ${subjectHindi}
-शीर्षक (Master Topic #${masterTopicId}): ${topicHindi}
+शीर्षक (Master Topic #${masterTopicId}): ${promptTopicTitle}
 सेट: ${setName}${isFinalTopicSet ? " (अंतिम सेट / Final Set)" : ""}
 अनिवार्य प्रश्न संख्या (Target Count Required): ठीक और केवल ठीक ${targetCount} प्रश्न (Array Length = ${targetCount})
 कैंडिडेट बफ़र में उपलब्ध प्रश्न: ${candidateQuestions.length} (इनमें से केवल सर्वश्रेष्ठ ${targetCount} चुनें, शेष ${candidateQuestions.length - targetCount} को छोड़ दें)
@@ -441,6 +479,8 @@ ${JSON.stringify(promptQuestions, null, 2)}
       masterTopic: isEnglish ? topicEnglish : topicHindi,
       masterTopicHindi: topicHindi,
       masterTopicEnglish: topicEnglish,
+      subTopicId: activeSubTopic?.id,
+      subTopic: activeSubTopic?.name,
       subjectName: subjectHindi,
       setNumber,
       setName,

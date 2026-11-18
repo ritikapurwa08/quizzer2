@@ -34,6 +34,6 @@ export const STUDENT_NAV_ITEMS: NavItem[] = MAIN_NAV_ITEMS;
 export const ADMIN_NAV_ITEMS: NavItem[] = [
   { label: "Admin Overview", href: "/admin", icon: Shield, exact: true },
   { label: "Question Editor", href: "/admin/questions", icon: Pencil, exact: true },
-  { label: "55 Topic Pool", href: "/admin/pool", icon: Database, exact: true },
+  { label: "Topic Pool", href: "/admin/pool", icon: Database, exact: true },
   { label: "Import Set", href: "/admin/import", icon: FileUp, exact: true },
 ];

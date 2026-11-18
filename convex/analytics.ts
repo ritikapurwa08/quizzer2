@@ -82,6 +82,56 @@ export const dashboardStats = query({
       };
     }
 
+    // Free-tier protection: 1-document read fast path from pre-computed dashboardStats
+    if (!args.rangeDays) {
+      const fastStats = await ctx.db
+        .query("dashboardStats")
+        .withIndex("by_user", (q) => q.eq("userId", user._id))
+        .first();
+
+      if (fastStats) {
+        const correct = Math.round((fastStats.questionsSolved * fastStats.overallAccuracy) / 100);
+        const incorrect = Math.max(0, fastStats.questionsSolved - correct);
+        return {
+          currentStreak: fastStats.currentStreak,
+          bestStreak: fastStats.bestStreak,
+          testsAttempted: fastStats.testsAttempted,
+          questionsSolved: fastStats.questionsSolved,
+          overallAccuracy: fastStats.overallAccuracy,
+          bookmarkCount: fastStats.bookmarkCount,
+          wrongQuestionCount: fastStats.wrongQuestionCount,
+          dailyProgress: [],
+          hourlyActivity: Array.from({ length: 24 }, (_, h) => ({
+            hour: h,
+            hourLabel: h === 0 ? "12 AM" : h < 12 ? `${h} AM` : h === 12 ? "12 PM" : `${h - 12} PM`,
+            correct: 0,
+            incorrect: 0,
+            total: 0,
+            tests: 0,
+          })),
+          subjectBreakdown: [],
+          weakSubjects: [],
+          subjectAccuracy: [],
+          answerBreakdown: {
+            correct,
+            incorrect,
+            unanswered: 0,
+            totalQuestions: fastStats.questionsSolved,
+            answeredCount: fastStats.questionsSolved,
+            accuracy: fastStats.overallAccuracy,
+          },
+          recentAttempts: [],
+          insights: {
+            strongestSubject: null,
+            weakestSubject: null,
+            activeDays: fastStats.currentStreak,
+            totalPeriodQuestions: fastStats.questionsSolved,
+            totalPeriodTests: fastStats.testsAttempted,
+          },
+        };
+      }
+    }
+
     const attempts = await ctx.db
       .query("attempts")
       .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "submitted"))
@@ -173,22 +223,8 @@ export const dashboardStats = query({
     for (const attempt of attempts) {
       const testSetId = attempt.testSetId as string;
       const testSet = testSetMap.get(testSetId);
-      if (!testSet) continue;
-
-      const topic = topicMap.get(testSet.topicId);
-      if (!topic) continue;
-
-      const subject = subjectMap.get(topic.subjectId);
-      if (!subject) continue;
-
-      // Accumulate subject stats — only counting genuinely attempted questions
-      const ss = subjectStats.get(topic.subjectId) ?? {
-        id: topic.subjectId,
-        correct: 0,
-        total: 0,
-        name: subject.name,
-        nameHindi: subject.nameHindi,
-      };
+      const topic = testSet ? topicMap.get(testSet.topicId) : undefined;
+      const subject = topic ? subjectMap.get(topic.subjectId) : undefined;
 
       let attemptAnsweredCount = 0;
       let attemptCorrectCount = 0;
@@ -196,18 +232,29 @@ export const dashboardStats = query({
       for (const answer of attempt.answers) {
         if (isAnswerAttempted(answer)) {
           attemptAnsweredCount += 1;
-          ss.total += 1;
           if (answer.isCorrect) {
-            ss.correct += 1;
             attemptCorrectCount += 1;
           } else {
             attemptIncorrectCount += 1;
           }
         }
       }
-      subjectStats.set(topic.subjectId, ss);
 
-      // Accumulate daily progress
+      // Accumulate subject stats — only counting genuinely attempted questions
+      if (topic && subject) {
+        const ss = subjectStats.get(topic.subjectId) ?? {
+          id: topic.subjectId,
+          correct: 0,
+          total: 0,
+          name: subject.name,
+          nameHindi: subject.nameHindi,
+        };
+        ss.total += attemptAnsweredCount;
+        ss.correct += attemptCorrectCount;
+        subjectStats.set(topic.subjectId, ss);
+      }
+
+      // Accumulate daily progress for every attempt (never drop valid user test history!)
       const attemptTimestamp = attempt.submittedAt ?? attempt.completedAt;
       if (!attemptTimestamp) continue;
       const day = toLocalDayString(attemptTimestamp);
@@ -223,9 +270,11 @@ export const dashboardStats = query({
       });
 
       // Per-subject daily breakdown for chart filtering
-      if (!dailyBySubject.has(day)) dailyBySubject.set(day, new Map());
-      const daySubjectMap = dailyBySubject.get(day)!;
-      daySubjectMap.set(topic.subjectId, (daySubjectMap.get(topic.subjectId) ?? 0) + attemptAnsweredCount);
+      if (topic && subject) {
+        if (!dailyBySubject.has(day)) dailyBySubject.set(day, new Map());
+        const daySubjectMap = dailyBySubject.get(day)!;
+        daySubjectMap.set(topic.subjectId, (daySubjectMap.get(topic.subjectId) ?? 0) + attemptAnsweredCount);
+      }
     }
 
     // ── Build dailyProgress array for the requested range ───────────────────
@@ -598,5 +647,21 @@ export const dashboardStats = query({
         totalPeriodTests,
       },
     };
+  },
+});
+
+export const getAnalyticsSnapshot = query({
+  args: {},
+  handler: async (ctx) => {
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return null;
+    }
+    return await ctx.db
+      .query("analyticsSnapshots")
+      .withIndex("by_user", (q) => q.eq("userId", user._id))
+      .first();
   },
 });

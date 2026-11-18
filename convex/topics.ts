@@ -6,11 +6,12 @@ import { requireAdmin } from "./lib/permissions";
 export const listBySubject = query({
   args: { subjectId: v.id("subjects") },
   handler: async (ctx, args) => {
-    const topics = await ctx.db
+    const allTopics = await ctx.db
       .query("topics")
       .withIndex("by_subject", (q) => q.eq("subjectId", args.subjectId))
       .collect();
-    return topics.sort((a, b) => a.order - b.order);
+    const topics = allTopics.filter((t) => !t.isArchived);
+    return topics.filter((t) => !t.isArchived).sort((a, b) => a.order - b.order);
   },
 });
 
@@ -27,10 +28,11 @@ export const progressBySubject = query({
         .unique();
     }
 
-    const topics = await ctx.db
+    const allTopics = await ctx.db
       .query("topics")
       .withIndex("by_subject", (q) => q.eq("subjectId", args.subjectId))
       .collect();
+    const topics = allTopics.filter((t) => !t.isArchived);
 
     const result: Record<
       string,

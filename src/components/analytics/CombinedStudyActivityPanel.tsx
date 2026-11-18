@@ -251,8 +251,9 @@ export function CombinedStudyActivityPanel({
       });
     }
 
-    // Cap to latest 30 active days so payload and client rendering remain ultra lightweight
-    const points = active.slice(-30);
+    // For Overall (All Time) or extended ranges, show all active days in the period;
+    // for short ranges, cap to the active days within that window.
+    const points = rangeDays >= 365 ? active : active.slice(-Math.min(active.length, Math.max(30, rangeDays)));
 
     let mStats = null;
     if (points.length > 0) {

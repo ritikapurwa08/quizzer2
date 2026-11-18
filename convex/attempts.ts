@@ -561,6 +561,30 @@ export const recentByUser = query({
       return [];
     }
     const limit = args.limit ?? 5;
+
+    // Free-tier defense: 1-document read fast path from pre-computed userDashboardFeed
+    const feed = await ctx.db
+      .query("userDashboardFeed")
+      .withIndex("by_user", (q) => q.eq("userId", user._id))
+      .first();
+
+    if (feed && feed.recentAttempts && feed.recentAttempts.length > 0) {
+      return feed.recentAttempts.slice(0, limit).map((a) => ({
+        _id: a.attemptId as any,
+        userId: user._id,
+        testSetId: a.testSetId as any,
+        testSetName: a.testSetName,
+        score: a.score,
+        totalQuestions: a.totalQuestions,
+        submittedAt: a.submittedAt,
+        completedAt: a.submittedAt,
+        status: "submitted" as const,
+        correctCount: a.correctCount,
+        accuracy: a.accuracy,
+        answers: [],
+      }));
+    }
+
     // Query submitted attempts.
     // Note: by_user_status orders by _creationTime desc, but a resumed attempt may have an older
     // _creationTime despite being submitted recently. We fetch submitted attempts, sort strictly by
@@ -725,5 +749,21 @@ export const getInProgress = query({
         q.eq("userId", user._id).eq("testSetId", args.testSetId).eq("status", "in_progress"),
       )
       .unique();
+  },
+});
+
+export const getDashboardFeed = query({
+  args: {},
+  handler: async (ctx) => {
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return null;
+    }
+    return await ctx.db
+      .query("userDashboardFeed")
+      .withIndex("by_user", (q) => q.eq("userId", user._id))
+      .first();
   },
 });

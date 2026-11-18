@@ -26,6 +26,9 @@ interface TargetConfigSectionProps {
   selectedTopicId: string;
   onSubjectChangeId: (id: string) => void;
   onTopicChangeId: (id: string) => void;
+  availableSubTopics?: Array<{ id: string; name: string }>;
+  selectedSubTopicId?: string;
+  onSubTopicChange?: (id: string) => void;
   batchSize: number;
   onBatchSizeChange: (size: number) => void;
   subtopicName: string;
@@ -45,6 +48,9 @@ export function TargetConfigSection({
   selectedTopicId,
   onSubjectChangeId,
   onTopicChangeId,
+  availableSubTopics = [],
+  selectedSubTopicId = "",
+  onSubTopicChange,
   batchSize,
   onBatchSizeChange,
   subtopicName,
@@ -57,9 +63,9 @@ export function TargetConfigSection({
   maxSetsAvailable = 5,
 }: TargetConfigSectionProps) {
   return (
-    <div className="space-y-4">
-      <div className="grid gap-4 grid-cols-1 sm:grid-cols-2">
-        <div>
+    <div className="space-y-4 w-full min-w-0">
+      <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 min-w-0">
+        <div className="min-w-0">
           <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
             Subject
           </Label>
@@ -71,18 +77,18 @@ export function TargetConfigSection({
           />
         </div>
 
-        <div>
-          <div className="flex items-center justify-between mb-1.5">
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center justify-between gap-1 mb-1.5 min-w-0">
             <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block">
               Master Topic
             </Label>
             {isComplete && (
-              <Badge variant="outline" className="text-emerald-500 border-emerald-500/30 bg-emerald-500/10 text-[10px] py-0 px-2 font-bold">
+              <Badge variant="outline" className="text-emerald-500 border-emerald-500/30 bg-emerald-500/10 text-[10px] py-0 px-2 font-bold shrink-0">
                 ✓ 100% Imported
               </Badge>
             )}
             {!isComplete && remainingCount !== undefined && remainingCount > 0 && (
-              <span className="text-[11px] font-medium text-primary">
+              <span className="text-[11px] font-medium text-primary shrink-0">
                 {remainingCount} questions left in pool
               </span>
             )}
@@ -96,13 +102,49 @@ export function TargetConfigSection({
           />
         </div>
 
-        <div>
-          <div className="flex items-center justify-between mb-1.5">
+        {/* Sub-Topic Selector when topic has subtopics */}
+        {availableSubTopics.length > 0 && (
+          <div className="sm:col-span-2 min-w-0">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-1.5 min-w-0">
+              <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block shrink-0">
+                Target Sub-Topic (विशिष्ट सब-टॉपिक)
+              </Label>
+              <span className="text-[11px] text-muted-foreground truncate">
+                Optional: Target a specific subtopic for smaller, focused batch imports
+              </span>
+            </div>
+            <Select
+              value={selectedSubTopicId || "all"}
+              onValueChange={(val: string | null) => onSubTopicChange?.(val === "all" ? "" : (val || ""))}
+            >
+              <SelectTrigger className="h-10 w-full rounded-xl border border-input bg-card px-3 text-sm font-medium font-hindi min-w-0">
+                <SelectValue placeholder="All Sub-Topics (पूरा टॉपिक सामान्य रूप से)">
+                  {(val: any) => {
+                    if (!val || val === "all") return "पूरा टॉपिक (All Sub-Topics / Default)";
+                    const found = availableSubTopics.find((s) => s.id === val);
+                    return found ? found.name : val;
+                  }}
+                </SelectValue>
+              </SelectTrigger>
+              <SelectContent className="bg-popover border-border">
+                <SelectItem value="all">पूरा टॉपिक (All Sub-Topics / Default)</SelectItem>
+                {availableSubTopics.map((sub) => (
+                  <SelectItem key={sub.id} value={sub.id} className="font-hindi">
+                    {sub.name}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+        )}
+
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center justify-between gap-1 mb-1.5 min-w-0">
             <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block">
               Batch Size (Sets)
             </Label>
             {isFinalTopicSet && remainingCount !== undefined && (
-              <Badge variant="outline" className="text-amber-500 border-amber-500/30 bg-amber-500/10 text-[10px] py-0 px-1.5 font-bold">
+              <Badge variant="outline" className="text-amber-500 border-amber-500/30 bg-amber-500/10 text-[10px] py-0 px-1.5 font-bold shrink-0">
                 Final Set
               </Badge>
             )}
@@ -161,7 +203,7 @@ export function TargetConfigSection({
           </Select>
         </div>
 
-        <div>
+        <div className="min-w-0">
           <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
             Set / Part Name
           </Label>
@@ -171,14 +213,14 @@ export function TargetConfigSection({
             disabled={!selectedTopicId}
             placeholder={selectedTopicId ? "e.g. राजस्थान की जलवायु भाग 1" : "Select a topic first"}
             className={cn(
-              "mt-0.5 h-10 w-full rounded-xl border bg-card px-3.5 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors disabled:opacity-50 disabled:cursor-not-allowed",
+              "mt-0.5 h-10 w-full rounded-xl border bg-card px-3.5 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors disabled:opacity-50 disabled:cursor-not-allowed min-w-0",
               isDuplicateSetName
                 ? "border-destructive text-destructive focus:ring-destructive"
                 : "border-input"
             )}
           />
           {isDuplicateSetName && (
-            <p className="text-[11px] font-medium text-destructive mt-1">
+            <p className="text-[11px] font-medium text-destructive mt-1 break-words">
               ⚠️ A test set in this batch already exists under this topic.
             </p>
           )}
@@ -186,19 +228,21 @@ export function TargetConfigSection({
       </div>
 
       {isComplete && (
-        <div className="flex items-center gap-2.5 p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 text-xs font-medium">
+        <div className="flex items-center gap-2.5 p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 text-xs font-medium min-w-0">
           <CheckCircle2 className="h-4 w-4 shrink-0 text-emerald-500" />
-          <span>
-            Topic is 100% imported! All questions in this topic pool have already been curated into live sets.
+          <span className="break-words">
+            {selectedSubTopicId
+              ? "सब-टॉपिक के सभी प्रश्न इम्पोर्ट हो चुके हैं! (All questions in this subtopic have already been curated into live sets)."
+              : "Topic is 100% imported! All questions in this topic pool have already been curated into live sets."}
           </span>
         </div>
       )}
 
       {plannedSetNames.length > 1 && (
-        <div className="flex items-center gap-2 flex-wrap text-xs bg-muted/40 p-2.5 rounded-xl border border-border/50">
-          <span className="font-semibold text-muted-foreground">Sets to create ({plannedSetNames.length}):</span>
+        <div className="flex items-center gap-2 flex-wrap text-xs bg-muted/40 p-2.5 rounded-xl border border-border/50 min-w-0">
+          <span className="font-semibold text-muted-foreground shrink-0">Sets to create ({plannedSetNames.length}):</span>
           {plannedSetNames.map((name, idx) => (
-            <Badge key={idx} variant="outline" className="text-[11px] font-medium bg-background">
+            <Badge key={idx} variant="outline" className="text-[11px] font-medium bg-background truncate max-w-full">
               {name}
             </Badge>
           ))}

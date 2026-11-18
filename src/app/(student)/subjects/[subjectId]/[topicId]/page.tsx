@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, Suspense } from "react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams, useRouter } from "next/navigation";
 import { useQuery } from "convex/react";
 
 import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
@@ -13,19 +13,28 @@ import {
   FileText,
   Play,
   CheckCircle2,
+  Layers,
 } from "lucide-react";
 import { Id } from "../../../../../../convex/_generated/dataModel";
 import { api } from "../../../../../../convex/_generated/api";
-import { getSubjectDisplayName, getTopicDisplayName } from "@/lib/utils";
+import { getSubjectDisplayName, getTopicDisplayName, cn } from "@/lib/utils";
 
-export default function TopicDetailPage() {
+export function TopicDetailView({ forcedSubTopicId }: { forcedSubTopicId?: string }) {
   const { subjectId, topicId } = useParams<{ subjectId: string; topicId: string }>();
+  const searchParams = useSearchParams();
+  const router = useRouter();
+
   const sId = subjectId as Id<"subjects">;
   const tId = topicId as Id<"topics">;
+
+  const activeSubTopic = forcedSubTopicId || searchParams.get("subTopic") || "all";
 
   const subject = useQuery(api.subjects.get, { id: sId });
   const topic = useQuery(api.topics.get, { id: tId });
   const testSets = useQuery(api.testSets.listByTopic, { topicId: tId });
+  const completedIds = useQuery(api.testSets.completedSetIds, { topicId: tId }) ?? [];
+  const completedSet = useMemo(() => new Set(completedIds), [completedIds]);
+
   const [localTopicSets, setLocalTopicSets] = useState<any[]>([]);
   const [isLocalLoaded, setIsLocalLoaded] = useState(false);
 
@@ -41,42 +50,84 @@ export default function TopicDetailPage() {
       .finally(() => setIsLocalLoaded(true));
   }, [tId]);
 
-  // Authoritative test sets: Use Convex active sets as primary source of truth,
-  // falling back to local published sets if Convex is loading or offline.
+  // Combine Convex sets with local metadata to ensure subTopicId and subTopic are preserved
   const allTopicSets = useMemo(() => {
     let sourceList: any[] = [];
-    if (testSets && testSets.length > 0) {
-      sourceList = testSets.filter((s) => !s.isArchived);
-    } else if (localTopicSets && localTopicSets.length > 0) {
+    if (localTopicSets && localTopicSets.length > 0) {
       sourceList = localTopicSets.filter((s) => s.status !== "archived" && !s.isArchived);
+    } else if (testSets && testSets.length > 0) {
+      sourceList = testSets.filter((s) => !s.isArchived);
     } else if (!isLocalLoaded) {
       return [];
     }
 
+    const localMap = new Map<string, any>(localTopicSets.map((s) => [s._id || s.id, s]));
     const map = new Map<string, any>();
     const seenNames = new Set<string>();
 
     for (const s of sourceList) {
       const id = s._id || s.id;
       const cleanName = (s.name || "").replace(/\s+/g, " ").trim().toLowerCase();
+      const localMeta = localMap.get(id);
+
+      const merged = {
+        ...s,
+        _id: id,
+        subTopicId: s.subTopicId || localMeta?.subTopicId,
+        subTopic: s.subTopic || localMeta?.subTopic,
+      };
+
       if (!map.has(id) && (!cleanName || !seenNames.has(cleanName))) {
-        map.set(id, { ...s, _id: id });
+        map.set(id, merged);
         if (cleanName) seenNames.add(cleanName);
       }
     }
     return Array.from(map.values()).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
   }, [testSets, localTopicSets, isLocalLoaded]);
 
-  const topicProgress = useQuery(api.topics.getProgress, { topicId: tId });
-  const completedIds = useQuery(api.testSets.completedSetIds, { topicId: tId }) ?? [];
+  // Extract all unique subtopics for nested navigation
+  const subTopics = useMemo(() => {
+    const subMap = new Map<string, { id: string; name: string; count: number }>();
+    for (const s of allTopicSets) {
+      const subId = s.subTopicId || s.subTopic;
+      const subName = s.subTopic || s.subTopicId;
+      if (subId && subName) {
+        if (!subMap.has(subId)) {
+          subMap.set(subId, { id: subId, name: subName, count: 0 });
+        }
+        subMap.get(subId)!.count += 1;
+      }
+    }
+    return Array.from(subMap.values());
+  }, [allTopicSets]);
 
-  const completedSet = new Set(completedIds);
+  const topicProgress = useQuery(api.topics.getProgress, { topicId: tId });
+
+  // Filter displayed sets based on selected subtopic
+  const displayedSets = useMemo(() => {
+    if (!activeSubTopic || activeSubTopic === "all") {
+      return allTopicSets;
+    }
+    return allTopicSets.filter(
+      (s) => s.subTopicId === activeSubTopic || s.subTopic === activeSubTopic
+    );
+  }, [allTopicSets, activeSubTopic]);
+
+  const handleSubTopicChange = (subId: string) => {
+    if (subId === "all") {
+      router.push(`/subjects/${sId}/${tId}`, { scroll: false });
+    } else {
+      router.push(`/subjects/${sId}/${tId}/${encodeURIComponent(subId)}`, { scroll: false });
+    }
+  };
+
   const totalSets = allTopicSets.length;
   const completedCount = allTopicSets.filter((s) => completedSet.has(s._id)).length;
-  const isTopicCompleted = topicProgress?.status === "completed";
+  const isTopicCompleted = topicProgress?.status === "completed" || (totalSets > 0 && completedCount === totalSets);
 
   const subjectTitle = getSubjectDisplayName(subject) || "Subject";
   const topicTitle = getTopicDisplayName(topic) || "Topic";
+  const activeSubName = subTopics.find((s) => s.id === activeSubTopic)?.name;
 
   return (
     <div className="space-y-5">
@@ -85,7 +136,12 @@ export default function TopicDetailPage() {
           { label: "Dashboard", href: "/dashboard" },
           { label: "Subjects", href: "/subjects" },
           { label: subjectTitle, href: `/subjects/${sId}` },
-          { label: topicTitle },
+          ...(activeSubTopic !== "all" && activeSubName
+            ? [
+                { label: topicTitle, href: `/subjects/${sId}/${tId}` },
+                { label: activeSubName },
+              ]
+            : [{ label: topicTitle }]),
         ]}
       />
 
@@ -116,6 +172,63 @@ export default function TopicDetailPage() {
         </div>
       </div>
 
+      {/* ── Sub-Topic Navigation Tabs / Pills (Clean Day-1 UI) ──────────────── */}
+      {subTopics.length > 0 && (
+        <div className="space-y-2 pt-1 pb-2 border-b border-border/60">
+          <div className="flex items-center gap-1.5 text-xs font-semibold text-muted-foreground">
+            <Layers className="h-3.5 w-3.5 text-primary" />
+            <span>Targeted Sub-Topics ({subTopics.length}):</span>
+          </div>
+
+          <div className="flex items-center gap-2 overflow-x-auto pb-1.5 scrollbar-thin">
+            <button
+              type="button"
+              onClick={() => handleSubTopicChange("all")}
+              className={cn(
+                "px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5",
+                activeSubTopic === "all"
+                  ? "bg-primary text-primary-foreground shadow-xs font-semibold"
+                  : "bg-muted/60 text-muted-foreground hover:bg-muted hover:text-foreground"
+              )}
+            >
+              <span>सभी सेट्स</span>
+              <span className="text-[10px] opacity-80 px-1 py-0.2 rounded-full bg-background/20 font-bold">
+                {allTopicSets.length}
+              </span>
+            </button>
+
+            {subTopics.map((sub) => {
+              const isActive = activeSubTopic === sub.id;
+              return (
+                <button
+                  key={sub.id}
+                  type="button"
+                  onClick={() => handleSubTopicChange(sub.id)}
+                  className={cn(
+                    "px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 font-hindi",
+                    isActive
+                      ? "bg-primary text-primary-foreground shadow-xs font-semibold"
+                      : "bg-muted/60 text-muted-foreground hover:bg-muted hover:text-foreground"
+                  )}
+                >
+                  <span>{sub.name}</span>
+                  <span
+                    className={cn(
+                      "text-[10px] px-1.5 py-0.2 rounded-full font-bold",
+                      isActive
+                        ? "bg-background/25 text-primary-foreground"
+                        : "bg-background text-muted-foreground"
+                    )}
+                  >
+                    {sub.count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       {/* ── Loading Skeleton Placeholder ─────────────────────────────────── */}
       {!isLocalLoaded && testSets === undefined && (
         <div className="space-y-3">
@@ -124,7 +237,10 @@ export default function TopicDetailPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {Array.from({ length: 6 }).map((_, i) => (
-              <div key={i} className="p-4 rounded-md border border-border bg-card flex items-center justify-between animate-pulse">
+              <div
+                key={i}
+                className="p-4 rounded-md border border-border bg-card flex items-center justify-between animate-pulse"
+              >
                 <Skeleton className="h-4 w-40 rounded" />
                 <Skeleton className="h-7 w-16 rounded" />
               </div>
@@ -134,19 +250,21 @@ export default function TopicDetailPage() {
       )}
 
       {/* ── Quiz Sets List ───────────────────────────────────────────────── */}
-      {isLocalLoaded && testSets !== undefined && allTopicSets.length === 0 && (
+      {isLocalLoaded && testSets !== undefined && displayedSets.length === 0 && (
         <EmptyState
           icon={FileText}
-          title="No practice sets available yet"
-          description="Question sets for this topic will be available soon."
+          title="No practice sets found for this section"
+          description="Try switching to another sub-topic or 'सभी सेट्स'."
         />
       )}
 
-      {allTopicSets.length > 0 && (
+      {displayedSets.length > 0 && (
         <div className="space-y-3">
           <div className="flex items-center justify-between">
-            <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
-              Practice Sets ({totalSets})
+            <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5">
+              <span>
+                {activeSubName ? activeSubName : "Practice Sets"} ({displayedSets.length})
+              </span>
             </h2>
             {completedCount > 0 && (
               <span className="flex items-center gap-1 text-[11px] font-bold text-success">
@@ -157,26 +275,38 @@ export default function TopicDetailPage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {allTopicSets.map((set) => {
-              const isDone = completedSet.has(set._id);
+            {displayedSets.map((set) => {
+              const isCompleted = completedSet.has(set._id);
+
               return (
-                <Link key={set._id} href={`/quiz/${set._id}`} className="block focus-visible:outline-hidden">
+                <Link
+                  key={set._id}
+                  href={`/quiz/${set._id}`}
+                  className="block focus-visible:outline-hidden"
+                >
                   <Card className="flex flex-row items-center justify-between p-4 border border-border bg-card hover:border-primary/50 hover:shadow-xs transition-all group rounded-md min-h-[4rem] select-none">
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-2 flex-wrap">
                         <h3 className="font-medium text-xs sm:text-sm transition-colors truncate text-foreground group-hover:text-primary font-hindi">
                           {set.name}
                         </h3>
-                        {isDone && (
-                          <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-emerald-500 bg-emerald-500/10 px-1.5 py-0.2 rounded-xs border border-emerald-500/20">
-                            Completed
+                        {set.subTopic && activeSubTopic === "all" && (
+                          <span className="text-[10px] text-muted-foreground/80 bg-muted px-1.5 py-0.5 rounded font-hindi">
+                            {set.subTopic}
+                          </span>
+                        )}
+
+                        {/* Standard Day-1 Completed Badge */}
+                        {isCompleted && (
+                          <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-emerald-500 bg-emerald-500/10 px-1.5 py-0.5 rounded-xs border border-emerald-500/20 font-hindi">
+                            <CheckCircle2 className="h-3 w-3" /> Completed
                           </span>
                         )}
                       </div>
                     </div>
                     <div className="flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md shrink-0 ml-3 transition-all border border-border/80 bg-secondary text-secondary-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary">
                       <Play className="h-3 w-3 fill-current" />
-                      <span>{isDone ? "Retake" : "Start"}</span>
+                      <span>{isCompleted ? "Retake" : "Start"}</span>
                     </div>
                   </Card>
                 </Link>
@@ -186,5 +316,13 @@ export default function TopicDetailPage() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function TopicDetailPage() {
+  return (
+    <Suspense fallback={<div className="p-4 text-muted-foreground">Loading practice sets...</div>}>
+      <TopicDetailView />
+    </Suspense>
   );
 }

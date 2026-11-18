@@ -54,6 +54,7 @@ __pycache__/
 
 # local database backups
 convex-latest-backup/
+/data/backups/
 
 # intermediate question extraction and audit batches (safeguards Vercel < 25MB quota)
 /data/questions/gemini_audited_batches/

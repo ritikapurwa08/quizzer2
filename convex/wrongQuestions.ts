@@ -232,3 +232,19 @@ export const recordWrong = mutation({
     });
   },
 });
+
+export const getFilterCounts = query({
+  args: {},
+  handler: async (ctx) => {
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return null;
+    }
+    return await ctx.db
+      .query("userFilterCounts")
+      .withIndex("by_user", (q) => q.eq("userId", user._id))
+      .first();
+  },
+});

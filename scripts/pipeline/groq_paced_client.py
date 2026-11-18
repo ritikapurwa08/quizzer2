@@ -5,6 +5,16 @@ import time
 import threading
 import random
 import uuid
+import re
+
+def parse_groq_wait_time(err_body):
+    """Extracts exact wait time in seconds from Groq's error message (e.g. '2m44.16s' or '16.4s')."""
+    m = re.search(r'Please try again in (?:(\d+)m)?(\d+(?:\.\d+)?)s', err_body)
+    if m:
+        mins = float(m.group(1)) if m.group(1) else 0.0
+        secs = float(m.group(2))
+        return mins * 60.0 + secs
+    return None
 
 # Diverse modern User-Agents for request diversification
 USER_AGENTS = [
@@ -70,7 +80,7 @@ class GroqKeyManager:
             pass
         return keys
 
-    def acquire_available_key(self, timeout=60.0):
+    def acquire_available_key(self, timeout=300.0):
         """Finds a key that is eligible (not in cooldown, active_requests == 0, and min_interval passed)."""
         start = time.time()
         while time.time() - start < timeout:
@@ -115,7 +125,7 @@ class GroqKeyManager:
                 return chosen_key
 
             # Sleep the minimum necessary wait time (with small jitter)
-            sleep_duration = max(0.05, min(min_wait_needed + random.uniform(0.02, 0.08), 2.0))
+            sleep_duration = max(0.1, min(min_wait_needed + random.uniform(0.1, 0.3), 5.0))
             time.sleep(sleep_duration)
 
         raise TimeoutError("All Groq API keys are currently in cooldown or active.")
@@ -129,13 +139,13 @@ class GroqKeyManager:
 
             if is_rate_limited:
                 state["total_errors"] += 1
-                # Cap cool duration to max 20 seconds (OTPM rolling window recovers quickly)
+                # Respect actual wait time to guarantee keys never get blocked
                 raw_cool = float(retry_after) if retry_after else 15.0
-                cool_duration = min(raw_cool, 20.0) + random.uniform(0.5, 1.5)
+                cool_duration = max(3.0, raw_cool) + random.uniform(0.5, 1.5)
                 state["cooldown_until"] = now + cool_duration
-                print(f"🚫 [429 RateLimit] Key {key[:12]}... in cooldown for {cool_duration:.1f}s.")
+                print(f"⏳ [Cooldown] Key {key[:12]}... resting safely for {cool_duration:.1f}s.")
 
-    def chat_completion(self, messages, model="qwen/qwen3.8-27b", temperature=0.1, max_tokens=450, max_retries=15):
+    def chat_completion(self, messages, model="qwen/qwen3.8-27b", temperature=0.1, max_tokens=320, max_retries=45):
         """Execute completion with automated round-robin, pacing, header rotation, and zero-stall cooling."""
         payload_dict = {
             "model": model,
@@ -146,7 +156,7 @@ class GroqKeyManager:
         data = json.dumps(payload_dict).encode('utf-8')
 
         for attempt in range(max_retries):
-            key = self.acquire_available_key(timeout=90.0)
+            key = self.acquire_available_key(timeout=300.0)
             
             # Randomized realistic browser headers
             ua = random.choice(USER_AGENTS)
@@ -175,8 +185,10 @@ class GroqKeyManager:
                 headers = dict(e.headers)
                 retry_after = headers.get('retry-after')
                 if e.code == 429:
-                    self.release_key(key, is_rate_limited=True, retry_after=retry_after)
-                    # Key is cooled down; worker IMMEDIATELY tries another key with zero delay!
+                    err_body = e.read().decode('utf-8', errors='ignore')
+                    parsed_wait = parse_groq_wait_time(err_body)
+                    wait_sec = parsed_wait if parsed_wait else (float(retry_after) if retry_after else 15.0)
+                    self.release_key(key, is_rate_limited=True, retry_after=wait_sec)
                     time.sleep(0.05 + random.uniform(0.01, 0.05))
                 else:
                     self.release_key(key, is_rate_limited=False)

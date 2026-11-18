@@ -7749,7 +7749,7 @@
       "meta": {
         "duplicateOf": "rg_008074",
         "duplicateType": "stem_variant",
-        "duplicateSimilarity": 100.0,
+        "duplicateSimilarity": 100,
         "subTopic": "अधात्विक खनिज एवं तेल/गैस/कोयला"
       },
       "topicFile": "topic_11.json",
@@ -10854,5 +10854,5 @@
       "isDuplicateOf": "rg_007940"
     }
   ],
-  "totalArchivedVariants": 40
+  "totalArchivedVariants": 23
 }

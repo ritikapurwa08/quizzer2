@@ -1990,7 +1990,7 @@
       "meta": {
         "duplicateOf": "rg_012901",
         "duplicateType": "conceptual_duplicate",
-        "duplicateSimilarity": 88.0,
+        "duplicateSimilarity": 88,
         "subTopic": "मैदानी एवं पठारी प्रदेश (हाड़ौती/मैदान)"
       }
     },
@@ -17968,7 +17968,7 @@
         "qualityAudited": true,
         "duplicateOf": "rg_000828",
         "duplicateType": "stem_variant",
-        "duplicateSimilarity": 100.0,
+        "duplicateSimilarity": 100,
         "subTopic": "मैदानी एवं पठारी प्रदेश (हाड़ौती/मैदान)"
       }
     },
@@ -18053,7 +18053,7 @@
         "qualityAudited": true,
         "duplicateOf": "rg_000828",
         "duplicateType": "stem_variant",
-        "duplicateSimilarity": 100.0,
+        "duplicateSimilarity": 100,
         "subTopic": "मैदानी एवं पठारी प्रदेश (हाड़ौती/मैदान)"
       }
     },
@@ -21250,5 +21250,5 @@
       "meta": {}
     }
   ],
-  "totalArchivedVariants": 140
+  "totalArchivedVariants": 22
 }

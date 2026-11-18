@@ -4,14 +4,21 @@ import { mutation, query } from "./_generated/server";
 import { requireAdmin, requireUser } from "./lib/permissions";
 
 export const listByTopic = query({
-  args: { topicId: v.union(v.id("topics"), v.string()) },
+  args: {
+    topicId: v.union(v.id("topics"), v.string()),
+    subTopicId: v.optional(v.string()),
+  },
   handler: async (ctx, args) => {
     try {
       const sets = await ctx.db
         .query("testSets")
         .withIndex("by_topic", (q) => q.eq("topicId", args.topicId as any))
         .collect();
-      return sets.filter((s) => !s.isArchived).sort((a, b) => a.order - b.order);
+      let filtered = sets.filter((s) => !s.isArchived);
+      if (args.subTopicId && args.subTopicId !== "all") {
+        filtered = filtered.filter((s) => s.subTopicId === args.subTopicId || s.subTopic === args.subTopicId);
+      }
+      return filtered.sort((a, b) => a.order - b.order);
     } catch {
       return [];
     }
@@ -54,6 +61,23 @@ export const completedSetIds = query({
       return [] as string[];
     }
 
+    // Free-tier defense & Question-Overlap Auto-Marking:
+    // 1-doc read fast path from pre-computed userDashboardFeed
+    const feed = await ctx.db
+      .query("userDashboardFeed")
+      .withIndex("by_user", (q) => q.eq("userId", user._id))
+      .first();
+
+    if (feed && feed.setOverlapMap) {
+      const completedFromMap: string[] = [];
+      for (const [sId, info] of Object.entries(feed.setOverlapMap as Record<string, any>)) {
+        if (info && info.status === "completed") {
+          completedFromMap.push(sId);
+        }
+      }
+      return completedFromMap;
+    }
+
     // Quota-protected: if topicId is provided, query only sets belonging to this topic
     if (args.topicId) {
       const topicSets = await ctx.db
@@ -89,6 +113,20 @@ export const completedSetIds = query({
 export const siteStats = query({
   args: {},
   handler: async (ctx) => {
+    // Free-tier defense: 1-document read fast path from globalCatalogSummary
+    const summary = await ctx.db
+      .query("globalCatalogSummary")
+      .withIndex("by_singletonKey", (q) => q.eq("singletonKey", "global"))
+      .first();
+
+    if (summary) {
+      return {
+        totalSets: summary.totalSets,
+        totalQuestions: summary.totalQuestions,
+      };
+    }
+
+    // Fallback if not yet seeded
     const sets = await ctx.db.query("testSets").collect();
     const activeSets = sets.filter((s) => !s.isArchived);
     const totalSets = activeSets.length;
@@ -158,6 +196,8 @@ export const importTestSet = mutation({
     questions: v.array(v.any()),
     isFinalSet: v.optional(v.boolean()),
     masterTopicId: v.optional(v.number()),
+    subTopicId: v.optional(v.string()),
+    subTopic: v.optional(v.string()),
     adminSecret: v.optional(v.string()),
   },
   handler: async (ctx, args) => {
@@ -178,6 +218,8 @@ export const importTestSet = mutation({
       negativeMarking: args.negativeMarking,
       order: siblings.length + 1,
       questionCount: args.questions.length,
+      subTopicId: args.subTopicId,
+      subTopic: args.subTopic,
     });
 
     return {

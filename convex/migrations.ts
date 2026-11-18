@@ -266,3 +266,354 @@ export const remapOrphanedTestSets = mutation({
     };
   },
 });
+
+export const upsertMaterializedViews = mutation({
+  args: {
+    dashboardStats: v.optional(
+      v.object({
+        userId: v.id("users"),
+        questionsSolved: v.number(),
+        overallAccuracy: v.number(),
+        bookmarkCount: v.number(),
+        wrongQuestionCount: v.number(),
+        currentStreak: v.number(),
+        bestStreak: v.number(),
+        testsAttempted: v.number(),
+        totalScore: v.number(),
+        updatedAt: v.number(),
+      })
+    ),
+    globalCatalogSummary: v.optional(
+      v.object({
+        singletonKey: v.string(),
+        totalSets: v.number(),
+        totalQuestions: v.number(),
+        totalPublishedQuestions: v.number(),
+        totalUnusedQuestions: v.number(),
+        subjectBreakdown: v.array(
+          v.object({
+            subjectId: v.optional(v.string()),
+            subjectSlug: v.string(),
+            subjectName: v.string(),
+            totalSets: v.number(),
+            totalQuestions: v.number(),
+            totalTopics: v.number(),
+          })
+        ),
+        updatedAt: v.number(),
+      })
+    ),
+    userDashboardFeed: v.optional(
+      v.object({
+        userId: v.id("users"),
+        continuePractice: v.array(
+          v.object({
+            setId: v.string(),
+            setName: v.string(),
+            topicId: v.string(),
+            topicName: v.string(),
+            subjectId: v.optional(v.string()),
+            subjectName: v.optional(v.string()),
+            subTopicId: v.optional(v.string()),
+            subTopicName: v.optional(v.string()),
+            questionCount: v.number(),
+            lastAttemptScore: v.optional(v.number()),
+            lastAttemptedAt: v.optional(v.number()),
+            status: v.string(),
+          })
+        ),
+        recentAttempts: v.array(
+          v.object({
+            attemptId: v.string(),
+            testSetId: v.string(),
+            testSetName: v.string(),
+            topicId: v.optional(v.string()),
+            topicName: v.optional(v.string()),
+            score: v.number(),
+            totalQuestions: v.number(),
+            correctCount: v.number(),
+            accuracy: v.number(),
+            submittedAt: v.number(),
+          })
+        ),
+        setOverlapMap: v.optional(v.any()),
+        updatedAt: v.number(),
+      })
+    ),
+    userFilterCounts: v.optional(
+      v.object({
+        userId: v.id("users"),
+        savedCount: v.number(),
+        incorrectCount: v.number(),
+        savedBySubject: v.array(
+          v.object({
+            subjectId: v.string(),
+            subjectName: v.string(),
+            count: v.number(),
+          })
+        ),
+        savedByTopic: v.array(
+          v.object({
+            topicId: v.string(),
+            topicName: v.string(),
+            subjectId: v.optional(v.string()),
+            count: v.number(),
+          })
+        ),
+        incorrectBySubject: v.array(
+          v.object({
+            subjectId: v.string(),
+            subjectName: v.string(),
+            count: v.number(),
+          })
+        ),
+        incorrectByTopic: v.array(
+          v.object({
+            topicId: v.string(),
+            topicName: v.string(),
+            subjectId: v.optional(v.string()),
+            count: v.number(),
+          })
+        ),
+        updatedAt: v.number(),
+      })
+    ),
+    analyticsSnapshots: v.optional(
+      v.object({
+        userId: v.id("users"),
+        overallAccuracy: v.number(),
+        questionsSolved: v.number(),
+        testsAttempted: v.number(),
+        currentStreak: v.number(),
+        bestStreak: v.number(),
+        subjectMastery: v.array(
+          v.object({
+            subjectId: v.string(),
+            subjectName: v.string(),
+            accuracy: v.number(),
+            totalAnswered: v.number(),
+            correct: v.number(),
+            incorrect: v.number(),
+          })
+        ),
+        weakAreas: v.array(
+          v.object({
+            topicId: v.string(),
+            topicName: v.string(),
+            subjectName: v.optional(v.string()),
+            accuracy: v.number(),
+            totalAttempted: v.number(),
+            incorrect: v.number(),
+          })
+        ),
+        dailyActivity: v.array(
+          v.object({
+            date: v.string(),
+            testsCount: v.number(),
+            questionsCount: v.number(),
+            correctCount: v.number(),
+            accuracy: v.number(),
+          })
+        ),
+        hourlyActivity: v.array(
+          v.object({
+            hour: v.number(),
+            hourLabel: v.string(),
+            tests: v.number(),
+            correct: v.number(),
+            incorrect: v.number(),
+            total: v.number(),
+          })
+        ),
+        updatedAt: v.number(),
+      })
+    ),
+  },
+  handler: async (ctx, args) => {
+    const results: Record<string, string> = {};
+
+    // 1. globalCatalogSummary
+    if (args.globalCatalogSummary) {
+      const existing = await ctx.db
+        .query("globalCatalogSummary")
+        .withIndex("by_singletonKey", (q) => q.eq("singletonKey", args.globalCatalogSummary!.singletonKey))
+        .first();
+      if (existing) {
+        await ctx.db.patch(existing._id, args.globalCatalogSummary);
+        results.globalCatalogSummary = "updated";
+      } else {
+        await ctx.db.insert("globalCatalogSummary", args.globalCatalogSummary);
+        results.globalCatalogSummary = "inserted";
+      }
+    }
+
+    // 2. dashboardStats
+    if (args.dashboardStats) {
+      const existing = await ctx.db
+        .query("dashboardStats")
+        .withIndex("by_user", (q) => q.eq("userId", args.dashboardStats!.userId))
+        .first();
+      if (existing) {
+        await ctx.db.patch(existing._id, args.dashboardStats);
+        results.dashboardStats = "updated";
+      } else {
+        await ctx.db.insert("dashboardStats", args.dashboardStats);
+        results.dashboardStats = "inserted";
+      }
+    }
+
+    // 3. userDashboardFeed
+    if (args.userDashboardFeed) {
+      const existing = await ctx.db
+        .query("userDashboardFeed")
+        .withIndex("by_user", (q) => q.eq("userId", args.userDashboardFeed!.userId))
+        .first();
+      if (existing) {
+        await ctx.db.patch(existing._id, args.userDashboardFeed);
+        results.userDashboardFeed = "updated";
+      } else {
+        await ctx.db.insert("userDashboardFeed", args.userDashboardFeed);
+        results.userDashboardFeed = "inserted";
+      }
+    }
+
+    // 4. userFilterCounts
+    if (args.userFilterCounts) {
+      const existing = await ctx.db
+        .query("userFilterCounts")
+        .withIndex("by_user", (q) => q.eq("userId", args.userFilterCounts!.userId))
+        .first();
+      if (existing) {
+        await ctx.db.patch(existing._id, args.userFilterCounts);
+        results.userFilterCounts = "updated";
+      } else {
+        await ctx.db.insert("userFilterCounts", args.userFilterCounts);
+        results.userFilterCounts = "inserted";
+      }
+    }
+
+    // 5. analyticsSnapshots
+    if (args.analyticsSnapshots) {
+      const existing = await ctx.db
+        .query("analyticsSnapshots")
+        .withIndex("by_user", (q) => q.eq("userId", args.analyticsSnapshots!.userId))
+        .first();
+      if (existing) {
+        await ctx.db.patch(existing._id, args.analyticsSnapshots);
+        results.analyticsSnapshots = "updated";
+      } else {
+        await ctx.db.insert("analyticsSnapshots", args.analyticsSnapshots);
+        results.analyticsSnapshots = "inserted";
+      }
+    }
+
+    return { status: "success", results };
+  },
+});
+
+export const syncCanonicalTopicsAndSets = mutation({
+  args: {
+    activeTopics: v.array(
+      v.object({
+        _id: v.id("topics"),
+        subjectId: v.id("subjects"),
+        name: v.string(),
+        nameHindi: v.optional(v.string()),
+        slug: v.string(),
+        order: v.number(),
+        masterTopicId: v.optional(v.number()),
+      })
+    ),
+    archivedTopicIds: v.array(v.id("topics")),
+    sets: v.array(
+      v.object({
+        id: v.string(),
+        topicId: v.id("topics"),
+        name: v.string(),
+        order: v.number(),
+        questionCount: v.number(),
+        subTopicId: v.optional(v.string()),
+        subTopic: v.optional(v.string()),
+      })
+    ),
+  },
+  handler: async (ctx, args) => {
+    // 1. Update active topics
+    let topicsUpdated = 0;
+    for (const t of args.activeTopics) {
+      const existing = await ctx.db.get(t._id);
+      if (existing) {
+        await ctx.db.patch(t._id, {
+          name: t.name,
+          nameHindi: t.nameHindi,
+          slug: t.slug,
+          order: t.order,
+          masterTopicId: t.masterTopicId,
+          isArchived: false,
+        });
+        topicsUpdated++;
+      }
+    }
+
+    // 2. Mark obsolete topics as archived
+    let topicsArchived = 0;
+    for (const tid of args.archivedTopicIds) {
+      const existing = await ctx.db.get(tid);
+      if (existing) {
+        await ctx.db.patch(tid, { isArchived: true });
+        topicsArchived++;
+      }
+    }
+
+    // 3. Sync sets into testSets and quizSets
+    let setsSynced = 0;
+    let setsArchived = 0;
+    const existingTestSets = await ctx.db.query("testSets").collect();
+    const testSetMap = new Map(existingTestSets.map((s) => [s._id as string, s]));
+    const activeSetIdSet = new Set(args.sets.map((s) => s.id));
+
+    // Archive any sets in Convex that are no longer in the active sets list
+    for (const ts of existingTestSets) {
+      if (!activeSetIdSet.has(ts._id as string) && !ts.isArchived) {
+        await ctx.db.patch(ts._id, { isArchived: true });
+        setsArchived++;
+      }
+    }
+
+    for (const s of args.sets) {
+      const existing = testSetMap.get(s.id);
+      if (existing) {
+        await ctx.db.patch(existing._id, {
+          topicId: s.topicId,
+          subTopicId: s.subTopicId,
+          subTopic: s.subTopic,
+          name: s.name,
+          order: s.order,
+          questionCount: s.questionCount,
+          isArchived: false,
+        });
+      } else {
+        // Insert with new record
+        await ctx.db.insert("testSets", {
+          topicId: s.topicId,
+          subTopicId: s.subTopicId,
+          subTopic: s.subTopic,
+          name: s.name,
+          order: s.order,
+          questionCount: s.questionCount,
+          negativeMarking: true,
+          isArchived: false,
+        });
+      }
+      setsSynced++;
+    }
+
+    return {
+      status: "success",
+      topicsUpdated,
+      topicsArchived,
+      setsSynced,
+      setsArchived,
+    };
+  },
+});

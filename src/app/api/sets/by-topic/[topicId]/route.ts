@@ -64,12 +64,18 @@ export async function GET(
       }
     }
 
+    const { searchParams } = new URL(request.url);
+    const subTopicParam = searchParams.get("subTopicId") || searchParams.get("subTopic");
+
     const sets = getPublishedSetsList();
     const matchingSets = sets.filter((s) => {
       if (s.status === "archived" || s.isArchived) return false;
-      if (s.topicId === topicId || s.topicId === targetConvexId) return true;
-      if (targetMasterId && String(s.masterTopicId) === targetMasterId) return true;
-      return false;
+      const matchesTopic = (s.topicId === topicId || s.topicId === targetConvexId) || (targetMasterId && String(s.masterTopicId) === targetMasterId);
+      if (!matchesTopic) return false;
+      if (subTopicParam) {
+        if (s.subTopicId !== subTopicParam && s.subTopic !== subTopicParam) return false;
+      }
+      return true;
     });
 
     // Return lightweight set headers (without heavy question bodies)
@@ -78,6 +84,9 @@ export async function GET(
       id: s.id,
       name: s.name,
       topicId: s.topicId,
+      masterTopicId: s.masterTopicId,
+      subTopicId: s.subTopicId,
+      subTopic: s.subTopic,
       order: s.order ?? 0,
       questionCount: s.questionCount ?? (s.questionIds ? s.questionIds.length : (s.questions ? s.questions.length : 20)),
       negativeMarking: s.negativeMarking !== false,

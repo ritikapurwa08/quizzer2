@@ -2,7 +2,7 @@ import { ImportWizard } from "@/components/admin/ImportWizard";
 
 export default function AdminImportPage() {
   return (
-    <div className="space-y-4 max-w-4xl">
+    <div className="space-y-4 max-w-4xl mx-auto w-full min-w-0 overflow-x-hidden">
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">Import Questions</h1>

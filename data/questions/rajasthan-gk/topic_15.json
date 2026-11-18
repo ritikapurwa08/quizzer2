@@ -11404,7 +11404,7 @@
       "meta": {
         "duplicateOf": "rg_004074",
         "duplicateType": "conceptual_duplicate",
-        "duplicateSimilarity": 88.0,
+        "duplicateSimilarity": 88,
         "subTopic": "पर्यटन परिपथ, मेले, किले एवं विश्व धरोहर"
       },
       "topicFile": "topic_15.json",
@@ -13326,7 +13326,7 @@
       "meta": {
         "duplicateOf": "rg_004428",
         "duplicateType": "stem_variant",
-        "duplicateSimilarity": 95.0,
+        "duplicateSimilarity": 95,
         "subTopic": "पर्यटन परिपथ, मेले, किले एवं विश्व धरोहर"
       }
     },
@@ -13815,5 +13815,5 @@
       "meta": {}
     }
   ],
-  "totalArchivedVariants": 34
+  "totalArchivedVariants": 19
 }

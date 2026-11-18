@@ -4,11 +4,11 @@ export type SyllabusScope = "rajasthan_gk" | "english" | "all";
 export const STORAGE_KEY = "quizzer_syllabus_completed_v2";
 
 export const RAJASTHAN_GK_SECTIONS = [
-  { id: "all", title: "All 55 Topics", count: 55 },
+  { id: "all", title: "All 47 Topics", count: 47 },
   { id: "geography", title: "सामान्य ज्ञान एवं भूगोल", count: 15, match: "भूगोल" },
-  { id: "history", title: "इतिहास", count: 10, match: "इतिहास" },
+  { id: "history", title: "इतिहास", count: 8, match: "इतिहास" },
   { id: "culture", title: "कला एवं संस्कृति", count: 15, match: "संस्कृति" },
-  { id: "polity", title: "राजव्यवस्था एवं प्रशासन", count: 15, match: "राजव्यवस्था" },
+  { id: "polity", title: "राजव्यवस्था एवं प्रशासन", count: 9, match: "राजव्यवस्था" },
 ];
 
 export const ENGLISH_SECTIONS = [

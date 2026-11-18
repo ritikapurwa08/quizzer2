@@ -85,8 +85,8 @@ export default function AdminOverviewPage() {
                 <Layers className="h-4 w-4" />
               </div>
               <div className="min-w-0">
-                <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">55 Topics Pool &amp; Inventory</p>
-                <p className="text-[11px] text-muted-foreground truncate">15,949 Qs master pool &amp; sets</p>
+                <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">Topic Pool &amp; Inventory</p>
+                <p className="text-[11px] text-muted-foreground truncate">Master question pool &amp; sets</p>
               </div>
             </Card>
           </Link>

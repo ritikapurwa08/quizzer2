@@ -172,9 +172,11 @@ export async function POST(request: NextRequest) {
 
             const sEntry = {
               id: curSetId,
-              name: `${topicState.masterTopic} भाग ${curSetNum}`,
+              name: body.setName || `${body.subTopic || topicState.masterTopic} भाग ${curSetNum}`,
               topicId: convexTopicId,
               masterTopicId,
+              subTopicId: body.subTopicId || null,
+              subTopic: body.subTopic || null,
               negativeMarking: true,
               order: Number(curSetNum),
               questionCount: chunkQs.length,
@@ -190,9 +192,11 @@ export async function POST(request: NextRequest) {
         } else {
           const setEntry = {
             id: setId,
-            name: `${topicState.masterTopic} भाग ${setNumber}`,
+            name: body.setName || `${body.subTopic || topicState.masterTopic} भाग ${setNumber}`,
             topicId: convexTopicId,
             masterTopicId,
+            subTopicId: body.subTopicId || null,
+            subTopic: body.subTopic || null,
             negativeMarking: true,
             order: Number(setNumber),
             questionCount: selectedIds.length,

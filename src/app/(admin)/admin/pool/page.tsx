@@ -421,7 +421,7 @@ export default function AdminPoolOverviewPage() {
             <div className="text-2xl sm:text-3xl font-black text-foreground tabular-nums">
               {summary.totalPoolQuestions.toLocaleString()}
             </div>
-            <p className="text-[11px] text-muted-foreground mt-0.5">Across 55 canonical topics</p>
+            <p className="text-[11px] text-muted-foreground mt-0.5">Across 47 canonical topics</p>
           </div>
         </Card>
 
@@ -572,7 +572,7 @@ export default function AdminPoolOverviewPage() {
               </Button>
             </div>
             <p className="text-xs text-muted-foreground leading-relaxed">
-              All {summary.totalPoolQuestions.toLocaleString()} questions are organized across 55 master topics strictly aligned with the official RPSC 2nd Grade syllabus contract. Clutter, science & tech, and extraneous budget topics have been eliminated.
+              All {summary.totalPoolQuestions.toLocaleString()} questions are organized across 47 master topics strictly aligned with the official RPSC 2nd Grade syllabus contract. Clutter, science & tech, and extraneous budget topics have been eliminated.
             </p>
 
             {showContractInfo && (
@@ -593,9 +593,9 @@ export default function AdminPoolOverviewPage() {
 
                 <div className="p-3 rounded-xl bg-card border border-border/60">
                   <span className="font-bold text-foreground block mb-1">
-                    3. Rationalization from 73 to 55 Topics
+                    3. Rationalization to 47 Topics
                   </span>
-                  Nine scattered Rajput dynasties have been unified under official syllabus Topic 17 (Rajput Dynasties & Administration). Extraneous non-GK content has been eliminated.
+                  Scattered dynasties and multiple commissions have been unified under official syllabus Topic 17 and Topic 46. Extraneous non-GK content has been eliminated.
                 </div>
               </div>
             )}
@@ -643,16 +643,16 @@ export default function AdminPoolOverviewPage() {
         })}
       </div>
 
-      {/* ── Search, Filter & Sort Controls Bar ── */}
-      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 bg-card border border-border/80 p-3 rounded-2xl shadow-2xs">
-        {/* Search */}
-        <div className="relative flex-1">
+      {/* ── Search, Filter & Sort Controls Bar (Redesigned Clean Layout) ── */}
+      <div className="space-y-2.5 bg-card border border-border/80 p-3.5 rounded-2xl shadow-2xs">
+        {/* Row 1: Search */}
+        <div className="relative w-full">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
           <Input
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search by topic name, sub-topic, or topic number..."
-            className="pl-9 h-9 text-xs rounded-xl border-border bg-background"
+            className="pl-9 h-9 text-xs rounded-xl border-border bg-background w-full"
           />
           {searchQuery && (
             <button
@@ -664,15 +664,16 @@ export default function AdminPoolOverviewPage() {
           )}
         </div>
 
-        {/* Filters and Sort */}
-        <div className="flex items-center gap-2 flex-wrap">
-          {/* Exam Source Filter (All / PYQ / Practice) */}
+        {/* Row 2: Clean 4-Column Filter Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 pt-1 border-t border-border/40">
+          {/* Exam Source Filter */}
           <Select
             value={examTypeFilter}
             onValueChange={(val: string | null) => val && setExamTypeFilter(val as any)}
           >
-            <SelectTrigger className="h-9 px-3 rounded-xl border border-border bg-card text-xs font-medium min-w-36">
-              <SelectValue />
+            <SelectTrigger className="h-9 px-3 rounded-xl border border-border bg-background text-xs font-medium w-full">
+              <span className="text-muted-foreground mr-1 text-[11px]">Source:</span>
+              <SelectValue placeholder="All Sources" />
             </SelectTrigger>
             <SelectContent className="bg-popover border-border">
               <SelectItem value="all">All Sources (सभी प्रश्न)</SelectItem>
@@ -686,7 +687,8 @@ export default function AdminPoolOverviewPage() {
             value={selectedExam}
             onValueChange={(val: string | null) => val && setSelectedExam(val)}
           >
-            <SelectTrigger className="h-9 px-3 rounded-xl border border-border bg-card text-xs font-medium max-w-56 truncate">
+            <SelectTrigger className="h-9 px-3 rounded-xl border border-border bg-background text-xs font-medium w-full truncate">
+              <span className="text-muted-foreground mr-1 text-[11px]">Exam:</span>
               <SelectValue placeholder="All Exams" />
             </SelectTrigger>
             <SelectContent className="bg-popover border-border max-h-72">
@@ -704,8 +706,9 @@ export default function AdminPoolOverviewPage() {
             value={statusFilter}
             onValueChange={(val: string | null) => val && setStatusFilter(val as any)}
           >
-            <SelectTrigger className="h-9 px-3 rounded-xl border border-border bg-card text-xs font-medium min-w-36">
-              <SelectValue />
+            <SelectTrigger className="h-9 px-3 rounded-xl border border-border bg-background text-xs font-medium w-full">
+              <span className="text-muted-foreground mr-1 text-[11px]">Status:</span>
+              <SelectValue placeholder="All Statuses" />
             </SelectTrigger>
             <SelectContent className="bg-popover border-border">
               <SelectItem value="all">All Statuses</SelectItem>
@@ -720,19 +723,22 @@ export default function AdminPoolOverviewPage() {
             value={sortBy}
             onValueChange={(val: string | null) => val && setSortBy(val as any)}
           >
-            <SelectTrigger className="h-9 px-3 rounded-xl border border-border bg-card text-xs font-medium min-w-44">
-              <SelectValue />
+            <SelectTrigger className="h-9 px-3 rounded-xl border border-border bg-background text-xs font-medium w-full">
+              <span className="text-muted-foreground mr-1 text-[11px]">Sort:</span>
+              <SelectValue placeholder="Sort By" />
             </SelectTrigger>
             <SelectContent className="bg-popover border-border">
-              <SelectItem value="id_asc">Topic # (1 to 55)</SelectItem>
-              <SelectItem value="id_desc">Topic # (55 to 1)</SelectItem>
+              <SelectItem value="id_asc">Topic # (1 to 47)</SelectItem>
+              <SelectItem value="id_desc">Topic # (47 to 1)</SelectItem>
               <SelectItem value="pool_desc">Largest Pool (Questions)</SelectItem>
               <SelectItem value="remaining_desc">Most Unused Questions</SelectItem>
               <SelectItem value="progress_desc">Completion Progress (%)</SelectItem>
             </SelectContent>
           </Select>
+        </div>
 
-          {(examTypeFilter !== "all" || selectedExam !== "all") && (
+        {(examTypeFilter !== "all" || selectedExam !== "all") && (
+          <div className="flex justify-end pt-1">
             <Button
               variant="ghost"
               size="sm"
@@ -740,22 +746,22 @@ export default function AdminPoolOverviewPage() {
                 setExamTypeFilter("all");
                 setSelectedExam("all");
               }}
-              className="h-9 px-2.5 text-xs text-muted-foreground hover:text-foreground gap-1 rounded-xl"
+              className="h-7 px-2.5 text-xs text-muted-foreground hover:text-foreground gap-1 rounded-lg"
             >
               <X className="h-3.5 w-3.5" />
               Reset Filters
             </Button>
-          )}
-        </div>
+          </div>
+        )}
       </div>
 
       {/* ── Topic Cards Grid ── */}
       <div className="space-y-3">
         <div className="flex items-center justify-between text-xs text-muted-foreground px-1">
           <span>
-            Displayed Topics: <strong>{filteredTopics.length}</strong> / 55
+            Displayed Topics: <strong>{filteredTopics.length}</strong> / {summary.totalMasterTopics || 47}
           </span>
-          <span>Click topic to view subtopic breakdown & test sets</span>
+          <span>Click topic to view subtopic breakdown &amp; test sets</span>
         </div>
 
         {filteredTopics.length === 0 ? (

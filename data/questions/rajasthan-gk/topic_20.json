@@ -1,7 +1,7 @@
 {
   "masterTopicId": 20,
   "masterTopic": "राजस्थान के प्रजामंडल आंदोलन",
-  "totalAvailable": 138,
+  "totalAvailable": 132,
   "questions": [
     {
       "id": "rg_011830",
@@ -3732,5 +3732,5 @@
       "extractionReason": "type: match_following"
     }
   ],
-  "totalArchivedVariants": 14
+  "totalArchivedVariants": 6
 }
