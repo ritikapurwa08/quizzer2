@@ -4,30 +4,58 @@ import json
 import time
 import threading
 import random
+import uuid
+
+# Diverse modern User-Agents for request diversification
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:125.0) Gecko/20100101 Firefox/125.0",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15",
+]
+
+LANGUAGES = [
+    "hi,en-US;q=0.9,en;q=0.8",
+    "en-US,en;q=0.9,hi;q=0.8",
+    "en-IN,en;q=0.9,hi;q=0.8",
+    "hi-IN,hi;q=0.9,en;q=0.8",
+    "en-GB,en;q=0.9,hi;q=0.7",
+]
 
 class GroqKeyManager:
-    def __init__(self, keys=None, max_concurrent_per_key=1, inter_request_delay=0.20):
+    def __init__(self, keys=None, min_interval_per_key=5.2):
         if keys is None:
             keys = self.load_keys_from_env()
         self.keys = keys
-        self.max_concurrent_per_key = max_concurrent_per_key
-        self.inter_request_delay = inter_request_delay
+        # 5.2s interval per key ensures ~11.5 requests/min per key
+        # ~11.5 req * 650 tokens = ~7,475 TPM, strictly under the 8,000 TPM limit!
+        # With 15 keys, 15 / 5.2 = ~2.88 requests/second aggregate!
+        self.min_interval_per_key = min_interval_per_key
         self.lock = threading.Lock()
-        self.last_dispatch_time = 0.0
         self.rr_cursor = 0
 
-        # State tracking per key: key -> dict
+        # State tracking per key
         self.key_state = {}
         for k in self.keys:
             self.key_state[k] = {
                 "active_requests": 0,
                 "cooldown_until": 0.0,
-                "remaining_tokens": None,
-                "remaining_requests": None,
+                "last_used_time": 0.0,
                 "total_calls": 0,
                 "total_errors": 0
             }
-        print(f"[GroqKeyManager] Initialized with {len(self.keys)} keys. Inter-request pacing: {self.inter_request_delay*1000:.0f}ms.")
+        print(f"[GroqKeyManager] Initialized with {len(self.keys)} keys. Per-key pacing: {self.min_interval_per_key:.1f}s (~{len(self.keys)/self.min_interval_per_key:.1f} req/s aggregate).")
 
     @staticmethod
     def load_keys_from_env():
@@ -43,122 +71,126 @@ class GroqKeyManager:
         return keys
 
     def acquire_available_key(self, timeout=60.0):
-        """Finds a key that is not in cooldown and has concurrency < max_concurrent_per_key."""
+        """Finds a key that is eligible (not in cooldown, active_requests == 0, and min_interval passed)."""
         start = time.time()
         while time.time() - start < timeout:
-            sleep_needed = 0.0
             chosen_key = None
+            min_wait_needed = 999.0
+
             with self.lock:
                 now = time.time()
-                time_since_last = now - self.last_dispatch_time
-                if time_since_last < self.inter_request_delay:
-                    sleep_needed = self.inter_request_delay - time_since_last
-                else:
-                    num_keys = len(self.keys)
-                    for i in range(num_keys):
-                        idx = (self.rr_cursor + i) % num_keys
-                        k = self.keys[idx]
-                        state = self.key_state[k]
-                        if now < state["cooldown_until"]:
-                            continue
-                        if state["remaining_tokens"] is not None and state["remaining_tokens"] < 150:
-                            state["cooldown_until"] = now + 45.0
-                            continue
-                        if state["active_requests"] < self.max_concurrent_per_key:
-                            state["active_requests"] += 1
-                            self.last_dispatch_time = time.time()
-                            self.rr_cursor = (idx + 1) % num_keys
-                            chosen_key = k
-                            break
+                num_keys = len(self.keys)
+                for i in range(num_keys):
+                    idx = (self.rr_cursor + i) % num_keys
+                    k = self.keys[idx]
+                    state = self.key_state[k]
+
+                    # Concurrency check
+                    if state["active_requests"] > 0:
+                        continue
+
+                    # Cooldown check
+                    if now < state["cooldown_until"]:
+                        wait = state["cooldown_until"] - now
+                        if wait < min_wait_needed:
+                            min_wait_needed = wait
+                        continue
+
+                    # Rate pace check
+                    time_since_used = now - state["last_used_time"]
+                    if time_since_used < self.min_interval_per_key:
+                        wait = self.min_interval_per_key - time_since_used
+                        if wait < min_wait_needed:
+                            min_wait_needed = wait
+                        continue
+
+                    # Key is ready!
+                    state["active_requests"] = 1
+                    state["last_used_time"] = now
+                    self.rr_cursor = (idx + 1) % num_keys
+                    chosen_key = k
+                    break
 
             if chosen_key:
                 return chosen_key
-            if sleep_needed > 0:
-                time.sleep(sleep_needed)
-            else:
-                time.sleep(0.3 + random.uniform(0.05, 0.2))
 
-        raise TimeoutError("All Groq API keys are currently in cooldown or maxed out.")
+            # Sleep the minimum necessary wait time (with small jitter)
+            sleep_duration = max(0.05, min(min_wait_needed + random.uniform(0.02, 0.08), 2.0))
+            time.sleep(sleep_duration)
 
-    def release_key(self, key, headers=None, status_code=200, is_rate_limited=False, retry_after=None):
+        raise TimeoutError("All Groq API keys are currently in cooldown or active.")
+
+    def release_key(self, key, is_rate_limited=False, retry_after=None):
         with self.lock:
             now = time.time()
             state = self.key_state[key]
-            state["active_requests"] = max(0, state["active_requests"] - 1)
+            state["active_requests"] = 0
             state["total_calls"] += 1
 
-            if is_rate_limited or status_code == 429:
+            if is_rate_limited:
                 state["total_errors"] += 1
-                # 60s cooldown or retry-after header + jitter
-                cool_duration = float(retry_after) if retry_after else 60.0
-                cool_duration += random.uniform(1.0, 5.0)
+                # Cap cool duration to max 20 seconds (OTPM rolling window recovers quickly)
+                raw_cool = float(retry_after) if retry_after else 15.0
+                cool_duration = min(raw_cool, 20.0) + random.uniform(0.5, 1.5)
                 state["cooldown_until"] = now + cool_duration
-                print(f"🚫 [429 RateLimit] Key {key[:12]}... put into cooldown for {cool_duration:.1f}s.")
-            elif headers:
-                # Parse x-ratelimit headers
-                for h, val in headers.items():
-                    hl = h.lower()
-                    if hl == 'x-ratelimit-remaining-tokens':
-                        try: state["remaining_tokens"] = int(val)
-                        except: pass
-                    elif hl == 'x-ratelimit-remaining-requests':
-                        try: state["remaining_requests"] = int(val)
-                        except: pass
+                print(f"🚫 [429 RateLimit] Key {key[:12]}... in cooldown for {cool_duration:.1f}s.")
 
-    def chat_completion(self, messages, model="qwen/qwen3.8-27b", temperature=0.0, max_tokens=1000, response_format=None, max_retries=4):
-        """Execute completion with automated round-robin, pacing, header reading, and cooling."""
+    def chat_completion(self, messages, model="qwen/qwen3.8-27b", temperature=0.1, max_tokens=450, max_retries=15):
+        """Execute completion with automated round-robin, pacing, header rotation, and zero-stall cooling."""
         payload_dict = {
             "model": model,
             "messages": messages,
             "temperature": temperature,
             "max_tokens": max_tokens
         }
-        if response_format:
-            payload_dict["response_format"] = response_format
-
         data = json.dumps(payload_dict).encode('utf-8')
-        base_delay = 1.5
 
         for attempt in range(max_retries):
-            key = self.acquire_available_key()
+            key = self.acquire_available_key(timeout=90.0)
+            
+            # Randomized realistic browser headers
+            ua = random.choice(USER_AGENTS)
+            lang = random.choice(LANGUAGES)
+            req_id = uuid.uuid4().hex
+            
             req = urllib.request.Request(
                 'https://api.groq.com/openai/v1/chat/completions',
                 headers={
                     'Authorization': f'Bearer {key}',
                     'Content-Type': 'application/json',
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                    'User-Agent': ua,
+                    'Accept-Language': lang,
+                    'X-Request-ID': req_id,
+                    'Accept': 'application/json',
+                    'Connection': 'keep-alive'
                 },
                 data=data
             )
             try:
-                with urllib.request.urlopen(req, timeout=30) as resp:
-                    headers = dict(resp.headers)
+                with urllib.request.urlopen(req, timeout=25) as resp:
                     body = json.loads(resp.read().decode('utf-8'))
-                    self.release_key(key, headers=headers, status_code=200)
+                    self.release_key(key, is_rate_limited=False)
                     return body
             except urllib.error.HTTPError as e:
                 headers = dict(e.headers)
                 retry_after = headers.get('retry-after')
                 if e.code == 429:
-                    self.release_key(key, headers=headers, status_code=429, is_rate_limited=True, retry_after=retry_after)
-                    # Backoff with jitter before retrying on another key
-                    wait_time = float(retry_after) if retry_after else (base_delay * (2 ** attempt))
-                    wait_time += random.uniform(0.2, 0.8)
-                    time.sleep(wait_time)
+                    self.release_key(key, is_rate_limited=True, retry_after=retry_after)
+                    # Key is cooled down; worker IMMEDIATELY tries another key with zero delay!
+                    time.sleep(0.05 + random.uniform(0.01, 0.05))
                 else:
-                    self.release_key(key, headers=headers, status_code=e.code)
+                    self.release_key(key, is_rate_limited=False)
                     if attempt == max_retries - 1:
                         raise e
-                    time.sleep(base_delay * (attempt + 1))
+                    time.sleep(0.2 * (attempt + 1))
             except Exception as e:
-                self.release_key(key, status_code=500)
+                self.release_key(key, is_rate_limited=False)
                 if attempt == max_retries - 1:
                     raise e
-                time.sleep(base_delay * (attempt + 1))
+                time.sleep(0.2 * (attempt + 1))
 
-        raise RuntimeError("Chat completion failed after maximum retries.")
+        raise RuntimeError("Chat completion failed after maximum retries across all keys.")
 
-# Global singleton
 _manager_instance = None
 def get_groq_manager():
     global _manager_instance

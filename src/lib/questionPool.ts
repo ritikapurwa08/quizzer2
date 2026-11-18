@@ -348,10 +348,95 @@ export function hydrateSet(manifest: SetManifest): HydratedSet {
   };
 }
 
+let _mockTestsCache: Map<string, any> | null = null;
+let _mockTestsSummaryCache: any[] | null = null;
+
+export function getMockTestById(testId: string): HydratedSet | null {
+  if (!_mockTestsCache) {
+    _mockTestsCache = new Map();
+    const summaries: any[] = [];
+    const mockDir = path.join(process.cwd(), "data", "mock-tests");
+
+    if (fs.existsSync(mockDir)) {
+      const subdirs = fs.readdirSync(mockDir, { withFileTypes: true });
+      for (const dirent of subdirs) {
+        if (dirent.isDirectory()) {
+          const subDirPath = path.join(mockDir, dirent.name);
+          const files = fs.readdirSync(subDirPath).filter((f) => f.endsWith(".json"));
+          for (const file of files) {
+            try {
+              const content = JSON.parse(fs.readFileSync(path.join(subDirPath, file), "utf-8"));
+              const id = content.testId || file.replace(".json", "");
+              _mockTestsCache.set(id, content);
+              _mockTestsCache.set(file.replace(".json", ""), content);
+
+              summaries.push({
+                testId: id,
+                title: content.title || "Full Mock Test",
+                exam: content.exam || "Model Exam",
+                provider: content.provider || "Exam Prep",
+                totalQuestions: content.totalQuestions || content.questions?.length || 120,
+                maxMarks: content.maxMarks || 240,
+                durationMinutes: content.durationMinutes || 150,
+                sections: content.sections || [],
+              });
+            } catch (err) {
+              console.error(`Error loading mock test ${file}:`, err);
+            }
+          }
+        }
+      }
+    }
+    _mockTestsSummaryCache = summaries;
+  }
+
+  const raw = _mockTestsCache.get(testId);
+  if (!raw) return null;
+
+  return {
+    id: raw.testId || testId,
+    name: raw.title || raw.name || "Full Mock Test",
+    topicId: raw.exam || "mock_exam",
+    negativeMarking: true,
+    questionCount: raw.totalQuestions || raw.questions?.length || 120,
+    durationMinutes: raw.durationMinutes || 150,
+    questions: (raw.questions || []).map((q: any, i: number) => ({
+      _id: q.id || `mock_${i + 1}`,
+      id: q.id || `mock_${i + 1}`,
+      order: q.number || i + 1,
+      type: q.type || "mcq",
+      questionText: q.questionText || q.question || "",
+      options: (q.options || []).map((opt: any, optIdx: number) => ({
+        id: typeof opt === "string" ? `opt${optIdx + 1}` : opt.id || `opt${optIdx + 1}`,
+        text: typeof opt === "string" ? opt : opt.text || "",
+      })),
+      correctAnswer: q.correctAnswer || "opt1",
+      explanation: q.explanation || "",
+      difficulty: q.difficulty || "medium",
+      reference: q.reference || `Q.${i + 1}`,
+      meta: q.meta || {},
+    })),
+  };
+}
+
+export function listMockTestSummaries(): any[] {
+  if (_mockTestsSummaryCache) return _mockTestsSummaryCache;
+  getMockTestById("__warmup__");
+  return _mockTestsSummaryCache || [];
+}
+
 export function getHydratedPublishedSet(setId: string): HydratedSet | null {
   const manifests = getPublishedManifests();
   const match = manifests.find((s) => s.id === setId || (s as any).setId === setId || (s as any)._id === setId);
-  if (!match) return null;
-  return hydrateSet(match);
+  if (match) {
+    return hydrateSet(match);
+  }
+
+  const mock = getMockTestById(setId);
+  if (mock) {
+    return mock;
+  }
+
+  return null;
 }
 

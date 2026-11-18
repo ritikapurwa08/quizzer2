@@ -2576,7 +2576,7 @@
       "masterTopic": "राजस्थान का पर्यटन एवं पर्यटन परिपथ",
       "question": "‘पैलेस ऑन व्हील्स’ ट्रेन किस जगह नहीं जाती है -",
       "options": [
-        "वाई माधोपुर",
+        "सवाई माधोपुर",
         "चित्तौड़गढ़",
         "जैसलमेर",
         "धौलपुर"
@@ -3232,7 +3232,7 @@
         "अग्नि",
         "सूर्य"
       ],
-      "answer": "C",
+      "answer": "D",
       "exam": "Stenographer Comp. Exam - (Paper I)",
       "year": 2011,
       "explanation": "गलता के सूर्य मंदिर को को सवाई जयसिंह द्वितीय के समय 1734 में उनके मंत्री राव कृपा राम ने बनवाया था। खास बात यह कि वे स्वयं जैन धर्म के अनुयायी थे, लेकिन सूर्य देवता में आस्था के कारण यह मंदिर बनवाया। सूर्य देवता का सबसे प्राचीनतम मंदिर जयपुर के गलता में है।",
@@ -3240,7 +3240,11 @@
       "topicId": 15,
       "type": "mcq",
       "questionText": "गलता तीर्थ पर स्थित मंदिर किस देवता को समर्पित है -",
-      "meta": {}
+      "meta": {
+        "auditedAt": "2026-11-17T16:00:00Z",
+        "qualityAudited": true,
+        "auditNote": "Verified Answer Key Correction: Changed from C to D. गलता तीर्थ (जयपुर) की पहाड़ी पर स्थित ऐतिहासिक मंदिर सूर्य देवता को समर्पित है।"
+      }
     },
     {
       "id": "rg_004240",
@@ -4216,7 +4220,7 @@
         "खण्डेला-सीकर",
         "गंगापुरसिटी-सवाई माधोपुर"
       ],
-      "answer": "C",
+      "answer": "B",
       "exam": null,
       "year": null,
       "explanation": "सांगानेर-जयपुर में स्थित पुरातनकालीन मंदिरों जैसे-सांगा बाबा मंदिर, त्रिपोलिया बालाजी, संघी जी जैन मंदिर को धार्मिक पर्यटन सर्किट में शामिल किया गया है।",
@@ -4224,7 +4228,11 @@
       "topicId": 15,
       "type": "mcq",
       "questionText": "सांगा बाबा मंदिर, त्रिपोलिया बालाजी, संघी जी जैन मंदिर कहां स्थित है -",
-      "meta": {}
+      "meta": {
+        "auditedAt": "2026-11-17T16:00:00Z",
+        "qualityAudited": true,
+        "auditNote": "Verified Answer Key Correction: Changed from C to B. सांगा बाबा मंदिर, त्रिपोलिया बालाजी तथा संघी जी का प्राचीन दिगंबर जैन मंदिर सांगानेर (जयपुर) में स्थित हैं।"
+      }
     },
     {
       "id": "rg_004016",
@@ -4236,7 +4244,7 @@
       "question": "दाऊ मदनमोहन धार्मिक स्थल किस जिले में स्थित है -",
       "options": [
         "अजमेर",
-        "वाई माधोपुर",
+        "सवाई माधोपुर",
         "सीकर",
         "भरतपुर"
       ],
@@ -7929,7 +7937,10 @@
       "topicId": 15,
       "type": "mcq",
       "questionText": "राजस्थान के किस ऐतिहासिक धरोहर को यूनेस्को की वल्र्ड हेरिटेज सूची में शामिल नहीं किया गया है -",
-      "meta": {}
+      "meta": {
+        "isAnchor": true,
+        "clusterVariantCount": 1
+      }
     },
     {
       "id": "rg_004447",
@@ -10478,7 +10489,10 @@
       "topicId": 15,
       "type": "mcq",
       "questionText": "निम्नलिखित में से कौन‑सा सही मिलान नहीं है?",
-      "meta": {},
+      "meta": {
+        "isAnchor": true,
+        "clusterVariantCount": 1
+      },
       "topicFile": "topic_15.json",
       "extractionReason": "statement_or_list_in_text"
     },
@@ -10569,7 +10583,11 @@
       "topicId": 15,
       "type": "mcq",
       "questionText": "निम्न में से कौन‑सा मिलान नहीं है?",
-      "meta": {},
+      "meta": {
+        "duplicateOf": "rg_004074",
+        "duplicateType": "conceptual_duplicate",
+        "duplicateSimilarity": 88.0
+      },
       "topicFile": "topic_15.json",
       "extractionReason": "statement_or_list_in_text"
     },
@@ -12438,7 +12456,11 @@
       "topicId": 15,
       "type": "mcq",
       "questionText": "राजस्थान की किस ऐतिहासिक धरोहर को युनेस्को की वल्र्ड हेरिटेज सूची में शामिल किया गया है -",
-      "meta": {}
+      "meta": {
+        "duplicateOf": "rg_004428",
+        "duplicateType": "stem_variant",
+        "duplicateSimilarity": 95.0
+      }
     },
     {
       "id": "rg_004150",
