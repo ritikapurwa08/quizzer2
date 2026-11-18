@@ -8,9 +8,43 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
-# Rajasthan GK Authoritative Master Syllabus Contract (55 Topics across 4 Canonical Subjects)
+# Package Manager & Command Execution Contract: ALWAYS USE `bun`
 
-The application and question bank are strictly and exclusively dedicated to Rajasthan GK across the following 4 Canonical Subjects and 55 Master Topics aligned with the RPSC Senior Teacher (2nd Grade) curriculum. Clutter, unrelated topics (Science & Tech, separate Budget), and artificial splits have been eliminated.
+> [!IMPORTANT]
+> **MANDATORY TOOLING**: Always use **`bun`** instead of `npm`, `yarn`, or `npx` for ALL terminal commands, scripts, builds, and package installations.
+> Before executing ANY command, inspect and verify against these project rules.
+> - Dev Server: `bun run dev` (NOT `npm run dev`)
+> - Production Build: `bun run build` (NOT `npm run build`)
+> - Script Execution: `bun <script.ts>` or `bun run <script>` (NOT `node` or `ts-node`)
+> - Adding Packages: `bun add <package>` (NOT `npm install`)
+> - Running CLI Binaries: `bunx --bun <command>` (NOT `npx`)
+
+---
+
+# UI, Component Architecture & Theme Centrification Standards
+
+1. **Always Use Shadcn UI Components**:
+   - Strictly build upon Shadcn components located in `@/components/ui/*` (`Button`, `Card`, `Badge`, `Select`, `Dialog`, etc.).
+   - Do not write raw unstyled HTML elements when an established Shadcn component exists.
+
+2. **Component Length Rule (Max 300 Lines)**:
+   - **No component file should exceed 300 lines**.
+   - Break down complex or lengthy views into modular, single-responsibility subcomponents placed in dedicated subdirectories (e.g. `src/components/admin/import/`).
+   - Keep business logic in custom hooks or utility functions.
+
+3. **Theme Centrification (Semantic CSS Variables)**:
+   - Exclusively use Tailwind semantic theme tokens: `bg-card`, `bg-background`, `bg-popover`, `text-foreground`, `text-muted-foreground`, `border-border`, `text-primary`, `bg-primary`, `bg-success`, `text-destructive`.
+   - NEVER hardcode arbitrary hex colors or rogue styles that break light/dark mode parity.
+
+4. **Mobile Responsiveness & Zero Overflow**:
+   - Ensure all flex headers, cards, and grid sections use `min-w-0`, `w-full`, and `overflow-x-hidden`.
+   - Use responsive flex directions (`flex-col sm:flex-row`) for header action bars and badges so viewports never overflow on mobile (360px–400px).
+
+---
+
+# Rajasthan GK Authoritative Master Syllabus Contract (47 Master Topics across 4 Canonical Subjects)
+
+The application and question bank are strictly and exclusively dedicated to Rajasthan GK across the following 4 Canonical Subjects and 47 Master Topics aligned with the RPSC Senior Teacher (2nd Grade) curriculum.
 
 ### A. राजस्थान सामान्य ज्ञान एवं भूगोल (15 Topics)
 1. राजस्थान का सामान्य ज्ञान
@@ -29,51 +63,43 @@ The application and question bank are strictly and exclusively dedicated to Raja
 14. राजस्थान का परिवहन
 15. राजस्थान का पर्यटन एवं पर्यटन परिपथ
 
-### B. राजस्थान का इतिहास (10 Topics)
+### B. राजस्थान का इतिहास (8 Topics)
 16. राजस्थान की प्राचीन सभ्यताएँ एवं पुरातात्विक स्थल
 17. राजस्थान के प्रमुख राजपूत राजवंश एवं प्रशासनिक व्यवस्था (8वीं से 18वीं सदी)
 18. राजस्थान में 1857 का विद्रोह एवं ब्रिटिश संधियाँ
 19. राजस्थान के किसान एवं जनजातीय आंदोलन
 20. राजस्थान के प्रजामंडल आंदोलन
-21. राजस्थान में स्वतंत्रता आंदोलन के संगठन एवं संस्थाएँ
-22. राजस्थान में सामाजिक एवं राजनीतिक जागरण
-23. राजस्थान का एकीकरण
-24. राजस्थान के प्रमुख व्यक्तित्व
-25. राजस्थान की महिला व्यक्तित्व एवं पत्रकारिता
+21. राजस्थान का एकीकरण
+22. राजस्थान में राजनीतिक जन-जागरण, संगठन एवं समाचार पत्र/पत्रकारिता
+23. राजस्थान के प्रमुख व्यक्तित्व (पुरुष एवं महिला)
 
 ### C. राजस्थान कला एवं संस्कृति (15 Topics)
-26. राजस्थान के मेले
-27. राजस्थान के त्योहार
-28. राजस्थान की रीति-रिवाज एवं परंपराएँ
-29. राजस्थान की वेशभूषा एवं आभूषण
-30. राजस्थान की स्थापत्य कला एवं वास्तुकला
-31. राजस्थान की चित्रकला शैलियाँ
-32. राजस्थान के हस्तशिल्प एवं हस्तकलाएँ
-33. राजस्थान के लोक देवता एवं लोक देवियाँ
-34. राजस्थान के संत, संप्रदाय एवं धार्मिक परंपराएँ
-35. राजस्थान का लोक संगीत एवं लोकगीत
-36. राजस्थान के लोक नृत्य एवं नाट्य
-37. राजस्थानी भाषा एवं बोलियाँ
-38. राजस्थानी साहित्य
-39. राजस्थानी शब्दावली
-40. राजस्थानी मुहावरे एवं लोकोक्तियाँ
+24. राजस्थान के मेले
+25. राजस्थान के त्योहार
+26. राजस्थान की रीति-रिवाज एवं परंपराएँ
+27. राजस्थान की वेशभूषा एवं आभूषण
+28. राजस्थान की स्थापत्य कला एवं वास्तुकला
+29. राजस्थान की चित्रकला शैलियाँ
+30. राजस्थान के हस्तशिल्प एवं हस्तकलाएँ
+31. राजस्थान के लोक देवता एवं लोक देवियाँ
+32. राजस्थान के संत, संप्रदाय एवं धार्मिक परंपराएँ
+33. राजस्थान का लोक संगीत एवं लोकगीत
+34. राजस्थान के लोक नृत्य एवं नाट्य
+35. राजस्थानी भाषा एवं बोलियाँ
+36. राजस्थानी साहित्य
+37. राजस्थानी शब्दावली
+38. राजस्थानी मुहावरे एवं लोकोक्तियाँ
 
-### D. राजस्थान राजव्यवस्था एवं प्रशासन (15 Topics)
-41. राजस्थान के राज्यपाल
-42. राजस्थान के मुख्यमंत्री एवं मंत्रिपरिषद
-43. राजस्थान राज्य विधानमंडल (विधानसभा)
-44. राजस्थान उच्च न्यायालय एवं अधीनस्थ न्यायपालिका
-45. राज्य सचिवालय, मुख्य सचिव, संभागीय आयुक्त एवं जिला प्रशासन
-46. राजस्थान पंचायती राज व्यवस्था एवं प्रशासन
-47. राजस्थान नगरीय स्वशासन एवं नगरपालिका
-48. राजस्थान लोक सेवा आयोग (RPSC)
-49. राजस्थान राज्य निर्वाचन आयोग (RSEC)
-50. राजस्थान राज्य मानवाधिकार आयोग (RSHRC)
-51. राजस्थान राज्य महिला आयोग (RSCW)
-52. राजस्थान राज्य वित्त आयोग (RSFC)
-53. राजस्थान राज्य विधिक सेवा प्राधिकरण (RSLA / RSLSA)
-54. राजस्थान लोकायुक्त एवं उप-लोकायुक्त
-55. राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र
+### D. राजस्थान राजव्यवस्था एवं प्रशासन (9 Topics)
+39. राजस्थान के राज्यपाल
+40. राजस्थान के मुख्यमंत्री एवं मंत्रिपरिषद
+41. राजस्थान राज्य विधानमंडल (विधानसभा)
+42. राजस्थान उच्च न्यायालय एवं अधीनस्थ न्यायपालिका
+43. राज्य सचिवालय, मुख्य सचिव, संभागीय आयुक्त एवं जिला प्रशासन
+44. राजस्थान पंचायती राज व्यवस्था एवं प्रशासन
+45. राजस्थान नगरीय स्वशासन एवं नगरपालिका
+46. राजस्थान के प्रमुख आयोग एवं संवैधानिक/सांविधिक संस्थाएँ
+47. राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र
 
 ---
 
@@ -107,6 +133,3 @@ The application operates on the **Vercel Hobby (Free)** and **Convex Free Tier**
    - **Rule**: Keep HTTP payloads lightweight. API routes return only required fields. Static assets have 1-year immutable caching (`max-age=31536000`).
 5. **Function Invocations (Monthly Cap: 1 Million · Target: < 250K)**:
    - **Rule**: Maximize static page pre-rendering (`○ Static`). Only dynamic data fetching uses API routes or Convex client queries.
-
-
-
