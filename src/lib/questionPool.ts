@@ -49,6 +49,7 @@ let _gkQuestionsCache: any[] | null = null;
 let _allQuestionsCache: any[] | null = null;
 let _idMappingCache: Record<string, string> | null = null;
 let _publishedManifestsCache: SetManifest[] | null = null;
+let _publishedManifestsMtime = 0;
 let _variantsMapCache: Map<string, any[]> | null = null;
 
 function getIdMapping(): Record<string, string> {
@@ -294,8 +295,6 @@ export function getAllQuestions(): any[] {
 }
 
 export function getPublishedManifests(): SetManifest[] {
-  if (_publishedManifestsCache) return _publishedManifestsCache;
-
   const setsFilePath = DATA_PATHS.publishedSets;
   if (!fs.existsSync(setsFilePath)) {
     _publishedManifestsCache = [];
@@ -303,9 +302,13 @@ export function getPublishedManifests(): SetManifest[] {
   }
 
   try {
-    const raw = fs.readFileSync(setsFilePath, "utf-8");
-    const parsed = JSON.parse(raw);
-    _publishedManifestsCache = Array.isArray(parsed) ? parsed : [];
+    const stat = fs.statSync(setsFilePath);
+    if (!_publishedManifestsCache || stat.mtimeMs !== _publishedManifestsMtime) {
+      const raw = fs.readFileSync(setsFilePath, "utf-8");
+      const parsed = JSON.parse(raw);
+      _publishedManifestsCache = Array.isArray(parsed) ? parsed : [];
+      _publishedManifestsMtime = stat.mtimeMs;
+    }
   } catch (err) {
     console.error("Error reading published sets:", err);
     _publishedManifestsCache = [];

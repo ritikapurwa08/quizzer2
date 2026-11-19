@@ -69,10 +69,11 @@ export default function SubjectDetailPage() {
   }, []);
 
   const effectiveCounts = useMemo(() => {
-    if (Object.keys(localTopicCounts).length > 0) {
-      return { ...setCounts, ...localTopicCounts };
+    const res: Record<string, number> = { ...setCounts };
+    for (const [tId, count] of Object.entries(localTopicCounts)) {
+      res[tId] = Math.max(res[tId] ?? 0, count);
     }
-    return setCounts;
+    return res;
   }, [setCounts, localTopicCounts]);
 
   const subjectTitle = getSubjectDisplayName(subject) || "Subject";

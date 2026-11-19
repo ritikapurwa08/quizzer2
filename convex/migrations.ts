@@ -617,3 +617,202 @@ export const syncCanonicalTopicsAndSets = mutation({
     };
   },
 });
+
+export const alignCanonicalSyllabusAndSets = mutation({
+  args: {
+    archivedSetIds: v.optional(v.array(v.id("testSets"))),
+  },
+  handler: async (ctx, args) => {
+    const historySubjectId = "k974ps5mw5zdrmsx80wsd3jf118ejgt8" as Id<"subjects">;
+    const politySubjectId = "k975rqwzahf9bmqt9aqr0ycdw18ekvf9" as Id<"subjects">;
+
+    // 1. History Topics
+    await ctx.db.patch("kh759faqj043cc3khw4wwc7dq18ejdr8" as Id<"topics">, {
+      nameHindi: "राजस्थान की प्राचीन सभ्यताएँ एवं पुरातात्विक स्थल",
+      order: 0,
+      masterTopicId: 16,
+      isArchived: false,
+    });
+    await ctx.db.patch("kh72tdqrxyjr3qg1b2s504kf5x8fx4ce" as Id<"topics">, {
+      nameHindi: "राजस्थान के प्रमुख राजपूत राजवंश एवं प्रशासनिक व्यवस्था (8वीं से 18वीं सदी)",
+      order: 1,
+      masterTopicId: 17,
+      isArchived: false,
+    });
+    await ctx.db.patch("kh75eby6ngccdsd17f54vgz9858fxms4" as Id<"topics">, {
+      nameHindi: "राजस्थान में 1857 का विद्रोह एवं ब्रिटिश संधियाँ",
+      order: 2,
+      masterTopicId: 18,
+      isArchived: false,
+    });
+    await ctx.db.patch("kh79j0wzsjjj712p7y22jzvqfx8ejba3" as Id<"topics">, {
+      nameHindi: "राजस्थान के किसान एवं जनजातीय आंदोलन",
+      order: 3,
+      masterTopicId: 19,
+      isArchived: false,
+    });
+    await ctx.db.patch("kh7achv8vy39e7s0wn9b4sr63s8ej9tx" as Id<"topics">, {
+      nameHindi: "राजस्थान के प्रजामंडल आंदोलन",
+      order: 4,
+      masterTopicId: 20,
+      isArchived: false,
+    });
+    await ctx.db.patch("kh7bk26ynkd94rzfg7trhqnrn58ektfp" as Id<"topics">, {
+      nameHindi: "राजस्थान का एकीकरण",
+      order: 5,
+      masterTopicId: 21,
+      isArchived: false,
+    });
+    await ctx.db.patch("kh780hyw1m96hhhk2z1mzd99w58jevaq" as Id<"topics">, {
+      name: "Political Awakening, Organizations and Journalism in Rajasthan",
+      nameHindi: "राजस्थान में राजनीतिक जन-जागरण, संगठन एवं समाचार पत्र/पत्रकारिता",
+      slug: "political-awakening-organizations-and-journalism-in-rajasthan",
+      order: 6,
+      masterTopicId: 22,
+      isArchived: false,
+    });
+    await ctx.db.patch("kh7e6pj1ydwjyb51rwj059dkkd8ekt9j" as Id<"topics">, {
+      name: "Prominent Personalities of Rajasthan (Men and Women)",
+      nameHindi: "राजस्थान के प्रमुख व्यक्तित्व (पुरुष एवं महिला)",
+      slug: "prominent-personalities-of-rajasthan",
+      order: 7,
+      masterTopicId: 23,
+      isArchived: false,
+    });
+
+    // Archive legacy empty topics in History
+    await ctx.db.patch("kh7d6xfk4zn9a18qtqdhdqdp2d8ek37a" as Id<"topics">, { isArchived: true });
+    await ctx.db.patch("kh71ef1wnk4yknpeptvgkf4ghd8fw5hs" as Id<"topics">, { isArchived: true });
+
+    // Reassign sets for Topic 22 to kh780hyw1m96hhhk2z1mzd99w58jevaq
+    const t22Sets = [
+      "kd7f42be1wgvss1sxt3611bd7d8jfn1c",
+      "kd708pw8bjwhbckm74cycjhp5d8jeyyf",
+      "kd7f40yf7gtmnh0ke1mn9dhwm98jey20",
+      "kd7cdzvkg0xsq8mnbjtkeqqxj18jepcd",
+    ] as Id<"testSets">[];
+    for (const sid of t22Sets) {
+      const s = await ctx.db.get(sid);
+      if (s) {
+        await ctx.db.patch(sid, { topicId: "kh780hyw1m96hhhk2z1mzd99w58jevaq" as Id<"topics">, isArchived: false });
+      }
+    }
+
+    // 2. Polity Topics
+    let topic46 = await ctx.db
+      .query("topics")
+      .withIndex("by_subject", (q) => q.eq("subjectId", politySubjectId))
+      .filter((q) => q.eq(q.field("masterTopicId"), 46))
+      .first();
+
+    let topic46Id: Id<"topics">;
+    if (!topic46) {
+      topic46Id = await ctx.db.insert("topics", {
+        subjectId: politySubjectId,
+        name: "Major Commissions and Constitutional/Statutory Bodies of Rajasthan",
+        nameHindi: "राजस्थान के प्रमुख आयोग एवं संवैधानिक/सांविधिक संस्थाएँ",
+        slug: "major-commissions-and-statutory-bodies-of-rajasthan",
+        order: 7,
+        masterTopicId: 46,
+        isArchived: false,
+      });
+    } else {
+      topic46Id = topic46._id;
+      await ctx.db.patch(topic46Id, {
+        name: "Major Commissions and Constitutional/Statutory Bodies of Rajasthan",
+        nameHindi: "राजस्थान के प्रमुख आयोग एवं संवैधानिक/सांविधिक संस्थाएँ",
+        slug: "major-commissions-and-statutory-bodies-of-rajasthan",
+        order: 7,
+        masterTopicId: 46,
+        isArchived: false,
+      });
+    }
+
+    // Topic 47: Research Centers
+    await ctx.db.patch("kh7501jq75wc7zay8zxx71nkjd8ek00b" as Id<"topics">, {
+      nameHindi: "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र",
+      order: 8,
+      masterTopicId: 47,
+      isArchived: false,
+    });
+
+    // Reassign Topic 46 sets to topic46Id
+    const t46Sets = [
+      "kd75pxjgwfvh861q9cmhbgv23x8g0s9f",
+      "kd7ctertem6f2zy1z4c6nr3rax8febh8",
+      "kd7ddwxx5drts6p0m881kjaacx8ff7d1",
+      "kd79hjqmqy7s9hpk5gahm8vjp98ff8tz",
+      "kd7a6b6bxs9ysjzcc1n24fdbc18ffrmg",
+      "kd79kth0dr28a095y03ccydw1n8ffvj7",
+    ] as Id<"testSets">[];
+    for (const sid of t46Sets) {
+      const s = await ctx.db.get(sid);
+      if (s) {
+        await ctx.db.patch(sid, { topicId: topic46Id, isArchived: false });
+      }
+    }
+
+    // Archive obsolete individual commission topics in Polity
+    const splitTopics = [
+      "kh753e1jh40gaxtqnh67742g198jeky4",
+      "kh7bp549saeb6wmnvsk92dy6kx8ej315",
+      "kh72310dhm2v1ns31deqt3r1bd8ejrfr",
+      "kh74jb6eb0nf0yh4mct6zeyk0s8ejm02",
+      "kh7bbc8xrc4zka6q2w289m3zk98fx1zm",
+      "kh78dpg7ce485z8ynfpc574mg98fwckk",
+      "kh753eq9qzk1k7qw6m1z2nw0b98fxqhj",
+    ] as Id<"topics">[];
+    for (const tid of splitTopics) {
+      const t = await ctx.db.get(tid);
+      if (t) {
+        await ctx.db.patch(tid, { isArchived: true });
+      }
+    }
+
+    // 3. Archive any dangling/fragmented sets passed in
+    let setsArchived = 0;
+    if (args.archivedSetIds) {
+      for (const sid of args.archivedSetIds) {
+        const s = await ctx.db.get(sid);
+        if (s && !s.isArchived) {
+          await ctx.db.patch(sid, { isArchived: true });
+          setsArchived++;
+        }
+      }
+    }
+
+    return {
+      success: true,
+      topic46Id,
+      setsArchived,
+    };
+  },
+});
+
+export const patchFinalMismatches = mutation({
+  args: {},
+  handler: async (ctx) => {
+    const t46TopicId = "kh701zyxkm46120qgxh7mns8rd8jh27d" as Id<"topics">;
+    const t46MissingIds = [
+      "kd7dmk5vrby02hybyrm337w9s18fe88w",
+      "kd7eb62a5edrdwvpjr4tn6q4js8fe287",
+      "kd79pxdr6qd7ddt273fp6v9aes8ffz8f",
+      "kd75n6frnygzs2ryq4gm3b9egx8ff3bm",
+    ] as Id<"testSets">[];
+    for (const id of t46MissingIds) {
+      await ctx.db.patch(id, { topicId: t46TopicId, isArchived: false });
+    }
+
+    const t1Ids = [
+      "kd7bfdfeqe4tx343zpgx0wzmhx8je82f",
+      "kd77000qk287z36qr986q5nks98jf0qd",
+    ] as Id<"testSets">[];
+    for (const id of t1Ids) {
+      await ctx.db.patch(id, { isArchived: false });
+    }
+
+    return { success: true };
+  },
+});
+
+

@@ -1,23 +1,18 @@
 "use client";
 
 import { useState, useEffect, useMemo, Suspense } from "react";
-import Link from "next/link";
 import { useParams, useSearchParams, useRouter } from "next/navigation";
 import { useQuery } from "convex/react";
 
 import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 import { EmptyState } from "@/components/shared/EmptyState";
-import { Card } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
-import {
-  FileText,
-  Play,
-  CheckCircle2,
-  Layers,
-} from "lucide-react";
+import { FileText, CheckCircle2 } from "lucide-react";
 import { Id } from "../../../../../../convex/_generated/dataModel";
 import { api } from "../../../../../../convex/_generated/api";
-import { getSubjectDisplayName, getTopicDisplayName, cn } from "@/lib/utils";
+import { getSubjectDisplayName, getTopicDisplayName } from "@/lib/utils";
+import { TopicSubTopicFilter } from "@/components/syllabus/TopicSubTopicFilter";
+import { TopicSetsGrid } from "@/components/syllabus/TopicSetsGrid";
 
 export function TopicDetailView({ forcedSubTopicId }: { forcedSubTopicId?: string }) {
   const { subjectId, topicId } = useParams<{ subjectId: string; topicId: string }>();
@@ -50,14 +45,9 @@ export function TopicDetailView({ forcedSubTopicId }: { forcedSubTopicId?: strin
       .finally(() => setIsLocalLoaded(true));
   }, [tId]);
 
-  // Combine Convex sets with local metadata to ensure subTopicId and subTopic are preserved
+  // Combine Convex sets with local metadata to ensure all active sets are preserved
   const allTopicSets = useMemo(() => {
-    let sourceList: any[] = [];
-    if (localTopicSets && localTopicSets.length > 0) {
-      sourceList = localTopicSets.filter((s) => s.status !== "archived" && !s.isArchived);
-    } else if (testSets && testSets.length > 0) {
-      sourceList = testSets.filter((s) => !s.isArchived);
-    } else if (!isLocalLoaded) {
+    if (!isLocalLoaded && (!testSets || testSets.length === 0)) {
       return [];
     }
 
@@ -65,23 +55,33 @@ export function TopicDetailView({ forcedSubTopicId }: { forcedSubTopicId?: strin
     const map = new Map<string, any>();
     const seenNames = new Set<string>();
 
-    for (const s of sourceList) {
+    // 1. Add local sets first (preserves rich local metadata like subTopic)
+    const activeLocal = (localTopicSets || []).filter((s) => s.status !== "archived" && !s.isArchived);
+    for (const s of activeLocal) {
       const id = s._id || s.id;
       const cleanName = (s.name || "").replace(/\s+/g, " ").trim().toLowerCase();
-      const localMeta = localMap.get(id);
-
-      const merged = {
-        ...s,
-        _id: id,
-        subTopicId: s.subTopicId || localMeta?.subTopicId,
-        subTopic: s.subTopic || localMeta?.subTopic,
-      };
-
       if (!map.has(id) && (!cleanName || !seenNames.has(cleanName))) {
-        map.set(id, merged);
+        map.set(id, { ...s, _id: id });
         if (cleanName) seenNames.add(cleanName);
       }
     }
+
+    // 2. Incorporate any active Convex sets not already present
+    const activeConvex = (testSets || []).filter((s) => !s.isArchived);
+    for (const s of activeConvex) {
+      const id = s._id;
+      const cleanName = (s.name || "").replace(/\s+/g, " ").trim().toLowerCase();
+      const localMeta = localMap.get(id);
+      if (!map.has(id) && (!cleanName || !seenNames.has(cleanName))) {
+        map.set(id, {
+          ...s,
+          subTopicId: s.subTopicId || localMeta?.subTopicId,
+          subTopic: s.subTopic || localMeta?.subTopic,
+        });
+        if (cleanName) seenNames.add(cleanName);
+      }
+    }
+
     return Array.from(map.values()).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
   }, [testSets, localTopicSets, isLocalLoaded]);
 
@@ -158,83 +158,21 @@ export function TopicDetailView({ forcedSubTopicId }: { forcedSubTopicId?: strin
               </span>
             )}
           </div>
-          <p className="text-sm text-muted-foreground mt-0.5">
-            Practice test sets for this topic.
-            {topicProgress && topicProgress.attemptCount > 0 && (
-              <span className="ml-2 text-foreground font-medium">
-                · {topicProgress.attemptCount} attempts recorded
-                {topicProgress.latestScore !== undefined
-                  ? ` · Latest Score: ${topicProgress.latestScore}`
-                  : ""}
-              </span>
-            )}
-          </p>
         </div>
       </div>
 
-      {/* ── Sub-Topic Navigation Tabs / Pills (Clean Day-1 UI) ──────────────── */}
-      {subTopics.length > 0 && (
-        <div className="space-y-2 pt-1 pb-2 border-b border-border/60">
-          <div className="flex items-center gap-1.5 text-xs font-semibold text-muted-foreground">
-            <Layers className="h-3.5 w-3.5 text-primary" />
-            <span>Targeted Sub-Topics ({subTopics.length}):</span>
-          </div>
+      {/* Sub-Topics Tabs */}
+      <TopicSubTopicFilter
+        subTopics={subTopics}
+        activeSubTopic={activeSubTopic}
+        totalSets={totalSets}
+        onSelect={handleSubTopicChange}
+      />
 
-          <div className="flex items-center gap-2 overflow-x-auto pb-1.5 scrollbar-thin">
-            <button
-              type="button"
-              onClick={() => handleSubTopicChange("all")}
-              className={cn(
-                "px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5",
-                activeSubTopic === "all"
-                  ? "bg-primary text-primary-foreground shadow-xs font-semibold"
-                  : "bg-muted/60 text-muted-foreground hover:bg-muted hover:text-foreground"
-              )}
-            >
-              <span>सभी सेट्स</span>
-              <span className="text-[10px] opacity-80 px-1 py-0.2 rounded-full bg-background/20 font-bold">
-                {allTopicSets.length}
-              </span>
-            </button>
-
-            {subTopics.map((sub) => {
-              const isActive = activeSubTopic === sub.id;
-              return (
-                <button
-                  key={sub.id}
-                  type="button"
-                  onClick={() => handleSubTopicChange(sub.id)}
-                  className={cn(
-                    "px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 font-hindi",
-                    isActive
-                      ? "bg-primary text-primary-foreground shadow-xs font-semibold"
-                      : "bg-muted/60 text-muted-foreground hover:bg-muted hover:text-foreground"
-                  )}
-                >
-                  <span>{sub.name}</span>
-                  <span
-                    className={cn(
-                      "text-[10px] px-1.5 py-0.2 rounded-full font-bold",
-                      isActive
-                        ? "bg-background/25 text-primary-foreground"
-                        : "bg-background text-muted-foreground"
-                    )}
-                  >
-                    {sub.count}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      )}
-
-      {/* ── Loading Skeleton Placeholder ─────────────────────────────────── */}
+      {/* Loading Skeleton Placeholder */}
       {!isLocalLoaded && testSets === undefined && (
         <div className="space-y-3">
-          <div className="flex items-center justify-between">
-            <Skeleton className="h-4 w-36 rounded" />
-          </div>
+          <Skeleton className="h-4 w-36 rounded" />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {Array.from({ length: 6 }).map((_, i) => (
               <div
@@ -249,7 +187,7 @@ export function TopicDetailView({ forcedSubTopicId }: { forcedSubTopicId?: strin
         </div>
       )}
 
-      {/* ── Quiz Sets List ───────────────────────────────────────────────── */}
+      {/* Quiz Sets List */}
       {isLocalLoaded && testSets !== undefined && displayedSets.length === 0 && (
         <EmptyState
           icon={FileText}
@@ -274,45 +212,11 @@ export function TopicDetailView({ forcedSubTopicId }: { forcedSubTopicId?: strin
             )}
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {displayedSets.map((set) => {
-              const isCompleted = completedSet.has(set._id);
-
-              return (
-                <Link
-                  key={set._id}
-                  href={`/quiz/${set._id}`}
-                  className="block focus-visible:outline-hidden"
-                >
-                  <Card className="flex flex-row items-center justify-between p-4 border border-border bg-card hover:border-primary/50 hover:shadow-xs transition-all group rounded-md min-h-[4rem] select-none">
-                    <div className="min-w-0 flex-1">
-                      <div className="flex items-center gap-2 flex-wrap">
-                        <h3 className="font-medium text-xs sm:text-sm transition-colors truncate text-foreground group-hover:text-primary font-hindi">
-                          {set.name}
-                        </h3>
-                        {set.subTopic && activeSubTopic === "all" && (
-                          <span className="text-[10px] text-muted-foreground/80 bg-muted px-1.5 py-0.5 rounded font-hindi">
-                            {set.subTopic}
-                          </span>
-                        )}
-
-                        {/* Standard Day-1 Completed Badge */}
-                        {isCompleted && (
-                          <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-emerald-500 bg-emerald-500/10 px-1.5 py-0.5 rounded-xs border border-emerald-500/20 font-hindi">
-                            <CheckCircle2 className="h-3 w-3" /> Completed
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                    <div className="flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md shrink-0 ml-3 transition-all border border-border/80 bg-secondary text-secondary-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary">
-                      <Play className="h-3 w-3 fill-current" />
-                      <span>{isCompleted ? "Retake" : "Start"}</span>
-                    </div>
-                  </Card>
-                </Link>
-              );
-            })}
-          </div>
+          <TopicSetsGrid
+            sets={displayedSets}
+            completedSet={completedSet}
+            activeSubTopic={activeSubTopic}
+          />
         </div>
       )}
     </div>
