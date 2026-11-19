@@ -96,6 +96,7 @@ export function QuestionImportEditor({
   const { showToast } = useToast();
   const [code, setCode] = useState(initialValue);
   const [copiedPrompt, setCopiedPrompt] = useState(false);
+  const [copiedFreshPrompt, setCopiedFreshPrompt] = useState(false);
   const [promptOpen, setPromptOpen] = useState(false);
   const [isFinalSet, setIsFinalSet] = useState(false);
   const [batchSize, setBatchSize] = useState<number>(20);
@@ -113,6 +114,7 @@ export function QuestionImportEditor({
     message?: string;
     questions: any[];
     geminiPrompt: string;
+    freshGenerationPrompt?: string;
   } | null>(null);
   const [loadingCandidates, setLoadingCandidates] = useState(false);
   const [candidateError, setCandidateError] = useState<string | null>(null);
@@ -231,6 +233,19 @@ export function QuestionImportEditor({
     setCopiedPrompt(true);
     showToast(`✓ Gemini prompt with ${candidateData.candidateCount} candidate questions copied to clipboard!`, "success");
     setTimeout(() => setCopiedPrompt(false), 2000);
+  };
+
+  // Handle "Copy Fresh 2027 Question Generation Prompt"
+  const handleCopyFreshPrompt = () => {
+    if (!candidateData || !candidateData.freshGenerationPrompt) {
+      showToast("Fresh generation prompt is loading, please wait...", "warning");
+      return;
+    }
+
+    navigator.clipboard.writeText(candidateData.freshGenerationPrompt);
+    setCopiedFreshPrompt(true);
+    showToast("✓ Fresh 2027 Question Generation Prompt copied to clipboard!", "success");
+    setTimeout(() => setCopiedFreshPrompt(false), 2000);
   };
 
   // Reset editor text on resetKey change
@@ -600,6 +615,8 @@ export function QuestionImportEditor({
             onTogglePrompt={() => setPromptOpen(!promptOpen)}
             copiedPrompt={copiedPrompt}
             onCopyPrompt={handleCopyForGemini}
+            copiedFreshPrompt={copiedFreshPrompt}
+            onCopyFreshPrompt={handleCopyFreshPrompt}
           />
         </CardContent>
       </Card>

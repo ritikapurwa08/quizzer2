@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
 import { Label } from "@/components/ui/label";
 import { Badge } from "@/components/ui/badge";
@@ -60,8 +61,17 @@ export function TargetConfigSection({
   remainingCount,
   isComplete,
   isFinalTopicSet,
-  maxSetsAvailable = 5,
+  maxSetsAvailable = 2,
 }: TargetConfigSectionProps) {
+  // Hard limit: Max 2 sets (40 questions) to completely prevent AI model hallucinations
+  const effectiveMaxSets = Math.min(2, Math.max(1, maxSetsAvailable));
+
+  useEffect(() => {
+    if (batchSize > 40) {
+      onBatchSizeChange(40);
+    }
+  }, [batchSize, onBatchSizeChange]);
+
   return (
     <div className="space-y-4 w-full min-w-0">
       <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 min-w-0">
@@ -177,24 +187,9 @@ export function TargetConfigSection({
                   <SelectItem value="20" className="cursor-pointer font-medium">
                     20 Questions (1 Set)
                   </SelectItem>
-                  {maxSetsAvailable >= 2 && (
+                  {effectiveMaxSets >= 2 && (
                     <SelectItem value="40" className="cursor-pointer font-medium">
-                      40 Questions (2 Sets)
-                    </SelectItem>
-                  )}
-                  {maxSetsAvailable >= 3 && (
-                    <SelectItem value="60" className="cursor-pointer font-medium">
-                      60 Questions (3 Sets)
-                    </SelectItem>
-                  )}
-                  {maxSetsAvailable >= 4 && (
-                    <SelectItem value="80" className="cursor-pointer font-medium">
-                      80 Questions (4 Sets)
-                    </SelectItem>
-                  )}
-                  {maxSetsAvailable >= 5 && (
-                    <SelectItem value="100" className="cursor-pointer font-medium">
-                      100 Questions (5 Sets)
+                      40 Questions (2 Sets — Max Allowed)
                     </SelectItem>
                   )}
                 </>

@@ -21,7 +21,8 @@ export async function GET(request: NextRequest) {
     const batchSizeParam = searchParams.get("batchSize") || searchParams.get("count");
     const subTopicIdParam = searchParams.get("subTopicId") || searchParams.get("subTopic") || "";
     const requestedBatchSize = batchSizeParam ? parseInt(batchSizeParam, 10) : 20;
-    const batchSize = isNaN(requestedBatchSize) || requestedBatchSize < 20 ? 20 : requestedBatchSize;
+    // Strict safety clamp: Max 40 questions (2 sets) to completely prevent AI hallucinations
+    const batchSize = isNaN(requestedBatchSize) || requestedBatchSize < 20 ? 20 : Math.min(requestedBatchSize, 40);
 
     if (!topicIdParam) {
       return NextResponse.json(
@@ -112,7 +113,26 @@ export async function GET(request: NextRequest) {
       : DATA_PATHS.gkTopicsDir;
 
     let candidateQuestions: any[] = [];
+    let allTopicQuestions: any[] = [];
     let totalRemainingCount = 0;
+
+    // Pre-load all topic questions if topic file exists
+    if (fs.existsSync(topicsDir)) {
+      try {
+        const files = fs.readdirSync(topicsDir);
+        const prefix = `${padTopic}_`;
+        const topicFileName = files.find(
+          (f) => (f === `topic_${padTopic}.json` || f.startsWith(prefix)) && f.endsWith(".json")
+        );
+        if (topicFileName) {
+          const topicFilePath = path.join(topicsDir, topicFileName);
+          const topicData = JSON.parse(fs.readFileSync(topicFilePath, "utf-8"));
+          allTopicQuestions = topicData.questions || [];
+        }
+      } catch (err) {
+        console.error("Error reading all topic questions:", err);
+      }
+    }
 
     // If candidate file already exists on disk, load it (only for full topic imports without active subtopic)
     const existingCandidateFile = !activeSubTopic
@@ -133,29 +153,19 @@ export async function GET(request: NextRequest) {
     }
 
     // Read dynamically from authoritative local questions excluding active published questions
-    if (candidateQuestions.length === 0 && fs.existsSync(topicsDir)) {
+    if (candidateQuestions.length === 0 && allTopicQuestions.length > 0) {
       try {
-        // Find topic file in topicsDir
-        const files = fs.readdirSync(topicsDir);
-        const prefix = `${padTopic}_`;
-        const topicFileName = files.find(
-          (f) => (f === `topic_${padTopic}.json` || f.startsWith(prefix)) && f.endsWith(".json")
-        );
+        const allQuestions: any[] = allTopicQuestions;
 
-        if (topicFileName) {
-          const topicFilePath = path.join(topicsDir, topicFileName);
-          const topicData = JSON.parse(fs.readFileSync(topicFilePath, "utf-8"));
-          const allQuestions: any[] = topicData.questions || [];
+        // If disk file had candidateQuestions, filter them against usedSet
+        if (candidateQuestions.length > 0) {
+          candidateQuestions = candidateQuestions.filter((q) => !usedSet.has(String(q.id)));
+        }
 
-          // If disk file had candidateQuestions, filter them against usedSet
-          if (candidateQuestions.length > 0) {
-            candidateQuestions = candidateQuestions.filter((q) => !usedSet.has(String(q.id)));
-          }
-
-          // Filter by subtopic if specified
-          const eligibleQuestions = activeSubTopic
-            ? filterQuestionsBySubTopic(allQuestions, activeSubTopic.id, activeSubTopic.name)
-            : allQuestions;
+        // Filter by subtopic if specified
+        const eligibleQuestions = activeSubTopic
+          ? filterQuestionsBySubTopic(allQuestions, activeSubTopic.id, activeSubTopic.name)
+          : allQuestions;
 
           // Fresh unassigned questions in pool
           const freshAvailable = eligibleQuestions
@@ -175,7 +185,6 @@ export async function GET(request: NextRequest) {
           }
 
           candidateQuestions.sort(comparePoolQuestions);
-        }
       } catch (err) {
         console.error("Error resolving topic questions:", err);
       }
@@ -189,6 +198,113 @@ export async function GET(request: NextRequest) {
 
     const effectiveTitleHindi = activeSubTopic ? activeSubTopic.name : topicHindi;
     const effectiveTitleEnglish = activeSubTopic ? activeSubTopic.name : topicEnglish;
+
+    // Generate Fresh Generation Prompt with existing questions list to prevent any duplication
+    const existingQuestionsForPrompt = allTopicQuestions.map(
+      (q, idx) => `[ID: ${q.id || `q_${idx + 1}`}] ${healOptionText(q.question || "")}`
+    );
+
+    const freshGenerationPrompt = isEnglish
+      ? `You are an elite RPSC Senior Teacher (2nd Grade) English examination paper setter and curriculum expert.
+
+Subject: ${subjectHindi}
+Master Topic #${masterTopicId}: ${topicEnglish}
+${activeSubTopic ? `Target Sub-Topic: ${activeSubTopic.name}` : ""}
+
+================================================================================
+🎯 CORE OBJECTIVE:
+================================================================================
+Generate EXACTLY 20 fresh, high-yield, exam-worthy MCQs designed for the upcoming RPSC Senior Teacher (2nd Grade) / CET examination.
+
+================================================================================
+🚫 ZERO DUPLICATION & REDUNDANCY MANDATE:
+================================================================================
+Below is the list of ${existingQuestionsForPrompt.length} questions ALREADY in our database.
+STRICT RULE: Do NOT duplicate or create near-identical variants of any of these existing questions.
+Every new question must target unexplored grammatical structures, idioms, vocabulary nuance, or exam-level edge cases.
+
+================================================================================
+EXISTING QUESTIONS TO AVOID (DO NOT REPEAT):
+================================================================================
+${JSON.stringify(existingQuestionsForPrompt, null, 2)}
+
+================================================================================
+STRICT RAW JSON FORMAT (EXACTLY 20 QUESTIONS):
+================================================================================
+Return ONLY a valid raw JSON array of 20 objects. No markdown code fences:
+
+[
+  {
+    "question": "Question stem here...",
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "answer": 0,
+    "explanation": "**Rule**: [English rule]\\n**हिंदी व्याख्या**: [विस्तृत विश्लेषण]",
+    "topic": "${topicEnglish}",
+    "topicId": ${masterTopicId},
+    "type": "mcq"
+  }
+]`
+      : `आप राजस्थान लोक सेवा आयोग (RPSC) के वरिष्ठ अध्यापक (2nd Grade) एवं प्रतियोगी परीक्षाओं (RAS, CET) के मुख्य प्रश्न-पत्र निर्माता (Lead Question Paper Setter) हैं।
+
+विषय: ${subjectHindi}
+शीर्षक: टॉपिक #${masterTopicId} - ${topicHindi}
+${activeSubTopic ? `विशिष्ट सब-टॉपिक: ${activeSubTopic.name}` : ""}
+
+================================================================================
+🎯 आपका मुख्य कार्य (CORE OBJECTIVE):
+================================================================================
+आपको इस टॉपिक के लिए ठीक और केवल ठीक 20 बिल्कुल नए, उच्च स्तरीय एवं परीक्षा-उपयोगी बहुविकल्पीय प्रश्न (Fresh High-Yield MCQs) तैयार करने हैं, जो आगामी 2026-2027 RPSC वरिष्ठ अध्यापक (2nd Grade) / RAS / CET परीक्षा में पूछे जाने की अत्यधिक संभावना रखते हैं।
+
+================================================================================
+🚫 सख्त गैर-दोहराव नियम (CRITICAL ZERO-DUPLICATION MANDATE):
+================================================================================
+नीचे हमारे प्रश्न-बैंक में पहले से मौजूद ${existingQuestionsForPrompt.length} प्रश्नों की सूची दी जा रही है।
+सख्त निर्देश:
+- आपको नीचे दी गई सूची के प्रश्नों के समान या इनसे मिलते-जुलते (Similar / Duplicate / Overlapping) प्रश्न कतई नहीं बनाने हैं!
+- मौजूदा प्रश्नों के तथ्यों का हूबहू पुनरावर्तन न करें।
+- प्रत्येक नया प्रश्न इस टॉपिक के उन महत्वपूर्ण पहलुओं, नवीन प्रशासनिक/भौगोलिक आंकड़ों, या गहरे विश्लेषणात्मक बिंदुओं पर केंद्रित होना चाहिए जो अभी तक इस पूल में कवर नहीं हुए हैं।
+
+================================================================================
+📐 प्रश्न-सीमा एवं मानक (EXAM BOUNDARY & QUESTION STANDARDS):
+================================================================================
+1. पाठ्यक्रम सीमा (Syllabus Boundary): प्रश्न RPSC 2nd Grade GK के प्रामाणिक पाठ्यक्रम की सीमा एवं निकटवर्ती सीमा (Near Boundary) के भीतर ही होने चाहिए।
+2. उच्च स्तरीय प्रारूप (High-Order Thinking Formats):
+   - कम से कम 5 प्रश्न बहु-कथनी (Multi-Statement: 'कथनों पर विचार कीजिए तथा सत्य/असत्य कथन चुनिए')
+   - कम से कम 4 प्रश्न सुमेलित कीजिए (Match the following: सूची-I को सूची-II से सुमेलित कीजिए)
+   - कम से कम 3 प्रश्न अभिकथन एवं कारण (Assertion & Reason: अभिकथन (A) और कारण (R))
+   - शेष प्रश्न तथ्यात्मक गहराई, कालक्रम, एवं अवधारणात्मक अनुप्रयोग आधारित।
+3. विकल्पों की गुणवत्ता: चारों विकल्प अत्यंत संतुलित, तार्किक एवं प्रामाणिक हों। कोई भी विकल्प अस्पष्ट या भ्रामक न हो।
+4. 100% प्रामाणिक उत्तर एवं व्याख्या:
+   - उत्तर (0, 1, 2, 3) का संतुलित वितरण रखें (~5 प्रश्न A, ~5 प्रश्न B, ~5 प्रश्न C, ~5 प्रश्न D)।
+   - व्याख्या (explanation) में केवल सही उत्तर का ठोस कारण, राजस्थान हिंदी ग्रंथ अकादमी (डॉ. हरिमोहन सक्सेना, जयसिंह नीरज, हुकमचंद जैन) का संदर्भ दें।
+   - अन्य विकल्पों के बारे में कोई काल्पनिक/मनगढ़ंत विवरण न लिखें (Zero Hallucination)।
+
+================================================================================
+मौजूदा प्रश्न (DO NOT REPEAT OR DUPLICATE THESE):
+================================================================================
+${JSON.stringify(existingQuestionsForPrompt, null, 2)}
+
+================================================================================
+आउटपुट प्रारूप (STRICT RAW JSON FORMAT ONLY):
+================================================================================
+बिना किसी अतिरिक्त कमेंट्री, मार्कडाउन कोड फेंस (\`\`\`json) या चैट वार्तालाप के, केवल ठीक 20 प्रश्नों का शुद्ध JSON array लौटाएँ:
+
+[
+  {
+    "question": "प्रश्न पाठ यहाँ...",
+    "options": [
+      "विकल्प A",
+      "विकल्प B",
+      "विकल्प C",
+      "विकल्प D"
+    ],
+    "answer": 0,
+    "explanation": "सही उत्तर की प्रामाणिक व्याख्या...",
+    "topic": "${topicHindi}",
+    "topicId": ${masterTopicId},
+    "type": "mcq"
+  }
+]`;
 
     if (candidateQuestions.length === 0) {
       const completeMessage = activeSubTopic
@@ -217,6 +333,7 @@ export async function GET(request: NextRequest) {
         message: completeMessage,
         questions: [],
         geminiPrompt: "",
+        freshGenerationPrompt,
       });
     }
 
@@ -383,9 +500,12 @@ ${countRule}
      * यदि उम्मीदवार प्रश्न में कोई शब्द कटा हुआ दिखे, तो उसे तुरंत शुद्ध व पूर्ण रूप में पुनर्स्थापित करें।
    - विकल्पों के भीतर 'A.', 'B.', 'C.', 'D.' या '1.', '2.', '3.', '4.' या 'अ.', 'ब.', 'स.', 'द.' जैसे उपसर्ग (prefixes) कतई न लिखें। केवल शुद्ध विकल्प पाठ लिखें।
 
-4. उत्तर कुंजी का संतुलित वितरण (ANSWER KEY BALANCE MANDATE - CRITICAL):
-   - सेट के 20 प्रश्नों में उत्तर (0, 1, 2, 3) का वितरण लगभग समान होना चाहिए (प्रति विकल्प लगभग 4 से 6 प्रश्न: ~25% A, ~25% B, ~25% C, ~25% D)।
-   - कभी भी अधिकांश या सभी प्रश्नों का उत्तर 0 (विकल्प A) न रखें। ऑप्शन A को डिफ़ॉल्ट बनाने की आलसी प्रवृत्ति सख्त वर्जित है।
+4. 🚨 उत्तर कुंजी का 100% प्रामाणिक सत्यापन एवं सुधार नियम (MANDATORY FACTUAL ANSWER KEY AUDIT & OVERRIDE):
+   - दिए गए उम्मीदवार प्रश्न JSON में दिए गए उत्तर ('answer': 0, 1, 2, 3) पर आँख मूँद कर भरोसा न करें!
+   - प्रत्येक प्रश्न के उत्तर का राजस्थान हिंदी ग्रंथ अकादमी (डॉ. हरिमोहन सक्सेना, जयसिंह नीरज, हुकमचंद जैन) एवं RPSC/RSMSSB की आधिकारिक उत्तर कुंजियों के अनुसार दोबारा 100% सत्यापन (Fact-Check) करें।
+   - 🚨 यदि आप 100% आश्वस्त और निश्चित हैं कि हमारे JSON में दिया गया उत्तर गलत है, तो आपको उत्तर ('answer') को सही विकल्प इंडेक्स (0, 1, 2 या 3) पर बदलने की पूर्ण अनुमति और स्पष्ट निर्देश है!
+   - व्याख्या (explanation) में केवल सही उत्तर का प्रामाणिक व स्पष्ट कारण लिखें। किसी अन्य विकल्प के बारे में मनगढ़ंत या काल्पनिक विवरण न लिखें (Zero Hallucination)।
+   - सेट के 20 प्रश्नों में उत्तर (0, 1, 2, 3) का वितरण लगभग समान होना चाहिए (प्रति विकल्प लगभग 4 से 6 प्रश्न: ~25% A, ~25% B, ~25% C, ~25% D)। कभी भी अधिकांश या सभी प्रश्नों का उत्तर 0 (विकल्प A) न रखें। ऑप्शन A को डिफ़ॉल्ट बनाने की आलसी प्रवृत्ति सख्त वर्जित है।
 
 5. सुमेलित प्रश्न (MATCH THE FOLLOWING - ZERO-TOLERANCE ACCURACY & FORMAT):
    - सूची-I के मदों को छोटे अंग्रेजी अक्षरों (a, b, c, d) से तथा सूची-II के मदों को रोमन अंकों (I, II, III, IV) से दर्शाएँ।
@@ -489,11 +609,12 @@ ${JSON.stringify(promptQuestions, null, 2)}
       targetCount,
       candidateCount: candidateQuestions.length,
       remainingCount: totalRemainingCount,
-      maxSetsAvailable: Math.max(1, Math.ceil(totalRemainingCount / 20)),
+      maxSetsAvailable: Math.max(1, Math.min(2, Math.ceil(totalRemainingCount / 20))),
       isFinalTopicSet,
       isComplete: false,
       questions: promptQuestions,
       geminiPrompt,
+      freshGenerationPrompt,
     });
   } catch (error: any) {
     return NextResponse.json(
