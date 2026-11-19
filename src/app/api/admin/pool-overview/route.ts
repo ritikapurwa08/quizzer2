@@ -6,23 +6,26 @@ import { DATA_PATHS } from "@/lib/dataPaths";
 
 export const dynamic = "force-dynamic";
 
-// In-memory cache for published sets & topic lookups
+// Cache with file mtime tracking so changes immediately reflect
 let _publishedSetsData: any[] | null = null;
+let _publishedSetsMtime = 0;
 let _topicIdMapping: Record<string, string> | null = null;
 
 function loadLocalSetsData() {
-  if (!_publishedSetsData) {
-    const publishedPath = DATA_PATHS.publishedSets;
-    if (fs.existsSync(publishedPath)) {
-      try {
+  const publishedPath = DATA_PATHS.publishedSets;
+  if (fs.existsSync(publishedPath)) {
+    try {
+      const stat = fs.statSync(publishedPath);
+      if (!_publishedSetsData || stat.mtimeMs !== _publishedSetsMtime) {
         _publishedSetsData = JSON.parse(fs.readFileSync(publishedPath, "utf-8"));
-      } catch (e) {
-        console.error("Error reading published-sets.json:", e);
-        _publishedSetsData = [];
+        _publishedSetsMtime = stat.mtimeMs;
       }
-    } else {
+    } catch (e) {
+      console.error("Error reading published-sets.json:", e);
       _publishedSetsData = [];
     }
+  } else {
+    _publishedSetsData = [];
   }
 
   if (!_topicIdMapping) {
@@ -39,7 +42,7 @@ function loadLocalSetsData() {
     }
   }
 
-  return { sets: _publishedSetsData, topicMap: _topicIdMapping };
+  return { sets: _publishedSetsData || [], topicMap: _topicIdMapping || {} };
 }
 
 export async function GET() {
@@ -84,7 +87,9 @@ export async function GET() {
     for (const s of publishedSets || []) {
       if (s.status === "archived" || s.isArchived) continue;
       let masterTopicId: number | null = null;
-      if (s.topicId && convexToMasterId.has(s.topicId)) {
+      if (s.masterTopicId !== undefined && s.masterTopicId !== null) {
+        masterTopicId = Number(s.masterTopicId);
+      } else if (s.topicId && convexToMasterId.has(s.topicId)) {
         masterTopicId = convexToMasterId.get(s.topicId)!;
       }
 

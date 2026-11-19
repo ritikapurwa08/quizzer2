@@ -115,6 +115,8 @@ export async function GET(request: NextRequest) {
     let candidateQuestions: any[] = [];
     let allTopicQuestions: any[] = [];
     let totalRemainingCount = 0;
+    let totalPoolCount = 0;
+    let importedCount = 0;
 
     // Pre-load all topic questions if topic file exists
     if (fs.existsSync(topicsDir)) {
@@ -173,6 +175,8 @@ export async function GET(request: NextRequest) {
             .sort(comparePoolQuestions);
 
           totalRemainingCount = freshAvailable.length;
+          totalPoolCount = eligibleQuestions.length;
+          importedCount = Math.max(0, totalPoolCount - totalRemainingCount);
 
           if (candidateQuestions.length === 0 && freshAvailable.length > 0) {
             const isFinalDraw = freshAvailable.length < batchSize;
@@ -328,6 +332,9 @@ ${JSON.stringify(existingQuestionsForPrompt, null, 2)}
         targetCount: 0,
         candidateCount: 0,
         remainingCount: 0,
+        totalPoolCount,
+        importedCount: totalPoolCount,
+        usedQuestionIds: Array.from(usedSet),
         maxSetsAvailable: 0,
         isFinalTopicSet: false,
         message: completeMessage,
@@ -609,6 +616,9 @@ ${JSON.stringify(promptQuestions, null, 2)}
       targetCount,
       candidateCount: candidateQuestions.length,
       remainingCount: totalRemainingCount,
+      totalPoolCount,
+      importedCount,
+      usedQuestionIds: Array.from(usedSet),
       maxSetsAvailable: Math.max(1, Math.min(2, Math.ceil(totalRemainingCount / 20))),
       isFinalTopicSet,
       isComplete: false,

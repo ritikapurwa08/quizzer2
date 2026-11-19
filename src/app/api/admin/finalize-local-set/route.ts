@@ -3,6 +3,7 @@ import path from "path";
 import fs from "fs";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
 import { DATA_PATHS } from "@/lib/dataPaths";
+import { extractBaseTopicName } from "@/lib/setNumbering";
 
 export async function POST(request: NextRequest) {
   try {
@@ -170,9 +171,14 @@ export async function POST(request: NextRequest) {
               .map((q: any) => q.meta?.sourceQuestionId || q.sourceQuestionId || q.id)
               .filter(Boolean);
 
+            const baseName =
+              extractBaseTopicName(body.setName || "") || body.subTopic || topicState.masterTopic || "Set";
+            const chunkName =
+              body.plannedNames?.[sIdx] || `${baseName} भाग ${curSetNum}`;
+
             const sEntry = {
               id: curSetId,
-              name: body.setName || `${body.subTopic || topicState.masterTopic} भाग ${curSetNum}`,
+              name: chunkName,
               topicId: convexTopicId,
               masterTopicId,
               subTopicId: body.subTopicId || null,

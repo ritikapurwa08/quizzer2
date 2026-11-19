@@ -6,15 +6,18 @@ import { DATA_PATHS } from "@/lib/dataPaths";
 export const dynamic = "force-dynamic";
 
 let _setsListCache: any[] | null = null;
+let _setsListMtime = 0;
 
 function getPublishedSetsList(): any[] {
-  if (_setsListCache) return _setsListCache;
-
   const setsFilePath = DATA_PATHS.publishedSets;
   if (fs.existsSync(setsFilePath)) {
     try {
-      const raw = fs.readFileSync(setsFilePath, "utf-8");
-      _setsListCache = JSON.parse(raw);
+      const stat = fs.statSync(setsFilePath);
+      if (!_setsListCache || stat.mtimeMs !== _setsListMtime) {
+        const raw = fs.readFileSync(setsFilePath, "utf-8");
+        _setsListCache = JSON.parse(raw);
+        _setsListMtime = stat.mtimeMs;
+      }
     } catch (e) {
       console.error("Error loading published-sets.json:", e);
       _setsListCache = [];

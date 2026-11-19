@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Loader2, Check, Copy, AlertCircle, Sparkles, FileText } from "lucide-react";
+import { Loader2, Check, Copy, AlertCircle, Sparkles, FileText, Eye, EyeOff } from "lucide-react";
 
 interface GeminiPromptSectionProps {
   loadingCandidates: boolean;
@@ -35,6 +35,7 @@ export function GeminiPromptSection({
   copiedFreshPrompt,
   onCopyFreshPrompt,
 }: GeminiPromptSectionProps) {
+  const [lastCopiedType, setLastCopiedType] = useState<"review" | "new">("review");
   const [activeTab, setActiveTab] = useState<"review" | "fresh">("review");
 
   const effectivePrompt =
@@ -42,84 +43,113 @@ export function GeminiPromptSection({
       ? candidateData.freshGenerationPrompt
       : candidateData?.geminiPrompt || candidateData?.freshGenerationPrompt || "";
 
+  function handlePreviewToggle() {
+    if (!promptOpen) {
+      // Auto-detect which prompt was last interacted with
+      setActiveTab(
+        lastCopiedType === "new" || (candidateData?.isComplete && !candidateData?.geminiPrompt)
+          ? "fresh"
+          : "review"
+      );
+    }
+    onTogglePrompt();
+  }
+
+  function handleReviewClick() {
+    setLastCopiedType("review");
+    setActiveTab("review");
+    onCopyPrompt();
+  }
+
+  function handleNewClick() {
+    setLastCopiedType("new");
+    setActiveTab("fresh");
+    onCopyFreshPrompt?.();
+  }
+
   return (
     <div className="pt-3 border-t border-border/40 space-y-3">
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2.5">
-        <p className="text-xs text-muted-foreground">
+        <p className="text-xs text-muted-foreground truncate">
           {loadingCandidates
-            ? "Fetching candidate questions from the pool, please wait..."
+            ? "Fetching candidate questions, please wait..."
             : candidateData?.isComplete
-            ? "✓ This topic is 100% complete! Use 'Copy Fresh 2027 Prompt' to generate new questions."
+            ? "✓ Topic is 100% complete! Click 'New' to generate fresh questions."
             : candidateData?.isFinalTopicSet
-            ? `⚡ Final Partial Set ready (${candidateData.candidateCount} questions remaining in pool). Copy prompt for Gemini review.`
+            ? `⚡ Final set ready (${candidateData.candidateCount} Qs). Click Review or New.`
             : candidateData
-            ? `Candidate questions ready (${candidateData.candidateCount} questions). Copy prompt for Gemini review or create brand new questions.`
+            ? `Candidate questions ready (${candidateData.candidateCount} Qs). Click Review or New.`
             : candidateError
-            ? "Could not load candidate questions. Please verify your selection or retry."
-            : "Select a Subject and Master Topic above to load candidate questions from the pool."}
+            ? "Could not load candidate questions."
+            : "Select Subject and Topic above to load prompts."}
         </p>
 
-        <div className="flex items-center gap-2 flex-wrap sm:flex-nowrap shrink-0 w-full sm:w-auto">
+        {/* Ultra-compact action buttons: Preview, Review, New */}
+        <div className="flex items-center gap-1.5 shrink-0 flex-nowrap">
           {(candidateData?.geminiPrompt || candidateData?.freshGenerationPrompt) && (
             <Button
               type="button"
               variant="outline"
               size="sm"
-              onClick={onTogglePrompt}
+              onClick={handlePreviewToggle}
               disabled={loadingCandidates}
-              className="h-9 px-3 text-xs font-semibold rounded-xl text-muted-foreground hover:text-foreground cursor-pointer flex-1 sm:flex-initial"
+              className="h-8 px-2.5 text-xs font-semibold rounded-lg text-muted-foreground hover:text-foreground cursor-pointer gap-1 shrink-0"
+              title="Show or hide prompt preview"
             >
-              {promptOpen ? "Hide Prompt Preview" : "Show Prompt Preview"}
+              {promptOpen ? <EyeOff className="h-3.5 w-3.5" /> : <Eye className="h-3.5 w-3.5" />}
+              <span>{promptOpen ? "Hide" : "Preview"}</span>
             </Button>
           )}
 
-          {/* Review Candidate Questions Prompt Button (Disabled if topic is already 100% complete) */}
+          {/* Review Candidate Questions Button */}
           {!candidateData?.isComplete && (
             <Button
               type="button"
               size="sm"
-              onClick={onCopyPrompt}
+              onClick={handleReviewClick}
               disabled={!candidateData?.geminiPrompt || loadingCandidates}
-              className="h-9 px-3.5 text-xs font-semibold rounded-xl gap-1.5 shadow-xs cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed flex-1 sm:flex-initial"
+              className="h-8 px-3 text-xs font-semibold rounded-lg gap-1.5 shadow-xs cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed shrink-0"
+              title="Copy Candidate Review Prompt"
             >
               {loadingCandidates ? (
                 <>
                   <Loader2 className="h-3.5 w-3.5 animate-spin" />
-                  <span>Fetching...</span>
+                  <span>Loading...</span>
                 </>
               ) : copiedPrompt ? (
                 <>
                   <Check className="h-3.5 w-3.5 text-success" />
-                  <span>Review Prompt Copied!</span>
+                  <span>Copied!</span>
                 </>
               ) : (
                 <>
                   <Copy className="h-3.5 w-3.5" />
-                  <span>Copy Review Prompt</span>
+                  <span>Review</span>
                 </>
               )}
             </Button>
           )}
 
-          {/* Fresh 2027 Question Generation Prompt Button */}
+          {/* Fresh 2027 Question Generation Button */}
           {candidateData?.freshGenerationPrompt && (
             <Button
               type="button"
               variant={candidateData?.isComplete ? "default" : "outline"}
               size="sm"
-              onClick={onCopyFreshPrompt}
+              onClick={handleNewClick}
               disabled={loadingCandidates}
-              className="h-9 px-3.5 text-xs font-semibold rounded-xl gap-1.5 shadow-xs cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed flex-1 sm:flex-initial border-primary/30 text-primary hover:bg-primary/10"
+              className="h-8 px-3 text-xs font-semibold rounded-lg gap-1.5 shadow-xs cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed border-primary/30 text-primary hover:bg-primary/10 shrink-0"
+              title="Copy Fresh 2027 Question Generation Prompt"
             >
               {copiedFreshPrompt ? (
                 <>
                   <Check className="h-3.5 w-3.5 text-success" />
-                  <span>Fresh Prompt Copied!</span>
+                  <span>Copied!</span>
                 </>
               ) : (
                 <>
                   <Sparkles className="h-3.5 w-3.5 text-primary" />
-                  <span>नये प्रश्न (2027) प्रॉम्प्ट</span>
+                  <span>New</span>
                 </>
               )}
             </Button>
@@ -142,26 +172,26 @@ export function GeminiPromptSection({
               <button
                 type="button"
                 onClick={() => setActiveTab("review")}
-                className={`px-3 py-1 rounded-lg text-xs font-medium transition-colors ${
+                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors cursor-pointer ${
                   activeTab === "review"
                     ? "bg-primary text-primary-foreground shadow-xs"
                     : "bg-muted text-muted-foreground hover:text-foreground"
                 }`}
               >
                 <FileText className="h-3 w-3 inline mr-1" />
-                Candidate Review Prompt
+                Review Prompt
               </button>
               <button
                 type="button"
                 onClick={() => setActiveTab("fresh")}
-                className={`px-3 py-1 rounded-lg text-xs font-medium transition-colors ${
+                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors cursor-pointer ${
                   activeTab === "fresh"
                     ? "bg-primary text-primary-foreground shadow-xs"
                     : "bg-muted text-muted-foreground hover:text-foreground"
                 }`}
               >
                 <Sparkles className="h-3 w-3 inline mr-1" />
-                Fresh 2027 Generation Prompt
+                New (2027) Prompt
               </button>
             </div>
           )}

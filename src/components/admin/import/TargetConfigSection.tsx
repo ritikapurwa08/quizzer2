@@ -74,7 +74,15 @@ export function TargetConfigSection({
 
   return (
     <div className="space-y-4 w-full min-w-0">
-      <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 min-w-0">
+      {/* ── ROW 1: 3-Selector Cascading Controls (Subject, Master Topic, Target Sub-Topic) ── */}
+      <div
+        className={cn(
+          "grid gap-4 min-w-0 w-full",
+          availableSubTopics.length > 0
+            ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+            : "grid-cols-1 sm:grid-cols-2"
+        )}
+      >
         <div className="min-w-0">
           <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
             Subject
@@ -97,11 +105,6 @@ export function TargetConfigSection({
                 ✓ 100% Imported
               </Badge>
             )}
-            {!isComplete && remainingCount !== undefined && remainingCount > 0 && (
-              <span className="text-[11px] font-medium text-primary shrink-0">
-                {remainingCount} questions left in pool
-              </span>
-            )}
           </div>
           <SyllabusSelect
             options={topicsList}
@@ -114,13 +117,13 @@ export function TargetConfigSection({
 
         {/* Sub-Topic Selector when topic has subtopics */}
         {availableSubTopics.length > 0 && (
-          <div className="sm:col-span-2 min-w-0">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-1.5 min-w-0">
+          <div className="min-w-0">
+            <div className="flex items-center justify-between gap-1 mb-1.5 min-w-0">
               <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block shrink-0">
-                Target Sub-Topic (विशिष्ट सब-टॉपिक)
+                Target Sub-Topic
               </Label>
-              <span className="text-[11px] text-muted-foreground truncate">
-                Optional: Target a specific subtopic for smaller, focused batch imports
+              <span className="text-[10px] text-muted-foreground truncate">
+                (वैकल्पिक)
               </span>
             </div>
             <Select
@@ -128,16 +131,16 @@ export function TargetConfigSection({
               onValueChange={(val: string | null) => onSubTopicChange?.(val === "all" ? "" : (val || ""))}
             >
               <SelectTrigger className="h-10 w-full rounded-xl border border-input bg-card px-3 text-sm font-medium font-hindi min-w-0">
-                <SelectValue placeholder="All Sub-Topics (पूरा टॉपिक सामान्य रूप से)">
+                <SelectValue placeholder="पूरा टॉपिक (All Sub-Topics)">
                   {(val: any) => {
-                    if (!val || val === "all") return "पूरा टॉपिक (All Sub-Topics / Default)";
+                    if (!val || val === "all") return "पूरा टॉपिक (All Sub-Topics)";
                     const found = availableSubTopics.find((s) => s.id === val);
                     return found ? found.name : val;
                   }}
                 </SelectValue>
               </SelectTrigger>
               <SelectContent className="bg-popover border-border">
-                <SelectItem value="all">पूरा टॉपिक (All Sub-Topics / Default)</SelectItem>
+                <SelectItem value="all">पूरा टॉपिक (All Sub-Topics)</SelectItem>
                 {availableSubTopics.map((sub) => (
                   <SelectItem key={sub.id} value={sub.id} className="font-hindi">
                     {sub.name}
@@ -147,7 +150,10 @@ export function TargetConfigSection({
             </Select>
           </div>
         )}
+      </div>
 
+      {/* ── ROW 2: Batch Size & Set / Part Name ── */}
+      <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 min-w-0 w-full">
         <div className="min-w-0">
           <div className="flex flex-wrap items-center justify-between gap-1 mb-1.5 min-w-0">
             <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block">

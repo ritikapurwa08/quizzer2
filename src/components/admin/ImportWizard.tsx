@@ -11,28 +11,25 @@ import { useToast } from "@/components/ui/Toast";
 import { getTopicDisplayName } from "@/lib/utils";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
 import { calculateNextSetName, extractBaseTopicName, calculateBatchSetNames } from "@/lib/setNumbering";
 import { calculateSubTopicNextPart } from "@/lib/pool/subTopicMatcher";
-import { ImportSuccessBanner } from "./import";
+import { ImportConfirmationBanner, ImportConfirmationData } from "./import";
 
 export function ImportWizard() {
   const searchParams = useSearchParams();
   const masterTopicIdParam = searchParams.get("masterTopicId");
-  const examPrefParam = searchParams.get("examPref") as "all" | "prefer_exam" | "limit_exam" | null;
-  const examLimitParam = searchParams.get("examLimit");
 
   const [resetKey, setResetKey] = useState(0);
   const [parsed, setParsed] = useState<ImportJson | null>(null);
   const [isImporting, setIsImporting] = useState(false);
+  const isImportingRef = useRef(false);
 
   const [selectedSubjectId, setSelectedSubjectId] = useState<Id<"subjects"> | "">("");
   const [selectedTopicId, setSelectedTopicId] = useState<Id<"topics"> | "">("");
   const [selectedSubTopicId, setSelectedSubTopicId] = useState("");
   const [subtopicName, setSubtopicName] = useState("");
-
-  const [lastImportedSet, setLastImportedSet] = useState<{ id: Id<"testSets">; count: number; timeSeconds: number } | null>(null);
+  const [confirmation, setConfirmation] = useState<ImportConfirmationData | null>(null);
 
   const { showToast } = useToast();
 
@@ -47,35 +44,28 @@ export function ImportWizard() {
     selectedTopicId ? { topicId: selectedTopicId as Id<"topics"> } : "skip"
   ) ?? [];
 
-  // Local published sets fetched from /api/sets/by-topic/[topicId]
   const [localSets, setLocalSets] = useState<Array<{ id: string; name: string }>>([]);
-
   const importTestSet = useMutation(api.testSets.importTestSet);
   const seedFixedSyllabus = useMutation(api.seed.seedFixedSyllabus);
 
-  // Target master topic from URL if available
   const urlMasterTopic = useMemo(() => {
     if (!masterTopicIdParam) return null;
     const num = parseInt(masterTopicIdParam, 10);
-    return MASTER_TOPICS_LIST.find((mt) => mt.id === num);
+    return MASTER_TOPICS_LIST.find((mt) => mt.id === num) || null;
   }, [masterTopicIdParam]);
 
-  // Fetch local published sets whenever selectedTopicId or urlMasterTopic changes
   const refreshLocalSets = useCallback(async () => {
     const targetQueryId = selectedTopicId || (urlMasterTopic ? String(urlMasterTopic.id) : "");
     if (!targetQueryId) {
       setLocalSets([]);
       return;
     }
-
     try {
       const res = await fetch(`/api/sets/by-topic/${encodeURIComponent(targetQueryId)}`);
       const data = await res.json();
-      if (data.success && Array.isArray(data.sets)) {
-        setLocalSets(data.sets);
-      }
+      if (data.success && Array.isArray(data.sets)) setLocalSets(data.sets);
     } catch (err) {
-      console.error("Error loading local sets for topic:", err);
+      console.error("Error loading local sets:", err);
     }
   }, [selectedTopicId, urlMasterTopic]);
 
@@ -83,11 +73,9 @@ export function ImportWizard() {
     refreshLocalSets();
   }, [refreshLocalSets]);
 
-  // Combine Convex sets and local published sets into a single authoritative list
   const allExistingSets = useMemo(() => {
     const merged: Array<{ name: string; _id?: string; id?: string }> = [...existingTestSets];
     const seenNames = new Set(merged.map((s) => s.name.trim().toLowerCase()));
-
     for (const ls of localSets) {
       const lower = ls.name.trim().toLowerCase();
       if (!seenNames.has(lower)) {
@@ -98,81 +86,66 @@ export function ImportWizard() {
     return merged;
   }, [existingTestSets, localSets]);
 
-  // Auto-seed default syllabus if empty
   useEffect(() => {
     if (subjects && subjects.length === 0) seedFixedSyllabus();
   }, [subjects, seedFixedSyllabus]);
 
-  // If navigated with masterTopicIdParam, auto-select corresponding subject
-  const urlMatchedSubjectRef = useRef(false);
+  // Initial auto-selection from URL masterTopicId
+  const urlInitRef = useRef(false);
   useEffect(() => {
-    if (urlMasterTopic && subjects.length > 0 && !urlMatchedSubjectRef.current) {
-      const match = subjects.find(
-        (s) =>
-          s.nameHindi === urlMasterTopic.subjectHindi ||
-          s.name === urlMasterTopic.subjectName ||
-          (urlMasterTopic.subjectName.includes("English") && s.name.includes("English")) ||
-          (urlMasterTopic.subjectHindi && s.nameHindi && s.nameHindi.includes(urlMasterTopic.subjectHindi))
-      );
-      if (match) {
-        urlMatchedSubjectRef.current = true;
-        setSelectedSubjectId(match._id);
-      }
+    if (!urlInitRef.current && urlMasterTopic && subjects.length > 0) {
+      const matchSub = subjects.find((s) => s.nameHindi === urlMasterTopic.subjectHindi || s.name === urlMasterTopic.subjectName);
+      if (matchSub) setSelectedSubjectId(matchSub._id);
+      urlInitRef.current = true;
     }
   }, [urlMasterTopic, subjects]);
 
-  // If navigated with masterTopicIdParam, auto-select corresponding topic once topics load
-  const urlMatchedTopicRef = useRef(false);
   useEffect(() => {
-    if (urlMasterTopic && topics.length > 0 && !urlMatchedTopicRef.current) {
-      const match = topics.find(
-        (t) =>
-          t.nameHindi === urlMasterTopic.nameHindi ||
-          (t.nameHindi && urlMasterTopic.nameHindi && (urlMasterTopic.nameHindi.includes(t.nameHindi) || t.nameHindi.includes(urlMasterTopic.nameHindi))) ||
-          t.name === urlMasterTopic.nameEnglish ||
-          (urlMasterTopic.nameEnglish && t.name && (t.name.toLowerCase().includes(urlMasterTopic.nameEnglish.toLowerCase()) || urlMasterTopic.nameEnglish.toLowerCase().includes(t.name.toLowerCase())))
-      );
-      if (match) {
-        urlMatchedTopicRef.current = true;
-        setSelectedTopicId(match._id);
-      }
+    if (urlMasterTopic && topics.length > 0 && selectedSubjectId && !selectedTopicId) {
+      const matchTop = topics.find((t) => t.nameHindi === urlMasterTopic.nameHindi || t.name === urlMasterTopic.nameEnglish);
+      if (matchTop) setSelectedTopicId(matchTop._id);
     }
-  }, [urlMasterTopic, topics]);
+  }, [urlMasterTopic, topics, selectedSubjectId, selectedTopicId]);
 
-  // Derive the active topic object for display
   const activeTopic = topics.find((t) => t._id === selectedTopicId);
   const activeTopicDisplay = getTopicDisplayName(activeTopic);
-  const existingCount = existingTestSets.length;
 
-  // Auto-increment / default subtopic name based on combined test sets under the topic
   const userEditedSubtopicRef = useRef(false);
   useEffect(() => {
-    const topicDisplayName = activeTopicDisplay || urlMasterTopic?.nameHindi || urlMasterTopic?.nameEnglish || "";
-    if (!userEditedSubtopicRef.current && (selectedTopicId || urlMasterTopic) && topicDisplayName) {
+    const topicDisplayName = activeTopicDisplay || urlMasterTopic?.nameHindi || "";
+    if (!userEditedSubtopicRef.current && selectedTopicId && topicDisplayName) {
       const { fullName } = calculateNextSetName(allExistingSets, topicDisplayName);
       setSubtopicName((prev) => (prev === fullName ? prev : fullName));
-    } else if (!selectedTopicId && !urlMasterTopic) {
+    } else if (!selectedTopicId) {
       setSubtopicName("");
     }
   }, [allExistingSets, selectedTopicId, activeTopicDisplay, urlMasterTopic]);
+
+  // Clean URL parameter helper to prevent sticky stale state
+  const clearUrlParam = () => {
+    if (typeof window !== "undefined" && window.location.search.includes("masterTopicId")) {
+      const url = new URL(window.location.href);
+      url.searchParams.delete("masterTopicId");
+      window.history.replaceState({}, "", url.pathname + (url.searchParams.toString() ? `?${url.searchParams}` : ""));
+    }
+  };
 
   function handleSubjectChangeId(subjectId: string) {
     setSelectedSubjectId(subjectId as Id<"subjects">);
     setSelectedTopicId("");
     setSelectedSubTopicId("");
     setSubtopicName("");
+    setConfirmation(null);
     userEditedSubtopicRef.current = false;
+    clearUrlParam();
   }
 
   function handleTopicChangeId(topicId: string) {
     setSelectedTopicId(topicId as Id<"topics">);
     setSelectedSubTopicId("");
+    setConfirmation(null);
     userEditedSubtopicRef.current = false;
-  }
-
-  function handleSubtopicNameChange(val: string) {
-    userEditedSubtopicRef.current = true;
-    setSubtopicName(val);
+    clearUrlParam();
   }
 
   const handleParsedChange = useCallback((parsedData: ImportJson | null) => {
@@ -180,6 +153,7 @@ export function ImportWizard() {
   }, []);
 
   async function handleImport(options?: ImportOptionsPayload) {
+    if (isImportingRef.current || isImporting) return;
     if (!parsed || parsed.questions.length === 0) {
       showToast("No valid questions found to import.", "warning");
       return;
@@ -193,8 +167,8 @@ export function ImportWizard() {
       return;
     }
 
+    isImportingRef.current = true;
     setIsImporting(true);
-    const startTime = Date.now();
     const totalQCount = parsed.questions.length;
     const isMultiSet = totalQCount > 20 && !options?.isFinalSet;
     const setsCount = isMultiSet ? Math.ceil(totalQCount / 20) : 1;
@@ -203,63 +177,43 @@ export function ImportWizard() {
     const startSetNum = match ? parseInt(match[1], 10) : 1;
     const baseName = extractBaseTopicName(subtopicName) || activeTopicDisplay || "Set";
     const plannedNames = calculateBatchSetNames(baseName, startSetNum, setsCount);
-
-    let firstTestSetId: Id<"testSets"> | null = null;
     const createdNames: string[] = [];
 
     try {
-      if (setsCount > 1) {
-        for (let sIdx = 0; sIdx < setsCount; sIdx++) {
-          const chunkQs = parsed.questions.slice(sIdx * 20, (sIdx + 1) * 20);
-          const chunkName = plannedNames[sIdx];
-          const res = await importTestSet({
-            topicId: selectedTopicId as Id<"topics">,
-            name: chunkName,
-            negativeMarking: true,
-            questions: chunkQs,
-            isFinalSet: sIdx === setsCount - 1 ? options?.isFinalSet : false,
-            masterTopicId: options?.masterTopicId,
-            subTopicId: options?.subTopicId,
-            subTopic: options?.subTopic,
-          });
-          if (sIdx === 0) firstTestSetId = res.testSetId;
-          createdNames.push(chunkName);
-        }
-      } else {
-        const res = await importTestSet({
+      for (let sIdx = 0; sIdx < setsCount; sIdx++) {
+        const chunkQs = setsCount > 1 ? parsed.questions.slice(sIdx * 20, (sIdx + 1) * 20) : parsed.questions;
+        const chunkName = plannedNames[sIdx] || subtopicName.trim();
+        await importTestSet({
           topicId: selectedTopicId as Id<"topics">,
-          name: subtopicName.trim(),
+          name: chunkName,
           negativeMarking: true,
-          questions: parsed.questions,
-          isFinalSet: options?.isFinalSet,
+          questions: chunkQs,
+          isFinalSet: sIdx === setsCount - 1 ? options?.isFinalSet : false,
           masterTopicId: options?.masterTopicId,
           subTopicId: options?.subTopicId,
           subTopic: options?.subTopic,
         });
-        firstTestSetId = res.testSetId;
-        createdNames.push(subtopicName.trim());
+        createdNames.push(chunkName);
       }
 
-      const elapsed = Math.max(0.1, (Date.now() - startTime) / 1000);
-
-      // Automatically sync local pool state so local queue advances and questions are marked USED
       if (options?.masterTopicId) {
         try {
-          const highestSetNum = startSetNum + setsCount - 1;
+          const selectedQuestionIds = parsed.questions
+            .map((q) => q.meta?.sourceQuestionId || (q as any).sourceQuestionId || (q as any).id)
+            .filter(Boolean);
           await fetch("/api/admin/finalize-local-set", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
               masterTopicId: options.masterTopicId,
-              setNumber: highestSetNum,
+              setNumber: startSetNum + setsCount - 1,
               startSetNumber: startSetNum,
               setCount: setsCount,
               setName: subtopicName.trim(),
+              plannedNames,
               subTopicId: options.subTopicId,
               subTopic: options.subTopic,
-              selectedQuestionIds: parsed.questions
-                .map((q) => q.meta?.sourceQuestionId || (q as any).sourceQuestionId || (q as any).id)
-                .filter(Boolean),
+              selectedQuestionIds,
               questions: parsed.questions,
             }),
           });
@@ -268,42 +222,32 @@ export function ImportWizard() {
         }
       }
 
-      // Feedback
-      showToast(
-        `✅ ${totalQCount} questions imported successfully across ${setsCount} set(s) (${createdNames.join(", ")}). Local pool state updated.`,
-        "success"
-      );
+      setConfirmation({
+        addedCount: totalQCount,
+        subjectName: subjects.find((s) => s._id === selectedSubjectId)?.nameHindi || "Rajasthan GK",
+        topicName: activeTopicDisplay || "Topic",
+        subTopicName: options?.subTopic,
+        setNames: createdNames,
+      });
 
-      if (firstTestSetId) {
-        setLastImportedSet({
-          id: firstTestSetId,
-          count: totalQCount,
-          timeSeconds: parseFloat(elapsed.toFixed(1)),
-        });
-      }
+      showToast(`✅ ${totalQCount} questions imported successfully across ${setsCount} set(s).`, "success");
 
-      // Smart auto-advance: Calculate the NEXT set name!
-      const nextSetNumber = startSetNum + setsCount;
-      const nextSetName = `${baseName} भाग ${nextSetNumber}`;
-
+      const nextSetName = `${baseName} भाग ${startSetNum + setsCount}`;
       userEditedSubtopicRef.current = false;
       setSubtopicName(nextSetName);
       setResetKey((k) => k + 1);
       setParsed(null);
-
-      // Refresh local sets immediately
       await refreshLocalSets();
     } catch (err: any) {
-      const errMsg = err?.data ?? err?.message ?? "Failed to import questions. Your text has been preserved.";
-      showToast(errMsg, "warning");
+      showToast(err?.message || "Failed to import questions. Text preserved.", "warning");
     } finally {
       setIsImporting(false);
+      isImportingRef.current = false;
     }
   }
 
   return (
     <div className="space-y-4 max-w-4xl mx-auto w-full min-w-0 overflow-x-hidden">
-      {/* Return to Admin Overview Navigation Bar */}
       <div className="flex items-center justify-between">
         <Link
           href="/admin"
@@ -314,15 +258,11 @@ export function ImportWizard() {
         </Link>
       </div>
 
-      {/* Success Notification Banner */}
-      {lastImportedSet && (
-        <ImportSuccessBanner
-          lastImportedSet={lastImportedSet}
-          onDismiss={() => setLastImportedSet(null)}
-        />
-      )}
+      <ImportConfirmationBanner
+        confirmation={confirmation}
+        onDismiss={() => setConfirmation(null)}
+      />
 
-      {/* Streamlined Question Import Editor */}
       <QuestionImportEditor
         resetKey={resetKey}
         onParsedChange={handleParsedChange}
@@ -337,21 +277,19 @@ export function ImportWizard() {
           setSelectedSubTopicId(subId);
           userEditedSubtopicRef.current = false;
           if (subId) {
-            const activeTopic = topics.find((t) => t._id === selectedTopicId);
             const mInfo = MASTER_TOPICS_LIST.find((mt) => mt.id === (urlMasterTopic?.id || activeTopic?.masterTopicId));
             const sub = mInfo?.subTopics?.find((s) => s.id === subId);
-            if (sub) {
-              const nextPart = calculateSubTopicNextPart(allExistingSets, subId, sub.name);
-              setSubtopicName(`${sub.name} भाग ${nextPart}`);
-            }
+            if (sub) setSubtopicName(`${sub.name} भाग ${calculateSubTopicNextPart(allExistingSets, subId, sub.name)}`);
           } else {
-            const topicDisplayName = activeTopicDisplay || urlMasterTopic?.nameHindi || urlMasterTopic?.nameEnglish || "";
-            const { fullName } = calculateNextSetName(allExistingSets, topicDisplayName);
-            setSubtopicName(fullName);
+            const topicDisplayName = activeTopicDisplay || urlMasterTopic?.nameHindi || "";
+            setSubtopicName(calculateNextSetName(allExistingSets, topicDisplayName).fullName);
           }
         }}
         subtopicName={subtopicName}
-        onSubtopicNameChange={handleSubtopicNameChange}
+        onSubtopicNameChange={(val) => {
+          userEditedSubtopicRef.current = true;
+          setSubtopicName(val);
+        }}
         isImporting={isImporting}
         onImportClick={handleImport}
         initialMasterTopicId={urlMasterTopic ? urlMasterTopic.id : undefined}
