@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-10",
+  "title": "Set 10 — Articles",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Articles",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_181",
+      "number": 1,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "Being ______ M.A. only, he could not be appointed to the post of Assistant Professor.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a"
+        },
+        {
+          "id": "opt2",
+          "text": "an"
+        },
+        {
+          "id": "opt3",
+          "text": "the"
+        },
+        {
+          "id": "opt4",
+          "text": "no article"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_182",
+      "number": 2,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "Match the sentences with the appropriate articles:\nA. ______ Tony Award\nB. German is ______ difficult language.\nC. Vikramaditya is ______ amiable person.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-the, B-a, C-an"
+        },
+        {
+          "id": "opt2",
+          "text": "A-an, B-a, C-the"
+        },
+        {
+          "id": "opt3",
+          "text": "A-the, B-an, C-a"
+        },
+        {
+          "id": "opt4",
+          "text": "A-a, B-the, C-an"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_183",
+      "number": 3,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "______ news you broke to your wife made her nervous and broke her heart.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A"
+        },
+        {
+          "id": "opt2",
+          "text": "An"
+        },
+        {
+          "id": "opt3",
+          "text": "The"
+        },
+        {
+          "id": "opt4",
+          "text": "No article"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_184",
+      "number": 4,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "He earns ₹70,000 ______ year.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "an"
+        },
+        {
+          "id": "opt2",
+          "text": "the"
+        },
+        {
+          "id": "opt3",
+          "text": "no article"
+        },
+        {
+          "id": "opt4",
+          "text": "a"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_185",
+      "number": 5,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "______ Neil Armstrong was ______ first man on ______ Moon.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The / the / the"
+        },
+        {
+          "id": "opt2",
+          "text": "No article / the / the"
+        },
+        {
+          "id": "opt3",
+          "text": "No article / a / the"
+        },
+        {
+          "id": "opt4",
+          "text": "The / a / no article"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_186",
+      "number": 6,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "There will always be conflict between ______ old and ______ young; young people want change, but old people want things to stay ______ same.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "the / the / the"
+        },
+        {
+          "id": "opt2",
+          "text": "a / a / the"
+        },
+        {
+          "id": "opt3",
+          "text": "the / a / no article"
+        },
+        {
+          "id": "opt4",
+          "text": "no article / the / the"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_187",
+      "number": 7,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "The wicked man stole my money and was sent to ______ prison, while the virtuous man went to ______ prison to deliver a motivational lecture.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "the / the"
+        },
+        {
+          "id": "opt2",
+          "text": "no article / no article"
+        },
+        {
+          "id": "opt3",
+          "text": "the / no article"
+        },
+        {
+          "id": "opt4",
+          "text": "no article / the"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_188",
+      "number": 8,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "Match the sentences with the correct articles:\nA. Hari knew ______ man who was killed yesterday.\nB. Sri Lanka is ______ island.\nC. My mother teaches in ______ college.\nD. January is ______ first month of the year.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-the, B-an, C-a, D-the"
+        },
+        {
+          "id": "opt2",
+          "text": "A-a, B-an, C-the, D-a"
+        },
+        {
+          "id": "opt3",
+          "text": "A-the, B-a, C-an, D-the"
+        },
+        {
+          "id": "opt4",
+          "text": "A-a, B-the, C-a, D-the"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_189",
+      "number": 9,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "The child was holding ______ one-rupee note.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "an"
+        },
+        {
+          "id": "opt2",
+          "text": "the"
+        },
+        {
+          "id": "opt3",
+          "text": "a"
+        },
+        {
+          "id": "opt4",
+          "text": "no article"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_190",
+      "number": 10,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "I take nearly ______ hour to finish my tiffin.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a"
+        },
+        {
+          "id": "opt2",
+          "text": "the"
+        },
+        {
+          "id": "opt3",
+          "text": "no article"
+        },
+        {
+          "id": "opt4",
+          "text": "an"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_191",
+      "number": 11,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "The train takes ______ full day to reach my destination.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a"
+        },
+        {
+          "id": "opt2",
+          "text": "an"
+        },
+        {
+          "id": "opt3",
+          "text": "the"
+        },
+        {
+          "id": "opt4",
+          "text": "no article"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_192",
+      "number": 12,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "We saw him near ______ cinema last night.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a"
+        },
+        {
+          "id": "opt2",
+          "text": "an"
+        },
+        {
+          "id": "opt3",
+          "text": "the"
+        },
+        {
+          "id": "opt4",
+          "text": "no article"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_193",
+      "number": 13,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "Rashmi is ______ university student.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "an"
+        },
+        {
+          "id": "opt2",
+          "text": "the"
+        },
+        {
+          "id": "opt3",
+          "text": "no article"
+        },
+        {
+          "id": "opt4",
+          "text": "a"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_194",
+      "number": 14,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "______ apples sold in the market are brought from Kashmir.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The"
+        },
+        {
+          "id": "opt2",
+          "text": "A"
+        },
+        {
+          "id": "opt3",
+          "text": "An"
+        },
+        {
+          "id": "opt4",
+          "text": "No article"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_195",
+      "number": 15,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "There is ______ fish in the bottle.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "the"
+        },
+        {
+          "id": "opt2",
+          "text": "no article"
+        },
+        {
+          "id": "opt3",
+          "text": "a"
+        },
+        {
+          "id": "opt4",
+          "text": "an"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_196",
+      "number": 16,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "He gave us ______ good breakfast.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "the"
+        },
+        {
+          "id": "opt2",
+          "text": "no article"
+        },
+        {
+          "id": "opt3",
+          "text": "a"
+        },
+        {
+          "id": "opt4",
+          "text": "an"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_197",
+      "number": 17,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "I enjoyed reading ______ book you gave me.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a"
+        },
+        {
+          "id": "opt2",
+          "text": "the"
+        },
+        {
+          "id": "opt3",
+          "text": "an"
+        },
+        {
+          "id": "opt4",
+          "text": "no article"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_198",
+      "number": 18,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "His car struck ______ tree, and you can still see ______ mark on ______ tree.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a / the / the"
+        },
+        {
+          "id": "opt2",
+          "text": "the / a / a"
+        },
+        {
+          "id": "opt3",
+          "text": "a / a / the"
+        },
+        {
+          "id": "opt4",
+          "text": "the / the / a"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_199",
+      "number": 19,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "Rita is ______ tallest girl in the class.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a"
+        },
+        {
+          "id": "opt2",
+          "text": "an"
+        },
+        {
+          "id": "opt3",
+          "text": "the"
+        },
+        {
+          "id": "opt4",
+          "text": "no article"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_200",
+      "number": 20,
+      "type": "mcq",
+      "section": "Articles",
+      "questionText": "I was invited to a dinner to welcome ______ new ambassador.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a"
+        },
+        {
+          "id": "opt2",
+          "text": "the"
+        },
+        {
+          "id": "opt3",
+          "text": "an"
+        },
+        {
+          "id": "opt4",
+          "text": "no article"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles",
+        "setNumber": 10,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

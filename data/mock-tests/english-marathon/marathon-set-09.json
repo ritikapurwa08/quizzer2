@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-09",
+  "title": "Set 09 — Sentence Correction",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Sentence Correction",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_161",
+      "number": 1,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct sentence using exclamatory inversion with 'Here' or 'There':",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "There goes the bus."
+        },
+        {
+          "id": "opt2",
+          "text": "There go the bus."
+        },
+        {
+          "id": "opt3",
+          "text": "There is going the bus."
+        },
+        {
+          "id": "opt4",
+          "text": "There went the bus."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_162",
+      "number": 2,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct sentence expressing a universal truth:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The Earth is revolving around the Sun."
+        },
+        {
+          "id": "opt2",
+          "text": "The Earth revolved around the Sun."
+        },
+        {
+          "id": "opt3",
+          "text": "The Earth revolves around the Sun."
+        },
+        {
+          "id": "opt4",
+          "text": "The Earth will revolve around the Sun."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_163",
+      "number": 3,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the correct Present Perfect Passive sentence:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The guests have entertained properly."
+        },
+        {
+          "id": "opt2",
+          "text": "The guests have been entertained properly."
+        },
+        {
+          "id": "opt3",
+          "text": "The guests are being entertained properly."
+        },
+        {
+          "id": "opt4",
+          "text": "The guests were entertained properly."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_164",
+      "number": 4,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct Indirect Narration sentence (Sequence of tenses):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I asked him why he is telling a lie."
+        },
+        {
+          "id": "opt2",
+          "text": "I asked him why he was telling a lie."
+        },
+        {
+          "id": "opt3",
+          "text": "I asked him why he told a lie."
+        },
+        {
+          "id": "opt4",
+          "text": "I asked him why he is telling a lie."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_165",
+      "number": 5,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct Indirect Narration sentence (Yes/No question):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The seller asked me that I wanted to buy shoes."
+        },
+        {
+          "id": "opt2",
+          "text": "The seller asked me whether I wanted to buy shoes."
+        },
+        {
+          "id": "opt3",
+          "text": "The seller asked me if I want to buy shoes."
+        },
+        {
+          "id": "opt4",
+          "text": "The seller asked me whether I did want to buy shoes."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_166",
+      "number": 6,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct sentence using 'did not':",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The students did not stood up when the teacher came."
+        },
+        {
+          "id": "opt2",
+          "text": "The students did not stand up when the teacher came."
+        },
+        {
+          "id": "opt3",
+          "text": "The students did not standing up when the teacher came."
+        },
+        {
+          "id": "opt4",
+          "text": "The students did not stands up when the teacher came."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_167",
+      "number": 7,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct interrogative sentence:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "What does you want from me?"
+        },
+        {
+          "id": "opt2",
+          "text": "What do you want from me?"
+        },
+        {
+          "id": "opt3",
+          "text": "What you want from me?"
+        },
+        {
+          "id": "opt4",
+          "text": "What did you want from me?"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_168",
+      "number": 8,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct interrogative sentence using 'did':",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Where did the thief hid the stolen watch?"
+        },
+        {
+          "id": "opt2",
+          "text": "Where did the thief hide the stolen watch?"
+        },
+        {
+          "id": "opt3",
+          "text": "Where did the thief hidden the stolen watch?"
+        },
+        {
+          "id": "opt4",
+          "text": "Where did the thief hiding the stolen watch?"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_169",
+      "number": 9,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct indirect exclamation:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He exclaimed that he is very unlucky."
+        },
+        {
+          "id": "opt2",
+          "text": "He exclaimed that he was very unlucky."
+        },
+        {
+          "id": "opt3",
+          "text": "He exclaimed that he was how unlucky."
+        },
+        {
+          "id": "opt4",
+          "text": "He exclaimed that he is how unlucky."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_170",
+      "number": 10,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct sentence using the fixed preposition with 'invited':",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I was invited on the party."
+        },
+        {
+          "id": "opt2",
+          "text": "I was invited at the party."
+        },
+        {
+          "id": "opt3",
+          "text": "I was invited to the party."
+        },
+        {
+          "id": "opt4",
+          "text": "I was invited in the party."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_171",
+      "number": 11,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct conditional/time-clause sentence:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "When it will rain, farmers sow their fields."
+        },
+        {
+          "id": "opt2",
+          "text": "When it rains, farmers sow their fields."
+        },
+        {
+          "id": "opt3",
+          "text": "When it rained, farmers will sow their fields."
+        },
+        {
+          "id": "opt4",
+          "text": "When it is raining, farmers sowed their fields."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_172",
+      "number": 12,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct sentence using 'had better':",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "You had better to study for the exam."
+        },
+        {
+          "id": "opt2",
+          "text": "You had better studying for the exam."
+        },
+        {
+          "id": "opt3",
+          "text": "You had better study for the exam."
+        },
+        {
+          "id": "opt4",
+          "text": "You had better to studying for the exam."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_173",
+      "number": 13,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct past interrogative sentence:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "When did he saw the movie?"
+        },
+        {
+          "id": "opt2",
+          "text": "When did he see the movie?"
+        },
+        {
+          "id": "opt3",
+          "text": "When did he seen the movie?"
+        },
+        {
+          "id": "opt4",
+          "text": "When did he seeing the movie?"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_174",
+      "number": 14,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct Present Perfect Continuous sentence:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He has been living here since 2010."
+        },
+        {
+          "id": "opt2",
+          "text": "He has been lived here since 2010."
+        },
+        {
+          "id": "opt3",
+          "text": "He is been living here since 2010."
+        },
+        {
+          "id": "opt4",
+          "text": "He has living here since 2010."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_175",
+      "number": 15,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct negative interrogative sentence:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Didn't you completed your homework?"
+        },
+        {
+          "id": "opt2",
+          "text": "Did you not complete your homework?"
+        },
+        {
+          "id": "opt3",
+          "text": "Didn't you complete your homework?"
+        },
+        {
+          "id": "opt4",
+          "text": "Don't you complete your homework?"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_176",
+      "number": 16,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct sentence using 'warn':",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The instructor warned the driver not to drive fast."
+        },
+        {
+          "id": "opt2",
+          "text": "The instructor warned the driver to not drive fast."
+        },
+        {
+          "id": "opt3",
+          "text": "The instructor warned the driver not driving fast."
+        },
+        {
+          "id": "opt4",
+          "text": "The instructor warned the driver that not to drive fast."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_177",
+      "number": 17,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct sentence involving backshifting with 'had':",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "They said that they had did their work."
+        },
+        {
+          "id": "opt2",
+          "text": "They said that they had done their work."
+        },
+        {
+          "id": "opt3",
+          "text": "They said that they have done their work."
+        },
+        {
+          "id": "opt4",
+          "text": "They said that they had doing their work."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_178",
+      "number": 18,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct sentence following the 'past follows past' rule:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Vasu assured that they will win the match."
+        },
+        {
+          "id": "opt2",
+          "text": "Vasu assured that they would win the match."
+        },
+        {
+          "id": "opt3",
+          "text": "Vasu assured that they won the match."
+        },
+        {
+          "id": "opt4",
+          "text": "Vasu assured that they winning the match."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_179",
+      "number": 19,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct sentence using 'request':",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "She requested him bringing a glass of water."
+        },
+        {
+          "id": "opt2",
+          "text": "She requested him to bring a glass of water."
+        },
+        {
+          "id": "opt3",
+          "text": "She requested him that bring a glass of water."
+        },
+        {
+          "id": "opt4",
+          "text": "She requested him bring a glass of water."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_180",
+      "number": 20,
+      "type": "mcq",
+      "section": "Sentence Correction",
+      "questionText": "Choose the grammatically correct sentence using 'tell':",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "They told him attend the class regularly."
+        },
+        {
+          "id": "opt2",
+          "text": "They told him to attend the class regularly."
+        },
+        {
+          "id": "opt3",
+          "text": "They told him attending the class regularly."
+        },
+        {
+          "id": "opt4",
+          "text": "They told him that attend the class regularly."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Sentence Correction",
+        "setNumber": 9,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

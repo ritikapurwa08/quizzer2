@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-16",
+  "title": "Set 16 — Translation & Official Letters",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Translation & Official Letters",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_301",
+      "number": 1,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Translate into English: \"विद्यार्थियों में संतरे बांट दिए जाएँ।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Distribute these oranges between the students."
+        },
+        {
+          "id": "opt2",
+          "text": "Distribute these oranges among the students."
+        },
+        {
+          "id": "opt3",
+          "text": "Share these oranges with the students."
+        },
+        {
+          "id": "opt4",
+          "text": "Divide these oranges for the students."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_302",
+      "number": 2,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Translate into Hindi: \"They were in the class.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वे कक्ष में थे।"
+        },
+        {
+          "id": "opt2",
+          "text": "वे कक्षा में थे।"
+        },
+        {
+          "id": "opt3",
+          "text": "वे वर्ग में थे।"
+        },
+        {
+          "id": "opt4",
+          "text": "वे शाला में थे।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_303",
+      "number": 3,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Translate into Hindi: \"She saw me in the library.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उसने मुझे पुस्तकालय में देखा।"
+        },
+        {
+          "id": "opt2",
+          "text": "उसने मुझे लाइब्रेरी में देखा।"
+        },
+        {
+          "id": "opt3",
+          "text": "वह मुझे पुस्तकालय में देखी।"
+        },
+        {
+          "id": "opt4",
+          "text": "उसने मुझे पाठशाला में देखा।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_304",
+      "number": 4,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Translate into English: \"सुबह से बारिश हो रही है।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "It is raining since morning."
+        },
+        {
+          "id": "opt2",
+          "text": "It has been raining since morning."
+        },
+        {
+          "id": "opt3",
+          "text": "It has been raining from morning."
+        },
+        {
+          "id": "opt4",
+          "text": "It was raining since morning."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_305",
+      "number": 5,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Translate into English: \"मेरे स्टेशन पहुँचने से पहले गाड़ी जा चुकी थी।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The train left before I reached the station."
+        },
+        {
+          "id": "opt2",
+          "text": "The train had left before I reached the station."
+        },
+        {
+          "id": "opt3",
+          "text": "The train has left before I reached the station."
+        },
+        {
+          "id": "opt4",
+          "text": "The train was leaving before I reached the station."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_306",
+      "number": 6,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Translate into Hindi: \"Dr. Gupta will buy the house that I built last year.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डॉ. गुप्ता वह घर खरीदेंगे जो मैंने पिछले साल बनाया था।"
+        },
+        {
+          "id": "opt2",
+          "text": "डॉ. गुप्ता वह घर खरीदेंगे जो मैंने पिछले साल बनाया है।"
+        },
+        {
+          "id": "opt3",
+          "text": "डॉ. गुप्ता वह घर खरीदेंगे जो मैंने पिछले साल बनाया था।"
+        },
+        {
+          "id": "opt4",
+          "text": "डॉ. गुप्ता वह घर खरीदेंगे जो मैंने पिछले साल बनाया था।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_307",
+      "number": 7,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Translate into English: \"राम कल दिल्ली जाएगा।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ram is going to Delhi tomorrow."
+        },
+        {
+          "id": "opt2",
+          "text": "Ram will go to Delhi tomorrow."
+        },
+        {
+          "id": "opt3",
+          "text": "Ram goes to Delhi tomorrow."
+        },
+        {
+          "id": "opt4",
+          "text": "Ram has gone to Delhi tomorrow."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_308",
+      "number": 8,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Translate into English: \"श्रेया किताब पढ़ रही है।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Shreya reads a book."
+        },
+        {
+          "id": "opt2",
+          "text": "Shreya is reading a book."
+        },
+        {
+          "id": "opt3",
+          "text": "Shreya was reading a book."
+        },
+        {
+          "id": "opt4",
+          "text": "Shreya has read a book."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_309",
+      "number": 9,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Translate into English: \"कार्यालय समय 9 से 5 का होता है।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Office hours are between 9 and 5."
+        },
+        {
+          "id": "opt2",
+          "text": "Office hours are from 9 to 5."
+        },
+        {
+          "id": "opt3",
+          "text": "Office hours are at 9 to 5."
+        },
+        {
+          "id": "opt4",
+          "text": "Office hours are since 9 until 5."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_310",
+      "number": 10,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Translate into English: \"वह भूखी थी, फिर भी उसने काम किया।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "She was hungry, so she worked."
+        },
+        {
+          "id": "opt2",
+          "text": "She was hungry, yet she worked."
+        },
+        {
+          "id": "opt3",
+          "text": "She was hungry, because she worked."
+        },
+        {
+          "id": "opt4",
+          "text": "She was hungry, although she worked."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_311",
+      "number": 11,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "How do you sign off an official letter?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Yours faithfully"
+        },
+        {
+          "id": "opt2",
+          "text": "Yours truly"
+        },
+        {
+          "id": "opt3",
+          "text": "Yours sincerely"
+        },
+        {
+          "id": "opt4",
+          "text": "Yours respectfully"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_312",
+      "number": 12,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "An official letter is written in which language/tone?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Informal"
+        },
+        {
+          "id": "opt2",
+          "text": "Formal"
+        },
+        {
+          "id": "opt3",
+          "text": "Colloquial"
+        },
+        {
+          "id": "opt4",
+          "text": "Persuasive"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_313",
+      "number": 13,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "In an official letter, how do you address the person you are writing to (when the name is unknown)?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Dear Sir / Madam"
+        },
+        {
+          "id": "opt2",
+          "text": "Dear Sir and Madam"
+        },
+        {
+          "id": "opt3",
+          "text": "Dear Sir/Madam"
+        },
+        {
+          "id": "opt4",
+          "text": "Dear Sir or Madam"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_314",
+      "number": 14,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Which point must be included in an official letter?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Personal health details"
+        },
+        {
+          "id": "opt2",
+          "text": "Family inquiries"
+        },
+        {
+          "id": "opt3",
+          "text": "Address"
+        },
+        {
+          "id": "opt4",
+          "text": "Personal future plans"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_315",
+      "number": 15,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Any kind of letter generally ends with:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Date"
+        },
+        {
+          "id": "opt2",
+          "text": "Subject"
+        },
+        {
+          "id": "opt3",
+          "text": "Salutation"
+        },
+        {
+          "id": "opt4",
+          "text": "Signature"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_316",
+      "number": 16,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "What is the correct way to write the date in a formal/official letter as per NCERT?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "15/03/2016"
+        },
+        {
+          "id": "opt2",
+          "text": "15 March 2016"
+        },
+        {
+          "id": "opt3",
+          "text": "March 15th, 2016"
+        },
+        {
+          "id": "opt4",
+          "text": "15-03-2016"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_317",
+      "number": 17,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "What should the first paragraph of an official letter state?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The subject / purpose of writing"
+        },
+        {
+          "id": "opt2",
+          "text": "Weather conditions"
+        },
+        {
+          "id": "opt3",
+          "text": "Personal flattery"
+        },
+        {
+          "id": "opt4",
+          "text": "Threats of legal action"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_318",
+      "number": 18,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Which of the following is the correct spelling and form for ending a letter?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Yours faithfuly"
+        },
+        {
+          "id": "opt2",
+          "text": "Yours' faithfully"
+        },
+        {
+          "id": "opt3",
+          "text": "Yours faithfully"
+        },
+        {
+          "id": "opt4",
+          "text": "Your faithfully"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_319",
+      "number": 19,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "If the salutation is \"Dear Sir / Madam\", how should the letter close?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Yours sincerely"
+        },
+        {
+          "id": "opt2",
+          "text": "Yours truly"
+        },
+        {
+          "id": "opt3",
+          "text": "Yours faithfully"
+        },
+        {
+          "id": "opt4",
+          "text": "Yours respectfully"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_320",
+      "number": 20,
+      "type": "mcq",
+      "section": "Translation & Official Letters",
+      "questionText": "Which one of the following is correct in an official letter?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Yours truly"
+        },
+        {
+          "id": "opt2",
+          "text": "Yours true"
+        },
+        {
+          "id": "opt3",
+          "text": "Yours' truly"
+        },
+        {
+          "id": "opt4",
+          "text": "Your truly"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation & Official Letters",
+        "setNumber": 16,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

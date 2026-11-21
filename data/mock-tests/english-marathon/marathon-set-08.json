@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-08",
+  "title": "Set 08 — Indirect Speech & Error Correction",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Indirect Speech & Error Correction",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_141",
+      "number": 1,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "He asked her, \"Where do you live?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He asked her where she lives."
+        },
+        {
+          "id": "opt2",
+          "text": "He asked her where she lived."
+        },
+        {
+          "id": "opt3",
+          "text": "He asked her where did she live."
+        },
+        {
+          "id": "opt4",
+          "text": "He asked her where she was living."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_142",
+      "number": 2,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "\"Is there anyone there?\" he asked. (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He asked if there is anyone there."
+        },
+        {
+          "id": "opt2",
+          "text": "He asked whether there was anyone there."
+        },
+        {
+          "id": "opt3",
+          "text": "He asked that there was anyone there."
+        },
+        {
+          "id": "opt4",
+          "text": "He asked whether there were anyone there."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_143",
+      "number": 3,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "The taxi driver asked me, \"Where do you want to go?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The taxi driver asked me where I want to go."
+        },
+        {
+          "id": "opt2",
+          "text": "The taxi driver asked me where did I want to go."
+        },
+        {
+          "id": "opt3",
+          "text": "The taxi driver asked me where I wanted to go."
+        },
+        {
+          "id": "opt4",
+          "text": "The taxi driver asked me where I was wanting to go."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_144",
+      "number": 4,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "She exclaimed, \"How beautiful the rainbow is!\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "She exclaimed that the rainbow is very beautiful."
+        },
+        {
+          "id": "opt2",
+          "text": "She exclaimed with joy that the rainbow was very beautiful."
+        },
+        {
+          "id": "opt3",
+          "text": "She exclaimed how beautiful the rainbow is."
+        },
+        {
+          "id": "opt4",
+          "text": "She exclaimed with joy that the rainbow is beautiful."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_145",
+      "number": 5,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "I asked him, \"What is your name?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I asked him what is your name."
+        },
+        {
+          "id": "opt2",
+          "text": "I asked him what his name was."
+        },
+        {
+          "id": "opt3",
+          "text": "I asked him what was his name."
+        },
+        {
+          "id": "opt4",
+          "text": "I asked him what his name is."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_146",
+      "number": 6,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (Preposition with emphasis):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Gandhiji laid emphasis at non-violence."
+        },
+        {
+          "id": "opt2",
+          "text": "Gandhiji laid emphasis on non-violence."
+        },
+        {
+          "id": "opt3",
+          "text": "Gandhiji laid emphasis about non-violence."
+        },
+        {
+          "id": "opt4",
+          "text": "Gandhiji laid emphasis in non-violence."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_147",
+      "number": 7,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (Passive with shocked):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Babuli was shocked by the dispute in her family."
+        },
+        {
+          "id": "opt2",
+          "text": "Babuli was shocked at the dispute in her family."
+        },
+        {
+          "id": "opt3",
+          "text": "Babuli was shocked on the dispute in her family."
+        },
+        {
+          "id": "opt4",
+          "text": "Babuli was shocked with the dispute in her family."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_148",
+      "number": 8,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (Comparative Degree):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "American Negroes are more richer than their brethren in Britain."
+        },
+        {
+          "id": "opt2",
+          "text": "American Negroes are richer than their brethren in Britain."
+        },
+        {
+          "id": "opt3",
+          "text": "American Negroes are the richest than their brethren in Britain."
+        },
+        {
+          "id": "opt4",
+          "text": "American Negroes are most richer than their brethren in Britain."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_149",
+      "number": 9,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (It is time structure):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "It is time we eat our food."
+        },
+        {
+          "id": "opt2",
+          "text": "It is time we ate our food."
+        },
+        {
+          "id": "opt3",
+          "text": "It is time we will eat our food."
+        },
+        {
+          "id": "opt4",
+          "text": "It is time we have eaten our food."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_150",
+      "number": 10,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (Perfect Participle):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Having took our rest, we continued our journey."
+        },
+        {
+          "id": "opt2",
+          "text": "Having taken our rest, we continued our journey."
+        },
+        {
+          "id": "opt3",
+          "text": "Having take our rest, we continued our journey."
+        },
+        {
+          "id": "opt4",
+          "text": "Having taking our rest, we continued our journey."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_151",
+      "number": 11,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (First Conditional):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "If you get proper training, you will become successful."
+        },
+        {
+          "id": "opt2",
+          "text": "If you will get proper training, you become successful."
+        },
+        {
+          "id": "opt3",
+          "text": "If you got proper training, you would become successful."
+        },
+        {
+          "id": "opt4",
+          "text": "If you get proper training, you would become successful."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_152",
+      "number": 12,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (Inversion with Hardly):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Hardly had he arrived when the train left."
+        },
+        {
+          "id": "opt2",
+          "text": "Hardly he had arrived than the train left."
+        },
+        {
+          "id": "opt3",
+          "text": "Hardly had he arrived than the train left."
+        },
+        {
+          "id": "opt4",
+          "text": "Hardly he arrived when the train left."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_153",
+      "number": 13,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (Inversion with No sooner):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "No sooner did he arrive than the meeting started."
+        },
+        {
+          "id": "opt2",
+          "text": "No sooner did he arrive when the meeting started."
+        },
+        {
+          "id": "opt3",
+          "text": "No sooner he arrived than the meeting started."
+        },
+        {
+          "id": "opt4",
+          "text": "No sooner had he arrived when the meeting started."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_154",
+      "number": 14,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (Negative adverb hardly):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "It hardly matters whether he says yes or no."
+        },
+        {
+          "id": "opt2",
+          "text": "It hardly does not matter whether he says yes or no."
+        },
+        {
+          "id": "opt3",
+          "text": "It hardly matter whether he says yes or no."
+        },
+        {
+          "id": "opt4",
+          "text": "It hardly matters not whether he says yes or no."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_155",
+      "number": 15,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (Past time marker):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He celebrated his birthday yesterday."
+        },
+        {
+          "id": "opt2",
+          "text": "He celebrates his birthday yesterday."
+        },
+        {
+          "id": "opt3",
+          "text": "He has celebrated his birthday yesterday."
+        },
+        {
+          "id": "opt4",
+          "text": "He was celebrating his birthday yesterday."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_156",
+      "number": 16,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (Infinitive of purpose):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The teacher told him to come late."
+        },
+        {
+          "id": "opt2",
+          "text": "The teacher told him coming late."
+        },
+        {
+          "id": "opt3",
+          "text": "The teacher told him come late."
+        },
+        {
+          "id": "opt4",
+          "text": "The teacher told him that he comes late."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_157",
+      "number": 17,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (Gerund after deny):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The boy denied obeying the teacher."
+        },
+        {
+          "id": "opt2",
+          "text": "The boy denied to obey the teacher."
+        },
+        {
+          "id": "opt3",
+          "text": "The boy denied obey the teacher."
+        },
+        {
+          "id": "opt4",
+          "text": "The boy denied that he obeys the teacher."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_158",
+      "number": 18,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (Past Simple V2):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He sent an email yesterday."
+        },
+        {
+          "id": "opt2",
+          "text": "He sends an email yesterday."
+        },
+        {
+          "id": "opt3",
+          "text": "He has sent an email yesterday."
+        },
+        {
+          "id": "opt4",
+          "text": "He was sending an email yesterday."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_159",
+      "number": 19,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Identify the sentence in the Present Perfect Tense:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "They have finished their work."
+        },
+        {
+          "id": "opt2",
+          "text": "They has finished their work."
+        },
+        {
+          "id": "opt3",
+          "text": "They are finishing their work."
+        },
+        {
+          "id": "opt4",
+          "text": "They finished their work."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_160",
+      "number": 20,
+      "type": "mcq",
+      "section": "Indirect Speech & Error Correction",
+      "questionText": "Choose the grammatically correct sentence (since + time):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "It has been raining since morning."
+        },
+        {
+          "id": "opt2",
+          "text": "It is raining since morning."
+        },
+        {
+          "id": "opt3",
+          "text": "It has rained since morning."
+        },
+        {
+          "id": "opt4",
+          "text": "It was raining since morning."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Error Correction",
+        "setNumber": 8,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

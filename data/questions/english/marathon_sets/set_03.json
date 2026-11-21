@@ -1,0 +1,310 @@
+{
+  "setId": "marathon-set-03",
+  "setNumber": 3,
+  "title": "Set 03 — Voice & Sentence Types",
+  "topic": "Voice & Sentence Types",
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "eng_m500_041",
+      "setNumber": 3,
+      "questionNumber": 1,
+      "topic": "Voice & Sentence Types",
+      "question": "This soup is very hot, ______?",
+      "options": [
+        "is it",
+        "isn't it",
+        "doesn't it",
+        "aren't they"
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_042",
+      "setNumber": 3,
+      "questionNumber": 2,
+      "topic": "Voice & Sentence Types",
+      "question": "Which of the following is a Simple Sentence?",
+      "options": [
+        "The cat sat on the mat.",
+        "I went to the market and bought some vegetables.",
+        "Although it was raining, he went out.",
+        "He is a teacher and she is a doctor."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_043",
+      "setNumber": 3,
+      "questionNumber": 3,
+      "topic": "Voice & Sentence Types",
+      "question": "Somebody had put out the light. (Change to Passive Voice)",
+      "options": [
+        "The light was put out by somebody.",
+        "The light had been put out.",
+        "The light is put out by somebody.",
+        "The light has been put out."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_044",
+      "setNumber": 3,
+      "questionNumber": 4,
+      "topic": "Voice & Sentence Types",
+      "question": "People serve ice cream with the meal. (Change to Passive Voice)",
+      "options": [
+        "Ice cream is served with the meal.",
+        "Ice cream was served with the meal.",
+        "Ice cream is being served with the meal.",
+        "Ice cream has been served with the meal."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_045",
+      "setNumber": 3,
+      "questionNumber": 5,
+      "topic": "Voice & Sentence Types",
+      "question": "They are expecting good news. (Change to Passive Voice)",
+      "options": [
+        "Good news is expected by them.",
+        "Good news was expected by them.",
+        "Good news is being expected by them.",
+        "Good news has been expected by them."
+      ],
+      "answer": "C",
+      "answerIndex": 2
+    },
+    {
+      "id": "eng_m500_046",
+      "setNumber": 3,
+      "questionNumber": 6,
+      "topic": "Voice & Sentence Types",
+      "question": "They admire the bravery of the Indian soldiers. (Change to Passive Voice)",
+      "options": [
+        "The bravery of the Indian soldiers is admired.",
+        "The bravery of the Indian soldiers was admired.",
+        "The bravery of the Indian soldiers is being admired.",
+        "The bravery of the Indian soldiers has been admired."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_047",
+      "setNumber": 3,
+      "questionNumber": 7,
+      "topic": "Voice & Sentence Types",
+      "question": "The principal has dissolved the committee. (Change to Passive Voice)",
+      "options": [
+        "The committee was dissolved by the principal.",
+        "The committee is dissolved by the principal.",
+        "The committee has been dissolved by the principal.",
+        "The committee is being dissolved by the principal."
+      ],
+      "answer": "C",
+      "answerIndex": 2
+    },
+    {
+      "id": "eng_m500_048",
+      "setNumber": 3,
+      "questionNumber": 8,
+      "topic": "Voice & Sentence Types",
+      "question": "The Election Commission announces elections for the State Assemblies. (Change to Passive Voice)",
+      "options": [
+        "Elections for the State Assemblies is announced by the Election Commission.",
+        "Elections for the State Assemblies are announced by the Election Commission.",
+        "Elections for the State Assemblies were announced by the Election Commission.",
+        "Elections for the State Assemblies are being announced by the Election Commission."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_049",
+      "setNumber": 3,
+      "questionNumber": 9,
+      "topic": "Voice & Sentence Types",
+      "question": "The teacher has appointed him monitor. (Change to Passive Voice)",
+      "options": [
+        "He was appointed monitor by the teacher.",
+        "He is appointed monitor by the teacher.",
+        "He has been appointed monitor by the teacher.",
+        "He is being appointed monitor by the teacher."
+      ],
+      "answer": "C",
+      "answerIndex": 2
+    },
+    {
+      "id": "eng_m500_050",
+      "setNumber": 3,
+      "questionNumber": 10,
+      "topic": "Voice & Sentence Types",
+      "question": "I opened the door. (Change to Passive Voice)",
+      "options": [
+        "The door is opened by me.",
+        "The door was opened by me.",
+        "The door has been opened by me.",
+        "The door is being opened by me."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_051",
+      "setNumber": 3,
+      "questionNumber": 11,
+      "topic": "Voice & Sentence Types",
+      "question": "He can lift the box. (Change to Passive Voice)",
+      "options": [
+        "The box can be lifted by him.",
+        "The box is lifted by him.",
+        "The box can be lifting by him.",
+        "The box was lifted by him."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_052",
+      "setNumber": 3,
+      "questionNumber": 12,
+      "topic": "Voice & Sentence Types",
+      "question": "Why do you suspect me? (Change to Passive Voice)",
+      "options": [
+        "Why am I suspected by you?",
+        "Why am I suspecting you?",
+        "Why do I suspect you?",
+        "Why am I being suspected by you?"
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_053",
+      "setNumber": 3,
+      "questionNumber": 13,
+      "topic": "Voice & Sentence Types",
+      "question": "Are they offering him a chair? (Change to Passive Voice)",
+      "options": [
+        "Is he being offered a chair by them?",
+        "Is he offered a chair by them?",
+        "Are they being offered a chair by him?",
+        "Is he offering a chair to them?"
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_054",
+      "setNumber": 3,
+      "questionNumber": 14,
+      "topic": "Voice & Sentence Types",
+      "question": "Whom do we like most? (Change to Passive Voice)",
+      "options": [
+        "Who is liked most by us?",
+        "Whom is liked most by us?",
+        "Who likes us most?",
+        "Who is liking most by us?"
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_055",
+      "setNumber": 3,
+      "questionNumber": 15,
+      "topic": "Voice & Sentence Types",
+      "question": "Who wrote Macbeth? (Change to Passive Voice)",
+      "options": [
+        "By whom was Macbeth written?",
+        "Who was Macbeth written by?",
+        "By whom is Macbeth written?",
+        "Who wrote Macbeth by?"
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_056",
+      "setNumber": 3,
+      "questionNumber": 16,
+      "topic": "Voice & Sentence Types",
+      "question": "Put him this question. (Change to Passive Voice)",
+      "options": [
+        "Let this question be put to him.",
+        "Let him be put this question.",
+        "Let this question be put him.",
+        "Let him put this question."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_057",
+      "setNumber": 3,
+      "questionNumber": 17,
+      "topic": "Voice & Sentence Types",
+      "question": "Show him the way. (Change to Passive Voice)",
+      "options": [
+        "Let the way be shown to him.",
+        "Let him be shown the way.",
+        "Let the way be shown him.",
+        "Let him show the way."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_058",
+      "setNumber": 3,
+      "questionNumber": 18,
+      "topic": "Voice & Sentence Types",
+      "question": "Don't tease her. (Change to Passive Voice)",
+      "options": [
+        "Let her not be teased.",
+        "Let her be not teased.",
+        "Let her not be teasing.",
+        "Let her be teased not."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_059",
+      "setNumber": 3,
+      "questionNumber": 19,
+      "topic": "Voice & Sentence Types",
+      "question": "Give him a suitable reply. (Change to Passive Voice)",
+      "options": [
+        "Let a suitable reply be given to him.",
+        "Let him be given a suitable reply.",
+        "Let a suitable reply be given him.",
+        "Let him give a suitable reply."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_060",
+      "setNumber": 3,
+      "questionNumber": 20,
+      "topic": "Voice & Sentence Types",
+      "question": "Has someone informed the police? (Change to Passive Voice)",
+      "options": [
+        "Have the police been informed?",
+        "Has the police been informed?",
+        "Have the police informed?",
+        "Has the police been informing?"
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    }
+  ],
+  "convexId": "kd7cdr96xdeff833ydnkkm6h958jnws4"
+}

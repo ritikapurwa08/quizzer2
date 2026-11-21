@@ -1,0 +1,310 @@
+{
+  "setId": "marathon-set-11",
+  "setNumber": 11,
+  "title": "Set 11 — Articles & Determiners",
+  "topic": "Articles & Determiners",
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "eng_m500_201",
+      "setNumber": 11,
+      "questionNumber": 1,
+      "topic": "Articles & Determiners",
+      "question": "This is ______ best book of elementary physics.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "no article"
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_202",
+      "setNumber": 11,
+      "questionNumber": 2,
+      "topic": "Articles & Determiners",
+      "question": "Select the correct statement regarding the usage of articles in English grammar.",
+      "options": [
+        "Words like 'a few' and 'some' are considered articles.",
+        "The article 'an' is used before consonant sounds.",
+        "Articles are used before nouns, 'an' is used before vowel sounds, and 'the' is used for specific nouns.",
+        "The definite article 'the' is used for all general plural nouns."
+      ],
+      "answer": "C",
+      "answerIndex": 2
+    },
+    {
+      "id": "eng_m500_203",
+      "setNumber": 11,
+      "questionNumber": 3,
+      "topic": "Articles & Determiners",
+      "question": "She has ______ apple.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "no article"
+      ],
+      "answer": "C",
+      "answerIndex": 2
+    },
+    {
+      "id": "eng_m500_204",
+      "setNumber": 11,
+      "questionNumber": 4,
+      "topic": "Articles & Determiners",
+      "question": "He is ______ honest man.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_205",
+      "setNumber": 11,
+      "questionNumber": 5,
+      "topic": "Articles & Determiners",
+      "question": "We have ______ breakfast at 8 a.m.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "no article"
+      ],
+      "answer": "D",
+      "answerIndex": 3
+    },
+    {
+      "id": "eng_m500_206",
+      "setNumber": 11,
+      "questionNumber": 6,
+      "topic": "Articles & Determiners",
+      "question": "I saw ______ man and ______ woman in the park. ______ man was fat and short, and ______ woman was slim and tall.",
+      "options": [
+        "a / a / The / the",
+        "the / the / a / a",
+        "a / the / the / a",
+        "the / a / a / the"
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_207",
+      "setNumber": 11,
+      "questionNumber": 7,
+      "topic": "Articles & Determiners",
+      "question": "France is ______ European country.",
+      "options": [
+        "an",
+        "the",
+        "no article",
+        "a"
+      ],
+      "answer": "D",
+      "answerIndex": 3
+    },
+    {
+      "id": "eng_m500_208",
+      "setNumber": 11,
+      "questionNumber": 8,
+      "topic": "Articles & Determiners",
+      "question": "Match the sentences with the appropriate articles:\nA. The Economist is ______ magazine.\nB. ______ accidents can happen anywhere.\nC. There is lots to interest ______ visitor.\nD. ______ Prime Minister is to make a statement.",
+      "options": [
+        "A-a, B-Zero, C-a, D-The",
+        "A-The, B-a, C-Zero, D-a",
+        "A-a, B-a, C-The, D-Zero",
+        "A-Zero, B-The, C-a, D-a"
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_209",
+      "setNumber": 11,
+      "questionNumber": 9,
+      "topic": "Articles & Determiners",
+      "question": "______ French speak ______ French.",
+      "options": [
+        "The / a",
+        "The / Zero Article",
+        "A / the",
+        "Zero Article / the"
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_210",
+      "setNumber": 11,
+      "questionNumber": 10,
+      "topic": "Articles & Determiners",
+      "question": "Aluminium is ______ useful metal.",
+      "options": [
+        "an",
+        "the",
+        "a",
+        "no article"
+      ],
+      "answer": "C",
+      "answerIndex": 2
+    },
+    {
+      "id": "eng_m500_211",
+      "setNumber": 11,
+      "questionNumber": 11,
+      "topic": "Articles & Determiners",
+      "question": "There are ______ students in the hall.",
+      "options": [
+        "a few",
+        "a little",
+        "much",
+        "little"
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_212",
+      "setNumber": 11,
+      "questionNumber": 12,
+      "topic": "Articles & Determiners",
+      "question": "It has not made ______ difference.",
+      "options": [
+        "some",
+        "any",
+        "a",
+        "much"
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_213",
+      "setNumber": 11,
+      "questionNumber": 13,
+      "topic": "Articles & Determiners",
+      "question": "We stayed in Jaipur for ______ days and visited Hawa Mahal.",
+      "options": [
+        "few",
+        "a little",
+        "a few",
+        "little"
+      ],
+      "answer": "C",
+      "answerIndex": 2
+    },
+    {
+      "id": "eng_m500_214",
+      "setNumber": 11,
+      "questionNumber": 14,
+      "topic": "Articles & Determiners",
+      "question": "Can I have ______ sugar, please?",
+      "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+      ],
+      "answer": "C",
+      "answerIndex": 2
+    },
+    {
+      "id": "eng_m500_215",
+      "setNumber": 11,
+      "questionNumber": 15,
+      "topic": "Articles & Determiners",
+      "question": "Match the determiners with their categories:\nA. Some\nB. This / That / These / Those\nC. His\nD. Each / Every",
+      "options": [
+        "A-Quantifier, B-Demonstrative, C-Possessive, D-Distributive",
+        "A-Demonstrative, B-Quantifier, C-Distributive, P-Possessive",
+        "A-Possessive, B-Distributive, C-Quantifier, D-Demonstrative",
+        "A-Distributive, B-Possessive, C-Demonstrative, D-Quantifier"
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_216",
+      "setNumber": 11,
+      "questionNumber": 16,
+      "topic": "Articles & Determiners",
+      "question": "Identify the sentence with the incorrect use of a determiner:",
+      "options": [
+        "She has few friends.",
+        "She has little water.",
+        "She has little friends.",
+        "She has many books."
+      ],
+      "answer": "C",
+      "answerIndex": 2
+    },
+    {
+      "id": "eng_m500_217",
+      "setNumber": 11,
+      "questionNumber": 17,
+      "topic": "Articles & Determiners",
+      "question": "The secretary and treasurer is negligent of ______ duty.",
+      "options": [
+        "their",
+        "his",
+        "its",
+        "her"
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_218",
+      "setNumber": 11,
+      "questionNumber": 18,
+      "topic": "Articles & Determiners",
+      "question": "I have written to ______ candidates who registered for the post.",
+      "options": [
+        "each",
+        "every",
+        "all",
+        "neither"
+      ],
+      "answer": "C",
+      "answerIndex": 2
+    },
+    {
+      "id": "eng_m500_219",
+      "setNumber": 11,
+      "questionNumber": 19,
+      "topic": "Articles & Determiners",
+      "question": "She lost nearly ______ friend she had.",
+      "options": [
+        "each",
+        "every",
+        "all",
+        "many"
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_220",
+      "setNumber": 11,
+      "questionNumber": 20,
+      "topic": "Articles & Determiners",
+      "question": "______ students who were in the class have left.",
+      "options": [
+        "The few",
+        "A few",
+        "Few",
+        "The many"
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    }
+  ],
+  "convexId": "kd79zegqp4j06v68f9h0gafeg98jmqdz"
+}

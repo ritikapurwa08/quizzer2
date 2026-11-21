@@ -23,11 +23,19 @@ import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
 import { ConfirmDialog } from "@/components/shared/ConfirmDialog";
 import { useToast } from "@/components/ui/Toast";
 import { useWakeLock } from "@/hooks/useWakeLock";
+import { MARATHON_SLUG_MAP } from "@/lib/marathonSlugMap";
 
 export default function QuizPage() {
   const { testSetId } = useParams<{ testSetId: string }>();
-  const id = testSetId as Id<"testSets">;
+  const id = (MARATHON_SLUG_MAP[testSetId] || testSetId) as Id<"testSets">;
   const router = useRouter();
+
+  // Canonicalize friendly slugs (e.g., marathon-set-01) to real Convex testSet ID
+  useEffect(() => {
+    if (testSetId && MARATHON_SLUG_MAP[testSetId]) {
+      router.replace(`/quiz/${MARATHON_SLUG_MAP[testSetId]}`);
+    }
+  }, [testSetId, router]);
 
   const testSet = useQuery(api.testSets.get, { id });
   const {

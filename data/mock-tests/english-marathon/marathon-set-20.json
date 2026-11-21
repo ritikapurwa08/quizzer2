@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-20",
+  "title": "Set 20 — Administrative & Legal Glossary",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Administrative & Legal Glossary",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_381",
+      "number": 1,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Abeyance\" (e.g., keep in abeyance)?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "स्थगित करना"
+        },
+        {
+          "id": "opt2",
+          "text": "स्थगित रखना / अस्थायी रोक"
+        },
+        {
+          "id": "opt3",
+          "text": "स्थायी रोक"
+        },
+        {
+          "id": "opt4",
+          "text": "अस्थायी रोक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_382",
+      "number": 2,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "Match the English terms with their Hindi equivalents:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-समायोजन, B-स्वीकार्यता, C-अपनाना / गोद लेना, D-ढाल लेना / अनुकूलन"
+        },
+        {
+          "id": "opt2",
+          "text": "A-समायोजन, B-स्वीकार्यता, C-ढाल लेना / अनुकूलन, D-अपनाना / गोद लेना"
+        },
+        {
+          "id": "opt3",
+          "text": "A-स्वीकार्यता, B-समायोजन, C-अपनाना / गोद लेना, D-ढाल लेना / अनुकूलन"
+        },
+        {
+          "id": "opt4",
+          "text": "A-समायोजन, B-स्वीकार्यता, C-अपनाना / गोद लेना, D-ढाल लेना / अनुकूलन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_383",
+      "number": 3,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "Match the English terms with their Hindi equivalents:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-परिपत्र, B-कार्यालय आदेश, C-अनुस्मारक, D-ज्ञापन"
+        },
+        {
+          "id": "opt2",
+          "text": "A-कार्यालय आदेश, B-परिपत्र, C-ज्ञापन, D-अनुस्मारक"
+        },
+        {
+          "id": "opt3",
+          "text": "A-परिपत्र, B-कार्यालय आदेश, C-ज्ञापन, D-अनुस्मारक"
+        },
+        {
+          "id": "opt4",
+          "text": "A-परिपत्र, B-कार्यालय आदेश, C-अनुस्मारक, D-ज्ञापन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_384",
+      "number": 4,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Appendix\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "परिशिष्ट"
+        },
+        {
+          "id": "opt2",
+          "text": "अनुक्रम"
+        },
+        {
+          "id": "opt3",
+          "text": "उपसंहार"
+        },
+        {
+          "id": "opt4",
+          "text": "परिश्रमी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_385",
+      "number": 5,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Domicile\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "स्थायी निवास"
+        },
+        {
+          "id": "opt2",
+          "text": "मूल निवास"
+        },
+        {
+          "id": "opt3",
+          "text": "स्थायी घर"
+        },
+        {
+          "id": "opt4",
+          "text": "अधिवास / मूल निवास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_386",
+      "number": 6,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Orientation\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अभिविन्यास"
+        },
+        {
+          "id": "opt2",
+          "text": "दिशा निर्धारण"
+        },
+        {
+          "id": "opt3",
+          "text": "परिचय"
+        },
+        {
+          "id": "opt4",
+          "text": "अभिविन्यास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_387",
+      "number": 7,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Affidavit\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शपथ-पत्र / हलफनामा"
+        },
+        {
+          "id": "opt2",
+          "text": "शपथ पत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "हलफनामा"
+        },
+        {
+          "id": "opt4",
+          "text": "शपथ-पत्र / हलफनामा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_388",
+      "number": 8,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "Match the English terms with their Hindi equivalents:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-सार, B-कार्यकारी / कार्यवाहक, C-कार्य / मामले, D-सलाह"
+        },
+        {
+          "id": "opt2",
+          "text": "A-सलाह, B-कार्यकारी / कार्यवाहक, C-सार, D-कार्य / मामले"
+        },
+        {
+          "id": "opt3",
+          "text": "A-सार, B-कार्य / मामले, C-कार्यकारी / कार्यवाहक, D-सलाह"
+        },
+        {
+          "id": "opt4",
+          "text": "A-सार, B-कार्यकारी / कार्यवाहक, C-कार्य / मामले, D-सलाह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_389",
+      "number": 9,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "Match the English terms with their Hindi equivalents:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-नियत कार्य, B-वास्तविक / सद्भावी, C-अनुप्रमाणन, D-उच्चतम सीमा"
+        },
+        {
+          "id": "opt2",
+          "text": "A-उच्चतम सीमा, B-नियत कार्य, C-वास्तविक / सद्भावी, D-अनुप्रमाणन"
+        },
+        {
+          "id": "opt3",
+          "text": "A-नियत कार्य, B-वास्तविक / सद्भावी, C-अनुप्रमाणन, D-उच्चतम सीमा"
+        },
+        {
+          "id": "opt4",
+          "text": "A-नियत कार्य, B-अनुप्रमाणन, C-वास्तविक / सद्भावी, D-उच्चतम सीमा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_390",
+      "number": 10,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "One-word/Glossary definition: A written statement confirmed by oath or affirmation for use as evidence in court:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Deposition"
+        },
+        {
+          "id": "opt2",
+          "text": "Testimony"
+        },
+        {
+          "id": "opt3",
+          "text": "Affidavit"
+        },
+        {
+          "id": "opt4",
+          "text": "Affirmation"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_391",
+      "number": 11,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "Identify the correctly matched English–Hindi administrative pair:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Division Bench = खंडपीठ / डबल बेंच"
+        },
+        {
+          "id": "opt2",
+          "text": "High Court = उच्च न्यायालय"
+        },
+        {
+          "id": "opt3",
+          "text": "Supreme Court = सर्वोच्च न्यायालय"
+        },
+        {
+          "id": "opt4",
+          "text": "Circuit Bench = सर्किट बेंच"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_392",
+      "number": 12,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "Which of the following is NOT a correct Hindi administrative term?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Circular = प्रकरण"
+        },
+        {
+          "id": "opt2",
+          "text": "Circular = परिपत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "Claimant = दावेदार"
+        },
+        {
+          "id": "opt4",
+          "text": "Capital = पूँजी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_393",
+      "number": 13,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Accusation\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अभियोग / आरोप"
+        },
+        {
+          "id": "opt2",
+          "text": "अभियान"
+        },
+        {
+          "id": "opt3",
+          "text": "आरोहण"
+        },
+        {
+          "id": "opt4",
+          "text": "अभिनय"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_394",
+      "number": 14,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Authentic\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "वास्तविक"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रामाणिकता"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रामाणिक"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_395",
+      "number": 15,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Automatic\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "स्वायत्त"
+        },
+        {
+          "id": "opt2",
+          "text": "स्वनिर्भर"
+        },
+        {
+          "id": "opt3",
+          "text": "स्वचालित"
+        },
+        {
+          "id": "opt4",
+          "text": "स्वतंत्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_396",
+      "number": 16,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Will\" (in legal terminology)?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वसीयत / वसीयतनामा"
+        },
+        {
+          "id": "opt2",
+          "text": "शपथ-पत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "सलाह"
+        },
+        {
+          "id": "opt4",
+          "text": "सिफ़ारिश"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_397",
+      "number": 17,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Discrepancy\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "असमानता"
+        },
+        {
+          "id": "opt2",
+          "text": "विसंगति"
+        },
+        {
+          "id": "opt3",
+          "text": "भिन्नता"
+        },
+        {
+          "id": "opt4",
+          "text": "विचलन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_398",
+      "number": 18,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Industrialization\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विकेंद्रीकरण"
+        },
+        {
+          "id": "opt2",
+          "text": "उद्योग"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रमाणीकरण"
+        },
+        {
+          "id": "opt4",
+          "text": "औद्योगिकीकरण"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_399",
+      "number": 19,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Notification\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूचना"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रकाशन"
+        },
+        {
+          "id": "opt3",
+          "text": "अधिसूचना"
+        },
+        {
+          "id": "opt4",
+          "text": "घोषणा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_400",
+      "number": 20,
+      "type": "mcq",
+      "section": "Administrative & Legal Glossary",
+      "questionText": "What is the Hindi equivalent of \"Abdication\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "त्वरण"
+        },
+        {
+          "id": "opt2",
+          "text": "पदत्याग / त्यागना"
+        },
+        {
+          "id": "opt3",
+          "text": "समायोजन"
+        },
+        {
+          "id": "opt4",
+          "text": "स्थगन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative & Legal Glossary",
+        "setNumber": 20,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

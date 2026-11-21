@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-12",
+  "title": "Set 12 — Determiners",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Determiners",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_221",
+      "number": 1,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "______ my cousins were at the wedding.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Both"
+        },
+        {
+          "id": "opt2",
+          "text": "All"
+        },
+        {
+          "id": "opt3",
+          "text": "Half"
+        },
+        {
+          "id": "opt4",
+          "text": "Every"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_222",
+      "number": 2,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "There is hardly ______ reason to doubt his intention.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "some"
+        },
+        {
+          "id": "opt2",
+          "text": "no"
+        },
+        {
+          "id": "opt3",
+          "text": "any"
+        },
+        {
+          "id": "opt4",
+          "text": "a"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_223",
+      "number": 3,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "I don't take ______ sugar in tea because I am health-conscious.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "many"
+        },
+        {
+          "id": "opt2",
+          "text": "few"
+        },
+        {
+          "id": "opt3",
+          "text": "a lot"
+        },
+        {
+          "id": "opt4",
+          "text": "much"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_224",
+      "number": 4,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "I have bought ______ a home.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "for you"
+        },
+        {
+          "id": "opt2",
+          "text": "you"
+        },
+        {
+          "id": "opt3",
+          "text": "to you"
+        },
+        {
+          "id": "opt4",
+          "text": "with you"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_225",
+      "number": 5,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "Choose the grammatically correct sentence regarding Determiners:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Each student brought his book."
+        },
+        {
+          "id": "opt2",
+          "text": "Much apples were eaten."
+        },
+        {
+          "id": "opt3",
+          "text": "Several information was shared."
+        },
+        {
+          "id": "opt4",
+          "text": "Many money was spent."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_226",
+      "number": 6,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "______ milk is left in the bottle?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "How many"
+        },
+        {
+          "id": "opt2",
+          "text": "How much"
+        },
+        {
+          "id": "opt3",
+          "text": "How many a"
+        },
+        {
+          "id": "opt4",
+          "text": "How much of"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_227",
+      "number": 7,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "Match the determiners with their respective types:\nA. Square\nB. This / That / These / Those\nC. Each / Every / Either / Neither\nD. Some / Any / Many / Much\n\n1. Quantitative\n2. Demonstrative\n3. Distributive\n4. Quality (Descriptive/qualitative modifier)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-1, B-2, C-3, D-4"
+        },
+        {
+          "id": "opt2",
+          "text": "A-4, B-2, C-3, D-1"
+        },
+        {
+          "id": "opt3",
+          "text": "A-2, B-4, C-1, D-3"
+        },
+        {
+          "id": "opt4",
+          "text": "A-3, B-1, C-4, D-2"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_228",
+      "number": 8,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "She has ______ a fine temperament that it is a pleasure to work with her.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "so"
+        },
+        {
+          "id": "opt2",
+          "text": "such"
+        },
+        {
+          "id": "opt3",
+          "text": "very"
+        },
+        {
+          "id": "opt4",
+          "text": "too"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_229",
+      "number": 9,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "He is going on a trek with ______ friends.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "every"
+        },
+        {
+          "id": "opt2",
+          "text": "much"
+        },
+        {
+          "id": "opt3",
+          "text": "some"
+        },
+        {
+          "id": "opt4",
+          "text": "a"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_230",
+      "number": 10,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "\"Could you lend me ______ books?\" — \"Oh, sure! You can borrow as ______ books as you want.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a few / many"
+        },
+        {
+          "id": "opt2",
+          "text": "much / few"
+        },
+        {
+          "id": "opt3",
+          "text": "many / much"
+        },
+        {
+          "id": "opt4",
+          "text": "a little / many"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_231",
+      "number": 11,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "______ persons were hurt in the accident.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Some"
+        },
+        {
+          "id": "opt2",
+          "text": "Any"
+        },
+        {
+          "id": "opt3",
+          "text": "A"
+        },
+        {
+          "id": "opt4",
+          "text": "Much"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_232",
+      "number": 12,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "I would love to have ______ more coffee.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "any"
+        },
+        {
+          "id": "opt2",
+          "text": "some"
+        },
+        {
+          "id": "opt3",
+          "text": "a"
+        },
+        {
+          "id": "opt4",
+          "text": "many"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_233",
+      "number": 13,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "______ books are mine.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "This"
+        },
+        {
+          "id": "opt2",
+          "text": "That"
+        },
+        {
+          "id": "opt3",
+          "text": "These"
+        },
+        {
+          "id": "opt4",
+          "text": "Those"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_234",
+      "number": 14,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "The scheme was closed because ______ students were interested in it.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a few"
+        },
+        {
+          "id": "opt2",
+          "text": "few"
+        },
+        {
+          "id": "opt3",
+          "text": "a little"
+        },
+        {
+          "id": "opt4",
+          "text": "little"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_235",
+      "number": 15,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "Jolly did not take ______ photos when she went on holiday.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "much"
+        },
+        {
+          "id": "opt2",
+          "text": "many"
+        },
+        {
+          "id": "opt3",
+          "text": "a lot"
+        },
+        {
+          "id": "opt4",
+          "text": "some"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_236",
+      "number": 16,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "I will not sanction you ______ loan this year.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "some"
+        },
+        {
+          "id": "opt2",
+          "text": "a"
+        },
+        {
+          "id": "opt3",
+          "text": "any"
+        },
+        {
+          "id": "opt4",
+          "text": "the"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_237",
+      "number": 17,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "He did not make ______ mistakes.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "much"
+        },
+        {
+          "id": "opt2",
+          "text": "many"
+        },
+        {
+          "id": "opt3",
+          "text": "a few"
+        },
+        {
+          "id": "opt4",
+          "text": "little"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_238",
+      "number": 18,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "______ a man would not miss such a chance.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Much"
+        },
+        {
+          "id": "opt2",
+          "text": "Many"
+        },
+        {
+          "id": "opt3",
+          "text": "A"
+        },
+        {
+          "id": "opt4",
+          "text": "Little"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_239",
+      "number": 19,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "Only ______ of these apples are good.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a little"
+        },
+        {
+          "id": "opt2",
+          "text": "few"
+        },
+        {
+          "id": "opt3",
+          "text": "a few"
+        },
+        {
+          "id": "opt4",
+          "text": "little"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_240",
+      "number": 20,
+      "type": "mcq",
+      "section": "Determiners",
+      "questionText": "There is ______ milk in the glass; you can use it to make tea.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a few"
+        },
+        {
+          "id": "opt2",
+          "text": "few"
+        },
+        {
+          "id": "opt3",
+          "text": "a little"
+        },
+        {
+          "id": "opt4",
+          "text": "little"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Determiners",
+        "setNumber": 12,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

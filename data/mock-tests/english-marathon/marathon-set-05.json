@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-05",
+  "title": "Set 05 — Direct & Indirect Speech",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Direct & Indirect Speech",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_081",
+      "number": 1,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "Mother said to her son, \"I have cooked pasta for you.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Mother told her son that she had cooked pasta for him."
+        },
+        {
+          "id": "opt2",
+          "text": "Mother told her son that she has cooked pasta for him."
+        },
+        {
+          "id": "opt3",
+          "text": "Mother said to her son that she had cooked pasta for you."
+        },
+        {
+          "id": "opt4",
+          "text": "Mother told her son that I had cooked pasta for him."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_082",
+      "number": 2,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "She said to me, \"Yesterday I saw the movie Pink.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "She told me that she saw the movie Pink yesterday."
+        },
+        {
+          "id": "opt2",
+          "text": "She told me that she had seen the movie Pink the previous day."
+        },
+        {
+          "id": "opt3",
+          "text": "She told me that she has seen the movie Pink the previous day."
+        },
+        {
+          "id": "opt4",
+          "text": "She told me that I had seen the movie Pink the previous day."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_083",
+      "number": 3,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "Tom said to me, \"Will you go with me there?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Tom asked me if I will go with him there."
+        },
+        {
+          "id": "opt2",
+          "text": "Tom asked me whether I would go with him there."
+        },
+        {
+          "id": "opt3",
+          "text": "Tom told me that I would go with him there."
+        },
+        {
+          "id": "opt4",
+          "text": "Tom asked me whether I will go with me there."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_084",
+      "number": 4,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "Sister said to me, \"Don't put this shirt on.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "My sister told me not to put that shirt on."
+        },
+        {
+          "id": "opt2",
+          "text": "My sister told me not to put this shirt on."
+        },
+        {
+          "id": "opt3",
+          "text": "My sister asked me not to put that shirt on."
+        },
+        {
+          "id": "opt4",
+          "text": "My sister told me to not put that shirt on."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_085",
+      "number": 5,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "The teacher said to the boys, \"Don't make a noise.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The teacher told the boys not to make a noise."
+        },
+        {
+          "id": "opt2",
+          "text": "The teacher asked the boys not to make a noise."
+        },
+        {
+          "id": "opt3",
+          "text": "The teacher told the boys to not make a noise."
+        },
+        {
+          "id": "opt4",
+          "text": "The teacher said to the boys not to make a noise."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_086",
+      "number": 6,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "Ramesh said, \"When does the train arrive?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ramesh asked when does the train arrive."
+        },
+        {
+          "id": "opt2",
+          "text": "Ramesh asked when the train arrived."
+        },
+        {
+          "id": "opt3",
+          "text": "Ramesh asked when the train arrives."
+        },
+        {
+          "id": "opt4",
+          "text": "Ramesh told when the train arrived."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_087",
+      "number": 7,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "Sarla said, \"I have forgotten my email password.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Sarla said that she has forgotten her email password."
+        },
+        {
+          "id": "opt2",
+          "text": "Sarla said that I had forgotten my email password."
+        },
+        {
+          "id": "opt3",
+          "text": "Sarla said that she had forgotten her email password."
+        },
+        {
+          "id": "opt4",
+          "text": "Sarla said that she had forgotten my email password."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_088",
+      "number": 8,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "Manish asked me, \"Where have you hidden the data?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Manish asked me where have I hidden the data."
+        },
+        {
+          "id": "opt2",
+          "text": "Manish asked me where I had hidden the data."
+        },
+        {
+          "id": "opt3",
+          "text": "Manish asked me where I have hidden the data."
+        },
+        {
+          "id": "opt4",
+          "text": "Manish asked me where you had hidden the data."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_089",
+      "number": 9,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "My friend said to me, \"Have you finished your homework?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "My friend asked me whether I had finished my homework."
+        },
+        {
+          "id": "opt2",
+          "text": "My friend asked me if I have finished my homework."
+        },
+        {
+          "id": "opt3",
+          "text": "My friend told me that I had finished my homework."
+        },
+        {
+          "id": "opt4",
+          "text": "My friend asked me whether I have finished my homework."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_090",
+      "number": 10,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "He said to his friend, \"Were you present at the party last night?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He asked his friend whether he was present at the party last night."
+        },
+        {
+          "id": "opt2",
+          "text": "He asked his friend whether he had been present at the party the previous night."
+        },
+        {
+          "id": "opt3",
+          "text": "He told his friend that he had been present at the party the previous night."
+        },
+        {
+          "id": "opt4",
+          "text": "He asked his friend whether he is present at the party the previous night."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_091",
+      "number": 11,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "She asked me, \"Can you bring the moon for me?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "She asked me that I could bring the moon for her."
+        },
+        {
+          "id": "opt2",
+          "text": "She asked me whether I could bring the moon for her."
+        },
+        {
+          "id": "opt3",
+          "text": "She asked me if I can bring the moon for me."
+        },
+        {
+          "id": "opt4",
+          "text": "She told me whether I could bring the moon for her."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_092",
+      "number": 12,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "My friend said, \"Let's go to the cinema.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "My friend said that we should go to the cinema."
+        },
+        {
+          "id": "opt2",
+          "text": "My friend suggested that we should go to the cinema."
+        },
+        {
+          "id": "opt3",
+          "text": "My friend proposed that we go to the cinema."
+        },
+        {
+          "id": "opt4",
+          "text": "My friend asked us to go to the cinema."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_093",
+      "number": 13,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "I said to him, \"Sit down.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I told him to sit down."
+        },
+        {
+          "id": "opt2",
+          "text": "I said to him that he should sit down."
+        },
+        {
+          "id": "opt3",
+          "text": "I asked him to sit down."
+        },
+        {
+          "id": "opt4",
+          "text": "I told him sitting down."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_094",
+      "number": 14,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "Mali said to them, \"Do you solve my problem?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Mali asked them whether they solved his problem."
+        },
+        {
+          "id": "opt2",
+          "text": "Mali asked them if they solve my problem."
+        },
+        {
+          "id": "opt3",
+          "text": "Mali told them that they solved his problem."
+        },
+        {
+          "id": "opt4",
+          "text": "Mali asked them whether they are solving his problem."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_095",
+      "number": 15,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "He said to me, \"Who are you?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He asked me who you are."
+        },
+        {
+          "id": "opt2",
+          "text": "He asked me who I was."
+        },
+        {
+          "id": "opt3",
+          "text": "He told me who I am."
+        },
+        {
+          "id": "opt4",
+          "text": "He asked me that who I was."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_096",
+      "number": 16,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "The boys said, \"We want to play a match.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The boys said that they want to play a match."
+        },
+        {
+          "id": "opt2",
+          "text": "The boys said that we wanted to play a match."
+        },
+        {
+          "id": "opt3",
+          "text": "The boys said that they wanted to play a match."
+        },
+        {
+          "id": "opt4",
+          "text": "The boys told that they wanted to play a match."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_097",
+      "number": 17,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "The teacher said, \"We don't have much time for a match now.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The teacher said that they don't have much time for a match now."
+        },
+        {
+          "id": "opt2",
+          "text": "The teacher said that they didn't have much time for a match then."
+        },
+        {
+          "id": "opt3",
+          "text": "The teacher said that we didn't have much time for a match now."
+        },
+        {
+          "id": "opt4",
+          "text": "The teacher said that they didn't have much time for a match now."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_098",
+      "number": 18,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "Nisha said to him, \"I have something to show you.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Nisha said to him that she has something to show you."
+        },
+        {
+          "id": "opt2",
+          "text": "Nisha told him that she had something to show him."
+        },
+        {
+          "id": "opt3",
+          "text": "Nisha told him that I have something to show you."
+        },
+        {
+          "id": "opt4",
+          "text": "Nisha said to him that she had something to show him."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_099",
+      "number": 19,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "Ram said, \"I am going away tomorrow, Father.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ram told his father that he was going away the next day."
+        },
+        {
+          "id": "opt2",
+          "text": "Ram said to his father that he is going away tomorrow."
+        },
+        {
+          "id": "opt3",
+          "text": "Ram told his father that he was going away tomorrow."
+        },
+        {
+          "id": "opt4",
+          "text": "Ram said to his father that he was going away the next day."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_100",
+      "number": 20,
+      "type": "mcq",
+      "section": "Direct & Indirect Speech",
+      "questionText": "She said, \"My husband has just been made the Commissioner of Police.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "She said that my husband has just been made the Commissioner of Police."
+        },
+        {
+          "id": "opt2",
+          "text": "She said that her husband had just been made the Commissioner of Police."
+        },
+        {
+          "id": "opt3",
+          "text": "She said that her husband has just been made the Commissioner of Police."
+        },
+        {
+          "id": "opt4",
+          "text": "She said that my husband had just been made the Commissioner of Police."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Direct & Indirect Speech",
+        "setNumber": 5,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

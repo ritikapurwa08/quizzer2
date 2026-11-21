@@ -20,6 +20,7 @@ import { Button } from "@/components/ui/button";
 import { formatScore } from "@/lib/utils";
 import { useToast } from "@/components/ui/Toast";
 import { ArrowLeft } from "lucide-react";
+import { MARATHON_SLUG_MAP } from "@/lib/marathonSlugMap";
 
 export { getSuggestedPdfFileName };
 
@@ -27,7 +28,8 @@ export default function ResultsPage() {
   const router = useRouter();
   const params = useParams<{ testSetId: string }>();
   const rawId = Array.isArray(params?.testSetId) ? params.testSetId[0] : params?.testSetId;
-  const id = (rawId || "") as Id<"testSets">;
+  const canonicalRawId = rawId && MARATHON_SLUG_MAP[rawId] ? MARATHON_SLUG_MAP[rawId] : rawId;
+  const id = (canonicalRawId || "") as Id<"testSets">;
 
   // ── Local state — declared first so localSetMeta can inform queries ──
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());

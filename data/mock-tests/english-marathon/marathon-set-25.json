@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-25",
+  "title": "Set 25 — Antonyms",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Antonyms",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_481",
+      "number": 1,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "What is the antonym of the word \"Lazy\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Industrious"
+        },
+        {
+          "id": "opt2",
+          "text": "Slothful"
+        },
+        {
+          "id": "opt3",
+          "text": "Languid"
+        },
+        {
+          "id": "opt4",
+          "text": "Inert"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_482",
+      "number": 2,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Match the words in List I with their correct antonyms in List II:\n\nList I:\nA. Frugal\nB. Ephemeral\nC. Revere\nD. Perilous\n\nList II:\n1. Disrespect\n2. Perpetual\n3. Extravagant\n4. Non-hazardous",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-3, B-2, C-1, D-4"
+        },
+        {
+          "id": "opt2",
+          "text": "A-2, B-3, C-4, D-1"
+        },
+        {
+          "id": "opt3",
+          "text": "A-1, B-4, C-3, D-2"
+        },
+        {
+          "id": "opt4",
+          "text": "A-4, B-1, C-2, D-3"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_483",
+      "number": 3,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Match the words in List I with their correct antonyms in List II:\n\nList I:\nA. Accord\nB. Asset\nC. Bold\nD. Bliss\n\nList II:\n1. Timid\n2. Misery\n3. Dissent\n4. Liability",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-2, B-1, C-4, D-3"
+        },
+        {
+          "id": "opt2",
+          "text": "A-3, B-4, C-1, D-2"
+        },
+        {
+          "id": "opt3",
+          "text": "A-4, B-3, C-2, D-1"
+        },
+        {
+          "id": "opt4",
+          "text": "A-1, B-2, C-3, D-4"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_484",
+      "number": 4,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "What is the antonym of the word \"Diligent\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Meticulous"
+        },
+        {
+          "id": "opt2",
+          "text": "Assiduous"
+        },
+        {
+          "id": "opt3",
+          "text": "Idle"
+        },
+        {
+          "id": "opt4",
+          "text": "Earnest"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_485",
+      "number": 5,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "What is the antonym of the word \"Vigilant\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Watchful"
+        },
+        {
+          "id": "opt2",
+          "text": "Alert"
+        },
+        {
+          "id": "opt3",
+          "text": "Heedless"
+        },
+        {
+          "id": "opt4",
+          "text": "Cautious"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_486",
+      "number": 6,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Choose the correct antonym of the word \"Meagre\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Scarce"
+        },
+        {
+          "id": "opt2",
+          "text": "Abundant"
+        },
+        {
+          "id": "opt3",
+          "text": "Sparse"
+        },
+        {
+          "id": "opt4",
+          "text": "Limited"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_487",
+      "number": 7,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Choose the correct antonym of the word \"Acquit\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Release"
+        },
+        {
+          "id": "opt2",
+          "text": "Exonerate"
+        },
+        {
+          "id": "opt3",
+          "text": "Convict"
+        },
+        {
+          "id": "opt4",
+          "text": "Pardon"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_488",
+      "number": 8,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Choose the correct antonym of the word \"Generous\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Selfish"
+        },
+        {
+          "id": "opt2",
+          "text": "Kind"
+        },
+        {
+          "id": "opt3",
+          "text": "Bountiful"
+        },
+        {
+          "id": "opt4",
+          "text": "Charitable"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_489",
+      "number": 9,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Choose the correct antonym of the word \"Early\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Prompt"
+        },
+        {
+          "id": "opt2",
+          "text": "Timely"
+        },
+        {
+          "id": "opt3",
+          "text": "Soon"
+        },
+        {
+          "id": "opt4",
+          "text": "Late"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_490",
+      "number": 10,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Choose the correct antonym of the word \"Legal\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Lawful"
+        },
+        {
+          "id": "opt2",
+          "text": "Valid"
+        },
+        {
+          "id": "opt3",
+          "text": "Illegal"
+        },
+        {
+          "id": "opt4",
+          "text": "Official"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_491",
+      "number": 11,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Select the antonym of the word \"Candid\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Frank"
+        },
+        {
+          "id": "opt2",
+          "text": "Deceitful"
+        },
+        {
+          "id": "opt3",
+          "text": "Honest"
+        },
+        {
+          "id": "opt4",
+          "text": "Straightforward"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_492",
+      "number": 12,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Select the antonyms of the word \"Bleak\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Dreary and Gloomy"
+        },
+        {
+          "id": "opt2",
+          "text": "Hopeless and Dark"
+        },
+        {
+          "id": "opt3",
+          "text": "Cheerful and Bright"
+        },
+        {
+          "id": "opt4",
+          "text": "Desolate and Barren"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_493",
+      "number": 13,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Select the antonym of the word \"Calm\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Tranquil"
+        },
+        {
+          "id": "opt2",
+          "text": "Serene"
+        },
+        {
+          "id": "opt3",
+          "text": "Peaceful"
+        },
+        {
+          "id": "opt4",
+          "text": "Disturbed"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_494",
+      "number": 14,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Select the antonym of the word \"Admission\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Denial"
+        },
+        {
+          "id": "opt2",
+          "text": "Acceptance"
+        },
+        {
+          "id": "opt3",
+          "text": "Entry"
+        },
+        {
+          "id": "opt4",
+          "text": "Confession"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_495",
+      "number": 15,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Select the antonym of the word \"Knowledge\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Awareness"
+        },
+        {
+          "id": "opt2",
+          "text": "Wisdom"
+        },
+        {
+          "id": "opt3",
+          "text": "Learning"
+        },
+        {
+          "id": "opt4",
+          "text": "Ignorance"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_496",
+      "number": 16,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Choose the correct antonym of the word \"Encourage\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Persuade"
+        },
+        {
+          "id": "opt2",
+          "text": "Discourage"
+        },
+        {
+          "id": "opt3",
+          "text": "Cajole"
+        },
+        {
+          "id": "opt4",
+          "text": "Coax"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_497",
+      "number": 17,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Choose the correct antonym of the word \"Abolish\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Eradicate"
+        },
+        {
+          "id": "opt2",
+          "text": "Terminate"
+        },
+        {
+          "id": "opt3",
+          "text": "Confirm"
+        },
+        {
+          "id": "opt4",
+          "text": "Eliminate"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_498",
+      "number": 18,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Choose the correct antonym of the word \"Conspicuous\".",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Opaque"
+        },
+        {
+          "id": "opt2",
+          "text": "Visible"
+        },
+        {
+          "id": "opt3",
+          "text": "Obvious"
+        },
+        {
+          "id": "opt4",
+          "text": "Prominent"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_499",
+      "number": 19,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Match the words in Column I with their correct antonyms in Column II:\n\nColumn I:\nA. Obsolete\nB. Obscure\nC. Conspicuous\n\nColumn II:\n1. Clear\n2. Contemporary\n3. Concealed",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-1, B-2, C-3"
+        },
+        {
+          "id": "opt2",
+          "text": "A-2, B-1, C-3"
+        },
+        {
+          "id": "opt3",
+          "text": "A-3, B-1, C-2"
+        },
+        {
+          "id": "opt4",
+          "text": "A-2, B-3, C-1"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_500",
+      "number": 20,
+      "type": "mcq",
+      "section": "Antonyms",
+      "questionText": "Match the words in Column I with their correct antonyms in Column II:\n\nColumn I:\nA. Refrain\nB. Silent\n\nColumn II:\n1. Noisy\n2. Continue",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-1, B-2"
+        },
+        {
+          "id": "opt2",
+          "text": "A-2, B-1"
+        },
+        {
+          "id": "opt3",
+          "text": "A-1, B-1"
+        },
+        {
+          "id": "opt4",
+          "text": "A-2, B-2"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Antonyms",
+        "setNumber": 25,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-01",
+  "title": "Set 01 — Tenses",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Tenses",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_001",
+      "number": 1,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "The children are quiet. Go and see what they ______ right now.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are doing"
+        },
+        {
+          "id": "opt2",
+          "text": "do"
+        },
+        {
+          "id": "opt3",
+          "text": "did"
+        },
+        {
+          "id": "opt4",
+          "text": "have done"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_002",
+      "number": 2,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "She looked as if she ______ for years.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "has not washed"
+        },
+        {
+          "id": "opt2",
+          "text": "did not wash"
+        },
+        {
+          "id": "opt3",
+          "text": "had not washed"
+        },
+        {
+          "id": "opt4",
+          "text": "is not washing"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_003",
+      "number": 3,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "Look! Sita ______ the stairs.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "sweeps"
+        },
+        {
+          "id": "opt2",
+          "text": "is sweeping"
+        },
+        {
+          "id": "opt3",
+          "text": "swept"
+        },
+        {
+          "id": "opt4",
+          "text": "has swept"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_004",
+      "number": 4,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "Water always ______ at 0° Celsius under normal atmospheric pressure.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is freezing"
+        },
+        {
+          "id": "opt2",
+          "text": "freezes"
+        },
+        {
+          "id": "opt3",
+          "text": "froze"
+        },
+        {
+          "id": "opt4",
+          "text": "has frozen"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_005",
+      "number": 5,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "The gallantry awards of this year ______ by the authorities and the winners' names are now available.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are announced"
+        },
+        {
+          "id": "opt2",
+          "text": "were announced"
+        },
+        {
+          "id": "opt3",
+          "text": "have been announced"
+        },
+        {
+          "id": "opt4",
+          "text": "will be announced"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_006",
+      "number": 6,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "Honesty ______ everywhere as a valuable quality.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "appreciates"
+        },
+        {
+          "id": "opt2",
+          "text": "is appreciated"
+        },
+        {
+          "id": "opt3",
+          "text": "was appreciated"
+        },
+        {
+          "id": "opt4",
+          "text": "has appreciated"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_007",
+      "number": 7,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "Hardly ______ anyone a hat nowadays.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "wear"
+        },
+        {
+          "id": "opt2",
+          "text": "wears"
+        },
+        {
+          "id": "opt3",
+          "text": "is wearing"
+        },
+        {
+          "id": "opt4",
+          "text": "wore"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_008",
+      "number": 8,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "You ______ the truth right now. How do you know that I ______ the truth?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "do not tell / do not tell"
+        },
+        {
+          "id": "opt2",
+          "text": "are not telling / am not telling"
+        },
+        {
+          "id": "opt3",
+          "text": "did not tell / was not telling"
+        },
+        {
+          "id": "opt4",
+          "text": "are not telling / do not tell"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_009",
+      "number": 9,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "Mohan ______ still his homework. His sister, who always ______ more quickly, ______ in the garden now.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "does / works / plays"
+        },
+        {
+          "id": "opt2",
+          "text": "is doing / works / is playing"
+        },
+        {
+          "id": "opt3",
+          "text": "is doing / is working / is playing"
+        },
+        {
+          "id": "opt4",
+          "text": "does / is working / plays"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_010",
+      "number": 10,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "What ______ you generally ______ for a living?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are / doing"
+        },
+        {
+          "id": "opt2",
+          "text": "do / do"
+        },
+        {
+          "id": "opt3",
+          "text": "did / do"
+        },
+        {
+          "id": "opt4",
+          "text": "have / done"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_011",
+      "number": 11,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "By the end of 2005, the singer ______ ten albums.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "recorded"
+        },
+        {
+          "id": "opt2",
+          "text": "has recorded"
+        },
+        {
+          "id": "opt3",
+          "text": "had recorded"
+        },
+        {
+          "id": "opt4",
+          "text": "was recording"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_012",
+      "number": 12,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "A wise pianist ______ four hours a day.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "practices"
+        },
+        {
+          "id": "opt2",
+          "text": "is practicing"
+        },
+        {
+          "id": "opt3",
+          "text": "has practiced"
+        },
+        {
+          "id": "opt4",
+          "text": "practiced"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_013",
+      "number": 13,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "I ______ my pen and I still cannot find it. ______ it anywhere?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "lost / Did you see"
+        },
+        {
+          "id": "opt2",
+          "text": "have lost / Have you seen"
+        },
+        {
+          "id": "opt3",
+          "text": "am losing / Are you seeing"
+        },
+        {
+          "id": "opt4",
+          "text": "lose / Do you see"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_014",
+      "number": 14,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "He often ______ her, but he never ______ to her.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is seeing / is talking"
+        },
+        {
+          "id": "opt2",
+          "text": "has seen / has talked"
+        },
+        {
+          "id": "opt3",
+          "text": "sees / talks"
+        },
+        {
+          "id": "opt4",
+          "text": "saw / talked"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_015",
+      "number": 15,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "I ______ a new car and it is parked outside now. Would you come and look at it?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "bought"
+        },
+        {
+          "id": "opt2",
+          "text": "have bought"
+        },
+        {
+          "id": "opt3",
+          "text": "am buying"
+        },
+        {
+          "id": "opt4",
+          "text": "buy"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_016",
+      "number": 16,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "Your hair looks much shorter now. It seems you ______ it cut.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "have had"
+        },
+        {
+          "id": "opt2",
+          "text": "had"
+        },
+        {
+          "id": "opt3",
+          "text": "have"
+        },
+        {
+          "id": "opt4",
+          "text": "had had"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_017",
+      "number": 17,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "She ______ a newspaper since June 2, and today it is June 20.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "has not read"
+        },
+        {
+          "id": "opt2",
+          "text": "did not read"
+        },
+        {
+          "id": "opt3",
+          "text": "is not reading"
+        },
+        {
+          "id": "opt4",
+          "text": "does not read"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_018",
+      "number": 18,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "The windows ______ for three months, so they still look dirty.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "have not cleaned"
+        },
+        {
+          "id": "opt2",
+          "text": "have not been cleaned"
+        },
+        {
+          "id": "opt3",
+          "text": "did not clean"
+        },
+        {
+          "id": "opt4",
+          "text": "are not cleaning"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_019",
+      "number": 19,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "He ______ since the day before yesterday and still has stubble on his face.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "has not shaved"
+        },
+        {
+          "id": "opt2",
+          "text": "did not shave"
+        },
+        {
+          "id": "opt3",
+          "text": "is not shaving"
+        },
+        {
+          "id": "opt4",
+          "text": "does not shave"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_020",
+      "number": 20,
+      "type": "mcq",
+      "section": "Tenses",
+      "questionText": "Meena is on leave. She ______ to France and has not returned yet.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "went"
+        },
+        {
+          "id": "opt2",
+          "text": "has been"
+        },
+        {
+          "id": "opt3",
+          "text": "has gone"
+        },
+        {
+          "id": "opt4",
+          "text": "goes"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Tenses",
+        "setNumber": 1,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

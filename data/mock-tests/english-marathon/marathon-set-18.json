@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-18",
+  "title": "Set 18 — Correspondence, Passage 1 & Glossary",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Correspondence, Passage 1 & Glossary",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_341",
+      "number": 1,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "To whom are informal letters typically written?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Business partners and clients"
+        },
+        {
+          "id": "opt2",
+          "text": "Friends and family members"
+        },
+        {
+          "id": "opt3",
+          "text": "Government officials and authorities"
+        },
+        {
+          "id": "opt4",
+          "text": "Superiors and colleagues"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_342",
+      "number": 2,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "How is the greeting or salutation written in a Demi-Official (D.O.) letter?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Dear Sir/Madam"
+        },
+        {
+          "id": "opt2",
+          "text": "Respected Sir"
+        },
+        {
+          "id": "opt3",
+          "text": "Dear Shri Gupta (or Dear Mr./Ms. [Surname])"
+        },
+        {
+          "id": "opt4",
+          "text": "To the Manager"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_343",
+      "number": 3,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "What is the main purpose of sending a Demi-Official (D.O.) letter?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "To create a permanent legal record of the transaction"
+        },
+        {
+          "id": "opt2",
+          "text": "To draw personal attention to an urgent or important matter"
+        },
+        {
+          "id": "opt3",
+          "text": "To formally appoint a new employee to a position"
+        },
+        {
+          "id": "opt4",
+          "text": "To request a large financial loan from the bank"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_344",
+      "number": 4,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "How should all parts of an Office Memorandum (Memo) be aligned?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Center-aligned"
+        },
+        {
+          "id": "opt2",
+          "text": "Justified on both sides"
+        },
+        {
+          "id": "opt3",
+          "text": "Right-aligned"
+        },
+        {
+          "id": "opt4",
+          "text": "Left-aligned"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_345",
+      "number": 5,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "Which elements are NOT necessary to mention in an Office Memo?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Subject and Date"
+        },
+        {
+          "id": "opt2",
+          "text": "From and To"
+        },
+        {
+          "id": "opt3",
+          "text": "Salutation and Subscription"
+        },
+        {
+          "id": "opt4",
+          "text": "Reference Number and Body"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_346",
+      "number": 6,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "How should a Notice be written?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Detailed and narrative"
+        },
+        {
+          "id": "opt2",
+          "text": "Brief and formal"
+        },
+        {
+          "id": "opt3",
+          "text": "Casual and conversational"
+        },
+        {
+          "id": "opt4",
+          "text": "Persuasive and emotional"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_347",
+      "number": 7,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "Which of the following is NOT a part of a Notice?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Date"
+        },
+        {
+          "id": "opt2",
+          "text": "Subject"
+        },
+        {
+          "id": "opt3",
+          "text": "Salutation"
+        },
+        {
+          "id": "opt4",
+          "text": "Body"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_348",
+      "number": 8,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "A company needs to inform all its customers about an important policy or product change. Which format is used?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Memo"
+        },
+        {
+          "id": "opt2",
+          "text": "Circular"
+        },
+        {
+          "id": "opt3",
+          "text": "Letter"
+        },
+        {
+          "id": "opt4",
+          "text": "Notice"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_349",
+      "number": 9,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "What are \"Tenders\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Written quotations or offers to complete a specific job or supply goods"
+        },
+        {
+          "id": "opt2",
+          "text": "Informal requests for information from suppliers"
+        },
+        {
+          "id": "opt3",
+          "text": "Final contracts signed after the selection process"
+        },
+        {
+          "id": "opt4",
+          "text": "Internal memos regarding staff appointments"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_350",
+      "number": 10,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "What is an \"Endorsement\" or \"Copy Forwarded\" in official correspondence?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A correction made to a draft letter before sending"
+        },
+        {
+          "id": "opt2",
+          "text": "A copy of an officially sent letter forwarded to other concerned officials for information or action"
+        },
+        {
+          "id": "opt3",
+          "text": "A signature added to a document to authorize it"
+        },
+        {
+          "id": "opt4",
+          "text": "A stamp indicating that a document has been received"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_351",
+      "number": 11,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "What is the main purpose of the passage on Forest Conservation?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "To highlight the importance of forest conservation"
+        },
+        {
+          "id": "opt2",
+          "text": "To promote urban expansion and industrialization"
+        },
+        {
+          "id": "opt3",
+          "text": "To discuss the economic benefits of logging"
+        },
+        {
+          "id": "opt4",
+          "text": "To analyze the impact of climate change on agriculture"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_352",
+      "number": 12,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "Which function of forests is NOT mentioned in the passage?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Absorbing CO2"
+        },
+        {
+          "id": "opt2",
+          "text": "Regulating rainfall"
+        },
+        {
+          "id": "opt3",
+          "text": "Preventing all natural disasters"
+        },
+        {
+          "id": "opt4",
+          "text": "Providing shelter"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_353",
+      "number": 13,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "Choose the synonym of the word \"Crucial\":",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Optional"
+        },
+        {
+          "id": "opt2",
+          "text": "Trivial"
+        },
+        {
+          "id": "opt3",
+          "text": "Essential"
+        },
+        {
+          "id": "opt4",
+          "text": "Temporary"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_354",
+      "number": 14,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "What does the author suggest regarding forest conservation?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "It is the sole responsibility of government officials"
+        },
+        {
+          "id": "opt2",
+          "text": "It requires collective responsibility from both the government and the public"
+        },
+        {
+          "id": "opt3",
+          "text": "It should be left entirely to private corporations"
+        },
+        {
+          "id": "opt4",
+          "text": "It is only relevant to rural communities"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_355",
+      "number": 15,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "Choose the synonym of the word \"Solely\":",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Collectively"
+        },
+        {
+          "id": "opt2",
+          "text": "Partially"
+        },
+        {
+          "id": "opt3",
+          "text": "Exclusively"
+        },
+        {
+          "id": "opt4",
+          "text": "Frequently"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_356",
+      "number": 16,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "Match the English administrative terms with their correct Hindi equivalents:\nA. Circular\nB. Notice\nC. Tender\nD. Notification",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-परिपत्र, B-सूचना, C-निविदा, D-अधिसूचना"
+        },
+        {
+          "id": "opt2",
+          "text": "A-सूचना, B-परिपत्र, C-अधिसूचना, D-निविदा"
+        },
+        {
+          "id": "opt3",
+          "text": "A-निविदा, B-अधिसूचना, C-सूचना, D-परिपत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "A-अधिसूचना, B-निविदा, C-परिपत्र, D-सूचना"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_357",
+      "number": 17,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "Match the English administrative terms with their correct Hindi equivalents:\nA. Surplus\nB. Orientation\nC. Liability\nD. Tender",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-अधिशेष, B-अभिविन्यास, C-देयता, D-निविदा"
+        },
+        {
+          "id": "opt2",
+          "text": "A-देयता, B-निविदा, C-अधिशेष, D-अभिविन्यास"
+        },
+        {
+          "id": "opt3",
+          "text": "A-अभिविन्यास, B-अधिशेष, C-निविदा, D-देयता"
+        },
+        {
+          "id": "opt4",
+          "text": "A-निविदा, B-देयता, C-अभिविन्यास, D-अधिशेष"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_358",
+      "number": 18,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "What is the Hindi equivalent of \"Probation\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पदोन्नति"
+        },
+        {
+          "id": "opt2",
+          "text": "परिवीक्षा"
+        },
+        {
+          "id": "opt3",
+          "text": "पension"
+        },
+        {
+          "id": "opt4",
+          "text": "पदस्थापना"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_359",
+      "number": 19,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "What is the English equivalent of \"आवरण पत्र\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Official Letter"
+        },
+        {
+          "id": "opt2",
+          "text": "Demi-Official Letter"
+        },
+        {
+          "id": "opt3",
+          "text": "Covering Letter"
+        },
+        {
+          "id": "opt4",
+          "text": "Circular"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_360",
+      "number": 20,
+      "type": "mcq",
+      "section": "Correspondence, Passage 1 & Glossary",
+      "questionText": "What is the Hindi equivalent of \"Registration\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पंजीकरण"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रमाणपत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रवेश"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतिवेदन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Correspondence, Passage 1 & Glossary",
+        "setNumber": 18,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

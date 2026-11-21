@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-04",
+  "title": "Set 04 — Passive Voice & Narration",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Passive Voice & Narration",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_061",
+      "number": 1,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "Everyone believed that the movement was a failure. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "It was believed that the movement was a failure."
+        },
+        {
+          "id": "opt2",
+          "text": "The movement was believed to be a failure by everyone."
+        },
+        {
+          "id": "opt3",
+          "text": "It is believed that the movement was a failure."
+        },
+        {
+          "id": "opt4",
+          "text": "The movement was believed that it was a failure."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_062",
+      "number": 2,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "People think that the government is working well. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "It is thought that the government is working well."
+        },
+        {
+          "id": "opt2",
+          "text": "The government is thought to be working well by people."
+        },
+        {
+          "id": "opt3",
+          "text": "It was thought that the government is working well."
+        },
+        {
+          "id": "opt4",
+          "text": "The government is thought working well."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_063",
+      "number": 3,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "Who bought it? (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "By whom was it bought?"
+        },
+        {
+          "id": "opt2",
+          "text": "Who was it bought by?"
+        },
+        {
+          "id": "opt3",
+          "text": "By whom it was bought?"
+        },
+        {
+          "id": "opt4",
+          "text": "Was it bought by whom?"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_064",
+      "number": 4,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "Many people opposed this. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "This was opposed by many people."
+        },
+        {
+          "id": "opt2",
+          "text": "This is opposed by many people."
+        },
+        {
+          "id": "opt3",
+          "text": "This was opposed many people."
+        },
+        {
+          "id": "opt4",
+          "text": "This has been opposed by many people."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_065",
+      "number": 5,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "Students do a lot of work. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A lot of work is done by students."
+        },
+        {
+          "id": "opt2",
+          "text": "A lot of work are done by students."
+        },
+        {
+          "id": "opt3",
+          "text": "A lot of work was done by students."
+        },
+        {
+          "id": "opt4",
+          "text": "A lot of work is being done by students."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_066",
+      "number": 6,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "She has written a poem. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A poem has been written by her."
+        },
+        {
+          "id": "opt2",
+          "text": "A poem is written by her."
+        },
+        {
+          "id": "opt3",
+          "text": "A poem was written by her."
+        },
+        {
+          "id": "opt4",
+          "text": "A poem has written by her."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_067",
+      "number": 7,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "We use this room on special occasions. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "This room is used on special occasions by us."
+        },
+        {
+          "id": "opt2",
+          "text": "This room was used on special occasions by us."
+        },
+        {
+          "id": "opt3",
+          "text": "This room is being used on special occasions by us."
+        },
+        {
+          "id": "opt4",
+          "text": "This room has been used on special occasions by us."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_068",
+      "number": 8,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "Somebody has knocked at the door. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The door has been knocked at by somebody."
+        },
+        {
+          "id": "opt2",
+          "text": "The door has been knocked by somebody."
+        },
+        {
+          "id": "opt3",
+          "text": "The door is knocked at by somebody."
+        },
+        {
+          "id": "opt4",
+          "text": "The door was knocked at by somebody."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_069",
+      "number": 9,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "I don't know him. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He is not known to me."
+        },
+        {
+          "id": "opt2",
+          "text": "He is not known by me."
+        },
+        {
+          "id": "opt3",
+          "text": "He was not known to me."
+        },
+        {
+          "id": "opt4",
+          "text": "He is not known for me."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_070",
+      "number": 10,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "They are playing tennis on the ground. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Tennis is being played by them on the ground."
+        },
+        {
+          "id": "opt2",
+          "text": "Tennis is played by them on the ground."
+        },
+        {
+          "id": "opt3",
+          "text": "Tennis was being played by them on the ground."
+        },
+        {
+          "id": "opt4",
+          "text": "Tennis has been played by them on the ground."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_071",
+      "number": 11,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "Close the windows. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The windows are closed."
+        },
+        {
+          "id": "opt2",
+          "text": "Let the windows be closed."
+        },
+        {
+          "id": "opt3",
+          "text": "The windows were closed."
+        },
+        {
+          "id": "opt4",
+          "text": "Let the windows close."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_072",
+      "number": 12,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "The principal gave me a prize. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A prize was given to me by the principal."
+        },
+        {
+          "id": "opt2",
+          "text": "I was given a prize by the principal."
+        },
+        {
+          "id": "opt3",
+          "text": "I gave a prize to the principal."
+        },
+        {
+          "id": "opt4",
+          "text": "A prize was given by the principal to me."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_073",
+      "number": 13,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "Why should you not trust me? (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Why should I not be trusted by you?"
+        },
+        {
+          "id": "opt2",
+          "text": "Why should you not be trusted by me?"
+        },
+        {
+          "id": "opt3",
+          "text": "Why am I not trusted by you?"
+        },
+        {
+          "id": "opt4",
+          "text": "Why should I not trust you?"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_074",
+      "number": 14,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "Select the correct statement regarding Active and Passive Voice:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Active voice focuses on the object, whereas passive voice focuses on the subject."
+        },
+        {
+          "id": "opt2",
+          "text": "Imperative passive sentences never start with 'Let'."
+        },
+        {
+          "id": "opt3",
+          "text": "Active voice focuses on the subject, whereas passive voice focuses on the object."
+        },
+        {
+          "id": "opt4",
+          "text": "In active voice, the subject receives the action, and in passive voice, the subject performs the action."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_075",
+      "number": 15,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "Someone is following you. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "You are being followed."
+        },
+        {
+          "id": "opt2",
+          "text": "You were being followed."
+        },
+        {
+          "id": "opt3",
+          "text": "You are followed."
+        },
+        {
+          "id": "opt4",
+          "text": "You will be followed."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_076",
+      "number": 16,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "John said, \"I work every day.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "John said that he works every day."
+        },
+        {
+          "id": "opt2",
+          "text": "John said that he worked every day."
+        },
+        {
+          "id": "opt3",
+          "text": "John said that I work every day."
+        },
+        {
+          "id": "opt4",
+          "text": "John said that he is working every day."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_077",
+      "number": 17,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "Mohan said, \"I am playing guitar now.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Mohan said that he is playing guitar now."
+        },
+        {
+          "id": "opt2",
+          "text": "Mohan said that he was playing guitar then."
+        },
+        {
+          "id": "opt3",
+          "text": "Mohan said that he plays guitar then."
+        },
+        {
+          "id": "opt4",
+          "text": "Mohan said that he was playing guitar now."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_078",
+      "number": 18,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "He said, \"I have bought a new car recently.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He said that he has bought a new car recently."
+        },
+        {
+          "id": "opt2",
+          "text": "He said that he had bought a new car recently."
+        },
+        {
+          "id": "opt3",
+          "text": "He said that he bought a new car recently."
+        },
+        {
+          "id": "opt4",
+          "text": "He said that he was buying a new car recently."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_079",
+      "number": 19,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "Shalini said, \"I will go to cinema tomorrow.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Shalini said that she will go to cinema tomorrow."
+        },
+        {
+          "id": "opt2",
+          "text": "Shalini said that she would go to cinema the next day."
+        },
+        {
+          "id": "opt3",
+          "text": "Shalini said that she would go to cinema tomorrow."
+        },
+        {
+          "id": "opt4",
+          "text": "Shalini said that she will go to cinema the next day."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_080",
+      "number": 20,
+      "type": "mcq",
+      "section": "Passive Voice & Narration",
+      "questionText": "Sita said to me, \"I can speak English fluently.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Sita said to me that she can speak English fluently."
+        },
+        {
+          "id": "opt2",
+          "text": "Sita told me that she could speak English fluently."
+        },
+        {
+          "id": "opt3",
+          "text": "Sita told me that I can speak English fluently."
+        },
+        {
+          "id": "opt4",
+          "text": "Sita said to me that she could speak English fluently."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Passive Voice & Narration",
+        "setNumber": 4,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

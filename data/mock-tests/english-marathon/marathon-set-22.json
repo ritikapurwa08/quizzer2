@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-22",
+  "title": "Set 22 — One-Word Substitution",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "One-Word Substitution",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_421",
+      "number": 1,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "What is the specific term for the killing of a newborn baby?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Homicide"
+        },
+        {
+          "id": "opt2",
+          "text": "Infanticide"
+        },
+        {
+          "id": "opt3",
+          "text": "Foeticide"
+        },
+        {
+          "id": "opt4",
+          "text": "Parricide"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_422",
+      "number": 2,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "A person who studies the influence of heavenly bodies on human beings is known as a:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Astronomer"
+        },
+        {
+          "id": "opt2",
+          "text": "Astrologer"
+        },
+        {
+          "id": "opt3",
+          "text": "Cosmologist"
+        },
+        {
+          "id": "opt4",
+          "text": "Geologist"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_423",
+      "number": 3,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "The murder of one's own child is termed as:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Fratricide"
+        },
+        {
+          "id": "opt2",
+          "text": "Patricide"
+        },
+        {
+          "id": "opt3",
+          "text": "Filicide"
+        },
+        {
+          "id": "opt4",
+          "text": "Sororicide"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_424",
+      "number": 4,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "One who copies from other writers or steals literary ideas is called a:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Plagiarist"
+        },
+        {
+          "id": "opt2",
+          "text": "Antagonist"
+        },
+        {
+          "id": "opt3",
+          "text": "Protagonist"
+        },
+        {
+          "id": "opt4",
+          "text": "Editor"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_425",
+      "number": 5,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "What is the term for the murder of a king?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Uxoricide"
+        },
+        {
+          "id": "opt2",
+          "text": "Mariticide"
+        },
+        {
+          "id": "opt3",
+          "text": "Homicide"
+        },
+        {
+          "id": "opt4",
+          "text": "Regicide"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_426",
+      "number": 6,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "One who does not make mistakes:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Omnipotent"
+        },
+        {
+          "id": "opt2",
+          "text": "Infallible"
+        },
+        {
+          "id": "opt3",
+          "text": "Omniscient"
+        },
+        {
+          "id": "opt4",
+          "text": "Omnipresent"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_427",
+      "number": 7,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "The study of the human race, its origins, and societies:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Archaeology"
+        },
+        {
+          "id": "opt2",
+          "text": "Ethnology"
+        },
+        {
+          "id": "opt3",
+          "text": "Anthropology"
+        },
+        {
+          "id": "opt4",
+          "text": "Etymology"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_428",
+      "number": 8,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "Being present everywhere at the same time:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Omnipresent"
+        },
+        {
+          "id": "opt2",
+          "text": "Omnipotent"
+        },
+        {
+          "id": "opt3",
+          "text": "Omniscient"
+        },
+        {
+          "id": "opt4",
+          "text": "Infallible"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_429",
+      "number": 9,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "A medicine to counteract the effect of poison:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Taxidermy"
+        },
+        {
+          "id": "opt2",
+          "text": "Antidote"
+        },
+        {
+          "id": "opt3",
+          "text": "Amendment"
+        },
+        {
+          "id": "opt4",
+          "text": "Anthropology"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_430",
+      "number": 10,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "A formal change, correction, or addition made to a law or document:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Antidote"
+        },
+        {
+          "id": "opt2",
+          "text": "Omnipresent"
+        },
+        {
+          "id": "opt3",
+          "text": "Infallible"
+        },
+        {
+          "id": "opt4",
+          "text": "Amendment"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_431",
+      "number": 11,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "One whose only motive is to earn money is called a:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Vagabond"
+        },
+        {
+          "id": "opt2",
+          "text": "Mercenary"
+        },
+        {
+          "id": "opt3",
+          "text": "Spendthrift"
+        },
+        {
+          "id": "opt4",
+          "text": "Extravagant"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_432",
+      "number": 12,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "Killing or murder for political reasons is known as:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Assassination"
+        },
+        {
+          "id": "opt2",
+          "text": "Murder"
+        },
+        {
+          "id": "opt3",
+          "text": "Homicide"
+        },
+        {
+          "id": "opt4",
+          "text": "Execution"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_433",
+      "number": 13,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "One who is engaged in charitable work and loves humanity is a:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Linguist"
+        },
+        {
+          "id": "opt2",
+          "text": "Philanthropist"
+        },
+        {
+          "id": "opt3",
+          "text": "Pessimist"
+        },
+        {
+          "id": "opt4",
+          "text": "Vagabond"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_434",
+      "number": 14,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "Water or liquid that is fit or safe to drink is described as:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Portable"
+        },
+        {
+          "id": "opt2",
+          "text": "Edible"
+        },
+        {
+          "id": "opt3",
+          "text": "Potable"
+        },
+        {
+          "id": "opt4",
+          "text": "Palatable"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_435",
+      "number": 15,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "One who can speak many languages is called a:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Polyglot"
+        },
+        {
+          "id": "opt2",
+          "text": "Linguist"
+        },
+        {
+          "id": "opt3",
+          "text": "Pessimist"
+        },
+        {
+          "id": "opt4",
+          "text": "Philanthropist"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_436",
+      "number": 16,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "One who is too strong to be defeated or conquered:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Invincible"
+        },
+        {
+          "id": "opt2",
+          "text": "Indefatigable"
+        },
+        {
+          "id": "opt3",
+          "text": "Insolvent"
+        },
+        {
+          "id": "opt4",
+          "text": "Vulnerable"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_437",
+      "number": 17,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "A person appointed to settle disputes between two parties:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ascetic"
+        },
+        {
+          "id": "opt2",
+          "text": "Anarchist"
+        },
+        {
+          "id": "opt3",
+          "text": "Arbitrator"
+        },
+        {
+          "id": "opt4",
+          "text": "Arbiter"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_438",
+      "number": 18,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "A person who admires or loves himself excessively:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Novice"
+        },
+        {
+          "id": "opt2",
+          "text": "Narcissist"
+        },
+        {
+          "id": "opt3",
+          "text": "Tyro"
+        },
+        {
+          "id": "opt4",
+          "text": "Nihilist"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_439",
+      "number": 19,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "A person who has no interest in or understanding of art and literature:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Critic"
+        },
+        {
+          "id": "opt2",
+          "text": "Scholar"
+        },
+        {
+          "id": "opt3",
+          "text": "Philistine"
+        },
+        {
+          "id": "opt4",
+          "text": "Aesthete"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_440",
+      "number": 20,
+      "type": "mcq",
+      "section": "One-Word Substitution",
+      "questionText": "A person who is in charge of a museum or art collection:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Calligraphist"
+        },
+        {
+          "id": "opt2",
+          "text": "Credulous"
+        },
+        {
+          "id": "opt3",
+          "text": "Cartographer"
+        },
+        {
+          "id": "opt4",
+          "text": "Curator"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "One-Word Substitution",
+        "setNumber": 22,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

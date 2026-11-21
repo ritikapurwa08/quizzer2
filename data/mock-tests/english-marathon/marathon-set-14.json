@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-14",
+  "title": "Set 14 — Prepositions & Translation",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Prepositions & Translation",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_261",
+      "number": 1,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "She is very intelligent; she is bound ______ succeed.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "for"
+        },
+        {
+          "id": "opt2",
+          "text": "to"
+        },
+        {
+          "id": "opt3",
+          "text": "with"
+        },
+        {
+          "id": "opt4",
+          "text": "by"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_262",
+      "number": 2,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "______ acting, Aamir Khan is also interested in social work.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Beside"
+        },
+        {
+          "id": "opt2",
+          "text": "Besides"
+        },
+        {
+          "id": "opt3",
+          "text": "Except"
+        },
+        {
+          "id": "opt4",
+          "text": "Apart"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_263",
+      "number": 3,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "She lives ______ 48, Raja Park (in Jaipur).",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "in"
+        },
+        {
+          "id": "opt2",
+          "text": "on"
+        },
+        {
+          "id": "opt3",
+          "text": "at"
+        },
+        {
+          "id": "opt4",
+          "text": "by"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_264",
+      "number": 4,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Select the grammatically correct sentence regarding the usage of 'beside' and 'besides':",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Beside advising her, he gave her money."
+        },
+        {
+          "id": "opt2",
+          "text": "Besides advising her, he gave her money."
+        },
+        {
+          "id": "opt3",
+          "text": "Beside to advise her, he gave her money."
+        },
+        {
+          "id": "opt4",
+          "text": "Besides to advise her, he gave her money."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_265",
+      "number": 5,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "We discussed the matter ______ a cup of tea.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "over"
+        },
+        {
+          "id": "opt2",
+          "text": "on"
+        },
+        {
+          "id": "opt3",
+          "text": "at"
+        },
+        {
+          "id": "opt4",
+          "text": "with"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_266",
+      "number": 6,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "He congratulated her ______ winning the first prize.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "for"
+        },
+        {
+          "id": "opt2",
+          "text": "with"
+        },
+        {
+          "id": "opt3",
+          "text": "on"
+        },
+        {
+          "id": "opt4",
+          "text": "about"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_267",
+      "number": 7,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "She is accustomed ______ working hard.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "for"
+        },
+        {
+          "id": "opt2",
+          "text": "with"
+        },
+        {
+          "id": "opt3",
+          "text": "by"
+        },
+        {
+          "id": "opt4",
+          "text": "to"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_268",
+      "number": 8,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Match the verbs/adjectives with their correct prepositions:\nA. Blind ______ one eye\nB. Fell ______ the bike\nC. Fond ______\nD. Jumped ______",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-in, B-off, C-of, D-into"
+        },
+        {
+          "id": "opt2",
+          "text": "A-in, B-from, C-with, D-onto"
+        },
+        {
+          "id": "opt3",
+          "text": "A-at, B-off, C-of, D-into"
+        },
+        {
+          "id": "opt4",
+          "text": "A-in, B-off, C-for, D-into"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_269",
+      "number": 9,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "They will return ______ 6 p.m.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "at"
+        },
+        {
+          "id": "opt2",
+          "text": "by"
+        },
+        {
+          "id": "opt3",
+          "text": "on"
+        },
+        {
+          "id": "opt4",
+          "text": "in"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_270",
+      "number": 10,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Match the verbs with their correct prepositions:\nA. Atone ______\nB. Live ______ us (lower flat)\nC. Studied ______ 11 p.m.\nD. Capable ______",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-for, B-below, C-till, D-of"
+        },
+        {
+          "id": "opt2",
+          "text": "A-to, B-under, C-until, D-with"
+        },
+        {
+          "id": "opt3",
+          "text": "A-for, B-beneath, C-by, D-on"
+        },
+        {
+          "id": "opt4",
+          "text": "A-about, B-below, C-till, D-for"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_271",
+      "number": 11,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Translate into English: \"आप क्यों आ रहे हो?\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Why are you coming?"
+        },
+        {
+          "id": "opt2",
+          "text": "Why do you come?"
+        },
+        {
+          "id": "opt3",
+          "text": "Why were you coming?"
+        },
+        {
+          "id": "opt4",
+          "text": "Why will you come?"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_272",
+      "number": 12,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Translate into English: \"रुद्र ने किताब क्यों फाड़ी?\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Why did Rudra tore the book?"
+        },
+        {
+          "id": "opt2",
+          "text": "Why did Rudra tear the book?"
+        },
+        {
+          "id": "opt3",
+          "text": "Why has Rudra torn the book?"
+        },
+        {
+          "id": "opt4",
+          "text": "Why does Rudra tear the book?"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_273",
+      "number": 13,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Translate into English: \"आशा एक महीने से गाड़ी चलाना सीख रही है।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Asha is learning to drive a car for a month."
+        },
+        {
+          "id": "opt2",
+          "text": "Asha has been learning to drive a car for a month."
+        },
+        {
+          "id": "opt3",
+          "text": "Asha was learning to drive a car for a month."
+        },
+        {
+          "id": "opt4",
+          "text": "Asha has learned to drive a car for a month."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_274",
+      "number": 14,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Translate into English: \"अजय कल ज़रूर आएगा।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ajay will definitely come tomorrow."
+        },
+        {
+          "id": "opt2",
+          "text": "Ajay is definitely coming tomorrow."
+        },
+        {
+          "id": "opt3",
+          "text": "Ajay definitely comes tomorrow."
+        },
+        {
+          "id": "opt4",
+          "text": "Ajay would definitely come tomorrow."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_275",
+      "number": 15,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Translate into English: \"तुम रात को कब सोते हो?\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "When are you sleeping at night?"
+        },
+        {
+          "id": "opt2",
+          "text": "When do you sleep at night?"
+        },
+        {
+          "id": "opt3",
+          "text": "When did you sleep at night?"
+        },
+        {
+          "id": "opt4",
+          "text": "When will you sleep at night?"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_276",
+      "number": 16,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Translate into English: \"उसने तुम्हें धोखा नहीं दिया है।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He did not deceive you."
+        },
+        {
+          "id": "opt2",
+          "text": "He has not deceived you."
+        },
+        {
+          "id": "opt3",
+          "text": "He is not deceiving you."
+        },
+        {
+          "id": "opt4",
+          "text": "He does not deceive you."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_277",
+      "number": 17,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Translate into English: \"हमें भय से मुक्त होकर जीवन जीना चाहिए।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "We must lead a life free from fear."
+        },
+        {
+          "id": "opt2",
+          "text": "We should lead a life free from fear."
+        },
+        {
+          "id": "opt3",
+          "text": "We can lead a life free from fear."
+        },
+        {
+          "id": "opt4",
+          "text": "We will lead a life free from fear."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_278",
+      "number": 18,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Translate into English: \"जल्दी करो, अन्यथा तुम लेट हो जाओगे।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Make haste, otherwise you will be late."
+        },
+        {
+          "id": "opt2",
+          "text": "Make haste, or else you are late."
+        },
+        {
+          "id": "opt3",
+          "text": "Make haste, unless you will be late."
+        },
+        {
+          "id": "opt4",
+          "text": "Make haste, because you will be late."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_279",
+      "number": 19,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Translate into English: \"वह इतना मोटा है कि चल नहीं सकता।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He is too fat to walk."
+        },
+        {
+          "id": "opt2",
+          "text": "He is too fat for walking."
+        },
+        {
+          "id": "opt3",
+          "text": "He is so fat to walk."
+        },
+        {
+          "id": "opt4",
+          "text": "He is too fat that he cannot walk."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_280",
+      "number": 20,
+      "type": "mcq",
+      "section": "Prepositions & Translation",
+      "questionText": "Translate into Hindi: \"You should do your work.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तुम्हें अपना काम करना चाहिए।"
+        },
+        {
+          "id": "opt2",
+          "text": "तुम्हें तुम्हारा काम करना चाहिए।"
+        },
+        {
+          "id": "opt3",
+          "text": "तुम्हें मेरा काम करना चाहिए।"
+        },
+        {
+          "id": "opt4",
+          "text": "तुम्हें उसका काम करना चाहिए।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions & Translation",
+        "setNumber": 14,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

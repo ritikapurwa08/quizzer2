@@ -261,6 +261,27 @@ export function buildQuestionIndex(): Map<string, any> {
     }
   }
 
+  // 3. Index English Marathon 500 questions
+  const marathonFile = path.join(DATA_PATHS.englishDir, "marathon_500_questions.json");
+  if (fs.existsSync(marathonFile)) {
+    try {
+      const data = JSON.parse(fs.readFileSync(marathonFile, "utf-8"));
+      const sets: any[] = data.sets || [];
+      for (const s of sets) {
+        for (const q of s.questions || []) {
+          allList.push(q);
+          const qId = q.id || q.canonicalId;
+          if (qId) {
+            index.set(String(qId), q);
+            index.set(String(qId).toLowerCase(), q);
+          }
+        }
+      }
+    } catch (err) {
+      console.error("Failed to load marathon questions:", err);
+    }
+  }
+
   _gkQuestionsCache = allGk;
   _allQuestionsCache = allList;
   _questionIndex = index;

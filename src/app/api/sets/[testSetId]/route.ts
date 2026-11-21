@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getHydratedPublishedSet } from "@/lib/questionPool";
+import { MARATHON_SLUG_MAP } from "@/lib/marathonSlugMap";
 
 export const dynamic = "force-dynamic";
 
@@ -13,7 +14,8 @@ export async function GET(
       return NextResponse.json({ success: false, error: "Missing testSetId" }, { status: 400 });
     }
 
-    const set = getHydratedPublishedSet(testSetId);
+    const resolvedId = MARATHON_SLUG_MAP[testSetId] || testSetId;
+    const set = getHydratedPublishedSet(resolvedId);
 
     if (!set) {
       return NextResponse.json({ success: false, error: "Set not found in published pool" }, { status: 404 });

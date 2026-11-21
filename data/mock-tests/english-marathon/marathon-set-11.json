@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-11",
+  "title": "Set 11 — Articles & Determiners",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Articles & Determiners",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_201",
+      "number": 1,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "This is ______ best book of elementary physics.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a"
+        },
+        {
+          "id": "opt2",
+          "text": "the"
+        },
+        {
+          "id": "opt3",
+          "text": "an"
+        },
+        {
+          "id": "opt4",
+          "text": "no article"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_202",
+      "number": 2,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "Select the correct statement regarding the usage of articles in English grammar.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Words like 'a few' and 'some' are considered articles."
+        },
+        {
+          "id": "opt2",
+          "text": "The article 'an' is used before consonant sounds."
+        },
+        {
+          "id": "opt3",
+          "text": "Articles are used before nouns, 'an' is used before vowel sounds, and 'the' is used for specific nouns."
+        },
+        {
+          "id": "opt4",
+          "text": "The definite article 'the' is used for all general plural nouns."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_203",
+      "number": 3,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "She has ______ apple.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a"
+        },
+        {
+          "id": "opt2",
+          "text": "the"
+        },
+        {
+          "id": "opt3",
+          "text": "an"
+        },
+        {
+          "id": "opt4",
+          "text": "no article"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_204",
+      "number": 4,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "He is ______ honest man.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a"
+        },
+        {
+          "id": "opt2",
+          "text": "an"
+        },
+        {
+          "id": "opt3",
+          "text": "the"
+        },
+        {
+          "id": "opt4",
+          "text": "no article"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_205",
+      "number": 5,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "We have ______ breakfast at 8 a.m.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a"
+        },
+        {
+          "id": "opt2",
+          "text": "the"
+        },
+        {
+          "id": "opt3",
+          "text": "an"
+        },
+        {
+          "id": "opt4",
+          "text": "no article"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_206",
+      "number": 6,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "I saw ______ man and ______ woman in the park. ______ man was fat and short, and ______ woman was slim and tall.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a / a / The / the"
+        },
+        {
+          "id": "opt2",
+          "text": "the / the / a / a"
+        },
+        {
+          "id": "opt3",
+          "text": "a / the / the / a"
+        },
+        {
+          "id": "opt4",
+          "text": "the / a / a / the"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_207",
+      "number": 7,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "France is ______ European country.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "an"
+        },
+        {
+          "id": "opt2",
+          "text": "the"
+        },
+        {
+          "id": "opt3",
+          "text": "no article"
+        },
+        {
+          "id": "opt4",
+          "text": "a"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_208",
+      "number": 8,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "Match the sentences with the appropriate articles:\nA. The Economist is ______ magazine.\nB. ______ accidents can happen anywhere.\nC. There is lots to interest ______ visitor.\nD. ______ Prime Minister is to make a statement.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-a, B-Zero, C-a, D-The"
+        },
+        {
+          "id": "opt2",
+          "text": "A-The, B-a, C-Zero, D-a"
+        },
+        {
+          "id": "opt3",
+          "text": "A-a, B-a, C-The, D-Zero"
+        },
+        {
+          "id": "opt4",
+          "text": "A-Zero, B-The, C-a, D-a"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_209",
+      "number": 9,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "______ French speak ______ French.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The / a"
+        },
+        {
+          "id": "opt2",
+          "text": "The / Zero Article"
+        },
+        {
+          "id": "opt3",
+          "text": "A / the"
+        },
+        {
+          "id": "opt4",
+          "text": "Zero Article / the"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_210",
+      "number": 10,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "Aluminium is ______ useful metal.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "an"
+        },
+        {
+          "id": "opt2",
+          "text": "the"
+        },
+        {
+          "id": "opt3",
+          "text": "a"
+        },
+        {
+          "id": "opt4",
+          "text": "no article"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_211",
+      "number": 11,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "There are ______ students in the hall.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a few"
+        },
+        {
+          "id": "opt2",
+          "text": "a little"
+        },
+        {
+          "id": "opt3",
+          "text": "much"
+        },
+        {
+          "id": "opt4",
+          "text": "little"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_212",
+      "number": 12,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "It has not made ______ difference.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "some"
+        },
+        {
+          "id": "opt2",
+          "text": "any"
+        },
+        {
+          "id": "opt3",
+          "text": "a"
+        },
+        {
+          "id": "opt4",
+          "text": "much"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_213",
+      "number": 13,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "We stayed in Jaipur for ______ days and visited Hawa Mahal.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "few"
+        },
+        {
+          "id": "opt2",
+          "text": "a little"
+        },
+        {
+          "id": "opt3",
+          "text": "a few"
+        },
+        {
+          "id": "opt4",
+          "text": "little"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_214",
+      "number": 14,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "Can I have ______ sugar, please?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a few"
+        },
+        {
+          "id": "opt2",
+          "text": "few"
+        },
+        {
+          "id": "opt3",
+          "text": "a little"
+        },
+        {
+          "id": "opt4",
+          "text": "little"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_215",
+      "number": 15,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "Match the determiners with their categories:\nA. Some\nB. This / That / These / Those\nC. His\nD. Each / Every",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-Quantifier, B-Demonstrative, C-Possessive, D-Distributive"
+        },
+        {
+          "id": "opt2",
+          "text": "A-Demonstrative, B-Quantifier, C-Distributive, P-Possessive"
+        },
+        {
+          "id": "opt3",
+          "text": "A-Possessive, B-Distributive, C-Quantifier, D-Demonstrative"
+        },
+        {
+          "id": "opt4",
+          "text": "A-Distributive, B-Possessive, C-Demonstrative, D-Quantifier"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_216",
+      "number": 16,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "Identify the sentence with the incorrect use of a determiner:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "She has few friends."
+        },
+        {
+          "id": "opt2",
+          "text": "She has little water."
+        },
+        {
+          "id": "opt3",
+          "text": "She has little friends."
+        },
+        {
+          "id": "opt4",
+          "text": "She has many books."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_217",
+      "number": 17,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "The secretary and treasurer is negligent of ______ duty.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "their"
+        },
+        {
+          "id": "opt2",
+          "text": "his"
+        },
+        {
+          "id": "opt3",
+          "text": "its"
+        },
+        {
+          "id": "opt4",
+          "text": "her"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_218",
+      "number": 18,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "I have written to ______ candidates who registered for the post.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "each"
+        },
+        {
+          "id": "opt2",
+          "text": "every"
+        },
+        {
+          "id": "opt3",
+          "text": "all"
+        },
+        {
+          "id": "opt4",
+          "text": "neither"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_219",
+      "number": 19,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "She lost nearly ______ friend she had.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "each"
+        },
+        {
+          "id": "opt2",
+          "text": "every"
+        },
+        {
+          "id": "opt3",
+          "text": "all"
+        },
+        {
+          "id": "opt4",
+          "text": "many"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_220",
+      "number": 20,
+      "type": "mcq",
+      "section": "Articles & Determiners",
+      "questionText": "______ students who were in the class have left.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The few"
+        },
+        {
+          "id": "opt2",
+          "text": "A few"
+        },
+        {
+          "id": "opt3",
+          "text": "Few"
+        },
+        {
+          "id": "opt4",
+          "text": "The many"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Articles & Determiners",
+        "setNumber": 11,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-19",
+  "title": "Set 19 — Administrative Glossary",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Administrative Glossary",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_361",
+      "number": 1,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the Hindi equivalent of \"Domicile Certificate\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मूल निवास प्रमाण-पत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "निवास प्रमाण-पत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "स्थायी निवास प्रमाण-पत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "निवास पत्र"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_362",
+      "number": 2,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the Hindi equivalent of \"Amendment\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "परिवर्तन"
+        },
+        {
+          "id": "opt2",
+          "text": "सहमति"
+        },
+        {
+          "id": "opt3",
+          "text": "संशोधन"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुमोदन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_363",
+      "number": 3,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the Hindi equivalent of \"Authentication\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रमाणीकरण"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रमाणन"
+        },
+        {
+          "id": "opt3",
+          "text": "सत्यापन"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रमाण-पत्र"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_364",
+      "number": 4,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "Match the English terms with their Hindi equivalents:\nA. Memorandum (Memo)\nB. Affidavit\nC. Demi-Official Letter\nD. Presentation",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-ज्ञापन, B-शपथ-पत्र, C-अर्धशासकीय पत्र, D-प्रस्तुति"
+        },
+        {
+          "id": "opt2",
+          "text": "A-ज्ञापन, B-हलफनामा, C-शासकीय पत्र, D-प्रस्तुति"
+        },
+        {
+          "id": "opt3",
+          "text": "A-पत्र, B-शपथ-पत्र, C-अर्धशासकीय पत्र, D-प्रदर्शन"
+        },
+        {
+          "id": "opt4",
+          "text": "A-ज्ञापन, B-शपथ-पत्र, C-शासकीय पत्र, D-प्रस्तुति"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_365",
+      "number": 5,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the Hindi equivalent of \"Cognizable Offence\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "असंज्ञेय अपराध"
+        },
+        {
+          "id": "opt2",
+          "text": "संज्ञेय अपराध"
+        },
+        {
+          "id": "opt3",
+          "text": "गंभीर अपराध"
+        },
+        {
+          "id": "opt4",
+          "text": "साधारण अपराध"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_366",
+      "number": 6,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the Hindi equivalent of \"Agenda\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कार्यकाल"
+        },
+        {
+          "id": "opt2",
+          "text": "कार्यवृत्त"
+        },
+        {
+          "id": "opt3",
+          "text": "कार्यसूची"
+        },
+        {
+          "id": "opt4",
+          "text": "कार्यकारी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_367",
+      "number": 7,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "Match the English terms with their Hindi equivalents:\nA. Director\nB. Accountant\nC. Insubordination\nD. Resources",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-निदेशक, B-लेखाकार, C-अवज्ञा, D-संसाधन"
+        },
+        {
+          "id": "opt2",
+          "text": "A-निदेशक, B-लेखापाल, C-अवज्ञा, D-संसाधन"
+        },
+        {
+          "id": "opt3",
+          "text": "A-निदेशक, B-लेखाकार, C-अधिनता, D-संसाधन"
+        },
+        {
+          "id": "opt4",
+          "text": "A-निदेशक, B-लेखाकार, C-अवज्ञा, D-संसाधन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_368",
+      "number": 8,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the Hindi equivalent of \"Gazette\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पत्रिका"
+        },
+        {
+          "id": "opt2",
+          "text": "समाचार पत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "राजपत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "विज्ञापन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_369",
+      "number": 9,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the Hindi equivalent of \"Summons / Summon\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "स्थगित करना"
+        },
+        {
+          "id": "opt2",
+          "text": "भंग करना"
+        },
+        {
+          "id": "opt3",
+          "text": "बुलाना / आह्वान करना"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रस्तावित करना"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_370",
+      "number": 10,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "Which of the following is NOT a Hindi meaning of \"Secondary\"?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गौण"
+        },
+        {
+          "id": "opt2",
+          "text": "द्वितीयक"
+        },
+        {
+          "id": "opt3",
+          "text": "माध्यमिक"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रस्तावक"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_371",
+      "number": 11,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "Match the following English terms with their correct Hindi equivalents:\nA. Endorsement\nB. Transliteration\nC. Subordinate\nD. Transformation",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-पृष्ठांकन, B-लिप्यंतरण, C-अधीनस्थ, D-रूपांतरण"
+        },
+        {
+          "id": "opt2",
+          "text": "A-अनुमोदन, B-अनुवाद, C-उच्च पदस्थ, D-परिवर्तन"
+        },
+        {
+          "id": "opt3",
+          "text": "A-पृष्ठांकन, B-अनुवाद, C-अधीनस्थ, D-परिवर्तन"
+        },
+        {
+          "id": "opt4",
+          "text": "A-अनुमोदन, B-लिप्यंतरण, C-उच्च पदस्थ, D-रूपांतरण"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_372",
+      "number": 12,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the correct Hindi equivalent of the English word 'Endorsement'?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुमोदन"
+        },
+        {
+          "id": "opt2",
+          "text": "पृष्ठांकन"
+        },
+        {
+          "id": "opt3",
+          "text": "सहमति"
+        },
+        {
+          "id": "opt4",
+          "text": "स्वीकृति"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_373",
+      "number": 13,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the Hindi equivalent of 'Cognizance / Recognizance'?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ज्ञान"
+        },
+        {
+          "id": "opt2",
+          "text": "संज्ञान"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रज्ञान"
+        },
+        {
+          "id": "opt4",
+          "text": "विज्ञान"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_374",
+      "number": 14,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "Match the following English terms with their correct Hindi equivalents:\nA. Abetment\nB. Abatement\nC. Abolish",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-दुरुत्साहन, B-उपशमन, C-उन्मूलन करना"
+        },
+        {
+          "id": "opt2",
+          "text": "A-दुष्प्रेरण, B-कमी, C-निर्माण करना"
+        },
+        {
+          "id": "opt3",
+          "text": "A-दुरुत्साहन, B-वृद्धि, C-उन्मूलन करना"
+        },
+        {
+          "id": "opt4",
+          "text": "A-दुष्प्रेरण, B-उपशमन, C-निर्माण करना"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_375",
+      "number": 15,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the Hindi equivalent of the word 'Valid'?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अवैध"
+        },
+        {
+          "id": "opt2",
+          "text": "सुयोग्य"
+        },
+        {
+          "id": "opt3",
+          "text": "विधिमान्य"
+        },
+        {
+          "id": "opt4",
+          "text": "अमान्य"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_376",
+      "number": 16,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the Hindi equivalent of the word 'Regulation'?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कार्यसूची"
+        },
+        {
+          "id": "opt2",
+          "text": "कटौती प्रस्ताव"
+        },
+        {
+          "id": "opt3",
+          "text": "विनियमन"
+        },
+        {
+          "id": "opt4",
+          "text": "नियम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_377",
+      "number": 17,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "Match the following English terms with their correct Hindi equivalents:\nA. Honorarium\nB. Illicit\nC. Excavation\nD. Gratuity",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-मानदेय, B-निषिद्ध, C-उत्खनन, D-उपदान"
+        },
+        {
+          "id": "opt2",
+          "text": "A-अवैतनिक, B-अवैध, C-उत्खनन, D-भत्ता"
+        },
+        {
+          "id": "opt3",
+          "text": "A-मानदेय, B-निषिद्ध, C-खनन, D-भत्ता"
+        },
+        {
+          "id": "opt4",
+          "text": "A-अवैतनिक, B-निषिद्ध, C-उत्खनन, D-उपदान"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_378",
+      "number": 18,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the Hindi equivalent of the word 'Defendant'?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वादी"
+        },
+        {
+          "id": "opt2",
+          "text": "अपराधी"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतिवादी"
+        },
+        {
+          "id": "opt4",
+          "text": "गवाह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_379",
+      "number": 19,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "Identify the mismatched pair among the following:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Circular - परिपत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "Office Order - कार्यालय आदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "Reminder - अनुस्मारक"
+        },
+        {
+          "id": "opt4",
+          "text": "Notification - अधिसूचना"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_380",
+      "number": 20,
+      "type": "mcq",
+      "section": "Administrative Glossary",
+      "questionText": "What is the English equivalent of 'राजपत्रित अवकाश'?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Public Holiday"
+        },
+        {
+          "id": "opt2",
+          "text": "Gazetted Holiday"
+        },
+        {
+          "id": "opt3",
+          "text": "Official Leave"
+        },
+        {
+          "id": "opt4",
+          "text": "National Holiday"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Administrative Glossary",
+        "setNumber": 19,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

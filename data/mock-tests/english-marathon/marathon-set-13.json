@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-13",
+  "title": "Set 13 — Prepositions",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Prepositions",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_241",
+      "number": 1,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "Select the grammatically correct sentence regarding the usage of prepositions with nouns and descriptions.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He is a man of considerable achievements."
+        },
+        {
+          "id": "opt2",
+          "text": "The man with a bald head and only one arm is an old soldier."
+        },
+        {
+          "id": "opt3",
+          "text": "He is a man in considerable achievements."
+        },
+        {
+          "id": "opt4",
+          "text": "The man with a bald head and only one arm is an old soldier into."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_242",
+      "number": 2,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "India has entered ______ a treaty with Israel.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "in"
+        },
+        {
+          "id": "opt2",
+          "text": "into"
+        },
+        {
+          "id": "opt3",
+          "text": "on"
+        },
+        {
+          "id": "opt4",
+          "text": "at"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_243",
+      "number": 3,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "There is still no cure ______ this disease.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "of"
+        },
+        {
+          "id": "opt2",
+          "text": "for"
+        },
+        {
+          "id": "opt3",
+          "text": "to"
+        },
+        {
+          "id": "opt4",
+          "text": "with"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_244",
+      "number": 4,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "Rupa was happy to receive a letter ______ her friend Vimal after a long time.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "by"
+        },
+        {
+          "id": "opt2",
+          "text": "of"
+        },
+        {
+          "id": "opt3",
+          "text": "from"
+        },
+        {
+          "id": "opt4",
+          "text": "with"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_245",
+      "number": 5,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "The driver jumped ______ the car.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "off"
+        },
+        {
+          "id": "opt2",
+          "text": "out"
+        },
+        {
+          "id": "opt3",
+          "text": "down"
+        },
+        {
+          "id": "opt4",
+          "text": "away"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_246",
+      "number": 6,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "The road goes ______ the tunnel.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "across"
+        },
+        {
+          "id": "opt2",
+          "text": "through"
+        },
+        {
+          "id": "opt3",
+          "text": "over"
+        },
+        {
+          "id": "opt4",
+          "text": "along"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_247",
+      "number": 7,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "He is afraid ______ dogs.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "from"
+        },
+        {
+          "id": "opt2",
+          "text": "of"
+        },
+        {
+          "id": "opt3",
+          "text": "about"
+        },
+        {
+          "id": "opt4",
+          "text": "with"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_248",
+      "number": 8,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "He lives ______ Delhi.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "at"
+        },
+        {
+          "id": "opt2",
+          "text": "on"
+        },
+        {
+          "id": "opt3",
+          "text": "in"
+        },
+        {
+          "id": "opt4",
+          "text": "by"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_249",
+      "number": 9,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "She is good ______ English.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "in"
+        },
+        {
+          "id": "opt2",
+          "text": "on"
+        },
+        {
+          "id": "opt3",
+          "text": "at"
+        },
+        {
+          "id": "opt4",
+          "text": "with"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_250",
+      "number": 10,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "She is fond ______ music.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "of"
+        },
+        {
+          "id": "opt2",
+          "text": "for"
+        },
+        {
+          "id": "opt3",
+          "text": "with"
+        },
+        {
+          "id": "opt4",
+          "text": "to"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_251",
+      "number": 11,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "The wounded soldier fell ______ the ditch.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "into"
+        },
+        {
+          "id": "opt2",
+          "text": "onto"
+        },
+        {
+          "id": "opt3",
+          "text": "at"
+        },
+        {
+          "id": "opt4",
+          "text": "in"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_252",
+      "number": 12,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "We work ______ 8 a.m. ______ 4 p.m.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "at / by"
+        },
+        {
+          "id": "opt2",
+          "text": "from / to"
+        },
+        {
+          "id": "opt3",
+          "text": "in / until"
+        },
+        {
+          "id": "opt4",
+          "text": "since / till"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_253",
+      "number": 13,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "Devki reached ______ the station well in time.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "at"
+        },
+        {
+          "id": "opt2",
+          "text": "to"
+        },
+        {
+          "id": "opt3",
+          "text": "in"
+        },
+        {
+          "id": "opt4",
+          "text": "Zero Preposition"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_254",
+      "number": 14,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "They marched up the aisle ______ the pillars.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "among"
+        },
+        {
+          "id": "opt2",
+          "text": "between"
+        },
+        {
+          "id": "opt3",
+          "text": "through"
+        },
+        {
+          "id": "opt4",
+          "text": "across"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_255",
+      "number": 15,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "Identify the incorrect fixed preposition pair:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "prevent from"
+        },
+        {
+          "id": "opt2",
+          "text": "insist on"
+        },
+        {
+          "id": "opt3",
+          "text": "refrain to"
+        },
+        {
+          "id": "opt4",
+          "text": "succeed in"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_256",
+      "number": 16,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "Select the grammatically correct statements regarding Prepositions:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The snow leopard is the state animal of Himachal Pradesh and I usually sleep for six hours."
+        },
+        {
+          "id": "opt2",
+          "text": "The book is on the table and I arrived at the station."
+        },
+        {
+          "id": "opt3",
+          "text": "I walk to school and the cat is under the table."
+        },
+        {
+          "id": "opt4",
+          "text": "He arrived in the airport and the snow leopard is the state bird."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_257",
+      "number": 17,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "He wondered where Ann was; he had not seen her ______ their quarrel.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "for"
+        },
+        {
+          "id": "opt2",
+          "text": "from"
+        },
+        {
+          "id": "opt3",
+          "text": "since"
+        },
+        {
+          "id": "opt4",
+          "text": "by"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_258",
+      "number": 18,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "He killed two birds ______ one shot.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "by"
+        },
+        {
+          "id": "opt2",
+          "text": "with"
+        },
+        {
+          "id": "opt3",
+          "text": "in"
+        },
+        {
+          "id": "opt4",
+          "text": "at"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_259",
+      "number": 19,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "The forest department has planted trees ______ the side of all highways.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "on"
+        },
+        {
+          "id": "opt2",
+          "text": "at"
+        },
+        {
+          "id": "opt3",
+          "text": "in"
+        },
+        {
+          "id": "opt4",
+          "text": "along"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_260",
+      "number": 20,
+      "type": "mcq",
+      "section": "Prepositions",
+      "questionText": "Your younger sister takes ______ you.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "after"
+        },
+        {
+          "id": "opt2",
+          "text": "up"
+        },
+        {
+          "id": "opt3",
+          "text": "on"
+        },
+        {
+          "id": "opt4",
+          "text": "off"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Prepositions",
+        "setNumber": 13,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

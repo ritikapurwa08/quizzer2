@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-06",
+  "title": "Set 06 — Indirect Speech & Modals",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Indirect Speech & Modals",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_101",
+      "number": 1,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "I said to him, \"I have a message for your sister.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I told him that I had a message for his sister."
+        },
+        {
+          "id": "opt2",
+          "text": "I said him that I have a message for your sister."
+        },
+        {
+          "id": "opt3",
+          "text": "I told him that I have a message for his sister."
+        },
+        {
+          "id": "opt4",
+          "text": "I said to him that I had a message for your sister."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_102",
+      "number": 2,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "Sohan said, \"Yesterday I did not go to college.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Sohan said that he did not go to college yesterday."
+        },
+        {
+          "id": "opt2",
+          "text": "Sohan said that he had not gone to college the previous day."
+        },
+        {
+          "id": "opt3",
+          "text": "Sohan said that he has not gone to college the previous day."
+        },
+        {
+          "id": "opt4",
+          "text": "Sohan said that he had not gone to college yesterday."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_103",
+      "number": 3,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "Satish said to Manisha, \"You promised to ring me every day.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Satish told Manisha that she promised to ring him every day."
+        },
+        {
+          "id": "opt2",
+          "text": "Satish said to Manisha that you promised to ring me every day."
+        },
+        {
+          "id": "opt3",
+          "text": "Satish told Manisha that she had promised to ring him every day."
+        },
+        {
+          "id": "opt4",
+          "text": "Satish told Manisha that she had promised to ring her every day."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_104",
+      "number": 4,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "The teacher said to the class, \"If you don't work hard, you will fail.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The teacher told the class that if they don't work hard, they will fail."
+        },
+        {
+          "id": "opt2",
+          "text": "The teacher said to the class that if you don't work hard, you will fail."
+        },
+        {
+          "id": "opt3",
+          "text": "The teacher told the class that if they didn't work hard, they would fail."
+        },
+        {
+          "id": "opt4",
+          "text": "The teacher told the class that if they do not work hard, they will fail."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_105",
+      "number": 5,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "They said to me, \"We will wait for you if you are late.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "They told me that they will wait for me if I am late."
+        },
+        {
+          "id": "opt2",
+          "text": "They said to me that we will wait for you if you are late."
+        },
+        {
+          "id": "opt3",
+          "text": "They told me that they would wait for me if I was late."
+        },
+        {
+          "id": "opt4",
+          "text": "They told me that they would wait for you if I am late."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_106",
+      "number": 6,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "They said to me, \"Would you like to come with us?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "They asked me whether I would like to come with them."
+        },
+        {
+          "id": "opt2",
+          "text": "They told me that I would like to come with them."
+        },
+        {
+          "id": "opt3",
+          "text": "They asked me if I like to come with us."
+        },
+        {
+          "id": "opt4",
+          "text": "They said to me whether I would like to come with them."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_107",
+      "number": 7,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "The Commander-in-Chief said, \"Farewell, my country!\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The Commander-in-Chief said farewell to his country."
+        },
+        {
+          "id": "opt2",
+          "text": "The Commander-in-Chief bade farewell to his country."
+        },
+        {
+          "id": "opt3",
+          "text": "The Commander-in-Chief told his country farewell."
+        },
+        {
+          "id": "opt4",
+          "text": "The Commander-in-Chief said goodbye to his country."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_108",
+      "number": 8,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "His father said to him, \"Why are you not appearing in exams?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "His father asked him why he is not appearing in exams."
+        },
+        {
+          "id": "opt2",
+          "text": "His father said to him why he was not appearing in exams."
+        },
+        {
+          "id": "opt3",
+          "text": "His father asked him why he was not appearing in exams."
+        },
+        {
+          "id": "opt4",
+          "text": "His father told him why he is not appearing in exams."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_109",
+      "number": 9,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "The gatekeeper asked me, \"When do you want to speak?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The gatekeeper asked me when I want to speak."
+        },
+        {
+          "id": "opt2",
+          "text": "The gatekeeper told me when I wanted to speak."
+        },
+        {
+          "id": "opt3",
+          "text": "The gatekeeper asked me when I wanted to speak."
+        },
+        {
+          "id": "opt4",
+          "text": "The gatekeeper asked me when do I want to speak."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_110",
+      "number": 10,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "The teacher said to me, \"How long have you been learning?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The teacher asked me how long I have been learning."
+        },
+        {
+          "id": "opt2",
+          "text": "The teacher told me how long I had been learning."
+        },
+        {
+          "id": "opt3",
+          "text": "The teacher asked me how long I had been learning."
+        },
+        {
+          "id": "opt4",
+          "text": "The teacher said to me how long I am learning."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_111",
+      "number": 11,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "I said to him, \"Where will you be tomorrow in case I have to ring you?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I asked him where he would be the next day in case I had to ring him."
+        },
+        {
+          "id": "opt2",
+          "text": "I told him where he will be tomorrow in case I have to ring him."
+        },
+        {
+          "id": "opt3",
+          "text": "I asked him where he is tomorrow in case I have to ring him."
+        },
+        {
+          "id": "opt4",
+          "text": "I said to him that he would be the next day in case I had to ring him."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_112",
+      "number": 12,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "She said to us, \"Let's enjoy a good dinner.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "She told us that we should enjoy a good dinner."
+        },
+        {
+          "id": "opt2",
+          "text": "She suggested to us that we should enjoy a good dinner."
+        },
+        {
+          "id": "opt3",
+          "text": "She asked us to enjoy a good dinner."
+        },
+        {
+          "id": "opt4",
+          "text": "She ordered us to enjoy a good dinner."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_113",
+      "number": 13,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "He said to her, \"May you live long!\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He told her that she would live long."
+        },
+        {
+          "id": "opt2",
+          "text": "He asked her if she might live long."
+        },
+        {
+          "id": "opt3",
+          "text": "He wished that she might live long."
+        },
+        {
+          "id": "opt4",
+          "text": "He said to her that she should live long."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_114",
+      "number": 14,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "The son said to his mother, \"Do you think you could give me some more pudding, please, Mother?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The son asked his mother if she thought she could give him some more pudding."
+        },
+        {
+          "id": "opt2",
+          "text": "The son told his mother that she should give him some more pudding."
+        },
+        {
+          "id": "opt3",
+          "text": "The son politely asked his mother if she thought she could give him some more pudding."
+        },
+        {
+          "id": "opt4",
+          "text": "The son requested his mother to give him some more pudding."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_115",
+      "number": 15,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "The teacher said to the boy, \"Go and get me a piece of chalk and come straight back.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The teacher told the boy to go and get him a piece of chalk and come straight back."
+        },
+        {
+          "id": "opt2",
+          "text": "The teacher asked the boy to go and get him a piece of chalk and come straight back."
+        },
+        {
+          "id": "opt3",
+          "text": "The teacher ordered the boy to go and get him a piece of chalk and come straight back."
+        },
+        {
+          "id": "opt4",
+          "text": "The teacher suggested the boy to go and get him a piece of chalk and come straight back."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_116",
+      "number": 16,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "He said to me, \"Thank you.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He told me that he was thanking me."
+        },
+        {
+          "id": "opt2",
+          "text": "He thanked me."
+        },
+        {
+          "id": "opt3",
+          "text": "He asked me to thank him."
+        },
+        {
+          "id": "opt4",
+          "text": "He said to me that he was thankful."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_117",
+      "number": 17,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "He said to me, \"Liar!\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He told me that I was a liar."
+        },
+        {
+          "id": "opt2",
+          "text": "He called me a liar."
+        },
+        {
+          "id": "opt3",
+          "text": "He asked me if I was a liar."
+        },
+        {
+          "id": "opt4",
+          "text": "He said to me that I was lying."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_118",
+      "number": 18,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "She said, \"What a pity!\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "She said that it was a pity."
+        },
+        {
+          "id": "opt2",
+          "text": "She exclaimed that it was a great pity."
+        },
+        {
+          "id": "opt3",
+          "text": "She asked if it was a pity."
+        },
+        {
+          "id": "opt4",
+          "text": "She told me that it was a great pity."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_119",
+      "number": 19,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "She said to me, \"Let me explain. Don't be in such a hurry.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "She told me to let her explain and not be in such a hurry."
+        },
+        {
+          "id": "opt2",
+          "text": "She asked me to let her explain and not be in such a hurry."
+        },
+        {
+          "id": "opt3",
+          "text": "She suggested me to let her explain and not be in such a hurry."
+        },
+        {
+          "id": "opt4",
+          "text": "She ordered me to let her explain and not be in such a hurry."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_120",
+      "number": 20,
+      "type": "mcq",
+      "section": "Indirect Speech & Modals",
+      "questionText": "I said to him, \"Get yourself some new clothes.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I told him to get himself some new clothes."
+        },
+        {
+          "id": "opt2",
+          "text": "I asked him to get himself some new clothes."
+        },
+        {
+          "id": "opt3",
+          "text": "I suggested him to get himself some new clothes."
+        },
+        {
+          "id": "opt4",
+          "text": "I advised him to get himself some new clothes."
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech & Modals",
+        "setNumber": 6,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

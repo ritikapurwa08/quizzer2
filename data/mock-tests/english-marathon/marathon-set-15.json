@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-15",
+  "title": "Set 15 — Translation",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Translation",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_281",
+      "number": 1,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into Hindi: \"Mom, could you please put my books inside the bag?\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माँ, क्या आप कृपया मेरी किताबें बैग में रख सकती हैं?"
+        },
+        {
+          "id": "opt2",
+          "text": "माँ, क्या आप कृपया मेरी किताबें मेरे बैग में रख सकती हैं?"
+        },
+        {
+          "id": "opt3",
+          "text": "माँ, क्या आप कृपया मेरी किताबें थैली में रख सकती हैं?"
+        },
+        {
+          "id": "opt4",
+          "text": "माँ, क्या आप कृपया मेरी किताबें बैग के अंदर रख सकते हैं?"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_282",
+      "number": 2,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into English: \"कल रात से बारिश हो रही है।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "It is raining since last night."
+        },
+        {
+          "id": "opt2",
+          "text": "It has been raining since last night."
+        },
+        {
+          "id": "opt3",
+          "text": "It was raining since last night."
+        },
+        {
+          "id": "opt4",
+          "text": "It has rained since last night."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_283",
+      "number": 3,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into Hindi: \"It is raining very heavily; don't forget to carry your umbrella.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बहुत ज़ोर की बारिश हो रही है; अपना छाता ले जाना मत भूलना।"
+        },
+        {
+          "id": "opt2",
+          "text": "बहुत ज़ोर की बारिश हो रही है; अपना छाता ले जाने मत भूलना।"
+        },
+        {
+          "id": "opt3",
+          "text": "बहुत ज़ोर की बारिश हो रही है; अपना छाता ले जाना न भूलना।"
+        },
+        {
+          "id": "opt4",
+          "text": "बहुत ज़ोर की बारिश हो रही है; अपना छाता ले जाना मत भूलना।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_284",
+      "number": 4,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into English: \"अध्ययन मनुष्य को पूर्ण बनाता है।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Reading makes a man complete."
+        },
+        {
+          "id": "opt2",
+          "text": "Study makes a man perfect."
+        },
+        {
+          "id": "opt3",
+          "text": "Reading makes a man perfect."
+        },
+        {
+          "id": "opt4",
+          "text": "Study makes a man complete."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_285",
+      "number": 5,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into English: \"वह कल दुर्घटनाग्रस्त हो गया।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He had an accident yesterday."
+        },
+        {
+          "id": "opt2",
+          "text": "He met with an accident yesterday."
+        },
+        {
+          "id": "opt3",
+          "text": "He was in an accident yesterday."
+        },
+        {
+          "id": "opt4",
+          "text": "He suffered an accident yesterday."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_286",
+      "number": 6,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into Hindi: \"Are you not going to the party?\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "क्या आप पार्टी में नहीं जा रहे हैं?"
+        },
+        {
+          "id": "opt2",
+          "text": "क्या आप पार्टी में नहीं जाते हैं?"
+        },
+        {
+          "id": "opt3",
+          "text": "क्या आप पार्टी में नहीं जाएंगे?"
+        },
+        {
+          "id": "opt4",
+          "text": "क्या आप पार्टी में नहीं जा रहे हो?"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_287",
+      "number": 7,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into Hindi: \"Hard work is the key to success.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कठिन परिश्रम सफलता की कुंजी है।"
+        },
+        {
+          "id": "opt2",
+          "text": "कठिन परिश्रम सफलता का रास्ता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "कठिन परिश्रम सफलता की चाबी है।"
+        },
+        {
+          "id": "opt4",
+          "text": "कठिन परिश्रम सफलता की कुंजी है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_288",
+      "number": 8,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into Hindi: \"Almost all cities in India are heavily polluted.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भारत के लगभग सभी शहर अत्यधिक प्रदूषित हैं।"
+        },
+        {
+          "id": "opt2",
+          "text": "भारत के कुछ शहर अत्यधिक प्रदूषित हैं।"
+        },
+        {
+          "id": "opt3",
+          "text": "भारत के सभी शहर अत्यधिक प्रदूषित हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "भारत के अधिकांश शहर अत्यधिक प्रदूषित हैं।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_289",
+      "number": 9,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into Hindi: \"India needs to solve its problem of unemployment.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भारत को अपनी बेरोज़गारी की समस्या को हल करने की ज़रूरत है।"
+        },
+        {
+          "id": "opt2",
+          "text": "भारत को अपनी बेरोज़गारों की समस्या को हल करने की ज़रूरत है।"
+        },
+        {
+          "id": "opt3",
+          "text": "भारत को अपनी बेरोज़गारी की समस्या को सुलझाने की ज़रूरत है।"
+        },
+        {
+          "id": "opt4",
+          "text": "भारत को अपनी बेरोज़गारी की समस्या को हल करने की आवश्यकता है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_290",
+      "number": 10,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into English: \"सामाजिक कुरीतियों को हटाने के लिए सख़्त क़ानून की आवश्यकता है।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Strict laws are needed to remove social evils."
+        },
+        {
+          "id": "opt2",
+          "text": "Strict laws are required to eliminate social vices."
+        },
+        {
+          "id": "opt3",
+          "text": "Harsh laws are needed to remove social evils."
+        },
+        {
+          "id": "opt4",
+          "text": "Strict laws are needed to abolish social evils."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_291",
+      "number": 11,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into Hindi: \"You had finished your work before I came.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेरे आने से पहले तुम अपना काम समाप्त कर चुके थे।"
+        },
+        {
+          "id": "opt2",
+          "text": "मेरे आने से पहले तुम अपना काम समाप्त कर रहे थे।"
+        },
+        {
+          "id": "opt3",
+          "text": "तुमने मेरे आने के बाद अपना काम समाप्त कर लिया।"
+        },
+        {
+          "id": "opt4",
+          "text": "तुम अपना काम समाप्त कर चुके हो जब मैं आया।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_292",
+      "number": 12,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into English: \"अभ्यास मनुष्य को योग्य/निपुण बनाता है।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Practice makes a man perfect."
+        },
+        {
+          "id": "opt2",
+          "text": "Practice makes a man proficient."
+        },
+        {
+          "id": "opt3",
+          "text": "Practise makes a man perfect."
+        },
+        {
+          "id": "opt4",
+          "text": "Practice make a man perfect."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_293",
+      "number": 13,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into Hindi: \"Everybody enjoys equal rights in India.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भारत में सब लोग समान अधिकारों का आनंद लेते हैं।"
+        },
+        {
+          "id": "opt2",
+          "text": "भारत में सब लोगों को समान अधिकार प्राप्त हैं।"
+        },
+        {
+          "id": "opt3",
+          "text": "भारत में हर किसी को समान अधिकार मिलते हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "भारत में सभी लोग समान अधिकारों का लाभ उठाते हैं।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_294",
+      "number": 14,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into Hindi: \"At last he realized his mistake.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आख़िरकार उसे अपनी गलती का एहसास हुआ।"
+        },
+        {
+          "id": "opt2",
+          "text": "आख़िरकार उसने अपनी गलती को समझा।"
+        },
+        {
+          "id": "opt3",
+          "text": "अंत में उसे अपनी गलती का पता चला।"
+        },
+        {
+          "id": "opt4",
+          "text": "आख़िरकार उसकी गलती का अहसास हुआ।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_295",
+      "number": 15,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into Hindi: \"The Ramayana is the most popularly read book in India.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामायण भारत का सबसे लोकप्रिय पढ़ा जाने वाला ग्रंथ है।"
+        },
+        {
+          "id": "opt2",
+          "text": "रामायण भारत में अत्यधिक पढ़ा जाने वाला लोकप्रिय ग्रंथ है।"
+        },
+        {
+          "id": "opt3",
+          "text": "भारत में रामायण सबसे अधिक पढ़ा जाने वाली किताब है।"
+        },
+        {
+          "id": "opt4",
+          "text": "रामायण भारत में सबसे लोकप्रिय किताब है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_296",
+      "number": 16,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into English: \"मैं कल पहुँच रहा हूँ।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I will reach tomorrow."
+        },
+        {
+          "id": "opt2",
+          "text": "I am reaching tomorrow."
+        },
+        {
+          "id": "opt3",
+          "text": "I am reaching to tomorrow."
+        },
+        {
+          "id": "opt4",
+          "text": "I reach tomorrow."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_297",
+      "number": 17,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into English: \"वह दौड़ रही है।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "She is running."
+        },
+        {
+          "id": "opt2",
+          "text": "She runs."
+        },
+        {
+          "id": "opt3",
+          "text": "She was running."
+        },
+        {
+          "id": "opt4",
+          "text": "She is run."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_298",
+      "number": 18,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into Hindi: \"He had a narrow escape.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वह बाल-बाल बचा।"
+        },
+        {
+          "id": "opt2",
+          "text": "वह एक संकट से बचा।"
+        },
+        {
+          "id": "opt3",
+          "text": "वह मुश्किल से बच निकला।"
+        },
+        {
+          "id": "opt4",
+          "text": "वह एक कठिन स्थिति से बचा।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_299",
+      "number": 19,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into English: \"सार्वजनिक स्थानों पर धूम्रपान न करें।\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Do not smoke in public places."
+        },
+        {
+          "id": "opt2",
+          "text": "Don't smoke in public places."
+        },
+        {
+          "id": "opt3",
+          "text": "Don't smoking in public places."
+        },
+        {
+          "id": "opt4",
+          "text": "Do not smoking in public places."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_300",
+      "number": 20,
+      "type": "mcq",
+      "section": "Translation",
+      "questionText": "Translate into Hindi: \"World's tallest building is situated in India.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दुनिया की सबसे ऊँची इमारत भारत में स्थित है।"
+        },
+        {
+          "id": "opt2",
+          "text": "दुनिया की सबसे ऊँची मूर्ति भारत में स्थित है।"
+        },
+        {
+          "id": "opt3",
+          "text": "दुनिया की सबसे ऊँची स्मारक भारत में स्थित है।"
+        },
+        {
+          "id": "opt4",
+          "text": "दुनिया की सबसे ऊँची इमारत भारत का स्थित है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Translation",
+        "setNumber": 15,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

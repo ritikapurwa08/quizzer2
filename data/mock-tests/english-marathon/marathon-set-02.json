@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-02",
+  "title": "Set 02 — Past Tenses & Conditionals",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Past Tenses & Conditionals",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_021",
+      "number": 1,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "Yesterday, when my friend came, I ______ television.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "watched"
+        },
+        {
+          "id": "opt2",
+          "text": "was watching"
+        },
+        {
+          "id": "opt3",
+          "text": "have watched"
+        },
+        {
+          "id": "opt4",
+          "text": "am watching"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_022",
+      "number": 2,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "Sheela’s heart ______ when she ______ the bad news.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "breaks / hears"
+        },
+        {
+          "id": "opt2",
+          "text": "broke / heard"
+        },
+        {
+          "id": "opt3",
+          "text": "was breaking / was hearing"
+        },
+        {
+          "id": "opt4",
+          "text": "had broken / had heard"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_023",
+      "number": 3,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "She ______ food when I visited her yesterday.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "cooked"
+        },
+        {
+          "id": "opt2",
+          "text": "has cooked"
+        },
+        {
+          "id": "opt3",
+          "text": "was cooking"
+        },
+        {
+          "id": "opt4",
+          "text": "is cooking"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_024",
+      "number": 4,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "They were thinking about the problem yesterday, but they never ______ the answer.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "find"
+        },
+        {
+          "id": "opt2",
+          "text": "have found"
+        },
+        {
+          "id": "opt3",
+          "text": "are finding"
+        },
+        {
+          "id": "opt4",
+          "text": "found"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_025",
+      "number": 5,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "When I ______ at the theatre yesterday, the show ______ already.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "arrive / starts"
+        },
+        {
+          "id": "opt2",
+          "text": "arrived / had started"
+        },
+        {
+          "id": "opt3",
+          "text": "arrived / started"
+        },
+        {
+          "id": "opt4",
+          "text": "had arrived / has started"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_026",
+      "number": 6,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "The bus crashed yesterday and many passengers ______ hurt.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "get / are"
+        },
+        {
+          "id": "opt2",
+          "text": "got / were"
+        },
+        {
+          "id": "opt3",
+          "text": "have got / have been"
+        },
+        {
+          "id": "opt4",
+          "text": "gets / is"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_027",
+      "number": 7,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "While he ______ the fuse, he ______ a very bad electric shock.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "mended / got"
+        },
+        {
+          "id": "opt2",
+          "text": "was mending / got"
+        },
+        {
+          "id": "opt3",
+          "text": "has mended / has got"
+        },
+        {
+          "id": "opt4",
+          "text": "mends / gets"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_028",
+      "number": 8,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "According to the history book, the border dispute ______ a war between the two countries in 1914.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "causes / creates"
+        },
+        {
+          "id": "opt2",
+          "text": "caused / created"
+        },
+        {
+          "id": "opt3",
+          "text": "has caused / has created"
+        },
+        {
+          "id": "opt4",
+          "text": "is causing / is creating"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_029",
+      "number": 9,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "Ramesh ______ when his mother came into the room.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "worked"
+        },
+        {
+          "id": "opt2",
+          "text": "works"
+        },
+        {
+          "id": "opt3",
+          "text": "was working"
+        },
+        {
+          "id": "opt4",
+          "text": "has worked"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_030",
+      "number": 10,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "Hardly ______ the hunter ______ the tiger when it ______ on him.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "did / see / spring"
+        },
+        {
+          "id": "opt2",
+          "text": "had / seen / sprang"
+        },
+        {
+          "id": "opt3",
+          "text": "has / seen / springs"
+        },
+        {
+          "id": "opt4",
+          "text": "was / seeing / sprang"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_031",
+      "number": 11,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "The students believed that they ______ the exercise before the teacher came.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "had done"
+        },
+        {
+          "id": "opt2",
+          "text": "have done"
+        },
+        {
+          "id": "opt3",
+          "text": "did"
+        },
+        {
+          "id": "opt4",
+          "text": "were doing"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_032",
+      "number": 12,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "When we ______ home last night, night ______ already.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "got / had fallen"
+        },
+        {
+          "id": "opt2",
+          "text": "got / fell"
+        },
+        {
+          "id": "opt3",
+          "text": "have got / had fallen"
+        },
+        {
+          "id": "opt4",
+          "text": "were getting / falls"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_033",
+      "number": 13,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "Identify the tense of the sentence: \"He did not go...\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Present Perfect Tense"
+        },
+        {
+          "id": "opt2",
+          "text": "Past Perfect Tense"
+        },
+        {
+          "id": "opt3",
+          "text": "Simple Past Tense"
+        },
+        {
+          "id": "opt4",
+          "text": "Past Continuous Tense"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_034",
+      "number": 14,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "I ______ no news of him since he ______ for Singapore.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "have had / left"
+        },
+        {
+          "id": "opt2",
+          "text": "had / left"
+        },
+        {
+          "id": "opt3",
+          "text": "have / has left"
+        },
+        {
+          "id": "opt4",
+          "text": "had / had left"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_035",
+      "number": 15,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "Match the following sentences with their correct tenses:\nA. She is singing a song.\nB. He wrote a letter.\nC. They will play tomorrow.\nD. We live in Jaipur.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-Present Continuous, B-Past Simple, C-Future Simple, D-Present Simple"
+        },
+        {
+          "id": "opt2",
+          "text": "A-Present Simple, B-Past Perfect, C-Future Continuous, D-Present Continuous"
+        },
+        {
+          "id": "opt3",
+          "text": "A-Present Perfect, B-Past Simple, C-Future Simple, D-Past Simple"
+        },
+        {
+          "id": "opt4",
+          "text": "A-Present Continuous, B-Present Simple, C-Future Perfect, D-Past Simple"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_036",
+      "number": 16,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "Match the following sentences with their sentence types:\nA. He is happy.\nB. Where are you?\nC. Open the door.\nD. What a shot!",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-Interrogative, B-Assertive, C-Imperative, D-Exclamatory"
+        },
+        {
+          "id": "opt2",
+          "text": "A-Assertive, B-Interrogative, C-Imperative, D-Exclamatory"
+        },
+        {
+          "id": "opt3",
+          "text": "A-Exclamatory, B-Imperative, C-Assertive, D-Interrogative"
+        },
+        {
+          "id": "opt4",
+          "text": "A-Assertive, B-Exclamatory, C-Interrogative, D-Imperative"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_037",
+      "number": 17,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "Rearrange the jumbled parts into a meaningful sentence based on Subject-Verb agreement rules:\n(E) Students (A) are (D) The teacher (B) is\nWhich combination correctly applies the rule that plural subjects take plural verbs and singular subjects take singular verbs?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "E-B and D-A"
+        },
+        {
+          "id": "opt2",
+          "text": "E-A and D-B"
+        },
+        {
+          "id": "opt3",
+          "text": "A-E and B-D"
+        },
+        {
+          "id": "opt4",
+          "text": "D-A and E-B"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_038",
+      "number": 18,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "If he ______ to his exercise regime, he will reach his ideal weight by the end of this year.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "stuck"
+        },
+        {
+          "id": "opt2",
+          "text": "sticks"
+        },
+        {
+          "id": "opt3",
+          "text": "will stick"
+        },
+        {
+          "id": "opt4",
+          "text": "had stuck"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_039",
+      "number": 19,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "If you ______ a skeleton in the cellar, don't mention it to anyone.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "found"
+        },
+        {
+          "id": "opt2",
+          "text": "find"
+        },
+        {
+          "id": "opt3",
+          "text": "would find"
+        },
+        {
+          "id": "opt4",
+          "text": "have found"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_040",
+      "number": 20,
+      "type": "mcq",
+      "section": "Past Tenses & Conditionals",
+      "questionText": "If he ______ harder, he would have succeeded.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "worked"
+        },
+        {
+          "id": "opt2",
+          "text": "works"
+        },
+        {
+          "id": "opt3",
+          "text": "had worked"
+        },
+        {
+          "id": "opt4",
+          "text": "would work"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Past Tenses & Conditionals",
+        "setNumber": 2,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

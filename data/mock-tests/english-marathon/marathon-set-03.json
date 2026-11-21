@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-03",
+  "title": "Set 03 — Voice & Sentence Types",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Voice & Sentence Types",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_041",
+      "number": 1,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "This soup is very hot, ______?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is it"
+        },
+        {
+          "id": "opt2",
+          "text": "isn't it"
+        },
+        {
+          "id": "opt3",
+          "text": "doesn't it"
+        },
+        {
+          "id": "opt4",
+          "text": "aren't they"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_042",
+      "number": 2,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "Which of the following is a Simple Sentence?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The cat sat on the mat."
+        },
+        {
+          "id": "opt2",
+          "text": "I went to the market and bought some vegetables."
+        },
+        {
+          "id": "opt3",
+          "text": "Although it was raining, he went out."
+        },
+        {
+          "id": "opt4",
+          "text": "He is a teacher and she is a doctor."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_043",
+      "number": 3,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "Somebody had put out the light. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The light was put out by somebody."
+        },
+        {
+          "id": "opt2",
+          "text": "The light had been put out."
+        },
+        {
+          "id": "opt3",
+          "text": "The light is put out by somebody."
+        },
+        {
+          "id": "opt4",
+          "text": "The light has been put out."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_044",
+      "number": 4,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "People serve ice cream with the meal. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ice cream is served with the meal."
+        },
+        {
+          "id": "opt2",
+          "text": "Ice cream was served with the meal."
+        },
+        {
+          "id": "opt3",
+          "text": "Ice cream is being served with the meal."
+        },
+        {
+          "id": "opt4",
+          "text": "Ice cream has been served with the meal."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_045",
+      "number": 5,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "They are expecting good news. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Good news is expected by them."
+        },
+        {
+          "id": "opt2",
+          "text": "Good news was expected by them."
+        },
+        {
+          "id": "opt3",
+          "text": "Good news is being expected by them."
+        },
+        {
+          "id": "opt4",
+          "text": "Good news has been expected by them."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_046",
+      "number": 6,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "They admire the bravery of the Indian soldiers. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The bravery of the Indian soldiers is admired."
+        },
+        {
+          "id": "opt2",
+          "text": "The bravery of the Indian soldiers was admired."
+        },
+        {
+          "id": "opt3",
+          "text": "The bravery of the Indian soldiers is being admired."
+        },
+        {
+          "id": "opt4",
+          "text": "The bravery of the Indian soldiers has been admired."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_047",
+      "number": 7,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "The principal has dissolved the committee. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The committee was dissolved by the principal."
+        },
+        {
+          "id": "opt2",
+          "text": "The committee is dissolved by the principal."
+        },
+        {
+          "id": "opt3",
+          "text": "The committee has been dissolved by the principal."
+        },
+        {
+          "id": "opt4",
+          "text": "The committee is being dissolved by the principal."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_048",
+      "number": 8,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "The Election Commission announces elections for the State Assemblies. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Elections for the State Assemblies is announced by the Election Commission."
+        },
+        {
+          "id": "opt2",
+          "text": "Elections for the State Assemblies are announced by the Election Commission."
+        },
+        {
+          "id": "opt3",
+          "text": "Elections for the State Assemblies were announced by the Election Commission."
+        },
+        {
+          "id": "opt4",
+          "text": "Elections for the State Assemblies are being announced by the Election Commission."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_049",
+      "number": 9,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "The teacher has appointed him monitor. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He was appointed monitor by the teacher."
+        },
+        {
+          "id": "opt2",
+          "text": "He is appointed monitor by the teacher."
+        },
+        {
+          "id": "opt3",
+          "text": "He has been appointed monitor by the teacher."
+        },
+        {
+          "id": "opt4",
+          "text": "He is being appointed monitor by the teacher."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_050",
+      "number": 10,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "I opened the door. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The door is opened by me."
+        },
+        {
+          "id": "opt2",
+          "text": "The door was opened by me."
+        },
+        {
+          "id": "opt3",
+          "text": "The door has been opened by me."
+        },
+        {
+          "id": "opt4",
+          "text": "The door is being opened by me."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_051",
+      "number": 11,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "He can lift the box. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The box can be lifted by him."
+        },
+        {
+          "id": "opt2",
+          "text": "The box is lifted by him."
+        },
+        {
+          "id": "opt3",
+          "text": "The box can be lifting by him."
+        },
+        {
+          "id": "opt4",
+          "text": "The box was lifted by him."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_052",
+      "number": 12,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "Why do you suspect me? (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Why am I suspected by you?"
+        },
+        {
+          "id": "opt2",
+          "text": "Why am I suspecting you?"
+        },
+        {
+          "id": "opt3",
+          "text": "Why do I suspect you?"
+        },
+        {
+          "id": "opt4",
+          "text": "Why am I being suspected by you?"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_053",
+      "number": 13,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "Are they offering him a chair? (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Is he being offered a chair by them?"
+        },
+        {
+          "id": "opt2",
+          "text": "Is he offered a chair by them?"
+        },
+        {
+          "id": "opt3",
+          "text": "Are they being offered a chair by him?"
+        },
+        {
+          "id": "opt4",
+          "text": "Is he offering a chair to them?"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_054",
+      "number": 14,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "Whom do we like most? (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Who is liked most by us?"
+        },
+        {
+          "id": "opt2",
+          "text": "Whom is liked most by us?"
+        },
+        {
+          "id": "opt3",
+          "text": "Who likes us most?"
+        },
+        {
+          "id": "opt4",
+          "text": "Who is liking most by us?"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_055",
+      "number": 15,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "Who wrote Macbeth? (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "By whom was Macbeth written?"
+        },
+        {
+          "id": "opt2",
+          "text": "Who was Macbeth written by?"
+        },
+        {
+          "id": "opt3",
+          "text": "By whom is Macbeth written?"
+        },
+        {
+          "id": "opt4",
+          "text": "Who wrote Macbeth by?"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_056",
+      "number": 16,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "Put him this question. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Let this question be put to him."
+        },
+        {
+          "id": "opt2",
+          "text": "Let him be put this question."
+        },
+        {
+          "id": "opt3",
+          "text": "Let this question be put him."
+        },
+        {
+          "id": "opt4",
+          "text": "Let him put this question."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_057",
+      "number": 17,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "Show him the way. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Let the way be shown to him."
+        },
+        {
+          "id": "opt2",
+          "text": "Let him be shown the way."
+        },
+        {
+          "id": "opt3",
+          "text": "Let the way be shown him."
+        },
+        {
+          "id": "opt4",
+          "text": "Let him show the way."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_058",
+      "number": 18,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "Don't tease her. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Let her not be teased."
+        },
+        {
+          "id": "opt2",
+          "text": "Let her be not teased."
+        },
+        {
+          "id": "opt3",
+          "text": "Let her not be teasing."
+        },
+        {
+          "id": "opt4",
+          "text": "Let her be teased not."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_059",
+      "number": 19,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "Give him a suitable reply. (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Let a suitable reply be given to him."
+        },
+        {
+          "id": "opt2",
+          "text": "Let him be given a suitable reply."
+        },
+        {
+          "id": "opt3",
+          "text": "Let a suitable reply be given him."
+        },
+        {
+          "id": "opt4",
+          "text": "Let him give a suitable reply."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_060",
+      "number": 20,
+      "type": "mcq",
+      "section": "Voice & Sentence Types",
+      "questionText": "Has someone informed the police? (Change to Passive Voice)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Have the police been informed?"
+        },
+        {
+          "id": "opt2",
+          "text": "Has the police been informed?"
+        },
+        {
+          "id": "opt3",
+          "text": "Have the police informed?"
+        },
+        {
+          "id": "opt4",
+          "text": "Has the police been informing?"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Voice & Sentence Types",
+        "setNumber": 3,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

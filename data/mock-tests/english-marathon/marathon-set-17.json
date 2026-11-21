@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-17",
+  "title": "Set 17 — Official Letters & Layout Rules",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Official Letters & Layout Rules",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_321",
+      "number": 1,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "In a formal letter, what is the name given to the sender's address and date at the top?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Salutation"
+        },
+        {
+          "id": "opt2",
+          "text": "Heading"
+        },
+        {
+          "id": "opt3",
+          "text": "Subscription"
+        },
+        {
+          "id": "opt4",
+          "text": "Body"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_322",
+      "number": 2,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "What is the \"Subscription\" in a letter?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The sender's address and date"
+        },
+        {
+          "id": "opt2",
+          "text": "The main body of the message"
+        },
+        {
+          "id": "opt3",
+          "text": "The courteous leave-taking expression (complimentary close)"
+        },
+        {
+          "id": "opt4",
+          "text": "The recipient's address"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_323",
+      "number": 3,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "Which part of the letter informs the reader where and when the letter was written?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Heading"
+        },
+        {
+          "id": "opt2",
+          "text": "Salutation"
+        },
+        {
+          "id": "opt3",
+          "text": "Body"
+        },
+        {
+          "id": "opt4",
+          "text": "Signature"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_324",
+      "number": 4,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "In which style are modern official/business letters written?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Indented style"
+        },
+        {
+          "id": "opt2",
+          "text": "Semi-block style"
+        },
+        {
+          "id": "opt3",
+          "text": "Modified block style"
+        },
+        {
+          "id": "opt4",
+          "text": "Full block style"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_325",
+      "number": 5,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "In which part of an official letter is the main point written?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Heading"
+        },
+        {
+          "id": "opt2",
+          "text": "Salutation"
+        },
+        {
+          "id": "opt3",
+          "text": "Body of the letter"
+        },
+        {
+          "id": "opt4",
+          "text": "Subscription"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_326",
+      "number": 6,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "Modern business letters are usually written in which format?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Block style"
+        },
+        {
+          "id": "opt2",
+          "text": "Indented style"
+        },
+        {
+          "id": "opt3",
+          "text": "Free-form style"
+        },
+        {
+          "id": "opt4",
+          "text": "Traditional style"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_327",
+      "number": 7,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "If you don't know the recipient's name, how should you address the person and close the letter?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Dear Mr./Ms. [Surname] and Yours sincerely"
+        },
+        {
+          "id": "opt2",
+          "text": "Dear Sir / Madam and Yours faithfully"
+        },
+        {
+          "id": "opt3",
+          "text": "Dear Friend and Yours truly"
+        },
+        {
+          "id": "opt4",
+          "text": "To Whom It May Concern and Yours respectfully"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_328",
+      "number": 8,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "Which of the following should be avoided in an official letter?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Clarity"
+        },
+        {
+          "id": "opt2",
+          "text": "Brevity"
+        },
+        {
+          "id": "opt3",
+          "text": "Jargons"
+        },
+        {
+          "id": "opt4",
+          "text": "Simplicity"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_329",
+      "number": 9,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "A polite complimentary greeting at the start of an official letter is called:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Subscription"
+        },
+        {
+          "id": "opt2",
+          "text": "Heading"
+        },
+        {
+          "id": "opt3",
+          "text": "Salutation"
+        },
+        {
+          "id": "opt4",
+          "text": "Body"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_330",
+      "number": 10,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "Which of the following should NOT find a place in an official letter?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Verbosity"
+        },
+        {
+          "id": "opt2",
+          "text": "Conciseness"
+        },
+        {
+          "id": "opt3",
+          "text": "Formality"
+        },
+        {
+          "id": "opt4",
+          "text": "Precision"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_331",
+      "number": 11,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "Where is the sender's name/designation written in an official letter?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "At the top of the letter, above the date"
+        },
+        {
+          "id": "opt2",
+          "text": "At the bottom, below the signature"
+        },
+        {
+          "id": "opt3",
+          "text": "In the center of the body of the letter"
+        },
+        {
+          "id": "opt4",
+          "text": "In the subject line"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_332",
+      "number": 12,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "A formal letter starts with:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The receiver's address"
+        },
+        {
+          "id": "opt2",
+          "text": "The salutation"
+        },
+        {
+          "id": "opt3",
+          "text": "The sender's address"
+        },
+        {
+          "id": "opt4",
+          "text": "The subject line"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_333",
+      "number": 13,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "The language of a formal letter should be:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Emotional and expressive"
+        },
+        {
+          "id": "opt2",
+          "text": "Flattering and flowery"
+        },
+        {
+          "id": "opt3",
+          "text": "Personal and conversational"
+        },
+        {
+          "id": "opt4",
+          "text": "Impersonal"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_334",
+      "number": 14,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "What does the \"Heading\" of a letter consist of?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Writer's (sender's) address and date"
+        },
+        {
+          "id": "opt2",
+          "text": "Receiver's address and date"
+        },
+        {
+          "id": "opt3",
+          "text": "Subject and salutation"
+        },
+        {
+          "id": "opt4",
+          "text": "Sender's name and receiver's name"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_335",
+      "number": 15,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "What should the body of an official letter contain?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Personal health inquiries and family wishes"
+        },
+        {
+          "id": "opt2",
+          "text": "General welfare chatter and social pleasantries"
+        },
+        {
+          "id": "opt3",
+          "text": "A direct and brief statement of purpose"
+        },
+        {
+          "id": "opt4",
+          "text": "Detailed biographical information of the sender"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_336",
+      "number": 16,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "Which of the following is a correct way to write the date in a formal letter (per NCERT)?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "11/06/2016"
+        },
+        {
+          "id": "opt2",
+          "text": "June 11, 2016 or 11 June 2016"
+        },
+        {
+          "id": "opt3",
+          "text": "11th June 2016"
+        },
+        {
+          "id": "opt4",
+          "text": "Jun 11, 2016"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_337",
+      "number": 17,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "What should the tone and style of a business letter be?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Obscure and scholarly"
+        },
+        {
+          "id": "opt2",
+          "text": "Ambiguous and metaphorical"
+        },
+        {
+          "id": "opt3",
+          "text": "Friendly / Courteous and clear"
+        },
+        {
+          "id": "opt4",
+          "text": "Aggressive and demanding"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_338",
+      "number": 18,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "Which of these is NOT a part of an official letter?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Signature"
+        },
+        {
+          "id": "opt2",
+          "text": "Date"
+        },
+        {
+          "id": "opt3",
+          "text": "Subject"
+        },
+        {
+          "id": "opt4",
+          "text": "Photograph"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_339",
+      "number": 19,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "The language of an official letter does NOT follow:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Simplicity"
+        },
+        {
+          "id": "opt2",
+          "text": "Fixed pattern"
+        },
+        {
+          "id": "opt3",
+          "text": "Subjective tone"
+        },
+        {
+          "id": "opt4",
+          "text": "Careful presentation"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_340",
+      "number": 20,
+      "type": "mcq",
+      "section": "Official Letters & Layout Rules",
+      "questionText": "Select the correct statement regarding Official Letter formatting:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"Yours\" should always have an apostrophe (Yours')"
+        },
+        {
+          "id": "opt2",
+          "text": "The date comes after the receiver's address"
+        },
+        {
+          "id": "opt3",
+          "text": "\"Yours truly\" is formal and 'truly' has a lowercase t"
+        },
+        {
+          "id": "opt4",
+          "text": "The sender's name is written at the very top of the letter"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Official Letters & Layout Rules",
+        "setNumber": 17,
+        "questionNumber": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "setId": "marathon-set-05",
+  "setNumber": 5,
+  "title": "Set 05 — Direct & Indirect Speech",
+  "topic": "Direct & Indirect Speech",
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "eng_m500_081",
+      "setNumber": 5,
+      "questionNumber": 1,
+      "topic": "Direct & Indirect Speech",
+      "question": "Mother said to her son, \"I have cooked pasta for you.\" (Change to Indirect Speech)",
+      "options": [
+        "Mother told her son that she had cooked pasta for him.",
+        "Mother told her son that she has cooked pasta for him.",
+        "Mother said to her son that she had cooked pasta for you.",
+        "Mother told her son that I had cooked pasta for him."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_082",
+      "setNumber": 5,
+      "questionNumber": 2,
+      "topic": "Direct & Indirect Speech",
+      "question": "She said to me, \"Yesterday I saw the movie Pink.\" (Change to Indirect Speech)",
+      "options": [
+        "She told me that she saw the movie Pink yesterday.",
+        "She told me that she had seen the movie Pink the previous day.",
+        "She told me that she has seen the movie Pink the previous day.",
+        "She told me that I had seen the movie Pink the previous day."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_083",
+      "setNumber": 5,
+      "questionNumber": 3,
+      "topic": "Direct & Indirect Speech",
+      "question": "Tom said to me, \"Will you go with me there?\" (Change to Indirect Speech)",
+      "options": [
+        "Tom asked me if I will go with him there.",
+        "Tom asked me whether I would go with him there.",
+        "Tom told me that I would go with him there.",
+        "Tom asked me whether I will go with me there."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_084",
+      "setNumber": 5,
+      "questionNumber": 4,
+      "topic": "Direct & Indirect Speech",
+      "question": "Sister said to me, \"Don't put this shirt on.\" (Change to Indirect Speech)",
+      "options": [
+        "My sister told me not to put that shirt on.",
+        "My sister told me not to put this shirt on.",
+        "My sister asked me not to put that shirt on.",
+        "My sister told me to not put that shirt on."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_085",
+      "setNumber": 5,
+      "questionNumber": 5,
+      "topic": "Direct & Indirect Speech",
+      "question": "The teacher said to the boys, \"Don't make a noise.\" (Change to Indirect Speech)",
+      "options": [
+        "The teacher told the boys not to make a noise.",
+        "The teacher asked the boys not to make a noise.",
+        "The teacher told the boys to not make a noise.",
+        "The teacher said to the boys not to make a noise."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_086",
+      "setNumber": 5,
+      "questionNumber": 6,
+      "topic": "Direct & Indirect Speech",
+      "question": "Ramesh said, \"When does the train arrive?\" (Change to Indirect Speech)",
+      "options": [
+        "Ramesh asked when does the train arrive.",
+        "Ramesh asked when the train arrived.",
+        "Ramesh asked when the train arrives.",
+        "Ramesh told when the train arrived."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_087",
+      "setNumber": 5,
+      "questionNumber": 7,
+      "topic": "Direct & Indirect Speech",
+      "question": "Sarla said, \"I have forgotten my email password.\" (Change to Indirect Speech)",
+      "options": [
+        "Sarla said that she has forgotten her email password.",
+        "Sarla said that I had forgotten my email password.",
+        "Sarla said that she had forgotten her email password.",
+        "Sarla said that she had forgotten my email password."
+      ],
+      "answer": "C",
+      "answerIndex": 2
+    },
+    {
+      "id": "eng_m500_088",
+      "setNumber": 5,
+      "questionNumber": 8,
+      "topic": "Direct & Indirect Speech",
+      "question": "Manish asked me, \"Where have you hidden the data?\" (Change to Indirect Speech)",
+      "options": [
+        "Manish asked me where have I hidden the data.",
+        "Manish asked me where I had hidden the data.",
+        "Manish asked me where I have hidden the data.",
+        "Manish asked me where you had hidden the data."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_089",
+      "setNumber": 5,
+      "questionNumber": 9,
+      "topic": "Direct & Indirect Speech",
+      "question": "My friend said to me, \"Have you finished your homework?\" (Change to Indirect Speech)",
+      "options": [
+        "My friend asked me whether I had finished my homework.",
+        "My friend asked me if I have finished my homework.",
+        "My friend told me that I had finished my homework.",
+        "My friend asked me whether I have finished my homework."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_090",
+      "setNumber": 5,
+      "questionNumber": 10,
+      "topic": "Direct & Indirect Speech",
+      "question": "He said to his friend, \"Were you present at the party last night?\" (Change to Indirect Speech)",
+      "options": [
+        "He asked his friend whether he was present at the party last night.",
+        "He asked his friend whether he had been present at the party the previous night.",
+        "He told his friend that he had been present at the party the previous night.",
+        "He asked his friend whether he is present at the party the previous night."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_091",
+      "setNumber": 5,
+      "questionNumber": 11,
+      "topic": "Direct & Indirect Speech",
+      "question": "She asked me, \"Can you bring the moon for me?\" (Change to Indirect Speech)",
+      "options": [
+        "She asked me that I could bring the moon for her.",
+        "She asked me whether I could bring the moon for her.",
+        "She asked me if I can bring the moon for me.",
+        "She told me whether I could bring the moon for her."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_092",
+      "setNumber": 5,
+      "questionNumber": 12,
+      "topic": "Direct & Indirect Speech",
+      "question": "My friend said, \"Let's go to the cinema.\" (Change to Indirect Speech)",
+      "options": [
+        "My friend said that we should go to the cinema.",
+        "My friend suggested that we should go to the cinema.",
+        "My friend proposed that we go to the cinema.",
+        "My friend asked us to go to the cinema."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_093",
+      "setNumber": 5,
+      "questionNumber": 13,
+      "topic": "Direct & Indirect Speech",
+      "question": "I said to him, \"Sit down.\" (Change to Indirect Speech)",
+      "options": [
+        "I told him to sit down.",
+        "I said to him that he should sit down.",
+        "I asked him to sit down.",
+        "I told him sitting down."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_094",
+      "setNumber": 5,
+      "questionNumber": 14,
+      "topic": "Direct & Indirect Speech",
+      "question": "Mali said to them, \"Do you solve my problem?\" (Change to Indirect Speech)",
+      "options": [
+        "Mali asked them whether they solved his problem.",
+        "Mali asked them if they solve my problem.",
+        "Mali told them that they solved his problem.",
+        "Mali asked them whether they are solving his problem."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_095",
+      "setNumber": 5,
+      "questionNumber": 15,
+      "topic": "Direct & Indirect Speech",
+      "question": "He said to me, \"Who are you?\" (Change to Indirect Speech)",
+      "options": [
+        "He asked me who you are.",
+        "He asked me who I was.",
+        "He told me who I am.",
+        "He asked me that who I was."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_096",
+      "setNumber": 5,
+      "questionNumber": 16,
+      "topic": "Direct & Indirect Speech",
+      "question": "The boys said, \"We want to play a match.\" (Change to Indirect Speech)",
+      "options": [
+        "The boys said that they want to play a match.",
+        "The boys said that we wanted to play a match.",
+        "The boys said that they wanted to play a match.",
+        "The boys told that they wanted to play a match."
+      ],
+      "answer": "C",
+      "answerIndex": 2
+    },
+    {
+      "id": "eng_m500_097",
+      "setNumber": 5,
+      "questionNumber": 17,
+      "topic": "Direct & Indirect Speech",
+      "question": "The teacher said, \"We don't have much time for a match now.\" (Change to Indirect Speech)",
+      "options": [
+        "The teacher said that they don't have much time for a match now.",
+        "The teacher said that they didn't have much time for a match then.",
+        "The teacher said that we didn't have much time for a match now.",
+        "The teacher said that they didn't have much time for a match now."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_098",
+      "setNumber": 5,
+      "questionNumber": 18,
+      "topic": "Direct & Indirect Speech",
+      "question": "Nisha said to him, \"I have something to show you.\" (Change to Indirect Speech)",
+      "options": [
+        "Nisha said to him that she has something to show you.",
+        "Nisha told him that she had something to show him.",
+        "Nisha told him that I have something to show you.",
+        "Nisha said to him that she had something to show him."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    },
+    {
+      "id": "eng_m500_099",
+      "setNumber": 5,
+      "questionNumber": 19,
+      "topic": "Direct & Indirect Speech",
+      "question": "Ram said, \"I am going away tomorrow, Father.\" (Change to Indirect Speech)",
+      "options": [
+        "Ram told his father that he was going away the next day.",
+        "Ram said to his father that he is going away tomorrow.",
+        "Ram told his father that he was going away tomorrow.",
+        "Ram said to his father that he was going away the next day."
+      ],
+      "answer": "A",
+      "answerIndex": 0
+    },
+    {
+      "id": "eng_m500_100",
+      "setNumber": 5,
+      "questionNumber": 20,
+      "topic": "Direct & Indirect Speech",
+      "question": "She said, \"My husband has just been made the Commissioner of Police.\" (Change to Indirect Speech)",
+      "options": [
+        "She said that my husband has just been made the Commissioner of Police.",
+        "She said that her husband had just been made the Commissioner of Police.",
+        "She said that her husband has just been made the Commissioner of Police.",
+        "She said that my husband had just been made the Commissioner of Police."
+      ],
+      "answer": "B",
+      "answerIndex": 1
+    }
+  ],
+  "convexId": "kd78e4hbvfnz5rcmj5v8q8y48d8jn4ab"
+}

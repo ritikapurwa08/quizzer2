@@ -1,0 +1,699 @@
+{
+  "testId": "marathon-set-07",
+  "title": "Set 07 — Indirect Speech Rules",
+  "exam": "RSMSSB CET 2026 (English Marathon)",
+  "provider": "VIPM Academy / CET Marathon",
+  "totalQuestions": 20,
+  "maxMarks": 40,
+  "durationMinutes": 15,
+  "marksPerQuestion": 2,
+  "negativeMarkingRatio": "1/3",
+  "sections": [
+    {
+      "name": "Indirect Speech Rules",
+      "questionCount": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng_m500_121",
+      "number": 1,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "The stranger asked me, \"Where do you live?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The stranger asked me where I live."
+        },
+        {
+          "id": "opt2",
+          "text": "The stranger asked me where I lived."
+        },
+        {
+          "id": "opt3",
+          "text": "The stranger asked me where do I live."
+        },
+        {
+          "id": "opt4",
+          "text": "The stranger asked me where I was living."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "eng_m500_122",
+      "number": 2,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "He said to me, \"Will you listen to such a man?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He asked me if I will listen to such a man."
+        },
+        {
+          "id": "opt2",
+          "text": "He asked me whether I would listen to such a man."
+        },
+        {
+          "id": "opt3",
+          "text": "He told me that I would listen to such a man."
+        },
+        {
+          "id": "opt4",
+          "text": "He asked me whether I will listen to such a man."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "eng_m500_123",
+      "number": 3,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "His angry mother asked him, \"Do you suppose you know better than your own father?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "His angry mother asked him whether he supposes he knows better than his own father."
+        },
+        {
+          "id": "opt2",
+          "text": "His angry mother asked him if he supposed he knew better than his own father."
+        },
+        {
+          "id": "opt3",
+          "text": "His angry mother asked him whether he supposed he knew better than his own father."
+        },
+        {
+          "id": "opt4",
+          "text": "His angry mother asked him whether he supposes he knew better than his own father."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "eng_m500_124",
+      "number": 4,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "Rama said to Arjun, \"Go away.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Rama told Arjun to go away."
+        },
+        {
+          "id": "opt2",
+          "text": "Rama said to Arjun to go away."
+        },
+        {
+          "id": "opt3",
+          "text": "Rama asked Arjun to go away."
+        },
+        {
+          "id": "opt4",
+          "text": "Rama ordered Arjun going away."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "eng_m500_125",
+      "number": 5,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "He said to his friend, \"Please wait there till I return.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He requested his friend to wait there till he returns."
+        },
+        {
+          "id": "opt2",
+          "text": "He asked his friend to wait there till he returned."
+        },
+        {
+          "id": "opt3",
+          "text": "He requested his friend to wait there till he returned."
+        },
+        {
+          "id": "opt4",
+          "text": "He told his friend to wait there till he returned."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "eng_m500_126",
+      "number": 6,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "He shouted to the guard, \"Let me go.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He shouted to the guard to let him go."
+        },
+        {
+          "id": "opt2",
+          "text": "He shouted to the guard to let me go."
+        },
+        {
+          "id": "opt3",
+          "text": "He told the guard to let him go."
+        },
+        {
+          "id": "opt4",
+          "text": "He asked the guard to let him go."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "eng_m500_127",
+      "number": 7,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "The judge said to the court officer, \"Call the first witness.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The judge told the court officer to call the first witness."
+        },
+        {
+          "id": "opt2",
+          "text": "The judge asked the court officer to call the first witness."
+        },
+        {
+          "id": "opt3",
+          "text": "The judge ordered the court officer to call the first witness."
+        },
+        {
+          "id": "opt4",
+          "text": "The judge requested the court officer to call the first witness."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "eng_m500_128",
+      "number": 8,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "He said, \"Alas! I am undone.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He exclaimed with sorrow that he was undone."
+        },
+        {
+          "id": "opt2",
+          "text": "He said with sorrow that he is undone."
+        },
+        {
+          "id": "opt3",
+          "text": "He exclaimed with joy that he was undone."
+        },
+        {
+          "id": "opt4",
+          "text": "He told that he was undone."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "eng_m500_129",
+      "number": 9,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "Alice said, \"How clever I am!\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Alice exclaimed with pride that she was very clever."
+        },
+        {
+          "id": "opt2",
+          "text": "Alice said that she was clever."
+        },
+        {
+          "id": "opt3",
+          "text": "Alice exclaimed with pride that how clever she was."
+        },
+        {
+          "id": "opt4",
+          "text": "Alice told that she is very clever."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "eng_m500_130",
+      "number": 10,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "He said to his friend, \"Bravo! You have done well.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He praised his friend, saying that he had done well."
+        },
+        {
+          "id": "opt2",
+          "text": "He applauded his friend, saying that he had done well."
+        },
+        {
+          "id": "opt3",
+          "text": "He told his friend that he has done well."
+        },
+        {
+          "id": "opt4",
+          "text": "He congratulated his friend, saying that he was doing well."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "eng_m500_131",
+      "number": 11,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "She wrote, \"I am waiting, watching, and longing for my son's return.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "She wrote that she is waiting, watching, and longing for her son's return."
+        },
+        {
+          "id": "opt2",
+          "text": "She wrote that she was waiting, watching, and longing for her son's return."
+        },
+        {
+          "id": "opt3",
+          "text": "She wrote that she had been waiting, watching, and longing for her son's return."
+        },
+        {
+          "id": "opt4",
+          "text": "She wrote that she waits, watches, and longs for her son's return."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "eng_m500_132",
+      "number": 12,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "He said to her, \"What do you want?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He asked her what she wants."
+        },
+        {
+          "id": "opt2",
+          "text": "He asked her what she wanted."
+        },
+        {
+          "id": "opt3",
+          "text": "He told her what she wanted."
+        },
+        {
+          "id": "opt4",
+          "text": "He asked her what did she want."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "eng_m500_133",
+      "number": 13,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "He asked me, \"Are you coming home with me?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He asked me whether I am coming home with him."
+        },
+        {
+          "id": "opt2",
+          "text": "He asked me if I was coming home with me."
+        },
+        {
+          "id": "opt3",
+          "text": "He asked me whether I was coming home with him."
+        },
+        {
+          "id": "opt4",
+          "text": "He told me that I was coming home with him."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "eng_m500_134",
+      "number": 14,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "The prince said to the visitor, \"Do you really come from China?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The prince asked the visitor whether he really comes from China."
+        },
+        {
+          "id": "opt2",
+          "text": "The prince asked the visitor if he really came from China."
+        },
+        {
+          "id": "opt3",
+          "text": "The prince told the visitor that he really came from China."
+        },
+        {
+          "id": "opt4",
+          "text": "The prince asked the visitor whether he really came from China."
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "eng_m500_135",
+      "number": 15,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "I asked him, \"Don't you know the way home?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I asked him whether he did not know the way home."
+        },
+        {
+          "id": "opt2",
+          "text": "I asked him if he doesn't know the way home."
+        },
+        {
+          "id": "opt3",
+          "text": "I told him that he did not know the way home."
+        },
+        {
+          "id": "opt4",
+          "text": "I asked him whether he does not know the way home."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "eng_m500_136",
+      "number": 16,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "The young sparrow said to its mother, \"Mother, what is that queer object?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The young sparrow asked its mother what that queer object is."
+        },
+        {
+          "id": "opt2",
+          "text": "The young sparrow told its mother what that queer object was."
+        },
+        {
+          "id": "opt3",
+          "text": "The young sparrow asked its mother what that queer object was."
+        },
+        {
+          "id": "opt4",
+          "text": "The young sparrow asked its mother what is that queer object."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "eng_m500_137",
+      "number": 17,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "They cried out to the stranger, \"Who are you and what do you want?\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "They asked the stranger who he was and what he wanted."
+        },
+        {
+          "id": "opt2",
+          "text": "They asked the stranger who are you and what do you want."
+        },
+        {
+          "id": "opt3",
+          "text": "They told the stranger who he was and what he wanted."
+        },
+        {
+          "id": "opt4",
+          "text": "They asked the stranger who he is and what he wants."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "eng_m500_138",
+      "number": 18,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "Their mother said to the children, \"Run away, children.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Their mother asked the children to run away."
+        },
+        {
+          "id": "opt2",
+          "text": "Their mother told the children to run away."
+        },
+        {
+          "id": "opt3",
+          "text": "Their mother ordered the children to run away."
+        },
+        {
+          "id": "opt4",
+          "text": "Their mother said the children to run away."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "eng_m500_139",
+      "number": 19,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "His master said to him, \"Go down to the bazaar and bring me some oil and a lump of ice.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "His master told him to go down to the bazaar and bring him some oil and a lump of ice."
+        },
+        {
+          "id": "opt2",
+          "text": "His master ordered him to go down to the bazaar and bring him some oil and a lump of ice."
+        },
+        {
+          "id": "opt3",
+          "text": "His master asked him to go down to the bazaar and bring me some oil and a lump of ice."
+        },
+        {
+          "id": "opt4",
+          "text": "His master said him to go down to the bazaar and bring him some oil and a lump of ice."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "eng_m500_140",
+      "number": 20,
+      "type": "mcq",
+      "section": "Indirect Speech Rules",
+      "questionText": "The teacher said, \"The Earth moves around the Sun.\" (Change to Indirect Speech)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The teacher said that the Earth moved around the Sun."
+        },
+        {
+          "id": "opt2",
+          "text": "The teacher said that the Earth moves around the Sun."
+        },
+        {
+          "id": "opt3",
+          "text": "The teacher said that the Earth is moving around the Sun."
+        },
+        {
+          "id": "opt4",
+          "text": "The teacher said that the Earth had moved around the Sun."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "",
+      "difficulty": "medium",
+      "meta": {
+        "topic": "Indirect Speech Rules",
+        "setNumber": 7,
+        "questionNumber": 20
+      }
+    }
+  ]
+}
