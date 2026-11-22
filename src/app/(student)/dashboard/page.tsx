@@ -13,7 +13,6 @@ import {
   Moon,
   ArrowRight,
   BookOpen,
-  Sparkles,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -67,7 +66,13 @@ export default function DashboardPage() {
             <h1 className="typo-h1 text-foreground">
               Welcome back, {displayName}
             </h1>
-            <Sparkles className="h-4 w-4 text-primary shrink-0" />
+            <span
+              className="text-xl sm:text-2xl inline-block animate-wave select-none ml-0.5"
+              role="img"
+              aria-label="Waving hand"
+            >
+              👋
+            </span>
           </div>
           <p className="typo-small text-muted-foreground mt-0.5">
             Your personalized RPSC 2nd Grade GK exam revision &amp; practice command center.
