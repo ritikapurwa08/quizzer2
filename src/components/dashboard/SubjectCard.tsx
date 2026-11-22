@@ -65,56 +65,58 @@ export function SubjectCard({ id, name, slug = "", setCount = 0 }: SubjectCardPr
   const meta = getSubjectMeta(slug, name);
 
   const renderTypography = () => {
+    const subjectStyle = { fontFamily: "var(--font-subject), Poppins, 'Google Sans', 'Noto Sans Devanagari', sans-serif" };
+
     if (s.includes("geo") || s.includes("भूगोल")) {
       return (
-        <div className="flex items-baseline font-hindi">
-          <span className="text-cyan-400 text-3xl sm:text-4xl font-extrabold leading-none">भू</span>
-          <span className="text-base sm:text-lg font-semibold text-foreground tracking-tight ml-0.5">गोल</span>
+        <div className="flex items-baseline font-subject" style={subjectStyle}>
+          <span className="text-cyan-400 text-3xl sm:text-4xl font-extrabold leading-none tracking-tight">भू</span>
+          <span className="text-base sm:text-lg font-bold text-foreground tracking-tight ml-0.5">गोल</span>
         </div>
       );
     }
 
     if (s.includes("hist") || s.includes("इतिहास")) {
       return (
-        <div className="flex items-baseline font-hindi">
-          <span className="text-blue-400 text-3xl sm:text-4xl font-extrabold leading-none">इ</span>
-          <span className="text-base sm:text-lg font-semibold text-foreground tracking-tight ml-0.5">तिहास</span>
+        <div className="flex items-baseline font-subject" style={subjectStyle}>
+          <span className="text-blue-400 text-3xl sm:text-4xl font-extrabold leading-none tracking-tight">इ</span>
+          <span className="text-base sm:text-lg font-bold text-foreground tracking-tight ml-0.5">तिहास</span>
         </div>
       );
     }
 
     if (s.includes("art") || s.includes("culture") || s.includes("कला") || s.includes("संस्कृति")) {
       return (
-        <div className="flex flex-col justify-center font-hindi">
+        <div className="flex flex-col justify-center font-subject" style={subjectStyle}>
           <div className="flex items-baseline">
-            <span className="text-indigo-400 text-3xl sm:text-4xl font-extrabold leading-none">क</span>
-            <span className="text-base sm:text-lg font-semibold text-foreground tracking-tight ml-0.5">ला</span>
+            <span className="text-indigo-400 text-3xl sm:text-4xl font-extrabold leading-none tracking-tight">क</span>
+            <span className="text-base sm:text-lg font-bold text-foreground tracking-tight ml-0.5">ला</span>
           </div>
-          <span className="text-[11px] text-muted-foreground leading-tight mt-0.5">एवं संस्कृति</span>
+          <span className="text-[11px] font-medium text-muted-foreground leading-tight mt-0.5 tracking-tight">एवं संस्कृति</span>
         </div>
       );
     }
 
     if (s.includes("polit") || s.includes("राजव्यवस्था") || s.includes("admin")) {
       return (
-        <div className="flex items-baseline font-hindi">
-          <span className="text-emerald-400 text-3xl sm:text-4xl font-extrabold leading-none">रा</span>
-          <span className="text-base sm:text-lg font-semibold text-foreground tracking-tight ml-0.5">जव्यवस्था</span>
+        <div className="flex items-baseline font-subject" style={subjectStyle}>
+          <span className="text-emerald-400 text-3xl sm:text-4xl font-extrabold leading-none tracking-tight">रा</span>
+          <span className="text-base sm:text-lg font-bold text-foreground tracking-tight ml-0.5">जव्यवस्था</span>
         </div>
       );
     }
 
     if (s.includes("eng") || s.includes("अंग्रेजी")) {
       return (
-        <div className="flex items-baseline">
-          <span className="text-amber-400 text-3xl sm:text-4xl font-extrabold leading-none">E</span>
-          <span className="text-base sm:text-lg font-semibold text-foreground tracking-tight ml-0.5">nglish</span>
+        <div className="flex items-baseline font-subject" style={subjectStyle}>
+          <span className="text-amber-400 text-3xl sm:text-4xl font-extrabold leading-none tracking-tight">E</span>
+          <span className="text-base sm:text-lg font-bold text-foreground tracking-tight ml-0.5">nglish</span>
         </div>
       );
     }
 
     return (
-      <span className="text-base font-semibold text-foreground">
+      <span className="text-base font-bold text-foreground font-subject tracking-tight" style={subjectStyle}>
         {name}
       </span>
     );
@@ -129,13 +131,13 @@ export function SubjectCard({ id, name, slug = "", setCount = 0 }: SubjectCardPr
         {/* Top Row: Drop-Cap Typography + Topics Pill Badge */}
         <div className="flex items-start justify-between gap-2">
           {renderTypography()}
-          <span className={`text-[10px] font-semibold font-mono px-1.5 py-0.5 rounded-md border shrink-0 ${meta.badgeClass}`}>
+          <span className={`text-[10px] font-semibold font-subject px-1.5 py-0.5 rounded-md border shrink-0 ${meta.badgeClass}`}>
             {meta.topicCount} Topics
           </span>
         </div>
 
         {/* Bottom Row: Dynamic Practice Sets Count + Interactive Hover Arrow */}
-        <div className="flex items-center justify-between pt-2 border-t border-zinc-800/60 text-xs text-muted-foreground">
+        <div className="flex items-center justify-between pt-2 border-t border-zinc-800/60 text-xs text-muted-foreground font-subject">
           <span className="text-[11px] font-medium tracking-tight text-muted-foreground group-hover:text-foreground/90 transition-colors">
             {setCount > 0 ? `${setCount} Practice Sets` : `${meta.topicCount * 5}+ Sets Available`}
           </span>
