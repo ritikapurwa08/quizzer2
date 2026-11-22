@@ -1,17 +1,70 @@
 "use client";
 
 import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 
 interface SubjectCardProps {
   id: string;
   name: string;
   slug?: string;
+  setCount?: number;
 }
 
-export function SubjectCard({ id, name, slug = "" }: SubjectCardProps) {
-  const s = (slug || name).toLowerCase();
+interface SubjectMeta {
+  topicCount: number;
+  badgeClass: string;
+  glowClass: string;
+}
 
-  const renderContent = () => {
+function getSubjectMeta(slug: string, name: string): SubjectMeta {
+  const s = (slug || name).toLowerCase();
+  if (s.includes("geo") || s.includes("भूगोल")) {
+    return {
+      topicCount: 15,
+      badgeClass: "bg-cyan-500/10 text-cyan-400 border-cyan-500/20",
+      glowClass: "bg-cyan-500",
+    };
+  }
+  if (s.includes("hist") || s.includes("इतिहास")) {
+    return {
+      topicCount: 8,
+      badgeClass: "bg-blue-500/10 text-blue-400 border-blue-500/20",
+      glowClass: "bg-blue-500",
+    };
+  }
+  if (s.includes("art") || s.includes("culture") || s.includes("कला") || s.includes("संस्कृति")) {
+    return {
+      topicCount: 15,
+      badgeClass: "bg-indigo-500/10 text-indigo-400 border-indigo-500/20",
+      glowClass: "bg-indigo-500",
+    };
+  }
+  if (s.includes("polit") || s.includes("राजव्यवस्था") || s.includes("admin")) {
+    return {
+      topicCount: 9,
+      badgeClass: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
+      glowClass: "bg-emerald-500",
+    };
+  }
+  if (s.includes("eng") || s.includes("अंग्रेजी")) {
+    return {
+      topicCount: 33,
+      badgeClass: "bg-amber-500/10 text-amber-400 border-amber-500/20",
+      glowClass: "bg-amber-500",
+    };
+  }
+  return {
+    topicCount: 10,
+    badgeClass: "bg-zinc-800 text-zinc-300 border-zinc-700",
+    glowClass: "bg-zinc-500",
+  };
+}
+
+export function SubjectCard({ id, name, slug = "", setCount = 0 }: SubjectCardProps) {
+  const s = (slug || name).toLowerCase();
+  const meta = getSubjectMeta(slug, name);
+
+  const renderTypography = () => {
     if (s.includes("geo") || s.includes("भूगोल")) {
       return (
         <div className="flex items-baseline font-hindi">
@@ -37,7 +90,7 @@ export function SubjectCard({ id, name, slug = "" }: SubjectCardProps) {
             <span className="text-indigo-400 text-3xl sm:text-4xl font-extrabold leading-none">क</span>
             <span className="text-base sm:text-lg font-semibold text-foreground tracking-tight ml-0.5">ला</span>
           </div>
-          <span className="text-xs text-muted-foreground leading-tight mt-0.5">एवं संस्कृति</span>
+          <span className="text-[11px] text-muted-foreground leading-tight mt-0.5">एवं संस्कृति</span>
         </div>
       );
     }
@@ -69,8 +122,25 @@ export function SubjectCard({ id, name, slug = "" }: SubjectCardProps) {
 
   return (
     <Link href={`/subjects/${id}`} className="block focus-visible:outline-hidden group h-full">
-      <div className="bg-[#121214] border border-zinc-800 hover:border-zinc-700 rounded-xl p-4 sm:p-5 transition-colors cursor-pointer flex items-center h-full min-h-[72px] sm:min-h-[80px]">
-        {renderContent()}
+      <div className="bg-[#121214] border border-zinc-800 hover:border-zinc-700 rounded-xl p-4 sm:p-4.5 transition-all duration-200 cursor-pointer flex flex-col justify-between h-full min-h-[105px] relative overflow-hidden select-none">
+        {/* Subtle hover accent illumination */}
+        <div className={`absolute -top-12 -right-12 w-28 h-28 rounded-full blur-2xl opacity-0 group-hover:opacity-15 transition-opacity duration-300 pointer-events-none ${meta.glowClass}`} />
+
+        {/* Top Row: Drop-Cap Typography + Topics Pill Badge */}
+        <div className="flex items-start justify-between gap-2">
+          {renderTypography()}
+          <span className={`text-[10px] font-semibold font-mono px-1.5 py-0.5 rounded-md border shrink-0 ${meta.badgeClass}`}>
+            {meta.topicCount} Topics
+          </span>
+        </div>
+
+        {/* Bottom Row: Dynamic Practice Sets Count + Interactive Hover Arrow */}
+        <div className="flex items-center justify-between pt-2 border-t border-zinc-800/60 text-xs text-muted-foreground">
+          <span className="text-[11px] font-medium tracking-tight text-muted-foreground group-hover:text-foreground/90 transition-colors">
+            {setCount > 0 ? `${setCount} Practice Sets` : `${meta.topicCount * 5}+ Sets Available`}
+          </span>
+          <ArrowUpRight className="h-3.5 w-3.5 text-zinc-500 group-hover:text-foreground group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-150" />
+        </div>
       </div>
     </Link>
   );

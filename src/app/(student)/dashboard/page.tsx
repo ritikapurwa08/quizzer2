@@ -38,6 +38,7 @@ export default function DashboardPage() {
   const stats = useQuery(api.analytics.dashboardStats, {});
   const recent = useQuery(api.attempts.recentByUser, { limit: 4 });
   const subjects = useQuery(api.subjects.list);
+  const setCounts = useQuery(api.subjects.setCountsAllSubjects) ?? {};
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -188,15 +189,25 @@ export default function DashboardPage() {
         {subjects === undefined ? (
           <div className="grid grid-cols-2 lg:grid-cols-5 gap-3">
             {Array.from({ length: 5 }).map((_, i) => (
-              <div key={i} className="bg-[#121214] border border-zinc-800 rounded-xl p-4 sm:p-5 h-[76px] flex items-center">
-                <Skeleton className="h-8 w-24 bg-zinc-800 rounded" />
+              <div key={i} className="bg-[#121214] border border-zinc-800 rounded-xl p-4 sm:p-4.5 min-h-[105px] flex flex-col justify-between">
+                <div className="flex items-start justify-between">
+                  <Skeleton className="h-8 w-20 bg-zinc-800 rounded" />
+                  <Skeleton className="h-4 w-14 bg-zinc-800 rounded" />
+                </div>
+                <Skeleton className="h-3 w-24 bg-zinc-800 rounded" />
               </div>
             ))}
           </div>
         ) : (
           <div className="grid grid-cols-2 lg:grid-cols-5 gap-3">
             {sortedSubjects.map((s) => (
-              <SubjectCard key={s._id} id={s._id} name={s.name} slug={s.slug} />
+              <SubjectCard
+                key={s._id}
+                id={s._id}
+                name={s.name}
+                slug={s.slug}
+                setCount={setCounts[s._id] ?? 0}
+              />
             ))}
           </div>
         )}
