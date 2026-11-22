@@ -39,7 +39,7 @@ export function SyllabusOverviewCard() {
       : 0;
 
   return (
-    <Card className="p-4 sm:p-5 rounded-2xl border-0 shadow-xs bg-card overflow-hidden">
+    <Card className="p-4 sm:p-5 rounded-xl border border-zinc-800 hover:border-zinc-700 transition-colors shadow-none bg-[#121214] overflow-hidden">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div className="space-y-1.5 min-w-0 flex-1">
           <div className="flex items-center gap-2 flex-wrap">

@@ -160,9 +160,13 @@ export default function ProfilePage() {
             <Flame className="h-4 w-4 text-rose-500" />
           </div>
           <span className="text-xl sm:text-2xl font-bold text-foreground block tabular-nums">
-            3 <span className="text-xs font-normal text-muted-foreground">Days</span>
+            {stats?.currentStreak ?? 0} <span className="text-xs font-normal text-muted-foreground">Days</span>
           </span>
-          <span className="text-[11px] text-muted-foreground">Active consistency</span>
+          <span className="text-[11px] text-muted-foreground">
+            {stats && (stats.bestStreak ?? 0) > 0
+              ? `Best: ${stats.bestStreak} days`
+              : "Active consistency"}
+          </span>
         </Card>
       </div>
 

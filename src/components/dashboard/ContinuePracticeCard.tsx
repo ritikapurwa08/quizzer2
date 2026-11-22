@@ -3,37 +3,29 @@
 import Link from "next/link";
 import { useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
-import { Card } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
-import { ChevronRight, ArrowRight } from "lucide-react";
-import { getSubjectSectionIcon } from "@/components/icons/QuizzerIcons";
-import { cn } from "@/lib/utils";
+import { ArrowRight } from "lucide-react";
 
 /**
- * Short, clean subject tags for card header
- */
-function getShortSubjectTag(name: string): string {
-  if (name.includes("भूगोल") || name.includes("सामान्य ज्ञान")) return "भूगोल";
-  if (name.includes("इतिहास")) return "इतिहास";
-  if (name.includes("कला") || name.includes("संस्कृति")) return "कला-संस्कृति";
-  if (name.includes("राजव्यवस्था") || name.includes("प्रशासन")) return "राजव्यवस्था";
-  if (name.includes("English")) return "English";
-  return name.replace("राजस्थान ", "").slice(0, 10);
-}
-
-/**
- * Helper to parse clean title and prominent part label
+ * Helper to parse clean topic title and prominent part label
  * "राजस्थान का पशुपालन एवं डेयरी विकास भाग 15" -> { cleanTitle: "पशुपालन एवं डेयरी विकास", partLabel: "भाग 15" }
  */
-function parseSetDisplay(name: string) {
+function parseSetDisplay(name: string, fallbackTopic?: string) {
   const match = name.match(/(?:भाग|Part|Set)\s*(\d+)/i);
-  const partLabel = match ? (name.includes("भाग") ? `भाग ${match[1]}` : `Part ${match[1]}`) : "";
+  const partLabel = match ? (name.includes("भाग") ? `भाग ${match[1]}` : `Part ${match[1]}`) : "भाग 1";
+  
+  if (fallbackTopic && fallbackTopic.trim().length > 0) {
+    return {
+      cleanTitle: fallbackTopic.trim(),
+      partLabel,
+    };
+  }
+
   let cleanTitle = name
     .replace(/(?:भाग|Part|Set)\s*\d+/i, "")
     .replace(/[-–—:]\s*$/, "")
     .trim();
 
-  // Strip redundant leading "राजस्थान का " or "राजस्थान के " if long
   if (cleanTitle.length > 25) {
     cleanTitle = cleanTitle.replace(/^राजस्थान (?:का|के|की)\s+/i, "");
   }
@@ -52,37 +44,34 @@ export function ContinuePracticeCard() {
     return (
       <div className="space-y-3">
         <div className="flex items-center justify-between">
-          <Skeleton className="h-4 w-48 rounded" />
+          <Skeleton className="h-4 w-32 bg-zinc-800 rounded" />
+          <Skeleton className="h-4 w-20 bg-zinc-800 rounded" />
         </div>
-        {/* Exactly 4 skeleton cards matching Subject Card vertical height */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-3.5">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-3">
           {Array.from({ length: 4 }).map((_, i) => (
-            <Card key={i} className="p-3 sm:p-3.5 rounded-2xl border-0 bg-card space-y-2.5 shadow-xs flex flex-col justify-between h-full">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <Skeleton className="h-6.5 w-6.5 rounded-lg" />
-                  <Skeleton className="h-3.5 w-14 rounded" />
-                </div>
-                <Skeleton className="h-4 w-10 rounded-full" />
+            <div
+              key={i}
+              className="bg-[#121214] border border-zinc-800 rounded-xl p-4 space-y-2.5 h-full"
+            >
+              <Skeleton className="h-4 w-3/4 bg-zinc-800 rounded" />
+              <div className="flex items-center gap-2">
+                <Skeleton className="h-2 w-2 rounded-full bg-zinc-800" />
+                <Skeleton className="h-3 w-1/3 bg-zinc-800 rounded" />
               </div>
-              <div className="space-y-1">
-                <Skeleton className="h-4 w-3/4 rounded" />
-                <Skeleton className="h-3 w-1/2 rounded" />
-              </div>
-            </Card>
+            </div>
           ))}
         </div>
       </div>
     );
   }
 
-  // Guard: Strictly clamp to max 4 cards (with preview mock support)
+  // Preview mock data fallback if user has no attempts yet
   const isPreview = typeof window !== "undefined" && window.location.search.includes("preview=true");
   const fallbackMock = [
-    { testSetId: "mock-1", testSetName: "राजस्थान की मृदा भाग 8", subjectName: "राजस्थान सामान्य ज्ञान एवं भूगोल", questionCount: 20, type: "resume" as const },
-    { testSetId: "mock-2", testSetName: "राजस्थान की मृदा भाग 6", subjectName: "राजस्थान सामान्य ज्ञान एवं भूगोल", questionCount: 20, type: "resume" as const },
-    { testSetId: "mock-3", testSetName: "भौतिक स्वरूप एवं भूगोल भाग 40", subjectName: "राजस्थान सामान्य ज्ञान एवं भूगोल", questionCount: 20, type: "next_in_topic" as const },
-    { testSetId: "mock-4", testSetName: "राजस्थान का सामान्य ज्ञान भाग 1", subjectName: "राजस्थान सामान्य ज्ञान एवं भूगोल", questionCount: 20, type: "new" as const },
+    { testSetId: "mock-1", testSetName: "अपवाह तंत्र, नदियाँ एवं झीलें भाग 25", topicName: "अपवाह तंत्र, नदियाँ एवं झीलें", questionCount: 20, type: "resume" as const },
+    { testSetId: "mock-2", testSetName: "अपवाह तंत्र, नदियाँ एवं झीलें भाग 17", topicName: "अपवाह तंत्र, नदियाँ एवं झीलें", questionCount: 20, type: "resume" as const },
+    { testSetId: "mock-3", testSetName: "राजस्थान का सामान्य ज्ञान भाग 1", topicName: "राजस्थान का सामान्य ज्ञान", questionCount: 20, type: "next_in_topic" as const },
+    { testSetId: "mock-4", testSetName: "पारंपरिक जल स्रोत एवं जल प्रबंधन भाग 1", topicName: "पारंपरिक जल स्रोत एवं जल प्रबंधन", questionCount: 20, type: "new_topic" as const },
   ];
 
   const rawList = recommendations && recommendations.length > 0 ? recommendations : isPreview ? fallbackMock : [];
@@ -94,12 +83,10 @@ export function ContinuePracticeCard() {
 
   return (
     <div className="space-y-3">
-      {/* Section Header with Responsive Title */}
+      {/* Section Header */}
       <div className="flex items-center justify-between gap-3">
-        <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2 min-w-0">
-          <span>Continue Practice</span>
-          <span className="hidden sm:inline text-muted-foreground/60">· Next Available Tests</span>
-          <span className="font-bold text-foreground tabular-nums shrink-0">({displayCards.length})</span>
+        <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
+          CONTINUE PRACTICE
         </h2>
         <Link
           href="/subjects"
@@ -109,14 +96,11 @@ export function ContinuePracticeCard() {
         </Link>
       </div>
 
-      {/* Strictly 4 Cards: Symmetrical 2x2 on Mobile, 4x1 on Desktop — Compact Height Matching Subject Cards */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-3.5">
+      {/* Ultra-Minimalist 2-Line Cards: Desktop 4-col, Mobile 1-col */}
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-3">
         {displayCards.map((rec) => {
-          const SectionIcon = getSubjectSectionIcon(rec.subjectName);
-          const shortSubject = getShortSubjectTag(rec.subjectName);
-          const { cleanTitle, partLabel } = parseSetDisplay(rec.testSetName);
+          const { cleanTitle, partLabel } = parseSetDisplay(rec.testSetName, rec.topicName);
           const isResume = rec.type === "resume";
-          const isNext = rec.type === "next_in_topic";
 
           return (
             <Link
@@ -124,69 +108,30 @@ export function ContinuePracticeCard() {
               href={`/quiz/${rec.testSetId}`}
               className="block group focus-visible:outline-hidden h-full"
             >
-              <Card
-                className="p-3 sm:p-3.5 rounded-2xl border-0 bg-card hover:bg-muted/30 transition-all flex flex-col justify-between gap-2.5 h-full relative select-none shadow-xs"
-              >
-                {/* Top Row: Refined small icon + Subject on left, Part badge + Resume badge on right */}
-                <div className="flex items-center justify-between gap-1.5">
-                  <div className="flex items-center gap-2 min-w-0">
-                    <div className="flex h-6.5 w-6.5 items-center justify-center rounded-lg bg-primary/10 text-primary shrink-0 group-hover:bg-primary group-hover:text-white transition-colors duration-150">
-                      <SectionIcon className="h-3.5 w-3.5" />
-                    </div>
-                    <span className="text-[11px] sm:text-xs font-medium text-muted-foreground group-hover:text-foreground transition-colors font-hindi truncate">
-                      {shortSubject}
-                    </span>
-                  </div>
+              <div className="bg-[#121214] border border-zinc-800 hover:border-zinc-700 rounded-xl p-4 transition-colors cursor-pointer space-y-2 h-full flex flex-col justify-center">
+                {/* Line 1: Topic title in clean white text */}
+                <h3
+                  className="text-sm font-medium text-foreground group-hover:text-foreground transition-colors font-hindi truncate"
+                  title={cleanTitle}
+                >
+                  {cleanTitle}
+                </h3>
 
-                  <div className="flex items-center gap-1.5 shrink-0">
-                    {partLabel && (
-                      <span
-                        className={cn(
-                          "text-[10px] font-bold px-1.5 py-0.5 rounded-md font-mono tracking-tight transition-colors",
-                          isResume
-                            ? "bg-primary/15 text-primary"
-                            : "bg-muted text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary"
-                        )}
-                      >
-                        {partLabel}
-                      </span>
-                    )}
-                    {isResume ? (
-                      <span className="inline-flex items-center gap-1 text-[10px] font-semibold px-1.5 py-0.5 rounded-md bg-primary/15 text-primary">
-                        <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-                        <span>Resume</span>
-                      </span>
-                    ) : (
-                      <ChevronRight className="h-3.5 w-3.5 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
-                    )}
-                  </div>
+                {/* Line 2: Minimal single-line hint */}
+                <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                  {isResume ? (
+                    <>
+                      <span className="h-1.5 w-1.5 rounded-full bg-cyan-400 shrink-0" />
+                      <span className="font-hindi">{partLabel} · Resume</span>
+                    </>
+                  ) : (
+                    <>
+                      <span className="h-1.5 w-1.5 rounded-full bg-zinc-500 shrink-0" />
+                      <span className="font-hindi">{partLabel} · Start</span>
+                    </>
+                  )}
                 </div>
-
-                {/* Bottom Row: Clean Title + Status/Question count */}
-                <div>
-                  <h3
-                    className="font-medium text-xs sm:text-[13.5px] leading-snug text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-1 sm:line-clamp-2"
-                    title={rec.testSetName}
-                  >
-                    {cleanTitle}
-                  </h3>
-                  <div className="flex items-center justify-between text-[11px] text-muted-foreground mt-1">
-                    <span className="tabular-nums font-medium">{rec.questionCount} प्रश्न</span>
-                    {isResume ? (
-                      <span className="text-primary font-medium flex items-center gap-1">
-                        In Progress
-                      </span>
-                    ) : isNext ? (
-                      <span className="text-primary/90 font-medium flex items-center gap-1">
-                        <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-                        Up Next
-                      </span>
-                    ) : (
-                      <span className="text-muted-foreground/80">New Practice</span>
-                    )}
-                  </div>
-                </div>
-              </Card>
+              </div>
             </Link>
           );
         })}

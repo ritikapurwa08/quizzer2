@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import Link from "next/link";
 import { useQuery } from "convex/react";
 import { useTheme } from "next-themes";
@@ -12,30 +13,44 @@ import {
   Moon,
   ArrowRight,
   BookOpen,
-  ChevronRight,
   Sparkles,
 } from "lucide-react";
-import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
-import { formatAccuracy, getSubjectDisplayName } from "@/lib/utils";
-import { getSubjectSectionIcon } from "@/components/icons/QuizzerIcons";
+import { formatAccuracy } from "@/lib/utils";
 import { api } from "../../../../convex/_generated/api";
+import { SubjectCard } from "@/components/dashboard/SubjectCard";
 import { ContinuePracticeCard } from "@/components/dashboard/ContinuePracticeCard";
 import { SyllabusOverviewCard } from "@/components/dashboard/SyllabusOverviewCard";
 import { ResultHistoryItem } from "@/components/shared/ResultHistoryItem";
 import { EmptyState } from "@/components/shared/EmptyState";
+
+const CANONICAL_SUBJECT_ORDER: Record<string, number> = {
+  "rajasthan-general-knowledge-geography": 1,
+  "rajasthan-history": 2,
+  "rajasthan-art-culture": 3,
+  "rajasthan-polity-administration": 4,
+  "english": 5,
+};
 
 export default function DashboardPage() {
   const me = useQuery(api.users.me);
   const stats = useQuery(api.analytics.dashboardStats, {});
   const recent = useQuery(api.attempts.recentByUser, { limit: 4 });
   const subjects = useQuery(api.subjects.list);
-  const setCounts = useQuery(api.subjects.setCountsAllSubjects) ?? {};
-  const siteStats = useQuery(api.testSets.siteStats);
   const { theme, setTheme } = useTheme();
 
   const displayName = me?.name ? me.name.split(" ")[0] : "Student";
+
+  // Strict 5 canonical subject ordering
+  const sortedSubjects = useMemo(() => {
+    if (!subjects) return [];
+    return [...subjects].sort((a, b) => {
+      const orderA = CANONICAL_SUBJECT_ORDER[a.slug || ""] ?? 99;
+      const orderB = CANONICAL_SUBJECT_ORDER[b.slug || ""] ?? 99;
+      return orderA - orderB;
+    });
+  }, [subjects]);
 
   return (
     <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8 pb-16">
@@ -55,10 +70,10 @@ export default function DashboardPage() {
 
         {/* Right side: Streak Badge + Light/Dark Theme Toggle */}
         <div className="flex items-center gap-2.5 self-start sm:self-auto shrink-0">
-          <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-amber-500/10 text-amber-600 dark:text-amber-400 border-0 shadow-2xs typo-small font-bold">
+          <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20 typo-small font-bold">
             <Flame className="h-4 w-4 fill-amber-500 text-amber-500 animate-pulse" />
             <span>
-              {stats ? `${stats.currentStreak ?? 0}-Day Streak` : <Skeleton className="h-4 w-16 inline-block" />}
+              {stats ? `${stats.currentStreak ?? 0}-Day Streak` : <Skeleton className="h-4 w-16 bg-zinc-800 inline-block" />}
             </span>
           </div>
 
@@ -66,7 +81,7 @@ export default function DashboardPage() {
             variant="ghost"
             size="icon"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className="h-9 w-9 rounded-md bg-card text-muted-foreground hover:text-foreground border border-border shadow-xs cursor-pointer"
+            className="h-9 w-9 rounded-xl bg-[#121214] text-muted-foreground hover:text-foreground border border-zinc-800 hover:border-zinc-700 cursor-pointer transition-colors"
             aria-label="Toggle theme"
           >
             {theme === "dark" ? <Sun className="h-4 w-4 text-amber-400" /> : <Moon className="h-4 w-4 text-blue-500" />}
@@ -74,57 +89,57 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* ── 4 Stat Cards: Desktop 4-col / Mobile 2x2 ── */}
+      {/* ── 1. Top Stats Grid (Questions Solved, Accuracy %, Saved Items, Active Streak) ── */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5">
-        <Card className="p-4 sm:p-5 rounded-2xl border-0 bg-card shadow-xs space-y-2">
+        <div className="bg-[#121214] border border-zinc-800 hover:border-zinc-700 rounded-xl p-4 sm:p-5 transition-colors space-y-2">
           <div className="flex items-center justify-between">
             <span className="typo-small text-muted-foreground">Questions Solved</span>
-            <div className="p-2.5 rounded-xl bg-primary/10 text-primary">
+            <div className="p-2 rounded-lg bg-cyan-500/10 text-cyan-400">
               <CheckCircle2 className="h-4 w-4" />
             </div>
           </div>
           <div>
             <span className="typo-display text-foreground block">
-              {stats ? stats.questionsSolved.toLocaleString("en-IN") : <Skeleton className="h-8 w-20" />}
+              {stats ? stats.questionsSolved.toLocaleString("en-IN") : <Skeleton className="h-8 w-20 bg-zinc-800" />}
             </span>
             <span className="text-[11px] text-muted-foreground">Across verified sets</span>
           </div>
-        </Card>
+        </div>
 
-        <Card className="p-4 sm:p-5 rounded-2xl border-0 bg-card shadow-xs space-y-2">
+        <div className="bg-[#121214] border border-zinc-800 hover:border-zinc-700 rounded-xl p-4 sm:p-5 transition-colors space-y-2">
           <div className="flex items-center justify-between">
             <span className="typo-small text-muted-foreground">Accuracy %</span>
-            <div className="p-2.5 rounded-xl bg-emerald-500/10 text-emerald-500">
+            <div className="p-2 rounded-lg bg-emerald-500/10 text-emerald-400">
               <Percent className="h-4 w-4" />
             </div>
           </div>
           <div>
             <span className="typo-display text-foreground block">
-              {stats ? formatAccuracy(stats.overallAccuracy) : <Skeleton className="h-8 w-20" />}
+              {stats ? formatAccuracy(stats.overallAccuracy) : <Skeleton className="h-8 w-20 bg-zinc-800" />}
             </span>
             <span className="text-[11px] text-muted-foreground">Overall success rate</span>
           </div>
-        </Card>
+        </div>
 
-        <Card className="p-4 sm:p-5 rounded-2xl border-0 bg-card shadow-xs space-y-2">
+        <div className="bg-[#121214] border border-zinc-800 hover:border-zinc-700 rounded-xl p-4 sm:p-5 transition-colors space-y-2">
           <div className="flex items-center justify-between">
             <span className="typo-small text-muted-foreground">Saved Items</span>
-            <div className="p-2.5 rounded-xl bg-amber-500/10 text-amber-500">
+            <div className="p-2 rounded-lg bg-amber-500/10 text-amber-400">
               <Bookmark className="h-4 w-4" />
             </div>
           </div>
           <div>
             <span className="typo-display text-foreground block">
-              {stats ? stats.bookmarkCount : <Skeleton className="h-8 w-16" />}
+              {stats ? stats.bookmarkCount : <Skeleton className="h-8 w-16 bg-zinc-800" />}
             </span>
             <span className="text-[11px] text-muted-foreground">Bookmarks &amp; wrong Qs</span>
           </div>
-        </Card>
+        </div>
 
-        <Card className="p-4 sm:p-5 rounded-2xl border-0 bg-card shadow-xs space-y-2">
+        <div className="bg-[#121214] border border-zinc-800 hover:border-zinc-700 rounded-xl p-4 sm:p-5 transition-colors space-y-2">
           <div className="flex items-center justify-between">
             <span className="typo-small text-muted-foreground">Active Streak</span>
-            <div className="p-2.5 rounded-xl bg-rose-500/10 text-rose-500">
+            <div className="p-2 rounded-lg bg-rose-500/10 text-rose-400">
               <Flame className="h-4 w-4" />
             </div>
           </div>
@@ -133,7 +148,7 @@ export default function DashboardPage() {
               {stats ? (
                 stats.currentStreak ?? 0
               ) : (
-                <Skeleton className="h-8 w-12" />
+                <Skeleton className="h-8 w-12 bg-zinc-800" />
               )}{" "}
               <span className="typo-h3 font-medium text-muted-foreground">Days</span>
             </span>
@@ -143,89 +158,49 @@ export default function DashboardPage() {
                 : "Daily practice consistency"}
             </span>
           </div>
-        </Card>
+        </div>
       </div>
 
-      {/* ══════════════════════════════════════════════════════════════════════
-          SECTION 1: ALL SUBJECTS (FIRST — MATCHING SUBJECTS PAGE CARD STYLE)
-          ══════════════════════════════════════════════════════════════════════ */}
+      {/* ── 2. All Subjects Section (Continuous Drop-Cap Word Typography) ── */}
       <section aria-label="All Subjects" className="space-y-3.5">
         <div className="flex items-center justify-between gap-3">
-          <div>
-            <h2 className="text-base sm:text-lg font-bold text-foreground">All Subjects</h2>
-            <p className="text-xs text-muted-foreground mt-0.5">
-              {siteStats ? (
-                <span>
-                  <strong className="text-foreground font-semibold">{siteStats.totalSets}</strong> Practice Sets • <strong className="text-foreground font-semibold">{siteStats.totalQuestions.toLocaleString("en-IN")}</strong> Total Questions
-                </span>
-              ) : (
-                <span>435 Practice Sets • Total Questions</span>
-              )}
-            </p>
-          </div>
+          <h2 className="text-base sm:text-lg font-bold text-foreground">All Subjects</h2>
           <Link
             href="/subjects"
-            className="text-xs font-semibold text-primary hover:underline flex items-center gap-1 shrink-0"
+            className="text-xs font-semibold text-cyan-400 hover:underline flex items-center gap-1 shrink-0"
           >
             View All <ArrowRight className="h-3 w-3" />
           </Link>
         </div>
 
         {subjects === undefined ? (
-          <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 md:grid-cols-4">
-            {Array.from({ length: 4 }).map((_, i) => (
-              <Card key={i} className="p-3 sm:p-3.5 rounded-2xl border-0 bg-card shadow-xs space-y-2">
-                <Skeleton className="h-6.5 w-6.5 rounded-lg" />
-                <Skeleton className="h-4 w-3/4 rounded" />
-                <Skeleton className="h-3 w-1/2 rounded" />
-              </Card>
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-3">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <div key={i} className="bg-[#121214] border border-zinc-800 rounded-xl p-4 sm:p-5 h-[76px] flex items-center">
+                <Skeleton className="h-8 w-24 bg-zinc-800 rounded" />
+              </div>
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 md:grid-cols-4">
-            {subjects.map((s) => {
-              const setCount = setCounts[s._id] ?? 0;
-              const SectionIcon = getSubjectSectionIcon(s.slug || s.name);
-              return (
-                <Link key={s._id} href={`/subjects/${s._id}`} className="block focus-visible:outline-hidden group h-full">
-                  <Card className="p-3 sm:p-3.5 rounded-2xl border-0 bg-card hover:bg-muted/30 transition-all flex flex-col justify-between gap-2.5 h-full relative select-none shadow-xs">
-                    <div className="flex items-center justify-between">
-                      <div className="flex h-6.5 w-6.5 items-center justify-center rounded-lg bg-primary/10 text-primary shrink-0 group-hover:bg-primary group-hover:text-white transition-colors duration-150">
-                        <SectionIcon className="h-3.5 w-3.5" />
-                      </div>
-                      <ChevronRight className="h-3.5 w-3.5 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
-                    </div>
-                    <div>
-                      <h3 className="font-medium text-xs sm:text-[13.5px] leading-snug text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-2">
-                        {getSubjectDisplayName(s)}
-                      </h3>
-                      <p className="text-[11px] text-muted-foreground mt-0.5">
-                        {setCount === 0 ? "No sets yet" : `${setCount} Practice Sets`}
-                      </p>
-                    </div>
-                  </Card>
-                </Link>
-              );
-            })}
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-3">
+            {sortedSubjects.map((s) => (
+              <SubjectCard key={s._id} id={s._id} name={s.name} slug={s.slug} />
+            ))}
           </div>
         )}
       </section>
 
-      {/* ══════════════════════════════════════════════════════════════════════
-          SECTION 2: CONTINUE PRACTICE (SECOND)
-          ══════════════════════════════════════════════════════════════════════ */}
+      {/* ── 3. Continue Practice Section (Ultra-Minimalist Cards) ── */}
       <section aria-label="Continue Practice">
         <ContinuePracticeCard />
       </section>
 
-      {/* ══════════════════════════════════════════════════════════════════════
-          SECTION 3: RECENT ATTEMPTS & SYLLABUS OVERVIEW (THIRD)
-          ══════════════════════════════════════════════════════════════════════ */}
+      {/* ── 4. Recent Attempts & Syllabus Overview ── */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-2">
-        <Card className="p-5 border-0 bg-card shadow-xs rounded-2xl space-y-3">
+        <div className="p-5 border border-zinc-800 hover:border-zinc-700 bg-[#121214] transition-colors rounded-xl space-y-3">
           <div className="flex items-center justify-between">
             <h3 className="typo-h3 text-foreground">Recent Attempts</h3>
-            <Button asChild variant="ghost" size="sm" className="typo-small text-primary hover:bg-muted border-0 p-0 h-auto">
+            <Button asChild variant="ghost" size="sm" className="typo-small text-cyan-400 hover:bg-zinc-800/50 border-0 p-0 h-auto">
               <Link href="/history">View History</Link>
             </Button>
           </div>
@@ -233,7 +208,7 @@ export default function DashboardPage() {
           {recent === undefined ? (
             <div className="space-y-2">
               {Array.from({ length: 4 }).map((_, i) => (
-                <Skeleton key={i} className="h-12 w-full rounded-xl" />
+                <Skeleton key={i} className="h-12 w-full bg-zinc-800 rounded-xl" />
               ))}
             </div>
           ) : recent.length === 0 ? (
@@ -262,7 +237,7 @@ export default function DashboardPage() {
               ))}
             </ul>
           )}
-        </Card>
+        </div>
 
         <div>
           <SyllabusOverviewCard />
