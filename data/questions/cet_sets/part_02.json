@@ -1,0 +1,767 @@
+{
+  "part": 2,
+  "title": "CET (10+2) Part 2 — Polity & Reasoning",
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "cet_t01_021",
+      "number": 21,
+      "type": "mcq",
+      "section": "Reasoning & Mental Ability",
+      "questionText": "यदि $ACE = 15$ है और $BDF = 48$, तो $HJL$ क्या होगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "960"
+        },
+        {
+          "id": "opt2",
+          "text": "710"
+        },
+        {
+          "id": "opt3",
+          "text": "698"
+        },
+        {
+          "id": "opt4",
+          "text": "250"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "* **सही क्यों:** अंग्रेजी वर्णमाला के स्थानीय मानों का गुणनफल:\n* $ACE = 1 \\times 3 \\times 5 = 15$\n* $BDF = 2 \\times 4 \\times 6 = 48$\n* इसी प्रकार, $HJL = 8 \\times 10 \\times 12 = \\mathbf{960}$ होगा।\n\n\n\n\n* **अन्य गलत क्यों:** विकल्प (2) 710, (3) 698 और (4) 250 स्थानीय मानों के गुणनफल के तर्क से मेल नहीं खाते।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.21",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 21,
+        "section": "Reasoning & Mental Ability",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_022",
+      "number": 22,
+      "type": "mcq",
+      "section": "Reasoning & Mental Ability",
+      "questionText": "निम्न श्रृंखला का अगला पद ज्ञात कीजिए-**\n**10, 12, 15, 25, 40, ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "56"
+        },
+        {
+          "id": "opt2",
+          "text": "62"
+        },
+        {
+          "id": "opt3",
+          "text": "66"
+        },
+        {
+          "id": "opt4",
+          "text": "64"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "* **सही क्यों:** श्रृंखला के पदों के बीच अंतर इस प्रकार बढ़ रहा है:\n* $10 + 2 = 12$\n* $12 + 3 = 15$\n* $15 + 10 = 25$ (यहाँ $+2, +3$ के बाद $+10, +15$ अर्थात प्रथम दो अंतरों का 5 गुना चल रहा है: $2\\times5=10$, $3\\times5=15$, या दोहरा अंतर $+1, +7, +5, +11$ से $40 + 26 = \\mathbf{66}$)।\n\n\n\n\n* **अन्य गलत क्यों:** विकल्प (1) 56, (2) 62 और (4) 64 इस पैटर्न को संतुष्ट नहीं करते।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.22",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 22,
+        "section": "Reasoning & Mental Ability",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_023",
+      "number": 23,
+      "type": "mcq",
+      "section": "Reasoning & Mental Ability",
+      "questionText": "एक MNC में 1000 कर्मचारियों को यादृच्छिक रूप से चुना गया। 500 को चाय पसंद है, 380 को कॉफी पसंद है और 120 को चाय और कॉफी दोनों पसंद हैं। निम्न का मिलान करें-**\nA. कितने लोगों को सिर्फ चाय पसंद है? — (i) 240\nB. कितने लोगों को सिर्फ कॉफी पसंद है? — (ii) 640\nC. कितने लोगों को न तो चाय पसंद है और ना ही कॉफी? — (iii) 760\nD. कितने लोग चाय या कॉफी में से केवल एक ही चीज पसंद करते हैं? — (iv) 260\nE. कितने लोगों को कम से कम एक पेय पसंद है? — (v) 380",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-(i), B-(ii), C-(iii), D-(iv), E-(v)"
+        },
+        {
+          "id": "opt2",
+          "text": "A-(v), B-(iv), C-(iii), D-(ii), E-(i)"
+        },
+        {
+          "id": "opt3",
+          "text": "A-(v), B-(iv), C-(i), D-(ii), E-(iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "A-(iii), B-(i), C-(ii), D-(iv), E-(v)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "* **सही क्यों:** कुल = 1000, दोनों = 120:\n* A (केवल चाय): $500 - 120 = 380$ (v)\n\n\n* B (केवल कॉफी): $380 - 120 = 260$ (iv)\n\n\n* E (कम से कम एक पेय): $380 + 260 + 120 = 760$ (iii)\n\n\n* C (कोई भी नहीं): $1000 - 760 = 240$ (i)\n\n\n* D (केवल एक पेय): $380 + 260 = 640$ (ii)\n\n\n\n\n* **अन्य गलत क्यों:** विकल्प (1), (2) और (4) में वेन आरेख की गणनाओं का गलत मिलान किया गया है।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.23",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 23,
+        "section": "Reasoning & Mental Ability",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_024",
+      "number": 24,
+      "type": "mcq",
+      "section": "Reasoning & Mental Ability",
+      "questionText": "ममता और खुशी 28 अगस्त, 2008 को मिलती हैं। उस दिन बृहस्पतिवार था और वे अगले वर्ष दिसम्बर माह में फिर से मिलने का वायदा करती हैं लेकिन केवल शनिवार के दिन। निम्न में से कौन से दिन ममता और खुशी वापस मिल सकती हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "6, 13, 20, 27"
+        },
+        {
+          "id": "opt2",
+          "text": "4, 11, 18, 25"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 8, 15, 22, 29"
+        },
+        {
+          "id": "opt4",
+          "text": "5, 12, 19, 26"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "* **सही क्यों:** 28 अगस्त 2008 को गुरुवार है, तो 28 अगस्त 2009 को शुक्रवार होगा (सामान्य वर्ष में +1 दिन)। अगस्त में शेष 3 दिन + सितंबर (30) + अक्टूबर (31) + नवंबर (30) + 1 दिसंबर = 95 दिन ($95 \\div 7$ करने पर शेषफल 4)। शुक्रवार + 4 दिन = 1 दिसंबर 2009 को मंगलवार होगा। अतः पहला शनिवार **5 दिसंबर** को पड़ेगा, और अगले शनिवार **12, 19, 26** को होंगे।\n\n\n* **अन्य गलत क्यों:** (1) 6, 13, 20, 27 को रविवार होगा। (2) 4, 11, 18, 25 को शुक्रवार होगा। (3) 1, 8, 15, 22, 29 को मंगलवार होगा।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.24",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 24,
+        "section": "Reasoning & Mental Ability",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_025",
+      "number": 25,
+      "type": "mcq",
+      "section": "Reasoning & Mental Ability",
+      "questionText": "एक परिवार में छः सदस्य हैं- G, H, I, J, N, O जिसमें तीन महिलायें और एक विवाहित जोड़ा है। G, I की माँ है और J, I का बेटा है। H, G का पति है और I उसका बेटा है जबकि O उसकी बेटी है। महिलाओं के समूह में कौन शामिल है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "N, W, I"
+        },
+        {
+          "id": "opt2",
+          "text": "G, H, I"
+        },
+        {
+          "id": "opt3",
+          "text": "N, O, G"
+        },
+        {
+          "id": "opt4",
+          "text": "G, N, J"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "* **सही क्यों:** परिवार में H (पति) और G (पत्नी) विवाहित जोड़ा हैं। I उनका बेटा है और O उनकी बेटी है। J, I का बेटा है। कुल 6 सदस्यों में से H, I, J तीन पुरुष हैं, अतः शेष तीन सदस्य **G, O और N** महिलाएँ हैं।\n\n\n* **अन्य गलत क्यों:** (1) में W प्रश्न में है ही नहीं और I पुरुष है। (2) और (4) में H, I तथा J पुरुष सदस्य शामिल हैं।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.25",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 25,
+        "section": "Reasoning & Mental Ability",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_026",
+      "number": 26,
+      "type": "mcq",
+      "section": "Reasoning & Mental Ability",
+      "questionText": "सात व्यक्ति C, D, J, R, T, V और Y उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। T के बाईं ओर केवल दो व्यक्ति बैठे हैं। Y और J के बीच केवल तीन व्यक्ति बैठे हैं, जिनमें से कोई भी पंक्ति के अंतिम छोर पर नहीं बैठा है। R, D के दाईं ओर ठीक पड़ोस में बैठा है। C, Y के बाईं ओर ठीक पड़ोस में बैठा है। तो निम्न में से सत्य कथन होंगे-**\nI. J के बाएँ पाँच व्यक्ति बैठे हैं।\nII. D पंक्ति के ठीक मध्य बैठा है।\nIII. T, D और Y के मध्य बैठा है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल I व III"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल II व III"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल I व II"
+        },
+        {
+          "id": "opt4",
+          "text": "सभी I, II व III"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "* **सही क्यों:** बाएँ से दाएँ बैठने का सही क्रम **C - Y - T - D - R - J - V** बनता है। इसमें:\n* I. J के बाएँ 5 व्यक्ति (C, Y, T, D, R) हैं (सत्य)।\n\n\n* II. D ठीक मध्य (चौथे स्थान) में बैठा है (सत्य)।\n\n\n* III. T, D और Y के मध्य बैठा है (सत्य)।\n\n\n\n\n* **अन्य गलत क्यों:** विकल्प (1), (2) और (3) आंशिक कथनों को ही सही मानते हैं जबकि तीनों कथन सही हैं।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.26",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 26,
+        "section": "Reasoning & Mental Ability",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_027",
+      "number": 27,
+      "type": "mcq",
+      "section": "Reasoning & Mental Ability",
+      "questionText": "X की आयु उस आयु से दोगुनी है जो Y की तीन वर्ष पूर्व थी, जब X की आयु Y की आज की आयु के बराबर थी। यदि वर्तमान में उनकी आयु का अंतर 3 वर्ष है, तो X की आयु वर्तमान में कितनी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "18 वर्ष"
+        },
+        {
+          "id": "opt2",
+          "text": "12 वर्ष"
+        },
+        {
+          "id": "opt3",
+          "text": "9 वर्ष"
+        },
+        {
+          "id": "opt4",
+          "text": "8 वर्ष"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "* **सही क्यों:** माना X की वर्तमान आयु $x$ और Y की $y$ है। अंतर $x - y = 3 \\Rightarrow y = x - 3$। जब X की आयु $y$ थी (अर्थात 3 वर्ष पहले), तब Y की आयु $y - 3$ थी। प्रश्नानुसार, $x = 2(y - 3) \\Rightarrow x = 2(x - 6) \\Rightarrow \\mathbf{x = 12}$ वर्ष।\n\n\n* **अन्य गलत क्यों:** (1) 18 वर्ष रखने पर Y=15 होगा और $2(15-3)=24 \\neq 18$। (3) 9 वर्ष रखने पर Y=6 होगा और $2(6-3)=6 \\neq 9$। (4) 8 वर्ष रखने पर Y=5 होगा और $2(5-3)=4 \\neq 8$।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.27",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 27,
+        "section": "Reasoning & Mental Ability",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_028",
+      "number": 28,
+      "type": "mcq",
+      "section": "Quantitative Aptitude",
+      "questionText": "कोई राशि साधारण ब्याज पर 5 वर्ष में रु. 1350 और 8 वर्ष में रु. 1620 हो जाती है। राशि क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रु. 700"
+        },
+        {
+          "id": "opt2",
+          "text": "रु. 800"
+        },
+        {
+          "id": "opt3",
+          "text": "रु. 900"
+        },
+        {
+          "id": "opt4",
+          "text": "रु. 1000"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "* **सही क्यों:** 3 वर्ष (8 वर्ष - 5 वर्ष) का साधारण ब्याज = $1620 - 1350 = 270$ रु.। अतः 1 वर्ष का ब्याज = $90$ रु. और 5 वर्ष का ब्याज = $90 \\times 5 = 450$ रु.। मूलधन (राशि) = $1350 - 450 = \\mathbf{900}$ रु.।\n\n\n* **अन्य गलत क्यों:** (1) 700, (2) 800 और (4) 1000 मूलधन मानने पर 5 वर्ष का मिश्रधन 1350 रु. प्राप्त नहीं होता।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.28",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 28,
+        "section": "Quantitative Aptitude",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_029",
+      "number": 29,
+      "type": "mcq",
+      "section": "Quantitative Aptitude",
+      "questionText": "किसी विद्यालय में परीक्षार्थियों का 85% बंगला में उत्तीर्ण हुए, 70% गणित में एवं 65% दोनों विषयों में उत्तीर्ण हुए। यदि कुल परीक्षार्थियों की संख्या 60 है, तो दोनों विषयों में अनुत्तीर्ण परीक्षार्थियों की संख्या है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "6"
+        },
+        {
+          "id": "opt2",
+          "text": "9"
+        },
+        {
+          "id": "opt3",
+          "text": "13"
+        },
+        {
+          "id": "opt4",
+          "text": "26"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "* **सही क्यों:** कम से कम एक विषय में उत्तीर्ण छात्रों का प्रतिशत = $85\\% + 70\\% - 65\\% = 90\\%$। अतः दोनों विषयों में अनुत्तीर्ण छात्र = $100\\% - 90\\% = 10\\%$। कुल 60 छात्रों का $10\\% = \\mathbf{6}$ छात्र।\n\n\n* **अन्य गलत क्यों:** (2) 9 ($15\\%$), (3) 13 और (4) 26 गलत प्रतिशत गणना के परिणाम हैं।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.29",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 29,
+        "section": "Quantitative Aptitude",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_030",
+      "number": 30,
+      "type": "mcq",
+      "section": "Quantitative Aptitude",
+      "questionText": "A एक दिन में B से दुगुना काम करता है और इसलिए एक काम को B से 60 दिन कम में करता है। उसी काम को A और B मिलकर कितने दिनों में पूरा कर सकेंगे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "20 दिन"
+        },
+        {
+          "id": "opt2",
+          "text": "25 दिन"
+        },
+        {
+          "id": "opt3",
+          "text": "30 दिन"
+        },
+        {
+          "id": "opt4",
+          "text": "40 दिन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "* **सही क्यों:** A और B की कार्यक्षमता का अनुपात $2:1$ है, तो समय का अनुपात $1:2$ होगा। अंतर 1 इकाई = 60 दिन। अतः A को 60 दिन और B को 120 दिन लगेंगे। दोनों मिलकर कार्य को $\\frac{60 \\times 120}{60 + 120} = \\frac{7200}{180} = \\mathbf{40}$ दिन में पूरा करेंगे।\n\n\n* **अन्य गलत क्यों:** विकल्प (1) 20 दिन, (2) 25 दिन और (3) 30 दिन कार्यक्षमता और समय के व्युत्क्रमानुपाती संबंध को संतुष्ट नहीं करते।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.30",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 30,
+        "section": "Quantitative Aptitude",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_031",
+      "number": 31,
+      "type": "mcq",
+      "section": "Quantitative Aptitude",
+      "questionText": "अपनी वास्तविक गति से $\\frac{4}{5}$ गति पर चलने से एक व्यक्ति $1\\frac{1}{2}$ घंटे देर से पहुँचता है। उसके पहुँचने का वास्तविक समय है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1.5 घण्टे"
+        },
+        {
+          "id": "opt2",
+          "text": "1.2 घंटे"
+        },
+        {
+          "id": "opt3",
+          "text": "6 घंटे"
+        },
+        {
+          "id": "opt4",
+          "text": "12 घंटे"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "* **सही क्यों:** गति का अनुपात $5:4$ है, तो समय का अनुपात $4:5$ होगा। समय का अंतर 1 इकाई = $1.5$ घंटे। अतः वास्तविक समय = $4 \\times 1.5 = \\mathbf{6}$ घंटे।\n\n\n* **अन्य गलत क्यों:** (1) 1.5 घंटे देरी का समय है, वास्तविक समय नहीं। (2) 1.2 घंटे और (4) 12 घंटे गलत अनुपात गुणा से प्राप्त मान हैं।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.31",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 31,
+        "section": "Quantitative Aptitude",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_032",
+      "number": 32,
+      "type": "mcq",
+      "section": "Quantitative Aptitude",
+      "questionText": "एक आयताकार खेत का क्षेत्रफल 396 वर्गमीटर है। उसकी लम्बाई 22 मीटर है, तो चौड़ाई और परिमिति क्या होगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "16 मी., 90 मी."
+        },
+        {
+          "id": "opt2",
+          "text": "18 मी., 80 मी."
+        },
+        {
+          "id": "opt3",
+          "text": "18 मी., 60 मी."
+        },
+        {
+          "id": "opt4",
+          "text": "16 मी., 80 मी."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "answer": "B",
+      "explanation": "* **सही क्यों:** आयत की चौड़ाई = $\\frac{\\text{क्षेत्रफल}}{\\text{लम्बाई}} = \\frac{396}{22} = \\mathbf{18}$ मी.। परिमिति (परिमाप) = $2 \\times (22 + 18) = 2 \\times 40 = \\mathbf{80}$ मी.।\n\n\n* **अन्य गलत क्यों:** (1) व (4) में चौड़ाई 16 मी. गलत है ($22 \\times 16 = 352 \\neq 396$)। (3) में परिमाप 60 मी. गलत है।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.32",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 32,
+        "section": "Quantitative Aptitude",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_033",
+      "number": 33,
+      "type": "mcq",
+      "section": "Quantitative Aptitude",
+      "questionText": "एक बेलन की ऊँचाई 80 सेमी. तथा उसके आधार का व्यास 7 सेमी. है। बेलन के सम्पूर्ण पृष्ठ का क्षेत्रफल क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1873 वर्ग सेमी."
+        },
+        {
+          "id": "opt2",
+          "text": "183.7 वर्ग सेमी."
+        },
+        {
+          "id": "opt3",
+          "text": "817.3 वर्ग सेमी."
+        },
+        {
+          "id": "opt4",
+          "text": "1837 वर्ग सेमी."
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "* **सही क्यों:** त्रिज्या $r = \\frac{7}{2} = 3.5$ सेमी., ऊँचाई $h = 80$ सेमी.। बेलन का सम्पूर्ण पृष्ठ क्षेत्रफल = $2\\pi r(h + r) = 2 \\times \\frac{22}{7} \\times \\frac{7}{2} \\times (80 + 3.5) = 22 \\times 83.5 = \\mathbf{1837}$ वर्ग सेमी.।\n\n\n* **अन्य गलत क्यों:** (1) 1873 में अंकों का क्रम गलत है, (2) 183.7 और (3) 817.3 दशमलव व गुणा की त्रुटि वाले विकल्प हैं।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.33",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 33,
+        "section": "Quantitative Aptitude",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_034",
+      "number": 34,
+      "type": "mcq",
+      "section": "Quantitative Aptitude",
+      "questionText": "तीन संख्याओं में पहली संख्या दूसरी संख्या की तीन गुनी और तीसरी संख्या पहली संख्या की 5 गुनी है। यदि तीनों संख्याओं का औसत 57 है, तो सबसे बड़ी और सबसे छोटी संख्या का अन्तर है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "9"
+        },
+        {
+          "id": "opt2",
+          "text": "18"
+        },
+        {
+          "id": "opt3",
+          "text": "126"
+        },
+        {
+          "id": "opt4",
+          "text": "135"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "* **सही क्यों:** माना दूसरी संख्या $x$ है, तो पहली $3x$ और तीसरी $15x$ होगी। योग = $x + 3x + 15x = 19x$। प्रश्नानुसार, $19x = 57 \\times 3 = 171 \\Rightarrow x = 9$। सबसे बड़ी ($15x = 135$) और सबसे छोटी ($x = 9$) का अंतर = $135 - 9 = \\mathbf{126}$।\n\n\n* **अन्य गलत क्यों:** (1) 9 सबसे छोटी संख्या है। (2) 18 पहली और दूसरी संख्या का अंतर है ($27 - 9$)। (4) 135 सबसे बड़ी संख्या है।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.34",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 34,
+        "section": "Quantitative Aptitude",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_035",
+      "number": 35,
+      "type": "mcq",
+      "section": "Quantitative Aptitude",
+      "questionText": "वह बड़ी से बड़ी संख्या क्या है जिससे यदि 1475, 3155 और 5255 को भाग दें, तो प्रत्येक दशा में समान शेष बचे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "120"
+        },
+        {
+          "id": "opt2",
+          "text": "60"
+        },
+        {
+          "id": "opt3",
+          "text": "420"
+        },
+        {
+          "id": "opt4",
+          "text": "190"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "* **सही क्यों:** समान शेषफल बचाने वाली सबसे बड़ी संख्या निकालने के लिए संख्याओं के अंतरों का म.स.प. (HCF) लेते हैं:\n* $3155 - 1475 = 1680$\n* $5255 - 3155 = 2100$\n* $5255 - 1475 = 3780$\n* $1680, 2100$ और $3780$ का HCF = $\\mathbf{420}$ है।\n\n\n\n\n* **अन्य गलत क्यों:** (1) 120 और (2) 60 गुणनखंड तो हैं पर 'बड़ी से बड़ी' संख्या नहीं हैं। (4) 190 से तीनों अंतर विभाजित नहीं होते।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.35",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 35,
+        "section": "Quantitative Aptitude",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_036",
+      "number": 36,
+      "type": "mcq",
+      "section": "Rajasthan Agriculture & Economy",
+      "questionText": "राष्ट्रीय खाद्य सुरक्षा एवं पोषण मिशन (राजस्थान) के संदर्भ में सुमेलित कीजिए-**\n**सूची-I (योजना)**\nA. NFSNM मक्का\nB. NFSNM कपास\nC. NFSNM तिलहन\nD. NFSNM ज्वार\n**सूची-II (जिले जिनमें संचालित है)**\nI. 9 जिले\nII. 18 जिले\nIII. 11 जिले\nIV. सभी जिले\n**कूट:** (A - B - C - D)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I - II - III - IV"
+        },
+        {
+          "id": "opt2",
+          "text": "I - II - IV - III"
+        },
+        {
+          "id": "opt3",
+          "text": "IV - III - I - II"
+        },
+        {
+          "id": "opt4",
+          "text": "IV - III - II - I"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "* **सही क्यों:** राष्ट्रीय खाद्य सुरक्षा एवं पोषण मिशन (NFSNM) राजस्थान के अंतर्गत: मक्का 9 जिलों में (I), कपास 18 जिलों में (II), तिलहन 11 जिलों में (III), और ज्वार राज्य के सभी जिलों में (IV) संचालित है।\n\n\n* **अन्य गलत क्यों:** विकल्प (2), (3) और (4) में फसलों और उनके संचालित जिलों की संख्या का क्रम गलत है।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.36",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 36,
+        "section": "Rajasthan Agriculture & Economy",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_037",
+      "number": 37,
+      "type": "mcq",
+      "section": "Geography & Environment",
+      "questionText": "निम्नलिखित में से असत्य कथन की पहचान कीजिए-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भारत के कुल 18 जैवमण्डल आरक्षित स्थलों में से 13 स्थल यूनेस्को के विश्व जैवमण्डल आरक्षित क्षेत्र नेटवर्क में शामिल हैं।"
+        },
+        {
+          "id": "opt2",
+          "text": "शीत मरुस्थल (हिमाचल प्रदेश) विश्व जैवमण्डल आरक्षित क्षेत्र नेटवर्क में शामिल देश का नवीनतम बायोस्फियर रिजर्व है।"
+        },
+        {
+          "id": "opt3",
+          "text": "देश में सर्वाधिक रामसर साइट स्थल उत्तर प्रदेश राज्य में हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "ग्वाल झील (अरुणाचल प्रदेश) देश का नवीनतम 101वाँ रामसर स्थल है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "* **सही क्यों:** यह कथन असत्य है क्योंकि वर्तमान में देश में सर्वाधिक रामसर साइट्स **तमिलनाडु** राज्य में हैं, न कि उत्तर प्रदेश में (उत्तर प्रदेश दूसरे स्थान पर है)।\n\n\n* **अन्य गलत क्यों:** (1) भारत के 18 में से 13 बायोस्फियर रिजर्व यूनेस्को सूची में हैं, (2) हिमाचल का शीत मरुस्थल नवीनतम (13वाँ) यूनेस्को शामिल रिजर्व है, और (4) अरुणाचल प्रदेश की ग्वाल झील 101वाँ रामसर स्थल है—ये तीनों कथन सत्य हैं।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.37",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 37,
+        "section": "Geography & Environment",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_038",
+      "number": 38,
+      "type": "mcq",
+      "section": "Geography & Environment",
+      "questionText": "'डग-गंगधार उच्च क्षेत्र' विस्तृत है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ौती पठार के दक्षिण-पश्चिम भाग में।"
+        },
+        {
+          "id": "opt2",
+          "text": "आबू श्रेणी के धुर दक्षिण में।"
+        },
+        {
+          "id": "opt3",
+          "text": "बनास बेसिन के पूर्व में।"
+        },
+        {
+          "id": "opt4",
+          "text": "अरावली के पश्चिमी पार्श्व में।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "answer": "A",
+      "explanation": "* **सही क्यों:** 'डग-गंगधार उच्च क्षेत्र' झालावाड़ जिले में स्थित है, जो भौगोलिक रूप से **हाड़ौती पठार (दक्कन लावा पठार) के दक्षिण-पश्चिमी भाग** का हिस्सा है।\n\n\n* **अन्य गलत क्यों:** (2) आबू श्रेणी सिरोही में है। (3) बनास बेसिन पूर्वी मैदानी भाग में है। (4) अरावली का पश्चिमी पार्श्व मरुस्थलीय/अर्ध-शुष्क क्षेत्र है।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.38",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 38,
+        "section": "Geography & Environment",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_039",
+      "number": 39,
+      "type": "mcq",
+      "section": "Geography & Environment",
+      "questionText": "निम्नलिखित में से राजस्थान की अन्तः प्रवाहित नदी/नदियाँ है/हैं-**\nA. मसूरदी\nB. सीपू\nC. कांतली\nD. रूपनगढ़\n**कूट-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल C"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल A व C"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल A, C व D"
+        },
+        {
+          "id": "opt4",
+          "text": "A, B, C व D"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "answer": "C",
+      "explanation": "* **सही क्यों:** **मसूरदी** (काकनेय - जैसलमेर), **कांतली** (सीकर-झुंझुनूं) और **रूपनगढ़** (अजमेर-सांभर) तीनों राजस्थान की आंतरिक प्रवाह (अन्तः प्रवाहित) की नदियाँ हैं।\n\n\n* **अन्य गलत क्यों:** विकल्प (1) और (2) में सभी आंतरिक नदियाँ शामिल नहीं हैं। विकल्प (4) गलत है क्योंकि **सीपू (B)** पश्चिमी बनास की सहायक नदी है, जो अरब सागर अपवाह तंत्र का हिस्सा है।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.39",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 39,
+        "section": "Geography & Environment",
+        "year": 2026
+      }
+    },
+    {
+      "id": "cet_t01_040",
+      "number": 40,
+      "type": "mcq",
+      "section": "Geography & Environment",
+      "questionText": "राजस्थान में वर्ष 1901 से 2025 की अवधि के दौरान किस वर्ष सर्वाधिक वर्षा दर्ज की गई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1998"
+        },
+        {
+          "id": "opt2",
+          "text": "2024"
+        },
+        {
+          "id": "opt3",
+          "text": "1961"
+        },
+        {
+          "id": "opt4",
+          "text": "1917"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "answer": "D",
+      "explanation": "* **सही क्यों:** मौसम विभाग के अभिलेखों के अनुसार वर्ष 1901 से 2025 के बीच राजस्थान में सर्वाधिक वार्षिक वर्षा **1917** में दर्ज की गई थी।\n\n\n* **अन्य गलत क्यों:** (1) 1998, (2) 2024 और (3) 1961 में अच्छी वर्षा हुई थी, परंतु 1917 के सर्वकालिक रिकॉर्ड से कम थी।",
+      "reference": "📌 CET (10+2) Final Test - 01 · Q.40",
+      "difficulty": "medium",
+      "meta": {
+        "source": "Kalam Academy",
+        "exam": "समान पात्रता परीक्षा (CET 10+2)",
+        "testName": "Final Test - 01",
+        "questionNumber": 40,
+        "section": "Geography & Environment",
+        "year": 2026
+      }
+    }
+  ]
+}

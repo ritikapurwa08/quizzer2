@@ -282,6 +282,38 @@ export function buildQuestionIndex(): Map<string, any> {
     }
   }
 
+  // 4. Index Mock Tests & CET questions
+  const mockDir = path.join(process.cwd(), "data", "mock-tests");
+  if (fs.existsSync(mockDir)) {
+    try {
+      const subdirs = fs.readdirSync(mockDir, { withFileTypes: true });
+      for (const dirent of subdirs) {
+        if (dirent.isDirectory()) {
+          const subDirPath = path.join(mockDir, dirent.name);
+          const files = fs.readdirSync(subDirPath).filter((f) => f.endsWith(".json"));
+          for (const file of files) {
+            try {
+              const data = JSON.parse(fs.readFileSync(path.join(subDirPath, file), "utf-8"));
+              const list: any[] = data.questions || [];
+              for (const q of list) {
+                allList.push(q);
+                const qId = q.id || q.canonicalId || q._id;
+                if (qId) {
+                  index.set(String(qId), q);
+                  index.set(String(qId).toLowerCase(), q);
+                }
+              }
+            } catch (err) {
+              console.error(`Failed to load mock questions from ${file}:`, err);
+            }
+          }
+        }
+      }
+    } catch (err) {
+      console.error("Failed to load mock-tests:", err);
+    }
+  }
+
   _gkQuestionsCache = allGk;
   _allQuestionsCache = allList;
   _questionIndex = index;

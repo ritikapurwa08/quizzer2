@@ -26,6 +26,23 @@ export const MARATHON_SLUG_MAP: Record<string, string> = {
   "marathon-set-23": "kd75jqsp84fe1x17e1wf1z5g458jmmd8",
   "marathon-set-24": "kd71zdd3ssx8s76bd7a848q96x8jm5yn",
   "marathon-set-25": "kd7bc3t2mw0njn3e5ad2yb00p98jnzyf",
+
+  // CET (10+2) Mock Test Slugs
+  "cet-final-01": "kd73q1hrwa2emqbjej5bmtef3x8jq31z",
+  "cet-10-plus-2-final-01": "kd73q1hrwa2emqbjej5bmtef3x8jq31z",
+  "cet-mock-01": "kd73q1hrwa2emqbjej5bmtef3x8jq31z",
+  "cet-set-01": "kd7bys42v3h5djat5eyk0n5sf58jqpx5",
+  "cet-part-01": "kd7bys42v3h5djat5eyk0n5sf58jqpx5",
+  "cet-set-02": "kd7d0r95cj86r186977znbz9gx8jpnz7",
+  "cet-part-02": "kd7d0r95cj86r186977znbz9gx8jpnz7",
+  "cet-set-03": "kd7a2ybc95x3jsvp4q70pdjxfs8jqmr4",
+  "cet-part-03": "kd7a2ybc95x3jsvp4q70pdjxfs8jqmr4",
+  "cet-set-04": "kd7c7rqecrey5tc7v3gt2073n98jqd53",
+  "cet-part-04": "kd7c7rqecrey5tc7v3gt2073n98jqd53",
+  "cet-set-05": "kd72ddcjjttm6c0w47pkt3xs7s8jqzc9",
+  "cet-part-05": "kd72ddcjjttm6c0w47pkt3xs7s8jqzc9",
+  "cet-set-06": "kd72hx7jgrnqw2f3vt9r3rrmzs8jpx9e",
+  "cet-part-06": "kd72hx7jgrnqw2f3vt9r3rrmzs8jpx9e",
 };
 
 export const MARATHON_ID_TO_SLUG: Record<string, string> = {
@@ -54,4 +71,13 @@ export const MARATHON_ID_TO_SLUG: Record<string, string> = {
   "kd75jqsp84fe1x17e1wf1z5g458jmmd8": "marathon-set-23",
   "kd71zdd3ssx8s76bd7a848q96x8jm5yn": "marathon-set-24",
   "kd7bc3t2mw0njn3e5ad2yb00p98jnzyf": "marathon-set-25",
+
+  // CET (10+2) Mock Test Slugs
+  "kd73q1hrwa2emqbjej5bmtef3x8jq31z": "cet-final-01",
+  "kd7bys42v3h5djat5eyk0n5sf58jqpx5": "cet-set-01",
+  "kd7d0r95cj86r186977znbz9gx8jpnz7": "cet-set-02",
+  "kd7a2ybc95x3jsvp4q70pdjxfs8jqmr4": "cet-set-03",
+  "kd7c7rqecrey5tc7v3gt2073n98jqd53": "cet-set-04",
+  "kd72ddcjjttm6c0w47pkt3xs7s8jqzc9": "cet-set-05",
+  "kd72hx7jgrnqw2f3vt9r3rrmzs8jpx9e": "cet-set-06",
 };
