@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState, useEffect } from "react";
 import Link from "next/link";
 import { useQuery } from "convex/react";
 import { useTheme } from "next-themes";
@@ -39,6 +39,11 @@ export default function DashboardPage() {
   const recent = useQuery(api.attempts.recentByUser, { limit: 4 });
   const subjects = useQuery(api.subjects.list);
   const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const displayName = me?.name ? me.name.split(" ")[0] : "Student";
 
@@ -82,9 +87,16 @@ export default function DashboardPage() {
             size="icon"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             className="h-9 w-9 rounded-xl bg-[#121214] text-muted-foreground hover:text-foreground border border-zinc-800 hover:border-zinc-700 cursor-pointer transition-colors"
+            title={mounted ? (theme === "dark" ? "Switch to Light mode" : "Switch to Dark mode") : "Toggle theme"}
             aria-label="Toggle theme"
           >
-            {theme === "dark" ? <Sun className="h-4 w-4 text-amber-400" /> : <Moon className="h-4 w-4 text-blue-500" />}
+            {!mounted ? (
+              <span className="h-4 w-4 inline-block" />
+            ) : theme === "dark" ? (
+              <Sun className="h-4 w-4 text-amber-400" />
+            ) : (
+              <Moon className="h-4 w-4 text-blue-500" />
+            )}
           </Button>
         </div>
       </div>

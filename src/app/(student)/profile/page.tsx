@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { useQuery } from "convex/react";
 import { useAuthActions } from "@convex-dev/auth/react";
 import { useRouter } from "next/navigation";
@@ -34,6 +35,11 @@ export default function ProfilePage() {
   const { signOut } = useAuthActions();
   const router = useRouter();
   const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const isAdmin = isUserAdmin(me);
   const displayName = me?.name || me?.email?.split("@")[0] || "Candidate";
@@ -93,7 +99,12 @@ export default function ProfilePage() {
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               className="rounded-md border-border text-xs gap-1.5 h-9 cursor-pointer"
             >
-              {theme === "dark" ? (
+              {!mounted ? (
+                <>
+                  <span className="h-4 w-4 inline-block" />
+                  <span>Toggle Theme</span>
+                </>
+              ) : theme === "dark" ? (
                 <>
                   <Sun className="h-4 w-4 text-amber-400" />
                   <span>Light Mode</span>

@@ -57,7 +57,7 @@ export function SidebarUserProfile({
             size="icon"
             onClick={onToggleTheme}
             className="h-8 w-8 rounded-lg text-muted-foreground hover:text-foreground cursor-pointer border-0"
-            title={theme === "dark" ? "Switch to Light mode" : "Switch to Dark mode"}
+            title={mounted ? (theme === "dark" ? "Switch to Light mode" : "Switch to Dark mode") : "Toggle theme"}
             aria-label="Toggle theme"
           >
             {!mounted ? (
