@@ -6014,6 +6014,30 @@
       },
       "topicFile": "topic_25.json",
       "extractionReason": "type: match_following"
+    },
+    {
+      "id": "rg_009545",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 130,
+      "sourceTopic": "राजस्थान में 1857 की क्रांति",
+      "masterTopicId": 23,
+      "masterTopic": "राजस्थान के प्रमुख व्यक्तित्व (पुरुष एवं महिला)",
+      "question": "सिद्धराज ढ़डढ़ा कौन थे -",
+      "options": [
+        "जैन विद्वान",
+        "कूटनीतिज्ञ",
+        "शिक्षाशास्त्री",
+        "गांधीवादी एवं सर्वोदयी नेता"
+      ],
+      "answer": "D",
+      "exam": "JSA Serology-(Rajasthan Gk)",
+      "year": 2019,
+      "explanation": "सही उत्तर: (D) गांधीवादी एवं सर्वोदयी नेता — राजस्थान के प्रसिद्ध समाज सुधारक, जो गांधीवादी आंदोलन और सर्वोदय चिंतन के प्रबल समर्थक थे।",
+      "topic": "राजस्थान के प्रमुख व्यक्तित्व (पुरुष एवं महिला)",
+      "topicId": 23,
+      "type": "mcq",
+      "questionText": "सिद्धराज ढ़डढ़ा कौन थे -",
+      "meta": {}
     }
   ],
   "archivedVariants": [
