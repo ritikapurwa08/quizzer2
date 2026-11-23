@@ -163,7 +163,7 @@ export default function manifest(): MetadataRoute.Manifest {
         sizes: "1920x1080",
         type: "image/png",
         form_factor: "wide",
-        label: "RPSC 2nd Grade GK 55 मास्टर टॉपिक्स एवं विश्लेषण (Desktop)",
+        label: "RPSC 2nd Grade GK 47 मास्टर टॉपिक्स एवं विश्लेषण (Desktop)",
       },
     ],
   };

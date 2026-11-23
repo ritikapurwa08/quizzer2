@@ -440,6 +440,7 @@ export default function ResultsPage() {
           unansweredCount={unansweredCount}
           testSetId={id}
           nextSet={nextSet}
+          isLoadingNextSet={siblingSets === undefined && localTopicSets.length === 0}
           activeFilter={reviewFilter}
           onPrint={() => handlePrint(reviewFilter)}
           onShare={handleShareResult}

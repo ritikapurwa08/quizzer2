@@ -39,7 +39,7 @@ export function MobileBottomControlDock({
           size="sm"
           onClick={onPrev}
           disabled={isPaused || currentIndex === 0}
-          className="h-10 px-3 sm:px-3.5 font-semibold text-xs rounded-xl border-border/80 bg-background hover:bg-muted cursor-pointer shrink-0 disabled:opacity-50 disabled:cursor-not-allowed shadow-2xs"
+          className="h-10 min-w-[70px] px-3 sm:px-3.5 font-semibold text-xs rounded-md border-border/80 bg-background hover:bg-muted cursor-pointer shrink-0 disabled:opacity-50 disabled:cursor-not-allowed shadow-2xs"
           aria-label="Previous question"
         >
           <ChevronLeft className="h-4 w-4 mr-0.5" />
@@ -50,12 +50,12 @@ export function MobileBottomControlDock({
         <button
           type="button"
           onClick={onOpenPalette}
-          className="inline-flex items-center justify-center gap-2 sm:gap-2.5 h-10 px-3 sm:px-3.5 rounded-2xl border border-border/80 bg-muted/60 hover:bg-muted text-foreground transition-all cursor-pointer select-none active:scale-95 shadow-2xs flex-1 max-w-[240px] min-w-0"
+          className="inline-flex items-center justify-center gap-2 sm:gap-2.5 h-10 px-3 sm:px-3.5 rounded-md border border-border/80 bg-muted/60 hover:bg-muted text-foreground transition-all cursor-pointer select-none active:scale-95 shadow-2xs flex-1 max-w-[240px] min-w-0"
           aria-label="Open question navigation palette"
           title="Open Question Palette"
         >
           {/* Question Index with Grid Icon */}
-          <div className="flex items-center gap-1.5 font-mono font-bold text-xs tracking-tight text-foreground shrink-0">
+          <div className="flex items-center gap-1.5 font-mono font-bold text-xs sm:text-sm tracking-tight text-foreground shrink-0">
             <LayoutGrid className="h-3.5 w-3.5 text-primary shrink-0" aria-hidden="true" />
             <span>{currentIndex + 1}/{totalQuestions}</span>
           </div>
@@ -64,7 +64,7 @@ export function MobileBottomControlDock({
 
           {/* Attempted Status Badge with CheckCircle2 */}
           <div
-            className="flex items-center gap-1 text-[11px] font-bold text-primary bg-primary/10 border border-primary/20 px-1.5 sm:px-2 py-0.5 rounded-lg tabular-nums shrink-0"
+            className="flex items-center gap-1 text-[11px] font-bold text-primary bg-primary/10 border border-primary/20 px-1.5 sm:px-2 py-0.5 rounded-md tabular-nums shrink-0"
             title={`${answeredCount} Attempted`}
           >
             <CheckCircle2 className="h-3.5 w-3.5 text-primary shrink-0" />
@@ -73,7 +73,7 @@ export function MobileBottomControlDock({
 
           {/* Skipped / Unanswered Status Badge with MinusCircle */}
           <div
-            className="flex items-center gap-1 text-[11px] font-bold text-muted-foreground bg-muted border border-border/80 px-1.5 sm:px-2 py-0.5 rounded-lg tabular-nums shrink-0"
+            className="flex items-center gap-1 text-[11px] font-bold text-muted-foreground bg-muted border border-border/80 px-1.5 sm:px-2 py-0.5 rounded-md tabular-nums shrink-0"
             title={`${unansweredCount} Skipped / Unanswered`}
           >
             <MinusCircle className="h-3.5 w-3.5 text-amber-500 shrink-0" />
@@ -87,7 +87,7 @@ export function MobileBottomControlDock({
             size="sm"
             onClick={onSubmit}
             disabled={isPaused || isSubmitting}
-            className="h-10 px-3.5 sm:px-4 font-bold text-xs rounded-xl bg-primary hover:bg-primary/90 text-primary-foreground cursor-pointer shrink-0 gap-1.5 shadow-md shadow-primary/20 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            className="h-10 min-w-[70px] px-3.5 sm:px-4 font-bold text-xs rounded-md bg-primary hover:bg-primary/90 text-primary-foreground cursor-pointer shrink-0 gap-1.5 shadow-md shadow-primary/20 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
           >
             {isSubmitting ? (
               <span className="flex items-center gap-1.5">
@@ -106,7 +106,7 @@ export function MobileBottomControlDock({
             size="sm"
             onClick={onNext}
             disabled={isPaused}
-            className="h-10 px-3.5 font-semibold text-xs rounded-xl bg-zinc-800 text-zinc-100 border border-zinc-700 hover:bg-zinc-700 hover:text-white cursor-pointer shrink-0 shadow-2xs disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            className="h-10 min-w-[70px] px-3.5 font-semibold text-xs rounded-md bg-secondary text-secondary-foreground border border-border hover:bg-muted cursor-pointer shrink-0 shadow-2xs disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             aria-label="Next question"
           >
             Next

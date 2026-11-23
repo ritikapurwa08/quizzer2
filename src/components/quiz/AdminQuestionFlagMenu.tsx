@@ -69,29 +69,29 @@ const FLAG_CONFIG: Record<
   }
 > = {
   wrong_answer: {
-    label: "गलत उत्तर",
-    fullLabel: "गलत उत्तर / Wrong Answer",
+    label: "Wrong Answer",
+    fullLabel: "Wrong Answer / Incorrect Key",
     icon: AlertTriangle,
     buttonClass: "border-destructive/50 bg-destructive/15 text-destructive hover:bg-destructive/25",
     menuClass: "text-destructive focus:bg-destructive/15 focus:text-destructive",
   },
   duplicate: {
-    label: "डुप्लीकेट",
-    fullLabel: "डुप्लीकेट प्रश्न / Duplicate Question",
+    label: "Duplicate",
+    fullLabel: "Duplicate Question",
     icon: Copy,
     buttonClass: "border-amber-500/50 bg-amber-500/15 text-amber-500 hover:bg-amber-500/25",
     menuClass: "text-amber-500 focus:bg-amber-500/15 focus:text-amber-500",
   },
   similar: {
-    label: "समान प्रश्न",
-    fullLabel: "समान प्रश्न / Similar Question",
+    label: "Similar",
+    fullLabel: "Similar Question",
     icon: GitCompare,
     buttonClass: "border-sky-500/50 bg-sky-500/15 text-sky-400 hover:bg-sky-500/25",
     menuClass: "text-sky-400 focus:bg-sky-500/15 focus:text-sky-400",
   },
   formatting: {
-    label: "फॉर्मेटिंग",
-    fullLabel: "फॉर्मेटिंग त्रुटि / Glitch",
+    label: "Format Issue",
+    fullLabel: "Formatting Issue / UI Glitch",
     icon: Wrench,
     buttonClass: "border-purple-500/50 bg-purple-500/15 text-purple-400 hover:bg-purple-500/25",
     menuClass: "text-purple-400 focus:bg-purple-500/15 focus:text-purple-400",
@@ -256,7 +256,7 @@ export function AdminQuestionFlagMenu({
     delete currentMap[safeQuestionId];
     writeLocalFlags(currentMap);
 
-    showToast("फ्लैग हटाया गया / Flag removed", "info");
+    showToast("Flag removed", "info");
 
     // 2. Remove from Convex database
     try {
@@ -295,7 +295,7 @@ export function AdminQuestionFlagMenu({
     writeLocalFlags(currentMap);
 
     setIsNoteDialogOpen(false);
-    showToast("नोट सुरक्षित किया गया / Note saved", "success");
+    showToast("Note saved", "success");
 
     // 1. Update in Convex
     try {
@@ -383,7 +383,7 @@ export function AdminQuestionFlagMenu({
           >
             <div className="flex items-center gap-2">
               <AlertTriangle className="h-3.5 w-3.5 text-destructive" />
-              <span>गलत उत्तर (Wrong Answer)</span>
+              <span>Wrong Answer</span>
             </div>
             {activeFlag?.flagType === "wrong_answer" && (
               <Check className="h-3.5 w-3.5 text-destructive" />
@@ -400,7 +400,7 @@ export function AdminQuestionFlagMenu({
           >
             <div className="flex items-center gap-2">
               <Copy className="h-3.5 w-3.5 text-amber-500" />
-              <span>डुप्लीकेट प्रश्न (Duplicate)</span>
+              <span>Duplicate Question</span>
             </div>
             {activeFlag?.flagType === "duplicate" && (
               <Check className="h-3.5 w-3.5 text-amber-500" />
@@ -417,7 +417,7 @@ export function AdminQuestionFlagMenu({
           >
             <div className="flex items-center gap-2">
               <GitCompare className="h-3.5 w-3.5 text-sky-400" />
-              <span>समान प्रश्न (Similar)</span>
+              <span>Similar Question</span>
             </div>
             {activeFlag?.flagType === "similar" && (
               <Check className="h-3.5 w-3.5 text-sky-400" />
@@ -434,7 +434,7 @@ export function AdminQuestionFlagMenu({
           >
             <div className="flex items-center gap-2">
               <Wrench className="h-3.5 w-3.5 text-purple-400" />
-              <span>फॉर्मेटिंग त्रुटि (UI Glitch)</span>
+              <span>Format Issue / Glitch</span>
             </div>
             {activeFlag?.flagType === "formatting" && (
               <Check className="h-3.5 w-3.5 text-purple-400" />
@@ -483,14 +483,14 @@ export function AdminQuestionFlagMenu({
 
           <div className="space-y-3 py-2">
             <p className="text-xs text-muted-foreground">
-              यहाँ विवरण लिखें ताकि AI एजेंट या एडमिन तुरंत समझ सके (उदा. &quot;सही उत्तर C होना चाहिए&quot;, &quot;Set 2 Q5 जैसा समान है&quot;):
+              Provide details for the audit report (e.g. &quot;Option C should be correct&quot;, &quot;Duplicate of Set 2 Q5&quot;):
             </p>
             <Textarea
               value={noteInput}
               onChange={(e) => setNoteInput(e.target.value)}
-              placeholder="e.g. सही उत्तर विकल्प (स) होना चाहिए क्योंकि..."
+              placeholder="e.g. Correct answer should be option C because..."
               rows={3}
-              className="font-hindi text-sm"
+              className="text-sm"
             />
           </div>
 
@@ -501,7 +501,7 @@ export function AdminQuestionFlagMenu({
               size="sm"
               onClick={() => setIsNoteDialogOpen(false)}
             >
-              रद्द करें (Cancel)
+              Cancel
             </Button>
             <Button
               type="button"
@@ -509,7 +509,7 @@ export function AdminQuestionFlagMenu({
               onClick={handleSaveNote}
               disabled={isSaving}
             >
-              सुरक्षित करें (Save Note)
+              Save Note
             </Button>
           </DialogFooter>
         </DialogContent>

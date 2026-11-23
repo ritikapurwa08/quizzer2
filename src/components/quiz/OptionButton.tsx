@@ -34,7 +34,7 @@ export function OptionButton({
       disabled={disabled}
       aria-pressed={selected}
       className={cn(
-        "group flex min-h-12 w-full items-center gap-3 rounded-xl border px-3.5 py-3 text-left",
+        "group flex min-h-12 w-full items-center gap-3 rounded-md border px-3.5 py-3 text-left",
         "transition-[background-color,border-color,box-shadow,transform] duration-150",
         "select-none outline-none",
         "focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:ring-offset-1 focus-visible:ring-offset-background",
@@ -50,7 +50,7 @@ export function OptionButton({
         !disabled && "active:scale-[0.995]",
         disabled && "cursor-default",
         // Print-specific compact styling & high-contrast color preservation
-        "print:min-h-0 print:py-1.5 print:px-2.5 print:rounded-lg print:gap-2 print:border",
+        "print:min-h-0 print:py-1.5 print:px-2.5 print:rounded-md print:gap-2 print:border",
         !correctness && "print:border-neutral-300 print:bg-white print:text-neutral-900",
         correctness === "correct" &&
           "print:border-emerald-600! print:bg-emerald-50! print:text-emerald-950!",
@@ -60,7 +60,7 @@ export function OptionButton({
     >
       <span
         className={cn(
-          "flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border text-sm font-medium",
+          "flex h-8 w-8 shrink-0 items-center justify-center rounded-md border text-sm font-medium",
           "transition-colors",
           !selected && !correctness &&
             "border-border bg-muted text-muted-foreground group-hover:border-foreground/30",

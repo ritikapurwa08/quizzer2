@@ -88,18 +88,18 @@ export function PwaRegistrar() {
             </div>
             <div className="flex-1">
               <p className="text-xs font-semibold text-zinc-100">
-                नया अपडेट उपलब्ध है
+                Update available
               </p>
               <p className="text-[11px] text-zinc-400">
-                नवीनतम फीचर्स और सुधार लागू करने के लिए रिफ्रेश करें।
+                Refresh to apply the latest platform improvements.
               </p>
             </div>
             <button
               type="button"
               onClick={handleUpdate}
-              className="px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-medium transition-colors shrink-0 cursor-pointer"
+              className="px-3 py-1.5 rounded-md bg-primary hover:bg-primary/90 text-primary-foreground text-xs font-medium transition-colors shrink-0 cursor-pointer"
             >
-              रिफ्रेश
+              Refresh
             </button>
           </div>
         </div>

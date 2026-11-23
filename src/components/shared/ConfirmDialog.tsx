@@ -41,10 +41,10 @@ export function ConfirmDialog({
 }: ConfirmDialogProps) {
   return (
     <Dialog open={open} onOpenChange={(val) => !isLoading && onOpenChange(val)}>
-      <DialogContent className="rounded-2xl border border-border bg-card shadow-xl max-w-sm p-5 sm:p-6">
+      <DialogContent className="rounded-md border border-border bg-card shadow-xl max-w-sm p-5 sm:p-6">
         <div className="flex items-start gap-3 mb-2">
           {variant === "destructive" && (
-            <div className="p-2 rounded-xl bg-destructive/10 text-destructive shrink-0 mt-0.5">
+            <div className="p-2 rounded-md bg-destructive/10 text-destructive shrink-0 mt-0.5">
               <AlertTriangle className="h-4 w-4" />
             </div>
           )}
@@ -60,7 +60,7 @@ export function ConfirmDialog({
 
         {/* Optional Question Status Breakdown (for test submission) */}
         {stats && (
-          <div className="my-3 p-3 rounded-xl border border-border bg-muted/30 grid grid-cols-3 gap-2 text-center">
+          <div className="my-3 p-3 rounded-md border border-border bg-muted/30 grid grid-cols-3 gap-2 text-center">
             <div className="space-y-0.5">
               <span className="flex items-center justify-center gap-1 text-[10px] uppercase font-bold text-primary">
                 <CheckCircle2 className="h-3 w-3" /> Answered
@@ -84,7 +84,7 @@ export function ConfirmDialog({
 
             <div className="space-y-0.5">
               <span className="flex items-center justify-center gap-1 text-[10px] uppercase font-bold text-muted-foreground">
-                <Bookmark className="h-3 w-3" /> Flagged
+                <Bookmark className="h-3 w-3" /> Saved
               </span>
               <p className="text-sm font-bold text-foreground tabular-nums">
                 {stats.bookmarked ?? 0}
@@ -97,7 +97,7 @@ export function ConfirmDialog({
           <Button
             variant="outline"
             disabled={isLoading}
-            className="h-9 px-3.5 text-xs font-semibold rounded-xl border-border cursor-pointer disabled:opacity-50"
+            className="h-9 min-w-[90px] px-3.5 text-xs font-semibold rounded-md border-border cursor-pointer disabled:opacity-50"
             onClick={() => onOpenChange(false)}
           >
             Cancel
@@ -106,8 +106,9 @@ export function ConfirmDialog({
             variant={variant === "destructive" ? "destructive" : "default"}
             disabled={isLoading}
             className={cn(
-              "h-9 px-4 text-xs font-semibold rounded-xl cursor-pointer transition-all gap-1.5",
-              isLoading && "cursor-wait opacity-90"
+              "h-9 min-w-[110px] px-4 text-xs font-semibold rounded-md cursor-pointer transition-all gap-1.5",
+              isLoading && "cursor-wait opacity-90",
+              variant === "primary" && "bg-primary hover:bg-primary/90 text-primary-foreground shadow-xs"
             )}
             onClick={async () => {
               if (isLoading) return;

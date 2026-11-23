@@ -96,33 +96,33 @@ export function PwaInstallPrompt() {
 
           <div className="flex-1 pr-6">
             <h4 className="text-sm font-semibold text-zinc-100">
-              Quizzer PWA ऐप इंस्टॉल करें
+              Install Quizzer App
             </h4>
             <p className="text-xs text-zinc-400 mt-0.5 leading-relaxed">
-              तेज़ स्पीड, ऑफ़लाइन मोड और बिना किसी रुकावट के राजस्थान GK रिवीज़न जारी रखें।
+              Fast performance, offline revision, and instant practice.
             </p>
 
             {isIOS && !deferredPrompt ? (
-              <div className="mt-2.5 p-2 rounded-lg bg-zinc-950/60 border border-zinc-800 text-[11px] text-zinc-300 flex items-center gap-2">
+              <div className="mt-2.5 p-2 rounded-md bg-zinc-950/60 border border-zinc-800 text-[11px] text-zinc-300 flex items-center gap-2">
                 <Share className="h-4 w-4 text-sky-400 shrink-0" />
-                <span>Safari में <strong>Share</strong> दबाएँ फिर <strong>&quot;Add to Home Screen&quot;</strong> चुनें।</span>
+                <span>In Safari tap <strong>Share</strong> then select <strong>&quot;Add to Home Screen&quot;</strong>.</span>
               </div>
             ) : (
               <div className="mt-3 flex items-center gap-2">
                 <button
                   type="button"
                   onClick={handleInstallClick}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-medium shadow-sm transition-colors cursor-pointer"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-primary hover:bg-primary/90 text-primary-foreground text-xs font-medium shadow-sm transition-colors cursor-pointer"
                 >
                   <Download className="h-3.5 w-3.5" />
-                  इंस्टॉल करें
+                  Install App
                 </button>
                 <button
                   type="button"
                   onClick={handleDismiss}
-                  className="px-2.5 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-400 hover:text-zinc-200 text-xs transition-colors cursor-pointer"
+                  className="px-2.5 py-1.5 rounded-md bg-zinc-800 hover:bg-zinc-700 text-zinc-400 hover:text-zinc-200 text-xs transition-colors cursor-pointer"
                 >
-                  बाद में
+                  Later
                 </button>
               </div>
             )}
@@ -131,7 +131,7 @@ export function PwaInstallPrompt() {
           <button
             type="button"
             onClick={handleDismiss}
-            aria-label="बंद करें"
+            aria-label="Close"
             className="absolute top-3 right-3 text-zinc-400 hover:text-zinc-200 p-1 rounded-md transition-colors cursor-pointer"
           >
             <X className="h-4 w-4" />

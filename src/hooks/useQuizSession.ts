@@ -132,9 +132,13 @@ export function useQuizSession(testSetId: Id<"testSets">) {
         localStorage.removeItem(`quiz_current_index_${String(testSetId)}`);
       } catch {}
     }
-    start({ testSetId, retake: isRetake }).then((id) => {
-      if (isMounted) setAttemptId(id);
-    });
+    start({ testSetId, retake: isRetake })
+      .then((id) => {
+        if (isMounted) setAttemptId(id);
+      })
+      .catch((e) => {
+        console.error("Attempt start error in Convex:", e);
+      });
     return () => {
       isMounted = false;
     };
@@ -150,19 +154,21 @@ export function useQuizSession(testSetId: Id<"testSets">) {
 
   const [localSetQuestions, setLocalSetQuestions] = useState<any[]>([]);
 
+  // Immediately fetch local set questions on mount in parallel for sub-30ms instant quiz loading
   useEffect(() => {
-    // If preview mode OR if Convex questions table doesn't have the questions, fetch from static published sets
-    if (isPreview || (data && (!data.questions || data.questions.length === 0))) {
-      fetch(`/api/sets/${testSetId}`)
-        .then((res) => res.json())
-        .then((json) => {
-          if (json.success && json.set?.questions) {
-            setLocalSetQuestions(json.set.questions);
-          }
-        })
-        .catch((e) => console.error("Local set fetch error:", e));
-    }
-  }, [data, testSetId, isPreview]);
+    let isMounted = true;
+    fetch(`/api/sets/${testSetId}`)
+      .then((res) => res.json())
+      .then((json) => {
+        if (isMounted && json.success && json.set?.questions) {
+          setLocalSetQuestions(json.set.questions);
+        }
+      })
+      .catch((e) => console.error("Local set fetch error:", e));
+    return () => {
+      isMounted = false;
+    };
+  }, [testSetId]);
 
   const resolvedQuestions =
     data?.questions && data.questions.length > 0
@@ -448,6 +454,6 @@ export function useQuizSession(testSetId: Id<"testSets">) {
     pause,
     resume,
     submit,
-    isLoading: isPreview ? localSetQuestions.length === 0 : !data,
+    isLoading: resolvedQuestions.length === 0,
   };
 }

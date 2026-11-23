@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { DATA_PATHS } from "@/lib/dataPaths";
+import { MARATHON_SLUG_MAP } from "@/lib/marathonSlugMap";
 import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
 import { healOptionText } from "@/lib/optionTextHealer";
 
@@ -482,13 +483,16 @@ export function listMockTestSummaries(): any[] {
 }
 
 export function getHydratedPublishedSet(setId: string): HydratedSet | null {
+  const targetId = MARATHON_SLUG_MAP[setId] || setId;
   const manifests = getPublishedManifests();
-  const match = manifests.find((s) => s.id === setId || (s as any).setId === setId || (s as any)._id === setId);
+  const match = manifests.find(
+    (s) => s.id === targetId || s.id === setId || (s as any).setId === targetId || (s as any)._id === targetId
+  );
   if (match) {
     return hydrateSet(match);
   }
 
-  const mock = getMockTestById(setId);
+  const mock = getMockTestById(targetId) || getMockTestById(setId);
   if (mock) {
     return mock;
   }

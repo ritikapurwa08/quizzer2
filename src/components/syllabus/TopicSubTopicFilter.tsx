@@ -31,13 +31,13 @@ export function TopicSubTopicFilter({
           type="button"
           onClick={() => onSelect("all")}
           className={cn(
-            "px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 font-hindi",
+            "px-3 py-1.5 rounded-md text-xs font-medium whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 border border-border",
             activeSubTopic === "all"
-              ? "bg-primary text-primary-foreground shadow-xs font-semibold"
-              : "bg-muted/60 text-muted-foreground hover:bg-muted hover:text-foreground"
+              ? "bg-primary text-primary-foreground border-primary shadow-xs font-semibold"
+              : "bg-card text-muted-foreground hover:bg-muted hover:text-foreground"
           )}
         >
-          <span>सभी सेट्स</span>
+          <span>All Sets</span>
           <span
             className={cn(
               "text-[10px] px-1.5 py-0.2 rounded-full font-bold",

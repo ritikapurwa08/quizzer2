@@ -33,7 +33,7 @@ interface LoadingStateProps {
 }
 
 export function LoadingState({
-  message = "लोड हो रहा है…",
+  message = "Loading...",
   subMessage,
   className,
   size = "md",
@@ -47,7 +47,7 @@ export function LoadingState({
     >
       <LoadingSpinner size={size} />
       <div className="space-y-1">
-        <p className="text-sm font-semibold text-foreground font-hindi">{message}</p>
+        <p className="text-sm font-semibold text-foreground">{message}</p>
         {subMessage && (
           <p className="text-xs text-muted-foreground">{subMessage}</p>
         )}

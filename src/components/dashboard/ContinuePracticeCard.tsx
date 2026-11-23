@@ -13,8 +13,8 @@ import { ArrowRight } from "lucide-react";
  */
 function parseSetDisplay(name: string, fallbackTopic?: string) {
   const match = name.match(/(?:भाग|Part|Set)\s*(\d+)/i);
-  const isEnglish = /english|अंग्रेजी/i.test(fallbackTopic || name) || /^[A-Za-z0-9\s:,\-\(\)]+$/.test(name);
-  const partLabel = match ? (isEnglish ? `Part ${match[1]}` : `भाग ${match[1]}`) : (isEnglish ? "Part 1" : "भाग 1");
+  const partNum = match ? match[1] : "1";
+  const partLabel = `Part ${partNum}`;
   
   const rawTitle = fallbackTopic && fallbackTopic.trim().length > 0 ? fallbackTopic.trim() : name;
   let cleanTitle = rawTitle
@@ -118,12 +118,12 @@ export function ContinuePracticeCard() {
                   {isResume ? (
                     <>
                       <span className="h-1.5 w-1.5 rounded-full bg-cyan-400 shrink-0" />
-                      <span className="font-hindi">{partLabel} · Resume</span>
+                      <span className="font-medium text-foreground/80">{partLabel} · Resume</span>
                     </>
                   ) : (
                     <>
                       <span className="h-1.5 w-1.5 rounded-full bg-muted-foreground/60 shrink-0" />
-                      <span className="font-hindi">{partLabel} · Start</span>
+                      <span className="font-medium text-foreground/80">{partLabel} · Start</span>
                     </>
                   )}
                 </div>

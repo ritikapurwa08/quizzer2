@@ -173,9 +173,9 @@ export function SimilarQuestionsCarousel({
 
             {/* Explanation if available */}
             {currentQ.explanation && (
-              <div className="mt-2 pt-2 border-t border-border/50 text-[11px] sm:text-xs text-muted-foreground leading-relaxed font-hindi">
-                <span className="font-semibold text-foreground/80">व्याख्या: </span>
-                {currentQ.explanation}
+              <div className="mt-2 pt-2 border-t border-border/50 text-[11px] sm:text-xs text-muted-foreground leading-relaxed">
+                <span className="font-semibold text-foreground/80">Explanation: </span>
+                <span className="font-hindi">{currentQ.explanation}</span>
               </div>
             )}
           </div>

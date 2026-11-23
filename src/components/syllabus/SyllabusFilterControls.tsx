@@ -42,7 +42,7 @@ export function SyllabusFilterControls({
           type="button"
           onClick={() => onScopeChange("all")}
           className={cn(
-            "whitespace-nowrap shrink-0 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none flex items-center gap-2 border-0",
+            "whitespace-nowrap shrink-0 px-3.5 py-1.5 rounded-md text-xs font-semibold transition-all cursor-pointer select-none flex items-center gap-2 border border-border",
             scope === "all"
               ? "bg-foreground text-background shadow-xs font-bold"
               : "bg-card text-muted-foreground hover:text-foreground hover:bg-muted/60"
@@ -51,13 +51,13 @@ export function SyllabusFilterControls({
           <span>All Topics</span>
           <span
             className={cn(
-              "text-[10px] px-1.5 py-0.2 rounded-full font-bold",
+              "text-[10px] px-1.5 py-0.2 rounded-md font-bold",
               scope === "all"
                 ? "bg-background/20 text-background"
                 : "bg-muted text-muted-foreground"
             )}
           >
-            88
+            80
           </span>
         </button>
 
@@ -65,22 +65,22 @@ export function SyllabusFilterControls({
           type="button"
           onClick={() => onScopeChange("rajasthan_gk")}
           className={cn(
-            "whitespace-nowrap shrink-0 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none flex items-center gap-2 border-0",
+            "whitespace-nowrap shrink-0 px-3.5 py-1.5 rounded-md text-xs font-semibold transition-all cursor-pointer select-none flex items-center gap-2 border border-border",
             scope === "rajasthan_gk"
-              ? "bg-primary text-primary-foreground shadow-xs font-bold"
+              ? "bg-primary text-primary-foreground border-primary shadow-xs font-bold"
               : "bg-card text-muted-foreground hover:text-foreground hover:bg-muted/60"
           )}
         >
           <span>राजस्थान GK (Paper-I)</span>
           <span
             className={cn(
-              "text-[10px] px-1.5 py-0.2 rounded-full font-bold",
+              "text-[10px] px-1.5 py-0.2 rounded-md font-bold",
               scope === "rajasthan_gk"
                 ? "bg-primary-foreground/20 text-primary-foreground"
                 : "bg-muted text-muted-foreground"
             )}
           >
-            55
+            47
           </span>
         </button>
 
@@ -88,16 +88,16 @@ export function SyllabusFilterControls({
           type="button"
           onClick={() => onScopeChange("english")}
           className={cn(
-            "whitespace-nowrap shrink-0 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none flex items-center gap-2 border-0",
+            "whitespace-nowrap shrink-0 px-3.5 py-1.5 rounded-md text-xs font-semibold transition-all cursor-pointer select-none flex items-center gap-2 border border-border",
             scope === "english"
-              ? "bg-primary text-primary-foreground shadow-xs font-bold"
+              ? "bg-primary text-primary-foreground border-primary shadow-xs font-bold"
               : "bg-card text-muted-foreground hover:text-foreground hover:bg-muted/60"
           )}
         >
           <span>English (Paper-II)</span>
           <span
             className={cn(
-              "text-[10px] px-1.5 py-0.2 rounded-full font-bold",
+              "text-[10px] px-1.5 py-0.2 rounded-md font-bold",
               scope === "english"
                 ? "bg-primary-foreground/20 text-primary-foreground"
                 : "bg-muted text-muted-foreground"

@@ -25,6 +25,7 @@ interface ScoreSummaryCardProps {
   unansweredCount: number;
   testSetId: string;
   nextSet?: any | null;
+  isLoadingNextSet?: boolean;
   activeFilter?: string;
   onPrint: () => void;
   onShare: () => void;
@@ -41,6 +42,7 @@ export function ScoreSummaryCard({
   unansweredCount,
   testSetId,
   nextSet,
+  isLoadingNextSet,
   activeFilter,
   onPrint,
   onShare,
@@ -151,12 +153,20 @@ export function ScoreSummaryCard({
         </div>
 
         {/* 4. Right side: Next Set */}
-        {nextSet ? (
+        {isLoadingNextSet ? (
+          <Button
+            disabled
+            variant="outline"
+            className="font-bold text-xs h-10 px-5 rounded-md border-border gap-1.5 opacity-60 text-muted-foreground"
+          >
+            Finding next set...
+          </Button>
+        ) : nextSet ? (
           <Button
             asChild
-            className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-xs"
+            className="font-bold text-xs h-10 px-5 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-xs"
           >
-            <Link href={`/quiz/${nextSet._id || (nextSet as any).id}`}>
+            <Link href={`/quiz/${nextSet._id || (nextSet as any).id}`} prefetch={true}>
               Next Set
               <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
             </Link>
@@ -165,9 +175,9 @@ export function ScoreSummaryCard({
           <Button
             asChild
             variant="outline"
-            className="font-bold text-xs h-10 px-5 rounded-xl border-border gap-1.5 cursor-pointer shadow-xs text-foreground hover:bg-muted/80"
+            className="font-bold text-xs h-10 px-5 rounded-md border-border gap-1.5 cursor-pointer shadow-xs text-foreground hover:bg-muted/80"
           >
-            <Link href="/subjects">
+            <Link href="/subjects" prefetch={true}>
               <LayoutList className="h-3.5 w-3.5" aria-hidden="true" />
               All Topics
             </Link>

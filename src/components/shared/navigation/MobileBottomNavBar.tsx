@@ -37,10 +37,10 @@ export function MobileBottomNavBar({
           const pillContent = (
             <div
               className={cn(
-                "flex flex-col items-center justify-center gap-1 w-full py-1.5 px-1 rounded-xl transition-all select-none border-0",
+                "flex flex-col items-center justify-center gap-1 w-full py-1.5 px-1 rounded-md transition-all select-none border",
                 active
-                  ? "bg-primary/10 text-primary border border-primary/20 font-medium shadow-2xs"
-                  : "bg-transparent text-muted-foreground hover:text-foreground border-0 font-normal"
+                  ? "bg-primary/10 text-primary border-primary/20 font-medium shadow-2xs"
+                  : "bg-transparent text-muted-foreground hover:text-foreground border-transparent font-normal"
               )}
             >
               <Icon
@@ -65,6 +65,7 @@ export function MobileBottomNavBar({
               <Link
                 key={item.href}
                 href={item.href}
+                prefetch={true}
                 onPointerDown={onProfilePointerDown}
                 onPointerUp={onProfilePointerUp}
                 onPointerLeave={onProfilePointerLeave}
@@ -80,6 +81,7 @@ export function MobileBottomNavBar({
             <Link
               key={item.href}
               href={item.href}
+              prefetch={true}
               className="w-full flex items-center justify-center cursor-pointer border-0"
               aria-current={active ? "page" : undefined}
             >

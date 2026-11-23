@@ -61,14 +61,14 @@ export function QuestionShell({
       <div className="mb-2 sm:mb-2.5 flex items-center justify-between gap-1.5 sm:gap-2 min-w-0">
         <div className="flex min-w-0 flex-1 items-center gap-1 sm:gap-1.5 overflow-hidden">
           {/* 1. Question number: fixed / non-shrinking */}
-          <span className="flex h-5.5 min-w-5.5 sm:h-6.5 sm:min-w-6.5 shrink-0 items-center justify-center rounded-full bg-muted px-1 text-[11px] sm:text-xs font-semibold tabular-nums text-foreground">
+          <span className="flex h-6 min-w-6 sm:h-7 sm:min-w-7 shrink-0 items-center justify-center rounded-md border border-border bg-muted px-1.5 text-xs font-semibold tabular-nums text-foreground">
             {number}
           </span>
 
           {reviewBadge && (
             <Badge
               className={cn(
-                "inline-flex shrink-0 items-center gap-1 rounded-full border px-1.5 py-0.5 text-[10px] sm:text-[11px] font-medium whitespace-nowrap",
+                "inline-flex shrink-0 items-center gap-1 rounded-md border px-1.5 py-0.5 text-[10px] sm:text-[11px] font-medium whitespace-nowrap",
                 reviewBadge === "correct" &&
                 "border-success/25 bg-success/10 text-success",
                 reviewBadge === "incorrect" &&
@@ -107,7 +107,7 @@ export function QuestionShell({
               onClick={handleBookmarkClick}
               aria-label={isBookmarked ? "Remove bookmark" : "Save question"}
               className={cn(
-                "flex h-7 sm:h-8 shrink-0 items-center gap-1.5 rounded-lg border px-2 sm:px-2.5 text-[11px] sm:text-xs font-medium",
+                "flex h-7 sm:h-8 shrink-0 items-center gap-1.5 rounded-md border px-2 sm:px-2.5 text-[11px] sm:text-xs font-medium",
                 "transition-colors active:scale-[0.98] cursor-pointer",
                 isBookmarked
                   ? "border-primary bg-primary text-primary-foreground hover:bg-primary/90"
@@ -145,7 +145,7 @@ export function QuestionShell({
   if (unwrapped) return <div className="w-full">{content}</div>;
 
   return (
-    <div className="w-full rounded-2xl border border-border bg-card p-4 sm:p-5 shadow-xs">
+    <div className="w-full rounded-md border border-border bg-card p-4 sm:p-5 shadow-xs">
       {content}
     </div>
   );

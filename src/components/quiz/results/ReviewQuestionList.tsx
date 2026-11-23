@@ -24,14 +24,14 @@ export function ReviewQuestionList({
 }: ReviewQuestionListProps) {
   if (filteredQuestionsWithIndex.length === 0) {
     return (
-      <p className="text-sm text-muted-foreground text-center py-10 font-hindi">
+      <p className="text-sm text-muted-foreground text-center py-10">
         {reviewFilter === "incorrect"
-          ? "शाबाश! आपने इस टेस्ट में कोई गलत उत्तर नहीं दिया।"
+          ? "Great job! You had no incorrect answers in this test."
           : reviewFilter === "correct"
-          ? "इस टेस्ट में कोई सही उत्तर नहीं है।"
+          ? "No correct answers recorded for this test."
           : reviewFilter === "unattempted"
-          ? "शाबाश! आपने सभी प्रश्नों के उत्तर दिए हैं।"
-          : "कोई प्रश्न उपलब्ध नहीं है।"}
+          ? "Great job! You attempted all questions in this test."
+          : "No questions available in this filter."}
       </p>
     );
   }

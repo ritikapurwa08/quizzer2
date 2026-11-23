@@ -47,12 +47,12 @@ export function DesktopQuizSidebar({
     <div className="hidden lg:block w-68 shrink-0 self-stretch">
       <div className="sticky top-6 space-y-3 max-h-[calc(100vh-2rem)] overflow-y-auto scrollbar-none pb-2">
         {/* Progress & Timer card */}
-        <div className="rounded-xl border border-border bg-card p-4 space-y-3">
+        <div className="rounded-md border border-border bg-card p-4 space-y-3 shadow-xs">
           <div className="flex items-center justify-between">
             <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
               Progress
             </span>
-            <span className="text-xs font-bold text-primary bg-primary/10 px-2.5 py-0.5 rounded-full tabular-nums">
+            <span className="text-xs font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-0.5 rounded-md tabular-nums">
               {answeredCount} / {totalQuestions} Solved
             </span>
           </div>
@@ -69,10 +69,10 @@ export function DesktopQuizSidebar({
             </div>
             <div
               className={cn(
-                "flex items-center gap-1.5 font-mono text-sm font-bold px-2 py-1 rounded-lg transition-colors",
+                "flex items-center gap-1.5 font-mono text-sm font-bold px-2 py-1 rounded-md border transition-colors",
                 remainingSeconds < 120
-                  ? "bg-destructive/15 text-destructive border border-destructive/30 animate-pulse"
-                  : "bg-muted text-foreground"
+                  ? "bg-destructive/15 text-destructive border-destructive/30 animate-pulse"
+                  : "bg-muted text-foreground border-border/80"
               )}
             >
               <Clock className="h-4 w-4 text-primary" aria-hidden="true" />
@@ -87,9 +87,9 @@ export function DesktopQuizSidebar({
             size="sm"
             onClick={isPaused ? onResume : onPause}
             className={cn(
-              "w-full h-8 text-xs font-bold rounded-xl gap-1.5 cursor-pointer transition-colors",
+              "w-full h-8 text-xs font-bold rounded-md gap-1.5 cursor-pointer transition-colors border",
               isPaused
-                ? "bg-primary text-primary-foreground hover:bg-primary/90"
+                ? "bg-primary text-primary-foreground border-primary hover:bg-primary/90"
                 : "border-border hover:bg-muted"
             )}
           >
@@ -123,7 +123,7 @@ export function DesktopQuizSidebar({
               size="sm"
               onClick={onPrev}
               disabled={isPaused || currentIndex === 0}
-              className="font-semibold text-xs h-10 rounded-xl border-border cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+              className="font-semibold text-xs h-10 min-w-[120px] rounded-md border-border cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed shadow-2xs"
               aria-label="Previous question"
             >
               ← Prev
@@ -133,14 +133,14 @@ export function DesktopQuizSidebar({
               size="sm"
               onClick={onNext}
               disabled={isPaused || isLastQuestion}
-              className="font-semibold text-xs h-10 rounded-xl border-border cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+              className="font-semibold text-xs h-10 min-w-[120px] rounded-md border-border cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed shadow-2xs"
               aria-label="Next question"
             >
               Next →
             </Button>
           </div>
           <Button
-            className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-xs h-10 rounded-xl cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed shadow-md shadow-primary/20 transition-colors"
+            className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-xs h-10 rounded-md cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed shadow-md shadow-primary/20 transition-colors"
             onClick={onSubmit}
             disabled={isPaused || isSubmitting}
           >
@@ -154,10 +154,10 @@ export function DesktopQuizSidebar({
             )}
           </Button>
           <Button
-            variant="ghost"
+            variant="outline"
             size="sm"
             onClick={onExit}
-            className="w-full h-8 text-xs font-semibold rounded-xl text-muted-foreground hover:text-foreground gap-1.5 cursor-pointer"
+            className="w-full h-8 text-xs font-semibold rounded-md border border-border bg-card hover:bg-destructive/10 hover:border-destructive/40 text-muted-foreground hover:text-destructive gap-1.5 cursor-pointer transition-colors"
           >
             <DoorOpen className="h-3.5 w-3.5" />
             Exit Test

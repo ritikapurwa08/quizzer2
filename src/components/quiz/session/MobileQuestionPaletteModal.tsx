@@ -56,13 +56,13 @@ export function MobileQuestionPaletteModal({
         role="dialog"
         aria-modal="true"
         aria-label="Question Navigation Palette"
-        className="fixed inset-x-0 bottom-0 z-50 lg:hidden rounded-t-3xl border-t border-border bg-card p-4 pb-6 shadow-2xl safe-bottom max-h-[75vh] flex flex-col animate-in slide-in-from-bottom duration-250"
+        className="fixed inset-x-0 bottom-0 z-50 lg:hidden rounded-t-xl border-t border-border bg-card p-4 pb-6 shadow-2xl safe-bottom max-h-[75vh] flex flex-col animate-in slide-in-from-bottom duration-250"
       >
         {/* Drag Handle */}
         <div className="h-1.5 w-12 rounded-full bg-muted-foreground/30 mx-auto mb-3 shrink-0" />
 
         {/* ── Section 1: Full Quiz Header (Spacious layout with natural wrapping) ── */}
-        <div className="rounded-2xl border border-border/80 bg-muted/30 p-3.5 mb-3 shrink-0 space-y-3">
+        <div className="rounded-md border border-border/80 bg-muted/30 p-3.5 mb-3 shrink-0 space-y-3">
           {/* Row A: Test Name (Natural wrapping) + Close X Button */}
           <div className="flex items-start justify-between gap-3">
             <h2 className="font-bold text-sm sm:text-base text-foreground font-hindi leading-snug flex-1">
@@ -71,7 +71,7 @@ export function MobileQuestionPaletteModal({
             <button
               type="button"
               onClick={onClose}
-              className="h-8 w-8 rounded-xl border border-border/80 bg-card hover:bg-muted text-muted-foreground hover:text-foreground flex items-center justify-center cursor-pointer transition-colors shrink-0 shadow-2xs"
+              className="h-8 w-8 rounded-md border border-border/80 bg-card hover:bg-muted text-muted-foreground hover:text-foreground flex items-center justify-center cursor-pointer transition-colors shrink-0 shadow-2xs"
               aria-label="Close question navigation"
             >
               <X className="h-4 w-4" />
@@ -87,7 +87,7 @@ export function MobileQuestionPaletteModal({
               size="sm"
               onClick={isPaused ? onResume : onPause}
               className={cn(
-                "h-8 px-3 rounded-xl text-xs font-semibold gap-1.5 cursor-pointer shrink-0 border-border/80",
+                "h-8 px-3 rounded-md text-xs font-semibold gap-1.5 cursor-pointer shrink-0 border-border/80",
                 isPaused
                   ? "bg-primary text-primary-foreground border-primary hover:bg-primary/90"
                   : "bg-card hover:bg-muted text-foreground"
@@ -110,7 +110,7 @@ export function MobileQuestionPaletteModal({
             <div
               onClick={onToggleTimerMode}
               className={cn(
-                "inline-flex items-center justify-center gap-1.5 h-8 px-3 rounded-xl font-mono text-xs font-bold tabular-nums shrink-0 transition-colors border select-none cursor-pointer",
+                "inline-flex items-center justify-center gap-1.5 h-8 px-3 rounded-md font-mono text-xs font-bold tabular-nums shrink-0 transition-colors border select-none cursor-pointer",
                 isPaused
                   ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 border-amber-500/30"
                   : remainingSeconds < 120
@@ -140,13 +140,13 @@ export function MobileQuestionPaletteModal({
               )}
             </div>
 
-            {/* Exit Button with clear label */}
+            {/* Exit Button with clear label and visible border */}
             <Button
               type="button"
               variant="outline"
               size="sm"
               onClick={onExit}
-              className="h-8 px-3 rounded-xl text-xs font-semibold text-muted-foreground hover:text-destructive hover:border-destructive/40 border-border/80 bg-card hover:bg-destructive/5 gap-1.5 cursor-pointer shrink-0"
+              className="h-8 px-3 rounded-md text-xs font-semibold text-muted-foreground hover:text-destructive hover:border-destructive/40 border border-border/80 bg-card hover:bg-destructive/5 gap-1.5 cursor-pointer shrink-0"
             >
               <DoorOpen className="h-3.5 w-3.5" />
               <span>Exit</span>
@@ -164,12 +164,12 @@ export function MobileQuestionPaletteModal({
               {answeredCount} of {questions.length} answered ({percentageSolved}%)
             </p>
           </div>
-          <span className="text-xs font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-0.5 rounded-full tabular-nums">
+          <span className="text-xs font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-0.5 rounded-md tabular-nums">
             {answeredCount}/{questions.length} Solved
           </span>
         </div>
 
-        {/* ── Section 3: Status Legend ── */}
+        {/* ── Section 3: Status Legend (Current, Answered, Unanswered) ── */}
         <div className="flex items-center justify-between text-[10px] text-muted-foreground py-2 border-y border-border/60 px-1 shrink-0 select-none flex-wrap gap-1">
           <span className="flex items-center gap-1.5">
             <span className="h-2 w-2 rounded-full bg-primary shrink-0" />
@@ -182,10 +182,6 @@ export function MobileQuestionPaletteModal({
           <span className="flex items-center gap-1.5">
             <span className="h-2 w-2 rounded-full bg-muted border border-border shrink-0" />
             <span>Unanswered</span>
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span className="h-2 w-2 rounded-full bg-amber-500 shrink-0" />
-            <span>Flagged</span>
           </span>
         </div>
 
@@ -230,7 +226,7 @@ export function MobileQuestionPaletteModal({
                     onClose();
                   }}
                   className={cn(
-                    "relative flex flex-col items-center justify-center h-11 rounded-xl text-xs font-bold transition-all select-none shadow-2xs border",
+                    "relative flex flex-col items-center justify-center h-11 rounded-md text-xs font-bold transition-all select-none shadow-2xs border",
                     isPaused
                       ? "opacity-50 cursor-not-allowed border-border/60 bg-muted/30"
                       : isCurrent

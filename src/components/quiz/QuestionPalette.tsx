@@ -28,7 +28,7 @@ export function QuestionPalette({
       role="navigation"
       aria-label="Question Navigation Palette"
       className={cn(
-        "grid grid-cols-5 gap-2 sm:gap-2.5 p-3 rounded-2xl border border-border bg-card shadow-xs",
+        "grid grid-cols-5 gap-2 sm:gap-2.5 p-3 rounded-md border border-border bg-card shadow-xs",
         disabled && "opacity-60 pointer-events-none select-none",
         className
       )}
@@ -53,7 +53,7 @@ export function QuestionPalette({
             aria-label={`Question ${i + 1} (${statusLabel}${bookmarkLabel})`}
             title={disabled ? "Test is paused" : `Question ${i + 1}: ${statusLabel}`}
             className={cn(
-              "relative flex h-10 w-full min-w-9 items-center justify-center rounded-xl border text-xs sm:text-sm font-semibold tabular-nums transition-colors select-none outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
+              "relative flex h-10 w-full min-w-9 items-center justify-center rounded-md border text-xs sm:text-sm font-semibold tabular-nums transition-colors select-none outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
               disabled ? "cursor-not-allowed opacity-75" : "cursor-pointer active:scale-95",
               // Current Active Question
               isCurrent
@@ -75,7 +75,7 @@ export function QuestionPalette({
         );
       })}
 
-      {/* ── Compact Palette Status Legend ── */}
+      {/* ── Compact Palette Status Legend (Current, Answered, Unanswered) ── */}
       <div className="col-span-5 pt-2.5 mt-1 border-t border-border/60 flex items-center justify-between text-[11px] text-muted-foreground flex-wrap gap-2 select-none">
         <span className="flex items-center gap-1.5">
           <span className="h-2 w-2 rounded-full bg-primary shrink-0" />
@@ -88,10 +88,6 @@ export function QuestionPalette({
         <span className="flex items-center gap-1.5">
           <span className="h-2 w-2 rounded-full bg-background border border-border/80 shrink-0" />
           <span>Unanswered</span>
-        </span>
-        <span className="flex items-center gap-1.5">
-          <span className="h-2 w-2 rounded-full bg-foreground shrink-0" />
-          <span>Flagged</span>
         </span>
       </div>
     </div>

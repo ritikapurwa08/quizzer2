@@ -358,18 +358,28 @@ export const nextRecommendedSets = query({
     const isEnglishSubject = (name: string) => /english|अंग्रेजी/i.test(name);
 
     // 1. Fetch user in-progress attempts (newest first)
-    const inProgressAttempts = await ctx.db
+    const rawInProgress = await ctx.db
       .query("attempts")
       .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "in_progress"))
       .order("desc")
       .take(10);
 
-    // 2. Fetch submitted attempts (newest first, limit to 8 to avoid N+1 DB churn)
+    // Filter out expired or stale abandoned attempts (> 24h old or elapsed >= duration)
+    const inProgressAttempts = rawInProgress.filter((a) => {
+      const elapsed = a.elapsedSeconds ?? 0;
+      const duration = a.totalDurationSeconds ?? 1200;
+      if (elapsed >= duration) return false;
+      const lastActive = a.lastResumedAt || a.startedAt;
+      if (Date.now() - lastActive > 24 * 3600 * 1000) return false;
+      return true;
+    });
+
+    // 2. Fetch submitted attempts (newest first, up to 50 for accurate completion tracking)
     const submittedAttempts = await ctx.db
       .query("attempts")
       .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "submitted"))
       .order("desc")
-      .take(8);
+      .take(50);
 
     const completedSetIds = new Set(submittedAttempts.map((a) => a.testSetId as string));
     const addedSetIds = new Set<string>();
@@ -410,52 +420,32 @@ export const nextRecommendedSets = query({
     const recommendations: RecommendedItem[] = [];
     const seenTopics = new Set<string>();
 
-    // ── STEP 1: RESUME MOST RECENT IN-PROGRESS ATTEMPT (Top 1 priority) ──
-    for (const inProgress of inProgressAttempts) {
-      if (recommendations.length >= 1) break;
-      const testSet = await ctx.db.get(inProgress.testSetId);
-      if (!testSet || testSet.isArchived || addedSetIds.has(testSet._id as string)) continue;
-      const topic = await ctx.db.get(testSet.topicId);
-      if (!topic || seenTopics.has(topic._id as string)) continue;
-      const subject = await ctx.db.get(topic.subjectId);
-      if (!subject) continue;
+    const latestSubmitted = submittedAttempts[0];
+    const latestInProgress = inProgressAttempts[0];
+    const latestSubmitTime = latestSubmitted?.submittedAt ?? (latestSubmitted as any)?.completedAt ?? 0;
+    const latestProgressTime = latestInProgress?.lastResumedAt ?? latestInProgress?.startedAt ?? 0;
+    const prioritizeNextInTopic = latestSubmitTime >= latestProgressTime;
+
+    // Helper to find and push next set in topic
+    async function tryAddNextInTopic(sub: any) {
+      let testSet: Doc<"testSets"> | null = null;
+      try {
+        testSet = (await ctx.db.get(sub.testSetId as Id<"testSets">)) as Doc<"testSets"> | null;
+      } catch {
+        testSet = null;
+      }
+      if (!testSet || testSet.isArchived) return false;
+      const topic = (await getTopicCached(testSet.topicId)) as Doc<"topics"> | null;
+      if (!topic || seenTopics.has(topic._id as string)) return false;
+      const subject = (await getSubjectCached(topic.subjectId)) as Doc<"subjects"> | null;
+      if (!subject) return false;
 
       const subName = subject.nameHindi || subject.name;
-
-      recommendations.push({
-        testSetId: testSet._id,
-        testSetName: testSet.name,
-        topicId: topic._id,
-        topicName: topic.nameHindi || topic.name,
-        subjectId: subject._id,
-        subjectName: subName,
-        questionCount: testSet.questionCount,
-        badgeText: "Resume Attempt",
-        type: "resume",
-      });
-
-      addedSetIds.add(testSet._id as string);
-      seenTopics.add(topic._id as string);
-    }
-
-    // ── STEP 2: NEXT IN SEQUENCE FOR RECENTLY SUBMITTED TOPICS (Instant next part progression) ──
-    for (const sub of submittedAttempts) {
-      if (recommendations.length >= limit) break;
-      const testSet = await ctx.db.get(sub.testSetId);
-      if (!testSet || testSet.isArchived) continue;
-      const topic = await getTopicCached(testSet.topicId);
-      if (!topic || seenTopics.has(topic._id as string)) continue;
-      const subject = await getSubjectCached(topic.subjectId);
-      if (!subject) continue;
-
-      const subName = subject.nameHindi || subject.name;
-
-      // Find sibling sets in this topic ordered by order (exclude archived) with cache
       const topicKey = String(testSet.topicId);
       if (!siblingCache.has(topicKey)) {
         const sets = (await ctx.db
           .query("testSets")
-          .withIndex("by_topic", (q) => q.eq("topicId", testSet.topicId))
+          .withIndex("by_topic", (q) => q.eq("topicId", testSet!.topicId))
           .collect()).filter((s) => !s.isArchived);
         sets.sort((a, b) => a.order - b.order);
         siblingCache.set(topicKey, sets);
@@ -463,7 +453,7 @@ export const nextRecommendedSets = query({
       const siblingSets = siblingCache.get(topicKey) || [];
 
       const nextSet = siblingSets.find(
-        (s) => s.order > testSet.order && !completedSetIds.has(s._id as string) && !addedSetIds.has(s._id as string)
+        (s) => s.order > testSet!.order && !completedSetIds.has(s._id as string) && !addedSetIds.has(s._id as string)
       );
 
       if (nextSet) {
@@ -481,7 +471,61 @@ export const nextRecommendedSets = query({
 
         addedSetIds.add(nextSet._id as string);
         seenTopics.add(topic._id as string);
+        return true;
       }
+      return false;
+    }
+
+    // Helper to add in-progress resume item
+    async function tryAddInProgress(inProgress: any) {
+      let testSet: Doc<"testSets"> | null = null;
+      try {
+        testSet = (await ctx.db.get(inProgress.testSetId as Id<"testSets">)) as Doc<"testSets"> | null;
+      } catch {
+        testSet = null;
+      }
+      if (!testSet || testSet.isArchived || addedSetIds.has(testSet._id as string)) return false;
+      const topic = (await getTopicCached(testSet.topicId)) as Doc<"topics"> | null;
+      if (!topic || seenTopics.has(topic._id as string)) return false;
+      const subject = (await getSubjectCached(topic.subjectId)) as Doc<"subjects"> | null;
+      if (!subject) return false;
+
+      const subName = subject.nameHindi || subject.name;
+
+      recommendations.push({
+        testSetId: testSet._id,
+        testSetName: testSet.name,
+        topicId: topic._id,
+        topicName: topic.nameHindi || topic.name,
+        subjectId: subject._id,
+        subjectName: subName,
+        questionCount: testSet.questionCount,
+        badgeText: "Resume Attempt",
+        type: "resume",
+      });
+
+      addedSetIds.add(testSet._id as string);
+      seenTopics.add(topic._id as string);
+      return true;
+    }
+
+    // ── STAGE 1: Most recent action takes Top Priority ──
+    if (prioritizeNextInTopic && latestSubmitted) {
+      await tryAddNextInTopic(latestSubmitted);
+    } else if (latestInProgress) {
+      await tryAddInProgress(latestInProgress);
+    }
+
+    // ── STAGE 2: Add other active in-progress attempts ──
+    for (const inProgress of inProgressAttempts) {
+      if (recommendations.length >= limit) break;
+      await tryAddInProgress(inProgress);
+    }
+
+    // ── STAGE 3: Add next in sequence for other recent submitted topics ──
+    for (const sub of submittedAttempts) {
+      if (recommendations.length >= limit) break;
+      await tryAddNextInTopic(sub);
     }
 
     // ── STEP 3: ADDITIONAL IN-PROGRESS ATTEMPTS (If slots remain) ──

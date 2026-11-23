@@ -35,10 +35,10 @@ export function DesktopNavSection({
             const Icon = item.icon;
 
             const navItemClasses = cn(
-              "w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-sm transition-all group select-none cursor-pointer border-0",
+              "w-full flex items-center justify-between px-3.5 py-2.5 rounded-md text-sm transition-all group select-none cursor-pointer border",
               active
-                ? "bg-primary/10 text-primary border border-primary/20 font-medium shadow-2xs"
-                : "bg-transparent text-muted-foreground hover:bg-muted/50 hover:text-foreground border-0 font-normal"
+                ? "bg-primary/10 text-primary border-primary/20 font-medium shadow-2xs"
+                : "bg-transparent text-muted-foreground hover:bg-muted/50 hover:text-foreground border-transparent font-normal"
             );
 
             if (isProfile) {
@@ -46,6 +46,7 @@ export function DesktopNavSection({
                 <Link
                   key={item.href}
                   href={item.href}
+                  prefetch={true}
                   onPointerDown={onProfilePointerDown}
                   onPointerUp={onProfilePointerUp}
                   onPointerLeave={onProfilePointerLeave}
@@ -69,6 +70,7 @@ export function DesktopNavSection({
               <Link
                 key={item.href}
                 href={item.href}
+                prefetch={true}
                 className={navItemClasses}
               >
                 <div className="flex items-center gap-3 min-w-0">
