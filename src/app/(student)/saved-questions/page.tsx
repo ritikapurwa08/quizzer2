@@ -16,7 +16,7 @@ import { getSubjectDisplayName, getTopicDisplayName, cn } from "@/lib/utils";
 import { resolveQuestions } from "@/lib/questionsClient";
 import { Question } from "@/types";
 
-const WRONG_PAGE_SIZE = 15;
+const WRONG_PAGE_SIZE = 10;
 const BOOKMARK_PAGE_SIZE = 10;
 
 const SORT_OPTIONS = [

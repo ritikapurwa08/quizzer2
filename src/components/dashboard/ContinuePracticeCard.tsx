@@ -70,9 +70,9 @@ export function ContinuePracticeCard() {
   const isPreview = typeof window !== "undefined" && window.location.search.includes("preview=true");
   const fallbackMock = [
     { testSetId: "mock-1", testSetName: "अपवाह तंत्र, नदियाँ एवं झीलें भाग 25", topicName: "अपवाह तंत्र, नदियाँ एवं झीलें", questionCount: 20, type: "resume" as const },
-    { testSetId: "mock-2", testSetName: "अपवाह तंत्र, नदियाँ एवं झीलें भाग 17", topicName: "अपवाह तंत्र, नदियाँ एवं झीलें", questionCount: 20, type: "resume" as const },
+    { testSetId: "mock-2", testSetName: "राजस्थान का भौतिक स्वरूप एवं भूगोल भाग 16", topicName: "राजस्थान का भौतिक स्वरूप एवं भूगोल", questionCount: 20, type: "resume" as const },
     { testSetId: "mock-3", testSetName: "राजस्थान का सामान्य ज्ञान भाग 1", topicName: "राजस्थान का सामान्य ज्ञान", questionCount: 20, type: "next_in_topic" as const },
-    { testSetId: "mock-4", testSetName: "पारंपरिक जल स्रोत एवं जल प्रबंधन भाग 1", topicName: "पारंपरिक जल स्रोत एवं जल प्रबंधन", questionCount: 20, type: "new_topic" as const },
+    { testSetId: "mock-4", testSetName: "राजस्थान की प्राचीन सभ्यताएँ Part 1", topicName: "राजस्थान की प्राचीन सभ्यताएँ एवं पुरातात्विक स्थल", questionCount: 20, type: "new_topic" as const },
   ];
 
   const rawList = recommendations && recommendations.length > 0 ? recommendations : isPreview ? fallbackMock : [];

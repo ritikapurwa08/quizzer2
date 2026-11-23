@@ -657,7 +657,7 @@ export const historyByUser = query({
     try {
       user = await requireUser(ctx);
     } catch {
-      return { page: [], isDone: true, continueCursor: "" };
+      return { page: [], isDone: true, continueCursor: "", totalCount: 0 };
     }
     const { numItems, cursor } = args.paginationOpts;
 
@@ -735,6 +735,7 @@ export const historyByUser = query({
       page: withMeta,
       isDone,
       continueCursor: isDone ? null : String(startIdx + numItems),
+      totalCount: allSubmitted.length,
     };
   },
 });

@@ -13,7 +13,7 @@ import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 import { ListChecks } from "lucide-react";
 import { getSubjectDisplayName, getTopicDisplayName } from "@/lib/utils";
 
-const PAGE_SIZE = 15;
+const PAGE_SIZE = 10;
 
 export default function HistoryPage() {
   const [selectedSubjectId, setSelectedSubjectId] = useState("all");
@@ -22,9 +22,9 @@ export default function HistoryPage() {
 
   const subjects = useQuery(api.subjects.list) ?? [];
 
-  // Load history (quota-protected batch size)
+  // Load history (quota-protected batch size: 10 at first for instant page load, expands dynamically)
   const result = useQuery(api.attempts.historyByUser, {
-    paginationOpts: { numItems: 60, cursor: null },
+    paginationOpts: { numItems: Math.min((page + 1) * PAGE_SIZE, 100), cursor: null },
   });
 
   // Load topics for the selected subject
@@ -66,11 +66,12 @@ export default function HistoryPage() {
     });
   }, [allItems, selectedSubjectId, selectedTopicId]);
 
-  // Client-side pagination
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  // Pagination logic (loads 10 at first, fetches more dynamically on Next)
+  const totalAttemptsCount = (result as any)?.totalCount ?? filtered.length;
+  const totalPages = Math.max(1, Math.ceil(totalAttemptsCount / PAGE_SIZE));
   const safePage = Math.min(page, totalPages - 1);
   const pageItems = filtered.slice(safePage * PAGE_SIZE, safePage * PAGE_SIZE + PAGE_SIZE);
-  const isLastPage = safePage >= totalPages - 1;
+  const isLastPage = result?.isDone ? safePage >= totalPages - 1 : false;
 
   function handleSubjectChange(v: string) {
     setSelectedSubjectId(v);
@@ -112,7 +113,7 @@ export default function HistoryPage() {
           />
           {result && (
             <div className="inline-flex items-center px-2.5 py-1.5 rounded-md text-xs font-medium bg-muted/80 text-muted-foreground border border-border whitespace-nowrap">
-              {filtered.length} {filtered.length === 1 ? "attempt" : "attempts"}
+              {totalAttemptsCount} {totalAttemptsCount === 1 ? "attempt" : "attempts"}
             </div>
           )}
         </div>
@@ -177,7 +178,7 @@ export default function HistoryPage() {
         )}
 
         {/* Pagination */}
-        {result !== undefined && filtered.length > PAGE_SIZE && (
+        {result !== undefined && totalPages > 1 && (
           <div className="mt-4 pt-3 border-t border-border/60">
             <Pagination
               page={safePage}
