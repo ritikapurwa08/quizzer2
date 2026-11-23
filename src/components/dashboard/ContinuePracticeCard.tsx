@@ -13,26 +13,21 @@ import { ArrowRight } from "lucide-react";
  */
 function parseSetDisplay(name: string, fallbackTopic?: string) {
   const match = name.match(/(?:भाग|Part|Set)\s*(\d+)/i);
-  const partLabel = match ? (name.includes("भाग") ? `भाग ${match[1]}` : `Part ${match[1]}`) : "भाग 1";
+  const isEnglish = /english|अंग्रेजी/i.test(fallbackTopic || name) || /^[A-Za-z0-9\s:,\-\(\)]+$/.test(name);
+  const partLabel = match ? (isEnglish ? `Part ${match[1]}` : `भाग ${match[1]}`) : (isEnglish ? "Part 1" : "भाग 1");
   
-  if (fallbackTopic && fallbackTopic.trim().length > 0) {
-    return {
-      cleanTitle: fallbackTopic.trim(),
-      partLabel,
-    };
-  }
-
-  let cleanTitle = name
+  const rawTitle = fallbackTopic && fallbackTopic.trim().length > 0 ? fallbackTopic.trim() : name;
+  let cleanTitle = rawTitle
     .replace(/(?:भाग|Part|Set)\s*\d+/i, "")
     .replace(/[-–—:]\s*$/, "")
     .trim();
 
-  if (cleanTitle.length > 25) {
-    cleanTitle = cleanTitle.replace(/^राजस्थान (?:का|के|की)\s+/i, "");
+  if (cleanTitle.length > 28) {
+    cleanTitle = cleanTitle.replace(/^राजस्थान (?:का|के|की|में)\s+/i, "");
   }
 
   return {
-    cleanTitle: cleanTitle || name,
+    cleanTitle: cleanTitle || rawTitle,
     partLabel,
   };
 }

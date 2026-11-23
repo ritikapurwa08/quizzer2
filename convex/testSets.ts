@@ -410,9 +410,9 @@ export const nextRecommendedSets = query({
     const recommendations: RecommendedItem[] = [];
     const seenTopics = new Set<string>();
 
-    // ── STEP 1: RESUME IN-PROGRESS ATTEMPTS (Strictly 1 set per topic) ──
+    // ── STEP 1: RESUME MOST RECENT IN-PROGRESS ATTEMPT (Top 1 priority) ──
     for (const inProgress of inProgressAttempts) {
-      if (recommendations.length >= 2) break;
+      if (recommendations.length >= 1) break;
       const testSet = await ctx.db.get(inProgress.testSetId);
       if (!testSet || testSet.isArchived || addedSetIds.has(testSet._id as string)) continue;
       const topic = await ctx.db.get(testSet.topicId);
@@ -438,7 +438,7 @@ export const nextRecommendedSets = query({
       seenTopics.add(topic._id as string);
     }
 
-    // ── STEP 2: NEXT IN SEQUENCE FOR RECENTLY SUBMITTED TOPICS ──
+    // ── STEP 2: NEXT IN SEQUENCE FOR RECENTLY SUBMITTED TOPICS (Instant next part progression) ──
     for (const sub of submittedAttempts) {
       if (recommendations.length >= limit) break;
       const testSet = await ctx.db.get(sub.testSetId);
@@ -482,6 +482,34 @@ export const nextRecommendedSets = query({
         addedSetIds.add(nextSet._id as string);
         seenTopics.add(topic._id as string);
       }
+    }
+
+    // ── STEP 3: ADDITIONAL IN-PROGRESS ATTEMPTS (If slots remain) ──
+    for (const inProgress of inProgressAttempts) {
+      if (recommendations.length >= 3) break;
+      const testSet = await ctx.db.get(inProgress.testSetId);
+      if (!testSet || testSet.isArchived || addedSetIds.has(testSet._id as string)) continue;
+      const topic = await ctx.db.get(testSet.topicId);
+      if (!topic || seenTopics.has(topic._id as string)) continue;
+      const subject = await ctx.db.get(topic.subjectId);
+      if (!subject) continue;
+
+      const subName = subject.nameHindi || subject.name;
+
+      recommendations.push({
+        testSetId: testSet._id,
+        testSetName: testSet.name,
+        topicId: topic._id,
+        topicName: topic.nameHindi || topic.name,
+        subjectId: subject._id,
+        subjectName: subName,
+        questionCount: testSet.questionCount,
+        badgeText: "Resume Attempt",
+        type: "resume",
+      });
+
+      addedSetIds.add(testSet._id as string);
+      seenTopics.add(topic._id as string);
     }
 
     // ── STEP 3: FRESH UNATTEMPTED SETS ACROSS DIVERSE TOPICS ──
