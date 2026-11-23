@@ -19,8 +19,8 @@ export default function StudentError({
 
   return (
     <div className="flex items-center justify-center min-h-[60vh] px-4">
-      <Card className="max-w-md w-full p-6 text-center space-y-4 rounded-2xl border border-border bg-card shadow-sm">
-        <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-destructive/15 text-destructive">
+      <Card className="max-w-md w-full p-6 text-center space-y-4 rounded-md border border-border bg-card shadow-xs">
+        <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-md bg-destructive/15 text-destructive">
           <AlertCircle className="h-6 w-6" />
         </div>
 
@@ -36,7 +36,7 @@ export default function StudentError({
         <div className="flex items-center justify-center gap-3 pt-2">
           <Button
             onClick={() => reset()}
-            className="rounded-xl font-bold text-xs h-10 px-4 gap-1.5 cursor-pointer"
+            className="rounded-md font-bold text-xs h-10 px-4 gap-1.5 cursor-pointer"
           >
             <RotateCcw className="h-3.5 w-3.5" />
             पुनः प्रयास करें (Retry)
@@ -45,7 +45,7 @@ export default function StudentError({
           <Button
             asChild
             variant="outline"
-            className="rounded-xl font-semibold text-xs h-10 px-4 gap-1.5 border-border hover:bg-muted"
+            className="rounded-md font-semibold text-xs h-10 px-4 gap-1.5 border-border hover:bg-muted"
           >
             <Link href="/dashboard">
               <Home className="h-3.5 w-3.5" />

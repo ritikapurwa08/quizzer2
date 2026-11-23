@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { ListChecks, ArrowRight, Target } from "lucide-react";
 
 const STORAGE_KEY = "quizzer_syllabus_completed_v2";
-const RAJASTHAN_GK_TOTAL_TOPICS = 55;
+const RAJASTHAN_GK_TOTAL_TOPICS = 47;
 
 export function SyllabusOverviewCard() {
   const [completedCount, setCompletedCount] = useState<number>(0);
@@ -39,7 +39,7 @@ export function SyllabusOverviewCard() {
       : 0;
 
   return (
-    <Card className="p-4 sm:p-5 rounded-xl border border-zinc-800 hover:border-zinc-700 transition-colors shadow-none bg-[#121214] overflow-hidden">
+    <Card className="p-4 sm:p-5 rounded-md border border-border hover:border-border/80 transition-colors shadow-xs bg-card overflow-hidden">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div className="space-y-1.5 min-w-0 flex-1">
           <div className="flex items-center gap-2 flex-wrap">
@@ -52,11 +52,11 @@ export function SyllabusOverviewCard() {
             </Badge>
           </div>
           <p className="text-xs text-muted-foreground leading-relaxed">
-            Track your exam coverage across all 55 canonical Rajasthan GK master topics.
+            Track your exam coverage across all 47 canonical Rajasthan GK master topics.
           </p>
         </div>
 
-        <Button asChild variant="outline" size="sm" className="rounded-xl shrink-0 h-9 px-3.5 text-xs font-semibold shadow-2xs cursor-pointer border-border/80 bg-background hover:bg-muted text-foreground">
+        <Button asChild variant="outline" size="sm" className="rounded-md shrink-0 h-9 px-3.5 text-xs font-semibold shadow-2xs cursor-pointer border-border bg-background hover:bg-muted text-foreground">
           <Link href="/syllabus" className="inline-flex items-center gap-1.5">
             Open Syllabus Tracker <ArrowRight className="h-3.5 w-3.5" />
           </Link>

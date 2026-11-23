@@ -19,7 +19,7 @@ export function AnalyticsSkeleton() {
       {/* 2x2 grid skeleton */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5">
         {Array.from({ length: 4 }).map((_, i) => (
-          <Card key={i} className="rounded-2xl border border-border/80 bg-card p-4 sm:p-5 shadow-xs">
+          <Card key={i} className="rounded-md border border-border bg-card p-4 sm:p-5 shadow-xs">
             <CardHeader className="p-0 pb-4">
               <div className="flex items-center justify-between">
                 <div className="space-y-2">

@@ -111,9 +111,9 @@ export default function manifest(): MetadataRoute.Manifest {
         ],
       },
       {
-        name: "55 टॉपिक्स सिलेबस (Syllabus)",
+        name: "47 टॉपिक्स सिलेबस (Syllabus)",
         short_name: "पाठ्यक्रम",
-        description: "RPSC 2nd Grade राजस्थान GK के सभी 55 टॉपिक्स",
+        description: "RPSC 2nd Grade राजस्थान GK के सभी 47 टॉपिक्स",
         url: "/syllabus",
         icons: [
           {

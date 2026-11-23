@@ -73,7 +73,7 @@ export function SubjectAccuracyChart({ data }: SubjectAccuracyChartProps) {
   }, [subjectsList]);
 
   return (
-    <Card className="rounded-2xl border-0 bg-card shadow-xs flex flex-col justify-between overflow-hidden">
+    <Card className="rounded-md border border-border bg-card shadow-xs flex flex-col justify-between overflow-hidden">
       {/* ── Card Header ── */}
       <CardHeader className="p-4 sm:p-5 pb-2 border-0">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">

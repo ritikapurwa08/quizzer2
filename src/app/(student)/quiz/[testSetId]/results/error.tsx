@@ -19,8 +19,8 @@ export default function ResultsError({
 
   return (
     <div className="flex items-center justify-center min-h-[60vh] px-4">
-      <Card className="max-w-md w-full p-6 text-center space-y-4 rounded-2xl border border-border bg-card shadow-sm">
-        <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-destructive/15 text-destructive">
+      <Card className="max-w-md w-full p-6 text-center space-y-4 rounded-md border border-border bg-card shadow-xs">
+        <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-md bg-destructive/15 text-destructive">
           <AlertTriangle className="h-6 w-6" />
         </div>
 
@@ -33,7 +33,7 @@ export default function ResultsError({
             कृपया पुनः प्रयास करें या डैशबोर्ड पर जाकर टेस्ट हिस्ट्री देखें।
           </p>
           {error?.message && (
-            <p className="text-[11px] font-mono text-destructive/90 bg-destructive/10 p-2.5 rounded-xl break-all mt-2">
+            <p className="text-[11px] font-mono text-destructive/90 bg-destructive/10 p-2.5 rounded-md break-all mt-2">
               {error.message}
             </p>
           )}
@@ -49,7 +49,7 @@ export default function ResultsError({
               }
             }}
             variant="default"
-            className="rounded-xl font-bold text-xs h-10 px-4 gap-1.5 cursor-pointer"
+            className="rounded-md font-bold text-xs h-10 px-4 gap-1.5 cursor-pointer"
           >
             <RotateCcw className="h-3.5 w-3.5" />
             पुनः प्रयास करें (Try Again)
@@ -58,7 +58,7 @@ export default function ResultsError({
           <Button
             asChild
             variant="outline"
-            className="rounded-xl font-semibold text-xs h-10 px-4 gap-1.5 border-border hover:bg-muted"
+            className="rounded-md font-semibold text-xs h-10 px-4 gap-1.5 border-border hover:bg-muted"
           >
             <Link href="/dashboard">
               <Home className="h-3.5 w-3.5" />

@@ -50,7 +50,7 @@ export function ScoreSummaryCard({
   const totalMarks = totalQuestions * 2;
 
   return (
-    <Card className="p-5 sm:p-6 border border-border shadow-xs rounded-2xl text-center bg-card">
+    <Card className="p-5 sm:p-6 border border-border shadow-xs rounded-md text-center bg-card">
       <p className="text-xs font-semibold text-muted-foreground uppercase tracking-widest mb-2 font-hindi">
         {setName || "Test Result"}
       </p>

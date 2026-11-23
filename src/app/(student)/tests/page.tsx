@@ -60,7 +60,7 @@ export default function TestsPage() {
           Full-Length Mock Paper (संपूर्ण मॉडल पेपर)
         </h2>
 
-        <Card className="p-4 sm:p-5 border border-primary/30 bg-gradient-to-br from-card via-card to-primary/5 rounded-xl shadow-xs space-y-4">
+        <Card className="p-4 sm:p-5 border border-primary/30 bg-gradient-to-br from-card via-card to-primary/5 rounded-md shadow-xs space-y-4">
           <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
             <div className="space-y-1.5 flex-1 min-w-0">
               <div className="flex items-center gap-2 flex-wrap">
@@ -122,7 +122,7 @@ export default function TestsPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
           {CET_SECTIONAL_SETS.map((item, idx) => (
             <Link key={item.id} href={`/quiz/${item.id}`} className="block focus-visible:outline-hidden">
-              <Card className="p-3.5 border border-border bg-card hover:border-primary/50 hover:shadow-xs transition-all group rounded-xl flex flex-col justify-between min-h-[5.5rem] select-none">
+              <Card className="p-3.5 border border-border bg-card hover:border-primary/50 hover:shadow-xs transition-all group rounded-md flex flex-col justify-between min-h-[5.5rem] select-none shadow-xs">
                 <div className="space-y-1">
                   <div className="flex items-center justify-between">
                     <span className="flex h-5 w-5 items-center justify-center rounded-sm text-[11px] font-bold bg-muted text-foreground group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
@@ -162,7 +162,7 @@ export default function TestsPage() {
             href="/subjects/k97dhqwj29j3cgm6wj9ngkyg3x8gr3yg/kh7b51w8xzbz3s6wx6437zzhg18gs4zm"
             className="block focus-visible:outline-hidden"
           >
-            <Card className="p-4 border border-border bg-card hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl flex items-center justify-between gap-3">
+            <Card className="p-4 border border-border bg-card hover:border-foreground/30 hover:shadow-xs transition-all rounded-md flex items-center justify-between gap-3 shadow-xs">
               <div className="space-y-1 flex-1 min-w-0">
                 <Badge variant="outline" className="text-[10px] text-primary border-primary/20 bg-primary/5">
                   500 MCQs Series
@@ -180,7 +180,7 @@ export default function TestsPage() {
 
           {/* Rajasthan GK Syllabus Card */}
           <Link href="/subjects" className="block focus-visible:outline-hidden">
-            <Card className="p-4 border border-border bg-card hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl flex items-center justify-between gap-3">
+            <Card className="p-4 border border-border bg-card hover:border-foreground/30 hover:shadow-xs transition-all rounded-md flex items-center justify-between gap-3 shadow-xs">
               <div className="space-y-1 flex-1 min-w-0">
                 <Badge variant="outline" className="text-[10px] text-foreground border-border bg-muted">
                   RPSC Master Syllabus

@@ -91,6 +91,23 @@ export const isBookmarked = query({
   },
 });
 
+export const countByUser = query({
+  args: {},
+  handler: async (ctx) => {
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return 0;
+    }
+    const bookmarks = await ctx.db
+      .query("bookmarks")
+      .withIndex("by_user", (q) => q.eq("userId", user._id))
+      .collect();
+    return bookmarks.length;
+  },
+});
+
 export const toggle = mutation({
   args: {
     questionId: v.string(),

@@ -46,7 +46,7 @@ export function SyllabusSelect({
     >
       <SelectTrigger
         className={cn(
-          "h-10 w-full text-sm font-medium bg-card border border-border rounded-xl px-3 font-hindi",
+          "h-10 w-full text-sm font-medium bg-card border border-border rounded-md px-3 font-hindi min-w-0",
           className
         )}
       >
@@ -58,14 +58,14 @@ export function SyllabusSelect({
           }}
         </SelectValue>
       </SelectTrigger>
-      <SelectContent className="bg-popover border-border max-h-60">
+      <SelectContent className="bg-popover border border-border rounded-md max-h-60 min-w-[var(--anchor-width,14rem)] max-w-[calc(100vw-2rem)]">
         {options.map((opt) => {
           const displayLabel = getSubjectDisplayName(opt);
           return (
             <SelectItem
               key={opt._id}
               value={opt._id}
-              className="text-sm font-medium cursor-pointer font-hindi"
+              className="text-sm font-medium cursor-pointer font-hindi rounded-md"
             >
               {displayLabel}
             </SelectItem>

@@ -84,10 +84,10 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
   // Topics within the currently selected scope
   const scopedTopics = useMemo(() => {
     if (scope === "rajasthan_gk") {
-      return MASTER_TOPICS_LIST.filter((t) => t.id <= 55);
+      return MASTER_TOPICS_LIST.filter((t) => t.id <= 47);
     }
     if (scope === "english") {
-      return MASTER_TOPICS_LIST.filter((t) => t.id > 55);
+      return MASTER_TOPICS_LIST.filter((t) => t.id >= 48);
     }
     return MASTER_TOPICS_LIST;
   }, [scope]);

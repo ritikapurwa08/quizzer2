@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { Card } from "@/components/ui/card";
 
 interface SubjectCardProps {
   id: string;
@@ -124,7 +125,7 @@ export function SubjectCard({ id, name, slug = "", setCount = 0 }: SubjectCardPr
 
   return (
     <Link href={`/subjects/${id}`} className="block focus-visible:outline-hidden group h-full">
-      <div className="bg-[#121214] border border-zinc-800 hover:border-zinc-700 rounded-xl p-4 sm:p-4.5 transition-all duration-200 cursor-pointer flex flex-col justify-between h-full min-h-[105px] relative overflow-hidden select-none">
+      <Card className="rounded-md border border-border bg-card hover:border-border/80 p-4 sm:p-4.5 transition-all duration-200 cursor-pointer flex flex-col justify-between h-full min-h-[105px] relative overflow-hidden select-none shadow-xs">
         {/* Subtle hover accent illumination */}
         <div className={`absolute -top-12 -right-12 w-28 h-28 rounded-full blur-2xl opacity-0 group-hover:opacity-15 transition-opacity duration-300 pointer-events-none ${meta.glowClass}`} />
 
@@ -137,13 +138,13 @@ export function SubjectCard({ id, name, slug = "", setCount = 0 }: SubjectCardPr
         </div>
 
         {/* Bottom Row: Dynamic Practice Sets Count + Interactive Hover Arrow */}
-        <div className="flex items-center justify-between pt-2 border-t border-zinc-800/60 text-xs text-muted-foreground font-subject">
+        <div className="flex items-center justify-between pt-2 border-t border-border/60 text-xs text-muted-foreground font-subject">
           <span className="text-[11px] font-medium tracking-tight text-muted-foreground group-hover:text-foreground/90 transition-colors">
             {setCount > 0 ? `${setCount} Practice Sets` : `${meta.topicCount * 5}+ Sets Available`}
           </span>
-          <ArrowUpRight className="h-3.5 w-3.5 text-zinc-500 group-hover:text-foreground group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-150" />
+          <ArrowUpRight className="h-3.5 w-3.5 text-muted-foreground group-hover:text-foreground group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-150" />
         </div>
-      </div>
+      </Card>
     </Link>
   );
 }

@@ -234,7 +234,7 @@ export default function ResultsPage() {
   ) {
     return (
       <div className="w-full space-y-4 pt-1">
-        <div className="h-48 rounded-2xl border border-border bg-card/60 p-6 animate-pulse" />
+        <div className="h-48 rounded-md border border-border bg-card/60 p-6 animate-pulse" />
         <QuestionShellSkeleton />
       </div>
     );
@@ -243,16 +243,16 @@ export default function ResultsPage() {
   // ── Test Set Not Found & No Results ──
   if (effectiveSet === null && data === null) {
     return (
-      <Card className="p-8 border border-border rounded-2xl text-center bg-card max-w-md mx-auto my-12 shadow-sm">
+      <Card className="p-8 border border-border rounded-md text-center bg-card max-w-md mx-auto my-12 shadow-xs">
         <p className="text-base font-bold text-foreground mb-2">Test Set Not Found</p>
         <p className="text-xs text-muted-foreground mb-6">
           This test set does not exist or may have been updated.
         </p>
         <div className="flex justify-center gap-3">
-          <Button asChild className="rounded-xl">
+          <Button asChild className="rounded-md">
             <Link href="/dashboard">Back to Dashboard</Link>
           </Button>
-          <Button asChild variant="outline" className="rounded-xl">
+          <Button asChild variant="outline" className="rounded-md">
             <Link href="/subjects">Browse All Subjects</Link>
           </Button>
         </div>
@@ -263,18 +263,18 @@ export default function ResultsPage() {
   // ── Empty / Unattempted state ──
   if (!data || !data.attempt) {
     return (
-      <Card className="p-8 border border-border rounded-2xl text-center bg-card max-w-md mx-auto my-12 shadow-sm">
+      <Card className="p-8 border border-border rounded-md text-center bg-card max-w-md mx-auto my-12 shadow-xs">
         <p className="text-base font-bold text-foreground mb-2">No Test Results Found</p>
         <p className="text-xs text-muted-foreground mb-6">
           You haven&apos;t completed this test set yet, or your attempt is still in progress.
         </p>
         <div className="flex justify-center gap-3">
           {effectiveSet ? (
-            <Button asChild className="rounded-xl">
+            <Button asChild className="rounded-md">
               <Link href={`/quiz/${id}`}>Start Test Now</Link>
             </Button>
           ) : null}
-          <Button asChild variant={effectiveSet ? "outline" : "default"} className="rounded-xl">
+          <Button asChild variant={effectiveSet ? "outline" : "default"} className="rounded-md">
             <Link href="/dashboard">Back to Dashboard</Link>
           </Button>
         </div>

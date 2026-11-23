@@ -43,7 +43,7 @@ export function QuestionReviewFilter({
         }}
       >
         <SelectTrigger
-          className="h-9 w-full sm:w-56 rounded-xl border border-border bg-card hover:bg-card/90 px-3 text-xs font-semibold transition-colors shadow-2xs cursor-pointer select-none gap-2"
+          className="h-9 w-full sm:w-56 rounded-md border border-border bg-card hover:bg-card/90 px-3 text-xs font-semibold transition-colors shadow-2xs cursor-pointer select-none gap-2 min-w-0"
           aria-label="Filter Question Review"
         >
           <div className="flex items-center gap-2 flex-1 min-w-0">
@@ -88,12 +88,12 @@ export function QuestionReviewFilter({
 
         <SelectContent
           align="end"
-          className="bg-popover border border-border shadow-xl rounded-xl min-w-56 p-1.5"
+          className="bg-popover border border-border shadow-xl rounded-md min-w-56 p-1.5"
         >
           {/* 1. All Questions */}
           <SelectItem
             value="all"
-            className="cursor-pointer text-xs font-medium py-2 rounded-lg"
+            className="cursor-pointer text-xs font-medium py-2 rounded-md"
           >
             <div className="flex items-center justify-between w-full gap-3">
               <div className="flex items-center gap-2">
@@ -109,7 +109,7 @@ export function QuestionReviewFilter({
           {/* 2. Correct */}
           <SelectItem
             value="correct"
-            className="cursor-pointer text-xs font-medium py-2 rounded-lg"
+            className="cursor-pointer text-xs font-medium py-2 rounded-md"
           >
             <div className="flex items-center justify-between w-full gap-3">
               <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400">
@@ -125,7 +125,7 @@ export function QuestionReviewFilter({
           {/* 3. Incorrect */}
           <SelectItem
             value="incorrect"
-            className="cursor-pointer text-xs font-medium py-2 rounded-lg"
+            className="cursor-pointer text-xs font-medium py-2 rounded-md"
           >
             <div className="flex items-center justify-between w-full gap-3">
               <div className="flex items-center gap-2 text-rose-600 dark:text-rose-400">
@@ -141,7 +141,7 @@ export function QuestionReviewFilter({
           {/* 4. Unattempted */}
           <SelectItem
             value="unattempted"
-            className="cursor-pointer text-xs font-medium py-2 rounded-lg"
+            className="cursor-pointer text-xs font-medium py-2 rounded-md"
           >
             <div className="flex items-center justify-between w-full gap-3">
               <div className="flex items-center gap-2 text-amber-600 dark:text-amber-400">

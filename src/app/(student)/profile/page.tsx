@@ -197,7 +197,7 @@ export default function ProfilePage() {
               </div>
               <div>
                 <p className="text-sm font-semibold text-foreground">Syllabus Tracker</p>
-                <p className="text-xs text-muted-foreground">55 Master topics checklist &amp; progress</p>
+                <p className="text-xs text-muted-foreground">47 Master topics checklist &amp; progress</p>
               </div>
             </Card>
           </Link>
@@ -252,7 +252,7 @@ export default function ProfilePage() {
               <Link href="/admin/questions">Question Editor</Link>
             </Button>
             <Button asChild size="sm" variant="outline" className="rounded-md border-border text-xs font-semibold">
-              <Link href="/admin/pool">55 Topic Pool</Link>
+              <Link href="/admin/pool">Topic Pool</Link>
             </Button>
             <Button asChild size="sm" variant="outline" className="rounded-md border-border text-xs font-semibold">
               <Link href="/admin/import">Import Test Set</Link>

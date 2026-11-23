@@ -140,9 +140,9 @@ export function AppSidebar() {
       )}
 
       {/* ── DESKTOP PERSISTENT SIDEBAR (100% Student-Identical View) ── */}
-      <aside className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0 z-30 border-0 bg-card shadow-xs print:hidden">
+      <aside className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0 z-30 border-r border-border bg-card shadow-xs print:hidden">
         {/* Brand header */}
-        <div className="p-4 flex items-center justify-between border-0">
+        <div className="p-4 flex items-center justify-between border-b border-border">
           <Link href="/dashboard" className="flex items-center">
             <BrandLogo size="md" />
           </Link>
@@ -175,9 +175,9 @@ export function AppSidebar() {
         />
       </aside>
 
-      {/* ── UNLOCKED ADMIN MODAL (Clean border-0 Dialog with ONLY 4 Admin Links) ── */}
+      {/* ── UNLOCKED ADMIN MODAL (Clean border-border Dialog with ONLY 4 Admin Links) ── */}
       <Dialog open={adminDialogOpen} onOpenChange={setAdminDialogOpen}>
-        <DialogContent className="max-w-md p-6 rounded-2xl bg-card border-0 shadow-2xl">
+        <DialogContent className="max-w-md p-6 rounded-md bg-card border border-border shadow-2xl">
           <DialogHeader>
             <div className="flex items-center gap-2.5">
               <div className="p-2.5 rounded-xl bg-amber-500/10 text-amber-500">

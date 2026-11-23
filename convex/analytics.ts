@@ -165,11 +165,11 @@ export const dashboardStats = query({
       ctx.db
         .query("bookmarks")
         .withIndex("by_user", (q) => q.eq("userId", user._id))
-        .take(200),
+        .collect(),
       ctx.db
         .query("wrongQuestions")
         .withIndex("by_user_resolved", (q) => q.eq("userId", user._id).eq("resolved", false))
-        .take(200),
+        .collect(),
       ctx.db.query("subjects").collect(),
       ctx.db.query("topics").collect(),
       Promise.all(attemptedSetIds.map((id) => ctx.db.get(id))),

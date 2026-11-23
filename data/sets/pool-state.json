@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T09:58:17.417Z",
-  "updatedAt": "2026-11-19T13:11:18.649Z",
+  "updatedAt": "2026-11-23T11:04:25.704Z",
   "architecture": "LOCAL_MASTER_POOL",
   "totalMasterPoolQuestions": 15949,
   "totalTopicAssignedQuestions": 15949,
@@ -21619,99 +21619,19 @@
       "masterTopicId": 18,
       "masterTopic": "राजस्थान में 1857 का विद्रोह एवं ब्रिटिश संधियाँ",
       "available": [
-        "rg_007615",
-        "rg_009570",
-        "rg_009574",
-        "rg_009575",
-        "rg_009559",
-        "rg_009560",
         "rg_009562",
-        "rg_009563",
-        "rg_007589",
-        "rg_007590",
-        "rg_007592",
-        "rg_007593",
-        "rg_007594",
-        "rg_007595",
-        "rg_007601",
-        "rg_007602",
-        "rg_007603",
-        "rg_007605",
-        "rg_007608",
-        "rg_007610",
-        "rg_007614",
-        "rg_007620",
-        "rg_007621",
-        "rg_007622",
-        "rg_007623",
-        "rg_007624",
-        "rg_007625",
-        "rg_007627",
-        "rg_007632",
-        "rg_009431",
-        "rg_009432",
-        "rg_009433",
-        "rg_009434",
-        "rg_009435",
-        "rg_009436",
-        "rg_009450",
-        "rg_009500",
-        "rg_009507",
-        "rg_009514",
-        "rg_009524",
-        "rg_009527",
-        "rg_009529",
-        "rg_009534",
-        "rg_009536",
-        "rg_009537",
-        "rg_009539",
-        "rg_009540",
-        "rg_009541",
-        "rg_009544",
-        "rg_009548",
-        "rg_009549",
-        "rg_009550",
-        "rg_009551",
         "rg_009555",
-        "rg_009556",
-        "rg_009557",
-        "rg_009561",
         "rg_009567",
-        "rg_009568",
-        "rg_009576",
-        "rg_009577",
-        "rg_009578",
-        "rg_009579",
-        "rg_009580",
-        "rg_009581",
-        "rg_009582",
-        "rg_009585",
-        "rg_009586",
-        "rg_009587",
         "rg_009588",
         "rg_009589",
         "rg_009590",
-        "rg_009593",
-        "rg_009594",
-        "rg_009595",
         "rg_009596",
         "rg_009597",
         "rg_009599",
-        "rg_009600",
         "rg_009602",
         "rg_009603",
         "rg_009604",
-        "rg_009605",
-        "rg_007633",
-        "rg_007591",
-        "rg_007597",
-        "rg_007600",
-        "rg_007604",
-        "rg_007606",
-        "rg_007607",
-        "rg_007609",
-        "rg_009522",
-        "rg_009416"
+        "rg_009605"
       ],
       "candidate": [],
       "used": [
@@ -22114,12 +22034,412 @@
           "id": "rg_009553",
           "usedInSet": "kd71997y67tph2dhd3zcq7ghy58erx45",
           "usedAt": "2026-11-19T13:11:18.649Z"
+        },
+        {
+          "id": "rg_009416",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007615",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_009570",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_009575",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007633",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_009559",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_009560",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_009563",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007589",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007590",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007591",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007592",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007593",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007594",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007595",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007597",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007600",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007601",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007602",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007603",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007604",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007605",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007606",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007607",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007608",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007609",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007610",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007614",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007620",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007621",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007622",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007623",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007624",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007625",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_007627",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_009431",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_009432",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_009433",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_009434",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_009435",
+          "usedInSet": "topic-18-set-006",
+          "usedAt": "2026-11-23T11:03:04.591Z"
+        },
+        {
+          "id": "rg_009574",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_007632",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009436",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009450",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009500",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009507",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009514",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009522",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009524",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009527",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009529",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009534",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009536",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009537",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009539",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009540",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009541",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009544",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009548",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009549",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009550",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009551",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009556",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009557",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009561",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009568",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009576",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009577",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009578",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009579",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009580",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009581",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009582",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009585",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009586",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009587",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009593",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009594",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009595",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
+        },
+        {
+          "id": "rg_009600",
+          "usedInSet": "topic-18-set-008",
+          "usedAt": "2026-11-23T11:04:25.704Z"
         }
       ],
       "totalAvailable": 150,
       "requeued": [],
       "rejected": [],
-      "completedSets": 4,
+      "completedSets": 8,
       "totalPool": 173
     },
     "19": {

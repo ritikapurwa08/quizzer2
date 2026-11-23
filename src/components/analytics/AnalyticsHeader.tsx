@@ -53,12 +53,12 @@ export function AnalyticsHeader({ rangeDays, onRangeChange }: AnalyticsHeaderPro
             }}
           >
             <SelectTrigger
-              className="h-9 w-44 sm:w-50 rounded-xl border border-border bg-card hover:bg-card/90 px-3 text-xs sm:text-sm font-semibold transition-colors shadow-2xs cursor-pointer select-none gap-2"
+              className="h-9 w-44 sm:w-50 rounded-md border border-border bg-card hover:bg-card/90 px-3 text-xs sm:text-sm font-semibold transition-colors shadow-2xs cursor-pointer select-none gap-2 min-w-0"
               aria-label="Filter Date Range"
             >
-              <div className="flex items-center gap-2 truncate">
+              <div className="flex items-center gap-2 min-w-0 flex-1">
                 <Calendar className="h-3.5 w-3.5 text-primary shrink-0" />
-                <SelectValue placeholder="Select Range" className="truncate">
+                <SelectValue placeholder="Select Range">
                   {(selectedValue: any) => {
                     const opt = RANGE_OPTIONS.find(
                       (o) => String(o.value) === String(selectedValue ?? rangeDays)
@@ -70,13 +70,13 @@ export function AnalyticsHeader({ rangeDays, onRangeChange }: AnalyticsHeaderPro
             </SelectTrigger>
             <SelectContent
               align="end"
-              className="bg-popover border border-border shadow-xl rounded-xl min-w-44 p-1"
+              className="bg-popover border border-border shadow-xl rounded-md min-w-44 p-1"
             >
               {RANGE_OPTIONS.map((opt) => (
                 <SelectItem
                   key={opt.value}
                   value={String(opt.value)}
-                  className="cursor-pointer text-xs font-medium py-2 rounded-lg"
+                  className="cursor-pointer text-xs font-medium py-2 rounded-md"
                 >
                   <span className="font-medium text-foreground">{opt.label}</span>
                 </SelectItem>

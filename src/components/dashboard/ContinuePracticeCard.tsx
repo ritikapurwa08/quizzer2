@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
+import { Card } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ArrowRight } from "lucide-react";
 
@@ -49,16 +50,16 @@ export function ContinuePracticeCard() {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-3">
           {Array.from({ length: 4 }).map((_, i) => (
-            <div
+            <Card
               key={i}
-              className="bg-[#121214] border border-zinc-800 rounded-xl p-4 space-y-2.5 h-full"
+              className="rounded-md border border-border bg-card p-4 space-y-2.5 h-full shadow-xs"
             >
-              <Skeleton className="h-4 w-3/4 bg-zinc-800 rounded" />
+              <Skeleton className="h-4 w-3/4 rounded" />
               <div className="flex items-center gap-2">
-                <Skeleton className="h-2 w-2 rounded-full bg-zinc-800" />
-                <Skeleton className="h-3 w-1/3 bg-zinc-800 rounded" />
+                <Skeleton className="h-2 w-2 rounded-full" />
+                <Skeleton className="h-3 w-1/3 rounded" />
               </div>
-            </div>
+            </Card>
           ))}
         </div>
       </div>
@@ -108,10 +109,10 @@ export function ContinuePracticeCard() {
               href={`/quiz/${rec.testSetId}`}
               className="block group focus-visible:outline-hidden h-full"
             >
-              <div className="bg-[#121214] border border-zinc-800 hover:border-zinc-700 rounded-xl p-4 transition-colors cursor-pointer space-y-2 h-full flex flex-col justify-center">
+              <Card className="rounded-md border border-border bg-card hover:border-border/80 p-4 transition-colors cursor-pointer space-y-2 h-full flex flex-col justify-center shadow-xs">
                 {/* Line 1: Topic title in clean white text */}
                 <h3
-                  className="text-sm font-medium text-foreground group-hover:text-foreground transition-colors font-hindi truncate"
+                  className="text-sm font-medium text-foreground group-hover:text-primary transition-colors font-hindi truncate"
                   title={cleanTitle}
                 >
                   {cleanTitle}
@@ -126,12 +127,12 @@ export function ContinuePracticeCard() {
                     </>
                   ) : (
                     <>
-                      <span className="h-1.5 w-1.5 rounded-full bg-zinc-500 shrink-0" />
+                      <span className="h-1.5 w-1.5 rounded-full bg-muted-foreground/60 shrink-0" />
                       <span className="font-hindi">{partLabel} · Start</span>
                     </>
                   )}
                 </div>
-              </div>
+              </Card>
             </Link>
           );
         })}

@@ -29,7 +29,7 @@ export default function SubjectsPage() {
 
       {/* Site-wide stats banner */}
       {stats && (
-        <Card className="flex items-center gap-4 px-4 py-2.5 rounded-xl border border-border/80 text-sm text-muted-foreground shadow-none">
+        <Card className="flex items-center gap-4 px-4 py-2.5 rounded-md border border-border text-sm text-muted-foreground shadow-xs">
           <span className="flex items-center gap-1.5">
             <FileText className="h-3.5 w-3.5 shrink-0 text-foreground" />
             <strong className="text-foreground font-bold">{stats.totalSets}</strong> Practice Sets
@@ -47,7 +47,7 @@ export default function SubjectsPage() {
           {Array.from({ length: 6 }).map((_, i) => (
             <Card
               key={i}
-              className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card min-h-[3.5rem] rounded-xl shadow-none"
+              className="flex flex-row items-center justify-between p-3.5 border border-border bg-card min-h-[3.5rem] rounded-md shadow-xs"
             >
               <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
                 <Skeleton className="h-7 w-7 rounded-lg shrink-0" />
@@ -69,7 +69,7 @@ export default function SubjectsPage() {
             const SectionIcon = getSubjectSectionIcon(s.slug || s.name);
             return (
               <Link key={s._id} href={`/subjects/${s._id}`} className="block focus-visible:outline-hidden">
-                <Card className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card hover:border-foreground/30 hover:shadow-xs transition-all group min-h-[3.5rem] rounded-xl select-none">
+                <Card className="flex flex-row items-center justify-between p-3.5 border border-border bg-card hover:border-foreground/30 hover:shadow-xs transition-all group min-h-[3.5rem] rounded-md select-none shadow-xs">
                   <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
                     <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-muted text-foreground shrink-0 group-hover:bg-foreground group-hover:text-background transition-colors duration-200">
                       <SectionIcon className="h-4.5 w-4.5 transition-colors" />

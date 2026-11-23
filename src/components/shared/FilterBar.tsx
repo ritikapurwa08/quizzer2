@@ -59,20 +59,20 @@ export function FilterBar({
         <Select value={selectedSubject} onValueChange={(v) => onSubjectChange(v ?? selectedSubject)}>
           <SelectTrigger
             id="filter-subject"
-            className="h-8.5 w-full typo-small rounded-lg border-0 bg-card shadow-2xs text-foreground font-medium truncate cursor-pointer px-3 hover:bg-muted/60 transition-colors"
+            className="h-8.5 w-full typo-small rounded-md border border-border bg-card shadow-2xs text-foreground font-medium cursor-pointer px-3 hover:bg-muted/60 transition-colors min-w-0"
             aria-label="Select Subject"
           >
-            <SelectValue placeholder="All Subjects" className="truncate">
+            <SelectValue placeholder="All Subjects">
               {(v: string | null) => {
                 const opt = subjects.find((s) => s.value === (v ?? selectedSubject));
                 return opt?.label ?? "All Subjects";
               }}
             </SelectValue>
           </SelectTrigger>
-          <SelectContent className="bg-popover border border-border shadow-lg max-w-[320px] rounded-md">
+          <SelectContent className="bg-popover border border-border shadow-lg rounded-md min-w-[200px] max-w-[calc(100vw-2rem)]">
             {subjects.map((s) => (
-              <SelectItem key={s.value} value={s.value} className="typo-small cursor-pointer">
-                <span className="truncate">{s.label}</span>
+              <SelectItem key={s.value} value={s.value} className="typo-small cursor-pointer rounded-md">
+                <span>{s.label}</span>
               </SelectItem>
             ))}
           </SelectContent>
@@ -90,12 +90,12 @@ export function FilterBar({
             <SelectTrigger
               id="filter-topic"
               className={cn(
-                "h-8.5 w-full typo-small rounded-lg border-0 bg-card shadow-2xs text-foreground font-medium truncate cursor-pointer px-3 hover:bg-muted/60 transition-colors",
+                "h-8.5 w-full typo-small rounded-md border border-border bg-card shadow-2xs text-foreground font-medium cursor-pointer px-3 hover:bg-muted/60 transition-colors min-w-0",
                 isTopicDisabled && "opacity-50 cursor-not-allowed bg-transparent border-transparent shadow-none"
               )}
               aria-label="Select Topic"
             >
-              <SelectValue placeholder="All Topics" className="truncate">
+              <SelectValue placeholder="All Topics">
                 {(v: string | null) => {
                   if (isTopicDisabled) return "All Topics";
                   const opt = topics?.find((t) => t.value === (v ?? selectedTopic ?? "all"));
@@ -103,13 +103,13 @@ export function FilterBar({
                 }}
               </SelectValue>
             </SelectTrigger>
-            <SelectContent className="bg-popover border border-border shadow-lg max-w-[320px] rounded-md">
-              <SelectItem value="all" className="typo-small cursor-pointer">
+            <SelectContent className="bg-popover border border-border shadow-lg rounded-md min-w-[240px] max-w-[calc(100vw-2rem)]">
+              <SelectItem value="all" className="typo-small cursor-pointer rounded-md">
                 All Topics
               </SelectItem>
               {topics?.map((t) => (
-                <SelectItem key={t.value} value={t.value} className="typo-small cursor-pointer">
-                  <span className="truncate">{t.label}</span>
+                <SelectItem key={t.value} value={t.value} className="typo-small cursor-pointer rounded-md">
+                  <span>{t.label}</span>
                 </SelectItem>
               ))}
             </SelectContent>
@@ -123,20 +123,20 @@ export function FilterBar({
           <Select value={selectedSort} onValueChange={(v) => onSortChange(v ?? "recent")}>
             <SelectTrigger
               id="filter-sort"
-              className="h-8.5 w-full typo-small rounded-lg border-0 bg-card shadow-2xs text-foreground font-medium truncate cursor-pointer px-3 hover:bg-muted/60 transition-colors"
+              className="h-8.5 w-full typo-small rounded-md border border-border bg-card shadow-2xs text-foreground font-medium cursor-pointer px-3 hover:bg-muted/60 transition-colors min-w-0"
               aria-label="Sort by"
             >
-              <SelectValue placeholder="Sort by" className="truncate">
+              <SelectValue placeholder="Sort by">
                 {(v: string | null) => {
                   const opt = sortOptions.find((s) => s.value === (v ?? selectedSort));
                   return opt?.label ?? "Sort by";
                 }}
               </SelectValue>
             </SelectTrigger>
-            <SelectContent className="bg-popover border border-border shadow-lg max-w-[240px] rounded-lg">
+            <SelectContent className="bg-popover border border-border shadow-lg rounded-md min-w-[180px] max-w-[calc(100vw-2rem)]">
               {sortOptions.map((s) => (
-                <SelectItem key={s.value} value={s.value} className="typo-small cursor-pointer">
-                  <span className="truncate">{s.label}</span>
+                <SelectItem key={s.value} value={s.value} className="typo-small cursor-pointer rounded-md">
+                  <span>{s.label}</span>
                 </SelectItem>
               ))}
             </SelectContent>

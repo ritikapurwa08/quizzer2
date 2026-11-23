@@ -35,7 +35,7 @@ export function SyllabusProgressBanner({
       : "Total Syllabus Completion";
 
   return (
-    <Card className="p-4 sm:p-5 rounded-2xl border border-border/80 shadow-xs bg-card space-y-4">
+    <Card className="p-4 sm:p-5 rounded-md border border-border shadow-xs bg-card space-y-4">
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         <div className="space-y-1">
           <span className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">

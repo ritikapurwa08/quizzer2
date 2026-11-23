@@ -30,7 +30,7 @@ export function SidebarUserProfile({
   onProfilePointerLeave,
 }: SidebarUserProfileProps) {
   return (
-    <div className="p-3 border-0 bg-muted/30">
+    <div className="p-3 border-t border-border bg-muted/30">
       <div className="flex items-center justify-between gap-2">
         <Link
           href="/profile"
