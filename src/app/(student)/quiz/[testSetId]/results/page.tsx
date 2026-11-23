@@ -66,6 +66,35 @@ export default function ResultsPage() {
     topicId ? { topicId } : "skip"
   );
 
+  const [localTopicSets, setLocalTopicSets] = useState<any[]>([]);
+
+  useEffect(() => {
+    if (topicId) {
+      fetch(`/api/sets/by-topic/${topicId}`)
+        .then((res) => res.json())
+        .then((json) => {
+          if (json.success && json.sets) {
+            setLocalTopicSets(json.sets);
+          }
+        })
+        .catch(() => {});
+    }
+  }, [topicId]);
+
+  // Combine Convex sets with local sets so all available sets are recognized
+  const combinedSiblingSets = useMemo(() => {
+    const list = [...(siblingSets || [])];
+    const existingIds = new Set(list.map((s) => s._id || (s as any).id));
+    for (const ls of localTopicSets) {
+      const lid = ls._id || ls.id;
+      if (!existingIds.has(lid) && !ls.isArchived && ls.status !== "archived") {
+        list.push({ ...ls, _id: lid });
+        existingIds.add(lid);
+      }
+    }
+    return list.sort((a, b) => a.order - b.order);
+  }, [siblingSets, localTopicSets]);
+
   useEffect(() => {
     let isMounted = true;
     if (id) {
@@ -96,11 +125,13 @@ export default function ResultsPage() {
 
   // Next-set logic: find the next set by order within the same topic
   const nextSet = useMemo(() => {
-    if (!siblingSets || !effectiveSet) return null;
-    const currentIndex = siblingSets.findIndex((s) => s._id === id || (s as any).id === id);
-    if (currentIndex === -1 || currentIndex === siblingSets.length - 1) return null;
-    return siblingSets[currentIndex + 1];
-  }, [siblingSets, effectiveSet, id]);
+    if (!combinedSiblingSets || combinedSiblingSets.length === 0 || !effectiveSet) return null;
+    const currentIndex = combinedSiblingSets.findIndex(
+      (s) => s._id === id || (s as any).id === id || s._id === effectiveSet._id || (s as any).id === (effectiveSet as any).id
+    );
+    if (currentIndex === -1 || currentIndex >= combinedSiblingSets.length - 1) return null;
+    return combinedSiblingSets[currentIndex + 1];
+  }, [combinedSiblingSets, effectiveSet, id]);
 
   // Derived: filtered questions with their original indices and multi-alias resolution
   const filteredQuestionsWithIndex = useMemo(() => {

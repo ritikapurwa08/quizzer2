@@ -164,11 +164,12 @@ export function ScoreSummaryCard({
         ) : (
           <Button
             asChild
-            className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-xs"
+            variant="outline"
+            className="font-bold text-xs h-10 px-5 rounded-xl border-border gap-1.5 cursor-pointer shadow-xs text-foreground hover:bg-muted/80"
           >
             <Link href="/subjects">
               <LayoutList className="h-3.5 w-3.5" aria-hidden="true" />
-              Next Set
+              All Topics
             </Link>
           </Button>
         )}

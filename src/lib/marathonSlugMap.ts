@@ -43,6 +43,34 @@ export const MARATHON_SLUG_MAP: Record<string, string> = {
   "cet-part-05": "kd72ddcjjttm6c0w47pkt3xs7s8jqzc9",
   "cet-set-06": "kd72hx7jgrnqw2f3vt9r3rrmzs8jpx9e",
   "cet-part-06": "kd72hx7jgrnqw2f3vt9r3rrmzs8jpx9e",
+
+  // 1857 Revolt Sets (Synthetic Slugs -> Real Convex Document IDs)
+  "topic-18-set-005": "kd7ayj5emtdzwag52wfkydvqfx8jr6vj",
+  "topic-18-set-006": "kd786rjvnhsbf7ty6h3n4cgecx8jsv13",
+  "topic-18-set-007": "kd75bq8kf3n4y8jhns0zyabpp58jr3dt",
+  "topic-18-set-008": "kd7ca9xtxwjm8rexaksxtwmwhd8jrqxz",
+
+  // Legacy sets backward compatibility mapping
+  "kd7bfdfeqe4tx343zpgx0wzmhx8je82f": "kd7587xdwbmggv3n91zrvhfjj18jsnem",
+  "kd77000qk287z36qr986q5nks98jf0qd": "kd72p7fcgxbhap3agrz97zz8fd8jr24d",
+  "kd71a0b8fjmxq2cae90dydqn098jhc9m": "kd71zk4b7eb2h9wdfk7jdv3qx98jshsx",
+  "kd7fm2nxrpskk08p66tn0bt8p58jhjcb": "kd7b90zqr3ee9nrjyw0fw0jvcn8jsd46",
+  "kd70gjpdc7ce21ey12txc3d56n8jhy2d": "kd75z5k5tzzx94252hv41c1afd8jrqgd",
+  "kd74fh5vmman32rep6ac3jt7958jgbeg": "kd73jkq2g22cymy7mxx2q4af3s8jr1hd",
+  "kd70sjzk2jdnvygpmxnv670ss98jg323": "kd7fw8d0aq61wsb9vsz8zfmnj58jr0dr",
+  "kd7f42be1wgvss1sxt3611bd7d8jfn1c": "kd7adh58c509zgtym4x6e2qxj58jscvx",
+  "kd708pw8bjwhbckm74cycjhp5d8jeyyf": "kd7cn1ts9rs8p51ns4fdqdbaax8js757",
+  "kd7f40yf7gtmnh0ke1mn9dhwm98jey20": "kd70cf57nq1fae0bjm81aaa05n8jrhpd",
+  "kd7cdzvkg0xsq8mnbjtkeqqxj18jepcd": "kd70p1cth0wxn8pqdp9anjjzmd8js6eq",
+  "kd7056ktz6p3the10r0ea5mjp18jf8pj": "kd74jex613d3dx7tj5dnw709nd8jsc19",
+  "kd7f0bb8b23gj5sv732ngttjgs8jfe3w": "kd75rcqw1b0j5qwh42drwc77a98jszsy",
+  "kd7d64cx0fw8hk1ahfe0gfsh9h8jf1h2": "kd7c1tfastb54ndvw84q7be10s8js4dp",
+  "kd75nenjr8s6rhp8ehb94k3zy98jfbkd": "kd7a0x79qvjf63z0w1jkmk36g58js6az",
+  "kd787cdf92yfgs9q6e3j6kq79n8jees3": "kd767cvcxff0gn07jvjvtzrybs8jrhrv",
+  "kd78wgsbbhhftxwd6etm6g2c1h8jfqvk": "kd71k77m2rpdzma2svqvcaw6fx8jsspp",
+  "kd7ca5n13xxs7km856e2wk01ad8jfwyt": "kd72qkdttm6qsz41y82q5qfpan8js13a",
+  "kd70aqn4tgx5tw79tbre7fpe9n8jhazv": "kd7e3jxg8j0tjmt5ddedn7qph18js1b3",
+  "kd7c70nhxt5vkq33gfqw40fdgd8jgvk9": "kd73e0ms5v7zd6zqzfsqdhrzqd8jsgqr",
 };
 
 export const MARATHON_ID_TO_SLUG: Record<string, string> = {
