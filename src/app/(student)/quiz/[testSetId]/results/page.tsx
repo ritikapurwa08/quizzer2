@@ -81,18 +81,34 @@ export default function ResultsPage() {
     }
   }, [topicId]);
 
-  // Combine Convex sets with local sets so all available sets are recognized
+  // Combine Convex sets with local sets so all available sets are recognized without duplicate names
   const combinedSiblingSets = useMemo(() => {
-    const list = [...(siblingSets || [])];
-    const existingIds = new Set(list.map((s) => s._id || (s as any).id));
-    for (const ls of localTopicSets) {
-      const lid = ls._id || ls.id;
-      if (!existingIds.has(lid) && !ls.isArchived && ls.status !== "archived") {
-        list.push({ ...ls, _id: lid });
-        existingIds.add(lid);
+    const map = new Map<string, any>();
+    const seenNames = new Set<string>();
+
+    // 1. Add local sets first (authoritative published sets containing valid question manifests)
+    const activeLocal = (localTopicSets || []).filter((s) => s.status !== "archived" && !s.isArchived);
+    for (const s of activeLocal) {
+      const setId = s._id || s.id;
+      const cleanName = (s.name || "").replace(/\s+/g, " ").trim().toLowerCase();
+      if (!map.has(setId) && (!cleanName || !seenNames.has(cleanName))) {
+        map.set(setId, { ...s, _id: setId });
+        if (cleanName) seenNames.add(cleanName);
       }
     }
-    return list.sort((a, b) => a.order - b.order);
+
+    // 2. Incorporate Convex sibling sets that aren't already present
+    const activeConvex = (siblingSets || []).filter((s) => !s.isArchived && (s as any).status !== "archived");
+    for (const s of activeConvex) {
+      const setId = s._id;
+      const cleanName = (s.name || "").replace(/\s+/g, " ").trim().toLowerCase();
+      if (!map.has(setId) && (!cleanName || !seenNames.has(cleanName))) {
+        map.set(setId, { ...s, _id: setId });
+        if (cleanName) seenNames.add(cleanName);
+      }
+    }
+
+    return Array.from(map.values()).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
   }, [siblingSets, localTopicSets]);
 
   useEffect(() => {
@@ -126,11 +142,33 @@ export default function ResultsPage() {
   // Next-set logic: find the next set by order within the same topic
   const nextSet = useMemo(() => {
     if (!combinedSiblingSets || combinedSiblingSets.length === 0 || !effectiveSet) return null;
-    const currentIndex = combinedSiblingSets.findIndex(
-      (s) => s._id === id || (s as any).id === id || s._id === effectiveSet._id || (s as any).id === (effectiveSet as any).id
+
+    // 1. Find current set index by ID, effectiveSet ID, or matching clean name
+    let currentIndex = combinedSiblingSets.findIndex(
+      (s) =>
+        s._id === id ||
+        (s as any).id === id ||
+        (effectiveSet._id && (s._id === effectiveSet._id || (s as any).id === effectiveSet._id)) ||
+        (effectiveSet.id && (s._id === effectiveSet.id || (s as any).id === effectiveSet.id)) ||
+        (s.name && effectiveSet.name && s.name.trim().toLowerCase() === effectiveSet.name.trim().toLowerCase())
     );
-    if (currentIndex === -1 || currentIndex >= combinedSiblingSets.length - 1) return null;
-    return combinedSiblingSets[currentIndex + 1];
+
+    // 2. Fallback: match by exact order
+    if (currentIndex === -1 && effectiveSet.order !== undefined) {
+      currentIndex = combinedSiblingSets.findIndex((s) => s.order === effectiveSet.order);
+    }
+
+    if (currentIndex !== -1 && currentIndex < combinedSiblingSets.length - 1) {
+      return combinedSiblingSets[currentIndex + 1];
+    }
+
+    // 3. Secondary fallback: find the next set whose order is strictly greater than current set's order
+    if (effectiveSet.order !== undefined) {
+      const nextByOrder = combinedSiblingSets.find((s) => (s.order ?? 0) > (effectiveSet.order ?? 0));
+      if (nextByOrder) return nextByOrder;
+    }
+
+    return null;
   }, [combinedSiblingSets, effectiveSet, id]);
 
   // Derived: filtered questions with their original indices and multi-alias resolution
@@ -440,7 +478,7 @@ export default function ResultsPage() {
           unansweredCount={unansweredCount}
           testSetId={id}
           nextSet={nextSet}
-          isLoadingNextSet={siblingSets === undefined && localTopicSets.length === 0}
+          isLoadingNextSet={Boolean((!effectiveSet || (siblingSets === undefined && localTopicSets.length === 0)) && !nextSet)}
           activeFilter={reviewFilter}
           onPrint={() => handlePrint(reviewFilter)}
           onShare={handleShareResult}

@@ -122,6 +122,33 @@ export function useQuizSession(testSetId: Id<"testSets">) {
   const debounceTimers = useRef<Record<string, ReturnType<typeof setTimeout>>>({});
   const submitRef = useRef<(() => Promise<any>) | null>(null);
 
+  // Reset all session state when testSetId changes so questions, attempt, and answers don't leak between quizzes
+  useEffect(() => {
+    setAttemptId(null);
+    setLocalSetQuestions([]);
+    isInitializedRef.current = false;
+    hasAutoSubmittedRef.current = false;
+    answersRef.current = {};
+    const key = `quiz_answers_${String(testSetId)}`;
+    const isRetake = typeof window !== "undefined" && window.location.search.includes("retake=true");
+    if (isRetake && typeof window !== "undefined") {
+      try {
+        localStorage.removeItem(key);
+        localStorage.removeItem(`quiz_current_index_${String(testSetId)}`);
+      } catch {}
+      setLocalAnswers({});
+    } else {
+      try {
+        const cached = localStorage.getItem(key);
+        const parsed = cached ? JSON.parse(cached) : {};
+        setLocalAnswers(parsed);
+        answersRef.current = parsed;
+      } catch {
+        setLocalAnswers({});
+      }
+    }
+  }, [testSetId]);
+
   // 1. Start or resume attempt (handles retake flag and clears local cache on retake)
   useEffect(() => {
     let isMounted = true;
@@ -429,6 +456,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
     if (typeof window !== "undefined") {
       try {
         localStorage.removeItem(storageKey);
+        localStorage.removeItem(`quiz_current_index_${String(testSetId)}`);
       } catch {}
     }
     return res;

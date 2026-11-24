@@ -71,6 +71,21 @@ export default function QuizPage() {
     return 0;
   });
 
+  // Reset or load saved index whenever testSetId/id changes (e.g. Next Set navigation)
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(`quiz_current_index_${String(id)}`);
+      if (saved !== null) {
+        const idx = parseInt(saved, 10);
+        if (!isNaN(idx) && idx >= 0) {
+          setCurrentIndexState(idx);
+          return;
+        }
+      }
+    } catch {}
+    setCurrentIndexState(0);
+  }, [id]);
+
   const setCurrentIndex = useCallback(
     (updater: number | ((prev: number) => number)) => {
       setCurrentIndexState((prev) => {
@@ -130,10 +145,10 @@ export default function QuizPage() {
 
   // Auto-redirect to results when test attempt status becomes "submitted" (manual or timer expiration)
   useEffect(() => {
-    if (attempt?.status === "submitted") {
+    if (attempt?.status === "submitted" && String(attempt?.testSetId) === String(id)) {
       router.push(`/quiz/${id}/results`);
     }
-  }, [attempt?.status, id, router]);
+  }, [attempt?.status, attempt?.testSetId, id, router]);
 
   // Clamp current index if questions array is loaded
   useEffect(() => {

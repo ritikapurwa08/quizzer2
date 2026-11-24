@@ -14,6 +14,7 @@ import {
   XCircle,
   Minus,
   Trash2,
+  Loader2,
 } from "lucide-react";
 
 interface ScoreSummaryCardProps {
@@ -25,6 +26,7 @@ interface ScoreSummaryCardProps {
   unansweredCount: number;
   testSetId: string;
   nextSet?: any | null;
+  isLoadingNextSet?: boolean;
   activeFilter?: string;
   onPrint: () => void;
   onShare: () => void;
@@ -41,6 +43,7 @@ export function ScoreSummaryCard({
   unansweredCount,
   testSetId,
   nextSet,
+  isLoadingNextSet,
   activeFilter,
   onPrint,
   onShare,
@@ -151,7 +154,16 @@ export function ScoreSummaryCard({
         </div>
 
         {/* 4. Right side: Next Set */}
-        {nextSet ? (
+        {isLoadingNextSet ? (
+          <Button
+            disabled
+            variant="outline"
+            className="font-bold text-xs h-10 px-5 rounded-md border-border gap-1.5 opacity-60 text-muted-foreground"
+          >
+            <Loader2 className="h-3.5 w-3.5 animate-spin" />
+            Finding next set...
+          </Button>
+        ) : nextSet ? (
           <Button
             asChild
             className="font-bold text-xs h-10 px-5 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-xs"

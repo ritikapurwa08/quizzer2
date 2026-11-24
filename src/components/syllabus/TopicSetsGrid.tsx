@@ -30,7 +30,7 @@ export function TopicSetsGrid({
         return (
           <Link
             key={set._id}
-            href={`/quiz/${set._id}`}
+            href={isCompleted ? `/quiz/${set._id}?retake=true` : `/quiz/${set._id}`}
             className="block focus-visible:outline-hidden"
           >
             <Card className="flex flex-row items-center justify-between p-4 border border-border bg-card hover:border-primary/50 hover:shadow-xs transition-all group rounded-md min-h-[4rem] select-none">
