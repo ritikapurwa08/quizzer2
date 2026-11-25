@@ -389,7 +389,14 @@ export function useQuizSession(testSetId: Id<"testSets">) {
 
   // 11. Submit test handler (evaluates answers and cleans up localStorage on success)
   const submit = useCallback(async () => {
-    if (!attemptId) return null;
+    let activeAttemptId = attemptId;
+    if (!activeAttemptId) {
+      activeAttemptId = await start({ testSetId, retake: false });
+      if (activeAttemptId) setAttemptId(activeAttemptId);
+    }
+    if (!activeAttemptId) {
+      throw new Error("Could not initialize quiz attempt in Convex.");
+    }
     Object.values(debounceTimers.current).forEach(clearTimeout);
     debounceTimers.current = {};
 
@@ -452,7 +459,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
       };
     });
 
-    const res = await submitAttempt({ attemptId, evaluations });
+    const res = await submitAttempt({ attemptId: activeAttemptId, evaluations });
     if (typeof window !== "undefined") {
       try {
         localStorage.removeItem(storageKey);
@@ -460,7 +467,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
       } catch {}
     }
     return res;
-  }, [attemptId, resolvedQuestions, localAnswers, submitAttempt, storageKey]);
+  }, [attemptId, start, testSetId, resolvedQuestions, localAnswers, submitAttempt, storageKey]);
 
   // Keep submitRef updated for background timer callback
   useEffect(() => {

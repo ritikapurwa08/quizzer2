@@ -178,12 +178,13 @@ export function ImportWizard() {
     const baseName = extractBaseTopicName(subtopicName) || activeTopicDisplay || "Set";
     const plannedNames = calculateBatchSetNames(baseName, startSetNum, setsCount);
     const createdNames: string[] = [];
+    const createdSetIds: string[] = [];
 
     try {
       for (let sIdx = 0; sIdx < setsCount; sIdx++) {
         const chunkQs = setsCount > 1 ? parsed.questions.slice(sIdx * 20, (sIdx + 1) * 20) : parsed.questions;
         const chunkName = plannedNames[sIdx] || subtopicName.trim();
-        await importTestSet({
+        const res = await importTestSet({
           topicId: selectedTopicId as Id<"topics">,
           name: chunkName,
           negativeMarking: true,
@@ -194,6 +195,7 @@ export function ImportWizard() {
           subTopic: options?.subTopic,
         });
         createdNames.push(chunkName);
+        if (res?.testSetId) createdSetIds.push(String(res.testSetId));
       }
 
       if (options?.masterTopicId) {
@@ -211,6 +213,7 @@ export function ImportWizard() {
               setCount: setsCount,
               setName: subtopicName.trim(),
               plannedNames,
+              convexSetIds: createdSetIds,
               subTopicId: options.subTopicId,
               subTopic: options.subTopic,
               selectedQuestionIds,

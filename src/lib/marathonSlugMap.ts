@@ -50,6 +50,13 @@ export const MARATHON_SLUG_MAP: Record<string, string> = {
   "topic-18-set-007": "kd75bq8kf3n4y8jhns0zyabpp58jr3dt",
   "topic-18-set-008": "kd7ca9xtxwjm8rexaksxtwmwhd8jrqxz",
 
+  // Kisan & Tribal Movements Sets 6-10 (Synthetic Slugs -> Real Convex Document IDs)
+  "topic-19-set-006": "kd7e2d5701khezg18p9kxxd8z58jxkex",
+  "topic-19-set-007": "kd7b4xqdt9q9jv99w5m81xrzyh8jxfr7",
+  "topic-19-set-008": "kd75fee6hjayxpd8gdc8vy5anh8jx105",
+  "topic-19-set-009": "kd72d4jaakest6h65zv2x1n0518jw6bk",
+  "topic-19-set-010": "kd72bqe6cpjmggx2eb3z18y5j98jx2pt",
+
   // Legacy sets backward compatibility mapping
   "kd7bfdfeqe4tx343zpgx0wzmhx8je82f": "kd7587xdwbmggv3n91zrvhfjj18jsnem",
   "kd77000qk287z36qr986q5nks98jf0qd": "kd72p7fcgxbhap3agrz97zz8fd8jr24d",

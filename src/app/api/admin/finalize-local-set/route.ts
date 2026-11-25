@@ -161,11 +161,13 @@ export async function POST(request: NextRequest) {
           }
         } catch {}
 
+        const convexSetIds: string[] = Array.isArray(body.convexSetIds) ? body.convexSetIds : [];
+
         if (setCount > 1 && Array.isArray(questions) && questions.length > 20) {
           for (let sIdx = 0; sIdx < setCount; sIdx++) {
             const curSetNum = startSet + sIdx;
             const curPadSet = String(curSetNum).padStart(3, "0");
-            const curSetId = `topic-${masterTopicId}-set-${curPadSet}`;
+            const curSetId = convexSetIds[sIdx] || `topic-${masterTopicId}-set-${curPadSet}`;
             const chunkQs = questions.slice(sIdx * 20, (sIdx + 1) * 20);
             const chunkIds = chunkQs
               .map((q: any) => q.meta?.sourceQuestionId || q.sourceQuestionId || q.id)
@@ -186,6 +188,7 @@ export async function POST(request: NextRequest) {
               negativeMarking: true,
               order: Number(curSetNum),
               questionCount: chunkQs.length,
+              status: "active",
               questionIds: chunkIds,
             };
             const idx = publishedSets.findIndex((s: any) => s.id === curSetId || s.setId === curSetId);
@@ -196,8 +199,9 @@ export async function POST(request: NextRequest) {
             }
           }
         } else {
+          const resolvedSingleId = convexSetIds[0] || setId;
           const setEntry = {
-            id: setId,
+            id: resolvedSingleId,
             name: body.setName || `${body.subTopic || topicState.masterTopic} भाग ${setNumber}`,
             topicId: convexTopicId,
             masterTopicId,
@@ -206,10 +210,14 @@ export async function POST(request: NextRequest) {
             negativeMarking: true,
             order: Number(setNumber),
             questionCount: selectedIds.length,
+            status: "active",
             questionIds: selectedIds,
           };
-          if (existingIdx >= 0) {
-            publishedSets[existingIdx] = setEntry;
+          const singleIdx = publishedSets.findIndex(
+            (s: any) => s.id === resolvedSingleId || s.id === setId || s.setId === setId
+          );
+          if (singleIdx >= 0) {
+            publishedSets[singleIdx] = setEntry;
           } else {
             publishedSets.push(setEntry);
           }
