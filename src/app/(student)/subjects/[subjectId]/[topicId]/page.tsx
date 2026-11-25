@@ -28,7 +28,16 @@ export function TopicDetailView({ forcedSubTopicId }: { forcedSubTopicId?: strin
   const topic = useQuery(api.topics.get, { id: tId });
   const testSets = useQuery(api.testSets.listByTopic, { topicId: tId });
   const completedIds = useQuery(api.testSets.completedSetIds, { topicId: tId }) ?? [];
-  const completedSet = useMemo(() => new Set(completedIds), [completedIds]);
+  const historyResult = useQuery(api.attempts.historyByUser, {
+    paginationOpts: { numItems: 100, cursor: null },
+  });
+  const completedSet = useMemo(() => {
+    const set = new Set<string>(completedIds);
+    for (const item of historyResult?.page ?? []) {
+      if (item?.testSetId) set.add(String(item.testSetId));
+    }
+    return set;
+  }, [completedIds, historyResult?.page]);
 
   const [localTopicSets, setLocalTopicSets] = useState<any[]>([]);
   const [isLocalLoaded, setIsLocalLoaded] = useState(false);

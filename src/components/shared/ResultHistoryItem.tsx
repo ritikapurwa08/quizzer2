@@ -1,8 +1,11 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { cn, formatScore } from "@/lib/utils";
+
+const resolvedSetNamesCache = new Map<string, string>();
 
 interface ResultHistoryItemProps {
   attemptId: string;
@@ -71,7 +74,37 @@ export function ResultHistoryItem({
     year: "numeric",
   });
 
-  const { finalTitle } = parseTitleAndPart(testSetName || "अभ्यास सेट");
+  const isFallbackName = !testSetName || testSetName.trim() === "अभ्यास सेट";
+  const [resolvedName, setResolvedName] = useState<string>(() =>
+    isFallbackName ? resolvedSetNamesCache.get(testSetId) || testSetName : testSetName
+  );
+
+  useEffect(() => {
+    if (!isFallbackName) {
+      setResolvedName(testSetName);
+      return;
+    }
+    const cached = resolvedSetNamesCache.get(testSetId);
+    if (cached) {
+      setResolvedName(cached);
+      return;
+    }
+    let active = true;
+    fetch(`/api/sets/${testSetId}`)
+      .then((res) => res.json())
+      .then((json) => {
+        if (active && json?.success && json?.set?.name) {
+          resolvedSetNamesCache.set(testSetId, json.set.name);
+          setResolvedName(json.set.name);
+        }
+      })
+      .catch(() => {});
+    return () => {
+      active = false;
+    };
+  }, [testSetId, testSetName, isFallbackName]);
+
+  const { finalTitle } = parseTitleAndPart(resolvedName || testSetName || "अभ्यास सेट");
 
   return (
     <Link

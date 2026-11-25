@@ -61,7 +61,8 @@ export const completedSetIds = query({
       return [] as string[];
     }
 
-    // Free-tier defense & Question-Overlap Auto-Marking:
+    const completedSet = new Set<string>();
+
     // 1-doc read fast path from pre-computed userDashboardFeed
     const feed = await ctx.db
       .query("userDashboardFeed")
@@ -69,13 +70,26 @@ export const completedSetIds = query({
       .first();
 
     if (feed && feed.setOverlapMap) {
-      const completedFromMap: string[] = [];
       for (const [sId, info] of Object.entries(feed.setOverlapMap as Record<string, any>)) {
         if (info && info.status === "completed") {
-          completedFromMap.push(sId);
+          completedSet.add(sId);
         }
       }
-      return completedFromMap;
+    }
+
+    // Always merge recent submitted attempts so newly completed sets show "Completed" immediately
+    const recentSubmitted = await ctx.db
+      .query("attempts")
+      .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "submitted"))
+      .order("desc")
+      .take(100);
+
+    for (const a of recentSubmitted) {
+      if (a.testSetId) completedSet.add(a.testSetId as string);
+    }
+
+    if (completedSet.size > 0) {
+      return Array.from(completedSet);
     }
 
     // Quota-protected: if topicId is provided, query only sets belonging to this topic
