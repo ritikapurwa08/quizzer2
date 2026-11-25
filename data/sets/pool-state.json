@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T09:58:17.417Z",
-  "updatedAt": "2026-11-25T02:12:58.847Z",
+  "updatedAt": "2026-11-25T13:15:49.842Z",
   "architecture": "LOCAL_MASTER_POOL",
   "totalMasterPoolQuestions": 15949,
   "totalTopicAssignedQuestions": 15949,
@@ -23460,40 +23460,7 @@
     "20": {
       "masterTopicId": 20,
       "masterTopic": "राजस्थान के प्रजामंडल आंदोलन",
-      "available": [
-        "rg_011919",
-        "rg_011923",
-        "rg_011931",
-        "rg_011933",
-        "rg_011934",
-        "rg_011936",
-        "rg_011937",
-        "rg_011938",
-        "rg_011939",
-        "rg_011942",
-        "rg_011943",
-        "rg_011944",
-        "rg_011952",
-        "rg_011953",
-        "rg_011954",
-        "rg_011955",
-        "rg_011956",
-        "rg_011961",
-        "rg_011964",
-        "rg_011990",
-        "rg_011991",
-        "rg_011992",
-        "rg_011993",
-        "rg_011995",
-        "rg_011996",
-        "rg_011999",
-        "rg_012000",
-        "rg_011927",
-        "rg_011929",
-        "rg_011982",
-        "rg_011994",
-        "rg_011997"
-      ],
+      "available": [],
       "candidate": [],
       "used": [
         {
@@ -23995,12 +23962,172 @@
           "id": "rg_011918",
           "usedInSet": "kd74rny04kpkqw2eft5c3f3ynx8evhby",
           "usedAt": "2026-11-19T13:11:18.649Z"
+        },
+        {
+          "id": "rg_011919",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011923",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011927",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011929",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011931",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011933",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011934",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011936",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011937",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011938",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011939",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011942",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011943",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011944",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011952",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011953",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011954",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011955",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011956",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011961",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011964",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011982",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011990",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011991",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011992",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011993",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011994",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011995",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011996",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011997",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_011999",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
+        },
+        {
+          "id": "rg_012000",
+          "usedInSet": "topic-20-set-006",
+          "usedAt": "2026-11-25T13:13:09.382Z"
         }
       ],
       "totalAvailable": 56,
       "requeued": [],
       "rejected": [],
-      "completedSets": 5,
+      "completedSets": 8,
       "totalPool": 132
     },
     "21": {
