@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T09:58:17.417Z",
-  "updatedAt": "2026-11-23T11:04:25.704Z",
+  "updatedAt": "2026-11-25T02:12:58.847Z",
   "architecture": "LOCAL_MASTER_POOL",
   "totalMasterPoolQuestions": 15949,
   "totalTopicAssignedQuestions": 15949,
@@ -22446,107 +22446,7 @@
       "masterTopicId": 19,
       "masterTopic": "राजस्थान के किसान एवं जनजातीय आंदोलन",
       "available": [
-        "rg_009779",
-        "rg_009839",
-        "rg_009841",
-        "rg_009861",
-        "rg_009867",
-        "rg_009868",
-        "rg_009849",
-        "rg_009850",
-        "rg_009851",
-        "rg_009852",
-        "rg_009859",
-        "rg_009669",
-        "rg_009782",
-        "rg_009783",
-        "rg_009784",
-        "rg_009668",
-        "rg_009781",
-        "rg_009810",
-        "rg_009814",
-        "rg_009829",
-        "rg_009837",
-        "rg_009642",
-        "rg_009648",
-        "rg_009670",
-        "rg_009675",
-        "rg_009717",
-        "rg_009736",
-        "rg_009749",
-        "rg_009754",
-        "rg_009755",
-        "rg_009756",
-        "rg_009762",
-        "rg_009763",
-        "rg_009764",
-        "rg_009765",
-        "rg_009766",
-        "rg_009767",
-        "rg_009768",
-        "rg_009769",
-        "rg_009771",
-        "rg_009772",
-        "rg_009773",
-        "rg_009785",
-        "rg_009786",
-        "rg_009789",
-        "rg_009790",
-        "rg_009791",
-        "rg_009793",
-        "rg_009798",
-        "rg_009799",
-        "rg_009804",
-        "rg_009809",
-        "rg_009812",
-        "rg_009821",
-        "rg_009822",
-        "rg_009824",
-        "rg_009825",
-        "rg_009826",
-        "rg_009827",
-        "rg_009828",
-        "rg_009830",
-        "rg_009831",
-        "rg_009832",
-        "rg_009842",
-        "rg_009845",
-        "rg_009847",
-        "rg_009853",
-        "rg_009854",
-        "rg_009856",
-        "rg_009857",
-        "rg_009858",
-        "rg_009863",
-        "rg_009864",
-        "rg_009869",
-        "rg_009872",
-        "rg_009873",
-        "rg_009876",
-        "rg_009877",
-        "rg_009881",
-        "rg_009882",
-        "rg_009891",
-        "rg_009892",
-        "rg_009895",
-        "rg_009899",
-        "rg_009900",
-        "rg_009901",
-        "rg_009902",
-        "rg_009904",
-        "rg_009905",
-        "rg_009761",
-        "rg_009870",
-        "rg_009889",
-        "rg_009641",
-        "rg_009645",
-        "rg_009649",
-        "rg_009656",
-        "rg_009676",
-        "rg_009706",
-        "rg_009788",
-        "rg_009833",
-        "rg_009838"
+        "rg_009904"
       ],
       "candidate": [],
       "used": [
@@ -23049,12 +22949,512 @@
           "id": "rg_009778",
           "usedInSet": "kd73r10hd88yrdddjyy17vyfjd8erxqh",
           "usedAt": "2026-11-19T13:11:18.649Z"
+        },
+        {
+          "id": "rg_009761",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009779",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009839",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009841",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009861",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009868",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009870",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009849",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009850",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009851",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009852",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009859",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009669",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009782",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009783",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009784",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009889",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009668",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009781",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009810",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009814",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009829",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009837",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009641",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009642",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009645",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009648",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009649",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009656",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009670",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009675",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009676",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009706",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009736",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009754",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009755",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009762",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009764",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009769",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009771",
+          "usedInSet": "topic-19-set-007",
+          "usedAt": "2026-11-25T02:11:17.378Z"
+        },
+        {
+          "id": "rg_009867",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009717",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009749",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009756",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009763",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009765",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009766",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009767",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009768",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009772",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009773",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009786",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009788",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009789",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009790",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009791",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009793",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009798",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009804",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009809",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009821",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009822",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009824",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009825",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009826",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009827",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009828",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009830",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009831",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009832",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009833",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009838",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009842",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009845",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009847",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009853",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009854",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009858",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009869",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009873",
+          "usedInSet": "topic-19-set-009",
+          "usedAt": "2026-11-25T02:12:18.620Z"
+        },
+        {
+          "id": "rg_009785",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009799",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009812",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009856",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009857",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009863",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009864",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009872",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009876",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009877",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009881",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009882",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009891",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009892",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009895",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009899",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009900",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009901",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009902",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
+        },
+        {
+          "id": "rg_009905",
+          "usedInSet": "topic-19-set-010",
+          "usedAt": "2026-11-25T02:12:58.847Z"
         }
       ],
       "totalAvailable": 160,
       "requeued": [],
       "rejected": [],
-      "completedSets": 5,
+      "completedSets": 10,
       "totalPool": 201
     },
     "20": {
